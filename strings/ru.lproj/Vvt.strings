@@ -103,9 +103,6 @@
 /* No comment provided by engineer. */
 "A network connection is required when deleting and reloading VoiceVista's map data. Check that your phone is not in airplane mode." = "Для удаления и перезагрузки картографических данных VoiceVista требуется подключение к сети. Убедитесь, что ваш телефон не находится в режиме полета.";
 
-/* No comment provided by engineer. */
-"Abbreviated Name of Address" = "Сокращенное название адреса";
-
 /* settings.about.title */
 "About VoiceVista" = "О VoiceVista";
 
@@ -126,9 +123,6 @@
 
 /* No comment provided by engineer. */
 "Address Callout Rate" = "Частота объявления адреса";
-
-/* No comment provided by engineer. */
-"Address callout rate can be adjusted using the following slider" = "Частоту объявления адреса можно отрегулировать с помощью ползунка ниже";
 
 /* directions.unknown_address */
 "Address is unknown" = "Адрес неизвестен";
@@ -307,6 +301,9 @@
 /* general.error.ble.unauthorized.message */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Для подключения наушников требуется разрешение Bluetooth. Откройте приложение «Настройки» ниже, чтобы включить Bluetooth. Обратите внимание, что это может привести к перезапуску приложения.";
 
+/* No comment provided by engineer. */
+"Both decimal numbers and Google plus codes are supported" = "Поддерживаются как десятичные числа, так и коды Google Plus.";
+
 /* first_launch.callouts.example.1 */
 "Cafe" = "Кафе";
 
@@ -393,7 +390,7 @@
 "Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Создавайте метки для ваших любимых пунктов назначения, путевых точек на маршруте или любых мест, которые вы хотите отметить.";
 
 /* beacon.styles.current */
-"Current" = "Течение";
+"Current" = "Текущий";
 
 /* markers.current_location */
 "Current Location" = "Текущее местоположение";
@@ -403,6 +400,12 @@
 
 /* general.alert.delete */
 "Delete" = "Удалить";
+
+/* No comment provided by engineer. */
+"Delete a Route" = "Удалить маршрут";
+
+/* No comment provided by engineer. */
+"Delete Markers too" = "Удалить маркеры тоже";
 
 /* settings.clear_cache.alert_title */
 "Delete Stored Data?" = "Удалить сохраненные данные?";
@@ -486,7 +489,7 @@
 "East" = "Восток";
 
 /* general.alert.edit */
-"Edit" = "Изменить";
+"Edit" = "Редактировать";
 
 /* No comment provided by engineer. */
 "Edit Marker Location" = "Изменить местоположение метки";
@@ -498,7 +501,7 @@
 "Edit Route Name" = "Изменить название маршрута";
 
 /* No comment provided by engineer. */
-"Edit Waypoints" = "Изменить путевые точки";
+"Edit Waypoints" = "Редактировать путевые точки";
 
 /* beaconSettings.cues */
 "Enable Departure and Arrival Cues" = "Включить сигналы отправления и прибытия";
@@ -537,10 +540,10 @@
 "External Maps App" = "Приложение внешних карт";
 
 /* No comment provided by engineer. */
-"Failed to calculate waypoints for route" = "Не удалось рассчитать путевые точки для маршрута.";
+"Failed to calcualte waypoints for route" = "Не удалось рассчитать путевые точки для маршрута.";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Не удалось вычислить шаги направления.";
+"Failed to Calcuate Direction Steps" = "Не удалось вычислить шаги направления.";
 
 /* No comment provided by engineer. */
 "Failed to Create Reversed Route" = "Не удалось создать обратный маршрут.";
@@ -600,7 +603,7 @@
 "Group Discussions" = "Вступить в e-mail группу";
 
 /* beaconSetting.hapticStyle.footer */
-"Haptic feedback is only available when your phone is unlocked and VoiceVista is open." = "Тактильная обратная связь доступна только тогда, когда ваш телефон разблокирован и VoiceVista открыто.";
+"Haptic feedback is only available when your phone is unlocked and VoiceVist is open." = "Тактильная обратная связь доступна только тогда, когда ваш телефон разблокирован и VoiceVist открыт.";
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Тактильный пульс";
@@ -649,6 +652,9 @@
 
 /* No comment provided by engineer. */
 "How much meters should waypoints be generated between each other for this route?" = "На каком расстоянии (в метрах) друг от друга должны быть созданы путевые точки для этого маршрута?";
+
+/* No comment provided by engineer. */
+"How often to call out street name can be adjusted using the following slider" = "Как часто произносить название улицы можно настроить с помощью следующего ползунка";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
@@ -705,6 +711,9 @@
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
 /* No comment provided by engineer. */
+"Invalid Latitude and Longitude" = "Неверная широта и долгота";
+
+/* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Похоже, ваши настройки конфиденциальности не позволяют использовать движение и фитнес, измените их в приложении «Настройки».";
 
 /* places.footnote.1 */
@@ -716,11 +725,14 @@
 /* general.alert.keep */
 "Keep" = "Сохранить";
 
+/* No comment provided by engineer. */
+"Keep Markers" = "Сохраняйте маркеры";
+
 /* settings.clear_cache.markers.alert_title */
 "Keep Markers and Routes?" = "Сохранить метки и маршруты?";
 
 /* No comment provided by engineer. */
-"Latitude" = "Широта";
+"Latitude or (Latitude, Longitude) or Plus codes" = "Коды широты или (широта, долгота) или плюс";
 
 /* general.alert.offline.learn_more */
 "Learn more" = "Узнать больше";
@@ -961,6 +973,9 @@
 /* permissinos.title */
 "Permissions" = "Разрешения";
 
+/* No comment provided by engineer. */
+"Pick from Markers" = "Выберите из маркеров";
+
 /* markerpickers.title */
 "Pick Markers" = "Выберите метки";
 
@@ -980,10 +995,10 @@
 "Places Nearby" = "Места поблизости";
 
 /* first_launch.beacon.callout.headtracking.haptic */
-"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "Устанавливаем маяк перед собой. Поворачивайте телефон влево и вправо, чтобы испытать тактильную обратную связь маяка.";
+"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "Размещение маяка перед собой. Поворачивайте влево и вправо, чтобы испытать тактильную обратную связь маяка.";
 
 /* first_launch.beacon.callout.headtracking.standard */
-"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "Устанавливаем маяк справа от вас. Повернитесь, чтобы проследить за его звуком, и ощутите пространственный звук маяка.";
+"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "Размещение маяка справа от вас. Повернитесь, чтобы проследить за его звуком, и ощутите пространственный звук маяка.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Пожалуйста, добавьте путевые точки, чтобы завершить создание маршрута.";
@@ -1127,11 +1142,17 @@
 /* general.alert.offline_search.title */
 "Search is not available" = "Поиск недоступен";
 
+/* No comment provided by engineer. */
+"Search Location by Text" = "Поиск местоположения по тексту";
+
 /* vicinity.search */
 "Search places" = "Поиск мест";
 
 /* No comment provided by engineer. */
 "Select a Destination Location" = "Выберите место назначения";
+
+/* markerspicker.footnote */
+"Select a marker to conitnue." = "Выберите маркер, чтобы продолжить.";
 
 /* No comment provided by engineer. */
 "Select a Starting Location" = "Выберите место отправления";
@@ -1232,6 +1253,9 @@
 /* No comment provided by engineer. */
 "Stop Route" = "Остановить маршрут";
 
+/* No comment provided by engineer. */
+"Street Names" = "Названия улиц";
+
 /* first_use_experience.preview.tutorial.alert.title
    locationdetail.command.2
    preview.title */
@@ -1245,9 +1269,6 @@
 
 /* beacon.styles.tactile */
 "Tactile" = "Тактильный";
-
-/* markerspicker.footnote */
-"Tap markers to toggle on/off in the route." = "Коснитесь меток, чтобы включить или выключить их на маршруте.";
 
 /* permissionmanager.alert.test */
 "Test Location" = "Тестовое местоположение";
@@ -1284,7 +1305,7 @@
 "This is %@. How does this sound?" = "Это %@. Как это звучит?";
 
 /* troubleshooting.accuracy.meters.footer */
-"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±10 метров – это хорошо. Менее ±20 метров нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда вы находятся снаружи, а не внутри строений.";
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±10 метров – это хорошо. Менее ±20 метров нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда находятся снаружи, а не под какими-либо строениями.";
 
 /* troubleshooting.accuracy.footer */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±30 футов — это хорошо. Менее ± 60 футов нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда находятся снаружи, а не под какими-либо строениями.";
@@ -1300,7 +1321,7 @@
 "To browse nearby places, access to location is required." = "Чтобы просматривать близлежащие места, требуется доступ к местоположению.";
 
 /* search.footnot.2 */
-"To calculate distances, access to location is required." = "Для расчёта расстояния требуется  доступ к данным о местоположении.";
+"To calcuate distances, access to location is required." = "Для расчёта расстояния требуется  доступ к данным о местоположении.";
 
 /* markers.footnote.2 */
 "To calculate distance, access location is required." = "Для расчёта расстояния требуется  доступ к данным о местоположении.";
@@ -1316,6 +1337,9 @@
 
 /* directions.direction.to_the_right */
 "to the right" = "Направо";
+
+/* markerspicker.footnote.allowMultipleSelection */
+"Toggle on/off markers in the route." = "Включение и выключение маркеров на маршруте.";
 
 /* troubleshooting.title */
 "Troubleshooting" = "Поиск неисправностей";
@@ -1562,7 +1586,7 @@
 "You have changed waypoints of this route." = "Вы изменили путевые точки этого маршрута.";
 
 /* No comment provided by engineer. */
-"You have not calculated waypoints of this route." = "Вы не рассчитали путевые точки этого маршрута.";
+"You have not calcuated waypoints of this route." = "Вы не рассчитали путевые точки этого маршрута.";
 
 /* universal_links.marker.alert.message */
 "You should only use markers from someone you trust." = "Вы должны использовать метки только от тех, кому вы доверяете.";
