@@ -92,7 +92,7 @@
 "1 minute ago" = "1 минуту назад";
 
 /* No comment provided by engineer. */
-"[Reversed]" = "[Обратный]";
+"[Reverse]" = "[Обеспечить регресс]";
 
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Может быть доступна более качественная версия этого голоса. Чтобы загрузить его и другие голоса, перейдите в раздел «Устный контент» в настройках универсального доступа iOS.";
@@ -105,6 +105,9 @@
 
 /* settings.about.title */
 "About VoiceVista" = "О VoiceVista";
+
+/* settings.direction.style.absolute */
+"Absolute Direction" = "Абсолютное направление";
 
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Активность началась!";
@@ -166,6 +169,9 @@
 /* Notification, %@ is a point of interest, 'Announced <Space Needle>' */
 "Announced %@." = "Объявлено %@.";
 
+/* No comment provided by engineer. */
+"Append reverse waypoints to the tail to make the route a circular journey." = "Добавьте обратные путевые точки в хвост, чтобы сделать маршрут круговым.";
+
 /* settings.headtracking.appleAirpods */
 "Apple AirPods" = "Apple AirPods";
 
@@ -220,9 +226,36 @@
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "В %@";
 
+/* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
+"at %@ o'clock" = "в %@ часов";
+
+/* beacon.at.ahead */
+"at ahead" = "впереди";
+
+/* beacon.at.ahead_to_the_left */
+"at ahead left" = "впереди слева";
+
+/* beacon.at.ahead_to_the_right */
+"at ahead right" = "впереди справа";
+
+/* beacon.at.behind */
+"at behind" = "сзади";
+
+/* beacon.at.behind_to_the_left */
+"at behind left" = "сзади слева";
+
+/* beacon.at.behind_to_the_right */
+"at behind right" = "сзади справа";
+
 /* first_use_experience.preview.tutorial.alert.message.3
    preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "На каждом перекрестке вы можете снова воспользоваться телефоном, чтобы выбрать, по какой дороге двигаться, или осмотреть ближайшие окрестности, используя знакомые кнопки VoiceVista в нижней части экрана.";
+
+/* beacon.at.to_the_left */
+"at left" = "слева";
+
+/* beacon.at.to_the_right */
+"at right" = "справа";
 
 /* beacon.audio_beacon
    settings.general.beacon */
@@ -258,6 +291,9 @@
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Маяк позади";
+
+/* settings.general.beacon.direction.style */
+"Beacon Direction Style" = "Стиль направления маяка";
 
 /* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
 "Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Обновление расстояния до маяка. Объявлено %1$@, маяк в настоящее время находится на расстоянии %2$@.";
@@ -331,9 +367,6 @@
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Отменить подключение";
 
-/* settings.changeExternalMapsApp */
-"Change External Maps App" = "Изменить приложение внешних карт";
-
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Проверить состояние наушников";
 
@@ -351,6 +384,9 @@
 
 /* general.text.clear_text */
 "Clear text" = "Очистить текст";
+
+/* settings.direction.style.clock */
+"Clock Position" = "Положение часов";
 
 /* No comment provided by engineer. */
 "Close" = "Закрыть";
@@ -398,6 +434,15 @@
 /* preview.current_intersection_unknown.label */
 "Current Location Unknown" = "Текущее местоположение неизвестно";
 
+/* %@ is index number of the current waypoint in the route */
+"Current waypoint index: %@ ." = "Индекс текущей путевой точки: %@ .";
+
+/* %@ is the current waypoint name */
+"Current waypoint name: %@ ." = "Имя текущей путевой точки: %@ .";
+
+/* No comment provided by engineer. */
+"Current: %@" = "Текущий: %@";
+
 /* general.alert.delete */
 "Delete" = "Удалить";
 
@@ -422,8 +467,14 @@
 /* No comment provided by engineer. */
 "Destination location" = "Место назначения";
 
+/* %@ is the beacon name */
+"Destination: %@ ." = "Место назначения: %@ .";
+
 /* beacon.command.4 */
 "Detail information" = "Подробная информация";
+
+/* %@ is the direction to the beacon */
+"Direction: %@ ." = "Направление: %@ .";
 
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "Отключить безымянные дороги";
@@ -437,11 +488,17 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Расстояние между путевыми точками, ширина >= %@";
 
+/* No comment provided by engineer. */
+"Distance Direction Style" = "Стиль направления расстояния";
+
 /* settings.callout.distance */
 "Distance to the Audio Beacon" = "Расстояние до звукового маяка";
 
 /* beacon.distance.unknown */
 "Distance unknown" = "Расстояние неизвестно";
+
+/* %@ is the distance to the beacon */
+"Distance: %@ ." = "Расстояние: %@ .";
 
 /* url_resource.alert.route.import_existing.message */
 "Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Вы хотите заменить это? Замена этого маршрута также заменит метки, используемые в этом маршруте.";
@@ -540,16 +597,19 @@
 "External Maps App" = "Приложение внешних карт";
 
 /* No comment provided by engineer. */
+"Failed to Add Route" = "Не удалось добавить маршрут";
+
+/* No comment provided by engineer. */
 "Failed to Calculate Direction Steps" = "Не удалось вычислить шаги направления.";
 
 /* No comment provided by engineer. */
-"Failed to calculate waypoints for route" = "Не удалось рассчитать путевые точки для маршрута.";
-
-/* No comment provided by engineer. */
-"Failed to Create Reversed Route" = "Не удалось создать обратный маршрут.";
+"Failed to Calculate Waypoints for Route" = "Не удалось рассчитать путевые точки для маршрута.";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Не удалось создать маршрут";
+
+/* No comment provided by engineer. */
+"Failed to Generate Reverse Route" = "Не удалось создать обратный маршрут.";
 
 /* No comment provided by engineer. */
 "Failed to Import Markers" = "Не удалось импортировать метки";
@@ -559,6 +619,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Не удалось обновить";
+
+/* No comment provided by engineer. */
+"Failed to Update Route to Circular" = "Не удалось обновить маршрут до кольцевого.";
 
 /* beacon.styles.flare */
 "Flare" = "Вспышка";
@@ -579,7 +642,7 @@
 "GENERAL SETTINGS" = "ОБЩИЕ НАСТРОЙКИ";
 
 /* No comment provided by engineer. */
-"Generate a Reversed Route" = "Создать обратный маршрут";
+"Generate a New Reverse Route" = "Создать новый обратный маршрут";
 
 /* No comment provided by engineer. */
 "Generate Route from GPX File" = "Создать маршрут из файла GPX";
@@ -724,6 +787,9 @@
 
 /* general.alert.keep */
 "Keep" = "Сохранить";
+
+/* No comment provided by engineer. */
+"Keep Current" = "Будьте в курсе";
 
 /* No comment provided by engineer. */
 "Keep Markers" = "Сохраняйте маркеры";
@@ -895,6 +961,9 @@
 "Next waypoint" = "Следующая путевая точка";
 
 /* No comment provided by engineer. */
+"No audio beacon set" = "Звуковой маяк не установлен";
+
+/* No comment provided by engineer. */
 "No last callout" = "Объявлений нет";
 
 /* location_detail.default.annotation */
@@ -904,10 +973,16 @@
 "No Motion Permission" = "Нет разрешения на движение";
 
 /* No comment provided by engineer. */
+"No network connection" = "Нет подключения к сети";
+
+/* No comment provided by engineer. */
 "No waypoint data found in the GPX file." = "В файле GPX не найдены данные о путевых точках.";
 
 /* routeDetail.noWaypoints.alert.title */
 "No waypoints defined" = "Путевые точки не определены";
+
+/* settings.direction.style.none */
+"None" = "Никто";
 
 /* directions.cardinal.north */
 "North" = "Север";
@@ -991,6 +1066,9 @@
 /* settings.callout.places */
 "Places and Landmarks" = "Места и достопримечательности";
 
+/* placefilters.footnoot.2 */
+"Places data come from Apple Maps and OpenStreetMap." = "Данные о местах поступают из Apple Maps и OpenStreetMap.";
+
 /* No comment provided by engineer. */
 "Places Nearby" = "Места поблизости";
 
@@ -1055,11 +1133,17 @@
 /* search.table.header.recentCallouts */
 "RECENT CALLOUTS" = "Последние объявления";
 
+/* settings.direction.style.relative */
+"Relative Direction" = "Относительное направление";
+
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Повторить последнее объявление";
 
 /* general.alert.replace */
 "Replace" = "Заменить";
+
+/* No comment provided by engineer. */
+"Report Beacon Summary" = "Сводная информация о маяке отчета";
 
 /* preview.alert.restart.button */
 "Restart" = "Перезапустить";
@@ -1070,8 +1154,11 @@
 /* preview.callout.previous */
 "Returning to previous intersection" = "Возвращение к предыдущему перекрестку";
 
+/* Label of button to generate a reverse route or update the current route to circular */
+"Reverse or Circular" = "Реверс или круговой";
+
 /* No comment provided by engineer. */
-"Reversed Route Created" = "Создан обратный маршрут";
+"Reverse Route Generated" = "Создан обратный маршрут";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Кольцевая развязка с %1$@ съезжает с %2$@";
@@ -1115,8 +1202,14 @@
 /* No comment provided by engineer. */
 "Route Name" = "Название маршрута";
 
+/* No comment provided by engineer. */
+"Route name: %@ ." = "Имя маршрута: %@ .";
+
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Маршрут остановлен, %@";
+
+/* No comment provided by engineer. */
+"Route Updated to a Circular Journey" = "Маршрут изменен на круговое путешествие";
 
 /* routes.title */
 "Routes" = "Маршруты";
@@ -1169,6 +1262,9 @@
 
 /* locationdetail.command.2 */
 "Share" = "Поделиться";
+
+/* No comment provided by engineer. */
+"Share Current Location" = "Поделиться текущим местоположением";
 
 /* first_use_experience.share.alert.title */
 "Sharing in VoiceVista" = "Поделиться";
@@ -1316,7 +1412,7 @@
 /* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "К %@";
 
-/* placefilters.footnoot
+/* placefilters.footnoot.1
    places.footnot.2 */
 "To browse nearby places, access to location is required." = "Чтобы просматривать близлежащие места, требуется доступ к местоположению.";
 
@@ -1340,6 +1436,9 @@
 
 /* markerspicker.footnote.allowMultipleSelection */
 "Toggle on/off markers in the route." = "Включение и выключение маркеров на маршруте.";
+
+/* %@ is the count of waypoints in a route */
+"Total waypoints count: %@ ." = "Общее количество путевых точек: %@ .";
 
 /* troubleshooting.title */
 "Troubleshooting" = "Поиск неисправностей";
@@ -1401,6 +1500,9 @@
 /* settings.preview.unnamedroads */
 "Unnamed Roads" = "Безымянные дороги";
 
+/* No comment provided by engineer. */
+"Update Current Route to Circular" = "Обновить текущий маршрут до кругового";
+
 /* settings.callout.distance.detail */
 "Updates about distance to the audio beacon when it's set" = "Обновления о расстоянии до звукового маяка, когда он установлен";
 
@@ -1448,7 +1550,7 @@
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista может рассчитывать путевые точки для справки на основе начального и конечного местоположения.";
 
 /* No comment provided by engineer. */
-"VoiceVista can generate a new reversed route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "Для вашего удобства VoiceVista может создать новый  маршрут с путевыми точками в обратном порядке . Возможно, вам придется скорректировать путевые точки  перед началом навигации.";
+"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "Для вашего удобства VoiceVista может создать новый обратный маршрут с путевыми точками в обратном порядке. Возможно, вам придется скорректировать путевые точки для обратного маршрута перед началом навигации.";
 
 /* troubleshooting.accuracy.footer */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista загружает данные карты, когда вы идете, чтобы рассказать вам о том, что находится вокруг вас. Если у вас возникли проблемы с VoiceVista или он использует слишком много памяти, вы можете очистить сохраненные данные карты, и VoiceVista повторно загрузит данные карты только рядом с вашим текущим местоположением.";
@@ -1509,6 +1611,9 @@
 
 /* sleep.wake_up_when_i_leave */
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
+
+/* No comment provided by engineer. */
+"Walking instructions:" = "Инструкции по ходьбе:";
 
 /* No comment provided by engineer. */
 "Waypoint" = "путевая точка";

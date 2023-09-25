@@ -92,7 +92,7 @@
 "1 minute ago" = "Hace 1 minuto";
 
 /* No comment provided by engineer. */
-"[Reversed]" = "[invertido]";
+"[Reverse]" = "[Contrarrestar]";
 
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Es posible que haya una versión de esta voz con más calidad de sonido. Para descargarla, así como para descargar otras voces, ve a la sección Contenido leído de los ajustes de accesibilidad de iOS.";
@@ -105,6 +105,9 @@
 
 /* settings.about.title */
 "About VoiceVista" = "Acerca de VoiceVista";
+
+/* settings.direction.style.absolute */
+"Absolute Direction" = "Dirección absoluta";
 
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Actividad iniciada.";
@@ -166,6 +169,9 @@
 /* Notification, %@ is a point of interest, 'Announced <Space Needle>' */
 "Announced %@." = "Anuncio de %@.";
 
+/* No comment provided by engineer. */
+"Append reverse waypoints to the tail to make the route a circular journey." = "Añade puntos de referencia inversos a la cola para hacer de la ruta un viaje circular.";
+
 /* settings.headtracking.appleAirpods */
 "Apple AirPods" = "AirPods de Apple";
 
@@ -220,9 +226,36 @@
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "En %@";
 
+/* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
+"at %@ o'clock" = "at %@ o'clock";
+
+/* beacon.at.ahead */
+"at ahead" = "adelante";
+
+/* beacon.at.ahead_to_the_left */
+"at ahead left" = "adelante a la izquierda";
+
+/* beacon.at.ahead_to_the_right */
+"at ahead right" = "adelante a la derecha";
+
+/* beacon.at.behind */
+"at behind" = "en detrás";
+
+/* beacon.at.behind_to_the_left */
+"at behind left" = "detrás a la izquierda";
+
+/* beacon.at.behind_to_the_right */
+"at behind right" = "detrás a la derecha";
+
 /* first_use_experience.preview.tutorial.alert.message.3
    preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "En cada intersección, puedes usar el teléfono nuevamente para elegir qué camino tomar, o puedes explorar su entorno inmediato usando los botones familiares de VoiceVista en la parte inferior de la pantalla.";
+
+/* beacon.at.to_the_left */
+"at left" = "a la izquierda";
+
+/* beacon.at.to_the_right */
+"at right" = "A la derecha";
 
 /* beacon.audio_beacon
    settings.general.beacon */
@@ -258,6 +291,9 @@
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Baliza atrás";
+
+/* settings.general.beacon.direction.style */
+"Beacon Direction Style" = "Estilo de dirección de baliza";
 
 /* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
 "Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Actualización de distancia de baliza. Anuncio de %1$@, la señal está actualmente a %2$@ de distancia.";
@@ -331,9 +367,6 @@
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Cancelar conexión";
 
-/* settings.changeExternalMapsApp */
-"Change External Maps App" = "Cambiar la aplicación de mapas externa";
-
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Comprobar el estado de los auriculares";
 
@@ -351,6 +384,9 @@
 
 /* general.text.clear_text */
 "Clear text" = "Eliminar texto";
+
+/* settings.direction.style.clock */
+"Clock Position" = "Posición del reloj";
 
 /* No comment provided by engineer. */
 "Close" = "Cerrar";
@@ -398,6 +434,15 @@
 /* preview.current_intersection_unknown.label */
 "Current Location Unknown" = "Ubicación actual desconocida";
 
+/* %@ is index number of the current waypoint in the route */
+"Current waypoint index: %@ ." = "Índice de waypoint actual: %@ .";
+
+/* %@ is the current waypoint name */
+"Current waypoint name: %@ ." = "Nombre del punto de ruta actual: %@ .";
+
+/* No comment provided by engineer. */
+"Current: %@" = "Actual: %@";
+
 /* general.alert.delete */
 "Delete" = "Eliminar";
 
@@ -422,8 +467,14 @@
 /* No comment provided by engineer. */
 "Destination location" = "Ubicación de destino";
 
+/* %@ is the beacon name */
+"Destination: %@ ." = "Destino: %@ .";
+
 /* beacon.command.4 */
 "Detail information" = "Información detallada";
+
+/* %@ is the direction to the beacon */
+"Direction: %@ ." = "Dirección: %@ .";
 
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "Deshabilitar carreteras sin nombre";
@@ -437,11 +488,17 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distancia entre waypoints, debería >= %@";
 
+/* No comment provided by engineer. */
+"Distance Direction Style" = "Estilo de dirección de distancia";
+
 /* settings.callout.distance */
 "Distance to the Audio Beacon" = "Distancia a la señal de audio";
 
 /* beacon.distance.unknown */
 "Distance unknown" = "Distancia desconocida";
+
+/* %@ is the distance to the beacon */
+"Distance: %@ ." = "Distancia: %@ .";
 
 /* url_resource.alert.route.import_existing.message */
 "Do you want to replace it? Replacing this route will also replace the markers used in this route." = "¿Quieres reemplazarla? Al sustituir esta ruta también se reemplazarán los marcadores usados en esta ruta.";
@@ -540,16 +597,19 @@
 "External Maps App" = "Aplicación de mapas externa";
 
 /* No comment provided by engineer. */
+"Failed to Add Route" = "No se pudo agregar ruta";
+
+/* No comment provided by engineer. */
 "Failed to Calculate Direction Steps" = "No se pudieron calcular los pasos de dirección";
 
 /* No comment provided by engineer. */
-"Failed to calculate waypoints for route" = "No se pudieron calcular los puntos de ruta para la ruta";
-
-/* No comment provided by engineer. */
-"Failed to Create Reversed Route" = "No se pudo crear la ruta invertida";
+"Failed to Calculate Waypoints for Route" = "No se pudieron calcular los puntos de ruta para la ruta";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "No se pudo crear la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Generate Reverse Route" = "No se pudo generar la ruta inversa";
 
 /* No comment provided by engineer. */
 "Failed to Import Markers" = "No se pudieron importar marcadores";
@@ -559,6 +619,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Error al actualizar";
+
+/* No comment provided by engineer. */
+"Failed to Update Route to Circular" = "No se pudo actualizar la ruta a circular";
 
 /* beacon.styles.flare */
 "Flare" = "Bengala";
@@ -579,7 +642,7 @@
 "GENERAL SETTINGS" = "CONFIGURACIÓN GENERAL";
 
 /* No comment provided by engineer. */
-"Generate a Reversed Route" = "Generar una ruta invertida";
+"Generate a New Reverse Route" = "Generar una nueva ruta inversa";
 
 /* No comment provided by engineer. */
 "Generate Route from GPX File" = "Generar ruta a partir de un archivo GPX";
@@ -724,6 +787,9 @@
 
 /* general.alert.keep */
 "Keep" = "Mantener";
+
+/* No comment provided by engineer. */
+"Keep Current" = "Mantenerse al día";
 
 /* No comment provided by engineer. */
 "Keep Markers" = "Mantener marcadores";
@@ -895,6 +961,9 @@
 "Next waypoint" = "Siguiente punto de ruta";
 
 /* No comment provided by engineer. */
+"No audio beacon set" = "No hay ninguna baliza de audio configurada";
+
+/* No comment provided by engineer. */
 "No last callout" = "No hay aviso anterior";
 
 /* location_detail.default.annotation */
@@ -904,10 +973,16 @@
 "No Motion Permission" = "Sin permiso de movimiento";
 
 /* No comment provided by engineer. */
+"No network connection" = "No hay conexion de red";
+
+/* No comment provided by engineer. */
 "No waypoint data found in the GPX file." = "No se encontraron datos de waypoint en el archivo GPX.";
 
 /* routeDetail.noWaypoints.alert.title */
 "No waypoints defined" = "No hay puntos de ruta definidos";
+
+/* settings.direction.style.none */
+"None" = "Ninguno";
 
 /* directions.cardinal.north */
 "North" = "Norte";
@@ -991,6 +1066,9 @@
 /* settings.callout.places */
 "Places and Landmarks" = "Lugares y puntos de referencia";
 
+/* placefilters.footnoot.2 */
+"Places data come from Apple Maps and OpenStreetMap." = "Los datos de lugares provienen de Apple Maps y OpenStreetMap.";
+
 /* No comment provided by engineer. */
 "Places Nearby" = "Lugares cercanos";
 
@@ -1055,11 +1133,17 @@
 /* search.table.header.recentCallouts */
 "RECENT CALLOUTS" = "AVISOS RECIENTES";
 
+/* settings.direction.style.relative */
+"Relative Direction" = "Dirección relativa";
+
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Repetir el último aviso";
 
 /* general.alert.replace */
 "Replace" = "Reemplazar";
+
+/* No comment provided by engineer. */
+"Report Beacon Summary" = "Informe de resumen de baliza";
 
 /* preview.alert.restart.button */
 "Restart" = "Reiniciar";
@@ -1070,8 +1154,11 @@
 /* preview.callout.previous */
 "Returning to previous intersection" = "Volviendo al cruce anterior";
 
+/* Label of button to generate a reverse route or update the current route to circular */
+"Reverse or Circular" = "Inversa o Circular";
+
 /* No comment provided by engineer. */
-"Reversed Route Created" = "Ruta invertida creada";
+"Reverse Route Generated" = "Ruta inversa generada";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Rotonda con %1$@ salidas %2$@";
@@ -1115,8 +1202,14 @@
 /* No comment provided by engineer. */
 "Route Name" = "Nombre de ruta";
 
+/* No comment provided by engineer. */
+"Route name: %@ ." = "Nombre de la ruta: %@ .";
+
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Ruta detenida, %@";
+
+/* No comment provided by engineer. */
+"Route Updated to a Circular Journey" = "Ruta actualizada a un viaje circular";
 
 /* routes.title */
 "Routes" = "Rutas";
@@ -1169,6 +1262,9 @@
 
 /* locationdetail.command.2 */
 "Share" = "Compartir";
+
+/* No comment provided by engineer. */
+"Share Current Location" = "Compartir ubicación actual";
 
 /* first_use_experience.share.alert.title */
 "Sharing in VoiceVista" = "Compartiendo en VoiceVista";
@@ -1316,7 +1412,7 @@
 /* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "A %@";
 
-/* placefilters.footnoot
+/* placefilters.footnoot.1
    places.footnot.2 */
 "To browse nearby places, access to location is required." = "Para buscar lugares cercanos, se requiere acceso a la ubicación.";
 
@@ -1340,6 +1436,9 @@
 
 /* markerspicker.footnote.allowMultipleSelection */
 "Toggle on/off markers in the route." = "Activa o desactiva marcadores en la ruta.";
+
+/* %@ is the count of waypoints in a route */
+"Total waypoints count: %@ ." = "Recuento total de puntos de ruta: %@ .";
 
 /* troubleshooting.title */
 "Troubleshooting" = "Solución de problemas";
@@ -1401,6 +1500,9 @@
 /* settings.preview.unnamedroads */
 "Unnamed Roads" = "Carreteras sin nombre";
 
+/* No comment provided by engineer. */
+"Update Current Route to Circular" = "Actualizar ruta actual a Circular";
+
 /* settings.callout.distance.detail */
 "Updates about distance to the audio beacon when it's set" = "Actualizaciones acerca de la distancia a la baliza de audio cuando está activada";
 
@@ -1448,7 +1550,7 @@
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista puede calcular puntos de referencia como referencia en función de las ubicaciones de inicio y destino.";
 
 /* No comment provided by engineer. */
-"VoiceVista can generate a new reversed route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista puede generar una nueva ruta invertida con puntos en orden inverso para su comodidad. Es posible que debas ajustar los puntos intermedios para la ruta inversa antes de iniciar la guía.";
+"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista puede generar una nueva ruta inversa con puntos de referencia en orden inverso para su comodidad. Es posible que tengas que ajustar los puntos de referencia de la ruta invertida antes de iniciar la guía.";
 
 /* troubleshooting.accuracy.footer */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista descarga datos de mapas conforme caminas para poder indicarte los elementos y lugares que tienes a tu alrededor. Si tienes problemas con VoiceVista o consume demasiada memoria, puedes borrar los datos de mapas almacenados y VoiceVista solo volverá a descargar los datos de mapas que se encuentran cerca de tu ubicación actual.";
@@ -1509,6 +1611,9 @@
 
 /* sleep.wake_up_when_i_leave */
 "Wake Up When I Leave" = "Reactivar cuando cambie de ubicación";
+
+/* No comment provided by engineer. */
+"Walking instructions:" = "Instrucciones para caminar:";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Punto de ruta";
