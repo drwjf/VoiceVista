@@ -11,7 +11,7 @@
 "%1$@ is %2$@ away" = "%1$@ на расстоянии %2$@";
 
 /* Notification, %1$@ is a point of interest, %2$@ is distance with units and %3$@ is a physical address, '<Some Place> is currently <5 meters>. Street address is <Some Address>' */
-"%1$@ is currently %2$@. Street address is %3$@." = "%1$@ %2$@. Адрес: %3$@.";
+"%1$@ is currently %2$@. Street address is %3$@." = "%1$@, %2$@. Адрес: %3$@.";
 
 /* Notification, %1$@ is a point of interest and %2$@ is a physical address,'<Some Place> is nearby. Street address is <Some Address>' */
 "%1$@ is nearby. Street address is %2$@." = "%1$@ рядом. Адрес: %2$@.";
@@ -29,7 +29,7 @@
 "%1$@ was %2$@ %3$@" = "%1$@ осталось в %2$@ %3$@";
 
 /* Notification, %1$@ is a point of interest, %2$@ is time ago, %3$@ is distance with units, '<Space Needle>, announced <1 minute ago>, <20 meters> away' */
-"%1$@, announced %2$@, %3$@ away." = "%1$@, объявлено %2$@, в %3$@";
+"%1$@, announced %2$@, %3$@ away." = "%1$@, объявлено %2$@, на расстоянии %3$@";
 
 /* Notification, %1$@ is a point of interest, %2$@ is time ago. '<Space Needle>, announced <1 minute ago>.' */
 "%1$@, announced %2$@." = "%1$@, объявлено %2$@.";
@@ -101,7 +101,7 @@
 "A marker already exists at this location. Do you want to replace it?" = " Метка здесь уже  установлена. Хотите заменить?";
 
 /* No comment provided by engineer. */
-"A network connection is required when deleting and reloading VoiceVista's map data. Check that your phone is not in airplane mode." = "Для удаления и перезагрузки картографических данных VoiceVista требуется подключение к сети. Убедитесь, что ваш телефон не находится в режиме полета.";
+"A network connection is required when deleting and reloading VoiceVista's map data. Check that your phone is not in airplane mode." = "Для удаления и перезагрузки данных карт VoiceVista требуется подключение к сети. Убедитесь, что ваш телефон не находится в авиарежиме.";
 
 /* settings.about.title */
 "About VoiceVista" = "О VoiceVista";
@@ -332,7 +332,7 @@
 "behind to the right" = "позади справа";
 
 /* general.error.ble.unauthorized.message */
-"Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Для подключения наушников требуется разрешение Bluetooth. Откройте приложение «Настройки» ниже, чтобы включить Bluetooth. Обратите внимание, что это может привести к перезапуску приложения.";
+"Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Для подключения наушников требуется разрешение использовать Bluetooth. Откройте приложение «Настройки» ниже, чтобы включить Bluetooth. Обратите внимание, что это может привести к перезапуску приложения.";
 
 /* No comment provided by engineer. */
 "Both decimal numbers and Google plus codes are supported" = "Поддерживаются как десятичные числа, так и коды Google Plus.";
@@ -398,7 +398,7 @@
 "Complete Configuring" = "Завершить настройку";
 
 /* headphonesSetting.connect_headset.completed.airpods */
-"Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Поздравляем! Ваши AirPods готовы к использованию, вы можете положить телефон в карман и отправиться в путь! VoiceVista теперь будет отслеживать направление вашей головы, поэтому вам не нужно держать телефон в руке. Одно нажатие кнопки наушников отключит или включит звук маяка, двойное нажатие укажет ваше местоположение, а тройное нажатие повторит последнее объявление.";
+"Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Поздравляем! Ваши AirPods готовы к использованию, вы можете положить телефон в карман и отправиться в путь! VoiceVista теперь будет отслеживать направление вашей головы, поэтому вам не нужно держать телефон в руках. Одно нажатие кнопки наушников отключит или включит звук маяка, двойное нажатие укажет ваше местоположение, а тройное нажатие повторит последнее объявление.";
 
 /* headphonesSetting.button.1
    headphonesSetting.connect_headset */
@@ -501,7 +501,7 @@
 "Distance: %@ ." = "Расстояние: %@ .";
 
 /* url_resource.alert.route.import_existing.message */
-"Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Вы хотите заменить это? Замена этого маршрута также заменит метки, используемые в этом маршруте.";
+"Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Замена этого маршрута также заменит метки, используемые в этом маршруте. Хотите заменить?";
 
 /* preview.alert.restart.message */
 "Do you want to restart VoiceVista Street Preview at this location?" = "Вы хотите перезапустить предварительный просмотр улиц VoiceVista в этом месте?";
@@ -606,7 +606,7 @@
 "Failed to Add Route" = "Не удалось добавить маршрут";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Не удалось вычислить направление.";
+"Failed to Calculate Direction Steps" = "Не удалось рассчитать направление.";
 
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints for Route" = "Не удалось рассчитать путевые точки для маршрута.";
@@ -708,7 +708,7 @@
 "Headphones Setting" = "Настройка наушников";
 
 /* No comment provided by engineer. */
-"Healthcare" = "Здравоохранение";
+"Healthcare" = "Здоровье";
 
 /* troubleshooting.accuracy.footer */
 "Hear about the status of the headphones you are using with VoiceVista" = "Узнайте о состоянии наушников, которые вы используете с VoiceVista";
@@ -738,7 +738,7 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Хранилище iCloud для этого приложения заполнено. Чтобы создать новую метку, вам нужно освободить место, удалив некоторые из существующих меток.";
 
 /* No comment provided by engineer. */
-"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Если маяк не установлен, VoiceVista будет молчать при работе в фоновом режиме.";
+"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "При работе в фоновом режиме VoiceVista будет молчать, если маяк не установлен.";
 
 /* No comment provided by engineer. */
 "If you enabled media controls in the settings tab, you can try pressing the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать кнопку «Предыдущая» на наушниках, чтобы повторить последнее объявление.";
@@ -789,7 +789,7 @@
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Похоже, ваши настройки конфиденциальности не позволяют использовать движение и фитнес, измените их в приложении «Настройки».";
 
 /* places.footnote.1 */
-"It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Создание списка ближайших мест может занять некоторое время. Если в данный момент данные не доступны, попробуйте зайти позже.";
+"It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Создание списка ближайших мест может занять некоторое время. Если в настоящее время данные не доступны, попробуйте зайти позже.";
 
 /* time.just_now */
 "Just now" = "Только что";
@@ -858,7 +858,7 @@
 "Marker" = "Метка";
 
 /* Marker Information, %1$@ is distance with units and %2$@ is a point of interest, 'Marker <120 feet> from <Starbucks>' */
-"Marker %1$@ from %2$@" = "Метка %1$@, %2$@";
+"Marker %1$@ from %2$@" = "Метка %1$@ от %2$@";
 
 /* Marker Information, %@ is a street name, 'Marker along <Pike Street>' */
 "Marker along %@" = "Метка по %@";
@@ -906,7 +906,7 @@
 "Motion & Fitness" = "Движение и фитнес";
 
 /* beacon.command.6 */
-"Mute on/off" = "Отключение звука";
+"Mute on/off" = "Отключить звук маяка";
 
 /* directions.my_location
    ui.action_button.my_location */
@@ -1016,7 +1016,7 @@
 "Open in Google Maps" = "Открыть в Google Картах";
 
 /* general.error.location_services_resume */
-"Open VoiceVista to resume Location Services" = "Откройте VoiceVista, чтобы возобновить оаботу служб определения местоположения";
+"Open VoiceVista to resume Location Services" = "Откройте VoiceVista, чтобы возобновить работу служб определения местоположения";
 
 /* No comment provided by engineer. */
 "Or just shake the phone to repeat the last callout when VoiceVista run in the foreground." = "Или просто встряхните телефон, чтобы повторить последнее объявление, когда VoiceVista работает на переднем плане.";
@@ -1040,7 +1040,7 @@
 "Pair Headphones Audio" = "Сопряжение наушников";
 
 /* No comment provided by engineer. */
-"Paste Marker from Soundscape" = "Вставить метку из Soundscape";
+"Paste Marker from Soundscape" = "Вставить метку из файла Soundscape";
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Вставить URL-адрес из карт Apple";
@@ -1134,7 +1134,7 @@
 "Previous waypoint" = "Предыдущая путевая точка";
 
 /* No comment provided by engineer. */
-"Public Service" = "Jбщественные услуги";
+"Public Service" = "Общественные услуги";
 
 /* filter.transit */
 "Public Transit" = "Общественный транспорт";
@@ -1447,7 +1447,7 @@
 "Toggle markers on/off to select multiple." = "Включите/выключите метки, чтобы выбрать несколько меток разом.";
 
 /* %@ is the count of waypoints in a route */
-"Total waypoints count: %@ ." = "Общее количество путевых точек: %@ .";
+"Total waypoints count: %@ ." = "Всего путевых точек: %@ .";
 
 /* No comment provided by engineer. */
 "Transportation" = "Транспорт";
@@ -1468,10 +1468,10 @@
 "Turn on Precise Location to use VoiceVista" = "Включите точное местоположение, чтобы использовать VoiceVista";
 
 /* preview.callout.road_finder.error_instructions */
-"Turn to select a road and then press Go" = "Поверните, чтобы выбрать дорогу, а затем нажмите Идти";
+"Turn to select a road and then press Go" = "Поварачивайте телефон, чтобы выбрать дорогу, а затем нажмите кнопку "Идти"";
 
 /* preview.callout.road_finder.instructions */
-"Turn your phone to preview available roads" = "Поверните телефон, чтобы просмотреть доступные дороги";
+"Turn your phone to preview available roads" = "Поварачивайте телефон, чтобы просмотреть доступные дороги";
 
 /* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
 "Turned left. Now along %@" = "Повернул налево. Теперь по %@";
@@ -1489,7 +1489,7 @@
 "Unable to Connect" = "Невозможно подключиться";
 
 /* No comment provided by engineer. */
-"Unknow location" = "Неизвестное местоположение";
+"Unknown location" = "Неизвестное местоположение";
 
 /* poi.unknown */
 "Unknown" = "Неизвестный";
@@ -1537,7 +1537,7 @@
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Используйте этот переключатель, чтобы включить управление VoiceVista с помощью кнопок на наушниках и кнопок воспроизведения мультимедиа на экране блокировки. Обратите внимание, что при включении VoiceVista нельзя использовать во время воспроизведения других медиафайлов, таких как подкасты или музыка.";
 
 /* preview.note.1 */
-"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно вращайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
+"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно поварачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
 
 /* No comment provided by engineer. */
 "View Detail" = "Посмотреть детали";
@@ -1568,7 +1568,7 @@
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista загружает данные карт, когда вы идете, чтобы рассказать вам о том, что находится вокруг вас. Если у вас возникли проблемы с VoiceVista или оно использует слишком много памяти, вы можете очистить сохраненные данные карт. VoiceVista повторно загрузит их только рядом с вашим текущим местоположением.";
 
 /* icloud.kv_store.quota_violation_alert.title */
-"VoiceVista iCloud Storage Full" = "VoiceVista  Хранилище iCloud заполнено";
+"VoiceVista iCloud Storage Full" = "Хранилище iCloud заполнено";
 
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista — это средство навигации, и его не следует использовать вместо навыков передвижения, понимания окружающего мира и здравого смысла. Соблюдайте осторожность при перемещении по среде, так как данные сопоставления, включенные в программу VoiceVista, собираются из сторонней программы, и поэтому точность представленной информации может быть ограничена.";
@@ -1580,7 +1580,7 @@
 "VoiceVista is connecting to your headphones. One moment..." = "Секундочку... VoiceVista подключается к вашим наушникам.";
 
 /* sleep.sleeping.message */
-"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista в данный момент находится в спящем режиме. Это не позволяет VoiceVista использовать службы определения местоположения или загружать данные. Это позволяет экономить заряд батареи, когда вы не используете VoiceVista. Нажмите на кнопку ниже, чтобы разбудить VoiceVista.";
+"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista в данный момент находится в спящем режиме. Это не позволяет VoiceVista использовать службы определения местоположения или загружать данные. Это позволяет экономить заряд батареи, когда вы не используете VoiceVista. Нажмите на кнопки ниже, чтобы разбудить VoiceVista.";
 
 /* sleep.snoozing.message */
 "VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista в данный момент находится в режиме ожидания. Когда вы покинете текущее местоположение, VoiceVista автоматически проснётся. При этом службы определения местоположения используются в режиме пониженного энергопотребления для экономии заряда аккумулятора телефона. Нажмите кнопку ниже, чтобы разбудить приложение сейчас.";
@@ -1649,7 +1649,7 @@
 "We are having trouble setting the beacon currently. Try again later." = "Возникли проблемы с настройкой маяка. Попробуйте позже.";
 
 /* headphonesSetting.test_headset.explanation */
-"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Мы разместили звуковой маяк справа от вас. Послушайте, где он находится, и поверните к нему голову. Обратите внимание: вы можете сделать это, даже когда ваш телефон находится в вашем кармане. Когда вы закончите, нажмите кнопку ниже, чтобы завершить настройку наушников, и наслаждайтесь следующей прогулкой с новыми наушниками для отслеживания головы.";
+"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Мы разместили звуковой маяк справа от вас. Послушайте, где он находится, и поверните к нему голову. Обратите внимание: вы можете это сделать, даже когда ваш телефон находится в кармане. Когда вы закончите, нажмите кнопку ниже, чтобы завершить настройку наушников, и наслаждайтесь следующей прогулкой с новыми наушниками с функцией отслеживания движений головы.";
 
 /* devices.test_headset.callout */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it... Notice how you can do this even when your phone is in your pocket." = "Мы разместили звуковой маяк справа от вас. Послушайте, где он находится, и поверните к нему голову... Обратите внимание: вы можете это сделать, даже когда ваш телефон находится в кармане.";
@@ -1673,7 +1673,7 @@
 "When running in the backgroun mode" = "При работе в фоновом режиме";
 
 /* general.alert.offline_search.message */
-"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск отключен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";
+"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск мест не доступен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";
 
 /* first_use_experience.share.alert.message */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Когда вы делитесь меткой или маршрутом VoiceVista, вы делитесь местоположениями, связанными с этой меткой или маршрутом.  делитесь метками или маршрутами только с теми, кому вы доверяете.";
@@ -1712,13 +1712,13 @@
 "You should only use routes from someone you trust." = "Вы должны использовать маршруты только от тех, кому вы доверяете.";
 
 /* first_use_experience.preview.tutorial.alert.message.2 */
-"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Вы перенесетесь на середину улицы рядом с выбранным вами местом. Используя телефон в качестве указки, медленно вращайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
+"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Вы переместитесь на середину улицы рядом с выбранным вами местом. Используя телефон в качестве указки, медленно вращайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
 
 /* No comment provided by engineer. */
-"You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Теперь вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет размещен на вашей первой путевой точке. Когда вы прибудете в путевую точку, маяк переместится к следующей путевой точке на вашем маршруте.";
+"You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Сейчас вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет размещен на вашей первой путевой точке. Когда вы прибудете в путевую точку, маяк переместится к следующей путевой точке на вашем маршруте.";
 
 /* first_use_experience.markerTutorial.alert.message */
-"You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Теперь вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет запущен. Внимательно послушайте, где он находится, и, держа телефон горизонтально, повернитесь к нему.";
+"You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Сейчас вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет запущен. Внимательно послушайте, где он находится, и, держа телефон горизонтально, повернитесь к нему.";
 
 /* Title for alert that is displayed when importing a marker. */
 "You've received a marker: '%@'" = "Вы получили метку: '%@'";
@@ -1733,7 +1733,7 @@
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Ваши наушники успешно подключены к VoiceVista, но перед использованием их необходимо откалибровать. VoiceVista сообщит вам, когда потребуется калибровка наушников, например, при каждом включении.";
 
 /* devices.callouts.needs_calibration */
-"Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Ваши наушники должны быть откалиброваны. Снимите их с головы и осторожно потрясите ими.";
+"Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Ваши наушники должны быть откалиброваны. Снимите их и осторожно потрясите ими.";
 
 /* headphonesSetting.connect_headset.unsupported_firmware */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "Ваши наушники необходимо обновить, прежде чем они смогут подключиться к VoiceVista.";
