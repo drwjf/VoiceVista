@@ -62,7 +62,7 @@
 "%@ minutes ago" = "%@ минут назад";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"%@ roundabout" = "%@ кольцевая развязка";
+"%@ roundabout" = "%@ круговой перекрёсток";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Пройдено %@ путевых точек, последняя путевая точка поблизости";
@@ -182,19 +182,19 @@
 "Apple Maps" = "Карты Apple";
 
 /* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
-"Approaching %1$@ roundabout with %2$@ exits" = "Подъезд к кольцевой развязке %1$@, съездов: %2$@";
+"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, съездов: %2$@";
 
 /* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
-"Approaching %1$@ with %2$@ exits" = "Приближаемся к %1$@, выходов: %2$@";
+"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, съездов: %2$@";
 
 /* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
-"Approaching %@" = "Приближается %@";
+"Approaching %@" = "Впереди %@";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "Приближаясь к %@ круговому перекрестку";
+"Approaching %@ roundabout" = "Впереди %@ круговой перекрёсток";
 
 /* preview.callout.approach.end */
-"Approaching end of road" = "Приближается конец дороги";
+"Approaching end of road" = "Впереди конец дороги";
 
 /* intersection.approaching_intersection */
 "Approaching intersection" = "Впереди перекресток";
@@ -203,7 +203,7 @@
 "Approaching Intersection" = "Впереди перекресток";
 
 /* directions.approaching_roundabout */
-"Approaching roundabout" = "Приближаясь к кольцевой развязке";
+"Approaching roundabout" = "Впереди круговой перекрёсток";
 
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Вы уверены, что хотите удалить эту метку?";
@@ -462,7 +462,7 @@
 "Delete Stored Data?" = "Удалить сохраненные данные?";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
-"Departed roundabout. Now along %@" = "Съехал с кольцевой развязки. Теперь по %@";
+"Departed roundabout. Now along %@" = "Съехал с кольцевого перекрёстка. Теперь по %@";
 
 /* beaconSetting.cues */
 "DEPARTURE AND ARRIVAL" = "ОТПРАВЛЕНИЕ И ПРИБЫТИЕ";
@@ -1176,19 +1176,19 @@
 "Reverse Route Generated" = "Создан обратный маршрут";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
-"Roundabout with %1$@ exits %2$@" = "Кольцевая развязка с %1$@ съезжает с %2$@";
+"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток с %1$@ съездов %2$@";
 
 /* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
-"Roundabout with %1$@ exits %2$@ %3$@" = "Кольцевая развязка с %1$@ съездами %2$@ %3$@";
+"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами %2$@ %3$@";
 
 /* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
-"Roundabout with %1$@ exits %2$@ away" = "Кольцевая развязка с %1$@ съезжает на %2$@";
+"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток с %1$@ съезжает на %2$@";
 
 /* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
-"Roundabout with %1$@ exits nearby" = "Круговая развязка с %1$@ съездами поблизости";
+"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток с %1$@ съездами поблизости";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Кольцевая развязка с %1$@ съездами осталась в %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами осталась в %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1516,7 +1516,7 @@
 "Unnamed Roads" = "Безымянные дороги";
 
 /* No comment provided by engineer. */
-"Update Current Route to Circular" = "Обновить текущий маршрут до кругового";
+"Update Current Route to Circular" = "Создать круговой маршрут";
 
 /* settings.callout.distance.detail */
 "Updates about distance to the audio beacon when it's set" = "Обновления о расстоянии до звукового маяка, когда он установлен";
