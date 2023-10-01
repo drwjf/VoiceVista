@@ -62,7 +62,7 @@
 "%@ minutes ago" = "%@ минут назад";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"%@ roundabout" = "%@ кольцевая развязка";
+"%@ roundabout" = "%@ круговой перекрёсток";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Пройдено %@ путевых точек, последняя путевая точка поблизости";
@@ -182,19 +182,19 @@
 "Apple Maps" = "Карты Apple";
 
 /* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
-"Approaching %1$@ roundabout with %2$@ exits" = "Подъезд к кольцевой развязке %1$@, съездов: %2$@";
+"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, съездов: %2$@";
 
 /* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
-"Approaching %1$@ with %2$@ exits" = "Приближаемся к %1$@, выходов: %2$@";
+"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, съездов: %2$@";
 
 /* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
-"Approaching %@" = "Приближается %@";
+"Approaching %@" = "Впереди %@";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "Приближаясь к %@ круговому перекрестку";
+"Approaching %@ roundabout" = "Впереди %@ круговой перекрёсток";
 
 /* preview.callout.approach.end */
-"Approaching end of road" = "Приближается конец дороги";
+"Approaching end of road" = "Впереди конец дороги";
 
 /* intersection.approaching_intersection */
 "Approaching intersection" = "Впереди перекресток";
@@ -203,7 +203,7 @@
 "Approaching Intersection" = "Впереди перекресток";
 
 /* directions.approaching_roundabout */
-"Approaching roundabout" = "Приближаясь к кольцевой развязке";
+"Approaching roundabout" = "Впереди круговой перекрёсток";
 
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Вы уверены, что хотите удалить эту метку?";
@@ -462,7 +462,7 @@
 "Delete Stored Data?" = "Удалить сохраненные данные?";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
-"Departed roundabout. Now along %@" = "Съехал с кольцевой развязки. Теперь по %@";
+"Departed roundabout. Now along %@" = "Съехал с кольцевого перекрёстка. Теперь по %@";
 
 /* beaconSetting.cues */
 "DEPARTURE AND ARRIVAL" = "ОТПРАВЛЕНИЕ И ПРИБЫТИЕ";
@@ -1176,19 +1176,19 @@
 "Reverse Route Generated" = "Создан обратный маршрут";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
-"Roundabout with %1$@ exits %2$@" = "Кольцевая развязка с %1$@ съезжает с %2$@";
+"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток с %1$@ съездов %2$@";
 
 /* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
-"Roundabout with %1$@ exits %2$@ %3$@" = "Кольцевая развязка с %1$@ съездами %2$@ %3$@";
+"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами %2$@ %3$@";
 
 /* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
-"Roundabout with %1$@ exits %2$@ away" = "Кольцевая развязка с %1$@ съезжает на %2$@";
+"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток с %1$@ съезжает на %2$@";
 
 /* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
-"Roundabout with %1$@ exits nearby" = "Круговая развязка с %1$@ съездами поблизости";
+"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток с %1$@ съездами поблизости";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Кольцевая развязка с %1$@ съездами осталась в %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами осталась в %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1471,10 +1471,10 @@
 "Turn on Precise Location to use VoiceVista" = "Включите точное местоположение, чтобы использовать VoiceVista";
 
 /* preview.callout.road_finder.error_instructions */
-"Turn to select a road and then press Go" = "Поварачивайте телефон, чтобы выбрать дорогу, а затем нажмите кнопку `Идти`";
+"Turn to select a road and then press Go" = "Поворачивайте телефон, чтобы выбрать дорогу, а затем нажмите кнопку `Идти`";
 
 /* preview.callout.road_finder.instructions */
-"Turn your phone to preview available roads" = "Поварачивайте телефон, чтобы просмотреть доступные дороги";
+"Turn your phone to preview available roads" = "Поворачивайте телефон, чтобы просмотреть доступные дороги";
 
 /* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
 "Turned left. Now along %@" = "Повернул налево. Теперь по %@";
@@ -1516,7 +1516,7 @@
 "Unnamed Roads" = "Безымянные дороги";
 
 /* No comment provided by engineer. */
-"Update Current Route to Circular" = "Обновить текущий маршрут до кругового";
+"Update Current Route to Circular" = "Создать круговой маршрут";
 
 /* settings.callout.distance.detail */
 "Updates about distance to the audio beacon when it's set" = "Обновления о расстоянии до звукового маяка, когда он установлен";
@@ -1540,7 +1540,7 @@
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Используйте этот переключатель, чтобы включить управление VoiceVista с помощью кнопок на наушниках и кнопок воспроизведения мультимедиа на экране блокировки. Обратите внимание, что при включении VoiceVista нельзя использовать во время воспроизведения других медиафайлов, таких как подкасты или музыка.";
 
 /* preview.note.1 */
-"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно поварачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
+"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно поворачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
 
 /* No comment provided by engineer. */
 "View Detail" = "Посмотреть детали";
@@ -1715,7 +1715,7 @@
 "You should only use routes from someone you trust." = "Вы должны использовать маршруты только от тех, кому вы доверяете.";
 
 /* first_use_experience.preview.tutorial.alert.message.2 */
-"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Вы переместитесь на середину улицы рядом с выбранным вами местом. Используя телефон в качестве указки, медленно вращайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
+"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Вы переместитесь на середину улицы рядом с выбранным вами местом. Используя телефон в качестве указки, медленно поворачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрестку.";
 
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Сейчас вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет размещен на вашей первой путевой точке. Когда вы прибудете в путевую точку, маяк переместится к следующей путевой точке на вашем маршруте.";
