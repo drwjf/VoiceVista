@@ -1,0 +1,192 @@
+//----------------------------------------------------------------
+// MARK: - OSM Tags
+//------------------------------------------------------------------------------
+
+/* Open Street Map term. Pedestrians can cross a street here; e.g., zebra crossing. Known as crosswalks in American English, and crossings in British English. */
+"osm.tag.crossing" = "Crosswalk";
+
+/* Open Street Map term. Used to describe the type of the feature which is currently under construction. */
+"osm.tag.construction" = "Construction";
+
+/* Open Street Map term. NOT DEFINED IN OSM */
+"osm.tag.dangerous_area" = "Dangerous Area";
+
+/* Open Street Map term. This refers to a village, town or city townhall, which is often the seat of the mayor, or may be merely a community meeting place. */
+"osm.tag.townhall" = "Townhall";
+
+/* Open Street Map term. For flights of steps on footways and paths.. */
+"osm.tag.steps" = "Steps";
+
+/* Open Street Map term. An elevator (or lift) is used to travel vertically, providing passenger and freight access between pathways at different floor levels. */
+"osm.tag.elevator" = "Elevator";
+
+/* Open Street Map term. A walking path is is a generic path, either multi-use or unspecified usage, open to all pedestrians and not intended for motorized vehicles. */
+"osm.tag.walking_path" = "Walking Path";
+
+/* Open Street Map term. Is a road or an area mainly or exclusively for pedestrians in which some vehicle traffic may be authorized (e.g. emergency, taxi, delivery, ...). Typically found in shopping areas, town centres, places with tourism attractions and recreation/civic areas, where wide expanses of hard surface are provided for pedestrians to walk. */
+"osm.tag.pedestrian_street" = "Pedestrian Street";
+
+/* Open Street Map term. A bicycle path is is a generic path, either multi-use or unspecified usage, open to all cyclists and not intended for motorized vehicles. May be shared with pedestrians. */
+"osm.tag.bicycle_path" = "Bicycle Path";
+
+/* Open Street Map term. Used for roads that are used for accessing residential areas and in residential areas but which are not normally used as through routes. */
+"osm.tag.residential_street" = "Residential Street";
+
+/* Open Street Map term. Used in two senses: 1. As a service way for access to buildings or places 2. Frontage road parallel to a major road. */
+"osm.tag.service_road" = "Service Road";
+
+/* Open Street Map term. Any highway, route, way, or thoroughfare on land which connects one location to another and has been paved or otherwise improved to allow travel by some conveyance, including motorised vehicles, cyclists, pedestrians, horse riders, and others (but not trains). */
+"osm.tag.road" = "Road";
+
+/* Open Street Map term. Any road, route, way, or thoroughfare on land which connects one location to another and has been paved or otherwise improved to allow travel by some conveyance, including motorised vehicles, cyclists, pedestrians, horse riders, and others (but not trains). */
+"osm.tag.highway" = "Highway";
+
+/* Open Street Map term. Any highway that has a given name. Used as a display name for place or a location. %@ is an highway name, such as "London Highway". */
+"osm.tag.highway.named" = "%@ Highway";
+
+/* Open Street Map term. Any highway that has a reference number or name. Used as a display name for place or a location. %@ is an highway id, such as "Highway 520" or "Highway B". */
+"osm.tag.highway.refed" = "Highway %@";
+
+/* Open Street Map term. An intersection is a junction where two or more roads meet or cross. */
+"osm.tag.intersection" = "Intersection";
+
+/* Open Street Map term. A roundabout is a type of circular intersection or junction in which road traffic is permitted to flow in one direction around a central island. */
+"osm.tag.roundabout" = "Roundabout";
+
+/* Open Street Map term. Used to describe a road or highway leading to and from a major highway e.g., a freeway or motorway. */
+"osm.tag.highway_ramp" = "Highway Ramp";
+
+/* Open Street Map term. Used as to describe the section of highway where two or more roads or highways merge with one another. */
+"osm.tag.merging_lane" = "Merging Lane";
+
+/* Open Street Map term. Used to describe a block or building typically housing companies, but offices may be also used by any other kind of organization like charities, government, any NGO etc.. */
+"osm.tag.office_building" = "Office Building";
+
+/* Open Street Map term. Used for any generic building that is used as a school. */
+"osm.tag.school_building" = "School Building";
+
+/* Open Street Map term. Used as a display name for place or a location. */
+"osm.tag.covered_pavilion" = "Covered Pavilion";
+
+/* Open Street Map term. A small local shop carrying a variety of everyday products, mostly including single-serving food items such as milk, bread, snacks, groceries to over-the-counter medications, household items, stationery, and small auto supplies such as fuses. */
+"osm.tag.convenience_store" = "Convenience Store";
+
+/* Open Street Map term. A doorway through which people can enter or exit a building. */
+"osm.tag.building_entrance" = "Building Entrance";
+
+/* Open Street Map term. Used to designate a place or an area where all employees, passengers or a large crowd assemble in case of an emergency in an installation, building or a public place. */
+"osm.tag.assembly_point" = "Assembly Point";
+
+/* Open Street Map term. Used to describe fence-like barriers positioned along paths, footways, cycleways or tracks which serve to either slow cycle access or prevent it entirely depending on spacing and layout. */
+"osm.tag.cycle_barrier" = "Cycle Barrier";
+
+/* Open Street Map term. Used to describe a barrier to allow one person at a time to pass. Use this for small turnstiles like the ones in supermarkets or some subways. */
+"osm.tag.turnstile" = "Turnstile";
+
+/* Open Street Map term. Used to describe a hole in the road surface which is covered with a series of bars that allow wheeled vehicles but not animals to cross. */
+"osm.tag.cattle_grid" = "Cattle Grid";
+
+/* Open Street Map term. A gate is a section in a wall or fence which can be opened to allow or restrict access. They are usually made of wood or metal. */
+"osm.tag.gate" = "Gate";
+
+/* Open Street Map term. Used to refer to a public toilet. */
+"osm.tag.restroom" = "Restroom";
+
+/* Open Street Map term. Used to describe a facility used by the public, customers, or other authorised users for parking motor vehicles, such as cars and trucks, commonly known as a car park (British English) or parking lot (American English). */
+"osm.tag.parking_lot" = "Parking Lot";
+
+/* Open Street Map term. Used to describe the entry/exit point to a parking area. */
+"osm.tag.parking_entrance" = "Parking Entrance";
+
+/* Open Street Map term. A place for people to sit. */
+"osm.tag.bench" = "Bench";
+
+/* Open Street Map term. Used for the locating the point where taxis wait, not the point where passengers wait. */
+"osm.tag.taxi_waiting_area" = "Taxi Waiting Area";
+
+/* Open Street Map term. A place where letters and parcels may be sent or collected.. */
+"osm.tag.post_office" = "Post Office";
+
+/* Open Street Map term. A physical box used as a facility for the public to deposit outgoing postal items, such as letters and other small goods, intended for collection by the operator.. */
+"osm.tag.post_box" = "Post Box";
+
+/* Open Street Map term. A single small container for depositing garbage that is easily accessible for pedestrians. */
+"osm.tag.waste_basket" = "Waste Basket";
+
+/* Open Street Map term. A place where people can bathe under water sprays. May be run as a local amenity by the government, or part of commercial provisions. */
+"osm.tag.shower" = "Shower";
+
+/* Open Street Map term. Refers to any parking space designed for bicycles, where one can leave a pedal cycle unattended in reasonable security. */
+"osm.tag.bike_parking" = "Bike Parking";
+
+/* Open Street Map term. An informal place with sit-down facilities selling beverages and light meals and/or snacks. */
+"osm.tag.cafe" = "Cafe";
+
+/* Open Street Map term. Generally a formal eating places with sit-down facilities selling full meals served by waiters and often licensed (where allowed) to sell alcoholic drinks. */
+"osm.tag.restaurant" = "Restaurant";
+
+/* Open Street Map term. A public telephone, phone box, or telephone on a stand or wall. Usually you pay to use them, often only via a pre-pay card. */
+"osm.tag.telephone" = "Telephone";
+
+/* Open Street Map term. Used to map a fuel station, also known as a filling station, petrol station, gas station and petrol garage. It is the retail-type facility where motor vehicles can be refueled. */
+"osm.tag.gas_station" = "Gas Station";
+
+/* Open Street Map term. A financial establishment where customers can, among other services, deposit and withdraw money, take loans, make investments and transfer funds. This definition encompasses banks, credit unions, building societies, and other similar establishments. It does not include money lenders or financial offices that are not banks */
+"osm.tag.bank" = "Bank";
+
+/* Open Street Map term. An automated teller machine (ATM), or automatic banking machine (ABM), or "cash machine", is a computerised telecommunications device that provides the clients of a financial institution with access to financial transactions in a public space without the need for a cashier, human clerk or bank teller. */
+"osm.tag.atm" = "ATM";
+
+/* Open Street Map term. Used as a display name for place or a location. %@ is a bank name, such as "Chase ATM". */
+"osm.tag.atm.named" = "%@ ATM";
+
+/* Open Street Map term. Used as a display name for place or a location. %@ is an ATM id, such as "ATM 7" or "ATM B". */
+"osm.tag.atm.refed" = "ATM %@";
+
+/* Open Street Map term. A bus stop is a place where passengers can board or alight from a bus. Its position may be marked by a shelter, pole, bus lay-by, or road markings. */
+"osm.tag.bus_stop" = "Bus Stop";
+
+/* Open Street Map term. Used as a display name for place or a location. %@ is a bus stop name, such as "London Bus Stop". */
+"osm.tag.bus_stop.named" = "%@ Bus Stop";
+
+/* Open Street Map term. Used as a display name for place or a location. %@ is a bus stop id, such as "Bus Stop 7" or "Bus Stop B". */
+"osm.tag.bus_stop.refed" = "Bus Stop %@";
+
+/* Open Street Map term. Used for a container or centre that accepts waste for recycling, and donations of used goods. */
+"osm.tag.recycling_bin" = "Recycling Bin";
+
+/* Open Street Map term. A water feature with cultural, decorational or historical significance or which serves a recreational purpose. */
+"osm.tag.fountain" = "Fountain";
+
+/* Open Street Map term. This covers places such as mosques, churches, cathedrals, synagogues, temples, etc. */
+"osm.tag.place_of_worship" = "Place of Worship";
+
+/* Open Street Map term. Used for places where humans can obtain potable water for consumption. */
+"osm.tag.water_fountain" = "Water Fountain";
+
+/* Open Street Map term. A facility used to clean the exterior and, in some cases, the interior of motor vehicles. */
+"osm.tag.car_wash" = "Car Wash";
+
+/* Open Street Map term. A machine which dispenses items such as snacks, beverages, alcohol, cigarettes, lottery tickets, cologne, consumer products and even gold and gems to customers automatically, after the customer inserts currency or credit into the machine. */
+"osm.tag.vending_machine" = "Vending Machine";
+
+/* Open Street Map term. Outdoor (sometimes indoor) areas specifically designed for children to play. */
+"osm.tag.playground" = "Playground";
+
+/* Open Street Map term. An area designed for practising a particular sport, normally designated with appropriate markings. Examples include tennis courts, basketball courts, soccer pitches, and riding arenas. */
+"osm.tag.sports_field" = "Sports Field";
+
+/* Open Street Map term. A place built for swimming as a recreational activity or sport. */
+"osm.tag.swimming_pool" = "Swimming Pool";
+
+/* Open Street Map term. A distinguishable planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. */
+"osm.tag.garden" = "Garden";
+
+/* Open Street Map term. An area of open space for recreational use, usually designed and in semi-natural state with grassy areas, trees and bushes. Parks are usually urban, but not always. */
+"osm.tag.park" = "Park";
+
+/* Open Street Map term. A table with benches, ideal for food and rest. */
+"osm.tag.picnic_table" = "Picnic Table";
+
+/* Open Street Map term. A locality that is suitable for outdoors eating and may have any of a number of facilities to aid a picnic. */
+"osm.tag.picnic_area" = "Picnic Area";
