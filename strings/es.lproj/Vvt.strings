@@ -125,6 +125,9 @@
 "Add Waypoints" = "Añadir puntos de ruta";
 
 /* No comment provided by engineer. */
+"Add Waypoints in Breadcrumb Mode" = "Agregar waypoints en modo de ruta de navegación";
+
+/* No comment provided by engineer. */
 "Address Callout Rate" = "Longitud de la información de la dirección";
 
 /* directions.unknown_address */
@@ -340,6 +343,12 @@
 /* No comment provided by engineer. */
 "Both decimal numbers and Google plus codes are supported" = "Se admiten números decimales y códigos Google plus";
 
+/* No comment provided by engineer. */
+"Breadcrumb Marker Dropped" = "Marcador de ruta de navegación caído";
+
+/* No comment provided by engineer. */
+"Breadcrumb Mode" = "Modo de ruta de navegación";
+
 /* first_launch.callouts.example.1 */
 "Cafe" = "Cafetería";
 
@@ -545,6 +554,9 @@
 /* beacon.styles.drop */
 "Drop" = "Caída";
 
+/* No comment provided by engineer. */
+"Drop Breadcrumb Marker" = "Colocar marcador de ruta de navegación";
+
 /* directions.cardinal.east */
 "East" = "Este";
 
@@ -616,6 +628,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "No se pudo crear la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Drop Breadcrumb Marker" = "No se pudo colocar el marcador de ruta de navegación";
 
 /* No comment provided by engineer. */
 "Failed to Generate Reverse Route" = "No se pudo generar la ruta inversa";
@@ -786,7 +801,13 @@
 "Intersection with %@ nearby" = "Cruce con %@ cerca";
 
 /* No comment provided by engineer. */
+"Invalid Breadcrumb Route Name" = "Nombre de ruta de ruta de navegación no válido";
+
+/* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Latitud y longitud no válidas";
+
+/* No comment provided by engineer. */
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Es fácil agregar un nuevo marcador para usarlo más tarde en el modo de ruta de navegación. Todos los marcadores nuevos en esta ruta serán nombrados automáticamente.";
 
 /* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Parece que tu configuración de privacidad impide el uso de actividad física, cámbialo en Ajustes del sistema.";
@@ -1336,9 +1357,11 @@
 /* voiceSetting.rate */
 "Speaking rate" = "Velocidad del habla";
 
-/* first_use_experience.markerTutorial.alert.title
-   locationdetail.command.1 */
+/* locationdetail.command.1 */
 "Start Beacon" = "Iniciar señal de audio";
+
+/* Label of button to start breadcrumb mode */
+"Start Breadcrumb Mode" = "Iniciar el modo de ruta de navegación";
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Iniciar calibración";
@@ -1389,6 +1412,9 @@
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "La distancia entre los puntos de referencia no debe ser demasiado pequeña.";
+
+/* %@ is the name of a route being breadcrumb mode */
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "El marcador de ruta de navegación eliminado se nombrará automáticamente y se agregará a la ruta %@.";
 
 /* headphonesSetting.connect_headset.unavailable */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Los auriculares que seleccionaste no están disponibles actualmente. Inténtalo de nuevo más tarde.";
@@ -1448,6 +1474,9 @@
 
 /* markerspicker.footnote.allowMultipleSelection */
 "Toggle markers on/off to select multiple." = "Activa o desactiva los marcadores para seleccionar varios.";
+
+/* No comment provided by engineer. */
+"Too Close to Drop Another Breadcrumb Marker" = "Demasiado cerca para colocar otro marcador de ruta de navegación";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Recuento total de puntos de ruta: %@ .";
@@ -1720,7 +1749,7 @@
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Ahora volverás a la pantalla principal de VoiceVista y se colocará una baliza de audio en tu primer punto de ruta. Cuando llegues a dicho punto, la baliza avanzará al siguiente punto de la ruta.";
 
-/* first_use_experience.markerTutorial.alert.message */
+/* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Ahora volverás a la pantalla principal de VoiceVista y comenzará el audio de la baliza. Escucha atentamente dónde está y, sujetando el teléfono en horizontal, gira hacia él.";
 
 /* Title for alert that is displayed when importing a marker. */

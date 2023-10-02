@@ -125,6 +125,9 @@
 "Add Waypoints" = "Добавить путевые точки";
 
 /* No comment provided by engineer. */
+"Add Waypoints in Breadcrumb Mode" = "Добавление путевых точек в режиме навигации";
+
+/* No comment provided by engineer. */
 "Address Callout Rate" = "Частота объявления названия улицы";
 
 /* directions.unknown_address */
@@ -340,6 +343,12 @@
 /* No comment provided by engineer. */
 "Both decimal numbers and Google plus codes are supported" = "Поддерживаются как десятичные числа, так и коды Google Plus.";
 
+/* No comment provided by engineer. */
+"Breadcrumb Marker Dropped" = "Маркер навигационной цепочки удален";
+
+/* No comment provided by engineer. */
+"Breadcrumb Mode" = "Режим навигации";
+
 /* first_launch.callouts.example.1 */
 "Cafe" = "Кафе";
 
@@ -545,6 +554,9 @@
 /* beacon.styles.drop */
 "Drop" = "Падение";
 
+/* No comment provided by engineer. */
+"Drop Breadcrumb Marker" = "Отбросить маркер хлебной крошки";
+
 /* directions.cardinal.east */
 "East" = "Восток";
 
@@ -616,6 +628,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Не удалось создать маршрут";
+
+/* No comment provided by engineer. */
+"Failed to Drop Breadcrumb Marker" = "Не удалось удалить маркер навигационной цепочки.";
 
 /* No comment provided by engineer. */
 "Failed to Generate Reverse Route" = "Не удалось создать обратный маршрут.";
@@ -786,7 +801,13 @@
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
 /* No comment provided by engineer. */
+"Invalid Breadcrumb Route Name" = "Неверное имя маршрута навигации";
+
+/* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Широта и долгота введены Неверно";
+
+/* No comment provided by engineer. */
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Легко добавить новый маркер для последующего использования в режиме навигации. Всем новым маркерам на этом маршруте будут присвоены имена автоматически.";
 
 /* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Похоже, ваши настройки конфиденциальности не позволяют использовать движение и фитнес, измените их в приложении «Настройки».";
@@ -1336,9 +1357,11 @@
 /* voiceSetting.rate */
 "Speaking rate" = "Скорость речи";
 
-/* first_use_experience.markerTutorial.alert.title
-   locationdetail.command.1 */
+/* locationdetail.command.1 */
 "Start Beacon" = "Запустить маяк";
+
+/* Label of button to start breadcrumb mode */
+"Start Breadcrumb Mode" = "Запустить режим навигации";
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Начать калибровку";
@@ -1389,6 +1412,9 @@
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
+
+/* %@ is the name of a route being breadcrumb mode */
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "Переброшенному маркеру навигационной цепочки будет присвоено имя автоматически, и он будет добавлен к маршруту %@.";
 
 /* headphonesSetting.connect_headset.unavailable */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Выбранные вами наушники в настоящее время недоступны для подключения. Пожалуйста, повторите попытку позже.";
@@ -1448,6 +1474,9 @@
 
 /* markerspicker.footnote.allowMultipleSelection */
 "Toggle markers on/off to select multiple." = "Включите/выключите метки, чтобы выбрать несколько меток разом.";
+
+/* No comment provided by engineer. */
+"Too Close to Drop Another Breadcrumb Marker" = "Слишком близко, чтобы добавить еще один маркер навигационной цепочки";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Всего путевых точек: %@ .";
@@ -1720,7 +1749,7 @@
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Сейчас вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет размещен на вашей первой путевой точке. Когда вы прибудете в путевую точку, маяк переместится к следующей путевой точке на вашем маршруте.";
 
-/* first_use_experience.markerTutorial.alert.message */
+/* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Сейчас вы вернетесь на домашнюю страницу VoiceVista, и звуковой маяк будет запущен. Внимательно послушайте, где он находится, и, держа телефон горизонтально, повернитесь к нему.";
 
 /* Title for alert that is displayed when importing a marker. */
