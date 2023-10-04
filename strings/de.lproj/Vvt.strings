@@ -53,7 +53,7 @@
 "%@ disconnected." = "%@ getrennt.";
 
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
-"%@ Intersection" = "Kreuzung: %@";
+"%@ Intersection" = "%@ Kreuzung";
 
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "In der Nähe von %@";
@@ -92,7 +92,7 @@
 "1 minute ago" = "vor 1 Minute";
 
 /* No comment provided by engineer. */
-"[Reverse]" = "[Umkehren]";
+"[Reverse]" = "[Umgekehrt]";
 
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Vielleicht ist diese Stimme auch in besserer Qualität verfügbar. Sie finden diese und andere Stimmen in den iOS-Einstellungen unter „Bedienungshilfen“, „Gesprochene Inhalte“.";
@@ -107,7 +107,7 @@
 "About VoiceVista" = "Über VoiceVista";
 
 /* settings.direction.style.absolute */
-"Absolute Direction" = "Absolute Richtung";
+"Absolute Direction" = "Himmelsrichtung";
 
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Aktivität begonnen!";
@@ -125,7 +125,7 @@
 "Add Waypoints" = "Wegpunkte hinzufügen";
 
 /* No comment provided by engineer. */
-"Add Waypoints in Breadcrumb Mode" = "Fügen Sie Wegpunkte im Breadcrumb-Modus hinzu";
+"Add Waypoints in Breadcrumb Mode" = "Hinzufügen von Wegpunkten im Brotkrumenmodus";
 
 /* No comment provided by engineer. */
 "Address Callout Rate" = "Häufigkeit der Adressansage";
@@ -173,7 +173,7 @@
 "Announced %@." = "%@ angesagt.";
 
 /* No comment provided by engineer. */
-"Append reverse waypoints to the tail to make the route a circular journey." = "Hängen Sie umgekehrte Wegpunkte an das Ende an, um die Route zu einer Rundreise zu machen.";
+"Append reverse waypoints to the tail to make the route a circular journey." = "Wegpunkte in umgekehrter Reihenfolge an das Ende der Route anhängen, um aus ihr eine Schleife zu machen.";
 
 /* settings.headtracking.appleAirpods */
 "Apple AirPods" = "Apple AirPods";
@@ -230,16 +230,16 @@
 "At %@" = "Bei %@";
 
 /* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
-"at %@ o'clock" = "at %@ o'clock";
+"at %@ o'clock" = "auf %@ Uhr";
 
 /* beacon.at.ahead */
-"at ahead" = "vorne";
+"at ahead" = "geradeaus";
 
 /* beacon.at.ahead_to_the_left */
-"at ahead left" = "vorne links";
+"at ahead left" = "vorn links";
 
 /* beacon.at.ahead_to_the_right */
-"at ahead right" = "vorne rechts";
+"at ahead right" = "vorn rechts";
 
 /* beacon.at.behind */
 "at behind" = "hinten";
@@ -296,7 +296,7 @@
 "Beacon behind" = "Signal hinten";
 
 /* settings.general.beacon.direction.style */
-"Beacon Direction Style" = "Beacon-Richtungsstil";
+"Beacon Direction Style" = "Richtungsangabe für Signale";
 
 /* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
 "Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Update der Signaldistanz. %1$@ angesagt, Signal ist zurzeit %2$@ entfernt.";
@@ -341,13 +341,13 @@
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Um Ihre Kopfhörer zu verbinden, wird Zugriff auf Bluetooth benötigt. Öffnen Sie die iOS-Einstellungen und aktivieren Sie Bluetooth. Das kann dazu führen, dass die App neu gestartet wird.";
 
 /* No comment provided by engineer. */
-"Both decimal numbers and Google plus codes are supported" = "Es werden sowohl Dezimalzahlen als auch Google Plus-Codes unterstützt";
+"Both decimal numbers and Google plus codes are supported" = "Dezimalzahlen oder Google Plus Codes werden unterstützt";
 
 /* No comment provided by engineer. */
-"Breadcrumb Marker Dropped" = "Breadcrumb-Marker wurde fallen gelassen";
+"Breadcrumb Marker Dropped" = "Brotkrumenmarkierung gespeichert";
 
 /* No comment provided by engineer. */
-"Breadcrumb Mode" = "Breadcrumb-Modus";
+"Breadcrumb Mode" = "Brotkrumenmodus";
 
 /* first_launch.callouts.example.1 */
 "Cafe" = "Café";
@@ -377,7 +377,7 @@
 "Cancel Connecting" = "Verbinden abbrechen";
 
 /* No comment provided by engineer. */
-"Change Beacon Direction Style" = "Ändern Sie den Beacon-Richtungsstil";
+"Change Beacon Direction Style" = "Richtungsangabe für Signale ändern";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Externe App für Karten ändern";
@@ -401,7 +401,7 @@
 "Clear text" = "Text löschen";
 
 /* settings.direction.style.clock */
-"Clock Position" = "Uhrposition";
+"Clock Position" = "Zifferblatt";
 
 /* No comment provided by engineer. */
 "Close" = "Schließen";
@@ -450,10 +450,10 @@
 "Current Location Unknown" = "Aktueller Standort unbekannt";
 
 /* %@ is index number of the current waypoint in the route */
-"Current waypoint index: %@ ." = "Aktueller Wegpunktindex: %@ .";
+"Current waypoint index: %@ ." = "Aktuelle Wegpunktanzeige: %@ .";
 
 /* %@ is the current waypoint name */
-"Current waypoint name: %@ ." = "Aktueller Wegpunktname: %@ .";
+"Current waypoint name: %@ ." = "Name des aktuellen Wegpunktes: %@ .";
 
 /* No comment provided by engineer. */
 "Current: %@" = "Aktuell: %@";
@@ -462,10 +462,10 @@
 "Delete" = "Löschen";
 
 /* No comment provided by engineer. */
-"Delete a Route" = "Eine Route löschen";
+"Delete a Route" = "Route löschen";
 
 /* No comment provided by engineer. */
-"Delete Markers too" = "Löschen Sie auch Markierungen";
+"Delete Markers too" = "Auch Markierungen löschen";
 
 /* settings.clear_cache.alert_title */
 "Delete Stored Data?" = "Gespeicherte Daten löschen?";
@@ -480,7 +480,7 @@
 "Description" = "Beschreibung";
 
 /* No comment provided by engineer. */
-"Destination location" = "Zielort";
+"Destination location" = "Ziel";
 
 /* %@ is the beacon name */
 "Destination: %@ ." = "Ziel: %@ .";
@@ -501,7 +501,7 @@
 "Distance" = "Entfernung";
 
 /* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunhkten sollte >= %@ sein.";
+"Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunkten sollte >= %@ sein.";
 
 /* settings.callout.distance */
 "Distance to the Audio Beacon" = "Entfernung zum Tonsignal";
@@ -510,7 +510,7 @@
 "Distance unknown" = "Entfernung unbekannt";
 
 /* %@ is the distance to the beacon */
-"Distance: %@ ." = "Distanz: %@ .";
+"Distance: %@ ." = "Entfernung: %@ .";
 
 /* url_resource.alert.route.import_existing.message */
 "Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Möchten Sie sie ersetzen? Wenn Sie diese Route ersetzen, werden auch die darin verwendeten Markierungen ersetzt.";
@@ -555,7 +555,7 @@
 "Drop" = "Tropfen";
 
 /* No comment provided by engineer. */
-"Drop Breadcrumb Marker" = "Brotkrümelmarkierung ablegen";
+"Drop Breadcrumb Marker" = "Brotkrumenmarkierung speichern";
 
 /* directions.cardinal.east */
 "East" = "Osten";
@@ -576,7 +576,7 @@
 "Edit Waypoints" = "Wegpunkte bearbeiten";
 
 /* placesNearyBy.category.4 */
-"Education" = "Ausbildung";
+"Education" = "Bildung";
 
 /* beaconSettings.cues */
 "Enable Departure and Arrival Cues" = "Töne bei Start und Ankunft abspielen";
@@ -615,25 +615,25 @@
 "External Maps App" = "Externe App für Karten";
 
 /* placesNearyBy.category.11 */
-"Facilities" = "Einrichtungen";
+"Facilities" = "einrichtungen";
 
 /* No comment provided by engineer. */
 "Failed to Add Route" = "Route konnte nicht hinzugefügt werden";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Die Berechnung der Richtungsschritte ist fehlgeschlagen";
+"Failed to Calculate Direction Steps" = "Navigation konnte nicht berechnet werden";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "Wegpunkte für die Route konnten nicht berechnet werden";
+"Failed to Calculate Waypoints for Route" = "Wegpunkte konnten nicht berechnet werden";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Route konnte nicht erstellt werden";
 
 /* No comment provided by engineer. */
-"Failed to Drop Breadcrumb Marker" = "Der Breadcrumb-Marker konnte nicht abgelegt werden";
+"Failed to Drop Breadcrumb Marker" = "Brotkrumenmarkierung konnte nicht gespeichert werden";
 
 /* No comment provided by engineer. */
-"Failed to Generate Reverse Route" = "Fehler beim Generieren der umgekehrten Route";
+"Failed to Generate Reverse Route" = "Umgekehrte Route konnte nicht erstellt werden";
 
 /* No comment provided by engineer. */
 "Failed to Import Markers" = "Markierungen konnten nicht importiert werden";
@@ -645,7 +645,7 @@
 "Failed to Update" = "Aktualisierung fehlgeschlagen";
 
 /* No comment provided by engineer. */
-"Failed to Update Route to Circular" = "Die Route konnte nicht auf Rundschreiben aktualisiert werden";
+"Failed to Update Route to Circular" = "Route konnte nicht als Schleife aktualisiert werden";
 
 /* beacon.styles.flare */
 "Flare" = "Flackern";
@@ -666,7 +666,7 @@
 "GENERAL SETTINGS" = "ALLGEMEINE EINSTELLUNGEN";
 
 /* No comment provided by engineer. */
-"Generate a New Reverse Route" = "Generieren Sie eine neue umgekehrte Route";
+"Generate a New Reverse Route" = "Neue umgekehrte Route erstellen";
 
 /* No comment provided by engineer. */
 "Generate Route from GPX File" = "Route aus GPX-Datei erstellen";
@@ -687,7 +687,7 @@
 "Groceries" = "Lebensmittel";
 
 /* No comment provided by engineer. */
-"Group Discussions" = "Gruppendiskussionen";
+"Group Discussions" = "Google Group";
 
 /* beaconSetting.hapticStyle.footer */
 "Haptic feedback is only available when your phone is unlocked and VoiceVist is open." = "Haptisches Feedback ist nur verfügbar, wenn Ihr Telefon entsperrt und VoiceVista geöffnet ist.";
@@ -744,7 +744,7 @@
 "How much meters should waypoints be generated between each other for this route?" = "Wie viele Meter sollen die Punkte dieser Route mindestens auseinanderliegen?";
 
 /* No comment provided by engineer. */
-"How often to call out street name can be adjusted using the following slider" = "Wie oft Straßennamen aufgerufen werden sollen, lässt sich mit dem folgenden Schieberegler anpassen";
+"How often to call out street name can be adjusted using the following slider" = "Die Häufigkeit der Adressansage kann mit dem folgenden Schieberegler eingestellt werden";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Ich habe eine VoiceVista-Markierung mit Ihnen geteilt! „%@“";
@@ -801,13 +801,13 @@
 "Intersection with %@ nearby" = "Bei Kreuzung mit %@";
 
 /* No comment provided by engineer. */
-"Invalid Breadcrumb Route Name" = "Ungültiger Breadcrumb-Routenname";
+"Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Ungültiger Breiten- und Längengrad";
 
 /* No comment provided by engineer. */
-"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Im Breadcrumb-Modus ist es einfach, eine neue Markierung für die spätere Verwendung hinzuzufügen. Alle neuen Markierungen auf dieser Route werden automatisch benannt.";
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Das Hinzufügen einer Markierung im Brotkrumenmodus ist einfach, denn alle Markierungen auf dieser Route werden automatisch benannt.";
 
 /* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Offenbar verhindern Ihre Datenschutzeinstellungen die Verwendung von Bewegung & Fitness. Bitte ändern Sie dies in den Geräteeinstellungen.";
@@ -822,13 +822,13 @@
 "Keep" = "Behalten";
 
 /* No comment provided by engineer. */
-"Keep Markers" = "Behalten Sie Markierungen";
+"Keep Markers" = "Markierungen behalten";
 
 /* settings.clear_cache.markers.alert_title */
 "Keep Markers and Routes?" = "Markierungen und Routen behalten?";
 
 /* No comment provided by engineer. */
-"Latitude or (Latitude, Longitude) or Plus codes" = "Breitengrad oder (Breitengrad, Längengrad) oder Pluscodes";
+"Latitude or (Latitude, Longitude) or Plus codes" = "Breitengrad oder (Breitengrad, Längengrad) oder Google-Plus-Code";
 
 /* general.alert.offline.learn_more */
 "Learn more" = "Weitere Informationen";
@@ -982,7 +982,7 @@
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
-"Next intersection: Circles back to current intersection" = "Nächste Kreuzung: Schlägt einen Bogen  zurück zur aktuellen Kreuzung";
+"Next intersection: Circles back to current intersection" = "Nächste Kreuzung: Schlägt einen Bogen zurück zur aktuellen Kreuzung";
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "Nächste Kreuzung: Ende der Straße";
@@ -991,7 +991,7 @@
 "Next waypoint" = "Nächster Wegpunkt";
 
 /* No comment provided by engineer. */
-"No audio beacon set" = "Kein Audio-Beacon-Set";
+"No audio beacon set" = "Kein Tonsignal aktiv";
 
 /* No comment provided by engineer. */
 "No last callout" = "Keine letzte Ansage";
@@ -1003,7 +1003,7 @@
 "No Motion Permission" = "Kein Zugriff auf „Bewegung & Fitness“";
 
 /* No comment provided by engineer. */
-"No network connection" = "Keine Netzwerk Verbindung";
+"No network connection" = "Keine Internetverbindung";
 
 /* No comment provided by engineer. */
 "No waypoint data found in the GPX file." = "Keine Wegpunkte in der GPX-Datei gefunden.";
@@ -1012,7 +1012,7 @@
 "No waypoints defined" = "Keine Wegpunkte angelegt";
 
 /* settings.direction.style.none */
-"None" = "Keiner";
+"None" = "Nichts";
 
 /* directions.cardinal.north */
 "North" = "Norden";
@@ -1070,10 +1070,10 @@
 "Paste URL from Apple Maps" = "URL aus Apple Karten einfügen";
 
 /* permissions.status.3 */
-"Permission granted" = "Zugrifssrechte erteilt";
+"Permission granted" = "Zugriffsrechte erteilt";
 
 /* permissions.status.4 */
-"Permission NOT granted" = "Zugrifssrechte nicht erteilt";
+"Permission NOT granted" = "Zugrissrechte nicht erteilt";
 
 /* permissions.status.2 */
 "Permission requested" = "Zugriffsrechte angefordert";
@@ -1082,7 +1082,7 @@
 "Permissions" = "Zugriffsrechte";
 
 /* No comment provided by engineer. */
-"Pick from Markers" = "Wählen Sie aus Markern";
+"Pick from Markers" = "Aus Markierungen auswählen";
 
 /* markerpickers.title */
 "Pick Markers" = "Markierungen auswählen";
@@ -1100,7 +1100,7 @@
 "Places and Landmarks" = "Orte und Orientierungspunkte";
 
 /* placefilters.footnoot.2 */
-"Places data come from Apple Maps and OpenStreetMap." = "Ortsdaten stammen von Apple Maps und OpenStreetMap.";
+"Places data come from Apple Maps and OpenStreetMap." = "Die Ortsdaten stammen von Apple Karten und OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Orte in der Nähe";
@@ -1158,7 +1158,7 @@
 "Previous waypoint" = "Vorheriger Wegpunkt";
 
 /* placesNearyBy.category.10 */
-"Public Service" = "Öffentlicher Dienst";
+"Public Service" = "Öffentliche Dienste";
 
 /* placesNearyBy.category.2 */
 "Public Transit" = "Öffentliche Verkehrsmittel";
@@ -1170,7 +1170,7 @@
 "RECENT CALLOUTS" = "LETZTE ANSAGEN";
 
 /* settings.direction.style.relative */
-"Relative Direction" = "Relative Richtung";
+"Relative Direction" = "Relative Richtungsangabe";
 
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Letzte Ansage wiederholen";
@@ -1179,7 +1179,7 @@
 "Replace" = "Ersetzen";
 
 /* No comment provided by engineer. */
-"Report Beacon Summary" = "Zusammenfassung des Beacon-Berichts";
+"Report Beacon Summary" = "Infos über aktuelles Signal";
 
 /* preview.alert.restart.button */
 "Restart" = "Neu starten";
@@ -1191,10 +1191,10 @@
 "Returning to previous intersection" = "Kehre zur vorherigen Kreuzung zurück";
 
 /* Label of button to generate a reverse route or update the current route to circular */
-"Reverse or Circular" = "Umgekehrt oder kreisförmig";
+"Reverse or Circular" = "Umgekehrt oder Schleife";
 
 /* No comment provided by engineer. */
-"Reverse Route Generated" = "Umgekehrte Route generiert";
+"Reverse Route Generated" = "Umgekehrte Route erstellt";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Kreisverkehr mit %1$@ Ausfahrten %2$@";
@@ -1239,13 +1239,13 @@
 "Route Name" = "Name der Route";
 
 /* No comment provided by engineer. */
-"Route name: %@ ." = "Routenname: %@ .";
+"Route name: %@ ." = "Name der Route: %@ .";
 
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Route angehalten, %@";
 
 /* No comment provided by engineer. */
-"Route Updated to a Circular Journey" = "Route zu einer Rundreise aktualisiert";
+"Route Updated to a Circular Journey" = "Route als Schleife aktualisiert";
 
 /* routes.title */
 "Routes" = "Routen";
@@ -1272,7 +1272,7 @@
 "Search is not available" = "Suche ist nicht verfügbar";
 
 /* No comment provided by engineer. */
-"Search Location by Text" = "Suchen Sie den Standort nach Text";
+"Search Location by Text" = "Standort mit Text suchen";
 
 /* vicinity.search */
 "Search places" = "Orte suchen";
@@ -1281,7 +1281,7 @@
 "Select a Destination Location" = "Ziel auswählen";
 
 /* markerspicker.footnote */
-"Select a marker to continue." = "Wählen Sie eine Markierung aus, um fortzufahren.";
+"Select a marker to continue." = "Wählen Sie eine Markierung, um fortzusetzen.";
 
 /* No comment provided by engineer. */
 "Select a Starting Location" = "Beginn auswählen";
@@ -1300,7 +1300,7 @@
 "Share" = "Senden";
 
 /* No comment provided by engineer. */
-"Share Current Location" = "Aktuellen Standort teilen";
+"Share Current Location" = "Teilen des aktuellen Standortes";
 
 /* first_use_experience.share.alert.title */
 "Sharing in VoiceVista" = "In VoiceVista freigeben";
@@ -1331,7 +1331,7 @@
 "Sleeping" = "Im Ruhemodus";
 
 /* sleep.snoozing */
-"Snoozing" = "Im Standbymodus";
+"Snoozing" = "Im Stand-By-Modus";
 
 /* settings.general.volume.sound */
 "Sound" = "Akustisches Signal";
@@ -1361,7 +1361,7 @@
 "Start Beacon" = "Signal einschalten";
 
 /* Label of button to start breadcrumb mode */
-"Start Breadcrumb Mode" = "Starten Sie den Breadcrumb-Modus";
+"Start Breadcrumb Mode" = "Brotkrumenmodus starten";
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Kalibrierung beginnen";
@@ -1414,7 +1414,7 @@
 "The distance between waypoints should not be too small." = "Die Entfernung zwischen Wegpunkten sollte nicht zu klein sein.";
 
 /* %@ is the name of a route being breadcrumb mode */
-"The dropped breadcrumb marker will be named automatically and added to route %@." = "Der abgelegte Breadcrumb-Marker wird automatisch benannt und zur Route %@ hinzugefügt.";
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "Die Brotkrumenmarkierung wird automatisch benannt und der Route %@ hinzugefügt.";
 
 /* headphonesSetting.connect_headset.unavailable */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
@@ -1458,7 +1458,7 @@
 "To calculate distance, access location is required." = "Um die Entfernung zu berechnen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* search.footnot.2 */
-"To calculate distances, access to location is required." = "Zur Berechnung von Entfernungen ist der Zugriff auf den Standort erforderlich.";
+"To calculate distances, access to location is required." = "Um Entfernungen zu berechnen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Um diese Funktionen zu aktivieren, erteilen Sie bitte die folgenden Berechtigungen:";
@@ -1473,10 +1473,10 @@
 "to the right" = "rechts";
 
 /* markerspicker.footnote.allowMultipleSelection */
-"Toggle markers on/off to select multiple." = "Schalten Sie Markierungen ein/aus, um mehrere auszuwählen.";
+"Toggle markers on/off to select multiple." = "Markierungen aktivieren oder deaktivieren, um mehrere auszuwählen.";
 
 /* No comment provided by engineer. */
-"Too Close to Drop Another Breadcrumb Marker" = "Zu nah, um einen weiteren Breadcrumb-Marker fallen zu lassen";
+"Too Close to Drop Another Breadcrumb Marker" = "Entfernung zu gering für eine weitere Brotkrumenmarkierung";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Gesamtzahl der Wegpunkte: %@ .";
@@ -1545,7 +1545,7 @@
 "Unnamed Roads" = "Unbenannte Straßen";
 
 /* No comment provided by engineer. */
-"Update Current Route to Circular" = "Aktuelle Route auf Rundschreiben aktualisieren";
+"Update Current Route to Circular" = "Aktuelle Route in Schleife aktualisieren";
 
 /* settings.callout.distance.detail */
 "Updates about distance to the audio beacon when it's set" = "Updates über die Entfernung zu eingeschalteten Signalen";
@@ -1594,7 +1594,7 @@
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "Basierend auf dem Startpunkt und Endpunkt kann VoiceVista Wegpunkte berechnen.";
 
 /* No comment provided by engineer. */
-"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista kann zu Ihrer Bequemlichkeit eine neue umgekehrte Route mit Wegpunkten in umgekehrter Reihenfolge generieren. Möglicherweise müssen Sie die Wegpunkte für die umgekehrte Route anpassen, bevor Sie mit der Zielführung beginnen.";
+"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista kann für Sie eine neue Route in umgekehrter Richtung erstellen und die Wegpunkte darauf in umgekehrter Reihenfolge anordnen. Eventuell müssen Sie diese Wegpunkte anpassen, bevor Sie die umgekehrte Route verwenden.";
 
 /* troubleshooting.accuracy.footer */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "Während Sie gehen, lädt VoiceVista Kartendaten herunter, um Sie über Ihre Umgebung zu informieren. Wenn Sie Probleme mit VoiceVista haben, oder die App zu viel Speicher verwendet, können Sie die gespeicherten Kartendaten löschen. VoiceVista lädt dann nur die Kartendaten für ihren aktuellen Standort erneut herunter.";
@@ -1615,7 +1615,7 @@
 "VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista ist jetzt im Ruhemodus. Dadurch wird verhindert, dass VoiceVista Ihre Ortungsdienste nutzt oder Daten herunterlädt. Dies schont den Akku, Während VoiceVista nicht verwendet wird. Tippen Sie auf die Schaltfläche unten, um VoiceVista wieder zu aktivieren.";
 
 /* sleep.snoozing.message */
-"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista ist jetzt im Standbymodus. Wenn Sie Ihren aktuellen Standort verlassen, wird VoiceVista automatisch aktiviert. Im Standbymodus werden Ortungsdienste verwendet, aber mit geringer Leistung, um den Akku des Telefons zu schonen. Tippen Sie auf die Schaltfläche unten, um die App zu aktivieren.";
+"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista ist jetzt im Stand-Bby-Modus. Wenn Sie Ihren aktuellen Standort verlassen, wird VoiceVista automatisch aktiviert. Im Stand-By-Modus werden Ortungsdienste verwendet, aber nur mit geringer Leistung, um den Akku des Telefons zu schonen. Tippen Sie auf die Schaltfläche unten, um die App zu aktivieren.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista kann zurzeit keine Verbindung zum Internet herstellen. Zum Löschen der gespeicherten Kartendaten ist eine Internetverbindung erforderlich, damit die Kartendaten aktualisiert werden können.";
@@ -1657,7 +1657,7 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* No comment provided by engineer. */
-"Walking instructions:" = "Gehanleitung:";
+"Walking instructions:" = "Fußgängernavigation";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Wegpunkt";
