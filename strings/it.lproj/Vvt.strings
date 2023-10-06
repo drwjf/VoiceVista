@@ -28,12 +28,6 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@ era a %2$@ %3$@";
 
-/* Notification, %1$@ is a point of interest, %2$@ is time ago, %3$@ is distance with units, '<Space Needle>, announced <1 minute ago>, <20 meters> away' */
-"%1$@, announced %2$@, %3$@ away." = "%1$@, comunicato %2$@, %3$@ di distanza.";
-
-/* Notification, %1$@ is a point of interest, %2$@ is time ago. '<Space Needle>, announced <1 minute ago>.' */
-"%1$@, announced %2$@." = "%1$@, comunicato %2$@.";
-
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, rivolto verso %2$@";
 
@@ -169,9 +163,6 @@
 /* No comment provided by engineer. */
 "Announce Street Name" = "Annunciare il nome della strada";
 
-/* Notification, %@ is a point of interest, 'Announced <Space Needle>' */
-"Announced %@." = "%@ comunicato.";
-
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Aggiungi waypoint inversi alla coda per rendere il percorso un viaggio circolare.";
 
@@ -229,8 +220,41 @@
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "Presso %@";
 
-/* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
-"at %@ o'clock" = "alle %@ in punto";
+/* Directions using 1  o'clock position. */
+"at 1 o'clock" = "all'una";
+
+/* Directions using 10 o'clock position. */
+"at 10 o'clock" = "alle 10";
+
+/* Directions using 11 o'clock position. */
+"at 11 o'clock" = "alle 11";
+
+/* Directions using 12 o'clock position. */
+"at 12 o'clock" = "alle 12 in punto";
+
+/* Directions using 2  o'clock position. */
+"at 2 o'clock" = "Alle 2";
+
+/* Directions using 3  o'clock position. */
+"at 3 o'clock" = "alle 3 in punto";
+
+/* Directions using 4  o'clock position. */
+"at 4 o'clock" = "alle 4 in punto";
+
+/* Directions using 5  o'clock position. */
+"at 5 o'clock" = "alle 5 in punto";
+
+/* Directions using 6  o'clock position. */
+"at 6 o'clock" = "alle 6 in punto";
+
+/* Directions using 7  o'clock position. */
+"at 7 o'clock" = "alle 7";
+
+/* Directions using 8  o'clock position. */
+"at 8 o'clock" = "alle 8";
+
+/* Directions using 9  o'clock position. */
+"at 9 o'clock" = "Alle 9";
 
 /* beacon.at.ahead */
 "at ahead" = "avanti";
@@ -295,15 +319,6 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Audiofaro dietro";
 
-/* settings.general.beacon.direction.style */
-"Beacon Direction Style" = "Stile di direzione del faro";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
-"Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Aggiornamento distanza audiofaro. %1$@ comunicato, l'audiofaro è attualmente a %2$@ di distanza.";
-
-/* Notification, %@ is a point of interest, 'Beacon Distance update. Announced <Space Needle>' */
-"Beacon distance update. Announced %@." = "Aggiornamento distanza audiofaro. %@ comunicato.";
-
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Audiofaro su %@";
 
@@ -363,6 +378,9 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Calibrazione completata";
+
+/* settings.general.beacon.direction.style */
+"Callouts Direction Style" = "Stile direzione callout";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Notifiche disattivate";
@@ -503,7 +521,10 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distanza tra i waypoint, dovrebbe essere >= %@";
 
-/* settings.callout.distance */
+/* settings.callout.distance.poi */
+"Distance to Points of Interest" = "Distanza dai punti di interesse";
+
+/* settings.callout.distance.beacon */
 "Distance to the Audio Beacon" = "Distanza dall'audiofaro";
 
 /* beacon.distance.unknown */
@@ -690,7 +711,7 @@
 "Group Discussions" = "Discussioni di gruppo";
 
 /* beaconSetting.hapticStyle.footer */
-"Haptic feedback is only available when your phone is unlocked and VoiceVista is open." = "Il feedback aptico è disponibile solo quando il telefono è sbloccato e VoiceVista è aperto.";
+"Haptic feedback is only available when your phone is unlocked and VoiceVista is open." = "Il feedback tattile è disponibile solo quando il telefono è sbloccato e VoiceVista è aperto.";
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Pulsazione aptica";
@@ -775,12 +796,6 @@
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informazioni sugli incroci e sui mezzi di trasporto";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Intersection call out. Announced <Space Needle>, intersection currently <20 meters> away' */
-"Intersection call out. Announced %1$@, intersection currently %2$@ away." = "Notifica di incrocio. %1$@ comunicato, incrocio attualmente a %2$@ di distanza.";
-
-/* Notification, %@ is a point of interest, 'Intersection call out. Announced <Space Needle>' */
-"Intersection call out. Announced %@." = "Notifica di incrocio. %@ comunicato.";
 
 /* callouts.intersection_callout */
 "Intersection Callout" = "Notifica incrocio";
@@ -1133,6 +1148,9 @@
 /* No comment provided by engineer. */
 "Please try later." = "Per favore prova più tardi.";
 
+/* settings.callout.distance.poi.detail */
+"Points of interest distance info" = "Informazioni sulla distanza dei punti di interesse";
+
 /* voice.action.preview */
 "Preview" = "Anteprima";
 
@@ -1147,12 +1165,6 @@
 
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Posizione precedente, lungo %@";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Previous Location. Announced <Space Needle>, currently <20 meters> away' */
-"Previous Location. Announced %1$@, currently %2$@ away." = "Posizione precedente. %1$@ comunicato, attualmente a %2$@ di distanza.";
-
-/* Notification, %@ is a point of interest, 'Previous Location. Announced <Space Needle>' */
-"Previous Location. Announced %@." = "Posizione precedente. %@ comunicato.";
 
 /* beacon.command.2 */
 "Previous waypoint" = "Waypoint precedente";
@@ -1366,7 +1378,8 @@
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Inizia calibrazione";
 
-/* No comment provided by engineer. */
+/* user_activity.start_route.title
+   voice.action.start_route */
 "Start Route" = "Avvia Percorso";
 
 /* user_activity.street_preview.title */
