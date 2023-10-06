@@ -28,12 +28,6 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@ осталось в %2$@ %3$@";
 
-/* Notification, %1$@ is a point of interest, %2$@ is time ago, %3$@ is distance with units, '<Space Needle>, announced <1 minute ago>, <20 meters> away' */
-"%1$@, announced %2$@, %3$@ away." = "%1$@, объявлено %2$@, на расстоянии %3$@";
-
-/* Notification, %1$@ is a point of interest, %2$@ is time ago. '<Space Needle>, announced <1 minute ago>.' */
-"%1$@, announced %2$@." = "%1$@, объявлено %2$@.";
-
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, направление на %2$@";
 
@@ -125,7 +119,7 @@
 "Add Waypoints" = "Добавить путевые точки";
 
 /* No comment provided by engineer. */
-"Add Waypoints in Breadcrumb Mode" = "Добавление путевых точек в режиме "хлебные крошки"";
+"Add Waypoints in Breadcrumb Mode" = "Добавление путевых точек в режиме навигации";
 
 /* No comment provided by engineer. */
 "Address Callout Rate" = "Частота объявления названия улицы";
@@ -168,9 +162,6 @@
 
 /* No comment provided by engineer. */
 "Announce Street Name" = "Объявить название улицы";
-
-/* Notification, %@ is a point of interest, 'Announced <Space Needle>' */
-"Announced %@." = "Объявлено %@.";
 
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Добавьте обратные путевые точки в конец маршрута, чтобы сделать маршрут круговым.";
@@ -227,10 +218,43 @@
 "Assistant" = "Ассистент";
 
 /* Notification, %@ is a point of interest, 'At Starbucks' */
-"At %@" = "У %@";
+"At %@" = "В %@";
 
-/* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
-"at %@ o'clock" = "на %@ часов";
+/* Directions using 1  o'clock position. */
+"at 1 o'clock" = "в 1 час";
+
+/* Directions using 10 o'clock position. */
+"at 10 o'clock" = "в 10 часов";
+
+/* Directions using 11 o'clock position. */
+"at 11 o'clock" = "в 11 часов";
+
+/* Directions using 12 o'clock position. */
+"at 12 o'clock" = "в 12:00";
+
+/* Directions using 2  o'clock position. */
+"at 2 o'clock" = "в 2 часа";
+
+/* Directions using 3  o'clock position. */
+"at 3 o'clock" = "в 3 часа";
+
+/* Directions using 4  o'clock position. */
+"at 4 o'clock" = "в 4 часа";
+
+/* Directions using 5  o'clock position. */
+"at 5 o'clock" = "в 5 часов";
+
+/* Directions using 6  o'clock position. */
+"at 6 o'clock" = "в 6 часов";
+
+/* Directions using 7  o'clock position. */
+"at 7 o'clock" = "в 7 часов";
+
+/* Directions using 8  o'clock position. */
+"at 8 o'clock" = "в 8 часов";
+
+/* Directions using 9  o'clock position. */
+"at 9 o'clock" = "в 9 часов";
 
 /* beacon.at.ahead */
 "at ahead" = "впереди";
@@ -295,15 +319,6 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Маяк позади";
 
-/* settings.general.beacon.direction.style */
-"Beacon Direction Style" = "Стиль направления маяка";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
-"Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Обновление расстояния до маяка. Объявлено %1$@, маяк в настоящее время находится на расстоянии %2$@.";
-
-/* Notification, %@ is a point of interest, 'Beacon Distance update. Announced <Space Needle>' */
-"Beacon distance update. Announced %@." = "Обновление расстояния до маяка. Объявлено %@.";
-
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Маяк на %@";
 
@@ -344,10 +359,10 @@
 "Both decimal numbers and Google plus codes are supported" = "Поддерживаются как десятичные числа, так и коды Google Plus.";
 
 /* No comment provided by engineer. */
-"Breadcrumb Marker Dropped" = "хлебная крошка брошена";
+"Breadcrumb Marker Dropped" = "Метка навигационной цепочки удалена";
 
 /* No comment provided by engineer. */
-"Breadcrumb Mode" = "Режим "хлебные крошки"";
+"Breadcrumb Mode" = "Режим навигации";
 
 /* first_launch.callouts.example.1 */
 "Cafe" = "Кафе";
@@ -363,6 +378,9 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Калибровка завершена";
+
+/* settings.general.beacon.direction.style */
+"Callouts Direction Style" = "Стиль направления выносок";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Объявления отключены";
@@ -503,7 +521,10 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Расстояние между путевыми точками, ширина >= %@";
 
-/* settings.callout.distance */
+/* settings.callout.distance.poi */
+"Distance to Points of Interest" = "Расстояние до достопримечательностей";
+
+/* settings.callout.distance.beacon */
 "Distance to the Audio Beacon" = "Расстояние до звукового маяка";
 
 /* beacon.distance.unknown */
@@ -513,7 +534,7 @@
 "Distance: %@ ." = "Расстояние: %@ .";
 
 /* url_resource.alert.route.import_existing.message */
-"Do you want to replace it? Replacing this route will also replace the markers used in this route." =" Хотите заменить? При этом метки, используемые в этом маршруте, также будут заменены.";
+"Do you want to replace it? Replacing this route will also replace the markers used in this route." = " Хотите заменить? При этом будут заменены метки, используемые в этом маршруте.";
 
 /* preview.alert.restart.message */
 "Do you want to restart VoiceVista Street Preview at this location?" = "Вы хотите перезапустить предварительный просмотр улиц VoiceVista в этом месте?";
@@ -555,7 +576,7 @@
 "Drop" = "Падение";
 
 /* No comment provided by engineer. */
-"Drop Breadcrumb Marker" = "Бросить хлебную крошку";
+"Drop Breadcrumb Marker" = "Добавить метку навигационной цепочки";
 
 /* directions.cardinal.east */
 "East" = "Восток";
@@ -630,7 +651,7 @@
 "Failed to Create Route" = "Не удалось создать маршрут";
 
 /* No comment provided by engineer. */
-"Failed to Drop Breadcrumb Marker" = "Не получилось бросить хлебную крошку.";
+"Failed to Drop Breadcrumb Marker" = "Не удалось удалить метку навигационной цепочки.";
 
 /* No comment provided by engineer. */
 "Failed to Generate Reverse Route" = "Не удалось создать обратный маршрут.";
@@ -776,12 +797,6 @@
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Информация о перекрестках и транспорте";
 
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Intersection call out. Announced <Space Needle>, intersection currently <20 meters> away' */
-"Intersection call out. Announced %1$@, intersection currently %2$@ away." = "Объявление перекрестка. Объявлено %1$@, перекресток в настоящее время находится на расстоянии %2$@.";
-
-/* Notification, %@ is a point of interest, 'Intersection call out. Announced <Space Needle>' */
-"Intersection call out. Announced %@." = "Объявление перекрестка. Объявлено %@.";
-
 /* callouts.intersection_callout */
 "Intersection Callout" = "Объявление перекрёстка";
 
@@ -801,13 +816,13 @@
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
 /* No comment provided by engineer. */
-"Invalid Breadcrumb Route Name" = "Неверное имя маршрута хлебных крошекк";
+"Invalid Breadcrumb Route Name" = "Неверное имя маршрута навигации";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Широта и долгота введены Неверно";
 
 /* No comment provided by engineer. */
-"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме "Хлебные крошки" легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Легко добавить новую метку для последующего использования в режиме навигации. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
 
 /* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Похоже, ваши настройки конфиденциальности не позволяют использовать движение и фитнес, измените их в приложении «Настройки».";
@@ -894,7 +909,7 @@
 "Marker Annotation" = "Примечание метки";
 
 /* Marker Information, %@ is a location, 'Marker at <Starbucks>' */
-"Marker at %@" = "Метка у %@";
+"Marker at %@" = "Метка в %@";
 
 /* markerAddedEvent.marker_created */
 "Marker created" = "Метка создана";
@@ -1133,6 +1148,9 @@
 /* No comment provided by engineer. */
 "Please try later." = "Пожалуйста, попробуйте позже.";
 
+/* settings.callout.distance.poi.detail */
+"Points of interest distance info" = "Информация о расстоянии до достопримечательностей";
+
 /* voice.action.preview */
 "Preview" = "Предварительный просмотр";
 
@@ -1147,12 +1165,6 @@
 
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Предыдущее местоположение, по %@";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Previous Location. Announced <Space Needle>, currently <20 meters> away' */
-"Previous Location. Announced %1$@, currently %2$@ away." = "Предыдущее местоположение. Объявлено %1$@, в настоящее время на расстоянии %2$@";
-
-/* Notification, %@ is a point of interest, 'Previous Location. Announced <Space Needle>' */
-"Previous Location. Announced %@." = "Предыдущее местоположение. Объявлено %@.";
 
 /* beacon.command.2 */
 "Previous waypoint" = "Предыдущая путевая точка";
@@ -1361,12 +1373,13 @@
 "Start Beacon" = "Запустить маяк";
 
 /* Label of button to start breadcrumb mode */
-"Start Breadcrumb Mode" = "Запустить режим "хлебные крошки"";
+"Start Breadcrumb Mode" = "Запустить режим навигации";
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Начать калибровку";
 
-/* No comment provided by engineer. */
+/* user_activity.start_route.title
+   voice.action.start_route */
 "Start Route" = "Начать маршрут";
 
 /* user_activity.street_preview.title */
@@ -1414,7 +1427,7 @@
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
 
 /* %@ is the name of a route being breadcrumb mode */
-"The dropped breadcrumb marker will be named automatically and added to route %@." = "Брошенной хлебной крошке будет присвоено имя автоматически, и она будет добавлена к маршруту %@.";
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "Переброшенной метке навигационной цепочки будет присвоено имя автоматически, и она будет добавлена к маршруту %@.";
 
 /* headphonesSetting.connect_headset.unavailable */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Выбранные вами наушники в настоящее время недоступны для подключения. Пожалуйста, повторите попытку позже.";
@@ -1476,7 +1489,7 @@
 "Toggle markers on/off to select multiple." = "Включите/выключите метки, чтобы выбрать несколько меток разом.";
 
 /* No comment provided by engineer. */
-"Too Close to Drop Another Breadcrumb Marker" = "Слишком близко, чтобы бросить еще одну хлебную крошку";
+"Too Close to Drop Another Breadcrumb Marker" = "Слишком близко, чтобы добавить еще одну метку навигационной цепочки";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Всего путевых точек: %@ .";

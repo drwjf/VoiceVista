@@ -28,12 +28,6 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@ se trouvait à %2$@ %3$@";
 
-/* Notification, %1$@ is a point of interest, %2$@ is time ago, %3$@ is distance with units, '<Space Needle>, announced <1 minute ago>, <20 meters> away' */
-"%1$@, announced %2$@, %3$@ away." = "%1$@ annoncé il y a %2$@, à %3$@.";
-
-/* Notification, %1$@ is a point of interest, %2$@ is time ago. '<Space Needle>, announced <1 minute ago>.' */
-"%1$@, announced %2$@." = "%1$@ annoncé il y a %2$@.";
-
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, direction %2$@";
 
@@ -169,9 +163,6 @@
 /* No comment provided by engineer. */
 "Announce Street Name" = "Annoncer le nom de la rue";
 
-/* Notification, %@ is a point of interest, 'Announced <Space Needle>' */
-"Announced %@." = "%@ annoncé.";
-
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Ajoutez des waypoints inversés à la queue pour faire de l'itinéraire un voyage circulaire.";
 
@@ -229,8 +220,41 @@
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "À %@";
 
-/* Directions using clock positions. Straight ahead uses 12 o'clock, right uses 3 o'clock */
-"at %@ o'clock" = "at %@ o'clock";
+/* Directions using 1  o'clock position. */
+"at 1 o'clock" = "à 1 heure";
+
+/* Directions using 10 o'clock position. */
+"at 10 o'clock" = "à 10 heures";
+
+/* Directions using 11 o'clock position. */
+"at 11 o'clock" = "à 11 heures";
+
+/* Directions using 12 o'clock position. */
+"at 12 o'clock" = "à 12 heures";
+
+/* Directions using 2  o'clock position. */
+"at 2 o'clock" = "à 02 heures";
+
+/* Directions using 3  o'clock position. */
+"at 3 o'clock" = "à 3 heures";
+
+/* Directions using 4  o'clock position. */
+"at 4 o'clock" = "à 4 heures";
+
+/* Directions using 5  o'clock position. */
+"at 5 o'clock" = "à 5 heure";
+
+/* Directions using 6  o'clock position. */
+"at 6 o'clock" = "à 6 heure";
+
+/* Directions using 7  o'clock position. */
+"at 7 o'clock" = "à 7 heure pile";
+
+/* Directions using 8  o'clock position. */
+"at 8 o'clock" = "à 8 heures";
+
+/* Directions using 9  o'clock position. */
+"at 9 o'clock" = "à 9 heures";
 
 /* beacon.at.ahead */
 "at ahead" = "en avant";
@@ -295,15 +319,6 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Balise derrière vous";
 
-/* settings.general.beacon.direction.style */
-"Beacon Direction Style" = "Style de direction de la balise";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Beacon distance update. Announced <Space Needle>, beacon is currently <20 meters> away' */
-"Beacon distance update. Announced %1$@, beacon is currently %2$@ away." = "Mise à jour de la distance de la balise. %1$@ prévu, la balise est actuellement à %2$@.";
-
-/* Notification, %@ is a point of interest, 'Beacon Distance update. Announced <Space Needle>' */
-"Beacon distance update. Announced %@." = "Mise à jour de la distance de la balise. %@ prévu.";
-
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Balise sur %@";
 
@@ -363,6 +378,9 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Étalonnage terminé";
+
+/* settings.general.beacon.direction.style */
+"Callouts Direction Style" = "Style de direction des légendes";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Notifications désactivées";
@@ -503,7 +521,10 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distance entre les waypoints, devrait >= %@";
 
-/* settings.callout.distance */
+/* settings.callout.distance.poi */
+"Distance to Points of Interest" = "Distance aux points d'intérêt";
+
+/* settings.callout.distance.beacon */
 "Distance to the Audio Beacon" = "Distance de la balise audio";
 
 /* beacon.distance.unknown */
@@ -775,12 +796,6 @@
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Infos intersections transports";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Intersection call out. Announced <Space Needle>, intersection currently <20 meters> away' */
-"Intersection call out. Announced %1$@, intersection currently %2$@ away." = "Notification d’intersection. %1$@ annoncé, intersection à %2$@.";
-
-/* Notification, %@ is a point of interest, 'Intersection call out. Announced <Space Needle>' */
-"Intersection call out. Announced %@." = "Notification d’intersection. %@ annoncé.";
 
 /* callouts.intersection_callout */
 "Intersection Callout" = "Notification d’intersection";
@@ -1133,6 +1148,9 @@
 /* No comment provided by engineer. */
 "Please try later." = "Merci d'essayer plus tard.";
 
+/* settings.callout.distance.poi.detail */
+"Points of interest distance info" = "Points d'intérêt informations sur la distance";
+
 /* voice.action.preview */
 "Preview" = "Aperçu";
 
@@ -1147,12 +1165,6 @@
 
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Emplacement précédent, le long de %@";
-
-/* Notification, %1$@ is a point of interest %2$@ is distance with units, 'Previous Location. Announced <Space Needle>, currently <20 meters> away' */
-"Previous Location. Announced %1$@, currently %2$@ away." = "Emplacement précédent. %1$@ annoncé, actuellement à %2$@.";
-
-/* Notification, %@ is a point of interest, 'Previous Location. Announced <Space Needle>' */
-"Previous Location. Announced %@." = "Emplacement précédent. %@ annoncé.";
 
 /* beacon.command.2 */
 "Previous waypoint" = "Point de repère précédent";
@@ -1366,7 +1378,8 @@
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Démarrer l’étalonnage";
 
-/* No comment provided by engineer. */
+/* user_activity.start_route.title
+   voice.action.start_route */
 "Start Route" = "Démarrer l'Itinéraire";
 
 /* user_activity.street_preview.title */
