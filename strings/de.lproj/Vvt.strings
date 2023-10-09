@@ -221,40 +221,40 @@
 "At %@" = "Bei %@";
 
 /* Directions using 1  o'clock position. */
-"at 1 o'clock" = "um 1 Uhr";
+"at 1 o'clock" = "auf 1 Uhr";
 
 /* Directions using 10 o'clock position. */
-"at 10 o'clock" = "um 10 Uhr";
+"at 10 o'clock" = "auf 10 Uhr";
 
 /* Directions using 11 o'clock position. */
-"at 11 o'clock" = "um 11 Uhr";
+"at 11 o'clock" = "auf 11 Uhr";
 
 /* Directions using 12 o'clock position. */
-"at 12 o'clock" = "um 12 Uhr";
+"at 12 o'clock" = "auf 12 Uhr";
 
 /* Directions using 2  o'clock position. */
-"at 2 o'clock" = "um 2 Uhr";
+"at 2 o'clock" = "auf 2 Uhr";
 
 /* Directions using 3  o'clock position. */
-"at 3 o'clock" = "um 3 Uhr";
+"at 3 o'clock" = "auf 3 Uhr";
 
 /* Directions using 4  o'clock position. */
-"at 4 o'clock" = "Um 4 Uhr";
+"at 4 o'clock" = "auf 4 Uhr";
 
 /* Directions using 5  o'clock position. */
-"at 5 o'clock" = "um 5 Uhr";
+"at 5 o'clock" = "auf 5 Uhr";
 
 /* Directions using 6  o'clock position. */
-"at 6 o'clock" = "Um 6 Uhr";
+"at 6 o'clock" = "auf 6 Uhr";
 
 /* Directions using 7  o'clock position. */
-"at 7 o'clock" = "um 7 Uhr";
+"at 7 o'clock" = "auf 7 Uhr";
 
 /* Directions using 8  o'clock position. */
-"at 8 o'clock" = "um 8 Uhr";
+"at 8 o'clock" = "auf 8 Uhr";
 
 /* Directions using 9  o'clock position. */
-"at 9 o'clock" = "um 9 Uhr";
+"at 9 o'clock" = "auf 9 Uhr";
 
 /* beacon.at.ahead */
 "at ahead" = "geradeaus";
@@ -380,7 +380,7 @@
 "Calibration complete" = "Kalibrierung abgeschlossen";
 
 /* settings.general.beacon.direction.style */
-"Callouts Direction Style" = "Callouts-Richtungsstil";
+"Callouts Direction Style" = "Richtungsangabe für Orte";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Ansagen aus";
@@ -521,17 +521,15 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunkten sollte >= %@ sein.";
 
-/* settings.callout.distance.poi */
-"Distance to Points of Interest" = "Entfernung zu Sehenswürdigkeiten";
+"Distance to Points of Interest" = "Entfernung zu wichtigen Orten";
 
-/* settings.callout.distance.beacon */
 "Distance to the Audio Beacon" = "Entfernung zum Tonsignal";
 
 /* beacon.distance.unknown */
 "Distance unknown" = "Entfernung unbekannt";
 
 /* %@ is the distance to the beacon */
-"Distance: %@ ." = "Entfernung: %@ .";
+"Distance: %@ ." = "Entfernung: %@";
 
 /* url_resource.alert.route.import_existing.message */
 "Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Möchten Sie sie ersetzen? Wenn Sie diese Route ersetzen, werden auch die darin verwendeten Markierungen ersetzt.";
@@ -1149,9 +1147,8 @@
 "Please try later." = "Bitte versuchen Sie es später.";
 
 /* settings.callout.distance.poi.detail */
-"Points of interest distance info" = "Informationen zur Entfernung von Sonderzielen";
+"Points of interest distance info" = "Entfernungsangabe zu wichtigen Orten";
 
-/* voice.action.preview */
 "Preview" = "Vorschau";
 
 /* preview.alert.restart.title */
@@ -1248,7 +1245,7 @@
 "Route Error" = "Fehler in Route";
 
 /* No comment provided by engineer. */
-"Route Name" = "Name der Route";
+"Route Name" = "Routenname";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Name der Route: %@ .";
@@ -1378,8 +1375,6 @@
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Kalibrierung beginnen";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
