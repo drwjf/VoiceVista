@@ -119,7 +119,7 @@
 "Add Waypoints" = "Добавить путевые точки";
 
 /* No comment provided by engineer. */
-"Add Waypoints in Breadcrumb Mode" = "Добавление путевых точек в режиме "Хлебные крошки"";
+"Add Waypoints in Breadcrumb Mode" = "Добавление путевых точек в режиме 'хлебные крошки'";
 
 /* No comment provided by engineer. */
 "Address Callout Rate" = "Частота объявления названий улиц";
@@ -362,7 +362,7 @@
 "Breadcrumb Marker Dropped" = "Хлебная крошка брошена";
 
 /* No comment provided by engineer. */
-"Breadcrumb Mode" = "Режим "хлебные крошки"";
+"Breadcrumb Mode" = "Режим 'хлебные крошки'";
 
 /* first_launch.callouts.example.1 */
 "Cafe" = "Кафе";
@@ -395,10 +395,13 @@
 "Cancel Connecting" = "Отменить подключение";
 
 /* No comment provided by engineer. */
-"Change Beacon Direction Style" = "Изменить стиль направления маяка";
+"Change Callouts Direction Style" = "Изменить стиль направления выносок";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Изменить приложение внешних карт";
+
+/* No comment provided by engineer. */
+"Chat Group" = "Группа чата";
 
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Проверить состояние наушников";
@@ -752,6 +755,9 @@
 /* troubleshooting.accuracy.footer */
 "Hear about the status of the headphones you are using with VoiceVista" = "Узнайте о состоянии наушников, которые вы используете с VoiceVista";
 
+/* user_activity.intersections.title */
+"Hear Intersections Ahead" = "Слушайте перекрестки впереди";
+
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Прослушать метки поблизости";
 
@@ -815,14 +821,17 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
+/* ui.action_button.intersections */
+"Intersections Ahead" = "Перекрестки впереди";
+
 /* No comment provided by engineer. */
-"Invalid Breadcrumb Route Name" = "Неверное имя маршрута в режиме "хлебные крошки"";
+"Invalid Breadcrumb Route Name" = "Неверное имя маршрута в режиме 'хлебные крошки'";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Широта и долгота введены Неверно";
 
 /* No comment provided by engineer. */
-"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме "Хлебные крошки" легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме 'хлебные крошки' легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
 
 /* No comment provided by engineer. */
 "It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Похоже, ваши настройки конфиденциальности не позволяют использовать движение и фитнес, измените их в приложении «Настройки».";
@@ -896,26 +905,14 @@
 /* markers.generic_name */
 "Marker" = "Метка";
 
-/* Marker Information, %1$@ is distance with units and %2$@ is a point of interest, 'Marker <120 feet> from <Starbucks>' */
-"Marker %1$@ from %2$@" = "Метка %1$@ от %2$@";
-
-/* Marker Information, %@ is a street name, 'Marker along <Pike Street>' */
-"Marker along %@" = "Метка по %@";
-
 /* universal_links.marker_existing.alert.title */
 "Marker already exists" = "Метка уже существует";
 
 /* No comment provided by engineer. */
 "Marker Annotation" = "Примечание метки";
 
-/* Marker Information, %@ is a location, 'Marker at <Starbucks>' */
-"Marker at %@" = "Метка в %@";
-
 /* markerAddedEvent.marker_created */
 "Marker created" = "Метка создана";
-
-/* Marker Information, %@ is the localized date and time, 'Marker created on <Feb 29, 2016 at 12:24 PM>' */
-"Marker created on %@" = "Метка создана %@";
 
 /* markers.action.deleted */
 "Marker deleted" = "Метка удалена";
@@ -1373,7 +1370,7 @@
 "Start Beacon" = "Запустить маяк";
 
 /* Label of button to start breadcrumb mode */
-"Start Breadcrumb Mode" = "Запустить режим "хлебные крошки"";
+"Start Breadcrumb Mode" = "Запустить режим 'хлебные крошки'";
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Начать калибровку";
@@ -1542,12 +1539,6 @@
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Неизвестное текущее местоположение";
 
-/* poi.unknown_place */
-"Unknown Place" = "Неизвестное место";
-
-/* directions.unknown_road */
-"Unknown Road" = "Неизвестная дорога";
-
 /* No comment provided by engineer. */
 "Unknown street name" = "Неизвестное название улицы";
 
@@ -1593,9 +1584,6 @@
 
 /* volumeSetting.voice */
 "VOICE" = "ГОЛОС";
-
-/* No comment provided by engineer. */
-"Voice Chat Group" = "Присоединиться к группе в WhatsApp";
 
 /* voiceSetting.title */
 "Voice Settings" = "Настройки голоса";
