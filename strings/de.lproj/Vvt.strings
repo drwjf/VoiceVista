@@ -395,10 +395,13 @@
 "Cancel Connecting" = "Verbinden abbrechen";
 
 /* No comment provided by engineer. */
-"Change Beacon Direction Style" = "Richtungsangabe für Signale ändern";
+"Change Callouts Direction Style" = "Ändern Sie den Stil der Callout-Richtung";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Externe App für Karten ändern";
+
+/* No comment provided by engineer. */
+"Chat Group" = "Chat-Gruppe";
 
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Status der Kopfhörer prüfen";
@@ -521,8 +524,10 @@
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunkten sollte >= %@ sein.";
 
+/* settings.callout.distance.poi */
 "Distance to Points of Interest" = "Entfernung zu wichtigen Orten";
 
+/* settings.callout.distance.beacon */
 "Distance to the Audio Beacon" = "Entfernung zum Tonsignal";
 
 /* beacon.distance.unknown */
@@ -750,6 +755,9 @@
 /* troubleshooting.accuracy.footer */
 "Hear about the status of the headphones you are using with VoiceVista" = "Erfahren Sie mehr über den Status der Kopfhörer, die Sie mit VoiceVista verwenden";
 
+/* user_activity.intersections.title */
+"Hear Intersections Ahead" = "Hören Sie Kreuzungen im Voraus";
+
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Markierungen in der Nähe hören";
 
@@ -812,6 +820,9 @@
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Bei Kreuzung mit %@";
+
+/* ui.action_button.intersections */
+"Intersections Ahead" = "Kreuzungen voraus";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
@@ -894,26 +905,14 @@
 /* markers.generic_name */
 "Marker" = "Markierung";
 
-/* Marker Information, %1$@ is distance with units and %2$@ is a point of interest, 'Marker <120 feet> from <Starbucks>' */
-"Marker %1$@ from %2$@" = "Markierung %1$@ von %2$@ entfernt";
-
-/* Marker Information, %@ is a street name, 'Marker along <Pike Street>' */
-"Marker along %@" = "Markierung auf %@";
-
 /* universal_links.marker_existing.alert.title */
 "Marker already exists" = "Markierung ist bereits vorhanden";
 
 /* No comment provided by engineer. */
 "Marker Annotation" = "Markierungsnotiz";
 
-/* Marker Information, %@ is a location, 'Marker at <Starbucks>' */
-"Marker at %@" = "Markierung bei %@";
-
 /* markerAddedEvent.marker_created */
 "Marker created" = "Markierung erstellt";
-
-/* Marker Information, %@ is the localized date and time, 'Marker created on <Feb 29, 2016 at 12:24 PM>' */
-"Marker created on %@" = "Markierung am %@ erstellt";
 
 /* markers.action.deleted */
 "Marker deleted" = "Markierung gelöscht";
@@ -1149,6 +1148,7 @@
 /* settings.callout.distance.poi.detail */
 "Points of interest distance info" = "Entfernungsangabe zu wichtigen Orten";
 
+/* voice.action.preview */
 "Preview" = "Vorschau";
 
 /* preview.alert.restart.title */
@@ -1375,6 +1375,8 @@
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Kalibrierung beginnen";
 
+/* user_activity.start_route.title
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1537,12 +1539,6 @@
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Unbekannter aktueller Standort";
 
-/* poi.unknown_place */
-"Unknown Place" = "Unbekannter Ort";
-
-/* directions.unknown_road */
-"Unknown Road" = "Unbekannte Straße";
-
 /* No comment provided by engineer. */
 "Unknown street name" = "Unbekannter Straßenname";
 
@@ -1588,9 +1584,6 @@
 
 /* volumeSetting.voice */
 "VOICE" = "STIMME";
-
-/* No comment provided by engineer. */
-"Voice Chat Group" = "Sprach-Chat-Gruppe";
 
 /* voiceSetting.title */
 "Voice Settings" = "Spracheinstellungen";
