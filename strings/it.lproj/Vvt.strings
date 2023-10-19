@@ -52,9 +52,6 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "%@ è nelle vicinanze";
 
-/* Time unit past tense, %@ is a number, '<15> minutes ago' */
-"%@ minutes ago" = "%@ minuti fa";
-
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "Rotonda di %@";
 
@@ -78,12 +75,6 @@
 
 /* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
 "%@, goes right in roundabout" = "%@, è sulla destra alla rotonda";
-
-/* time.one_hour_ago */
-"1 hour ago" = "1 ora fa";
-
-/* time.one_minute_ago */
-"1 minute ago" = "1 minuto fa";
 
 /* No comment provided by engineer. */
 "[Reverse]" = "[Inversione]";
@@ -120,9 +111,6 @@
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Aggiungi waypoint in modalità passo passo";
-
-/* No comment provided by engineer. */
-"Address Callout Rate" = "Velocità di notifica indirizzo";
 
 /* directions.unknown_address */
 "Address is unknown" = "L'indirizzo è sconosciuto";
@@ -256,33 +244,9 @@
 /* Directions using 9  o'clock position. */
 "at 9 o'clock" = "Alle 9";
 
-/* beacon.at.ahead */
-"at ahead" = "avanti";
-
-/* beacon.at.ahead_to_the_left */
-"at ahead left" = "davanti a sinistra";
-
-/* beacon.at.ahead_to_the_right */
-"at ahead right" = "avanti a destra";
-
-/* beacon.at.behind */
-"at behind" = "a dietro";
-
-/* beacon.at.behind_to_the_left */
-"at behind left" = "dietro a sinistra";
-
-/* beacon.at.behind_to_the_right */
-"at behind right" = "dietro a destra";
-
 /* first_use_experience.preview.tutorial.alert.message.3
    preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "Ad ogni incrocio, puoi utilizzare nuovamente il telefono per scegliere quale strada percorrere, oppure puoi esplorare l'ambiente circostante utilizzando i familiari pulsanti di VoiceVista nella parte inferiore dello schermo.";
-
-/* beacon.at.to_the_left */
-"at left" = "a sinistra";
-
-/* beacon.at.to_the_right */
-"at right" = "A destra";
 
 /* beacon.audio_beacon
    settings.general.beacon */
@@ -794,11 +758,23 @@
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importa file di percorso Soundscape";
 
+/* voiceSetting.in_vehicle_rate */
+"IN VEHICLE SPEAKING RATE" = "NELLA VELOCITÀ DI PARLAMENTO DEL VEICOLO";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate" = "Nella velocità di conversazione del veicolo";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate. How does this sound?" = "Nella velocità di conversazione del veicolo. Come ti sembra?";
+
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Includi strade senza nome durante Street Preview";
 
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Immettere latitudine e longitudine";
+
+/* No comment provided by engineer. */
+"Instructions for each waypoint one by one" = "Istruzioni per ogni punto di passaggio uno per uno";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informazioni sugli incroci e sui mezzi di trasporto";
@@ -838,9 +814,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Potrebbe volerci un po' di tempo per creare l'elenco dei luoghi nelle vicinanze. Se al momento non ci sono dati disponibili, prova a tornare più tardi.";
-
-/* time.just_now */
-"Just now" = "Proprio ora";
 
 /* general.alert.keep */
 "Keep" = "Mantieni";
@@ -952,6 +925,12 @@
 "Name" = "Nome";
 
 /* No comment provided by engineer. */
+"Navigation for Beacon" = "Navigazione per Beacon";
+
+/* No comment provided by engineer. */
+"Navigation for Route" = "Navigazione per il percorso";
+
+/* No comment provided by engineer. */
 "Navigation instructions" = "Istruzioni di navigazione";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
@@ -1042,6 +1021,15 @@
 /* general.alert.offline_default.title */
 "Offline mode" = "Modalità offline";
 
+/* No comment provided by engineer. */
+"On foot speaking rate" = "Velocità di conversazione a piedi";
+
+/* voiceSetting.on_foot_rate */
+"ON FOOT SPEAKING RATE" = "A PIEDI TARIFFA PARLATA";
+
+/* No comment provided by engineer. */
+"On foot speaking rate. How does this sound?" = "Velocità di conversazione a piedi. Come ti sembra?";
+
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Ops! Si è verificato un errore.";
 
@@ -1068,9 +1056,6 @@
 
 /* settings.preview */
 "OTHERS" = "ALTRI";
-
-/* time.over_one_hour_ago */
-"Over 1 hour ago" = "Più di 1 ora fa";
 
 /* headphonesSetting.title.pair_audio */
 "Pair Headphones Audio" = "Associa audio degli auricolari";
@@ -1305,6 +1290,9 @@
    settings.title */
 "Settings" = "Impostazioni";
 
+/* No comment provided by engineer. */
+"Shake to Repeat Last Callout" = "Agitare per ripetere l'ultimo callout";
+
 /* locationdetail.command.2 */
 "Share" = "Condividi";
 
@@ -1360,12 +1348,6 @@
 /* directions.cardinal.south_west */
 "South West" = "Sud Ovest";
 
-/* voiceSetting.rate */
-"SPEAKING RATE" = "VELOCITA' SINTESI VOCALE";
-
-/* voiceSetting.rate */
-"Speaking rate" = "Velocità sintesi vocale";
-
 /* locationdetail.command.1 */
 "Start Beacon" = "Avvia audiofaro";
 
@@ -1396,6 +1378,9 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "Interrompi Percorso";
+
+/* No comment provided by engineer. */
+"Street Name Callout Rate" = "Tasso di chiamata del nome della strada";
 
 /* No comment provided by engineer. */
 "Street Names" = "Nomi delle strade";
@@ -1435,6 +1420,9 @@
 
 /* callouts.no_nearby_markers_to_call_out_now */
 "There are no nearby markers to call out right now." = "Non ci sono indicatori nelle vicinanze da notificare in questo momento.";
+
+/* No comment provided by engineer. */
+"There are no turn by turn instructions now." = "Non ci sono istruzioni svolta per svolta ora.";
 
 /* callouts.nothing_to_call_out_now */
 "There is nothing to call out right now" = "Non c'è niente da notificare in questo momento";
@@ -1502,6 +1490,9 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Attiva o disattiva tutti gli avvisi";
+
+/* No comment provided by engineer. */
+"Turn by turn instructions" = "Istruzioni svolta per svolta";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Attiva i servizi di localizzazione per utilizzare VoiceVista";
@@ -1703,7 +1694,10 @@
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Durante la navigazione con VoiceVista, sarai guidato da un audiofaro, e le posizioni intorno e davanti a te ti possono essere notificate.";
 
 /* No comment provided by engineer. */
-"When running in the backgroun mode" = "Quando si esegue in background";
+"When running in the background mode" = "Quando si esegue in modalità background";
+
+/* No comment provided by engineer. */
+"When running in the foreground mode" = "Quando si esegue in modalità primo piano";
 
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Quando VoiceVista funziona offline, la ricerca è disabilitata. Chiudi per tornare alla schermata precedente";
