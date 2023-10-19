@@ -52,9 +52,6 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "%@ рядом";
 
-/* Time unit past tense, %@ is a number, '<15> minutes ago' */
-"%@ minutes ago" = "%@ минут назад";
-
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ круговой перекрёсток";
 
@@ -78,12 +75,6 @@
 
 /* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
 "%@, goes right in roundabout" = "%@, идёт вправо по кругу";
-
-/* time.one_hour_ago */
-"1 hour ago" = "1 час назад";
-
-/* time.one_minute_ago */
-"1 minute ago" = "1 минуту назад";
 
 /* No comment provided by engineer. */
 "[Reverse]" = "[Обратный]";
@@ -794,11 +785,23 @@
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Импортировать файл маршрута Soundscape";
 
+/* voiceSetting.in_vehicle_rate */
+"IN VEHICLE SPEAKING RATE" = "В АВТОМОБИЛЕ СКОРОСТЬ ГОВОРЯ";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate" = "Скорость разговора в автомобиле";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate. How does this sound?" = "Скорость разговора в автомобиле. Как это звучит?";
+
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Включить безымянные дороги во время предварительного просмотра улиц";
 
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Ввести широту и долготу";
+
+/* No comment provided by engineer. */
+"Instructions for each waypoint one by one" = "Инструкции для каждой путевой точки по отдельности";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Информация о перекрестках и транспорте";
@@ -838,9 +841,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Создание списка ближайших мест может занять некоторое время. Если в настоящее время данные не доступны, попробуйте зайти позже.";
-
-/* time.just_now */
-"Just now" = "Только что";
 
 /* general.alert.keep */
 "Keep" = "Сохранить";
@@ -952,6 +952,12 @@
 "Name" = "Имя";
 
 /* No comment provided by engineer. */
+"Navigation for Beacon" = "Навигация по маяку";
+
+/* No comment provided by engineer. */
+"Navigation for Route" = "Навигация по маршруту";
+
+/* No comment provided by engineer. */
 "Navigation instructions" = "Инструкции по навигации";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
@@ -1042,6 +1048,15 @@
 /* general.alert.offline_default.title */
 "Offline mode" = "Автономный режим";
 
+/* No comment provided by engineer. */
+"On foot speaking rate" = "Скорость разговорной речи пешком";
+
+/* voiceSetting.on_foot_rate */
+"ON FOOT SPEAKING RATE" = "НОЖЬЯ ГОВОРЯ";
+
+/* No comment provided by engineer. */
+"On foot speaking rate. How does this sound?" = "Пешком говорящий темп. Как это звучит?";
+
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Ой! Что-то пошло не так.";
 
@@ -1068,9 +1083,6 @@
 
 /* settings.preview */
 "OTHERS" = "ДРУГОЕ";
-
-/* time.over_one_hour_ago */
-"Over 1 hour ago" = "Более 1 часа назад";
 
 /* headphonesSetting.title.pair_audio */
 "Pair Headphones Audio" = "Сопряжение наушников";
@@ -1305,6 +1317,9 @@
    settings.title */
 "Settings" = "Настройки";
 
+/* No comment provided by engineer. */
+"Shake to Repeat Last Callout" = "Встряхните, чтобы повторить последний вызов";
+
 /* locationdetail.command.2 */
 "Share" = "Поделиться";
 
@@ -1359,12 +1374,6 @@
 
 /* directions.cardinal.south_west */
 "South West" = "Юго-Запад";
-
-/* voiceSetting.rate */
-"SPEAKING RATE" = "СКОРОСТЬ РЕЧИ";
-
-/* voiceSetting.rate */
-"Speaking rate" = "Скорость речи";
 
 /* locationdetail.command.1 */
 "Start Beacon" = "Запустить маяк";
@@ -1436,6 +1445,9 @@
 /* callouts.no_nearby_markers_to_call_out_now */
 "There are no nearby markers to call out right now." = "Рядом нет меток.";
 
+/* No comment provided by engineer. */
+"There are no turn by turn instructions now." = "Пошаговых инструкций сейчас нет.";
+
 /* callouts.nothing_to_call_out_now */
 "There is nothing to call out right now" = "Объявлений нет";
 
@@ -1502,6 +1514,9 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Включить или отключить все объявления";
+
+/* No comment provided by engineer. */
+"Turn by turn instructions" = "Пошаговые инструкции";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Включите службы  геолокации, чтобы использовать VoiceVista.";
@@ -1703,7 +1718,10 @@
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "При навигации с помощью VoiceVista вы будете ориентироваться по звуковому маяку, а также   получать информацию о местах  вокруг и впереди вас.";
 
 /* No comment provided by engineer. */
-"When running in the backgroun mode" = "При работе в фоновом режиме";
+"When running in the background mode" = "При работе в фоновом режиме";
+
+/* No comment provided by engineer. */
+"When running in the foreground mode" = "При работе в режиме переднего плана";
 
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск мест не доступен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";

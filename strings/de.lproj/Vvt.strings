@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -52,9 +52,6 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "In der Nähe von %@";
 
-/* Time unit past tense, %@ is a number, '<15> minutes ago' */
-"%@ minutes ago" = "vor %@ Minuten";
-
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ Kreisverkehr";
 
@@ -78,12 +75,6 @@
 
 /* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
 "%@, goes right in roundabout" = "%@, führt nach dem Kreisverkehr nach rechts";
-
-/* time.one_hour_ago */
-"1 hour ago" = "vor 1 Stunde";
-
-/* time.one_minute_ago */
-"1 minute ago" = "vor 1 Minute";
 
 /* No comment provided by engineer. */
 "[Reverse]" = "[Umgekehrt]";
@@ -275,8 +266,7 @@
 "at behind right" = "hinten rechts";
 
 /* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 
-*/
+   preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "An jeder Kreuzung können Sie mit dem Telefon eine Straße wählen, oder Sie können Ihre Umgebung mit den Tasten unten auf dem Bildschirm erkunden.";
 
 /* beacon.at.to_the_left */
@@ -286,8 +276,7 @@
 "at right" = "rechts";
 
 /* beacon.audio_beacon
-   settings.general.beacon 
-*/
+   settings.general.beacon */
 "Audio Beacon" = "Tonsignal";
 
 /* beaconSetting.audioStyle */
@@ -309,8 +298,7 @@
 "Banks & ATMs" = "Banken und Geldautomaten";
 
 /* beacon.generic_name
-   settings.general.volume.beacon 
-*/
+   settings.general.volume.beacon */
 "Beacon" = "Signal";
 
 /* volumeSetting.beacon */
@@ -437,8 +425,7 @@
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Herzlichen Glückwunsch! Ihre Airpods sind nun fertig eingerichtet, und Sie können Ihr Telefon in die Tasche stecken und losgehen. VoiceVista erkennt jetzt die Richtung an der Blickrichtung Ihres Kopfes, und Sie müssen das Telefon nicht mehr in der Hand halten. Ein Einzelklick der Kopfhörertaste schaltet das Signal ein oder aus, ein Doppelklick sagt Ihren Standort an, und ein Dreifachklick wiederholt die letzte Ansage.";
 
 /* headphonesSetting.button.1
-   headphonesSetting.connect_headset 
-*/
+   headphonesSetting.connect_headset */
 "Connect Headphones" = "Kopfhörer verbinden";
 
 /* ui.continue */
@@ -798,11 +785,23 @@
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Soundscape-Route importieren";
 
+/* voiceSetting.in_vehicle_rate */
+"IN VEHICLE SPEAKING RATE" = "Sprechgeschwindigkeit im Fahrzeug";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate" = "Sprechgeschwindigkeit im Fahrzeug";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate. How does this sound?" = "Sprechgeschwindigkeit im Fahrzeug. Wie klingt das?";
+
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Unbenannte Straßen in VoiceVista Straßenvorschau einschließen";
 
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Länge und Breite eingeben";
+
+/* No comment provided by engineer. */
+"Instructions for each waypoint one by one" = "Anweisungen für jeden Wegpunkt einzeln";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informationen zu Kreuzungen und Transport";
@@ -842,9 +841,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Es kann etwas dauern, die Liste der Orte in der Nähe zu erstellen. Sollten im Moment keine Daten verfügbar sein, versuchen Sie es bitte später erneut.";
-
-/* time.just_now */
-"Just now" = "Gerade eben";
 
 /* general.alert.keep */
 "Keep" = "Behalten";
@@ -949,12 +945,17 @@
 "Mute on/off" = "Stummschaltung ein/aus";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* markers.leftBarItem.sortByName */
 "Name" = "Name";
+
+/* No comment provided by engineer. */
+"Navigation for Beacon" = "Navigation für Beacon";
+
+/* No comment provided by engineer. */
+"Navigation for Route" = "Navigation für Route";
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Navigationshinweise";
@@ -1041,12 +1042,20 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow 
-*/
+   general.alert.notnow */
 "Not Now" = "Später";
 
 /* general.alert.offline_default.title */
 "Offline mode" = "Offlinemodus";
+
+/* No comment provided by engineer. */
+"On foot speaking rate" = "Sprechtarif zu Fuß";
+
+/* voiceSetting.on_foot_rate */
+"ON FOOT SPEAKING RATE" = "PREIS ZU FUSSSPRECHEN";
+
+/* No comment provided by engineer. */
+"On foot speaking rate. How does this sound?" = "Sprechtarif zu Fuß. Wie klingt das?";
 
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Hoppla! Etwas ist schief gelaufen.";
@@ -1074,9 +1083,6 @@
 
 /* settings.preview */
 "OTHERS" = "ANDERE";
-
-/* time.over_one_hour_ago */
-"Over 1 hour ago" = "Vor mehr als 1 Stunde";
 
 /* headphonesSetting.title.pair_audio */
 "Pair Headphones Audio" = "Kopfhörer verbinden, Audio";
@@ -1139,8 +1145,7 @@
 "Please enter an address to search for places worldwide." = "Bitte geben Sie eine Adresse ein, um weltweit nach Orten zu suchen.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1309,9 +1314,11 @@
 "Set a Beacon" = "Signal aktivieren";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
+
+/* No comment provided by engineer. */
+"Shake to Repeat Last Callout" = "Schütteln, um den letzten Aufruf zu wiederholen";
 
 /* locationdetail.command.2 */
 "Share" = "Senden";
@@ -1335,8 +1342,7 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title 
-*/
+   siriSetting.title */
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* vicinity.sleep */
@@ -1369,12 +1375,6 @@
 /* directions.cardinal.south_west */
 "South West" = "Südwest";
 
-/* voiceSetting.rate */
-"SPEAKING RATE" = "SPRECHTEMPO";
-
-/* voiceSetting.rate */
-"Speaking rate" = "Sprechtempo";
-
 /* locationdetail.command.1 */
 "Start Beacon" = "Signal einschalten";
 
@@ -1385,8 +1385,7 @@
 "Start Calibration" = "Kalibrierung beginnen";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1412,8 +1411,7 @@
 
 /* first_use_experience.preview.tutorial.alert.title
    locationdetail.command.2
-   preview.title 
-*/
+   preview.title */
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1441,12 +1439,14 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message 
-*/
+   universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* callouts.no_nearby_markers_to_call_out_now */
 "There are no nearby markers to call out right now." = "Keine Markierungen zum Ansagen in der Nähe";
+
+/* No comment provided by engineer. */
+"There are no turn by turn instructions now." = "Derzeit gibt es keine Abbiegehinweise.";
 
 /* callouts.nothing_to_call_out_now */
 "There is nothing to call out right now" = "Hier gibt es nichts anzusagen";
@@ -1473,8 +1473,7 @@
 "To %@" = "Zu %@";
 
 /* placefilters.footnoot.1
-   places.footnot.2 
-*/
+   places.footnot.2 */
 "To browse nearby places, access to location is required." = "Um Orte in der Nähe anzusehen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* markers.footnote.2 */
@@ -1515,6 +1514,9 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Alle Ansagen ein- oder ausschalten";
+
+/* No comment provided by engineer. */
+"Turn by turn instructions" = "Turn-by-Turn-Anweisungen";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Ortungsdienste aktivieren, um VoiceVista zu verwenden";
@@ -1592,8 +1594,7 @@
 "View Detail" = "Details ansehen";
 
 /* settings.general.voice
-   settings.general.volume.voice 
-*/
+   settings.general.volume.voice */
 "Voice" = "Stimme";
 
 /* volumeSetting.voice */
@@ -1717,7 +1718,10 @@
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Bei der Navigation mit VoiceVista werden Sie von einem Signalton geführt, und Orte in Ihrer Nähe können angesagt werden.";
 
 /* No comment provided by engineer. */
-"When running in the backgroun mode" = "Im Hintergrundmodus";
+"When running in the background mode" = "Bei Ausführung im Hintergrundmodus";
+
+/* No comment provided by engineer. */
+"When running in the foreground mode" = "Bei Ausführung im Vordergrundmodus";
 
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Wenn VoiceVista offline arbeitet, ist die Suche deaktiviert. Schließen, um zum vorherigen Bildschirm zurückzukehren";
