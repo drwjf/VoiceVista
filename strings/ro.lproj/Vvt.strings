@@ -1,0 +1,1770 @@
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+"%1$@ about %2$@" = "%1$@ aproximativ %2$@";
+
+/* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
+"%1$@ around %2$@" = "%1$@ în jur de %2$@";
+
+/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, %3$@ is the orientation, '<Starbucks> is <5 meters> <ahead to the left>' */
+"%1$@ is %2$@ %3$@" = "%1$@ este %2$@ %3$@";
+
+/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, '<Starbucks> is <5 meters> away' */
+"%1$@ is %2$@ away" = "%1$@ este la %2$@ distanță";
+
+/* Notification, %1$@ is a point of interest, %2$@ is distance with units and %3$@ is a physical address, '<Some Place> is currently <5 meters>. Street address is <Some Address>' */
+"%1$@ is currently %2$@. Street address is %3$@." = "%1$@ este în prezent %2$@. Adresa străzii este %3$@.";
+
+/* Notification, %1$@ is a point of interest and %2$@ is a physical address,'<Some Place> is nearby. Street address is <Some Address>' */
+"%1$@ is nearby. Street address is %2$@." = "%1$@ este în apropiere. Adresa străzii este %2$@.";
+
+/* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
+"%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "Au fost atinse %1$@ din %2$@ puncte de referință, %3$@ rămase";
+
+/* Label to display when the user is facing a road that they can travel down, %1$@ is the cardinal direction and %2$@ is the name of the road that they can travel down, 'SW on Main Street' */
+"%1$@ on %2$@" = "%1$@ pe %2$@";
+
+/* Callouts notification, A hardware device only has a certain amount of battery remaining, %1$@ name of device %2$@ percent of battery remaining, 'VoiceVista remote only has 20 percent battery remaining.' */
+"%1$@ only has %2$@ percent battery remaining." = "%1$@ mai are doar %2$@ la sută baterie rămasă.";
+
+/* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
+"%1$@ was %2$@ %3$@" = "%1$@ a fost %2$@ %3$@";
+
+/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
+"%1$@, heading %2$@" = "%1$@, titlul %2$@";
+
+/* Title of a route, %1$@ is the name of the route, %2$@ is the index of the current waypoint and %3$@ is the total number of waypoints in the route, 'Home to Work, Waypoint 1 of 3' */
+"%1$@, Waypoint %2$@ of %3$@" = "%1$@, punctul de trecere %2$@ din %3$@";
+
+/* Notification, %1$@ is a point of interest and %2$@ is a physical address, '<Some Place>. Street address is <Some Address>. Distance unknown.' */
+"%1$@. Street address is %2$@. Distance unknown." = "%1$@. Adresa străzii este %2$@. Distanța necunoscută.";
+
+/* Notification, %@ is the point of interest, 'Starbucks close by' */
+"%@ close by" = "%@ aproape de";
+
+/* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
+"%@ connected." = "%@ conectat.";
+
+/* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
+"%@ disconnected." = "%@ deconectat.";
+
+/* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
+"%@ Intersection" = "%@ Intersecție";
+
+/* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
+"%@ is nearby" = "%@ este în apropiere";
+
+/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
+"%@ roundabout" = "%@ sens giratoriu";
+
+/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
+"%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Puncte de trecere atinse, Ultimul punct de referință din apropiere";
+
+/* directions.name_continues_ahead */
+"%@, continues ahead" = "%@, continuă înainte";
+
+/* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
+"%@, continues ahead in roundabout" = "%@, continuă înainte în sensul giratoriu";
+
+/* Notification, %@ street name, '<Pike Street>, goes left' */
+"%@, goes left" = "%@, merge la stânga";
+
+/* Notification, %@ street name, '<Pike Street>, goes left in roundabout' */
+"%@, goes left in roundabout" = "%@, merge la stânga în sens giratoriu";
+
+/* Notification, %@ street name, '<Pike Street>, goes right' */
+"%@, goes right" = "%@, merge la dreapta";
+
+/* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
+"%@, goes right in roundabout" = "%@, merge chiar în sensul giratoriu";
+
+/* No comment provided by engineer. */
+"[Reverse]" = "[Verso]";
+
+/* voice.settings.enhanced_available */
+"A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Este posibil să fie disponibilă o versiune de calitate superioară a acestei voci. Pentru a o descărca și alte voci, accesați secțiunea Conținut vorbit din setările de accesibilitate iOS.";
+
+/* universal_links.marker_existing.alert.message */
+"A marker already exists at this location. Do you want to replace it?" = "Un marcator există deja în această locație. Vrei sa o inlocuiesti?";
+
+/* No comment provided by engineer. */
+"A network connection is required when deleting and reloading VoiceVista's map data. Check that your phone is not in airplane mode." = "Este necesară o conexiune la rețea când ștergeți și reîncărcați datele hărții VoiceVista. Verificați dacă telefonul dvs. nu este în modul avion.";
+
+/* settings.about.title */
+"About VoiceVista" = "Despre VoiceVista";
+
+/* settings.direction.style.absolute */
+"Absolute Direction" = "Direcția absolută";
+
+/* behavior.scavenger_hunt.callout.started */
+"Activity started!" = "Activitatea a început!";
+
+/* No comment provided by engineer. */
+"Add a Marker" = "Adăugați un marcator";
+
+/* No comment provided by engineer. */
+"Add a Route" = "Adăugați un traseu";
+
+/* No comment provided by engineer. */
+"Add Marker" = "Adăugați un marcator";
+
+/* routeDetail.noWaypoints.alert.addWaypoints */
+"Add Waypoints" = "Adăugați puncte de trecere";
+
+/* No comment provided by engineer. */
+"Add Waypoints in Breadcrumb Mode" = "Adăugați puncte de referință în modul Breadcrumb";
+
+/* directions.unknown_address */
+"Address is unknown" = "Adresa este necunoscută";
+
+/* location_detail.default.address */
+"Address unknown" = "Adresă necunoscută";
+
+/* siri_shortcuts.description */
+"After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "După adăugarea comenzilor rapide Siri, veți putea să vă folosiți vocea pentru a le invoca chiar și atunci când VoiceVista nu rulează.";
+
+/* directions.direction.ahead */
+"ahead" = "înainte";
+
+/* ui.action_button.ahead_of_me */
+"Ahead of Me" = "Înaintea Mea";
+
+/* callouts.ahead_of_you */
+"Ahead of You" = "Inaintea ta";
+
+/* directions.direction.ahead_to_the_left */
+"ahead to the left" = "înainte spre stânga";
+
+/* directions.direction.ahead_to_the_right */
+"ahead to the right" = "înainte spre dreapta";
+
+/* permissionmanager.alert.message */
+"All derived data is based on the test location because permission to access your real location was not granted." = "Toate datele derivate se bazează pe locația de testare, deoarece permisiunea de a accesa locația dvs. reală nu a fost acordată.";
+
+/* placesNearyBy.category.1 */
+"All Places" = "Toate Locurile";
+
+/* permissions.footnote */
+"All privacy data is stored exclusively on your local device or iCloud storage." = "Toate datele de confidențialitate sunt stocate exclusiv pe dispozitivul dvs. local sau pe stocarea iCloud.";
+
+/* settings.callout.all */
+"Allow Callouts" = "Permite înștiințări";
+
+/* No comment provided by engineer. */
+"Announce Street Name" = "Anunțați numele străzii";
+
+/* No comment provided by engineer. */
+"Append reverse waypoints to the tail to make the route a circular journey." = "Adăugați puncte de trecere inversă la coadă pentru a face traseul o călătorie circulară.";
+
+/* settings.headtracking.appleAirpods */
+"Apple AirPods" = "Apple AirPods";
+
+/* devices.callouts.check_audio.airpods */
+"Apple AirPods connected." = "Apple AirPods conectat.";
+
+/* settings.appleMpas */
+"Apple Maps" = "Apple Maps";
+
+/* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
+"Approaching %1$@ roundabout with %2$@ exits" = "Se apropie de sensul giratoriu %1$@ cu ieșiri %2$@";
+
+/* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
+"Approaching %1$@ with %2$@ exits" = "Se apropie de %1$@ cu %2$@ ieșiri";
+
+/* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
+"Approaching %@" = "Se apropie de %@";
+
+/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
+"Approaching %@ roundabout" = "Se apropie de sensul giratoriu %@";
+
+/* preview.callout.approach.end */
+"Approaching end of road" = "Se apropie de capătul drumului";
+
+/* intersection.approaching_intersection */
+"Approaching intersection" = "Se apropie de intersecție";
+
+/* preview.approaching_intersection.label */
+"Approaching Intersection" = "Se apropie de intersecție";
+
+/* directions.approaching_roundabout */
+"Approaching roundabout" = "Se apropie sensul giratoriu";
+
+/* markers.destructive_delete_message */
+"Are you sure you want to delete this marker?" = "Sigur doriți să ștergeți acest marcator?";
+
+/* headphonesSetting.forget_headset.prompt.forget */
+"Are you sure you wish to forget these headphones?" = "Sigur vrei să uiți aceste căști?";
+
+/* general.alert.confirmation_title */
+"Are You Sure?" = "Esti sigur?";
+
+/* ui.action_button.around_me */
+"Around Me" = "În jurul meu";
+
+/* callouts.around_you */
+"Around You" = "In jurul tau";
+
+/* No comment provided by engineer. */
+"Assistant" = "Asistent";
+
+/* Notification, %@ is a point of interest, 'At Starbucks' */
+"At %@" = "La %@";
+
+/* Directions using 1  o'clock position. */
+"at 1 o'clock" = "la ora 1";
+
+/* Directions using 10 o'clock position. */
+"at 10 o'clock" = "la ora 10";
+
+/* Directions using 11 o'clock position. */
+"at 11 o'clock" = "la ora 11";
+
+/* Directions using 12 o'clock position. */
+"at 12 o'clock" = "la 12 fix";
+
+/* Directions using 2  o'clock position. */
+"at 2 o'clock" = "la ora 2";
+
+/* Directions using 3  o'clock position. */
+"at 3 o'clock" = "la ora 3";
+
+/* Directions using 4  o'clock position. */
+"at 4 o'clock" = "la ora 4";
+
+/* Directions using 5  o'clock position. */
+"at 5 o'clock" = "la ora 5";
+
+/* Directions using 6  o'clock position. */
+"at 6 o'clock" = "la ora 6";
+
+/* Directions using 7  o'clock position. */
+"at 7 o'clock" = "la ora 7";
+
+/* Directions using 8  o'clock position. */
+"at 8 o'clock" = "la ora 8";
+
+/* Directions using 9  o'clock position. */
+"at 9 o'clock" = "la ora 9";
+
+/* first_use_experience.preview.tutorial.alert.message.3
+   preview.note.2 */
+"At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "La fiecare intersecție, puteți utiliza din nou telefonul pentru a alege pe ce drum să coborâți sau puteți explora împrejurimile dvs. imediate folosind butoanele VoiceVista cunoscute din partea de jos a ecranului.";
+
+/* beacon.audio_beacon
+   settings.general.beacon */
+"Audio Beacon" = "Baliză audio";
+
+/* beaconSetting.audioStyle */
+"AUDIO STYLES" = "STILURI AUDIO";
+
+/* general.error.ble.unauthorized.title */
+"Authorize Bluetooth" = "Autorizați Bluetooth";
+
+/* callouts.automatic_callouts */
+"Automatic Callouts" = "Înștiințări automate";
+
+/* directions.direction.away */
+"away" = "departe";
+
+/* ui.back_button.title */
+"Back" = "Înapoi";
+
+/* placesNearyBy.category.7 */
+"Banks & ATMs" = "Bănci și bancomate";
+
+/* beacon.generic_name
+   settings.general.volume.beacon */
+"Beacon" = "Far";
+
+/* volumeSetting.beacon */
+"BEACON" = "FAR";
+
+/* first_launch.beacon.callout.ahead */
+"Beacon ahead" = "Far înainte";
+
+/* first_launch.beacon.callout.behind */
+"Beacon behind" = "Far în spate";
+
+/* Notification, %@ is a location, 'Beacon on <Some Place>' */
+"Beacon on %@" = "Far pe %@";
+
+/* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
+"Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Farul setat pe %1$@, %2$@ distanță, %3$@ din %4$@";
+
+/* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
+"Beacon set on %1$@, %2$@ of %3$@" = "Farul setat pe %1$@, %2$@ din %3$@";
+
+/* voiceSetting.title */
+"Beacon Settings" = "Setări Beacon";
+
+/* volumeSettings.beacon */
+"Beacon volume" = "Volumul farului";
+
+/* Notification, Beacon location nearby. */
+"Beacon within %@" = "Baliză în %@";
+
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Beacon within %@. Audio beacon has been muted" = "Baliză în %@. Indicatorul audio a fost dezactivat";
+
+/* headphonesSetting.connect_headset.audio */
+"Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Înainte de a vă conecta căștile la VoiceVista, asigurați-vă că sunt asociate cu telefonul dvs. Dacă nu este încă asociat, accesați secțiunea Bluetooth din aplicația Setări iOS pentru a vă asocia dispozitivul și apoi reveniți la VoiceVista.";
+
+/* directions.direction.behind */
+"behind" = "in spate";
+
+/* directions.direction.behind_to_the_left */
+"behind to the left" = "în spate la stânga";
+
+/* directions.direction.behind_to_the_right */
+"behind to the right" = "în spate la dreapta";
+
+/* general.error.ble.unauthorized.message */
+"Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Este necesară permisiunea Bluetooth pentru a vă conecta căștile. Deschideți aplicația Setări de mai jos pentru a activa Bluetooth. Rețineți că acest lucru poate determina repornirea aplicației.";
+
+/* No comment provided by engineer. */
+"Both decimal numbers and Google plus codes are supported" = "Sunt acceptate atât numerele zecimale, cât și codurile Google plus";
+
+/* No comment provided by engineer. */
+"Breadcrumb Marker Dropped" = "Marcatorul Breadcrumb a scăpat";
+
+/* No comment provided by engineer. */
+"Breadcrumb Mode" = "Modul Breadcrumb";
+
+/* first_launch.callouts.example.1 */
+"Cafe" = "Cafenea";
+
+/* No comment provided by engineer. */
+"Calculate by Navigation Algorithm" = "Calculați prin algoritmul de navigare";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints" = "Calculați punctele de trecere";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints by Algorithm" = "Calculați punctele de trecere prin algoritm";
+
+/* devices.callouts.calibrated */
+"Calibration complete" = "Calibrare finalizată";
+
+/* settings.general.beacon.direction.style */
+"Callouts Direction Style" = "Stilul de direcție înștiințări";
+
+/* callouts.callouts_off */
+"Callouts Off" = "Anunțuri dezactivate";
+
+/* callouts.callouts_on */
+"Callouts On" = "Înștiințări activate";
+
+/* general.alert.cancel */
+"Cancel" = "Anulare";
+
+/* settings.bluetooth.cancelConnect */
+"Cancel Connecting" = "Anulează conectarea";
+
+/* No comment provided by engineer. */
+"Change Callouts Direction Style" = "Schimbați stilul direcției înștiințărilor";
+
+/* No comment provided by engineer. */
+"Change External Maps App" = "Schimbați aplicația Hărți externe";
+
+/* No comment provided by engineer. */
+"Chat Group" = "Grup de chat";
+
+/* troubleshooting.checkaudio */
+"Check Headphones Status" = "Verificați starea căștilor";
+
+/* headphonesSetting.connect_headset.completed.test */
+"Check Your Headphones" = "Verificați-vă căștile";
+
+/* settings.clear_cache.markers.alert_message */
+"Choose 'Delete' to remove markers, beacons and routes, or 'Keep' to only remove map data. 'Delete' will reset the app back to a freshly installed state and cannot be undone!" = "Alegeți „Ștergeți” pentru a elimina marcatoarele, balizele și rutele sau „Păstrați” pentru a elimina numai datele hărții. „Ștergeți” va reseta aplicația la o stare proaspăt instalată și nu poate fi anulată!";
+
+/* settings.clear_cache.cleaning_things */
+"Cleaning things up..." = "Curățând lucrurile...";
+
+/* troubleshooting.cleardata */
+"Clear Stored Map Data" = "Ștergeți datele stocate ale hărții";
+
+/* general.text.clear_text */
+"Clear text" = "Text clar";
+
+/* settings.direction.style.clock */
+"Clock Position" = "Poziția ceasului";
+
+/* No comment provided by engineer. */
+"Close" = "Închide";
+
+/* headphonesSetting.test_headset.continue */
+"Complete Configuring" = "Configurare completă";
+
+/* headphonesSetting.connect_headset.completed.airpods */
+"Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitări! AirPod-urile dvs. sunt gata de utilizare, astfel încât să vă puteți pune telefonul în buzunar și să plecați! VoiceVista va urmări acum direcția capului, astfel încât să nu fie nevoie să țineți telefonul în mână. Un singur clic pe butonul căștilor va dezactiva sau dezactiva semnalul, dublu clic va indica locația dvs., iar un triplu clic va repeta ultimul semnal.";
+
+/* headphonesSetting.button.1
+   headphonesSetting.connect_headset */
+"Connect Headphones" = "Conectați căștile";
+
+/* ui.continue */
+"Continue" = "Continua";
+
+/* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
+"Continuing along %@" = "Continuând de-a lungul %@";
+
+/* Callout that occurs when the user resumes a paused preview mode along a road, %@ is the name of the road, 'Continuing preview along 9th Avenue North' */
+"Continuing Street Preview along %@" = "Se continuă Street Preview de-a lungul %@";
+
+/* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
+"Continuing Street Preview at %@" = "Se continuă Street Preview la %@";
+
+/* map.hint.1 */
+"Coordinates of the map center" = "Coordonatele centrului hărții";
+
+/* No comment provided by engineer. */
+"Create a New Route" = "Creați o rută nouă";
+
+/* No comment provided by engineer. */
+"Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Creați o rută pentru dvs. sau pentru altcineva organizând un set de marcaje ca puncte de referință pe o rută.";
+
+/* markers.footnote.1 */
+"Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Creați marcatori pentru destinațiile dvs. preferate, punctele de referință de pe o rută sau orice locații pe care doriți să le anunțați.";
+
+/* beacon.styles.current */
+"Current" = "Actual";
+
+/* markers.current_location */
+"Current Location" = "Locatia curenta";
+
+/* preview.current_intersection_unknown.label */
+"Current Location Unknown" = "Locația curentă necunoscută";
+
+/* %@ is index number of the current waypoint in the route */
+"Current waypoint index: %@ ." = "Indexul punctului de trecere curent: %@ .";
+
+/* %@ is the current waypoint name */
+"Current waypoint name: %@ ." = "Numele punctului de trecere curent: %@ .";
+
+/* No comment provided by engineer. */
+"Current: %@" = "Actual: %@";
+
+/* general.alert.delete */
+"Delete" = "Șterge";
+
+/* No comment provided by engineer. */
+"Delete a Route" = "Ștergeți un traseu";
+
+/* No comment provided by engineer. */
+"Delete Markers too" = "Ștergeți și marcatorii";
+
+/* settings.clear_cache.alert_title */
+"Delete Stored Data?" = "Ștergeți datele stocate?";
+
+/* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
+"Departed roundabout. Now along %@" = "Sensul giratoriu plecat. Acum împreună cu %@";
+
+/* beaconSetting.cues */
+"DEPARTURE AND ARRIVAL" = "PLECARE ȘI SOSIRE";
+
+/* No comment provided by engineer. */
+"Description" = "Descriere";
+
+/* No comment provided by engineer. */
+"Destination location" = "Locația de destinație";
+
+/* %@ is the beacon name */
+"Destination: %@ ." = "Destinație: %@ .";
+
+/* beacon.command.4 */
+"Detail information" = "Informații detaliate";
+
+/* %@ is the direction to the beacon */
+"Direction: %@ ." = "Direcție: %@ .";
+
+/* preview.include_unnamed_roads.label.on */
+"Disable Unnamed Roads" = "Dezactivați Drumuri fără nume";
+
+/* general.alert.dismiss */
+"Dismiss" = "Respingeți";
+
+/* markers.leftBarItem.sortByDistance */
+"Distance" = "Distanţă";
+
+/* %@ could be 50 meters or 150 feet */
+"Distance between waypoints, shoulde >= %@" = "Distanța dintre punctele de trecere, umăr >= %@";
+
+/* settings.callout.distance.poi */
+"Distance to Points of Interest" = "Distanța până la punctele de interes";
+
+/* settings.callout.distance.beacon */
+"Distance to the Audio Beacon" = "Distanța până la farul audio";
+
+/* beacon.distance.unknown */
+"Distance unknown" = "Distanța necunoscută";
+
+/* %@ is the distance to the beacon */
+"Distance: %@ ." = "Distanță: %@ .";
+
+/* url_resource.alert.route.import_existing.message */
+"Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Vrei sa o inlocuiesti? Înlocuirea acestui traseu va înlocui și marcajele utilizate în acest traseu.";
+
+/* preview.alert.restart.message */
+"Do you want to restart VoiceVista Street Preview at this location?" = "Doriți să reporniți VoiceVista Street Preview în această locație?";
+
+/* No comment provided by engineer. */
+"Done" = "Terminat";
+
+/* markers.rightBarButtonItem.hint */
+"Double tap to add a new marker" = "Atingeți de două ori pentru a adăuga un nou marcator";
+
+/* VoiceOver hint for the button that allows users to test their newly connected headset, %@ is the type of headset, 'Double tap to check your AirPods Pro' */
+"Double tap to check your %@" = "Atingeți de două ori pentru a vă verifica %@";
+
+/* preview.include_unnamed_roads.hint.on */
+"Double tap to exclude unnamed roads during VoiceVista Street Preview" = "Atingeți de două ori pentru a exclude drumurile fără nume în timpul Previzualizării stradale VoiceVista";
+
+/* preview.include_unnamed_roads.hint.off */
+"Double tap to include unnamed roads during VoiceVista Street Preview" = "Atingeți de două ori pentru a include drumuri fără nume în timpul VoiceVista Street Preview";
+
+/* waypoints.addBarButtonItem.hint */
+"Double tap to pick markers" = "Atingeți de două ori pentru a alege marcatoarele";
+
+/* vicinity.sleep.acc_hint */
+"Double tap to put VoiceVista to sleep" = "Atingeți de două ori pentru a activa VoiceVista";
+
+/* voice.apple.preview_hint */
+"Double tap to select and play a preview." = "Atingeți de două ori pentru a selecta și reda o previzualizare.";
+
+/* markers.leftBarItem.sortByName.hint */
+"Double tap to sort by distance" = "Atingeți de două ori pentru a sorta după distanță";
+
+/* markers.leftBarItem.sortByDistance.hint */
+"Double tap to sort by name" = "Atingeți de două ori pentru a sorta după nume";
+
+/* map.hint.2 */
+"Drag the map to change the coordinates" = "Trageți harta pentru a modifica coordonatele";
+
+/* beacon.styles.drop */
+"Drop" = "cădere brusca";
+
+/* No comment provided by engineer. */
+"Drop Breadcrumb Marker" = "Aruncați marcatorul Breadcrumb";
+
+/* directions.cardinal.east */
+"East" = "Est";
+
+/* general.alert.edit */
+"Edit" = "Editați | ×";
+
+/* No comment provided by engineer. */
+"Edit Marker Location" = "Editați locația marcatorului";
+
+/* No comment provided by engineer. */
+"Edit Marker Name" = "Editați numele marcatorului";
+
+/* No comment provided by engineer. */
+"Edit Route Name" = "Editați numele rutei";
+
+/* No comment provided by engineer. */
+"Edit Waypoints" = "Editați punctele de trecere";
+
+/* placesNearyBy.category.4 */
+"Education" = "Educaţie";
+
+/* beaconSettings.cues */
+"Enable Departure and Arrival Cues" = "Activați indicațiile de plecare și de sosire";
+
+/* settings.audio.mix_with_others.title */
+"Enable Media Controls" = "Activați comenzile media";
+
+/* preview.include_unnamed_roads.label.off */
+"Enable Unnamed Roads" = "Activați Drumuri fără nume";
+
+/* preview.callout.end */
+"Ending VoiceVista Street Preview" = "Se încheie VoiceVista Street Preview";
+
+/* voice.settings.enhanced_available.title */
+"Enhanced Voice Available!" = "Voce îmbunătățită disponibilă!";
+
+/* first_use_experience.preview.tutorial.alert.message.4 */
+"Enjoy and have fun!" = "Bucurate si distreazate!";
+
+/* placesNearyBy.category.9 */
+"Entertainment" = "Divertisment";
+
+/* directions.amenity.entrance_list */
+"Entrance List" = "Lista de intrare";
+
+/* general.error.error_occurred */
+"Error Occurred" = "A apărut o eroare";
+
+/* first_use_experience.preview.tutorial.alert.message.1 */
+"Explore and get a sense of an area anywhere in the world. For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "Explorați și obțineți o idee despre o zonă oriunde în lume. Pentru cea mai bună experiență, vă recomandăm să vă ridicați pentru a vă întoarce pe loc și să folosiți căști stereo.";
+
+/* preview.search.label */
+"Explore Nearby" = "Explorați în apropiere";
+
+/* settings.general.externalMapsApp */
+"External Maps App" = "Aplicația externă pentru hărți";
+
+/* placesNearyBy.category.11 */
+"Facilities" = "Facilităţi";
+
+/* No comment provided by engineer. */
+"Failed to Add Route" = "Nu s-a putut adăuga traseul";
+
+/* No comment provided by engineer. */
+"Failed to Calculate Direction Steps" = "Nu s-au calculat pașii de direcție";
+
+/* No comment provided by engineer. */
+"Failed to Calculate Waypoints for Route" = "Nu s-a putut calcula punctele de referință pentru rută";
+
+/* No comment provided by engineer. */
+"Failed to Create Route" = "Nu s-a putut crea traseul";
+
+/* No comment provided by engineer. */
+"Failed to Drop Breadcrumb Marker" = "Nu s-a renunțat la marcatorul Breadcrumb";
+
+/* No comment provided by engineer. */
+"Failed to Generate Reverse Route" = "Nu s-a generat ruta inversă";
+
+/* No comment provided by engineer. */
+"Failed to Import Markers" = "Nu s-au putut importa marcatori";
+
+/* No comment provided by engineer. */
+"Failed to Import Route" = "Nu s-a putut importa traseul";
+
+/* No comment provided by engineer. */
+"Failed to Update" = "Actualizare eșuată";
+
+/* No comment provided by engineer. */
+"Failed to Update Route to Circular" = "Nu s-a putut actualiza traseul la circular";
+
+/* beacon.styles.flare */
+"Flare" = "Flare";
+
+/* placesNearyBy.category.3 */
+"Food & Drink" = "Mancare bautura";
+
+/* general.alert.forget */
+"Forget" = "A uita";
+
+/* settings.bluetooth.forget */
+"Forget These Headphones" = "Uitați de aceste căști";
+
+/* No comment provided by engineer. */
+"Frequently Asked Questions" = "întrebări frecvente";
+
+/* settings.general */
+"GENERAL SETTINGS" = "SETARI GENERALE";
+
+/* No comment provided by engineer. */
+"Generate a New Reverse Route" = "Generați o nouă rută inversă";
+
+/* No comment provided by engineer. */
+"Generate Route from GPX File" = "Generați ruta din fișierul GPX";
+
+/* No comment provided by engineer. */
+"Generated from GPX file" = "Generat din fișierul GPX";
+
+/* preview.loading */
+"Getting things ready..." = "Pregătesc lucrurile...";
+
+/* No comment provided by engineer. */
+"Go" = "Merge";
+
+/* settings.googleMaps */
+"Google Maps" = "Hărți Google";
+
+/* placesNearyBy.category.6 */
+"Groceries" = "Băcănii";
+
+/* No comment provided by engineer. */
+"Group Discussions" = "Discuții de grup";
+
+/* beaconSetting.hapticStyle.footer */
+"Haptic feedback is only available when your phone is unlocked and VoiceVista is open." = "Feedbackul haptic este disponibil numai când telefonul este deblocat și VoiceVista este deschis.";
+
+/* beacon.styles.haptic.pulse */
+"Haptic Pulse" = "Puls haptic";
+
+/* beaconSetting.hapticStyle */
+"HAPTIC STYLES" = "STILURI HAPTICE";
+
+/* beacon.styles.haptic.wand */
+"Haptic Wand" = "Baghetă haptică";
+
+/* settings.general */
+"HEAD TRACKING HEADPHONES" = "CĂȚI CĂȘTI DE URMARARE A CAPULUI";
+
+/* headphonesSetting.explain_ar.disconnected */
+"Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Căștile de urmărire a capului sunt căști Bluetooth cu senzori care indică VoiceVista unde vă confruntați. Acest lucru ajută VoiceVista să vă îmbunătățească experiența audio, făcând-o mai naturală pe măsură ce vă deplasați prin lume.\n\nAtingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
+
+/* devices.callouts.check_audio.default */
+"Head tracking headphones are not connected." = "Căștile de urmărire a capului nu sunt conectate.";
+
+/* headphonesSetting.title.calibrate */
+"Headphones Calibration" = "Calibrarea căștilor";
+
+/* headphonesSetting.test_headset.title */
+"Headphones Check" = "Verificarea căștilor";
+
+/* headphonesSetting.title.first_connection */
+"Headphones Connected" = "Căștile conectate";
+
+/* headphonesSetting.title.completed_connection */
+"Headphones Ready" = "Căști gata";
+
+/* headphonesSetting.title.default */
+"Headphones Setting" = "Setarea căștilor";
+
+/* placesNearyBy.category.8 */
+"Healthcare" = "Sănătate";
+
+/* troubleshooting.accuracy.footer */
+"Hear about the status of the headphones you are using with VoiceVista" = "Aflați despre starea căștilor pe care le utilizați cu VoiceVista";
+
+/* user_activity.intersections.title */
+"Hear Intersections Ahead" = "Auziți intersecțiile din față";
+
+/* user_activity.nearby_markers.title */
+"Hear Markers Nearby" = "Ascultați marcajele din apropiere";
+
+/* voice.voice_rate_test */
+"How does this sound?" = "Cum sună asta?";
+
+/* No comment provided by engineer. */
+"How much feet should waypoints be generated between each other for this route?" = "Câți picioare ar trebui să fie generate puncte de referință între ele pentru această rută?";
+
+/* No comment provided by engineer. */
+"How much meters should waypoints be generated between each other for this route?" = "Câți metri ar trebui să fie generați puncte de referință între ele pentru această rută?";
+
+/* No comment provided by engineer. */
+"How often to call out street name can be adjusted using the following slider" = "Cât de des să strigeți numele străzii poate fi ajustat folosind următorul glisor";
+
+/* Message to display alongside a URL that can be used to import a marker. */
+"I've shared a VoiceVista marker with you! '%@;'" = "V-am distribuit un marcator VoiceVista! '%@;'";
+
+/* Message to display alongside a URL that can be used to import a route. */
+"I've shared a VoiceVista route with you! '%@'" = "Ți-am împărtășit o rută VoiceVista! „%@”";
+
+/* icloud.kv_store.quota_violation_alert.message */
+"iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Stocarea iCloud pentru această aplicație este plină. Pentru a crea un marcator nou, va trebui să eliberați spațiu prin eliminarea unora dintre marcatoarele existente.";
+
+/* No comment provided by engineer. */
+"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Dacă nu este setată nicio baliză, VoiceVista va rămâne silențioasă când rulează în modul de fundal.";
+
+/* No comment provided by engineer. */
+"If you enabled media controls in the settings tab, you can try pressing the previous button on your headphones to repeat the last callout." = "Dacă ați activat comenzile media în fila de setări, puteți încerca să apăsați butonul anterior de pe căști pentru a repeta ultimul mesaj.";
+
+/* No comment provided by engineer. */
+"Import Markers from GPX File" = "Importați marcatori din fișierul GPX";
+
+/* No comment provided by engineer. */
+"Import Soundscape Route File" = "Importați fișierul rută Soundscape";
+
+/* voiceSetting.in_vehicle_rate */
+"IN VEHICLE SPEAKING RATE" = "ÎN RATA DE VORBIREA VEHICULUI";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate" = "În rata de vorbire a vehiculului";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate. How does this sound?" = "În rata de vorbire a vehiculului. Cum sună asta?";
+
+/* settings.preview.unnamedroads.detail */
+"Include unnamed roads during Street Preview" = "Includeți drumuri fără nume în timpul Street Preview";
+
+/* No comment provided by engineer. */
+"Input Latitude and Longitude" = "Introduceți latitudine și longitudine";
+
+/* No comment provided by engineer. */
+"Instructions for each waypoint one by one" = "Instrucțiuni pentru fiecare punct de referință unul câte unul";
+
+/* settings.callout.mobility.detail */
+"Intersection and transportation info" = "Informații despre intersecție și transport";
+
+/* callouts.intersection_callout */
+"Intersection Callout" = "Înștiințare intersecție";
+
+/* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
+"Intersection with %1$@ %2$@" = "Intersecție cu %1$@ %2$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> <5 meters> <to the left>' */
+"Intersection with %1$@ %2$@ %3$@" = "Intersecție cu %1$@ %2$@ %3$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Intersection with <Pike Street> <5 meters> away' */
+"Intersection with %1$@ %2$@ away" = "Intersecție cu %1$@ %2$@ distanță";
+
+/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
+"Intersection with %1$@ was %2$@ %3$@" = "Intersecția cu %1$@ a fost %2$@ %3$@";
+
+/* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
+"Intersection with %@ nearby" = "Intersecție cu %@ în apropiere";
+
+/* ui.action_button.intersections */
+"Intersections Ahead" = "Intersecții înainte";
+
+/* No comment provided by engineer. */
+"Invalid Breadcrumb Route Name" = "Nume rută Breadcrumb nevalid";
+
+/* No comment provided by engineer. */
+"Invalid Latitude and Longitude" = "Latitudine și longitudine nevalide";
+
+/* No comment provided by engineer. */
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Este ușor să adăugați un marker nou pentru utilizare ulterioară în modul pesmet. Toate marcatoarele noi de pe acest traseu vor fi denumite automat.";
+
+/* No comment provided by engineer. */
+"It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Se pare că setările dvs. de confidențialitate împiedică utilizarea mișcării și a fitnessului, vă rugăm să le schimbați în aplicația Setări.";
+
+/* places.footnote.1 */
+"It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Crearea listei de locații din apropiere poate dura ceva timp. Dacă nu există date disponibile în acest moment, vă rugăm să încercați să vizitați din nou mai târziu.";
+
+/* general.alert.keep */
+"Keep" = "A pastra";
+
+/* No comment provided by engineer. */
+"Keep Markers" = "Păstrați marcatoarele";
+
+/* settings.clear_cache.markers.alert_title */
+"Keep Markers and Routes?" = "Păstrați marcatoarele și traseele?";
+
+/* No comment provided by engineer. */
+"Latitude or (Latitude, Longitude) or Plus codes" = "Codurile Latitudine sau (Latitudine, Longitudine) sau Plus";
+
+/* general.alert.offline.learn_more */
+"Learn more" = "Află mai multe";
+
+/* location */
+"Location" = "Locație";
+
+/* troubleshooting.gps_status.feet */
+"Location Accuracy: ±%@ feet" = "Precizia locației: ±%@ picioare";
+
+/* troubleshooting.gps_status.meters */
+"Location Accuracy: ±%@ meters" = "Precizia locației: ±%@ metri";
+
+/* location_detail.title.default */
+"Location Details" = "Detalii despre locație";
+
+/* general.error.preview */
+"Location preview could not be started at this location." = "Previzualizarea locației nu a putut fi începută în această locație.";
+
+/* first_launch.permissions.location */
+"Location Services with Precise Location" = "Servicii de localizare cu locație precisă";
+
+/* No comment provided by engineer. */
+"Longitude" = "Longitudine";
+
+/* first_launch.callouts.example.3 */
+"Main Street goes left" = "Strada principală merge la stânga";
+
+/* first_launch.callouts.example.4 */
+"Main Street goes right" = "Strada principală merge la dreapta";
+
+/* beacon.styles.mallet */
+"Mallet" = "ciocan";
+
+/* beacon.styles.mallet.slow */
+"Mallet (Slow)" = "ciocan (lent)";
+
+/* beacon.styles.mallet.very_slow */
+"Mallet (Very Slow)" = "ciocan (foarte lent)";
+
+/* settings.callout */
+"MANAGE CALLOUTS" = "GESTIONAȚI CALLOUTS";
+
+/* No comment provided by engineer. */
+"Mark Current Location" = "Marcați locația curentă";
+
+/* callouts.marked_points */
+"Marked Points" = "Puncte marcate";
+
+/* markers.generic_name */
+"Marker" = "Marker";
+
+/* universal_links.marker_existing.alert.title */
+"Marker already exists" = "Marker există deja";
+
+/* No comment provided by engineer. */
+"Marker Annotation" = "Adnotare marcator";
+
+/* markerAddedEvent.marker_created */
+"Marker created" = "Marker creat";
+
+/* markers.action.deleted */
+"Marker deleted" = "Marcatorul a fost șters";
+
+/* location_detail.title.marker */
+"Marker Details" = "Detalii marker";
+
+/* No comment provided by engineer. */
+"Marker Name" = "Nume marker";
+
+/* Marker Information, %@ is the name of the marker, 'Marker. <Starbucks>' */
+"Marker. %@" = "Marker. %@";
+
+/* No comment provided by engineer. */
+"Markers" = "Markere";
+
+/* No comment provided by engineer. */
+"Markers Imported from GPX File Successfully" = "Marcatori importați din fișierul GPX cu succes";
+
+/* settings.media */
+"MEDIA CONTROLS" = "CONTROALE MEDIA";
+
+/* settings.callout.mobility */
+"Mobility" = "Mobilitate";
+
+/* first_launch.permissions.motion */
+"Motion & Fitness" = "Mișcare și fitness";
+
+/* beacon.command.6 */
+"Mute on/off" = "Activare/dezactivare sunet";
+
+/* directions.my_location
+   ui.action_button.my_location */
+"My Location" = "Locatia mea";
+
+/* markers.leftBarItem.sortByName */
+"Name" = "Nume";
+
+/* No comment provided by engineer. */
+"Navigation for Beacon" = "Navigație pentru Beacon";
+
+/* No comment provided by engineer. */
+"Navigation for Route" = "Navigare pentru traseu";
+
+/* No comment provided by engineer. */
+"Navigation instructions" = "Instrucțiuni de navigare";
+
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+"Near %@" = "Aproape %@";
+
+/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
+"Near address %@" = "Lângă adresa %@";
+
+/* poi_screen.section_header.nearby */
+"Nearby" = "Din apropiere";
+
+/* ui.action_button.nearby_markers */
+"Nearby Markers" = "Markere din apropiere";
+
+/* settings.callout.places.detail */
+"Nearby places likes shops and restaurants" = "Locurile din apropiere plac magazinele și restaurantele";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
+"Nearest road, %1$@, is %2$@ %3$@" = "Cel mai apropiat drum, %1$@, este %2$@ %3$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Nearest road, <Pike Street>, is <5 meters> away' */
+"Nearest road, %1$@, is %2$@ away" = "Cel mai apropiat drum, %1$@, este la %2$@ distanță";
+
+/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
+"Nearest road, %1$@, was %2$@ %3$@" = "Cel mai apropiat drum, %1$@, a fost %2$@ %3$@";
+
+/* permissions.alert.title.1 */
+"Need Accuracy Location Permission" = "Aveți nevoie de permisiunea de locație cu precizie";
+
+/* permissions.alert.title.2 */
+"Need Motion & Fitness Permission" = "Aveți nevoie de permisiunea de mișcare și fitness";
+
+/* permissions.status.1 */
+"Need to request permission" = "Trebuie să cereți permisiunea";
+
+/* No comment provided by engineer. */
+"Network Connection Required" = "Este necesară conexiune la rețea";
+
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
+"Next intersection: %@" = "Următoarea intersecție: %@";
+
+/* preview.callout.road_finder.intersection.same */
+"Next intersection: Circles back to current intersection" = "Următoarea intersecție: Încercuiește înapoi la intersecția actuală";
+
+/* preview.callout.road_finder.intersection.end */
+"Next intersection: End of road" = "Următoarea intersecție: Capătul drumului";
+
+/* beacon.command.3 */
+"Next waypoint" = "Următorul punct de trecere";
+
+/* No comment provided by engineer. */
+"No audio beacon set" = "Nicio baliză audio setată";
+
+/* No comment provided by engineer. */
+"No last callout" = "Fără ultima înștiințare";
+
+/* location_detail.default.annotation */
+"No marker annotation" = "Fără adnotare marcatoare";
+
+/* No comment provided by engineer. */
+"No Motion Permission" = "Fără permisiunea de mișcare";
+
+/* No comment provided by engineer. */
+"No network connection" = "Fără conexiune la rețea";
+
+/* No comment provided by engineer. */
+"No waypoint data found in the GPX file." = "Nu s-au găsit date de punct de referință în fișierul GPX.";
+
+/* routeDetail.noWaypoints.alert.title */
+"No waypoints defined" = "Nu au fost definite puncte de referință";
+
+/* settings.direction.style.none */
+"None" = "Nici unul";
+
+/* directions.cardinal.north */
+"North" = "Nord";
+
+/* directions.cardinal.north_east */
+"North East" = "Nord-Est";
+
+/* directions.cardinal.north_west */
+"North West" = "Nord Vest";
+
+/* general.alert.not_now
+   general.alert.notnow */
+"Not Now" = "Nu acum";
+
+/* general.alert.offline_default.title */
+"Offline mode" = "Modul offline";
+
+/* No comment provided by engineer. */
+"On foot speaking rate" = "Rata vorbirii pe jos";
+
+/* voiceSetting.on_foot_rate */
+"ON FOOT SPEAKING RATE" = "RATE DE VORBIRE PE PICLOARE";
+
+/* No comment provided by engineer. */
+"On foot speaking rate. How does this sound?" = "Rata de vorbire pe jos. Cum sună asta?";
+
+/* universal_links.alert.error.title */
+"Oops! Something went wrong." = "Hopa! Ceva n-a mers bine.";
+
+/* locationDetail.openInApple */
+"Open in Apple Maps" = "Deschideți în Apple Maps";
+
+/* locationDetail.openInGoogle */
+"Open in Google Maps" = "Deschideți în Google Maps";
+
+/* general.error.location_services_resume */
+"Open VoiceVista to resume Location Services" = "Deschideți VoiceVista pentru a relua Serviciile de localizare";
+
+/* No comment provided by engineer. */
+"Or just shake the phone to repeat the last callout when VoiceVista run in the foreground." = "Sau doar scuturați telefonul pentru a repeta ultimul mesaj când VoiceVista rulează în prim-plan.";
+
+/* beacon.styles.original */
+"Original" = "Original";
+
+/* voiceSetting.others */
+"OTHER LANGUAGES" = "ALTE LIMBI";
+
+/* placesNearyBy.category.12 */
+"Others" = "Alții";
+
+/* settings.preview */
+"OTHERS" = "ALȚII";
+
+/* headphonesSetting.title.pair_audio */
+"Pair Headphones Audio" = "Împerecheați căștile audio";
+
+/* No comment provided by engineer. */
+"Paste Marker from Soundscape" = "Lipiți marcatorul din Soundscape";
+
+/* No comment provided by engineer. */
+"Paste URL from Apple Maps" = "Lipiți adresa URL din Apple Maps";
+
+/* permissions.status.3 */
+"Permission granted" = "Permisiunea acordată";
+
+/* permissions.status.4 */
+"Permission NOT granted" = "Permisiunea NU este acordată";
+
+/* permissions.status.2 */
+"Permission requested" = "Permisiune solicitată";
+
+/* permissinos.title */
+"Permissions" = "Permisiuni";
+
+/* No comment provided by engineer. */
+"Pick from Markers" = "Alegeți din marcatori";
+
+/* markerpickers.title */
+"Pick Markers" = "Alegeți Markere";
+
+/* No comment provided by engineer. */
+"Pick Waypoints from Markers" = "Alegeți puncte de referință din marcatori";
+
+/* beacon.styles.ping */
+"Ping" = "Ping";
+
+/* placefilters.title */
+"Places" = "Locuri";
+
+/* settings.callout.places */
+"Places and Landmarks" = "Locuri și repere";
+
+/* placefilters.footnoot.2 */
+"Places data come from Apple Maps and OpenStreetMap." = "Datele despre locații provin de la Apple Maps și OpenStreetMap.";
+
+/* No comment provided by engineer. */
+"Places Nearby" = "Locuri din apropiere";
+
+/* first_launch.beacon.callout.headtracking.haptic */
+"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "Plasează farul în fața ta. Virați la stânga și la dreapta pentru a experimenta feedback-ul haptic al farului.";
+
+/* first_launch.beacon.callout.headtracking.standard */
+"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "Plasează farul în dreapta ta. Întoarceți-vă pentru a urmări sunetul său și a experimenta sunetul spațial al farului.";
+
+/* routeDetail.noWaypoints.alert.message */
+"Please add waypoints to complete the route creation." = "Vă rugăm să adăugați puncte de referință pentru a finaliza crearea rutei.";
+
+/* No comment provided by engineer. */
+"Please enter a route name." = "Vă rugăm să introduceți un nume de rută.";
+
+/* search.footnote.1 */
+"Please enter an address to search for places worldwide." = "Vă rugăm să introduceți o adresă pentru a căuta locuri din întreaga lume.";
+
+/* permissions.alert.message.1
+   permissions.alert.message.2 */
+"Please grant permission in Settings app." = "Vă rugăm să acordați permisiunea în aplicația Setări.";
+
+/* No comment provided by engineer. */
+"Please specify destination location." = "Vă rugăm să specificați locația de destinație.";
+
+/* No comment provided by engineer. */
+"Please specify starting location." = "Vă rugăm să specificați locația de pornire.";
+
+/* No comment provided by engineer. */
+"Please try later." = "Te rog incearca mai tarziu.";
+
+/* settings.callout.distance.poi.detail */
+"Points of interest distance info" = "Informații despre distanțe puncte de interes";
+
+/* voice.action.preview */
+"Preview" = "previzualizare";
+
+/* preview.alert.restart.title */
+"Preview Already in Progress" = "Previzualizare deja în curs";
+
+/* No comment provided by engineer. */
+"Previous" = "Anterior";
+
+/* directions.previous_location */
+"Previous Location" = "Locația anterioară";
+
+/* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
+"Previous Location, Along %@" = "Locația anterioară, de-a lungul %@";
+
+/* beacon.command.2 */
+"Previous waypoint" = "Punct de trecere anterior";
+
+/* placesNearyBy.category.10 */
+"Public Service" = "Serviciu public";
+
+/* placesNearyBy.category.2 */
+"Public Transit" = "Transport public";
+
+/* waypoints.cancel_alert_quit */
+"Quit Without Save" = "Ieșiți fără salvare";
+
+/* search.table.header.recentCallouts */
+"RECENT CALLOUTS" = "Anunțuri recente";
+
+/* settings.direction.style.relative */
+"Relative Direction" = "Direcția relativă";
+
+/* No comment provided by engineer. */
+"Repeat Last Callout" = "Repetați Ultima înștiințare";
+
+/* general.alert.replace */
+"Replace" = "A inlocui";
+
+/* No comment provided by engineer. */
+"Report Beacon Summary" = "Raportează rezumatul semnalizatorului";
+
+/* preview.alert.restart.button */
+"Restart" = "Repornire";
+
+/* general.alert.resume */
+"Resume" = "Relua";
+
+/* preview.callout.previous */
+"Returning to previous intersection" = "Revenind la intersecția anterioară";
+
+/* Label of button to generate a reverse route or update the current route to circular */
+"Reverse or Circular" = "Invers sau circular";
+
+/* No comment provided by engineer. */
+"Reverse Route Generated" = "Traseul invers generat";
+
+/* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
+"Roundabout with %1$@ exits %2$@" = "Sensul giratoriu cu %1$@ ieșiri %2$@";
+
+/* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
+"Roundabout with %1$@ exits %2$@ %3$@" = "Sensul giratoriu cu %1$@ ieșiri %2$@ %3$@";
+
+/* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
+"Roundabout with %1$@ exits %2$@ away" = "Sensul giratoriu cu %1$@ ieșiri la %2$@ distanță";
+
+/* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
+"Roundabout with %1$@ exits nearby" = "Sensul giratoriu cu %1$@ ieșiri în apropiere";
+
+/* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Sensul giratoriu cu %1$@ ieșiri era %2$@ %3$@";
+
+/* route_detail.name.default */
+"Route" = "Traseu";
+
+/* url_resource.alert.route.import_existing.title */
+"Route already exists" = "Ruta există deja";
+
+/* routes.callout.complete */
+"Route complete!" = "Traseul finalizat!";
+
+/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
+"Route Completed! %@" = "Traseu finalizat! %@";
+
+/* routeAddedEvent.route_created */
+"Route created" = "Traseul creat";
+
+/* routes.action.deleted */
+"Route deleted" = "Traseul a fost șters";
+
+/* No comment provided by engineer. */
+"Route Details" = "Detalii traseu";
+
+/* routes.import.alert.title */
+"Route Error" = "Eroare de traseu";
+
+/* No comment provided by engineer. */
+"Route Name" = "Nume traseu";
+
+/* No comment provided by engineer. */
+"Route name: %@ ." = "Nume traseu: %@ .";
+
+/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
+"Route Stopped, %@" = "Traseu oprit, %@";
+
+/* No comment provided by engineer. */
+"Route Updated to a Circular Journey" = "Traseu actualizat la o călătorie circulară";
+
+/* routes.title */
+"Routes" = "Trasee";
+
+/* universal_links.alert.action.marker */
+"Save as Marker" = "Salvați ca Marker";
+
+/* user_activity.save_marker.title */
+"Save Marker" = "Salvați marcatorul";
+
+/* url_resource.alert.route.import.save */
+"Save Route" = "Salvați traseul";
+
+/* waypoints.cancel_alert_save */
+"Save then Exit" = "Salvați apoi Ieșiți";
+
+/* search.title */
+"Search" = "Căutare";
+
+/* user_activity.search.title */
+"Search in VoiceVista" = "Căutați în VoiceVista";
+
+/* general.alert.offline_search.title */
+"Search is not available" = "Căutarea nu este disponibilă";
+
+/* No comment provided by engineer. */
+"Search Location by Text" = "Căutați locație după text";
+
+/* vicinity.search */
+"Search places" = "Căutați locuri";
+
+/* No comment provided by engineer. */
+"Select a Destination Location" = "Selectați o locație de destinație";
+
+/* markerspicker.footnote */
+"Select a marker to continue." = "Selectați un marcator pentru a continua.";
+
+/* No comment provided by engineer. */
+"Select a Starting Location" = "Selectați o locație de pornire";
+
+/* markers.add.selectFromMap */
+"Select Location from Map" = "Selectați locație de pe hartă";
+
+/* universal_links.alert.action.beacon */
+"Set a Beacon" = "Setați un far";
+
+/* settings.screen_title
+   settings.title */
+"Settings" = "Setări";
+
+/* No comment provided by engineer. */
+"Shake to Repeat Last Callout" = "Agitați pentru a repeta ultimul mesaj";
+
+/* locationdetail.command.2 */
+"Share" = "Acțiune";
+
+/* No comment provided by engineer. */
+"Share Current Location" = "Partajați locația curentă";
+
+/* first_use_experience.share.alert.title */
+"Sharing in VoiceVista" = "Partajare în VoiceVista";
+
+/* beacon.styles.shimmer */
+"Shimmer" = "Strălucire";
+
+/* beacon.styles.signal */
+"Signal" = "Semnal";
+
+/* beacon.styles.signal.slow */
+"Signal (Slow)" = "Semnal (lent)";
+
+/* beacon.styles.signal.very_slow */
+"Signal (Very Slow)" = "Semnal (foarte lent)";
+
+/* settings.general.siri
+   siriSetting.title */
+"Siri Shortcuts" = "Comenzi rapide Siri";
+
+/* vicinity.sleep */
+"Sleep" = "Dormi";
+
+/* No comment provided by engineer. */
+"Sleep If No Beacon Set" = "Dormiți dacă nu există semnalizare";
+
+/* sleep.sleeping */
+"Sleeping" = "Dormit";
+
+/* sleep.snoozing */
+"Snoozing" = "Amânând";
+
+/* settings.general.volume.sound */
+"Sound" = "Sunet";
+
+/* voiceSetting.sound */
+"SOUND EFFECTS" = "EFECTE SONORE";
+
+/* volumeSettings.sound */
+"Sound effects volume" = "Volumul efectelor sonore";
+
+/* directions.cardinal.south */
+"South" = "Sud";
+
+/* directions.cardinal.south_east */
+"South East" = "Sud Est";
+
+/* directions.cardinal.south_west */
+"South West" = "Sud-Vest";
+
+/* locationdetail.command.1 */
+"Start Beacon" = "Porniți Beacon";
+
+/* Label of button to start breadcrumb mode */
+"Start Breadcrumb Mode" = "Porniți modul Breadcrumb";
+
+/* headphonesSetting.connect_headset.calibrate.button */
+"Start Calibration" = "Începeți calibrarea";
+
+/* user_activity.start_route.title
+   voice.action.start_route */
+"Start Route" = "Începeți traseul";
+
+/* user_activity.street_preview.title */
+"Start Street Preview" = "Porniți Street Preview";
+
+/* No comment provided by engineer. */
+"Starting location" = "Locația de pornire";
+
+/* Callout that occurs when the user starts preview mode along a road, %@ is the name of the road, 'Starting preview along 9th Avenue North' */
+"Starting Street Preview along %@" = "Se începe Street Preview de-a lungul %@";
+
+/* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
+"Starting Street Preview at %@" = "Se începe Street Preview la %@";
+
+/* beacon.command.1 */
+"Stop beacon" = "Opriți farul";
+
+/* No comment provided by engineer. */
+"Stop Route" = "Opriți traseul";
+
+/* No comment provided by engineer. */
+"Street Name Callout Rate" = "Rata de înștiințări a numelui străzii";
+
+/* No comment provided by engineer. */
+"Street Names" = "Numele străzilor";
+
+/* first_use_experience.preview.tutorial.alert.title
+   locationdetail.command.2
+   preview.title */
+"Street Preview" = "Street Preview";
+
+/* preview.callout.paused */
+"Street Preview paused" = "Street Preview a fost întreruptă";
+
+/* vicinity.title */
+"Surroundings" = "Împrejurimi";
+
+/* beacon.styles.tactile */
+"Tactile" = "Tactil";
+
+/* permissionmanager.alert.test */
+"Test Location" = "Locația de testare";
+
+/* url_resource.alert.route.import_error.message */
+"The content appears to be invalid." = "Conținutul pare a fi nevalid.";
+
+/* No comment provided by engineer. */
+"The distance between waypoints should not be too small." = "Distanța dintre punctele de referință nu trebuie să fie prea mică.";
+
+/* %@ is the name of a route being breadcrumb mode */
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "Marcatorul de pesmet aruncat va fi denumit automat și adăugat la ruta %@.";
+
+/* headphonesSetting.connect_headset.unavailable */
+"The headphones you selected are currently unavailable for connection. Please try again later." = "Căștile pe care le-ați selectat sunt momentan indisponibile pentru conectare. Vă rugăm să încercați din nou mai târziu.";
+
+/* universal_links.alert.import_error.message
+   universal_links.alert.share_error.message */
+"The link appears to be invalid." = "Linkul pare a fi invalid.";
+
+/* callouts.no_nearby_markers_to_call_out_now */
+"There are no nearby markers to call out right now." = "Nu există marcaje în apropiere pe care să le sunați în acest moment.";
+
+/* No comment provided by engineer. */
+"There are no turn by turn instructions now." = "Nu există instrucțiuni rând cu rând acum.";
+
+/* callouts.nothing_to_call_out_now */
+"There is nothing to call out right now" = "Nu există nimic de chemat acum";
+
+/* general.alert.destructive_undone_message */
+"This action cannot be undone" = "Această acțiune nu poate fi anulată";
+
+/* universal_links.alert.share_error.message */
+"This content could not be shared." = "Acest conținut nu a putut fi distribuit.";
+
+/* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
+"This is %@. How does this sound?" = "Aceasta este %@. Cum sună asta?";
+
+/* troubleshooting.accuracy.meters.footer */
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Această valoare este o estimare a cât de precis știe VoiceVista unde vă aflați. Mai puțin de ±10 metri este bine. Mai puțin de ±20 de metri este ok. Orice altceva este sărac. Datele de locație sunt cele mai precise când sunt în exterior și nu sub nicio structură.";
+
+/* troubleshooting.accuracy.footer */
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Această valoare este o estimare a cât de precis știe VoiceVista unde vă aflați. Mai puțin de ± 30 de picioare este bine. Mai puțin de ± 60 de picioare este ok. Orice altceva este sărac. Datele de locație sunt cele mai precise când sunt în exterior și nu sub nicio structură.";
+
+/* headphonesSetting.forget_headset.prompt.explanation */
+"This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Aceasta vă va deconecta căștile de la VoiceVista. Vă puteți conecta din nou la VoiceVista în viitor de aici.";
+
+/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+"To %@" = "La %@";
+
+/* placefilters.footnoot.1
+   places.footnot.2 */
+"To browse nearby places, access to location is required." = "Pentru a naviga în locuri din apropiere, este necesar accesul la locație.";
+
+/* markers.footnote.2 */
+"To calculate distance, access location is required." = "Pentru a calcula distanța, este necesară locația de acces.";
+
+/* search.footnot.2 */
+"To calculate distances, access to location is required." = "Pentru a calcula distanțe, este necesar accesul la locație.";
+
+/* permissions.info.2 */
+"To enable these features, please grant the following permissions:" = "Pentru a activa aceste funcții, acordați următoarele permisiuni:";
+
+/* vicinity.footnote */
+"To hear surroundings, access to location and motion is required." = "Pentru a auzi împrejurimile, este necesar accesul la locație și mișcare.";
+
+/* directions.direction.to_the_left */
+"to the left" = "La stânga";
+
+/* directions.direction.to_the_right */
+"to the right" = "La dreapta";
+
+/* markerspicker.footnote.allowMultipleSelection */
+"Toggle markers on/off to select multiple." = "Activați/dezactivați marcatorii pentru a selecta mai mulți.";
+
+/* No comment provided by engineer. */
+"Too Close to Drop Another Breadcrumb Marker" = "Prea aproape pentru a lăsa un alt marcator Breadcrumb";
+
+/* %@ is the count of waypoints in a route */
+"Total waypoints count: %@ ." = "Număr total de puncte de trecere: %@ .";
+
+/* placesNearyBy.category.5 */
+"Transportation" = "Transport";
+
+/* troubleshooting.title */
+"Troubleshooting" = "Depanare";
+
+/* permissionmanager.alert.title */
+"Try with Test Location" = "Încercați cu Test Location";
+
+/* settings.callout.all.detail */
+"Turn all callouts on or off" = "Activați sau dezactivați toate înștiințările";
+
+/* No comment provided by engineer. */
+"Turn by turn instructions" = "Instrucțiuni rând cu rând";
+
+/* general.error.location_services */
+"Turn on Location Services to use VoiceVista" = "Activați Serviciile de localizare pentru a utiliza VoiceVista";
+
+/* general.error.precise_location */
+"Turn on Precise Location to use VoiceVista" = "Activați Locație precisă pentru a utiliza VoiceVista";
+
+/* preview.callout.road_finder.error_instructions */
+"Turn to select a road and then press Go" = "Rotiți pentru a selecta un drum și apoi apăsați Go";
+
+/* preview.callout.road_finder.instructions */
+"Turn your phone to preview available roads" = "Întoarceți telefonul pentru a previzualiza drumurile disponibile";
+
+/* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
+"Turned left. Now along %@" = "Virat la stânga. Acum împreună cu %@";
+
+/* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
+"Turned right. Now along %@" = "Virat la dreapta. Acum împreună cu %@";
+
+/* setting.audio.mix_with_others.confirmation */
+"Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Activarea acestei setări va face ca înștiințările VoiceVista și alte elemente audio să se întrerupă ori de câte ori începeți să utilizați o altă aplicație media. Puteți reveni la VoiceVista pentru a relua înștiințările.";
+
+/* settings.clear_cache.no_service.title */
+"Unable to Clear Stored Map Data" = "Nu se pot șterge datele stocate pe hartă";
+
+/* headphonesSetting.connect_headset.error_title */
+"Unable to Connect" = "Imposibil de conectat";
+
+/* No comment provided by engineer. */
+"Unknow location" = "Locație necunoscută";
+
+/* poi.unknown */
+"Unknown" = "Necunoscut";
+
+/* No comment provided by engineer. */
+"Unknown Current Location" = "Locație curentă necunoscută";
+
+/* No comment provided by engineer. */
+"Unknown street name" = "Numele străzii necunoscut";
+
+/* No comment provided by engineer. */
+"Unknown URL in the pasteboard" = "Adresă URL necunoscută în tablă";
+
+/* settings.preview.unnamedroads */
+"Unnamed Roads" = "Drumuri fără nume";
+
+/* No comment provided by engineer. */
+"Update Current Route to Circular" = "Actualizați traseul curent la circular";
+
+/* settings.callout.distance.detail */
+"Updates about distance to the audio beacon when it's set" = "Actualizări despre distanța până la semnalizatorul audio când este setat";
+
+/* No comment provided by engineer. */
+"Use buttons in the top-right corner to edit marker location, name and description." = "Folosiți butoanele din colțul din dreapta sus pentru a edita locația, numele și descrierea marcatorului.";
+
+/* No comment provided by engineer. */
+"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Utilizați butoanele din colțul din dreapta sus pentru a genera rute inversate, pentru a edita punctele de trecere, numele și descrierea.";
+
+/* No comment provided by engineer. */
+"Use Current Location" = "Utilizați locația curentă";
+
+/* voice.settings.enhanced_available.button */
+"Use Current Version" = "Utilizați versiunea curentă";
+
+/* No comment provided by engineer. */
+"Use the button in the top-right corner to save as a marker." = "Folosiți butonul din colțul din dreapta sus pentru a salva ca marcator.";
+
+/* settings.audio.mix_with_others.description */
+"Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Utilizați aceasta pentru a activa controlul VoiceVista cu butoanele de pe căști și butoanele de redare media de pe ecranul de blocare. Rețineți că atunci când este pornit, VoiceVista nu poate fi utilizat în timp ce se redă alte media, cum ar fi podcasturi sau muzică.";
+
+/* preview.note.1 */
+"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Folosind telefonul ca indicator, întoarceți încet, iar numele străzilor vor fi chemate pe măsură ce vă întoarceți. Când vă confruntați cu strada pe care doriți să coborâți, atingeți „Du-te” și vei avansa la următoarea intersecție.";
+
+/* No comment provided by engineer. */
+"View Detail" = "Vezi detalii";
+
+/* settings.general.voice
+   settings.general.volume.voice */
+"Voice" = "Voce";
+
+/* volumeSetting.voice */
+"VOICE" = "VOCE";
+
+/* voiceSetting.title */
+"Voice Settings" = "Setări voce";
+
+/* volumeSettings.voice */
+"Voice volume" = "Volumul vocii";
+
+/* No comment provided by engineer. */
+"VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista poate calcula puncte de referință pe baza locațiilor de pornire și de destinație.";
+
+/* No comment provided by engineer. */
+"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista poate genera o nouă rută inversă cu puncte de referință în ordine inversă pentru confortul dvs. Poate fi necesar să ajustați punctele de referință pentru traseul inversat înainte de a începe ghidarea.";
+
+/* troubleshooting.accuracy.footer */
+"VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista descarcă datele hărților pe măsură ce vă plimbați, astfel încât să vă poată spune despre lucrurile și locurile din jurul vostru. Dacă întâmpinați probleme cu VoiceVista sau folosește prea multă memorie, puteți șterge datele hărții stocate, iar VoiceVista va descărca din nou datele hărții din apropierea locației dvs. actuale.";
+
+/* icloud.kv_store.quota_violation_alert.title */
+"VoiceVista iCloud Storage Full" = "Stocare VoiceVista iCloud plină";
+
+/* terms_of_use.safety_notice */
+"VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista este un ajutor de navigare și nu ar trebui utilizat în locul abilităților de mobilitate, a fi conștient de împrejurimile și a judecății. Aveți grijă când navigați în mediul dvs. deoarece datele de cartografiere încorporate în programul VoiceVista sunt capturate dintr-un program terță parte și, prin urmare, pot exista limitări în ceea ce privește acuratețea informațiilor prezentate.";
+
+/* banner.online.message */
+"VoiceVista is back online" = "VoiceVista este din nou online";
+
+/* headphonesSetting.explain_ar.connecting */
+"VoiceVista is connecting to your headphones. One moment..." = "VoiceVista se conectează la căștile dvs. Un moment...";
+
+/* sleep.sleeping.message */
+"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista este în stare de repaus. Acest lucru împiedică VoiceVista să folosească Serviciile de localizare sau să descarce date. Aceasta economisește bateria atunci când nu utilizați VoiceVista. Atingeți butonul de mai jos pentru a activa VoiceVista.";
+
+/* sleep.snoozing.message */
+"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista amână în prezent. Când părăsiți locația actuală, VoiceVista se va trezi automat. Aceasta utilizează Serviciile de localizare într-un mod de consum redus pentru a economisi bateria telefonului. Atinge butonul de mai jos pentru a te trezi acum.";
+
+/* settings.clear_cache.no_service.message */
+"VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista nu se poate conecta în prezent la internet. Este necesară o conexiune la internet când ștergeți datele hărții stocate, astfel încât datele hărții să poată fi reîmprospătate.";
+
+/* headphonesSetting.explain_ar.paired */
+"VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista nu este conectat momentan la căștile dvs. Asigurați-vă că căștile sunt pornite și sunt aproape de telefon.";
+
+/* general.error.heading */
+"VoiceVista is not sure which direction you are facing. Please hold your phone flat or begin walking and try again" = "VoiceVista nu este sigur în ce direcție vă îndreptați. Vă rugăm să țineți telefonul plat sau să începeți să mergeți și să încercați din nou";
+
+/* devices.callouts.check_audio.airpods.disconnected */
+"VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista caută AirPod-urile dvs. Asigurați-vă că sunt conectate la telefonul dvs.";
+
+/* general.alert.offline_default.message */
+"VoiceVista is working offline. Nevertheless, VoiceVista will continue to work, but some functions may be limited." = "VoiceVista funcționează offline. Cu toate acestea, VoiceVista va continua să funcționeze, dar unele funcții pot fi limitate.";
+
+/* settings.clear_cache.alert_message */
+"VoiceVista stores map data to reduce data and battery consumption. Deleting stored data will require VoiceVista to re-download the data." = "VoiceVista stochează datele hărților pentru a reduce consumul de date și baterie. Ștergerea datelor stocate va necesita ca VoiceVista să descarce din nou datele.";
+
+/* settings.preview */
+"VOICEVISTA STREET PREVIEW" = "VOICEVISTA STREET PREVIEW";
+
+/* headphonesSetting.connect_headset.failed */
+"VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista nu s-a putut conecta la căștile dvs. Vă rugăm să încercați din nou mai târziu.";
+
+/* No comment provided by engineer. */
+"VoiceVista will call out information when running in the background mode." = "VoiceVista va chema informații atunci când rulează în modul de fundal.";
+
+/* settings.general.volume */
+"Volume" = "Volum";
+
+/* volumeSetting.title */
+"Volume Settings" = "Setări de volum";
+
+/* sleep.wake_up_now */
+"Wake Up Now" = "Trezeste-te acum";
+
+/* sleep.wake_up_when_i_leave */
+"Wake Up When I Leave" = "Trezește-te când plec";
+
+/* No comment provided by engineer. */
+"Walking instructions:" = "Instructiuni de mers pe jos:";
+
+/* No comment provided by engineer. */
+"Waypoint" = "Punct de drum";
+
+/* routes.import.alert.message */
+"Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Datele punctelor de trecere lipsesc pentru una sau mai multe dintre rutele dvs. Vă rugăm să examinați următoarele rute și să adăugați din nou puncte de referință dacă este necesar.";
+
+/* waypoints.cancel_alert_title */
+"Waypoints Updated" = "Puncte de trecere actualizate";
+
+/* general.error.location_services_find_location_error */
+"We are having trouble finding your current location." = "Avem probleme în găsirea locației dvs. actuale.";
+
+/* general.error.location_services_find_location_error.try_again */
+"We are having trouble finding your current location. Try again later." = "Avem probleme în găsirea locației dvs. actuale. Încercați mai târziu.";
+
+/* general.error.add_marker_error */
+"We are having trouble marking this place. Try again later." = "Avem probleme cu marcarea acestui loc. Încercați mai târziu.";
+
+/* general.error.set_beacon_error */
+"We are having trouble setting the beacon currently. Try again later." = "În prezent, avem probleme cu setarea farului. Încercați mai târziu.";
+
+/* headphonesSetting.test_headset.explanation */
+"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Am plasat o baliză audio în dreapta ta. Ascultă unde este și întoarce-ți capul spre el. Observați cum puteți face acest lucru chiar și atunci când telefonul este în buzunar. Când ați terminat, atingeți butonul de mai jos pentru a finaliza configurarea căștilor și bucurați-vă de următoarea plimbare cu noile căști de urmărire a capului.";
+
+/* devices.test_headset.callout */
+"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it... Notice how you can do this even when your phone is in your pocket." = "Am plasat o baliză audio în dreapta ta. Ascultă unde este și întoarce-ți capul spre el... Observați cum puteți face asta chiar și atunci când telefonul este în buzunar.";
+
+/* directions.cardinal.west */
+"West" = "Vest";
+
+/* user_activity.ahead_of_me.title */
+"What's Ahead of Me?" = "Ce este înaintea mea?";
+
+/* user_activity.around_me.title */
+"What's Around Me?" = "Ce este în jurul meu?";
+
+/* user_activity.my_location.title */
+"What's My Location?" = "Care este locația mea?";
+
+/* permissions.info.1 */
+"When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Când navigați cu VoiceVista, veți fi ghidat de un semnal audio, iar locațiile din jur și dinaintea dvs. pot fi semnalate.";
+
+/* No comment provided by engineer. */
+"When running in the background mode" = "Când rulați în modul de fundal";
+
+/* No comment provided by engineer. */
+"When running in the foreground mode" = "Când rulați în modul prim-plan";
+
+/* general.alert.offline_search.message */
+"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Când VoiceVista funcționează offline, căutarea este dezactivată. Închideți pentru a reveni la ecranul anterior";
+
+/* first_use_experience.share.alert.message */
+"When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Când partajați un marcator sau o rută VoiceVista, partajați locațiile asociate cu acel marcator sau rută. Ar trebui să împărtășești doar cu oamenii în care ai încredere.";
+
+/* search.placeholder */
+"Where do you want to explorer?" = "Unde vrei să explorezi?";
+
+/* No comment provided by engineer. */
+"While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "În timp ce vă aflați pe traseu cu VoiceVista, veți fi informat la sosirea la fiecare punct de referință, iar semnalizatorul audio va avansa automat la următorul punct de referință.";
+
+/* general.alert.yes */
+"Yes" = "da";
+
+/* terms_of_use.medical_safety_disclaimer */
+"You acknowledge that VoiceVista (1) is not designed, intended, or made available as a medical device, and (2) is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment." = "Recunoașteți că VoiceVista (1) nu este proiectat, intenționat sau pus la dispoziție ca dispozitiv medical și (2) nu este conceput sau intenționat să înlocuiască sfatul, diagnosticul, tratamentul sau judecata medicală profesională și nu ar trebui să fie utilizat pentru a înlocui sau ca un substitut pentru sfatul, diagnosticul, tratamentul sau judecata medicală profesională.";
+
+/* No comment provided by engineer. */
+"You can pick waypoints from your list of markers." = "Puteți alege puncte de referință din lista dvs. de marcatori.";
+
+/* No comment provided by engineer. */
+"You can rearrange the order of waypoints along a route at any time by editing the route." = "Puteți rearanja în orice moment ordinea punctelor de referință de-a lungul unei rute prin editarea traseului.";
+
+/* No comment provided by engineer. */
+"You have calculated waypoints of this route." = "Ați calculat puncte de referință ale acestei rute.";
+
+/* waypoints.cancel_alert_message */
+"You have changed waypoints of this route." = "Ați schimbat punctele de referință ale acestei rute.";
+
+/* No comment provided by engineer. */
+"You have not calculated waypoints of this route." = "Nu ați calculat puncte de referință ale acestei rute.";
+
+/* universal_links.marker.alert.message */
+"You should only use markers from someone you trust." = "Ar trebui să folosești doar markeri de la cineva în care ai încredere.";
+
+/* url_resource.alert.route.import.message */
+"You should only use routes from someone you trust." = "Ar trebui să utilizați doar rutele de la cineva în care aveți încredere.";
+
+/* first_use_experience.preview.tutorial.alert.message.2 */
+"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Vei fi transportat la mijlocul străzii, lângă locația pe care ai ales-o. Folosind telefonul ca indicator, întoarceți încet, iar numele străzilor vor fi chemate pe măsură ce vă întoarceți. Când vă confruntați cu strada pe care doriți să coborâți, atingeți „Du-te” și vei avansa la următoarea intersecție.";
+
+/* No comment provided by engineer. */
+"You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Acum veți reveni la pagina de pornire VoiceVista și un semnal audio va fi plasat pe primul punct de referință. Când ajungeți la punctul de referință, farul va avansa la următorul punct de referință de pe traseu.";
+
+/* No comment provided by engineer. */
+"You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Acum veți reveni la pagina de pornire VoiceVista și va fi pornită Audio Beacon. Ascultă cu atenție unde se află și ținând telefonul plat, întoarce-te spre el.";
+
+/* Title for alert that is displayed when importing a marker. */
+"You've received a marker: '%@'" = "Ați primit un marcator: „%@”";
+
+/* Title for alert that is displayed when importing a route. */
+"You've received a route: '%@'" = "Ați primit o rută: „%@”";
+
+/* headphonesSetting.explain_ar.connected.airpods */
+"Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "AirPod-urile dvs. sunt gata de utilizare, astfel încât să vă puteți pune telefonul în buzunar și să plecați! VoiceVista urmărește direcția capului, astfel încât nu trebuie să țineți telefonul în mână.";
+
+/* headphonesSetting.connect_headset.calibrate.explanation */
+"Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Căștile dvs. s-au conectat cu succes la VoiceVista, dar trebuie să fie calibrate înainte de utilizare. VoiceVista vă va informa ori de câte ori este necesară calibrarea căștilor, de exemplu de fiecare dată când o porniți.";
+
+/* devices.callouts.needs_calibration */
+"Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Căștile dvs. trebuie calibrate. Scoate-le din cap și scutură-le ușor în toate direcțiile.";
+
+/* headphonesSetting.connect_headset.unsupported_firmware */
+"Your Headphones need to be updated before they can connect to VoiceVista." = "Căștile dvs. trebuie să fie actualizate înainte de a se putea conecta la VoiceVista.";
+
+/* headphonesSetting.airpods_unavailable.alert.description */
+"Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "iPhone-ul dvs. nu acceptă urmărirea capului cu Apple AirPods. Verificați dacă iPhone-ul dvs. este un iPhone 7 sau o versiune ulterioară și rulează iOS 14.4 sau o versiune ulterioară.";
+
