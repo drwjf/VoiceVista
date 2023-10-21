@@ -53,7 +53,7 @@
 "%@ is nearby" = "%@ рядом";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"%@ roundabout" = "%@ круговой перекрёсток";
+"%@ roundabout" = "Круговой перекрёсток %@";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Пройдено %@ путевых точек, последняя путевая точка поблизости";
@@ -164,16 +164,16 @@
 "Apple Maps" = "Карты Apple";
 
 /* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
-"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, съездов: %2$@";
+"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, количество съездов: %2$@";
 
 /* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
-"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, съездов: %2$@";
+"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, количество съездов: %2$@";
 
 /* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
 "Approaching %@" = "Впереди %@";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "Впереди %@ круговой перекрёсток";
+"Approaching %@ roundabout" = "Впереди круговой перекрёсток %@";
 
 /* preview.callout.approach.end */
 "Approaching end of road" = "Впереди конец дороги";
@@ -411,7 +411,7 @@
 "Continuing Street Preview along %@" = "Продолжаю просмотр улиц прямо по %@";
 
 /* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
-"Continuing Street Preview at %@" = "Продолжаю просмотр улиц в %@";
+"Continuing Street Preview at %@" = "Продолжаю просмотр улиц у %@";
 
 /* map.hint.1 */
 "Coordinates of the map center" = "Координаты центра карты";
@@ -795,7 +795,7 @@
 "Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@ остался в %2$@ %3$@";
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
-"Intersection with %@ nearby" = "Перекресток с %@ поблизости";
+"Intersection with %@ nearby" = "Перекресток с %@ рядом";
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Перекрестки впереди";
@@ -1191,19 +1191,19 @@
 "Reverse Route Generated" = "Создан обратный маршрут";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
-"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток с %1$@ съездов %2$@";
+"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток, количество съездов: %1$@  %2$@";
 
 /* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
-"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами %2$@ %3$@";
+"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток, количество съездов: %1$@, %2$@ %3$@";
 
 /* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
-"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток с %1$@ съезжает на %2$@";
+"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток, количество съездов: %1$@, на расстоянии %2$@";
 
 /* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
-"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток с %1$@ съездами поблизости";
+"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток, количество съездов: %1$@ рядом";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами осталась в %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток, количество съездов: %1$@ остался в %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1291,7 +1291,7 @@
 "Settings" = "Настройки";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Встряхните, чтобы повторить последнее объявление";
+"Shake to Repeat Last Callout" = "Встряхните телефон, чтобы повторить последнее объявление";
 
 /* locationdetail.command.4 */
 "Share" = "Поделиться";
@@ -1371,7 +1371,7 @@
 "Starting Street Preview along %@" = "Запуск просмотра улиц по %@";
 
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
-"Starting Street Preview at %@" = "Запуск Просмотра Улиц в %@";
+"Starting Street Preview at %@" = "Запуск Просмотра Улиц у %@";
 
 /* beacon.command.1 */
 "Stop beacon" = "Остановить маяк";
