@@ -261,6 +261,9 @@
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Notifiche automatiche";
 
+/* No comment provided by engineer. */
+"Automobile" = "Automobile";
+
 /* directions.direction.away */
 "away" = "lontano";
 
@@ -365,6 +368,12 @@
 "Change External Maps App" = "Modifica l'app di Mappe esterne";
 
 /* No comment provided by engineer. */
+"Change Navigation Transport Type" = "Modifica il tipo di trasporto di navigazione";
+
+/* No comment provided by engineer. */
+"Change Units of Measure" = "Cambia unità di misura";
+
+/* No comment provided by engineer. */
 "Chat Group" = "Gruppo di chat";
 
 /* troubleshooting.checkaudio */
@@ -442,6 +451,9 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Attuale: %@";
+
+/* No comment provided by engineer. */
+"Data come from Apple MapKit" = "I dati provengono da Apple MapKit";
 
 /* general.alert.delete */
 "Delete" = "Elimina";
@@ -689,7 +701,7 @@
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Bacchetta aptica";
 
-/* settings.general */
+/* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "CUFFIE con TRACCIAMENTO DELLA TESTA";
 
 /* headphonesSetting.explain_ar.disconnected */
@@ -729,13 +741,10 @@
 "How does this sound?" = "Come ti suona?";
 
 /* No comment provided by engineer. */
-"How much feet should waypoints be generated between each other for this route?" = "Quanti piedi dovrebbero essere generati tra loro per questo percorso?";
+"How many feet should waypoints be generated between each other for this route?" = "Quanti piedi dovrebbero essere generati tra loro per questo percorso?";
 
 /* No comment provided by engineer. */
-"How much meters should waypoints be generated between each other for this route?" = "Quanti metri devono essere generati tra loro i waypoint per questo percorso?";
-
-/* No comment provided by engineer. */
-"How often to call out street name can be adjusted using the following slider" = "La frequenza con cui richiamare il nome della strada può essere regolata utilizzando il seguente dispositivo di scorrimento";
+"How many meters should waypoints be generated between each other for this route?" = "Quanti metri devono essere generati tra loro i waypoint per questo percorso?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Ho condiviso con te un indicatore VoiceVista! '%@;'";
@@ -750,7 +759,13 @@
 "If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Se non è impostato alcun audiofaro, VoiceVista rimarrà silenzioso durante l'esecuzione in modalità background.";
 
 /* No comment provided by engineer. */
-"If you enabled media controls in the settings tab, you can try pressing the previous button on your headphones to repeat the last callout." = "Se hai abilitato i controlli multimediali nella scheda Impostazioni, puoi provare a premere il pulsante precedente sulle cuffie per ripetere l'ultima notifica.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Se hai abilitato i controlli multimediali nella scheda Impostazioni, puoi premere il pulsante Riproduci/Pausa sulle cuffie per inserire anche un indicatore breadcrumb.";
+
+/* No comment provided by engineer. */
+"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Se hai abilitato i controlli multimediali nella scheda Impostazioni, puoi premere il pulsante precedente sulle cuffie per ripetere l'ultima chiamata.";
+
+/* settings.general.units.feet */
+"Imperial (Feet)" = "Britannico (piedi)";
 
 /* No comment provided by engineer. */
 "Import Markers from GPX File" = "Importa indicatori da file GPX";
@@ -774,7 +789,7 @@
 "Input Latitude and Longitude" = "Immettere latitudine e longitudine";
 
 /* No comment provided by engineer. */
-"Instructions for each waypoint one by one" = "Istruzioni per ogni punto di passaggio uno per uno";
+"Instructions for Each Waypoint" = "Istruzioni per ciascun waypoint";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informazioni sugli incroci e sui mezzi di trasporto";
@@ -800,11 +815,17 @@
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Incroci più avanti";
 
+/* %@ to indicate the number of seconds between street name announcements */
+"Interval is %@ seconds." = "L'intervallo è %@ secondi.";
+
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Nome percorso passo passo non valido";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Latitudine e longitudine non valide";
+
+/* No comment provided by engineer. */
+"It can be adjusted using the following slider" = "Può essere regolato utilizzando il seguente cursore";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "È facile aggiungere un nuovo indicatore per un utilizzo successivo in modalità passo passo. Tutti i nuovi indicatori su questo percorso verranno nominati automaticamente.";
@@ -823,6 +844,9 @@
 
 /* settings.clear_cache.markers.alert_title */
 "Keep Markers and Routes?" = "Mantenere Indicatori e Percorsi?";
+
+/* settings.general.language */
+"Langauge" = "Lingua";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Codici Latitudine o (Latitudine, Longitudine) o Più";
@@ -908,6 +932,9 @@
 /* settings.media */
 "MEDIA CONTROLS" = "CONTROLLI MULTIMEDIALI";
 
+/* settings.general.units.meters */
+"Metric (Meters)" = "Metrico (metri)";
+
 /* settings.callout.mobility */
 "Mobility" = "Mobilità";
 
@@ -925,13 +952,10 @@
 "Name" = "Nome";
 
 /* No comment provided by engineer. */
-"Navigation for Beacon" = "Navigazione per Beacon";
-
-/* No comment provided by engineer. */
-"Navigation for Route" = "Navigazione per il percorso";
-
-/* No comment provided by engineer. */
 "Navigation instructions" = "Istruzioni di navigazione";
+
+/* settings.navigation */
+"NAVIGATION SETTINGS" = "IMPOSTAZIONI DI NAVIGAZIONE";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Vicino a %@";
@@ -1043,7 +1067,7 @@
 "Open VoiceVista to resume Location Services" = "Apri VoiceVista per riprendere i servizi di localizzazione";
 
 /* No comment provided by engineer. */
-"Or just shake the phone to repeat the last callout when VoiceVista run in the foreground." = "Oppure basta scuotere il telefono per ripetere l'ultima notifica quando VoiceVista è in primo piano.";
+"Or simply shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Oppure scuoti semplicemente il telefono per ripetere l'ultima chiamata quando VoiceVista è in esecuzione in primo piano.";
 
 /* beacon.styles.original */
 "Original" = "Originale";
@@ -1482,6 +1506,12 @@
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Conteggio totale dei waypoint: %@ .";
 
+/* No comment provided by engineer. */
+"Transit" = "Transito";
+
+/* No comment provided by engineer. */
+"Transport Type" = "Tipo di trasporto";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Trasporto";
 
@@ -1495,7 +1525,7 @@
 "Turn all callouts on or off" = "Attiva o disattiva tutti gli avvisi";
 
 /* No comment provided by engineer. */
-"Turn by turn instructions" = "Istruzioni svolta per svolta";
+"Turn by Turn Instructions" = "Istruzioni svolta per svolta";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Attiva i servizi di localizzazione per utilizzare VoiceVista";
@@ -1524,6 +1554,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Impossibile connettersi";
 
+/* settings.general.units */
+"Units of Measure" = "Unità di misura";
+
 /* No comment provided by engineer. */
 "Unknow location" = "Posizione sconosciuta";
 
@@ -1535,6 +1568,9 @@
 
 /* No comment provided by engineer. */
 "Unknown street name" = "Nome della strada sconosciuto";
+
+/* No comment provided by engineer. */
+"Unknown Type" = "Tipo sconosciuto";
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "URL sconosciuto negli appunti";
@@ -1559,6 +1595,9 @@
 
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Usa versione corrente";
+
+/* No comment provided by engineer. */
+"Use each waypoint as destination separately" = "Utilizzare ciascun punto di passaggio come destinazione separatamente";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Utilizza il pulsante nell'angolo in alto a destra per salvare come indicatore.";
@@ -1652,6 +1691,9 @@
 "Wake Up When I Leave" = "Riattiva quando esco";
 
 /* No comment provided by engineer. */
+"Walking" = "A piedi";
+
+/* No comment provided by engineer. */
 "Walking instructions:" = "Istruzioni per la camminata:";
 
 /* No comment provided by engineer. */
@@ -1722,6 +1764,12 @@
 
 /* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Puoi scegliere i waypoint dal tuo elenco di indicatori.";
+
+/* No comment provided by engineer. */
+"You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Puoi anche premere il pulsante di riproduzione/pausa sulle cuffie per rilasciare un indicatore di breadcrumb.";
+
+/* No comment provided by engineer. */
+"You can press the previous button on your headphones to repeat the last callout." = "Puoi premere il pulsante precedente sulle cuffie per ripetere l'ultima chiamata.";
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Puoi modificare in qualsiasi momento l'ordine dei waypoint lungo un percorso modificando quest'ultimo.";

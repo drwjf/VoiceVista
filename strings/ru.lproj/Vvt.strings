@@ -53,7 +53,7 @@
 "%@ is nearby" = "%@ рядом";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"%@ roundabout" = "Круговой перекрёсток %@";
+"%@ roundabout" = "%@ круговой перекрёсток";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Пройдено %@ путевых точек, последняя путевая точка поблизости";
@@ -164,16 +164,16 @@
 "Apple Maps" = "Карты Apple";
 
 /* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
-"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, количество съездов: %2$@";
+"Approaching %1$@ roundabout with %2$@ exits" = "Впереди круговой перекрёсток %1$@, съездов: %2$@";
 
 /* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
-"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, количество съездов: %2$@";
+"Approaching %1$@ with %2$@ exits" = "Впереди %1$@, съездов: %2$@";
 
 /* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
 "Approaching %@" = "Впереди %@";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "Впереди круговой перекрёсток %@";
+"Approaching %@ roundabout" = "Впереди %@ круговой перекрёсток";
 
 /* preview.callout.approach.end */
 "Approaching end of road" = "Впереди конец дороги";
@@ -260,6 +260,9 @@
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Автоматические объявления";
+
+/* No comment provided by engineer. */
+"Automobile" = "Автомобиль";
 
 /* directions.direction.away */
 "away" = "На расстоянии";
@@ -365,6 +368,12 @@
 "Change External Maps App" = "Изменить приложение внешних карт";
 
 /* No comment provided by engineer. */
+"Change Navigation Transport Type" = "Изменить тип транспорта навигации";
+
+/* No comment provided by engineer. */
+"Change Units of Measure" = "Изменить единицы измерения";
+
+/* No comment provided by engineer. */
 "Chat Group" = "Присоединиться к группе в WhatsApp";
 
 /* troubleshooting.checkaudio */
@@ -411,7 +420,7 @@
 "Continuing Street Preview along %@" = "Продолжаю просмотр улиц прямо по %@";
 
 /* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
-"Continuing Street Preview at %@" = "Продолжаю просмотр улиц у %@";
+"Continuing Street Preview at %@" = "Продолжаю просмотр улиц в %@";
 
 /* map.hint.1 */
 "Coordinates of the map center" = "Координаты центра карты";
@@ -442,6 +451,9 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Текущий: %@";
+
+/* No comment provided by engineer. */
+"Data come from Apple MapKit" = "Данные взяты из Apple MapKit.";
 
 /* general.alert.delete */
 "Delete" = "Удалить";
@@ -477,7 +489,7 @@
 "Direction: %@ ." = "Направление: %@ .";
 
 /* preview.include_unnamed_roads.label.on */
-"Disable Unnamed Roads" = "Исключить безымянные дороги";
+"Disable Unnamed Roads" = "Отключить безымянные дороги";
 
 /* general.alert.dismiss */
 "Dismiss" = "Отклонить";
@@ -689,7 +701,7 @@
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Тактильная палочка";
 
-/* settings.general */
+/* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "НАУШНИКИ С ФУНКЦИЕЙ  ОТСЛЕЖИВАНИЯ ДВИЖЕНИЙ ГОЛОВЫ";
 
 /* headphonesSetting.explain_ar.disconnected */
@@ -729,13 +741,10 @@
 "How does this sound?" = "Как это звучит?";
 
 /* No comment provided by engineer. */
-"How much feet should waypoints be generated between each other for this route?" = "На каком расстоянии (в футах) друг от друга должны быть созданы путевые точки для этого маршрута?";
+"How many feet should waypoints be generated between each other for this route?" = "Сколько футов должно быть создано между собой для этого маршрута?";
 
 /* No comment provided by engineer. */
-"How much meters should waypoints be generated between each other for this route?" = "На каком расстоянии (в метрах) друг от друга должны быть созданы путевые точки для этого маршрута?";
-
-/* No comment provided by engineer. */
-"How often to call out street name can be adjusted using the following slider" = "Частоту объявления названий улиц можно настроить с помощью ползунка ниже";
+"How many meters should waypoints be generated between each other for this route?" = "Сколько метров должно быть создано путевых точек между собой для этого маршрута?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
@@ -750,7 +759,13 @@
 "If no beacon is set, VoiceVista will remain silent when running in the background mode." = "При работе в фоновом режиме VoiceVista будет молчать, если маяк не установлен.";
 
 /* No comment provided by engineer. */
-"If you enabled media controls in the settings tab, you can try pressing the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать кнопку «Предыдущая» на наушниках, чтобы повторить последнее объявление.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы также добавить навигационный маркер.";
+
+/* No comment provided by engineer. */
+"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать кнопку «Назад» на наушниках, чтобы повторить последний вызов.";
+
+/* settings.general.units.feet */
+"Imperial (Feet)" = "Империал (футы)";
 
 /* No comment provided by engineer. */
 "Import Markers from GPX File" = "Импортировать метки из файла GPX";
@@ -759,13 +774,13 @@
 "Import Soundscape Route File" = "Импортировать файл маршрута Soundscape";
 
 /* voiceSetting.in_vehicle_rate */
-"IN VEHICLE SPEAKING RATE" = "Скорость речи в транспортном средстве";
+"IN VEHICLE SPEAKING RATE" = "В АВТОМОБИЛЕ СКОРОСТЬ ГОВОРЯ";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate" = "Скорость речи в транспортном средстве";
+"In vehicle speaking rate" = "Скорость разговора в автомобиле";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate. How does this sound?" = "Скорость речи в транспортном средстве. Как это звучит?";
+"In vehicle speaking rate. How does this sound?" = "Скорость разговора в автомобиле. Как это звучит?";
 
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Включить безымянные дороги во время предварительного просмотра улиц";
@@ -774,7 +789,7 @@
 "Input Latitude and Longitude" = "Ввести широту и долготу";
 
 /* No comment provided by engineer. */
-"Instructions for each waypoint one by one" = "Инструкции для каждой путевой точки по отдельности";
+"Instructions for Each Waypoint" = "Инструкции для каждой путевой точки";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Информация о перекрестках и транспорте";
@@ -795,16 +810,22 @@
 "Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@ остался в %2$@ %3$@";
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
-"Intersection with %@ nearby" = "Перекресток с %@ рядом";
+"Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Перекрестки впереди";
+
+/* %@ to indicate the number of seconds between street name announcements */
+"Interval is %@ seconds." = "Интервал составляет %@ секунд.";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Неверное имя маршрута в режиме 'хлебные крошки'";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Широта и долгота введены Неверно";
+
+/* No comment provided by engineer. */
+"It can be adjusted using the following slider" = "Его можно настроить с помощью следующего ползунка";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме 'хлебные крошки' легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
@@ -823,6 +844,9 @@
 
 /* settings.clear_cache.markers.alert_title */
 "Keep Markers and Routes?" = "Сохранить метки и маршруты?";
+
+/* settings.general.language */
+"Langauge" = "Язык";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Широта или (широта, долгота) или коды Пoogle Plus";
@@ -908,6 +932,9 @@
 /* settings.media */
 "MEDIA CONTROLS" = "Элементы управления мультимедиа";
 
+/* settings.general.units.meters */
+"Metric (Meters)" = "Метрическая (метры)";
+
 /* settings.callout.mobility */
 "Mobility" = "Мобильность";
 
@@ -925,13 +952,10 @@
 "Name" = "Имя";
 
 /* No comment provided by engineer. */
-"Navigation for Beacon" = "Навигация по маяку";
-
-/* No comment provided by engineer. */
-"Navigation for Route" = "Навигация по маршруту";
-
-/* No comment provided by engineer. */
 "Navigation instructions" = "Инструкции по навигации";
+
+/* settings.navigation */
+"NAVIGATION SETTINGS" = "НАСТРОЙКИ НАВИГАЦИИ";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Рядом с %@";
@@ -1022,13 +1046,13 @@
 "Offline mode" = "Автономный режим";
 
 /* No comment provided by engineer. */
-"On foot speaking rate" = "Скорость  речи на пеших маршрутах";
+"On foot speaking rate" = "Скорость разговорной речи пешком";
 
 /* voiceSetting.on_foot_rate */
-"ON FOOT SPEAKING RATE" = "Скорость  речи на пеших маршрутах";
+"ON FOOT SPEAKING RATE" = "НОЖЬЯ ГОВОРЯ";
 
 /* No comment provided by engineer. */
-"On foot speaking rate. How does this sound?" = "Это скорость  речи на пеших маршрутах. Как это звучит?";
+"On foot speaking rate. How does this sound?" = "Пешком говорящий темп. Как это звучит?";
 
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Ой! Что-то пошло не так.";
@@ -1043,7 +1067,7 @@
 "Open VoiceVista to resume Location Services" = "Откройте VoiceVista, чтобы возобновить работу служб определения местоположения";
 
 /* No comment provided by engineer. */
-"Or just shake the phone to repeat the last callout when VoiceVista run in the foreground." = "Или просто встряхните телефон, чтобы повторить последнее объявление, когда VoiceVista работает на переднем плане.";
+"Or simply shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Или просто встряхните телефон, чтобы повторить последний вызов, когда VoiceVista работает на переднем плане.";
 
 /* beacon.styles.original */
 "Original" = "Оригинал";
@@ -1191,19 +1215,19 @@
 "Reverse Route Generated" = "Создан обратный маршрут";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
-"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток, количество съездов: %1$@  %2$@";
+"Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток с %1$@ съездов %2$@";
 
 /* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
-"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток, количество съездов: %1$@, %2$@ %3$@";
+"Roundabout with %1$@ exits %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами %2$@ %3$@";
 
 /* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
-"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток, количество съездов: %1$@, на расстоянии %2$@";
+"Roundabout with %1$@ exits %2$@ away" = "Круговой перекрёсток с %1$@ съезжает на %2$@";
 
 /* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
-"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток, количество съездов: %1$@ рядом";
+"Roundabout with %1$@ exits nearby" = "Круговой перекрёсток с %1$@ съездами поблизости";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток, количество съездов: %1$@ остался в %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами осталась в %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1291,7 +1315,7 @@
 "Settings" = "Настройки";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Встряхните телефон, чтобы повторить последнее объявление";
+"Shake to Repeat Last Callout" = "Встряхните, чтобы повторить последний вызов";
 
 /* locationdetail.command.4 */
 "Share" = "Поделиться";
@@ -1371,19 +1395,19 @@
 "Starting Street Preview along %@" = "Запуск просмотра улиц по %@";
 
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
-"Starting Street Preview at %@" = "Запуск Просмотра Улиц у %@";
+"Starting Street Preview at %@" = "Запуск Просмотра Улиц в %@";
 
 /* beacon.command.1 */
 "Stop beacon" = "Остановить маяк";
 
 /* locationdetail.command.1 */
-"Stop Beacon" = "Остановить маяк";
+"Stop Beacon" = "Стоп-маяк";
 
 /* No comment provided by engineer. */
 "Stop Route" = "Остановить маршрут";
 
 /* No comment provided by engineer. */
-"Street Name Callout Rate" = "Частота объявления названий улиц";
+"Street Name Callout Rate" = "Частота уточнений названий улиц";
 
 /* No comment provided by engineer. */
 "Street Names" = "Названия улиц";
@@ -1482,6 +1506,12 @@
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Всего путевых точек: %@ .";
 
+/* No comment provided by engineer. */
+"Transit" = "Транзит";
+
+/* No comment provided by engineer. */
+"Transport Type" = "Тип транспорта";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Транспорт";
 
@@ -1495,7 +1525,7 @@
 "Turn all callouts on or off" = "Включить или отключить все объявления";
 
 /* No comment provided by engineer. */
-"Turn by turn instructions" = "Пошаговые инструкции";
+"Turn by Turn Instructions" = "Пошаговые инструкции";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Включите службы  геолокации, чтобы использовать VoiceVista.";
@@ -1524,6 +1554,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Невозможно подключиться";
 
+/* settings.general.units */
+"Units of Measure" = "Единицы измерения";
+
 /* No comment provided by engineer. */
 "Unknow location" = "Неизвестное местоположение";
 
@@ -1535,6 +1568,9 @@
 
 /* No comment provided by engineer. */
 "Unknown street name" = "Неизвестное название улицы";
+
+/* No comment provided by engineer. */
+"Unknown Type" = "Неизвестный тип";
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "Неизвестный URL в буфере обмена";
@@ -1559,6 +1595,9 @@
 
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Использовать текущую версию";
+
+/* No comment provided by engineer. */
+"Use each waypoint as destination separately" = "Используйте каждую путевую точку в качестве пункта назначения отдельно";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Чтобы сохранить место как метку, используйте кнопку в правом верхнем углу.";
@@ -1652,6 +1691,9 @@
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
 
 /* No comment provided by engineer. */
+"Walking" = "Гулять пешком";
+
+/* No comment provided by engineer. */
 "Walking instructions:" = "Инструкции для пешего маршрута:";
 
 /* No comment provided by engineer. */
@@ -1700,7 +1742,7 @@
 "When running in the background mode" = "При работе в фоновом режиме";
 
 /* No comment provided by engineer. */
-"When running in the foreground mode" = "При работе на переднем плане";
+"When running in the foreground mode" = "При работе в режиме переднего плана";
 
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск мест не доступен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";
@@ -1722,6 +1764,12 @@
 
 /* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Вы можете выбрать путевые точки из списка меток.";
+
+/* No comment provided by engineer. */
+"You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы добавить маркер навигационной цепочки.";
+
+/* No comment provided by engineer. */
+"You can press the previous button on your headphones to repeat the last callout." = "Вы можете нажать кнопку «Предыдущий» на наушниках, чтобы повторить последний вызов.";
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Вы можете изменить порядок путевых точек на маршруте в любое время, отредактировав маршрут.";
