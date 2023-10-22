@@ -261,6 +261,9 @@
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatische Ansagen";
 
+/* No comment provided by engineer. */
+"Automobile" = "Automobil";
+
 /* directions.direction.away */
 "away" = "entfernt";
 
@@ -365,6 +368,12 @@
 "Change External Maps App" = "Externe App für Karten ändern";
 
 /* No comment provided by engineer. */
+"Change Navigation Transport Type" = "Ändern Sie den Navigationstransporttyp";
+
+/* No comment provided by engineer. */
+"Change Units of Measure" = "Maßeinheiten ändern";
+
+/* No comment provided by engineer. */
 "Chat Group" = "Chat";
 
 /* troubleshooting.checkaudio */
@@ -442,6 +451,9 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Aktuell: %@";
+
+/* No comment provided by engineer. */
+"Data come from Apple MapKit" = "Die Daten stammen von Apple MapKit";
 
 /* general.alert.delete */
 "Delete" = "Löschen";
@@ -689,11 +701,11 @@
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Haptischer Stab";
 
-/* settings.general */
+/* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "HEAD-TRACKING-KOPFHÖRER";
 
 /* headphonesSetting.explain_ar.disconnected */
-"Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Kopfhörer mit Head-Tracking-Funktion haben Sensoren, mit denen VoiceVista Ihre Blickrichtung erkennen kann. Dadurch wird Ihr Hörerlebnis natürlicher, wenn Sie sich bewegen.\n\n\nTippen Sie unten, um ihre Kopfhörer mit Head-Tracking-Funktion zu verbinden.";
+"Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Kopfhörer mit Head-Tracking-Funktion haben Sensoren, mit denen VoiceVista Ihre Blickrichtung erkennen kann. Dadurch wird Ihr Hörerlebnis natürlicher, wenn Sie sich bewegen. \n\nTippen Sie die Taste unten, um Ihre Kopfhörer mit Head-Tracking-Funktion zu verbinden.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "Keine Kopfhörer verbunden, die Head Tracking unterstützen.";
@@ -729,13 +741,10 @@
 "How does this sound?" = "Wie klingt das?";
 
 /* No comment provided by engineer. */
-"How much feet should waypoints be generated between each other for this route?" = "Wie viel Fuß sollen die Punkte dieser Route mindestens auseinanderliegen?";
+"How many feet should waypoints be generated between each other for this route?" = "Wie viele Fuß sollten für diese Route voneinander Wegpunkte generiert werden?";
 
 /* No comment provided by engineer. */
-"How much meters should waypoints be generated between each other for this route?" = "Wie viele Meter sollen die Punkte dieser Route mindestens auseinanderliegen?";
-
-/* No comment provided by engineer. */
-"How often to call out street name can be adjusted using the following slider" = "Die Häufigkeit der Adressansage kann mit dem folgenden Schieberegler eingestellt werden";
+"How many meters should waypoints be generated between each other for this route?" = "Wie viele Meter sollen für diese Route Wegpunkte zueinander generiert werden?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Ich habe eine VoiceVista-Markierung mit Ihnen geteilt! „%@“";
@@ -750,7 +759,13 @@
 "If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Ist kein Signal aktiv, bleibt VoiceVista im Hintergrundmodus stumm.";
 
 /* No comment provided by engineer. */
-"If you enabled media controls in the settings tab, you can try pressing the previous button on your headphones to repeat the last callout." = "Wenn Sie die Mediensteuerung in den VoiceVista-Einstellungen aktiviert haben, können Sie die Taste „zurückspringen“ an Ihrem Headset drücken, um die letzte Ansage erneut zu hören.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Wenn Sie die Mediensteuerung auf der Registerkarte „Einstellungen“ aktiviert haben, können Sie auch die Wiedergabe-/Pause-Taste an Ihren Kopfhörern drücken, um einen Breadcrumb-Marker zu setzen.";
+
+/* No comment provided by engineer. */
+"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Wenn Sie die Mediensteuerung auf der Registerkarte „Einstellungen“ aktiviert haben, können Sie die Zurück-Taste an Ihren Kopfhörern drücken, um den letzten Aufruf zu wiederholen.";
+
+/* settings.general.units.feet */
+"Imperial (Feet)" = "Imperial (Fuß)";
 
 /* No comment provided by engineer. */
 "Import Markers from GPX File" = "Markierungen aus GPX-Datei importieren";
@@ -759,13 +774,13 @@
 "Import Soundscape Route File" = "Soundscape-Route importieren";
 
 /* voiceSetting.in_vehicle_rate */
-"IN VEHICLE SPEAKING RATE" = "Sprechgeschwindigkeit im Fahrzeug";
+"IN VEHICLE SPEAKING RATE" = "SPRECHTEMPO BEIM FAHREN";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate" = "Sprechgeschwindigkeit im Fahrzeug";
+"In vehicle speaking rate" = "Sprechtempo beim Fahren";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate. How does this sound?" = "Sprechgeschwindigkeit im Fahrzeug. Wie klingt das?";
+"In vehicle speaking rate. How does this sound?" = "Sprechtempo beim Fahren. Wie klingt das?";
 
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Unbenannte Straßen in VoiceVista Straßenvorschau einschließen";
@@ -774,7 +789,7 @@
 "Input Latitude and Longitude" = "Länge und Breite eingeben";
 
 /* No comment provided by engineer. */
-"Instructions for each waypoint one by one" = "Anweisungen für jeden Wegpunkt einzeln";
+"Instructions for Each Waypoint" = "Anweisungen für jeden Wegpunkt";
 
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informationen zu Kreuzungen und Transport";
@@ -800,11 +815,17 @@
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Kreuzungen geradeaus";
 
+/* %@ to indicate the number of seconds between street name announcements */
+"Interval is %@ seconds." = "Das Intervall beträgt %@ Sekunden.";
+
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Ungültiger Breiten- und Längengrad";
+
+/* No comment provided by engineer. */
+"It can be adjusted using the following slider" = "Sie kann mit dem folgenden Schieberegler angepasst werden";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Das Hinzufügen einer Markierung im Brotkrumenmodus ist einfach, denn alle Markierungen auf dieser Route werden automatisch benannt.";
@@ -823,6 +844,9 @@
 
 /* settings.clear_cache.markers.alert_title */
 "Keep Markers and Routes?" = "Markierungen und Routen behalten?";
+
+/* settings.general.language */
+"Langauge" = "Sprache";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Breitengrad oder (Breitengrad, Längengrad) oder Google-Plus-Code";
@@ -908,6 +932,9 @@
 /* settings.media */
 "MEDIA CONTROLS" = "MEDIENSTEUERUNG";
 
+/* settings.general.units.meters */
+"Metric (Meters)" = "Metrisch (Meter)";
+
 /* settings.callout.mobility */
 "Mobility" = "Mobilität";
 
@@ -925,13 +952,10 @@
 "Name" = "Name";
 
 /* No comment provided by engineer. */
-"Navigation for Beacon" = "Navigation für Beacon";
-
-/* No comment provided by engineer. */
-"Navigation for Route" = "Navigation für Route";
-
-/* No comment provided by engineer. */
 "Navigation instructions" = "Navigationshinweise";
+
+/* settings.navigation */
+"NAVIGATION SETTINGS" = "NAVIGATIONSEINSTELLUNGEN";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Bei %@";
@@ -1022,13 +1046,13 @@
 "Offline mode" = "Offlinemodus";
 
 /* No comment provided by engineer. */
-"On foot speaking rate" = "Sprechtarif zu Fuß";
+"On foot speaking rate" = "Sprechtempo beim Gehen";
 
 /* voiceSetting.on_foot_rate */
-"ON FOOT SPEAKING RATE" = "PREIS ZU FUSSSPRECHEN";
+"ON FOOT SPEAKING RATE" = "SPRECHTEMPO BEIM GEHEN";
 
 /* No comment provided by engineer. */
-"On foot speaking rate. How does this sound?" = "Sprechtarif zu Fuß. Wie klingt das?";
+"On foot speaking rate. How does this sound?" = "Sprechtempo beim Gehen. Wie klingt das?";
 
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Hoppla! Etwas ist schief gelaufen.";
@@ -1043,7 +1067,7 @@
 "Open VoiceVista to resume Location Services" = "Öffnen Sie VoiceVista, um die Ausführung der Ortungsdienste fortzusetzen";
 
 /* No comment provided by engineer. */
-"Or just shake the phone to repeat the last callout when VoiceVista run in the foreground." = "Oder schütteln Sie das Telefon, um die letzte Ansage zu hören, wenn VoiceVista im Vordergrund läuft.";
+"Or simply shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Oder schütteln Sie einfach das Telefon, um den letzten Aufruf zu wiederholen, wenn VoiceVista im Vordergrund ausgeführt wird.";
 
 /* beacon.styles.original */
 "Original" = "Original";
@@ -1291,7 +1315,7 @@
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Schütteln, um den letzten Aufruf zu wiederholen";
+"Shake to Repeat Last Callout" = "Schütteln, um letzte Ansage zu wiederholen";
 
 /* locationdetail.command.4 */
 "Share" = "Senden";
@@ -1377,13 +1401,13 @@
 "Stop beacon" = "Signal ausschalten";
 
 /* locationdetail.command.1 */
-"Stop Beacon" = "Stoppen Sie Beacon";
+"Stop Beacon" = "Signal ausschalten";
 
 /* No comment provided by engineer. */
 "Stop Route" = "Route anhalten";
 
 /* No comment provided by engineer. */
-"Street Name Callout Rate" = "Rate der Straßennamen-Callouts";
+"Street Name Callout Rate" = "Häufigkeit der Straßenansage";
 
 /* No comment provided by engineer. */
 "Street Names" = "Straßennamen";
@@ -1425,7 +1449,7 @@
 "There are no nearby markers to call out right now." = "Keine Markierungen zum Ansagen in der Nähe";
 
 /* No comment provided by engineer. */
-"There are no turn by turn instructions now." = "Derzeit gibt es keine Abbiegehinweise.";
+"There are no turn by turn instructions now." = "Aktuell gibt es keine Navigationsanweisungen.";
 
 /* callouts.nothing_to_call_out_now */
 "There is nothing to call out right now" = "Hier gibt es nichts anzusagen";
@@ -1482,6 +1506,12 @@
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Gesamtzahl der Wegpunkte: %@ .";
 
+/* No comment provided by engineer. */
+"Transit" = "Transit";
+
+/* No comment provided by engineer. */
+"Transport Type" = "Transporttyp";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
@@ -1495,7 +1525,7 @@
 "Turn all callouts on or off" = "Alle Ansagen ein- oder ausschalten";
 
 /* No comment provided by engineer. */
-"Turn by turn instructions" = "Turn-by-Turn-Anweisungen";
+"Turn by Turn Instructions" = "Turn-by-Turn-Anweisungen";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Ortungsdienste aktivieren, um VoiceVista zu verwenden";
@@ -1524,6 +1554,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Keine Verbindung";
 
+/* settings.general.units */
+"Units of Measure" = "Maßeinheiten";
+
 /* No comment provided by engineer. */
 "Unknow location" = "Unbekannter Ort";
 
@@ -1535,6 +1568,9 @@
 
 /* No comment provided by engineer. */
 "Unknown street name" = "Unbekannter Straßenname";
+
+/* No comment provided by engineer. */
+"Unknown Type" = "Unbekannter Typ";
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "Unbekannte URL in der Zwischenablage";
@@ -1559,6 +1595,9 @@
 
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Aktuelle Version verwenden";
+
+/* No comment provided by engineer. */
+"Use each waypoint as destination separately" = "Verwenden Sie jeden Wegpunkt separat als Ziel";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Nutzen Sie die Taste rechts, um als Markierung zu speichern.";
@@ -1652,6 +1691,9 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* No comment provided by engineer. */
+"Walking" = "Gehen";
+
+/* No comment provided by engineer. */
 "Walking instructions:" = "Fußgängernavigation";
 
 /* No comment provided by engineer. */
@@ -1697,10 +1739,10 @@
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Bei der Navigation mit VoiceVista werden Sie von einem Signalton geführt, und Orte in Ihrer Nähe können angesagt werden.";
 
 /* No comment provided by engineer. */
-"When running in the background mode" = "Bei Ausführung im Hintergrundmodus";
+"When running in the background mode" = "Im Hintergrundmodus";
 
 /* No comment provided by engineer. */
-"When running in the foreground mode" = "Bei Ausführung im Vordergrundmodus";
+"When running in the foreground mode" = "Im Vordergrundmodus";
 
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Wenn VoiceVista offline arbeitet, ist die Suche deaktiviert. Schließen, um zum vorherigen Bildschirm zurückzukehren";
@@ -1722,6 +1764,12 @@
 
 /* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Sie können Wegpunkte aus der Liste Ihrer Markierungen auswählen.";
+
+/* No comment provided by engineer. */
+"You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Sie können auch die Wiedergabe-/Pause-Taste an Ihrem Kopfhörer drücken, um einen Breadcrumb-Marker zu platzieren.";
+
+/* No comment provided by engineer. */
+"You can press the previous button on your headphones to repeat the last callout." = "Sie können die Zurück-Taste an Ihrem Kopfhörer drücken, um den letzten Aufruf zu wiederholen.";
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Sie können die Reihenfolge der Wegpunkte entlang einer Route jederzeit ändern, indem Sie die Route bearbeiten.";
