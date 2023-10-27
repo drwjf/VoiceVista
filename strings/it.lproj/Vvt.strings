@@ -46,6 +46,9 @@
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ disconnesso.";
 
+/* %@ is the navigation transport type, such as Walking, Automobile, Transit */
+"%@ Instructions:" = "%@ Istruzioni:";
+
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "Incrocio %@";
 
@@ -54,6 +57,9 @@
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "Rotonda di %@";
+
+/* %@ to indicate the number of seconds between street name announcements */
+"%@ seconds" = "%@ secondi";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "%@ waypoint raggiunti, ultimo waypoint nelle vicinanze";
@@ -286,6 +292,9 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Audiofaro dietro";
 
+/* No comment provided by engineer. */
+"Beacon Distance Frequency Factor" = "Fattore di frequenza della distanza del faro";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Audiofaro su %@";
 
@@ -297,6 +306,9 @@
 
 /* voiceSetting.title */
 "Beacon Settings" = "Impostazioni audiofaro";
+
+/* No comment provided by engineer. */
+"Beacon Turn by Turn Instructions" = "Istruzioni svolta per svolta del faro";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "Volume audiofaro";
@@ -368,7 +380,10 @@
 "Change External Maps App" = "Modifica l'app di Mappe esterne";
 
 /* No comment provided by engineer. */
-"Change Navigation Transport Type" = "Modifica il tipo di trasporto di navigazione";
+"Change Pathfinding Transport Type" = "Modifica il tipo di trasporto di ricerca percorsi";
+
+/* No comment provided by engineer. */
+"Change Route Path Mode" = "Cambia la modalità del percorso del percorso";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Cambia unità di misura";
@@ -451,9 +466,6 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Attuale: %@";
-
-/* No comment provided by engineer. */
-"Data come from Apple MapKit" = "I dati provengono da Apple MapKit";
 
 /* general.alert.delete */
 "Delete" = "Elimina";
@@ -617,6 +629,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Strutture";
 
+/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
+"Factor %@" = "Fattore %@";
+
 /* No comment provided by engineer. */
 "Failed to Add Route" = "Impossibile aggiungere il percorso";
 
@@ -658,6 +673,9 @@
 
 /* settings.bluetooth.forget */
 "Forget These Headphones" = "Ignora queste cuffie";
+
+/* No comment provided by engineer. */
+"Frequency factor can be adjusted using the following slider" = "Il fattore di frequenza può essere regolato utilizzando il seguente cursore";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Domande frequenti";
@@ -788,9 +806,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Immettere latitudine e longitudine";
 
-/* No comment provided by engineer. */
-"Instructions for Each Waypoint" = "Istruzioni per ciascun waypoint";
-
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Informazioni sugli incroci e sui mezzi di trasporto";
 
@@ -815,17 +830,14 @@
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Incroci più avanti";
 
-/* %@ to indicate the number of seconds between street name announcements */
-"Interval is %@ seconds." = "L'intervallo è %@ secondi.";
+/* No comment provided by engineer. */
+"Interval seconds can be adjusted using the following slider" = "I secondi dell'intervallo possono essere regolati utilizzando il seguente dispositivo di scorrimento";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Nome percorso passo passo non valido";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Latitudine e longitudine non valide";
-
-/* No comment provided by engineer. */
-"It can be adjusted using the following slider" = "Può essere regolato utilizzando il seguente cursore";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "È facile aggiungere un nuovo indicatore per un utilizzo successivo in modalità passo passo. Tutti i nuovi indicatori su questo percorso verranno nominati automaticamente.";
@@ -846,7 +858,7 @@
 "Keep Markers and Routes?" = "Mantenere Indicatori e Percorsi?";
 
 /* settings.general.language */
-"Langauge" = "Lingua";
+"Language" = "Lingua";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Codici Latitudine o (Latitudine, Longitudine) o Più";
@@ -993,7 +1005,8 @@
 /* No comment provided by engineer. */
 "Network Connection Required" = "Connessione di rete richiesta";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Prossimo incrocio: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1089,6 +1102,9 @@
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Incolla URL da Mappe di Apple";
+
+/* No comment provided by engineer. */
+"Pathfinding Transport Type" = "Tipo di trasporto di ricerca percorsi";
 
 /* permissions.status.3 */
 "Permission granted" = "Permesso concesso";
@@ -1259,6 +1275,9 @@
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Nome del percorso: %@ .";
 
+/* No comment provided by engineer. */
+"Route Path Mode" = "Modalità percorso percorso";
+
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Percorso interrotto, %@";
 
@@ -1407,7 +1426,7 @@
 "Stop Route" = "Interrompi Percorso";
 
 /* No comment provided by engineer. */
-"Street Name Callout Rate" = "Velocità avviso nome strada";
+"Street Name Callout Interval" = "Intervallo di callout del nome della strada";
 
 /* No comment provided by engineer. */
 "Street Names" = "Nomi delle strade";
@@ -1509,9 +1528,6 @@
 /* No comment provided by engineer. */
 "Transit" = "Transito";
 
-/* No comment provided by engineer. */
-"Transport Type" = "Tipo di trasporto";
-
 /* placesNearyBy.category.5 */
 "Transportation" = "Trasporto";
 
@@ -1523,9 +1539,6 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Attiva o disattiva tutti gli avvisi";
-
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Istruzioni passo passo";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Attiva i servizi di localizzazione per utilizzare VoiceVista";
@@ -1566,6 +1579,9 @@
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Posizione corrente sconosciuta";
 
+/* troubleshooting.gps_status.unknown */
+"Unknown Location Accuracy" = "Precisione della posizione sconosciuta";
+
 /* No comment provided by engineer. */
 "Unknown street name" = "Nome strada sconosciuto";
 
@@ -1581,9 +1597,6 @@
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Aggiorna il percorso corrente a Circolare";
 
-/* settings.callout.distance.detail */
-"Updates about distance to the audio beacon when it's set" = "Aggiornamenti sulla distanza dall'audiofaro quando è impostato";
-
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "Utilizza i pulsanti nell'angolo in alto a destra per modificare la posizione, il nome e la descrizione dell'indicatore.";
 
@@ -1597,7 +1610,10 @@
 "Use Current Version" = "Usa versione corrente";
 
 /* No comment provided by engineer. */
-"Use each waypoint as destination separately" = "Utilizza ciascun waypoint come destinazione separatamente";
+"Use each waypoint separately to find path" = "Utilizzare ciascun punto di passaggio separatamente per trovare il percorso";
+
+/* No comment provided by engineer. */
+"Use final destination of route to find path" = "Utilizza la destinazione finale del percorso per trovare il percorso";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Utilizza il pulsante nell'angolo in alto a destra per salvare come indicatore.";
@@ -1617,6 +1633,9 @@
 
 /* volumeSetting.voice */
 "VOICE" = "VOCE";
+
+/* No comment provided by engineer. */
+"Voice hint when approaching turn points" = "Suggerimento vocale quando ci si avvicina ai punti di svolta";
 
 /* voiceSetting.title */
 "Voice Settings" = "Impostazioni voce";
@@ -1692,9 +1711,6 @@
 
 /* No comment provided by engineer. */
 "Walking" = "A piedi";
-
-/* No comment provided by engineer. */
-"Walking instructions:" = "Istruzioni a piedi:";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Waypoint";

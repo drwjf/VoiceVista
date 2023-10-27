@@ -46,6 +46,9 @@
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ bağlantı kesildi.";
 
+/* %@ is the navigation transport type, such as Walking, Automobile, Transit */
+"%@ Instructions:" = "%@ Talimatlar:";
+
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "%@ Kavşak";
 
@@ -54,6 +57,9 @@
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ dönel kavşak";
+
+/* %@ to indicate the number of seconds between street name announcements */
+"%@ seconds" = "%@ saniye";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Ara Noktaya Ulaşıldı, Yakınlardaki Son Ara Nokta";
@@ -286,6 +292,9 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "arkadaki işaret";
 
+/* No comment provided by engineer. */
+"Beacon Distance Frequency Factor" = "İşaret Mesafesi Frekans Faktörü";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "%@ üzerinde işaretçi";
 
@@ -297,6 +306,9 @@
 
 /* voiceSetting.title */
 "Beacon Settings" = "İşaret Ayarları";
+
+/* No comment provided by engineer. */
+"Beacon Turn by Turn Instructions" = "Beacon Adım Adım Talimatlar";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "işaret hacmi";
@@ -368,7 +380,10 @@
 "Change External Maps App" = "Harici Haritalar Uygulamasını Değiştir";
 
 /* No comment provided by engineer. */
-"Change Navigation Transport Type" = "Gezinme Aktarım Türünü Değiştir";
+"Change Pathfinding Transport Type" = "Yol Bulma Aktarım Türünü Değiştir";
+
+/* No comment provided by engineer. */
+"Change Route Path Mode" = "Rota Yolu Modunu Değiştir";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
@@ -451,9 +466,6 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Akım: %@";
-
-/* No comment provided by engineer. */
-"Data come from Apple MapKit" = "Veriler Apple MapKit'ten geliyor";
 
 /* general.alert.delete */
 "Delete" = "Silmek";
@@ -617,6 +629,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Tesisler";
 
+/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
+"Factor %@" = "Faktör %@";
+
 /* No comment provided by engineer. */
 "Failed to Add Route" = "Rota Eklenemedi";
 
@@ -658,6 +673,9 @@
 
 /* settings.bluetooth.forget */
 "Forget These Headphones" = "Bu Kulaklıkları Unutun";
+
+/* No comment provided by engineer. */
+"Frequency factor can be adjusted using the following slider" = "Frekans faktörü aşağıdaki kaydırıcı kullanılarak ayarlanabilir";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Sıkça Sorulan Sorular";
@@ -788,9 +806,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Giriş Enlem ve Boylam";
 
-/* No comment provided by engineer. */
-"Instructions for Each Waypoint" = "Her Yol Noktası için Talimatlar";
-
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Kavşak ve ulaşım bilgileri";
 
@@ -815,17 +830,14 @@
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Önümüzdeki Kavşaklar";
 
-/* %@ to indicate the number of seconds between street name announcements */
-"Interval is %@ seconds." = "Aralık %@ saniyedir.";
+/* No comment provided by engineer. */
+"Interval seconds can be adjusted using the following slider" = "Aralık saniyeleri aşağıdaki kaydırıcı kullanılarak ayarlanabilir";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Geçersiz İçerik Haritası Rota Adı";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Geçersiz Enlem ve Boylam";
-
-/* No comment provided by engineer. */
-"It can be adjusted using the following slider" = "Aşağıdaki kaydırıcı kullanılarak ayarlanabilir";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "Daha sonra içerik haritası modunda kullanmak üzere yeni bir işaretleyici eklemek kolaydır. Bu rotadaki tüm yeni işaretleyiciler otomatik olarak adlandırılacaktır.";
@@ -846,7 +858,7 @@
 "Keep Markers and Routes?" = "İşaretçiler ve Rotalar Saklansın mı?";
 
 /* settings.general.language */
-"Langauge" = "Dil";
+"Language" = "Dil";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Enlem veya (Enlem, Boylam) veya Artı kodları";
@@ -993,7 +1005,8 @@
 /* No comment provided by engineer. */
 "Network Connection Required" = "Ağ Bağlantısı Gerekli";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Sonraki kavşak: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1089,6 +1102,9 @@
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Apple Maps'ten URL'yi yapıştırın";
+
+/* No comment provided by engineer. */
+"Pathfinding Transport Type" = "Yol Bulma Taşıma Türü";
 
 /* permissions.status.3 */
 "Permission granted" = "İzin verildi";
@@ -1259,6 +1275,9 @@
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Rota adı: %@ .";
 
+/* No comment provided by engineer. */
+"Route Path Mode" = "Rota Yolu Modu";
+
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Rota Durduruldu, %@";
 
@@ -1407,7 +1426,7 @@
 "Stop Route" = "Rotayı Durdur";
 
 /* No comment provided by engineer. */
-"Street Name Callout Rate" = "Sokak Adı Belirtme Oranı";
+"Street Name Callout Interval" = "Sokak Adı Belirtme Aralığı";
 
 /* No comment provided by engineer. */
 "Street Names" = "Sokak isimleri";
@@ -1509,9 +1528,6 @@
 /* No comment provided by engineer. */
 "Transit" = "Taşıma";
 
-/* No comment provided by engineer. */
-"Transport Type" = "Taşıma Türü";
-
 /* placesNearyBy.category.5 */
 "Transportation" = "Toplu taşıma";
 
@@ -1523,9 +1539,6 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Tüm açıklama metinlerini aç veya kapat";
-
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Adım Adım Talimatlar";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "VoiceVista'yı kullanmak için Konum Servislerini açın";
@@ -1566,6 +1579,9 @@
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Bilinmeyen Geçerli Konum";
 
+/* troubleshooting.gps_status.unknown */
+"Unknown Location Accuracy" = "Bilinmeyen Konum Doğruluğu";
+
 /* No comment provided by engineer. */
 "Unknown street name" = "Bilinmeyen sokak adı";
 
@@ -1581,9 +1597,6 @@
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Mevcut Rotayı Dairesel Olarak Güncelle";
 
-/* settings.callout.distance.detail */
-"Updates about distance to the audio beacon when it's set" = "Ayarlandığında sesli işarete olan mesafeyle ilgili güncellemeler";
-
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "İşaretçi konumunu, adını ve açıklamasını düzenlemek için sağ üst köşedeki düğmeleri kullanın.";
 
@@ -1597,7 +1610,10 @@
 "Use Current Version" = "Geçerli Sürümü Kullan";
 
 /* No comment provided by engineer. */
-"Use each waypoint as destination separately" = "Her yol noktasını ayrı ayrı varış noktası olarak kullanın";
+"Use each waypoint separately to find path" = "Yolu bulmak için her ara noktayı ayrı ayrı kullanın";
+
+/* No comment provided by engineer. */
+"Use final destination of route to find path" = "Yolu bulmak için rotanın son hedefini kullanın";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
@@ -1617,6 +1633,9 @@
 
 /* volumeSetting.voice */
 "VOICE" = "SES";
+
+/* No comment provided by engineer. */
+"Voice hint when approaching turn points" = "Dönüş noktalarına yaklaşırken sesli ipucu";
 
 /* voiceSetting.title */
 "Voice Settings" = "Ses Ayarları";
@@ -1692,9 +1711,6 @@
 
 /* No comment provided by engineer. */
 "Walking" = "Yürüme";
-
-/* No comment provided by engineer. */
-"Walking instructions:" = "Yürüyüş talimatları:";
 
 /* No comment provided by engineer. */
 "Waypoint" = "ara nokta";
