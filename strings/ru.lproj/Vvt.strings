@@ -26,7 +26,7 @@
 "%1$@ only has %2$@ percent battery remaining." = "У %1$@ осталось всего %2$@ процентов заряда батареи.";
 
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
-"%1$@ was %2$@ %3$@" = "%1$@ осталось в %2$@ %3$@";
+"%1$@ was %2$@ %3$@" = "%1$@, %2$@ %3$@";
 
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, направление на %2$@";
@@ -46,6 +46,9 @@
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ отключены.";
 
+/* %@ is the navigation transport type, such as Walking, Automobile, Transit */
+"%@ Instructions:" = "%@ Инструкции:";
+
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "Перекрёсток %@";
 
@@ -54,6 +57,9 @@
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "круговой перекрёсток %@";
+
+/* %@ to indicate the number of seconds between street name announcements */
+"%@ seconds" = "%@ секунд";
 
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Пройдено %@ путевых точек, последняя путевая точка поблизости";
@@ -286,6 +292,9 @@
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Маяк позади";
 
+/* No comment provided by engineer. */
+"Beacon Distance Frequency Factor" = "Коэффициент частоты Расстояние до маяка";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Маяк на %@";
 
@@ -297,6 +306,9 @@
 
 /* voiceSetting.title */
 "Beacon Settings" = "Настройки маяка";
+
+/* No comment provided by engineer. */
+"Beacon Turn by Turn Instructions" = "Пошаговые инструкции для маяка";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "Громкость маяка";
@@ -368,7 +380,10 @@
 "Change External Maps App" = "Изменить приложение внешних карт";
 
 /* No comment provided by engineer. */
-"Change Navigation Transport Type" = "Изменить тип  навигации в транспортном средстве";
+"Change Pathfinding Transport Type" = "Изменить тип транспорта поиска пути";
+
+/* No comment provided by engineer. */
+"Change Route Path Mode" = "Изменить тип маршрута";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Изменить единицы измерения";
@@ -451,9 +466,6 @@
 
 /* No comment provided by engineer. */
 "Current: %@" = "Текущий: %@";
-
-/* No comment provided by engineer. */
-"Data come from Apple MapKit" = "Данные поступают из Apple MapKit";
 
 /* general.alert.delete */
 "Delete" = "Удалить";
@@ -617,6 +629,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Удобства";
 
+/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
+"Factor %@" = "Коэффициент %@";
+
 /* No comment provided by engineer. */
 "Failed to Add Route" = "Не удалось добавить маршрут";
 
@@ -658,6 +673,9 @@
 
 /* settings.bluetooth.forget */
 "Forget These Headphones" = "Забыть эти наушники";
+
+/* No comment provided by engineer. */
+"Frequency factor can be adjusted using the following slider" = "Коэффициент частоты можно настроить с помощью ползунка ниже";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Часто задаваемые вопросы";
@@ -759,10 +777,10 @@
 "If no beacon is set, VoiceVista will remain silent when running in the background mode." = "При работе в фоновом режиме VoiceVista будет молчать, если маяк не установлен.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы также бросить хлебную крошку.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы бросить хлебную крошку.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать кнопку «Назад» на наушниках, чтобы повторить последний вызов.";
+"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать на наушниках кнопку «Предыдущее», чтобы повторить последнее объявление.";
 
 /* settings.general.units.feet */
 "Imperial (Feet)" = "Британская (футы)";
@@ -788,9 +806,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Ввести широту и долготу";
 
-/* No comment provided by engineer. */
-"Instructions for Each Waypoint" = "Инструкции для каждой путевой точки";
-
 /* settings.callout.mobility.detail */
 "Intersection and transportation info" = "Информация о перекрестках и транспорте";
 
@@ -807,7 +822,7 @@
 "Intersection with %1$@ %2$@ away" = "Перекресток %1$@, на расстоянии %2$@";
 
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
-"Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@ остался в %2$@ %3$@";
+"Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@, %2$@ %3$@";
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
@@ -815,17 +830,14 @@
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Перекрестки впереди";
 
-/* %@ to indicate the number of seconds between street name announcements */
-"Interval is %@ seconds." = "Интервал %@ секунд.";
+/* No comment provided by engineer. */
+"Interval seconds can be adjusted using the following slider" = "Интервал в секундах можно настроить с помощью ползунка ниже.";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Неверное имя маршрута в режиме 'хлебные крошки'";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Широта и долгота введены Неверно";
-
-/* No comment provided by engineer. */
-"It can be adjusted using the following slider" = "Его можно настроить с помощью ползунка ниже";
 
 /* No comment provided by engineer. */
 "It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме 'хлебные крошки' легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
@@ -846,7 +858,7 @@
 "Keep Markers and Routes?" = "Сохранить метки и маршруты?";
 
 /* settings.general.language */
-"Langauge" = "Язык";
+"Language" = "Язык";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Широта или (широта, долгота) или коды Пoogle Plus";
@@ -979,7 +991,7 @@
 "Nearest road, %1$@, is %2$@ away" = "Ближайшая дорога, %1$@, на расстоянии %2$@";
 
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
-"Nearest road, %1$@, was %2$@ %3$@" = "Ближайшая дорога, %1$@, осталась в %2$@ %3$@";
+"Nearest road, %1$@, was %2$@ %3$@" = "Ближайшая дорога, %1$@, %2$@ %3$@";
 
 /* permissions.alert.title.1 */
 "Need Accuracy Location Permission" = "Требуется разрешение на точное определение местоположения";
@@ -993,7 +1005,8 @@
 /* No comment provided by engineer. */
 "Network Connection Required" = "Требуется подключение к сети";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Следующий перекресток: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1089,6 +1102,9 @@
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Вставить URL-адрес из карт Apple";
+
+/* No comment provided by engineer. */
+"Pathfinding Transport Type" = "Тип транспорта";
 
 /* permissions.status.3 */
 "Permission granted" = "Разрешение предоставлено";
@@ -1227,7 +1243,7 @@
 "Roundabout with %1$@ exits nearby" = "Круговой перекрёсток, съездов: %1$@ рядом";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами остался в %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток с %1$@ съездами, %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1258,6 +1274,9 @@
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Название маршрута: %@ .";
+
+/* No comment provided by engineer. */
+"Route Path Mode" = "Режим маршрута";
 
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Маршрут остановлен, %@";
@@ -1407,7 +1426,7 @@
 "Stop Route" = "Остановить маршрут";
 
 /* No comment provided by engineer. */
-"Street Name Callout Rate" = "Частота объявления названий улиц";
+"Street Name Callout Interval" = "Интервал объявления названий улиц";
 
 /* No comment provided by engineer. */
 "Street Names" = "Названия улиц";
@@ -1509,9 +1528,6 @@
 /* No comment provided by engineer. */
 "Transit" = "Транспорт";
 
-/* No comment provided by engineer. */
-"Transport Type" = "Тип транспорта";
-
 /* placesNearyBy.category.5 */
 "Transportation" = "Транспорт";
 
@@ -1523,9 +1539,6 @@
 
 /* settings.callout.all.detail */
 "Turn all callouts on or off" = "Включить или отключить все объявления";
-
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Пошаговые инструкции";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Включите службы  геолокации, чтобы использовать VoiceVista.";
@@ -1566,6 +1579,9 @@
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Неизвестное текущее местоположение";
 
+/* troubleshooting.gps_status.unknown */
+"Unknown Location Accuracy" = "Неизвестная точность местоположения";
+
 /* No comment provided by engineer. */
 "Unknown street name" = "Неизвестное название улицы";
 
@@ -1581,9 +1597,6 @@
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Создать круговой маршрут";
 
-/* settings.callout.distance.detail */
-"Updates about distance to the audio beacon when it's set" = "Обновления о расстоянии до звукового маяка, когда он установлен";
-
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "Используйте кнопки в правом верхнем углу, чтобы изменить расположение, имя и описание метки.";
 
@@ -1597,7 +1610,10 @@
 "Use Current Version" = "Использовать текущую версию";
 
 /* No comment provided by engineer. */
-"Use each waypoint as destination separately" = "Используйте каждую путевую точку в качестве пункта назначения по отдельности";
+"Use each waypoint separately to find path" = "Используйте каждую путевую точку отдельно, чтобы найти путь.";
+
+/* No comment provided by engineer. */
+"Use final destination of route to find path" = "Используйте конечный пункт маршрута, чтобы найти путь";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Чтобы сохранить место как метку, используйте кнопку в правом верхнем углу.";
@@ -1618,6 +1634,9 @@
 /* volumeSetting.voice */
 "VOICE" = "ГОЛОС";
 
+/* No comment provided by engineer. */
+"Voice hint when approaching turn points" = "Голосовая подсказка при приближении к поворотам";
+
 /* voiceSetting.title */
 "Voice Settings" = "Настройки голоса";
 
@@ -1637,7 +1656,7 @@
 "VoiceVista iCloud Storage Full" = "Хранилище iCloud заполнено";
 
 /* terms_of_use.safety_notice */
-"VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista — это средство навигации, и его не следует использовать вместо навыков передвижения, понимания окружающего мира и здравого смысла. Соблюдайте осторожность при перемещении по среде, так как данные сопоставления, включенные в программу VoiceVista, собираются из сторонней программы, и поэтому точность представленной информации может быть ограничена.";
+"VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista - это средство навигации и не должно использоваться вместо навыков передвижения, осознания окружающей обстановки и здравого смысла. Будьте осторожны при ориентировании на местности, поскольку данные карт, включенные в программу VoiceVista, получены из сторонних программ, поэтому точность представленной информации может быть ограничена.";
 
 /* banner.online.message */
 "VoiceVista is back online" = "Сетевое подключение восстановлено";
@@ -1692,9 +1711,6 @@
 
 /* No comment provided by engineer. */
 "Walking" = "Пешком";
-
-/* No comment provided by engineer. */
-"Walking instructions:" = "Инструкции для пешего маршрута:";
 
 /* No comment provided by engineer. */
 "Waypoint" = "путевая точка";
@@ -1769,7 +1785,7 @@
 "You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы бросить хлебную крошку.";
 
 /* No comment provided by engineer. */
-"You can press the previous button on your headphones to repeat the last callout." = "Вы можете нажать кнопку «Предыдущий» на наушниках, чтобы повторить последнее объявление.";
+"You can press the previous button on your headphones to repeat the last callout." = "Вы можете нажать кнопку «Предыдущее» на наушниках, чтобы повторить последнее объявление.";
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Вы можете изменить порядок путевых точек на маршруте в любое время, отредактировав маршрут.";
