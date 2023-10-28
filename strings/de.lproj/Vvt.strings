@@ -1,4 +1,4 @@
-/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -47,7 +47,7 @@
 "%@ disconnected." = "%@ getrennt.";
 
 /* %@ is the navigation transport type, such as Walking, Automobile, Transit */
-"%@ Instructions:" = "%@ Anweisungen:";
+"%@ Instructions:" = "Navigationsanweisungen %@:";
 
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "%@ Kreuzung";
@@ -251,11 +251,13 @@
 "at 9 o'clock" = "auf 9 Uhr";
 
 /* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 */
+   preview.note.2 
+*/
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "An jeder Kreuzung können Sie mit dem Telefon eine Straße wählen, oder Sie können Ihre Umgebung mit den Tasten unten auf dem Bildschirm erkunden.";
 
 /* beacon.audio_beacon
-   settings.general.beacon */
+   settings.general.beacon 
+*/
 "Audio Beacon" = "Tonsignal";
 
 /* beaconSetting.audioStyle */
@@ -268,7 +270,7 @@
 "Automatic Callouts" = "Automatische Ansagen";
 
 /* No comment provided by engineer. */
-"Automobile" = "Automobil";
+"Automobile" = "Auto";
 
 /* directions.direction.away */
 "away" = "entfernt";
@@ -280,7 +282,8 @@
 "Banks & ATMs" = "Banken und Geldautomaten";
 
 /* beacon.generic_name
-   settings.general.volume.beacon */
+   settings.general.volume.beacon 
+*/
 "Beacon" = "Signal";
 
 /* volumeSetting.beacon */
@@ -293,7 +296,7 @@
 "Beacon behind" = "Signal hinten";
 
 /* No comment provided by engineer. */
-"Beacon Distance Frequency Factor" = "Beacon-Entfernungsfrequenzfaktor";
+"Beacon Distance Frequency Factor" = "Häufigkeitsfaktor für die Ansage der Signale";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Signal auf %@";
@@ -308,7 +311,7 @@
 "Beacon Settings" = "Signaleinstellungen";
 
 /* No comment provided by engineer. */
-"Beacon Turn by Turn Instructions" = "Beacon Turn-by-Turn-Anweisungen";
+"Beacon Turn by Turn Instructions" = "Navigationsanweisungen zu Signal";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "Lautstärke der Signale";
@@ -380,10 +383,10 @@
 "Change External Maps App" = "Externe App für Karten ändern";
 
 /* No comment provided by engineer. */
-"Change Pathfinding Transport Type" = "Pathfinding-Transporttyp ändern";
+"Change Pathfinding Transport Type" = "Navigationstyp ändern";
 
 /* No comment provided by engineer. */
-"Change Route Path Mode" = "Ändern Sie den Routenpfadmodus";
+"Change Route Path Mode" = "Navigationsberechnung für Route ändern";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Maßeinheiten ändern";
@@ -422,7 +425,8 @@
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Herzlichen Glückwunsch! Ihre Airpods sind nun fertig eingerichtet, und Sie können Ihr Telefon in die Tasche stecken und losgehen. VoiceVista erkennt jetzt die Richtung an der Blickrichtung Ihres Kopfes, und Sie müssen das Telefon nicht mehr in der Hand halten. Ein Einzelklick der Kopfhörertaste schaltet das Signal ein oder aus, ein Doppelklick sagt Ihren Standort an, und ein Dreifachklick wiederholt die letzte Ansage.";
 
 /* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+   headphonesSetting.connect_headset 
+*/
 "Connect Headphones" = "Kopfhörer verbinden";
 
 /* ui.continue */
@@ -675,7 +679,7 @@
 "Forget These Headphones" = "Diese Kopfhörer vergessen";
 
 /* No comment provided by engineer. */
-"Frequency factor can be adjusted using the following slider" = "Der Frequenzfaktor kann mit dem folgenden Schieberegler angepasst werden";
+"Frequency factor can be adjusted using the following slider" = "Die Häufigkeit kann mit dem folgenden Schieberegler angepasst werden.";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Oft gestellte Fragen";
@@ -831,7 +835,7 @@
 "Intersections Ahead" = "Kreuzungen geradeaus";
 
 /* No comment provided by engineer. */
-"Interval seconds can be adjusted using the following slider" = "Die Intervallsekunden können mit dem folgenden Schieberegler angepasst werden";
+"Interval seconds can be adjusted using the following slider" = "Die Länge des Intervalls in Sekunden kann mit dem folgenden Schieberegler angepasst werden.";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
@@ -957,7 +961,8 @@
 "Mute on/off" = "Stummschaltung ein/aus";
 
 /* directions.my_location
-   ui.action_button.my_location */
+   ui.action_button.my_location 
+*/
 "My Location" = "Mein Standort";
 
 /* markers.leftBarItem.sortByName */
@@ -1006,7 +1011,8 @@
 "Network Connection Required" = "Netzwerkverbindung erforderlich";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name */
+   Notification, %@ intersection name 
+*/
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1052,7 +1058,8 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow */
+   general.alert.notnow 
+*/
 "Not Now" = "Später";
 
 /* general.alert.offline_default.title */
@@ -1104,7 +1111,7 @@
 "Paste URL from Apple Maps" = "URL aus Apple Karten einfügen";
 
 /* No comment provided by engineer. */
-"Pathfinding Transport Type" = "Pathfinding-Transporttyp";
+"Pathfinding Transport Type" = "Navigationsart";
 
 /* permissions.status.3 */
 "Permission granted" = "Zugriffsrechte erteilt";
@@ -1158,7 +1165,8 @@
 "Please enter an address to search for places worldwide." = "Bitte geben Sie eine Adresse ein, um weltweit nach Orten zu suchen.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 */
+   permissions.alert.message.2 
+*/
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1276,7 +1284,7 @@
 "Route name: %@ ." = "Routenname: %@ .";
 
 /* No comment provided by engineer. */
-"Route Path Mode" = "Routenpfadmodus";
+"Route Path Mode" = "Route Path Mode";
 
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Route angehalten, %@";
@@ -1330,7 +1338,8 @@
 "Set a Beacon" = "Signal aktivieren";
 
 /* settings.screen_title
-   settings.title */
+   settings.title 
+*/
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1358,7 +1367,8 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title */
+   siriSetting.title 
+*/
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* vicinity.sleep */
@@ -1371,7 +1381,7 @@
 "Sleeping" = "Im Ruhemodus";
 
 /* sleep.snoozing */
-"Snoozing" = "Im Stand-by-Modus";
+"Snoozing" = "Im Standby-Modus";
 
 /* settings.general.volume.sound */
 "Sound" = "Akustisches Signal";
@@ -1401,7 +1411,8 @@
 "Start Calibration" = "Kalibrierung beginnen";
 
 /* user_activity.start_route.title
-   voice.action.start_route */
+   voice.action.start_route 
+*/
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1426,14 +1437,15 @@
 "Stop Route" = "Route anhalten";
 
 /* No comment provided by engineer. */
-"Street Name Callout Interval" = "Intervall für die Straßennamenbeschriftung";
+"Street Name Callout Interval" = "Intervall für die Straßenansage";
 
 /* No comment provided by engineer. */
 "Street Names" = "Straßennamen";
 
 /* first_use_experience.preview.tutorial.alert.title
    locationdetail.command.3
-   preview.title */
+   preview.title 
+*/
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1461,7 +1473,8 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message */
+   universal_links.alert.share_error.message 
+*/
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* callouts.no_nearby_markers_to_call_out_now */
@@ -1495,7 +1508,8 @@
 "To %@" = "Zu %@";
 
 /* placefilters.footnoot.1
-   places.footnot.2 */
+   places.footnot.2 
+*/
 "To browse nearby places, access to location is required." = "Um Orte in der Nähe anzusehen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* markers.footnote.2 */
@@ -1526,7 +1540,7 @@
 "Total waypoints count: %@ ." = "Gesamtzahl der Wegpunkte: %@ .";
 
 /* No comment provided by engineer. */
-"Transit" = "Öffentliche Verkehrsmittel";
+"Transit" = "ÖPNV";
 
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
@@ -1580,7 +1594,7 @@
 "Unknown Current Location" = "Unbekannter aktueller Standort";
 
 /* troubleshooting.gps_status.unknown */
-"Unknown Location Accuracy" = "Unbekannte Standortgenauigkeit";
+"Unknown Location Accuracy" = "Genauigkeit unbekannt";
 
 /* No comment provided by engineer. */
 "Unknown street name" = "Unbekannter Straßenname";
@@ -1610,10 +1624,10 @@
 "Use Current Version" = "Aktuelle Version verwenden";
 
 /* No comment provided by engineer. */
-"Use each waypoint separately to find path" = "Verwenden Sie jeden Wegpunkt separat, um den Weg zu finden";
+"Use each waypoint separately to find path" = "Navigation zum Ziel basierend auf allen Wegpunkten der Route berechnen";
 
 /* No comment provided by engineer. */
-"Use final destination of route to find path" = "Verwenden Sie das endgültige Ziel der Route, um den Pfad zu finden";
+"Use final destination of route to find path" = "Navigation zum Ziel direkt zum Endpunkt der Route berechnen";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Nutzen Sie die Taste rechts, um als Markierung zu speichern.";
@@ -1628,14 +1642,15 @@
 "View Detail" = "Details ansehen";
 
 /* settings.general.voice
-   settings.general.volume.voice */
+   settings.general.volume.voice 
+*/
 "Voice" = "Stimme";
 
 /* volumeSetting.voice */
 "VOICE" = "STIMME";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turn points" = "Sprachhinweis bei Annäherung an Wendepunkte";
+"Voice hint when approaching turn points" = "Abbiegungen vorher ankündigen";
 
 /* voiceSetting.title */
 "Voice Settings" = "Spracheinstellungen";
@@ -1668,7 +1683,7 @@
 "VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista ist jetzt im Ruhemodus. Dadurch wird verhindert, dass VoiceVista Ihre Ortungsdienste nutzt oder Daten herunterlädt. Dies schont den Akku, Während VoiceVista nicht verwendet wird. Tippen Sie auf die Schaltfläche unten, um VoiceVista wieder zu aktivieren.";
 
 /* sleep.snoozing.message */
-"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista ist jetzt im Stand-bby-Modus. Wenn Sie Ihren aktuellen Standort verlassen, wird VoiceVista automatisch aktiviert. Im Stand-by-Modus werden Ortungsdienste verwendet, aber nur mit geringer Leistung, um den Akku des Telefons zu schonen. Tippen Sie auf die Taste unten, um die App zu aktivieren.";
+"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista ist jetzt im Stand-by-Modus. Wenn Sie Ihren aktuellen Standort verlassen, wird VoiceVista automatisch aktiviert. Im Stand-by-Modus werden Ortungsdienste verwendet, aber nur mit geringer Leistung, um den Akku des Telefons zu schonen. Tippen Sie auf die Taste unten, um die App zu aktivieren.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista kann zurzeit keine Verbindung zum Internet herstellen. Zum Löschen der gespeicherten Kartendaten ist eine Internetverbindung erforderlich, damit die Kartendaten aktualisiert werden können.";
