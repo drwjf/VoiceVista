@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -251,13 +251,23 @@
 "at 9 o'clock" = "auf 9 Uhr";
 
 /* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 
-*/
+   preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "An jeder Kreuzung können Sie mit dem Telefon eine Straße wählen, oder Sie können Ihre Umgebung mit den Tasten unten auf dem Bildschirm erkunden.";
 
+/* No comment provided by engineer. */
+"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "Bei wie vielen Fuß sollte VoiceVista ausgelöst werden, um den Marker als Beacon zu aktivieren?";
+
+/* No comment provided by engineer. */
+"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "Bei wie vielen Metern muss VoiceVista ausgelöst werden, um den Marker als Beacon zu aktivieren?";
+
+/* No comment provided by engineer. */
+"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "In welcher Entfernung sollte VoiceVista ausgelöst werden, um den Marker als Beacon zu aktivieren?";
+
+/* No comment provided by engineer. */
+"At what distance should waypoints be generated between each other for this route?" = "In welchem Abstand sollen für diese Route Wegpunkte zueinander generiert werden?";
+
 /* beacon.audio_beacon
-   settings.general.beacon 
-*/
+   settings.general.beacon */
 "Audio Beacon" = "Tonsignal";
 
 /* beaconSetting.audioStyle */
@@ -282,8 +292,7 @@
 "Banks & ATMs" = "Banken und Geldautomaten";
 
 /* beacon.generic_name
-   settings.general.volume.beacon 
-*/
+   settings.general.volume.beacon */
 "Beacon" = "Signal";
 
 /* volumeSetting.beacon */
@@ -294,6 +303,9 @@
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Signal hinten";
+
+/* settings.beaconFrequency */
+"BEACON DISTANCE FREQUENCY" = "BEACON-ABSTANDSFREQUENZ";
 
 /* No comment provided by engineer. */
 "Beacon Distance Frequency Factor" = "Häufigkeitsfaktor für die Ansage der Signale";
@@ -361,7 +373,7 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Kalibrierung abgeschlossen";
 
-/* settings.general.beacon.direction.style */
+/* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Richtungsangabe für Orte";
 
 /* callouts.callouts_off */
@@ -425,8 +437,7 @@
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Herzlichen Glückwunsch! Ihre Airpods sind nun fertig eingerichtet, und Sie können Ihr Telefon in die Tasche stecken und losgehen. VoiceVista erkennt jetzt die Richtung an der Blickrichtung Ihres Kopfes, und Sie müssen das Telefon nicht mehr in der Hand halten. Ein Einzelklick der Kopfhörertaste schaltet das Signal ein oder aus, ein Doppelklick sagt Ihren Standort an, und ein Dreifachklick wiederholt die letzte Ansage.";
 
 /* headphonesSetting.button.1
-   headphonesSetting.connect_headset 
-*/
+   headphonesSetting.connect_headset */
 "Connect Headphones" = "Kopfhörer verbinden";
 
 /* ui.continue */
@@ -513,8 +524,14 @@
 /* markers.leftBarItem.sortByDistance */
 "Distance" = "Entfernung";
 
+/* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
+"Distance between %1$@ and %2$@" = "Abstand zwischen %1$@ und %2$@";
+
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunkten sollte >= %@ sein.";
+
+/* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
+"Distance should be between %1$@ and %2$@" = "Der Abstand sollte zwischen %1$@ und %2$@ liegen";
 
 /* settings.callout.distance.poi */
 "Distance to Points of Interest" = "Entfernung zu wichtigen Orten";
@@ -679,9 +696,6 @@
 "Forget These Headphones" = "Diese Kopfhörer vergessen";
 
 /* No comment provided by engineer. */
-"Frequency factor can be adjusted using the following slider" = "Die Häufigkeit kann mit dem folgenden Schieberegler angepasst werden.";
-
-/* No comment provided by engineer. */
 "Frequently Asked Questions" = "Oft gestellte Fragen";
 
 /* settings.general */
@@ -759,6 +773,9 @@
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Markierungen in der Nähe hören";
 
+/* No comment provided by engineer. */
+"House numbers located nearby" = "Hausnummern in der Nähe";
+
 /* voice.voice_rate_test */
 "How does this sound?" = "Wie klingt das?";
 
@@ -776,9 +793,6 @@
 
 /* icloud.kv_store.quota_violation_alert.message */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Der iCloud-Speicher für diese App ist voll. Um eine neue Markierung zu erstellen, müssen Sie Speicherplatz freigeben, indem Sie einige Ihrer vorhandenen Markierungen löschen.";
-
-/* No comment provided by engineer. */
-"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Ist kein Signal aktiv, bleibt VoiceVista im Hintergrundmodus stumm.";
 
 /* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Falls Sie die Mediensteuerung in den VoiceVista-Einstellungen aktiviert haben, können Sie auch die Taste „Wiedergabe/Pause“ an Ihrem Headset drücken, um eine Brotkrumenmarkierung hinzuzufügen.";
@@ -833,9 +847,6 @@
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Kreuzungen geradeaus";
-
-/* No comment provided by engineer. */
-"Interval seconds can be adjusted using the following slider" = "Die Länge des Intervalls in Sekunden kann mit dem folgenden Schieberegler angepasst werden.";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
@@ -954,6 +965,9 @@
 /* settings.callout.mobility */
 "Mobility" = "Mobilität";
 
+/* No comment provided by engineer. */
+"Monitoring" = "Überwachung";
+
 /* first_launch.permissions.motion */
 "Motion & Fitness" = "Bewegung & Fitness";
 
@@ -961,8 +975,7 @@
 "Mute on/off" = "Stummschaltung ein/aus";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* markers.leftBarItem.sortByName */
@@ -1011,8 +1024,7 @@
 "Network Connection Required" = "Netzwerkverbindung erforderlich";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1058,8 +1070,7 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow 
-*/
+   general.alert.notnow */
 "Not Now" = "Später";
 
 /* general.alert.offline_default.title */
@@ -1091,6 +1102,9 @@
 
 /* beacon.styles.original */
 "Original" = "Original";
+
+/* No comment provided by engineer. */
+"Other Distance" = "Andere Entfernung";
 
 /* voiceSetting.others */
 "OTHER LANGUAGES" = "ANDERE SPRACHEN";
@@ -1165,8 +1179,7 @@
 "Please enter an address to search for places worldwide." = "Bitte geben Sie eine Adresse ein, um weltweit nach Orten zu suchen.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1179,7 +1192,7 @@
 "Please try later." = "Bitte versuchen Sie es später.";
 
 /* settings.callout.distance.poi.detail */
-"Points of interest distance info" = "Entfernungsangabe zu wichtigen Orten";
+"Points of interest info" = "Informationen zu Sehenswürdigkeiten";
 
 /* voice.action.preview */
 "Preview" = "Vorschau";
@@ -1338,8 +1351,7 @@
 "Set a Beacon" = "Signal aktivieren";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1367,20 +1379,16 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title 
-*/
+   siriSetting.title */
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* vicinity.sleep */
 "Sleep" = "Schlafen";
 
-/* No comment provided by engineer. */
-"Sleep If No Beacon Set" = "Schlafmodus, wenn kein Signal aktiv ist.";
-
 /* sleep.sleeping */
 "Sleeping" = "Im Ruhemodus";
 
-/* sleep.snoozing */
+/* No comment provided by engineer. */
 "Snoozing" = "Im Standby-Modus";
 
 /* settings.general.volume.sound */
@@ -1411,8 +1419,7 @@
 "Start Calibration" = "Kalibrierung beginnen";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1439,13 +1446,15 @@
 /* No comment provided by engineer. */
 "Street Name Callout Interval" = "Intervall für die Straßenansage";
 
+/* settings.streeInterval */
+"STREET NAME INTERVAL" = "STRASSENNAMEN-INTERVALL";
+
 /* No comment provided by engineer. */
 "Street Names" = "Straßennamen";
 
 /* first_use_experience.preview.tutorial.alert.title
    locationdetail.command.3
-   preview.title 
-*/
+   preview.title */
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1457,11 +1466,23 @@
 /* beacon.styles.tactile */
 "Tactile" = "Taktil";
 
+/* No comment provided by engineer. */
+"Tap the button below to stop monitoring and wake up now." = "Tippen Sie auf die Schaltfläche unten, um die Überwachung zu beenden und jetzt aufzuwachen.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up now." = "Tippen Sie auf die Schaltfläche unten, um jetzt aufzuwachen.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up VoiceVista." = "Tippen Sie auf die Schaltfläche unten, um VoiceVista zu aktivieren.";
+
 /* permissionmanager.alert.test */
 "Test Location" = "Teststandort";
 
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "Der Inhalt scheint ungültig zu sein.";
+
+/* No comment provided by engineer. */
+"The device does not support region monitoring feature." = "Das Gerät unterstützt die Regionsüberwachungsfunktion nicht.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Die Entfernung zwischen Wegpunkten sollte nicht zu klein sein.";
@@ -1473,8 +1494,7 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message 
-*/
+   universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* callouts.no_nearby_markers_to_call_out_now */
@@ -1492,8 +1512,14 @@
 /* universal_links.alert.share_error.message */
 "This content could not be shared." = "Dieser Inhalt konnte nicht geteilt werden.";
 
+/* No comment provided by engineer. */
+"This helps conserve battery when you are not actively using VoiceVista." = "Dies hilft, den Akku zu schonen, wenn Sie VoiceVista nicht aktiv nutzen.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Das ist %@. Wie klingt das?";
+
+/* No comment provided by engineer. */
+"This uses Location Services in a low-power mode to conserve your phone's battery." = "Dabei werden Ortungsdienste in einem Energiesparmodus verwendet, um den Akku Ihres Telefons zu schonen.";
 
 /* troubleshooting.accuracy.meters.footer */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Dieser Wert gibt ungefähr an, wie genau VoiceVista Ihren aktuellen Standort ermitteln kann. Weniger als ±10 Meter ist gut. Weniger als ±20 Meter ist in Ordnung. Alles andere ist unzureichend. Die Standortdaten sind am genauesten, wenn Sie sich im Freien und nicht in Gebäuden befinden.";
@@ -1508,8 +1534,7 @@
 "To %@" = "Zu %@";
 
 /* placefilters.footnoot.1
-   places.footnot.2 
-*/
+   places.footnot.2 */
 "To browse nearby places, access to location is required." = "Um Orte in der Nähe anzusehen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* markers.footnote.2 */
@@ -1612,6 +1637,9 @@
 "Update Current Route to Circular" = "Aktuelle Route in Schleife aktualisieren";
 
 /* No comment provided by engineer. */
+"Updates about distance to the audio beacon when it's set" = "Updates über die Entfernung zu eingeschalteten Signalen";
+
+/* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "Nutzen Sie die Tasten oben rechts, um den Standort, den Namen und die Beschreibung der Markierung zu bearbeiten.";
 
 /* No comment provided by engineer. */
@@ -1632,6 +1660,12 @@
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Nutzen Sie die Taste rechts, um als Markierung zu speichern.";
 
+/* settings.streename.interval */
+"Use this slider to adjust the callout interval for street names." = "Mit diesem Schieberegler können Sie das Beschriftungsintervall für Straßennamen anpassen.";
+
+/* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Verwenden Sie diesen Schieberegler, um die Häufigkeit der Callouts an die Entfernung zum Audio-Beacon anzupassen. Ein größerer Faktor bedeutet häufigere Callouts.";
+
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Aktivieren Sie diese Einstellung, um VoiceVista mit den Tasten für die Medienwiedergabe an Ihrem Kopfhörer oder auf dem Sperrbildschirm zu steuern. Bitte beachten Sie, dass Sie bei aktivierter Einstellung VoiceVista nicht mehr nutzen können, sobald Sie Podcasts oder andere Medien hören.";
 
@@ -1642,8 +1676,7 @@
 "View Detail" = "Details ansehen";
 
 /* settings.general.voice
-   settings.general.volume.voice 
-*/
+   settings.general.volume.voice */
 "Voice" = "Stimme";
 
 /* volumeSetting.voice */
@@ -1679,11 +1712,14 @@
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista verbindet sich mit Ihren Kopfhörern. Einen Moment bitte...";
 
-/* sleep.sleeping.message */
-"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista ist jetzt im Ruhemodus. Dadurch wird verhindert, dass VoiceVista Ihre Ortungsdienste nutzt oder Daten herunterlädt. Dies schont den Akku, Während VoiceVista nicht verwendet wird. Tippen Sie auf die Schaltfläche unten, um VoiceVista wieder zu aktivieren.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista befindet sich derzeit im Schlafmodus. In diesem Modus verwendet VoiceVista keine Ortungsdienste und lädt keine Daten herunter.";
 
-/* sleep.snoozing.message */
-"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista ist jetzt im Stand-by-Modus. Wenn Sie Ihren aktuellen Standort verlassen, wird VoiceVista automatisch aktiviert. Im Stand-by-Modus werden Ortungsdienste verwendet, aber nur mit geringer Leistung, um den Akku des Telefons zu schonen. Tippen Sie auf die Taste unten, um die App zu aktivieren.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista befindet sich derzeit im Schlummermodus. Es wird automatisch aktiviert, wenn Sie Ihren aktuellen Standort verlassen.";
+
+/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista überwacht derzeit %1$@ innerhalb eines Bereichs von %2$@. Wenn Sie in diesem Bereich ankommen, wird VoiceVista automatisch aktiviert und diese Markierung als Audio-Beacon gesetzt.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista kann zurzeit keine Verbindung zum Internet herstellen. Zum Löschen der gespeicherten Kartendaten ist eine Internetverbindung erforderlich, damit die Kartendaten aktualisiert werden können.";
@@ -1709,20 +1745,20 @@
 /* headphonesSetting.connect_headset.failed */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista konnte sich nicht mit Ihren Kopfhörern verbinden. Bitte versuchen Sie es später erneut.";
 
-/* No comment provided by engineer. */
-"VoiceVista will call out information when running in the background mode." = "VoiceVista sagt Informationen auch im Hintergrundmodus an.";
-
 /* settings.general.volume */
 "Volume" = "Lautstärke";
 
 /* volumeSetting.title */
 "Volume Settings" = "Lautstärkeeinstellungen";
 
-/* sleep.wake_up_now */
+/* No comment provided by engineer. */
 "Wake Up Now" = "Jetzt aktivieren";
 
-/* sleep.wake_up_when_i_leave */
+/* No comment provided by engineer. */
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
+
+/* No comment provided by engineer. */
+"Wake Up When Near Marker" = "Wachen Sie auf, wenn Sie sich der Markierung nähern";
 
 /* No comment provided by engineer. */
 "Walking" = "Gehen";
@@ -1768,9 +1804,6 @@
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Bei der Navigation mit VoiceVista werden Sie von einem Signalton geführt, und Orte in Ihrer Nähe können angesagt werden.";
-
-/* No comment provided by engineer. */
-"When running in the background mode" = "Im Hintergrundmodus";
 
 /* No comment provided by engineer. */
 "When running in the foreground mode" = "Im Vordergrundmodus";
