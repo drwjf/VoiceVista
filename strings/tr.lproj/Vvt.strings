@@ -254,6 +254,18 @@
    preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "Her kavşakta, hangi yoldan aşağı ineceğinizi seçmek için telefonu tekrar kullanabilir veya ekranın alt kısmındaki tanıdık VoiceVista düğmelerini kullanarak yakın çevrenizi keşfedebilirsiniz.";
 
+/* No comment provided by engineer. */
+"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista'nın kaç fitte tetiklenmesi gerekir?";
+
+/* No comment provided by engineer. */
+"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista'nın kaç metrede tetiklenmesi gerekir?";
+
+/* No comment provided by engineer. */
+"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista hangi mesafede tetiklenmelidir?";
+
+/* No comment provided by engineer. */
+"At what distance should waypoints be generated between each other for this route?" = "Bu rota için ara noktalar birbirleri arasında hangi mesafede oluşturulmalıdır?";
+
 /* beacon.audio_beacon
    settings.general.beacon */
 "Audio Beacon" = "Ses İşareti";
@@ -291,6 +303,9 @@
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "arkadaki işaret";
+
+/* settings.beaconFrequency */
+"BEACON DISTANCE FREQUENCY" = "BEACON MESAFE FREKANSI";
 
 /* No comment provided by engineer. */
 "Beacon Distance Frequency Factor" = "İşaret Mesafesi Frekans Faktörü";
@@ -358,7 +373,7 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Kalibrasyon tamamlandı";
 
-/* settings.general.beacon.direction.style */
+/* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Açıklama Yönü Stili";
 
 /* callouts.callouts_off */
@@ -509,8 +524,14 @@
 /* markers.leftBarItem.sortByDistance */
 "Distance" = "Mesafe";
 
+/* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
+"Distance between %1$@ and %2$@" = "%1$@ ile %2$@ arasındaki mesafe";
+
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Ara noktalar arasındaki mesafe, >= %@ olmalıdır";
+
+/* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
+"Distance should be between %1$@ and %2$@" = "Mesafe %1$@ ile %2$@ arasında olmalıdır";
 
 /* settings.callout.distance.poi */
 "Distance to Points of Interest" = "İlgi Çekici Noktalara Uzaklık";
@@ -675,9 +696,6 @@
 "Forget These Headphones" = "Bu Kulaklıkları Unutun";
 
 /* No comment provided by engineer. */
-"Frequency factor can be adjusted using the following slider" = "Frekans faktörü aşağıdaki kaydırıcı kullanılarak ayarlanabilir";
-
-/* No comment provided by engineer. */
 "Frequently Asked Questions" = "Sıkça Sorulan Sorular";
 
 /* settings.general */
@@ -755,6 +773,9 @@
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Yakındaki İşaretçileri Duy";
 
+/* No comment provided by engineer. */
+"House numbers located nearby" = "Yakınlarda bulunan ev numaraları";
+
 /* voice.voice_rate_test */
 "How does this sound?" = "Bu kulağa nasıl geliyor?";
 
@@ -772,9 +793,6 @@
 
 /* icloud.kv_store.quota_violation_alert.message */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Bu uygulama için iCloud saklama alanı dolu. Yeni bir işaretçi oluşturmak için mevcut işaretçilerinizden bazılarını kaldırarak yer açmanız gerekecek.";
-
-/* No comment provided by engineer. */
-"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Hiçbir işaret ayarlanmamışsa VoiceVista arka plan modunda çalışırken sessiz kalacaktır.";
 
 /* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Ayarlar sekmesinde medya kontrollerini etkinleştirdiyseniz kulaklığınızdaki oynat/duraklat düğmesine basarak bir kırıntı işaretçisi de bırakabilirsiniz.";
@@ -829,9 +847,6 @@
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Önümüzdeki Kavşaklar";
-
-/* No comment provided by engineer. */
-"Interval seconds can be adjusted using the following slider" = "Aralık saniyeleri aşağıdaki kaydırıcı kullanılarak ayarlanabilir";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Geçersiz İçerik Haritası Rota Adı";
@@ -949,6 +964,9 @@
 
 /* settings.callout.mobility */
 "Mobility" = "Hareketlilik";
+
+/* No comment provided by engineer. */
+"Monitoring" = "İzleme";
 
 /* first_launch.permissions.motion */
 "Motion & Fitness" = "Hareket ve Fitness";
@@ -1085,6 +1103,9 @@
 /* beacon.styles.original */
 "Original" = "orijinal";
 
+/* No comment provided by engineer. */
+"Other Distance" = "Diğer Mesafe";
+
 /* voiceSetting.others */
 "OTHER LANGUAGES" = "DİĞER DİLLER";
 
@@ -1171,7 +1192,7 @@
 "Please try later." = "Lütfen daha sonra tekrar deneyin.";
 
 /* settings.callout.distance.poi.detail */
-"Points of interest distance info" = "İlgi çekici mesafe bilgisi";
+"Points of interest info" = "İlgi çekici yerler bilgileri";
 
 /* voice.action.preview */
 "Preview" = "Ön izleme";
@@ -1364,13 +1385,10 @@
 /* vicinity.sleep */
 "Sleep" = "Uyumak";
 
-/* No comment provided by engineer. */
-"Sleep If No Beacon Set" = "İşaret Ayarı Yoksa Uyu";
-
 /* sleep.sleeping */
 "Sleeping" = "Uyuyor";
 
-/* sleep.snoozing */
+/* No comment provided by engineer. */
 "Snoozing" = "erteleme";
 
 /* settings.general.volume.sound */
@@ -1428,6 +1446,9 @@
 /* No comment provided by engineer. */
 "Street Name Callout Interval" = "Sokak Adı Belirtme Aralığı";
 
+/* settings.streeInterval */
+"STREET NAME INTERVAL" = "SOKAK ADI ARALIĞI";
+
 /* No comment provided by engineer. */
 "Street Names" = "Sokak isimleri";
 
@@ -1445,11 +1466,23 @@
 /* beacon.styles.tactile */
 "Tactile" = "dokunsal";
 
+/* No comment provided by engineer. */
+"Tap the button below to stop monitoring and wake up now." = "İzlemeyi durdurmak ve hemen uyanmak için aşağıdaki düğmeye dokunun.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up now." = "Şimdi uyanmak için aşağıdaki düğmeye dokunun.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up VoiceVista." = "VoiceVista'yı uyandırmak için aşağıdaki düğmeye dokunun.";
+
 /* permissionmanager.alert.test */
 "Test Location" = "Test Konumu";
 
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "İçerik geçersiz görünüyor.";
+
+/* No comment provided by engineer. */
+"The device does not support region monitoring feature." = "Cihaz bölge izleme özelliğini desteklememektedir.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Ara noktalar arasındaki mesafe çok küçük olmamalıdır.";
@@ -1479,8 +1512,14 @@
 /* universal_links.alert.share_error.message */
 "This content could not be shared." = "Bu içerik paylaşılamadı.";
 
+/* No comment provided by engineer. */
+"This helps conserve battery when you are not actively using VoiceVista." = "Bu, VoiceVista'yı aktif olarak kullanmadığınızda pil tasarrufu yapmanıza yardımcı olur.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Bu %@. Bu kulağa nasıl geliyor?";
+
+/* No comment provided by engineer. */
+"This uses Location Services in a low-power mode to conserve your phone's battery." = "Bu, telefonunuzun pilinden tasarruf etmek için Konum Servislerini düşük güç modunda kullanır.";
 
 /* troubleshooting.accuracy.meters.footer */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın bulunduğunuz yeri ne kadar doğru bildiğine ilişkin bir tahmindir. ±10 metreden daha az iyidir. ±20 metreden daha az sorun yok. Başka bir şey fakirdir. Konum verileri, herhangi bir yapının altında değil, dışarıdayken en doğrudur.";
@@ -1598,6 +1637,9 @@
 "Update Current Route to Circular" = "Mevcut Rotayı Dairesel Olarak Güncelle";
 
 /* No comment provided by engineer. */
+"Updates about distance to the audio beacon when it's set" = "Ayarlandığında sesli işarete olan mesafeyle ilgili güncellemeler";
+
+/* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "İşaretçi konumunu, adını ve açıklamasını düzenlemek için sağ üst köşedeki düğmeleri kullanın.";
 
 /* No comment provided by engineer. */
@@ -1617,6 +1659,12 @@
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
+
+/* settings.streename.interval */
+"Use this slider to adjust the callout interval for street names." = "Sokak adlarının belirtme aralığını ayarlamak için bu kaydırıcıyı kullanın.";
+
+/* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Sesli işaret ışığına olan mesafeye göre açıklamaların sıklığını ayarlamak için bu kaydırıcıyı kullanın. Daha büyük bir faktör, daha sık açıklama metni anlamına gelir.";
 
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Bunu, kulaklığınızdaki düğmeler ve kilit ekranındaki medya oynatma düğmeleriyle VoiceVista'nın kontrolünü etkinleştirmek için kullanın. VoiceVista açıldığında, podcast'ler veya müzik gibi diğer ortamlar çalarken kullanılamayacağını unutmayın.";
@@ -1664,11 +1712,14 @@
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista kulaklığınıza bağlanıyor. Bir dakika...";
 
-/* sleep.sleeping.message */
-"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista şu anda uyuyor. Bu, VoiceVista'nın Konum Servislerini kullanmasını veya veri indirmesini engeller. Bu, VoiceVista'yı kullanmadığınız zamanlarda pil tasarrufu sağlar. VoiceVista'yı uyandırmak için aşağıdaki düğmeye dokunun.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista şu anda uyku modunda. Bu modda VoiceVista, Konum Servislerini kullanmaz veya veri indirmez.";
 
-/* sleep.snoozing.message */
-"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista şu anda erteliyor. Geçerli konumunuzdan ayrıldığınızda, VoiceVista otomatik olarak uyanacaktır. Bu, telefonunuzun pilini korumak için Konum Servislerini düşük güç modunda kullanır. Şimdi uyanmak için aşağıdaki düğmeye dokunun.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista şu anda erteleme modunda. Mevcut konumunuzdan ayrıldığınızda otomatik olarak uyanacaktır.";
+
+/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista şu anda %2$@ aralığında %1$@'ı izliyor. Bu aralığa ulaştığınızda, VoiceVista otomatik olarak uyanacak ve bu işaretçiyi bir ses işaretçisi olarak ayarlayacaktır.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista şu anda internete bağlanamıyor. Harita verilerinin yenilenebilmesi için saklanan harita verileri temizlenirken bir internet bağlantısı gereklidir.";
@@ -1694,20 +1745,20 @@
 /* headphonesSetting.connect_headset.failed */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista kulaklığınıza bağlanamadı. Lütfen daha sonra tekrar deneyiniz.";
 
-/* No comment provided by engineer. */
-"VoiceVista will call out information when running in the background mode." = "VoiceVista arka plan modunda çalışırken bilgileri seslendirecektir.";
-
 /* settings.general.volume */
 "Volume" = "Hacim";
 
 /* volumeSetting.title */
 "Volume Settings" = "Ses Ayarları";
 
-/* sleep.wake_up_now */
+/* No comment provided by engineer. */
 "Wake Up Now" = "Şimdi uyan";
 
-/* sleep.wake_up_when_i_leave */
+/* No comment provided by engineer. */
 "Wake Up When I Leave" = "Çıktığımda Uyan";
+
+/* No comment provided by engineer. */
+"Wake Up When Near Marker" = "İşaretçinin Yakınında Uyanın";
 
 /* No comment provided by engineer. */
 "Walking" = "Yürüme";
@@ -1753,9 +1804,6 @@
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "VoiceVista ile navigasyon yaparken, sesli bir işaret tarafından yönlendirileceksiniz ve çevrenizdeki ve önünüzdeki konumlar çağrılabilir.";
-
-/* No comment provided by engineer. */
-"When running in the background mode" = "Arka plan modunda çalışırken";
 
 /* No comment provided by engineer. */
 "When running in the foreground mode" = "Ön plan modunda çalışırken";

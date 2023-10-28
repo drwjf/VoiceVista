@@ -254,6 +254,18 @@
    preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "En cada intersección, puedes usar el teléfono nuevamente para elegir qué camino tomar, o puedes explorar su entorno inmediato usando los botones habituales de VoiceVista en la parte inferior de la pantalla.";
 
+/* No comment provided by engineer. */
+"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "¿A cuántos pies se debe activar VoiceVista para activar el marcador como baliza?";
+
+/* No comment provided by engineer. */
+"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "¿A cuántos metros se debe activar VoiceVista para activar el marcador como baliza?";
+
+/* No comment provided by engineer. */
+"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "¿A qué distancia se debe activar VoiceVista para activar el marcador como baliza?";
+
+/* No comment provided by engineer. */
+"At what distance should waypoints be generated between each other for this route?" = "¿A qué distancia se deben generar waypoints entre sí para esta ruta?";
+
 /* beacon.audio_beacon
    settings.general.beacon */
 "Audio Beacon" = "Señal de la baliza";
@@ -291,6 +303,9 @@
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Baliza atrás";
+
+/* settings.beaconFrequency */
+"BEACON DISTANCE FREQUENCY" = "FRECUENCIA DE DISTANCIA DE BALIZA";
 
 /* No comment provided by engineer. */
 "Beacon Distance Frequency Factor" = "Factor de frecuencia de distancia de baliza";
@@ -358,7 +373,7 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Calibración completada";
 
-/* settings.general.beacon.direction.style */
+/* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Estilo de avisos de rumbo";
 
 /* callouts.callouts_off */
@@ -509,8 +524,14 @@
 /* markers.leftBarItem.sortByDistance */
 "Distance" = "Distancia";
 
+/* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
+"Distance between %1$@ and %2$@" = "Distancia entre %1$@ y %2$@";
+
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distancia entre marcadores, debería >= %@";
+
+/* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
+"Distance should be between %1$@ and %2$@" = "La distancia debe estar entre %1$@ y %2$@";
 
 /* settings.callout.distance.poi */
 "Distance to Points of Interest" = "Distancia a puntos de interés";
@@ -675,9 +696,6 @@
 "Forget These Headphones" = "Olvidar estos auriculares";
 
 /* No comment provided by engineer. */
-"Frequency factor can be adjusted using the following slider" = "El factor de frecuencia se puede ajustar usando el siguiente control deslizante";
-
-/* No comment provided by engineer. */
 "Frequently Asked Questions" = "Preguntas más frecuentes";
 
 /* settings.general */
@@ -755,6 +773,9 @@
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Marcadores cercanos";
 
+/* No comment provided by engineer. */
+"House numbers located nearby" = "Números de casa ubicados cerca";
+
 /* voice.voice_rate_test */
 "How does this sound?" = "¿Cómo te suena esto?";
 
@@ -772,9 +793,6 @@
 
 /* icloud.kv_store.quota_violation_alert.message */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "El almacenamiento de iCloud para esta aplicación está completo. Para crear un nuevo marcador, necesitarás liberar espacio quitando algunos de tus marcadores.";
-
-/* No comment provided by engineer. */
-"If no beacon is set, VoiceVista will remain silent when running in the background mode." = "Si no se configura ninguna baliza, VoiceVista permanecerá en silencio cuando se ejecute en segundo plano.";
 
 /* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Si has habilitado los controles multimedia en la pestaña de configuración, puedes presionar el botón de reproducción/pausa en tus auriculares para colocar también un punto de referencia.";
@@ -829,9 +847,6 @@
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Cruces más adelante";
-
-/* No comment provided by engineer. */
-"Interval seconds can be adjusted using the following slider" = "Los segundos de intervalo se pueden ajustar usando el siguiente control deslizante";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Nombre de ruta  de navegación no válido";
@@ -949,6 +964,9 @@
 
 /* settings.callout.mobility */
 "Mobility" = "Movilidad";
+
+/* No comment provided by engineer. */
+"Monitoring" = "Supervisión";
 
 /* first_launch.permissions.motion */
 "Motion & Fitness" = "Actividad física";
@@ -1085,6 +1103,9 @@
 /* beacon.styles.original */
 "Original" = "Original";
 
+/* No comment provided by engineer. */
+"Other Distance" = "Otra distancia";
+
 /* voiceSetting.others */
 "OTHER LANGUAGES" = "OTROS IDIOMAS";
 
@@ -1171,7 +1192,7 @@
 "Please try later." = "Inténtalo mas tarde.";
 
 /* settings.callout.distance.poi.detail */
-"Points of interest distance info" = "Información de distancia de puntos de interés";
+"Points of interest info" = "Información de puntos de interés";
 
 /* voice.action.preview */
 "Preview" = "Vista previa";
@@ -1364,13 +1385,10 @@
 /* vicinity.sleep */
 "Sleep" = "Suspender";
 
-/* No comment provided by engineer. */
-"Sleep If No Beacon Set" = "Suspender si no hay ninguna baliza configurada";
-
 /* sleep.sleeping */
 "Sleeping" = "Modo de suspensión";
 
-/* sleep.snoozing */
+/* No comment provided by engineer. */
 "Snoozing" = "Suspendido";
 
 /* settings.general.volume.sound */
@@ -1428,6 +1446,9 @@
 /* No comment provided by engineer. */
 "Street Name Callout Interval" = "Intervalo de llamada del nombre de la calle";
 
+/* settings.streeInterval */
+"STREET NAME INTERVAL" = "INTERVALO DEL NOMBRE DE LA CALLE";
+
 /* No comment provided by engineer. */
 "Street Names" = "Nombres de calles";
 
@@ -1445,11 +1466,23 @@
 /* beacon.styles.tactile */
 "Tactile" = "Táctil";
 
+/* No comment provided by engineer. */
+"Tap the button below to stop monitoring and wake up now." = "Toque el botón a continuación para dejar de monitorear y despertarse ahora.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up now." = "Toque el botón a continuación para despertarse ahora.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up VoiceVista." = "Toque el botón a continuación para activar VoiceVista.";
+
 /* permissionmanager.alert.test */
 "Test Location" = "Ubicación de prueba";
 
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "Parece que el contenido no es válido.";
+
+/* No comment provided by engineer. */
+"The device does not support region monitoring feature." = "El dispositivo no admite la función de monitoreo regional.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "La distancia entre los puntos de referencia no debe ser demasiado pequeña.";
@@ -1479,8 +1512,14 @@
 /* universal_links.alert.share_error.message */
 "This content could not be shared." = "No se puede compartir este contenido.";
 
+/* No comment provided by engineer. */
+"This helps conserve battery when you are not actively using VoiceVista." = "Esto ayuda a conservar la batería cuando no está utilizando VoiceVista de forma activa.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Soy %@. ¿Qué te parece el sonido?";
+
+/* No comment provided by engineer. */
+"This uses Location Services in a low-power mode to conserve your phone's battery." = "Esto utiliza los servicios de ubicación en un modo de bajo consumo para conservar la batería de su teléfono.";
 
 /* troubleshooting.accuracy.meters.footer */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Este valor es una estimación de la precisión con la que VoiceVista sabe dónde te encuentras. Menos de ±10 metros es una buena distancia. Menos de ±20 metros es una distancia correcta. Todas las distancias que sean superiores serán insuficientes. Los datos de ubicación tienen la máxima precisión cuando el usuario se encuentra en el exterior y no debajo de estructuras.";
@@ -1598,6 +1637,9 @@
 "Update Current Route to Circular" = "Actualizar ruta actual a Circular";
 
 /* No comment provided by engineer. */
+"Updates about distance to the audio beacon when it's set" = "Actualizaciones de la distancia a la baliza de audio cuando está activada";
+
+/* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker location, name and description." = "Utiliza los botones en la esquina superior derecha para editar la ubicación, el nombre y la descripción del marcador.";
 
 /* No comment provided by engineer. */
@@ -1613,10 +1655,16 @@
 "Use each waypoint separately to find path" = "Utiliza cada punto de ruta por separado para el guiado";
 
 /* No comment provided by engineer. */
-"Use final destination of route to fin d path" = "Utiliza el destino final para el guiado";
+"Use final destination of route to find path" = "Utilice el destino final de la ruta para encontrar el camino";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Utiliza el botón en la esquina superior derecha para guardar como marcador.";
+
+/* settings.streename.interval */
+"Use this slider to adjust the callout interval for street names." = "Utilice este control deslizante para ajustar el intervalo de llamada de los nombres de las calles.";
+
+/* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Utilice este control deslizante para ajustar la frecuencia de las llamadas según la distancia a la baliza de audio. Un factor mayor significa llamadas más frecuentes.";
 
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Usa esta opción para habilitar el control de VoiceVista con los botones de los auriculares y los botones de reproducción multimedia de la pantalla de bloqueo. Ten en cuenta que cuando está activada, no se puede usar VoiceVista mientras se reproducen otros audios como podcasts o música.";
@@ -1664,11 +1712,14 @@
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista se está conectando a tus auriculares. Un momento...";
 
-/* sleep.sleeping.message */
-"VoiceVista is currently sleeping. This prevents VoiceVista from using Location Services or downloading data. This conserves battery when you are not using VoiceVista. Tap the button below to wake up VoiceVista." = "VoiceVista se encuentra actualmente en el modo de suspensión. Evita que VoiceVista use Servicios de localización o descargue datos y ahorra energía cuando no se usa la aplicación. Pulsa en el siguiente botón para reactivar VoiceVista.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista se encuentra actualmente en modo de suspensión. En este modo, VoiceVista no utiliza servicios de ubicación ni descarga datos.";
 
-/* sleep.snoozing.message */
-"VoiceVista is currently snoozing. When you leave your current location, VoiceVista will automatically wake up. This uses Location Services in a low power mode to conserve your phone's battery. Tap the button below to wake up now." = "VoiceVista está suspendido. Cuando abandones tu ubicación actual, VoiceVista se reanudará automáticamente. Esto utiliza los Servicios de Localización en un modo de bajo consumo para conservar la batería de tu teléfono. Pulsa el botón de abajo para reanudar ahora.";
+/* No comment provided by engineer. */
+"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista se encuentra actualmente en modo de repetición. Se despertará automáticamente cuando abandones tu ubicación actual.";
+
+/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista actualmente está monitoreando %1$@ dentro de un rango de %2$@. Cuando llegue a este rango, VoiceVista se activará automáticamente y configurará este marcador como una baliza de audio.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista no puede conectarse a Internet. Es necesario disponer de conexión a Internet para borrar los datos cartográficos almacenados y actualizarlos..";
@@ -1694,20 +1745,20 @@
 /* headphonesSetting.connect_headset.failed */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista no pudo conectarse a los auriculares. Inténtalo de nuevo más tarde.";
 
-/* No comment provided by engineer. */
-"VoiceVista will call out information when running in the background mode." = "VoiceVista mostrará información cuando se ejecute en segundo plano.";
-
 /* settings.general.volume */
 "Volume" = "Volumen";
 
 /* volumeSetting.title */
 "Volume Settings" = "Ajustes del volumen";
 
-/* sleep.wake_up_now */
+/* No comment provided by engineer. */
 "Wake Up Now" = "Reactivar ahora";
 
-/* sleep.wake_up_when_i_leave */
+/* No comment provided by engineer. */
 "Wake Up When I Leave" = "Reactivar cuando cambie de ubicación";
+
+/* No comment provided by engineer. */
+"Wake Up When Near Marker" = "Despierta cuando estés cerca del marcador";
 
 /* No comment provided by engineer. */
 "Walking" = "Caminando";
@@ -1753,9 +1804,6 @@
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Cuando navegues con VoiceVista, serás guiado por una baliza de audio y podrás verbalizar las ubicaciones a tu alrededor y delante.";
-
-/* No comment provided by engineer. */
-"When running in the background mode" = "Cuando se ejecuta en modo de fondo";
 
 /* No comment provided by engineer. */
 "When running in the foreground mode" = "Cuando se ejecuta en modo de primer plano";
