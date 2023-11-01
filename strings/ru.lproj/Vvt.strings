@@ -255,13 +255,13 @@
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "На каждом перекрестке вы можете снова воспользоваться телефоном, чтобы выбрать, по какой дороге идти, или осмотреть окрестности, используя знакомые кнопки VoiceVista в нижней части экрана.";
 
 /* No comment provided by engineer. */
-"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии футов необходимо активировать VoiceVista, чтобы активировать маркер в качестве маяка?";
+"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии (в футах) должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
 
 /* No comment provided by engineer. */
-"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии метров должна сработать VoiceVista, чтобы активировать маркер в качестве маяка?";
+"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии (в метрах) должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
 
 /* No comment provided by engineer. */
-"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии должен сработать VoiceVista, чтобы активировать маркер в качестве маяка?";
+"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
 
 /* No comment provided by engineer. */
 "At what distance should waypoints be generated between each other for this route?" = "На каком расстоянии друг от друга должны создаваться путевые точки для этого маршрута?";
@@ -305,7 +305,7 @@
 "Beacon behind" = "Маяк позади";
 
 /* settings.beaconFrequency */
-"BEACON DISTANCE FREQUENCY" = "РАССТОЯНИЕ МАЯКА ЧАСТОТА";
+"BEACON DISTANCE FREQUENCY" = "ЧАСТОТА РАССТОЯНИЯ ДО МАЯКА";
 
 /* No comment provided by engineer. */
 "Beacon Distance Frequency Factor" = "Коэффициент частоты Расстояние до маяка";
@@ -395,13 +395,13 @@
 "Change External Maps App" = "Изменить приложение внешних карт";
 
 /* No comment provided by engineer. */
-"Change Pathfinding Transport Type" = "Изменить тип транспорта поиска пути";
+"Change Pathfinding Transport Type" = "Изменить тип передвижения";
 
 /* No comment provided by engineer. */
 "Change Route Path Mode" = "Изменить тип маршрута";
 
 /* No comment provided by engineer. */
-"Change Units of Measure" = "Изменить единицы измерения";
+"Change Units of Measure" = "Сменить систему измерения";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Присоединиться к группе в WhatsApp";
@@ -774,16 +774,16 @@
 "Hear Markers Nearby" = "Прослушать метки поблизости";
 
 /* No comment provided by engineer. */
-"House numbers located nearby" = "Номера домов, расположенных рядом";
+"House numbers located nearby" = "Номера близлежащих домов";
 
 /* voice.voice_rate_test */
 "How does this sound?" = "Как это звучит?";
 
 /* No comment provided by engineer. */
-"How many feet should waypoints be generated between each other for this route?" = "Сколько футов должно быть создано между собой для этого маршрута?";
+"How many feet should waypoints be generated between each other for this route?" = "Сколько футов должно быть  между путевыми точками на этом маршруте?";
 
 /* No comment provided by engineer. */
-"How many meters should waypoints be generated between each other for this route?" = "Сколько метров должно быть создано путевых точек между собой для этого маршрута?";
+"How many meters should waypoints be generated between each other for this route?" = "Сколько метров должно быть между путевыми точками на этом маршруте?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
@@ -834,10 +834,10 @@
 "Intersection with %1$@ %2$@" = "Перекрёсток с %1$@ %2$@";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> <5 meters> <to the left>' */
-"Intersection with %1$@ %2$@ %3$@" = "Перекрёсток с %1$@, %2$@ %3$@";
+"Intersection with %1$@ %2$@ %3$@" = "Перекрёсток с%1$@, %2$@ %3$@";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Intersection with <Pike Street> <5 meters> away' */
-"Intersection with %1$@ %2$@ away" = "Перекресток %1$@, на расстоянии %2$@";
+"Intersection with %1$@ %2$@ away" = "Перекресток с %1$@, на расстоянии %2$@";
 
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
 "Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@, %2$@ %3$@";
@@ -1192,7 +1192,7 @@
 "Please try later." = "Пожалуйста, попробуйте позже.";
 
 /* settings.callout.distance.poi.detail */
-"Points of interest info" = "Информация о достопримечательностях";
+"Points of interest info" = "Информация о точках интереса";
 
 /* voice.action.preview */
 "Preview" = "Предварительный просмотр";
@@ -1447,7 +1447,7 @@
 "Street Name Callout Interval" = "Интервал объявления названий улиц";
 
 /* settings.streeInterval */
-"STREET NAME INTERVAL" = "ИНТЕРВАЛ НАЗВАНИЯ УЛИЦЫ";
+"STREET NAME INTERVAL" = "ИНТЕРВАЛ НАЗВАНИЯ УЛИЦ";
 
 /* No comment provided by engineer. */
 "Street Names" = "Названия улиц";
@@ -1467,13 +1467,13 @@
 "Tactile" = "Тактильный";
 
 /* No comment provided by engineer. */
-"Tap the button below to stop monitoring and wake up now." = "Нажмите кнопку ниже, чтобы прекратить мониторинг и проснуться прямо сейчас.";
+"Tap the button below to stop monitoring and wake up now." = "Нажмите кнопку ниже, чтобы прекратить мониторинг и проснуться сейчас.";
 
 /* No comment provided by engineer. */
-"Tap the button below to wake up now." = "Нажмите кнопку ниже, чтобы проснуться прямо сейчас.";
+"Tap the button below to wake up now." = "Нажмите кнопку ниже, чтобы проснуться сейчас.";
 
 /* No comment provided by engineer. */
-"Tap the button below to wake up VoiceVista." = "Нажмите кнопку ниже, чтобы активировать VoiceVista.";
+"Tap the button below to wake up VoiceVista." = "Нажмите кнопку ниже, чтобы разбудить VoiceVista.";
 
 /* permissionmanager.alert.test */
 "Test Location" = "Тестовое местоположение";
@@ -1482,7 +1482,7 @@
 "The content appears to be invalid." = "Содержимое недействительно.";
 
 /* No comment provided by engineer. */
-"The device does not support region monitoring feature." = "Устройство не поддерживает функцию мониторинга региона.";
+"Устройство не поддерживает функцию мониторинга региона." = "Устройство не поддерживает функцию мониторинга региона.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
@@ -1607,7 +1607,7 @@
 "Unable to Connect" = "Невозможно подключиться";
 
 /* settings.general.units */
-"Units of Measure" = "Единицы измерения";
+"Units of Measure" = "Система измерения";
 
 /* No comment provided by engineer. */
 "Unknow location" = "Неизвестное местоположение";
@@ -1616,10 +1616,10 @@
 "Unknown" = "Неизвестно";
 
 /* No comment provided by engineer. */
-"Unknown Current Location" = "Неизвестное текущее местоположение";
+"Unknown Current Location" = "Иекущее местоположение не определено";
 
 /* troubleshooting.gps_status.unknown */
-"Unknown Location Accuracy" = "Неизвестная точность местоположения";
+"Unknown Location Accuracy" = "Точность местоположения не определена";
 
 /* No comment provided by engineer. */
 "Unknown street name" = "Неизвестное название улицы";
@@ -1652,19 +1652,19 @@
 "Use Current Version" = "Использовать текущую версию";
 
 /* No comment provided by engineer. */
-"Use each waypoint separately to find path" = "Используйте каждую путевую точку отдельно, чтобы найти путь.";
+"Use each waypoint separately to find path" = "Используйте каждую путевую точку отдельно для построения маршрута.";
 
 /* No comment provided by engineer. */
-"Use final destination of route to find path" = "Используйте конечный пункт маршрута, чтобы найти путь";
+"Use final destination of route to find path" = "Используйте конечный пункт назначения для построения маршрута.";
 
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Чтобы сохранить место как метку, используйте кнопку в правом верхнем углу.";
 
 /* settings.streename.interval */
-"Use this slider to adjust the callout interval for street names." = "Используйте этот ползунок, чтобы настроить интервал выноски для названий улиц.";
+"Use this slider to adjust the callout interval for street names." = "Используйте этот ползунок, чтобы настроить интервал объялений названий улиц.";
 
 /* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Используйте этот ползунок, чтобы настроить частоту вызовов в зависимости от расстояния до звукового маяка. Больший коэффициент означает более частые вызовы.";
+"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Используйте этот ползунок, чтобы настроить частоту объявлений в зависимости от расстояния до звукового маяка. Чем больше коэффициент, тем чаще объявления.";
 
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Используйте этот переключатель, чтобы включить управление VoiceVista с помощью кнопок на наушниках и кнопок воспроизведения мультимедиа на экране блокировки. Обратите внимание, что при включении VoiceVista нельзя использовать во время воспроизведения других медиафайлов, таких как подкасты или музыка.";
@@ -1716,10 +1716,10 @@
 "VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista в настоящее время находится в спящем режиме. В этом режиме VoiceVista не использует службы определения местоположения и не загружает данные.";
 
 /* No comment provided by engineer. */
-"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista в настоящее время находится в режиме повтора. Он автоматически проснется, когда вы покинете свое текущее местоположение.";
+"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista в настоящее время находится в режиме ожидания. Он автоматически проснется, когда вы покинете свое текущее местоположение.";
 
 /* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
-"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista в настоящее время отслеживает %1$@ в диапазоне %2$@. Когда вы окажетесь в этом диапазоне, VoiceVista автоматически проснется и установит этот маркер в качестве звукового маяка.";
+"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista в настоящее время отслеживает %1$@ в диапазоне %2$@. Когда вы окажетесь в этом диапазоне, VoiceVista автоматически проснется и установит эту метку в качестве звукового маяка.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista в настоящее время не может подключиться к Интернету. Для очистки сохраненных данных карт требуется подключение к Интернету, чтобы их можно было обновить.";
@@ -1758,7 +1758,7 @@
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
 
 /* No comment provided by engineer. */
-"Wake Up When Near Marker" = "Просыпайтесь, когда находитесь рядом с маркером";
+"Wake Up When Near Marker" = "Проснуться вблизи метки";
 
 /* No comment provided by engineer. */
 "Walking" = "Пешком";
