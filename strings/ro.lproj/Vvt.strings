@@ -255,13 +255,13 @@
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "La fiecare intersecție, puteți utiliza din nou telefonul pentru a alege pe ce drum să coborâți sau puteți explora împrejurimile dvs. imediate folosind butoanele VoiceVista cunoscute din partea de jos a ecranului.";
 
 /* No comment provided by engineer. */
-"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "La câte picioare ar trebui să fie declanșat VoiceVista pentru a activa markerul ca baliză?";
+"At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "La câți picioare ar trebui să fie declanșat VoiceVista pentru a activa locația ca baliză?";
 
 /* No comment provided by engineer. */
-"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "La câți metri ar trebui să fie declanșat VoiceVista pentru a activa markerul ca baliză?";
+"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "La câți metri ar trebui declanșat VoiceVista pentru a activa locația ca baliză?";
 
 /* No comment provided by engineer. */
-"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "La ce distanță ar trebui declanșat VoiceVista pentru a activa marcatorul ca baliză?";
+"At what distance should VoiceVista be triggered to activate the location as a beacon?" = "La ce distanță ar trebui să fie declanșat VoiceVista pentru a activa locația ca baliză?";
 
 /* No comment provided by engineer. */
 "At what distance should waypoints be generated between each other for this route?" = "La ce distanță ar trebui să fie generate puncte de referință între ele pentru această rută?";
@@ -300,6 +300,12 @@
 
 /* first_launch.beacon.callout.ahead */
 "Beacon ahead" = "Far înainte";
+
+/* settings.beaconAutoMute */
+"BEACON AUTO-MUTE DISTANCE" = "DISTANTA AUTO-MUTE BEACON";
+
+/* No comment provided by engineer. */
+"Beacon Auto-mute Distance" = "Distanța de dezactivare automată a farului";
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Far în spate";
@@ -395,10 +401,13 @@
 "Change External Maps App" = "Schimbați aplicația Hărți externe";
 
 /* No comment provided by engineer. */
+"Change Path Calculation Mode" = "Schimbați modul de calcul al căii";
+
+/* No comment provided by engineer. */
 "Change Pathfinding Transport Type" = "Schimbați tipul de transport Pathfinding";
 
 /* No comment provided by engineer. */
-"Change Route Path Mode" = "Schimbați modul traseu";
+"Change Shake Motion Response" = "Schimbați răspunsul la mișcare";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Schimbați unitățile de măsură";
@@ -566,6 +575,9 @@
 /* preview.include_unnamed_roads.hint.off */
 "Double tap to include unnamed roads during VoiceVista Street Preview" = "Atingeți de două ori pentru a include drumuri fără nume în timpul VoiceVista Street Preview";
 
+/* No comment provided by engineer. */
+"Double tap to mute the audio beacon." = "Atingeți de două ori pentru a dezactiva semnalul audio.";
+
 /* waypoints.addBarButtonItem.hint */
 "Double tap to pick markers" = "Atingeți de două ori pentru a alege marcatoarele";
 
@@ -580,6 +592,9 @@
 
 /* markers.leftBarItem.sortByDistance.hint */
 "Double tap to sort by name" = "Atingeți de două ori pentru a sorta după nume";
+
+/* No comment provided by engineer. */
+"Double tap to unmute the audio beacon." = "Atingeți de două ori pentru a activa semnalul audio.";
 
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Trageți harta pentru a modifica coordonatele";
@@ -672,10 +687,16 @@
 "Failed to Generate Reverse Route" = "Nu s-a generat ruta inversă";
 
 /* No comment provided by engineer. */
+"Failed to Get Your Current Location" = "Nu s-a putut obține locația dvs. actuală";
+
+/* No comment provided by engineer. */
 "Failed to Import Markers" = "Nu s-au putut importa marcatori";
 
 /* No comment provided by engineer. */
 "Failed to Import Route" = "Nu s-a putut importa traseul";
+
+/* No comment provided by engineer. */
+"Failed to Start Monitoring" = "Nu s-a pornit monitorizarea";
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Actualizare eșuată";
@@ -764,7 +785,7 @@
 /* placesNearyBy.category.8 */
 "Healthcare" = "Sănătate";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "Aflați despre starea căștilor pe care le utilizați cu VoiceVista";
 
 /* user_activity.intersections.title */
@@ -896,7 +917,7 @@
 /* general.error.preview */
 "Location preview could not be started at this location." = "Previzualizarea locației nu a putut fi începută în această locație.";
 
-/* first_launch.permissions.location */
+/* No comment provided by engineer. */
 "Location Services with Precise Location" = "Servicii de localizare cu locație precisă";
 
 /* No comment provided by engineer. */
@@ -965,14 +986,14 @@
 /* settings.callout.mobility */
 "Mobility" = "Mobilitate";
 
-/* No comment provided by engineer. */
-"Monitoring" = "Monitorizarea";
+/* %@ is the name of the monitoring location */
+"Monitoring %@" = "Monitorizarea %@";
 
-/* first_launch.permissions.motion */
+/* No comment provided by engineer. */
 "Motion & Fitness" = "Mișcare și fitness";
 
-/* beacon.command.6 */
-"Mute on/off" = "Activare/dezactivare sunet";
+/* No comment provided by engineer. */
+"Mute Beacon" = "Mute Beacon";
 
 /* directions.my_location
    ui.action_button.my_location */
@@ -1017,7 +1038,7 @@
 /* permissions.alert.title.2 */
 "Need Motion & Fitness Permission" = "Aveți nevoie de permisiunea de mișcare și fitness";
 
-/* permissions.status.1 */
+/* No comment provided by engineer. */
 "Need to request permission" = "Trebuie să cereți permisiunea";
 
 /* No comment provided by engineer. */
@@ -1125,15 +1146,18 @@
 "Paste URL from Apple Maps" = "Lipiți adresa URL din Apple Maps";
 
 /* No comment provided by engineer. */
+"Path Calculation Mode" = "Modul de calcul al căii";
+
+/* No comment provided by engineer. */
 "Pathfinding Transport Type" = "Tipul de transport Pathfinding";
 
-/* permissions.status.3 */
+/* No comment provided by engineer. */
 "Permission granted" = "Permisiunea acordată";
 
-/* permissions.status.4 */
+/* No comment provided by engineer. */
 "Permission NOT granted" = "Permisiunea NU este acordată";
 
-/* permissions.status.2 */
+/* No comment provided by engineer. */
 "Permission requested" = "Permisiune solicitată";
 
 /* permissinos.title */
@@ -1296,9 +1320,6 @@
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Nume traseu: %@ .";
 
-/* No comment provided by engineer. */
-"Route Path Mode" = "Modul traseu";
-
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Traseu oprit, %@";
 
@@ -1355,9 +1376,9 @@
 "Settings" = "Setări";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Agitați pentru a repeta ultimul mesaj";
+"Shake Motion Response" = "Răspuns la mișcare agitată";
 
-/* locationdetail.command.4 */
+/* No comment provided by engineer. */
 "Share" = "Acțiune";
 
 /* No comment provided by engineer. */
@@ -1409,7 +1430,7 @@
 /* directions.cardinal.south_west */
 "South West" = "Sud-Vest";
 
-/* locationdetail.command.2 */
+/* No comment provided by engineer. */
 "Start Beacon" = "Porniți Beacon";
 
 /* Label of button to start breadcrumb mode */
@@ -1417,6 +1438,9 @@
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Începeți calibrarea";
+
+/* No comment provided by engineer. */
+"Start Monitoring" = "Începeți monitorizarea";
 
 /* user_activity.start_route.title
    voice.action.start_route */
@@ -1437,8 +1461,11 @@
 /* beacon.command.1 */
 "Stop beacon" = "Opriți farul";
 
-/* locationdetail.command.1 */
+/* No comment provided by engineer. */
 "Stop Beacon" = "Stop Beacon";
+
+/* No comment provided by engineer. */
+"Stop Monitoring" = "Opriți monitorizarea";
 
 /* No comment provided by engineer. */
 "Stop Route" = "Opriți traseul";
@@ -1453,7 +1480,6 @@
 "Street Names" = "Numele străzilor";
 
 /* first_use_experience.preview.tutorial.alert.title
-   locationdetail.command.3
    preview.title */
 "Street Preview" = "Street Preview";
 
@@ -1521,10 +1547,10 @@
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "Aceasta utilizează Serviciile de localizare într-un mod de consum redus pentru a economisi bateria telefonului.";
 
-/* troubleshooting.accuracy.meters.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Această valoare este o estimare a cât de precis știe VoiceVista unde vă aflați. Mai puțin de ±10 metri este bine. Mai puțin de ±20 de metri este ok. Orice altceva este sărac. Datele de locație sunt cele mai precise când sunt în exterior și nu sub nicio structură.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Această valoare este o estimare a cât de precis știe VoiceVista unde vă aflați. Mai puțin de ± 30 de picioare este bine. Mai puțin de ± 60 de picioare este ok. Orice altceva este sărac. Datele de locație sunt cele mai precise când sunt în exterior și nu sub nicio structură.";
 
 /* headphonesSetting.forget_headset.prompt.explanation */
@@ -1546,7 +1572,7 @@
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Pentru a activa aceste funcții, acordați următoarele permisiuni:";
 
-/* vicinity.footnote */
+/* No comment provided by engineer. */
 "To hear surroundings, access to location and motion is required." = "Pentru a auzi împrejurimile, este necesar accesul la locație și mișcare.";
 
 /* directions.direction.to_the_left */
@@ -1606,6 +1632,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Imposibil de conectat";
 
+/* No comment provided by engineer. */
+"Unable to Start Monitoring" = "Nu se poate începe monitorizarea";
+
 /* settings.general.units */
 "Units of Measure" = "Unitati de masura";
 
@@ -1629,6 +1658,9 @@
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "Adresă URL necunoscută în tablă";
+
+/* No comment provided by engineer. */
+"Unmute beacon" = "Activați farul";
 
 /* settings.preview.unnamedroads */
 "Unnamed Roads" = "Drumuri fără nume";
@@ -1664,6 +1696,9 @@
 "Use this slider to adjust the callout interval for street names." = "Utilizați acest glisor pentru a ajusta intervalul de înștiințări pentru numele străzilor.";
 
 /* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Utilizați acest glisor pentru a regla distanța la care semnalizatorul audio este dezactivat automat.";
+
+/* settings.beacon.frequency.factor.slider */
 "Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Utilizați acest glisor pentru a regla frecvența înștiințărilor în funcție de distanța până la semnalizatorul audio. Un factor mai mare înseamnă înștiințări mai frecvente.";
 
 /* settings.audio.mix_with_others.description */
@@ -1697,7 +1732,7 @@
 /* No comment provided by engineer. */
 "VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista poate genera o nouă rută inversă cu puncte de referință în ordine inversă pentru confortul dvs. Poate fi necesar să ajustați punctele de referință pentru traseul inversat înainte de a începe ghidarea.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista descarcă datele hărților pe măsură ce vă plimbați, astfel încât să vă poată spune despre lucrurile și locurile din jurul vostru. Dacă întâmpinați probleme cu VoiceVista sau folosește prea multă memorie, puteți șterge datele hărții stocate, iar VoiceVista va descărca din nou datele hărții din apropierea locației dvs. actuale.";
 
 /* icloud.kv_store.quota_violation_alert.title */
@@ -1718,8 +1753,8 @@
 /* No comment provided by engineer. */
 "VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista este momentan în modul de amânare. Se va trezi automat când părăsiți locația actuală.";
 
-/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
-"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista monitorizează în prezent %1$@ într-un interval de %2$@. Când ajungeți în acest interval, VoiceVista se va trezi automat și se va seta acest marcator ca semnal audio.";
+/* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista monitorizează în prezent „%1$@” într-un interval „%2$@”. Când ajungeți în acest interval, VoiceVista se va trezi automat și se va seta acest marcator ca semnal audio.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista nu se poate conecta în prezent la internet. Este necesară o conexiune la internet când ștergeți datele hărții stocate, astfel încât datele hărții să poată fi reîmprospătate.";
@@ -1756,9 +1791,6 @@
 
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Trezește-te când plec";
-
-/* No comment provided by engineer. */
-"Wake Up When Near Marker" = "Treziți-vă când este aproape de marcaj";
 
 /* No comment provided by engineer. */
 "Walking" = "Mersul pe jos";
@@ -1805,9 +1837,6 @@
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Când navigați cu VoiceVista, veți fi ghidat de un semnal audio, iar locațiile din jur și dinaintea dvs. pot fi semnalate.";
 
-/* No comment provided by engineer. */
-"When running in the foreground mode" = "Când rulați în modul prim-plan";
-
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Când VoiceVista funcționează offline, căutarea este dezactivată. Închideți pentru a reveni la ecranul anterior";
 
@@ -1827,6 +1856,9 @@
 "You acknowledge that VoiceVista (1) is not designed, intended, or made available as a medical device, and (2) is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment." = "Recunoașteți că VoiceVista (1) nu este proiectat, intenționat sau pus la dispoziție ca dispozitiv medical și (2) nu este conceput sau intenționat să înlocuiască sfatul, diagnosticul, tratamentul sau judecata medicală profesională și nu ar trebui să fie utilizat pentru a înlocui sau ca un substitut pentru sfatul, diagnosticul, tratamentul sau judecata medicală profesională.";
 
 /* No comment provided by engineer. */
+"You are already within the monitoring region." = "Vă aflați deja în regiunea de monitorizare.";
+
+/* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Puteți alege puncte de referință din lista dvs. de marcatori.";
 
 /* No comment provided by engineer. */
@@ -1837,6 +1869,9 @@
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Puteți rearanja în orice moment ordinea punctelor de referință de-a lungul unei rute prin editarea traseului.";
+
+/* No comment provided by engineer. */
+"You can shake the phone to call out what's my location when VoiceVista is running in the foreground." = "Puteți scutura telefonul pentru a spune care este locația mea când VoiceVista rulează în prim-plan.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Ați calculat puncte de referință ale acestei rute.";
@@ -1882,4 +1917,7 @@
 
 /* headphonesSetting.airpods_unavailable.alert.description */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "iPhone-ul dvs. nu acceptă urmărirea capului cu Apple AirPods. Verificați dacă iPhone-ul dvs. este un iPhone 7 sau o versiune ulterioară și rulează iOS 14.4 sau o versiune ulterioară.";
+
+/* No comment provided by engineer. */
+"Your location data is exclusively stored on your device or within your iCloud storage for the purposes of privacy and security." = "Datele dvs. de locație sunt stocate exclusiv pe dispozitivul dvs. sau în spațiul de stocare iCloud din motive de confidențialitate și securitate.";
 

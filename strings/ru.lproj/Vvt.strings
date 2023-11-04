@@ -255,13 +255,13 @@
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "На каждом перекрестке вы можете снова воспользоваться телефоном, чтобы выбрать, по какой дороге идти, или осмотреть окрестности, используя знакомые кнопки VoiceVista в нижней части экрана.";
 
 /* No comment provided by engineer. */
-"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии (в футах) должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
+"At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "На каком расстоянии должен сработать VoiceVista, чтобы активировать местоположение в качестве маяка?";
 
 /* No comment provided by engineer. */
-"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии (в метрах) должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
+"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "На каком количестве метров должен сработать VoiceVista, чтобы активировать местоположение в качестве маяка?";
 
 /* No comment provided by engineer. */
-"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "На каком расстоянии должна сработать VoiceVista, чтобы активировать метку в качестве маяка?";
+"At what distance should VoiceVista be triggered to activate the location as a beacon?" = "На каком расстоянии должен срабатывать VoiceVista, чтобы активировать местоположение в качестве маяка?";
 
 /* No comment provided by engineer. */
 "At what distance should waypoints be generated between each other for this route?" = "На каком расстоянии друг от друга должны создаваться путевые точки для этого маршрута?";
@@ -300,6 +300,12 @@
 
 /* first_launch.beacon.callout.ahead */
 "Beacon ahead" = "Маяк впереди";
+
+/* settings.beaconAutoMute */
+"BEACON AUTO-MUTE DISTANCE" = "РАССТОЯНИЕ АВТОМАТИЧЕСКОГО ВЫКЛЮЧЕНИЯ МАЯКА";
+
+/* No comment provided by engineer. */
+"Beacon Auto-mute Distance" = "Расстояние автоматического отключения маяка";
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "Маяк позади";
@@ -395,10 +401,13 @@
 "Change External Maps App" = "Изменить приложение внешних карт";
 
 /* No comment provided by engineer. */
+"Change Path Calculation Mode" = "Изменить режим расчета пути";
+
+/* No comment provided by engineer. */
 "Change Pathfinding Transport Type" = "Изменить тип передвижения";
 
 /* No comment provided by engineer. */
-"Change Route Path Mode" = "Изменить тип маршрута";
+"Change Shake Motion Response" = "Изменить реакцию на встряхивание";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Сменить систему измерения";
@@ -566,6 +575,9 @@
 /* preview.include_unnamed_roads.hint.off */
 "Double tap to include unnamed roads during VoiceVista Street Preview" = "Коснитесь дважды, чтобы учитывать безымянные дороги во время предварительного просмотра улиц VoiceVista";
 
+/* No comment provided by engineer. */
+"Double tap to mute the audio beacon." = "Нажмите дважды, чтобы отключить звуковой сигнал.";
+
 /* waypoints.addBarButtonItem.hint */
 "Double tap to pick markers" = "Коснитесь дважды, чтобы выбрать метки";
 
@@ -580,6 +592,9 @@
 
 /* markers.leftBarItem.sortByDistance.hint */
 "Double tap to sort by name" = "Коснитесь дважды, чтобы отсортировать по имени";
+
+/* No comment provided by engineer. */
+"Double tap to unmute the audio beacon." = "Нажмите дважды, чтобы включить звук маяка.";
 
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Перетащите карту, чтобы изменить координаты";
@@ -672,10 +687,16 @@
 "Failed to Generate Reverse Route" = "Не удалось создать обратный маршрут.";
 
 /* No comment provided by engineer. */
+"Failed to Get Your Current Location" = "Не удалось получить ваше текущее местоположение";
+
+/* No comment provided by engineer. */
 "Failed to Import Markers" = "Не удалось импортировать метки";
 
 /* No comment provided by engineer. */
 "Failed to Import Route" = "Не удалось импортировать маршрут.";
+
+/* No comment provided by engineer. */
+"Failed to Start Monitoring" = "Не удалось начать мониторинг";
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Не удалось обновить";
@@ -764,7 +785,7 @@
 /* placesNearyBy.category.8 */
 "Healthcare" = "Здоровье";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "Узнайте о состоянии наушников, которые вы используете с VoiceVista";
 
 /* user_activity.intersections.title */
@@ -896,7 +917,7 @@
 /* general.error.preview */
 "Location preview could not be started at this location." = "Предварительный просмотр местоположения не может быть запущен в этом месте.";
 
-/* first_launch.permissions.location */
+/* No comment provided by engineer. */
 "Location Services with Precise Location" = "Службы определения местоположения с точным определением местоположения";
 
 /* No comment provided by engineer. */
@@ -965,14 +986,14 @@
 /* settings.callout.mobility */
 "Mobility" = "Мобильность";
 
-/* No comment provided by engineer. */
-"Monitoring" = "Мониторинг";
+/* %@ is the name of the monitoring location */
+"Monitoring %@" = "Мониторинг %@";
 
-/* first_launch.permissions.motion */
+/* No comment provided by engineer. */
 "Motion & Fitness" = "Движение и фитнес";
 
-/* beacon.command.6 */
-"Mute on/off" = "Отключить звук маяка";
+/* No comment provided by engineer. */
+"Mute Beacon" = "Беззвучный маяк";
 
 /* directions.my_location
    ui.action_button.my_location */
@@ -1017,7 +1038,7 @@
 /* permissions.alert.title.2 */
 "Need Motion & Fitness Permission" = "Требуется разрешение на движение и фитнес";
 
-/* permissions.status.1 */
+/* No comment provided by engineer. */
 "Need to request permission" = "Необходимо запросить разрешение";
 
 /* No comment provided by engineer. */
@@ -1125,15 +1146,18 @@
 "Paste URL from Apple Maps" = "Вставить URL-адрес из карт Apple";
 
 /* No comment provided by engineer. */
+"Path Calculation Mode" = "Режим расчета пути";
+
+/* No comment provided by engineer. */
 "Pathfinding Transport Type" = "Тип транспорта";
 
-/* permissions.status.3 */
+/* No comment provided by engineer. */
 "Permission granted" = "Разрешение предоставлено";
 
-/* permissions.status.4 */
+/* No comment provided by engineer. */
 "Permission NOT granted" = "Разрешение НЕ предоставлено";
 
-/* permissions.status.2 */
+/* No comment provided by engineer. */
 "Permission requested" = "Разрешение запрошено";
 
 /* permissinos.title */
@@ -1296,9 +1320,6 @@
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Название маршрута: %@ .";
 
-/* No comment provided by engineer. */
-"Route Path Mode" = "Режим маршрута";
-
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Маршрут остановлен, %@";
 
@@ -1355,9 +1376,9 @@
 "Settings" = "Настройки";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Встряхните телефон, чтобы повторить последнее объявление";
+"Shake Motion Response" = "Реакция на встряхивание";
 
-/* locationdetail.command.4 */
+/* No comment provided by engineer. */
 "Share" = "Поделиться";
 
 /* No comment provided by engineer. */
@@ -1409,7 +1430,7 @@
 /* directions.cardinal.south_west */
 "South West" = "Юго-Запад";
 
-/* locationdetail.command.2 */
+/* No comment provided by engineer. */
 "Start Beacon" = "Запустить маяк";
 
 /* Label of button to start breadcrumb mode */
@@ -1417,6 +1438,9 @@
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Начать калибровку";
+
+/* No comment provided by engineer. */
+"Start Monitoring" = "Начать мониторинг";
 
 /* user_activity.start_route.title
    voice.action.start_route */
@@ -1437,8 +1461,11 @@
 /* beacon.command.1 */
 "Stop beacon" = "Остановить маяк";
 
-/* locationdetail.command.1 */
+/* No comment provided by engineer. */
 "Stop Beacon" = "Остановить маяк";
+
+/* No comment provided by engineer. */
+"Stop Monitoring" = "Прекратить мониторинг";
 
 /* No comment provided by engineer. */
 "Stop Route" = "Остановить маршрут";
@@ -1453,7 +1480,6 @@
 "Street Names" = "Названия улиц";
 
 /* first_use_experience.preview.tutorial.alert.title
-   locationdetail.command.3
    preview.title */
 "Street Preview" = "Просмотр улиц";
 
@@ -1482,7 +1508,7 @@
 "The content appears to be invalid." = "Содержимое недействительно.";
 
 /* No comment provided by engineer. */
-"The device does not support the region monitoring function." = "Устройство не поддерживает функцию мониторинга региона.";
+"The device does not support region monitoring feature." = "Устройство не поддерживает функцию мониторинга региона.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
@@ -1521,10 +1547,10 @@
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "При этом службы определения местоположения используются в режиме пониженного энергопотребления для экономии заряда батареи вашего телефона.";
 
-/* troubleshooting.accuracy.meters.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±10 метров – это хорошо. Менее ±20 метров нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда вы находитесь снаружи, а не внутри зданий или около них.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±30 футов — это хорошо. Менее ± 60 футов нормально. Все остальное плохо.  Данные о местоположении наиболее точны, когда вы находитесь снаружи, а не внутри зданий или около них.";
 
 /* headphonesSetting.forget_headset.prompt.explanation */
@@ -1546,7 +1572,7 @@
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Чтобы включить эти функции, предоставьте следующие разрешения:";
 
-/* vicinity.footnote */
+/* No comment provided by engineer. */
 "To hear surroundings, access to location and motion is required." = "Чтобы слышать окружение, требуется доступ к местоположению и движению.";
 
 /* directions.direction.to_the_left */
@@ -1606,6 +1632,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Невозможно подключиться";
 
+/* No comment provided by engineer. */
+"Unable to Start Monitoring" = "Невозможно начать мониторинг";
+
 /* settings.general.units */
 "Units of Measure" = "Система измерения";
 
@@ -1629,6 +1658,9 @@
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "Неизвестный URL в буфере обмена";
+
+/* No comment provided by engineer. */
+"Unmute beacon" = "Включить звук маяка";
 
 /* settings.preview.unnamedroads */
 "Unnamed Roads" = "Безымянные дороги";
@@ -1664,6 +1696,9 @@
 "Use this slider to adjust the callout interval for street names." = "Используйте этот ползунок, чтобы настроить интервал объялений названий улиц.";
 
 /* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Используйте этот ползунок, чтобы отрегулировать расстояние, на котором звуковой маяк автоматически отключается.";
+
+/* settings.beacon.frequency.factor.slider */
 "Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Используйте этот ползунок, чтобы настроить частоту объявлений в зависимости от расстояния до звукового маяка. Чем больше коэффициент, тем чаще объявления.";
 
 /* settings.audio.mix_with_others.description */
@@ -1697,7 +1732,7 @@
 /* No comment provided by engineer. */
 "VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "Для вашего удобства VoiceVista может создать новый обратный маршрут с путевыми точками в обратном порядке. Возможно, вам придется скорректировать путевые точки для обратного маршрута перед началом навигации.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista загружает данные карт, когда вы идете, чтобы рассказать вам о том, что находится вокруг вас. Если у вас возникли проблемы с VoiceVista или оно использует слишком много памяти, вы можете очистить сохраненные данные карт. VoiceVista повторно загрузит их только рядом с вашим текущим местоположением.";
 
 /* icloud.kv_store.quota_violation_alert.title */
@@ -1718,8 +1753,8 @@
 /* No comment provided by engineer. */
 "VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista в настоящее время находится в режиме ожидания. Он автоматически проснется, когда вы покинете свое текущее местоположение.";
 
-/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
-"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista в настоящее время отслеживает %1$@ в диапазоне %2$@. Когда вы окажетесь в этом диапазоне, VoiceVista автоматически проснется и установит эту метку в качестве звукового маяка.";
+/* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista в настоящее время отслеживает «%1$@» в диапазоне «%2$@». Когда вы окажетесь в этом диапазоне, VoiceVista автоматически проснется и установит этот маркер в качестве звукового маяка.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista в настоящее время не может подключиться к Интернету. Для очистки сохраненных данных карт требуется подключение к Интернету, чтобы их можно было обновить.";
@@ -1756,9 +1791,6 @@
 
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
-
-/* No comment provided by engineer. */
-"Wake Up When Near Marker" = "Проснуться вблизи метки";
 
 /* No comment provided by engineer. */
 "Walking" = "Пешком";
@@ -1805,9 +1837,6 @@
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "При навигации с помощью VoiceVista вы будете ориентироваться по звуковому маяку, а также   получать информацию о местах  вокруг и впереди вас.";
 
-/* No comment provided by engineer. */
-"When running in the foreground mode" = "При работе на переднем плане";
-
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск мест не доступен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";
 
@@ -1827,6 +1856,9 @@
 "You acknowledge that VoiceVista (1) is not designed, intended, or made available as a medical device, and (2) is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment." = "Вы признаете, что VoiceVista (1) не разработана, не предназначена и не предоставляется в качестве медицинского устройства и (2) не предназначена и не предназначена для замены профессиональной медицинской консультации, диагностики, лечения или суждения и не должна использоваться для замены или замены профессиональной медицинской консультации, диагностики, лечения или суждения.";
 
 /* No comment provided by engineer. */
+"You are already within the monitoring region." = "Вы уже находитесь в зоне мониторинга.";
+
+/* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Вы можете выбрать путевые точки из списка меток.";
 
 /* No comment provided by engineer. */
@@ -1837,6 +1869,9 @@
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Вы можете изменить порядок путевых точек на маршруте в любое время, отредактировав маршрут.";
+
+/* No comment provided by engineer. */
+"You can shake the phone to call out what's my location when VoiceVista is running in the foreground." = "Вы можете встряхнуть телефон, чтобы узнать мое местоположение, когда VoiceVista работает на переднем плане.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Вы рассчитали путевые точки этого маршрута.";
@@ -1882,4 +1917,7 @@
 
 /* headphonesSetting.airpods_unavailable.alert.description */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "Ваш iPhone не поддерживает отслеживание движений головы с Apple AirPods. Убедитесь, что ваш iPhone — iPhone 7 или более поздней версии и работает под управлением iOS 14.4 или более поздней версии.";
+
+/* No comment provided by engineer. */
+"Your location data is exclusively stored on your device or within your iCloud storage for the purposes of privacy and security." = "В целях обеспечения конфиденциальности и безопасности данные о вашем местоположении хранятся исключительно на вашем устройстве или в хранилище iCloud .";
 
