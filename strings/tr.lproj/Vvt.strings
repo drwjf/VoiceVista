@@ -255,13 +255,13 @@
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "Her kavşakta, hangi yoldan aşağı ineceğinizi seçmek için telefonu tekrar kullanabilir veya ekranın alt kısmındaki tanıdık VoiceVista düğmelerini kullanarak yakın çevrenizi keşfedebilirsiniz.";
 
 /* No comment provided by engineer. */
-"At how many feet should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista'nın kaç fitte tetiklenmesi gerekir?";
+"At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "Konumu bir işaretçi olarak etkinleştirmek için VoiceVista'nın kaç fitte tetiklenmesi gerekir?";
 
 /* No comment provided by engineer. */
-"At how many meters should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista'nın kaç metrede tetiklenmesi gerekir?";
+"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "Konumu işaret olarak etkinleştirmek için VoiceVista'nın kaç metrede tetiklenmesi gerekir?";
 
 /* No comment provided by engineer. */
-"At what distance should VoiceVista be triggered to activate the marker as a beacon?" = "İşaretçiyi işaret olarak etkinleştirmek için VoiceVista hangi mesafede tetiklenmelidir?";
+"At what distance should VoiceVista be triggered to activate the location as a beacon?" = "Konumu işaret olarak etkinleştirmek için VoiceVista hangi mesafede tetiklenmelidir?";
 
 /* No comment provided by engineer. */
 "At what distance should waypoints be generated between each other for this route?" = "Bu rota için ara noktalar birbirleri arasında hangi mesafede oluşturulmalıdır?";
@@ -300,6 +300,12 @@
 
 /* first_launch.beacon.callout.ahead */
 "Beacon ahead" = "işaret ışığı";
+
+/* settings.beaconAutoMute */
+"BEACON AUTO-MUTE DISTANCE" = "BEACON OTOMATİK SESSİZ MESAFESİ";
+
+/* No comment provided by engineer. */
+"Beacon Auto-mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
 
 /* first_launch.beacon.callout.behind */
 "Beacon behind" = "arkadaki işaret";
@@ -395,10 +401,13 @@
 "Change External Maps App" = "Harici Haritalar Uygulamasını Değiştir";
 
 /* No comment provided by engineer. */
+"Change Path Calculation Mode" = "Yol Hesaplama Modunu Değiştir";
+
+/* No comment provided by engineer. */
 "Change Pathfinding Transport Type" = "Yol Bulma Aktarım Türünü Değiştir";
 
 /* No comment provided by engineer. */
-"Change Route Path Mode" = "Rota Yolu Modunu Değiştir";
+"Change Shake Motion Response" = "Sarsıntı Hareketi Tepkisini Değiştir";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
@@ -566,6 +575,9 @@
 /* preview.include_unnamed_roads.hint.off */
 "Double tap to include unnamed roads during VoiceVista Street Preview" = "VoiceVista Sokak Önizlemesi sırasında adsız yolları dahil etmek için iki kez dokunun";
 
+/* No comment provided by engineer. */
+"Double tap to mute the audio beacon." = "Ses sinyalini kapatmak için iki kez dokunun.";
+
 /* waypoints.addBarButtonItem.hint */
 "Double tap to pick markers" = "İşaretçileri seçmek için iki kez dokunun";
 
@@ -580,6 +592,9 @@
 
 /* markers.leftBarItem.sortByDistance.hint */
 "Double tap to sort by name" = "Ada göre sıralamak için iki kez dokunun";
+
+/* No comment provided by engineer. */
+"Double tap to unmute the audio beacon." = "Ses sinyalinin sesini açmak için iki kez dokunun.";
 
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Koordinatları değiştirmek için haritayı sürükleyin";
@@ -672,10 +687,16 @@
 "Failed to Generate Reverse Route" = "Ters Rota Oluşturulamadı";
 
 /* No comment provided by engineer. */
+"Failed to Get Your Current Location" = "Mevcut Konumunuz Alınamadı";
+
+/* No comment provided by engineer. */
 "Failed to Import Markers" = "İşaretçiler İçe Aktarılamadı";
 
 /* No comment provided by engineer. */
 "Failed to Import Route" = "Rota İçe Aktarılamadı";
+
+/* No comment provided by engineer. */
+"Failed to Start Monitoring" = "İzleme Başlatılamadı";
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Güncelleme başarısız oldu";
@@ -764,7 +785,7 @@
 /* placesNearyBy.category.8 */
 "Healthcare" = "Sağlık hizmeti";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "VoiceVista ile kullandığınız kulaklığın durumunu öğrenin";
 
 /* user_activity.intersections.title */
@@ -896,7 +917,7 @@
 /* general.error.preview */
 "Location preview could not be started at this location." = "Konum önizlemesi bu konumda başlatılamadı.";
 
-/* first_launch.permissions.location */
+/* No comment provided by engineer. */
 "Location Services with Precise Location" = "Kesin Konum ile Konum Servisleri";
 
 /* No comment provided by engineer. */
@@ -965,14 +986,14 @@
 /* settings.callout.mobility */
 "Mobility" = "Hareketlilik";
 
-/* No comment provided by engineer. */
-"Monitoring" = "İzleme";
+/* %@ is the name of the monitoring location */
+"Monitoring %@" = "%@ izleniyor";
 
-/* first_launch.permissions.motion */
+/* No comment provided by engineer. */
 "Motion & Fitness" = "Hareket ve Fitness";
 
-/* beacon.command.6 */
-"Mute on/off" = "Sessiz açma/kapatma";
+/* No comment provided by engineer. */
+"Mute Beacon" = "Sessiz İşareti";
 
 /* directions.my_location
    ui.action_button.my_location */
@@ -1017,7 +1038,7 @@
 /* permissions.alert.title.2 */
 "Need Motion & Fitness Permission" = "Hareket ve Fitness İzni Gerekiyor";
 
-/* permissions.status.1 */
+/* No comment provided by engineer. */
 "Need to request permission" = "İzin istemek gerekiyor";
 
 /* No comment provided by engineer. */
@@ -1125,15 +1146,18 @@
 "Paste URL from Apple Maps" = "Apple Maps'ten URL'yi yapıştırın";
 
 /* No comment provided by engineer. */
+"Path Calculation Mode" = "Yol Hesaplama Modu";
+
+/* No comment provided by engineer. */
 "Pathfinding Transport Type" = "Yol Bulma Taşıma Türü";
 
-/* permissions.status.3 */
+/* No comment provided by engineer. */
 "Permission granted" = "İzin verildi";
 
-/* permissions.status.4 */
+/* No comment provided by engineer. */
 "Permission NOT granted" = "İzin verilmedi";
 
-/* permissions.status.2 */
+/* No comment provided by engineer. */
 "Permission requested" = "İzin istendi";
 
 /* permissinos.title */
@@ -1296,9 +1320,6 @@
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Rota adı: %@ .";
 
-/* No comment provided by engineer. */
-"Route Path Mode" = "Rota Yolu Modu";
-
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Rota Durduruldu, %@";
 
@@ -1355,9 +1376,9 @@
 "Settings" = "Ayarlar";
 
 /* No comment provided by engineer. */
-"Shake to Repeat Last Callout" = "Son Belirtmeyi Tekrarlamak için Sallayın";
+"Shake Motion Response" = "Sarsıntı Hareketi Tepkisi";
 
-/* locationdetail.command.4 */
+/* No comment provided by engineer. */
 "Share" = "Paylaşmak";
 
 /* No comment provided by engineer. */
@@ -1409,7 +1430,7 @@
 /* directions.cardinal.south_west */
 "South West" = "Güney Batı";
 
-/* locationdetail.command.2 */
+/* No comment provided by engineer. */
 "Start Beacon" = "İşaretçiyi Başlat";
 
 /* Label of button to start breadcrumb mode */
@@ -1417,6 +1438,9 @@
 
 /* headphonesSetting.connect_headset.calibrate.button */
 "Start Calibration" = "Kalibrasyonu Başlat";
+
+/* No comment provided by engineer. */
+"Start Monitoring" = "İzlemeye Başla";
 
 /* user_activity.start_route.title
    voice.action.start_route */
@@ -1437,8 +1461,11 @@
 /* beacon.command.1 */
 "Stop beacon" = "İşareti durdur";
 
-/* locationdetail.command.1 */
+/* No comment provided by engineer. */
 "Stop Beacon" = "İşaretçiyi Durdur";
+
+/* No comment provided by engineer. */
+"Stop Monitoring" = "İzlemeyi Durdur";
 
 /* No comment provided by engineer. */
 "Stop Route" = "Rotayı Durdur";
@@ -1453,7 +1480,6 @@
 "Street Names" = "Sokak isimleri";
 
 /* first_use_experience.preview.tutorial.alert.title
-   locationdetail.command.3
    preview.title */
 "Street Preview" = "Sokak Önizlemesi";
 
@@ -1521,10 +1547,10 @@
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "Bu, telefonunuzun pilinden tasarruf etmek için Konum Servislerini düşük güç modunda kullanır.";
 
-/* troubleshooting.accuracy.meters.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın bulunduğunuz yeri ne kadar doğru bildiğine ilişkin bir tahmindir. ±10 metreden daha az iyidir. ±20 metreden daha az sorun yok. Başka bir şey fakirdir. Konum verileri, herhangi bir yapının altında değil, dışarıdayken en doğrudur.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın bulunduğunuz yeri ne kadar doğru bildiğine ilişkin bir tahmindir. ±30 fitten daha azı iyidir. ±60 fitten daha azı uygundur. Başka bir şey fakirdir. Konum verileri, herhangi bir yapının altında değil, dışarıdayken en doğrudur.";
 
 /* headphonesSetting.forget_headset.prompt.explanation */
@@ -1546,7 +1572,7 @@
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Bu özellikleri etkinleştirmek için lütfen aşağıdaki izinleri verin:";
 
-/* vicinity.footnote */
+/* No comment provided by engineer. */
 "To hear surroundings, access to location and motion is required." = "Çevreyi duymak için konuma ve harekete erişim gereklidir.";
 
 /* directions.direction.to_the_left */
@@ -1606,6 +1632,9 @@
 /* headphonesSetting.connect_headset.error_title */
 "Unable to Connect" = "Bağlanılamıyor";
 
+/* No comment provided by engineer. */
+"Unable to Start Monitoring" = "İzleme Başlatılamıyor";
+
 /* settings.general.units */
 "Units of Measure" = "Ölçü birimleri";
 
@@ -1629,6 +1658,9 @@
 
 /* No comment provided by engineer. */
 "Unknown URL in the pasteboard" = "Çalışma alanında bilinmeyen URL";
+
+/* No comment provided by engineer. */
+"Unmute beacon" = "İşaretin sesini aç";
 
 /* settings.preview.unnamedroads */
 "Unnamed Roads" = "İsimsiz Yollar";
@@ -1664,6 +1696,9 @@
 "Use this slider to adjust the callout interval for street names." = "Sokak adlarının belirtme aralığını ayarlamak için bu kaydırıcıyı kullanın.";
 
 /* settings.beacon.frequency.factor.slider */
+"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Sesli uyarı ışığının otomatik olarak kapatılacağı mesafeyi ayarlamak için bu kaydırıcıyı kullanın.";
+
+/* settings.beacon.frequency.factor.slider */
 "Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Sesli işaret ışığına olan mesafeye göre açıklamaların sıklığını ayarlamak için bu kaydırıcıyı kullanın. Daha büyük bir faktör, daha sık açıklama metni anlamına gelir.";
 
 /* settings.audio.mix_with_others.description */
@@ -1697,7 +1732,7 @@
 /* No comment provided by engineer. */
 "VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista, size kolaylık sağlamak için yol noktalarının ters sırada olduğu yeni bir ters rota oluşturabilir. Yönlendirmeye başlamadan önce ters rota için yol noktalarını ayarlamanız gerekebilir.";
 
-/* troubleshooting.accuracy.footer */
+/* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista, etrafınızdaki şeyler ve yerler hakkında size bilgi verebilmesi için siz dolaşırken harita verilerini indirir. VoiceVista ile ilgili sorun yaşıyorsanız veya çok fazla bellek kullanıyorsa, saklanan harita verilerini silebilirsiniz ve VoiceVista yalnızca geçerli konumunuzun yakınındaki harita verilerini yeniden indirir.";
 
 /* icloud.kv_store.quota_violation_alert.title */
@@ -1718,8 +1753,8 @@
 /* No comment provided by engineer. */
 "VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista şu anda erteleme modunda. Mevcut konumunuzdan ayrıldığınızda otomatik olarak uyanacaktır.";
 
-/* %@ is the name of the marker to be monitored. %2$@ is the distance to wakeup to start audio beacon */
-"VoiceVista is currently monitoring %1$@ within a %2$@ range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista şu anda %2$@ aralığında %1$@'ı izliyor. Bu aralığa ulaştığınızda, VoiceVista otomatik olarak uyanacak ve bu işaretçiyi bir ses işaretçisi olarak ayarlayacaktır.";
+/* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista şu anda '%2$@' aralığında '%1$@'ı izliyor. Bu aralığa ulaştığınızda, VoiceVista otomatik olarak uyanacak ve bu işaretçiyi bir ses işaretçisi olarak ayarlayacaktır.";
 
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista şu anda internete bağlanamıyor. Harita verilerinin yenilenebilmesi için saklanan harita verileri temizlenirken bir internet bağlantısı gereklidir.";
@@ -1756,9 +1791,6 @@
 
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Çıktığımda Uyan";
-
-/* No comment provided by engineer. */
-"Wake Up When Near Marker" = "İşaretçinin Yakınında Uyanın";
 
 /* No comment provided by engineer. */
 "Walking" = "Yürüme";
@@ -1805,9 +1837,6 @@
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "VoiceVista ile navigasyon yaparken, sesli bir işaret tarafından yönlendirileceksiniz ve çevrenizdeki ve önünüzdeki konumlar çağrılabilir.";
 
-/* No comment provided by engineer. */
-"When running in the foreground mode" = "Ön plan modunda çalışırken";
-
 /* general.alert.offline_search.message */
 "When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "VoiceVista çevrimdışı çalışırken arama devre dışı bırakılır. Önceki ekrana dönmek için kapatın";
 
@@ -1827,6 +1856,9 @@
 "You acknowledge that VoiceVista (1) is not designed, intended, or made available as a medical device, and (2) is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment." = "VoiceVista'nın (1) tıbbi bir cihaz olarak tasarlanmadığını, amaçlanmadığını veya kullanıma sunulmadığını ve (2) profesyonel tıbbi tavsiye, teşhis, tedavi veya muhakemenin yerine geçecek şekilde tasarlanmadığını veya amaçlanmadığını ve profesyonel tıbbi tavsiye, teşhis, tedavi veya muhakemenin yerini almak veya bunların yerini almak için kullanılmaması gerektiğini kabul edersiniz.";
 
 /* No comment provided by engineer. */
+"You are already within the monitoring region." = "Zaten izleme bölgesindesiniz.";
+
+/* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "İşaretçiler listenizden ara noktaları seçebilirsiniz.";
 
 /* No comment provided by engineer. */
@@ -1837,6 +1869,9 @@
 
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Rotayı düzenleyerek istediğiniz zaman rota boyunca yol noktalarının sırasını yeniden düzenleyebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can shake the phone to call out what's my location when VoiceVista is running in the foreground." = "VoiceVista ön planda çalışırken konumumun ne olduğunu söylemek için telefonu sallayabilirsiniz.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
@@ -1882,4 +1917,7 @@
 
 /* headphonesSetting.airpods_unavailable.alert.description */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "iPhone'unuz, Apple AirPods ile kafa izlemeyi desteklemiyor. iPhone'unuzun bir iPhone 7 veya daha yenisi olduğunu ve iOS 14.4 veya daha yenisini çalıştırdığını kontrol edin.";
+
+/* No comment provided by engineer. */
+"Your location data is exclusively stored on your device or within your iCloud storage for the purposes of privacy and security." = "Konum verileriniz, gizlilik ve güvenlik amacıyla yalnızca cihazınızda veya iCloud saklama alanınızda saklanır.";
 
