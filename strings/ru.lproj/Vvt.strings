@@ -47,7 +47,7 @@
 "%@ disconnected." = "%@ отключены.";
 
 /* %@ is the navigation transport type, such as Walking, Automobile, Transit */
-"%@ Instructions:" = "%@ Инструкции:";
+"%@ Instructions:" = "Инструкции: %@";
 
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "Перекрёсток %@";
@@ -317,13 +317,13 @@
 "Beacon Distance Frequency Factor" = "Коэффициент частоты Расстояние до маяка";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
-"Beacon on %@" = "Маяк на %@";
+"Beacon on %@" = "Маяк у %@";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
-"Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Маяк установлен на %1$@, на расстоянии %2$@, %3$@ из %4$@";
+"Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Маяк установлен у %1$@, на расстоянии %2$@, %3$@ из %4$@";
 
 /* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
-"Beacon set on %1$@, %2$@ of %3$@" = "Маяк установлен на %1$@, %2$@ из %3$@";
+"Beacon set on %1$@, %2$@ of %3$@" = "Маяк установлен у %1$@, %2$@ из %3$@";
 
 /* voiceSetting.title */
 "Beacon Settings" = "Настройки маяка";
@@ -338,7 +338,7 @@
 "Beacon within %@" = "Маяк в %@";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
-"Beacon within %@. Audio beacon has been muted" = "Маяк в %@. Звуковой маяк отключен";
+"Beacon within %@. Audio beacon has been muted" = "Маяк в %@. Звук маяка отключен";
 
 /* headphonesSetting.connect_headset.audio */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Перед подключением наушников к VoiceVista убедитесь, что они сопряжены с вашим телефоном. Если они еще не сопряжены, перейдите в раздел Bluetooth в приложении «Настройки» iOS, чтобы выполнить сопряжение устройства, а затем вернитесь в VoiceVista.";
@@ -837,7 +837,7 @@
 "In vehicle speaking rate" = "Скорость речи в транспортном средстве";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate. How does this sound?" = "Скорость речи в транспортном средстве. Как это звучит?";
+"In vehicle speaking rate. How does this sound?" = "Это тестовое сообщение для данной конфигурации.";
 
 /* settings.preview.unnamedroads.detail */
 "Include unnamed roads during Street Preview" = "Учитывать безымянные дороги во время предварительного просмотра улиц";
@@ -1104,7 +1104,7 @@
 "ON FOOT SPEAKING RATE" = "Скорость речи на пеших маршрутах";
 
 /* No comment provided by engineer. */
-"On foot speaking rate. How does this sound?" = "Скорость речи на пеших маршрутах. Как это звучит?";
+"On foot speaking rate. How does this sound?" = "Это тестовое сообщение для данной конфигурации.";
 
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Ой! Что-то пошло не так.";
@@ -1456,7 +1456,7 @@
 "Starting Street Preview along %@" = "Запуск просмотра улиц по %@";
 
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
-"Starting Street Preview at %@" = "Запуск Просмотра Улиц в %@";
+"Starting Street Preview at %@" = "Запуск Просмотра Улиц у %@";
 
 /* beacon.command.1 */
 "Stop beacon" = "Остановить маяк";
@@ -1542,7 +1542,7 @@
 "This helps conserve battery when you are not actively using VoiceVista." = "Это помогает экономить заряд батареи, когда вы не используете VoiceVista активно.";
 
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
-"This is %@. How does this sound?" = "Это %@. Как это звучит?";
+"Это тестовое сообщение для данной конфигурации.";
 
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "При этом службы определения местоположения используются в режиме пониженного энергопотребления для экономии заряда батареи вашего телефона.";
