@@ -292,17 +292,11 @@
 /* volumeSetting.beacon */
 "BEACON" = "AUDIOFARO";
 
-/* first_launch.beacon.callout.ahead */
-"Beacon ahead" = "Audiofaro davanti";
-
 /* settings.beaconAutoMute */
 "BEACON AUTO-MUTE DISTANCE" = "DISTANZA AUTOMUTE DEL BEACON";
 
 /* No comment provided by engineer. */
 "Beacon Auto-mute Distance" = "Distanza di disattivazione automatica del faro";
-
-/* first_launch.beacon.callout.behind */
-"Beacon behind" = "Audiofaro dietro";
 
 /* settings.beaconFrequency */
 "BEACON DISTANCE FREQUENCY" = "FREQUENZA DISTANZA DEL FARO";
@@ -357,9 +351,6 @@
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Modalità passo passo";
-
-/* first_launch.callouts.example.1 */
-"Cafe" = "Bar";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Calcola tramite algoritmo di navigazione";
@@ -848,9 +839,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Immettere latitudine e longitudine";
 
-/* settings.callout.mobility.detail */
-"Intersection and transportation info" = "Informazioni sugli incroci e sui mezzi di trasporto";
-
 /* callouts.intersection_callout */
 "Intersection Callout" = "Notifica incrocio";
 
@@ -869,6 +857,9 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Incrocio con %@ nelle vicinanze";
 
+/* settings.callout.mobility */
+"Intersections" = "Intersezioni";
+
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Incroci più avanti";
 
@@ -886,6 +877,9 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Potrebbe volerci un po' di tempo per creare l'elenco dei luoghi nelle vicinanze. Se al momento non ci sono dati disponibili, prova a tornare più tardi.";
+
+/* No comment provided by engineer. */
+"Junction or road cross" = "Incrocio o incrocio stradale";
 
 /* general.alert.keep */
 "Keep" = "Mantieni";
@@ -925,12 +919,6 @@
 
 /* No comment provided by engineer. */
 "Longitude" = "Longitudine";
-
-/* first_launch.callouts.example.3 */
-"Main Street goes left" = "La strada va verso sinistra";
-
-/* first_launch.callouts.example.4 */
-"Main Street goes right" = "La strada va verso destra";
 
 /* beacon.styles.mallet */
 "Mallet" = "Percussione";
@@ -999,7 +987,7 @@
 "Metric (Meters)" = "Metrico (metri)";
 
 /* settings.callout.mobility */
-"Mobility" = "Mobilità";
+"Mobility and Safety" = "Mobilità e Sicurezza";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Monitoraggio %@";
@@ -1201,12 +1189,6 @@
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Luoghi nelle vicinanze";
-
-/* first_launch.beacon.callout.headtracking.haptic */
-"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "Un audiofaro è stato posizionato davanti a te. Gira a sinistra e a destra per provare il feedback aptico dell'audiofaro.";
-
-/* first_launch.beacon.callout.headtracking.standard */
-"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "Un audiofaro è stato posizionato alla tua destra. Gira per seguirne il suono e sperimentare l'audio spaziale dell'audiofaro.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Aggiungi waypoint per completare la creazione del percorso.";
@@ -1483,9 +1465,6 @@
 "Stop Route" = "Interrompi Percorso";
 
 /* No comment provided by engineer. */
-"Street Name" = "Nome della strada";
-
-/* No comment provided by engineer. */
 "Street Name Callout Interval" = "Intervallo di callout del nome della strada";
 
 /* settings.streeInterval */
@@ -1506,6 +1485,12 @@
 
 /* vicinity.title */
 "Surroundings" = "Dintorni";
+
+/* No comment provided by engineer. */
+"Swipe left on cells to discover additional actions." = "Scorri verso sinistra sulle celle per scoprire ulteriori azioni.";
+
+/* No comment provided by engineer. */
+"Swipe up/down on cells to discover additional actions." = "Scorri verso l'alto/il basso sulle celle per scoprire ulteriori azioni.";
 
 /* beacon.styles.tactile */
 "Tactile" = "Tattile";
@@ -1623,6 +1608,9 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Trasporto";
 
+/* settings.callout.mobility.detail */
+"Transportation info" = "Informazioni sui trasporti";
+
 /* troubleshooting.title */
 "Troubleshooting" = "Risoluzione dei problemi";
 
@@ -1679,9 +1667,6 @@
 
 /* troubleshooting.gps_status.unknown */
 "Unknown Location Accuracy" = "Precisione della posizione sconosciuta";
-
-/* No comment provided by engineer. */
-"Unknown street name" = "Nome strada sconosciuto";
 
 /* No comment provided by engineer. */
 "Unknown Type" = "Tipo sconosciuto";
