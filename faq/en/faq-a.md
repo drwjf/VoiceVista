@@ -141,6 +141,7 @@ You can think of the audible beacon as a "lighthouse for the ears", notifying yo
  turning your head to point in the same direction of the phone will ensure that you have the best spatial audio
  experience.
 The lighthouse metaphor for the beacon's design has several natural implications:
+
 1. There is no "correct" direction to travel when using the beacon, instead, with VoiceVista you choose how to
  get there;
 2. The higher pitched "ring" helps you pinpoint the direction of the destination only – it is not an
@@ -296,6 +297,7 @@ In history tests, the battery consumption of Bluetooth headphones is comparable 
 VoiceVista is a location-based app and uses Location Services to determine your location. In our tests,
  VoiceVista does not consume any more battery than the average map application; but if you are concerned about
  battery consumption when using your phone, the following are a few tips which will help lower usage:
+
 1. Turn the screen display off as much as possible when you are not interacting with the app.
 2. When not using the app, close it down. VoiceVista uses location services continually when it is running so
  that it always knows your location, even when you are not moving. Don't forget to restart the app when you resume
@@ -337,6 +339,7 @@ VoiceVista is designed as an awareness app to help fill in details about your en
 <p id="a-25"></p>
 ## How do I control what I hear and when I hear it in VoiceVista?
 VoiceVista provides several ways to control what you hear and when:
+
 1. Immediately stop all audio: Double tap the screen with two fingers to immediately turn off all audio,
  including any callout that is currently playing and the beacon if it is on. Callouts will resume automatically when
  you approach the next intersection or point of interest, but the audible beacon will not. Select the "unmute beacon
@@ -368,6 +371,7 @@ No! While walking you can put the phone away in a bag or pocket or wherever is c
 <p id="a-27"></p>
 ## In what ways can I personalise my VoiceVista experience?
 VoiceVista allows you to customise some key aspects of the callouts you hear as you are walking:
+
 1. Voice: You can choose which of the available voices on iOS you would like VoiceVista to use, as well as the speed
  at which callouts are spoken. Select Settings tab, then Voice to adjust the Speaking Rate and Voice settings.
  Additional voices and enhanced voices with a higher quality can be downloaded in the iOS Settings app at
@@ -383,7 +387,9 @@ VoiceVista allows you to customise some key aspects of the callouts you hear as 
  they are located in. The app will do this automatically for all sorts of things like businesses, bus stops, and
  even intersections. You can configure what the app automatically calls out in the "Manage Callouts" section of
  the "Settings" screen, and you can turn all callouts off when you want the app to be silent.
+
 In addition to the above, the following VoiceOver settings can influence how VoiceVista behaves:
+
 1. VoiceOver Tips: When VoiceOver tips are turned ON, you will hear more information about all the buttons on the
  primary VoiceVista screen. You can turn on VoiceOver tips by navigating to the iOS Settings app and going to
  Accessibility > VoiceOver > Verbosity, and turning the Speak Hints setting on.
@@ -417,6 +423,18 @@ VoiceVista will try to resume normal operation when your phone is connected to W
 [TOC](faq.html#q-29)
 
 <p id="a-30"></p>
+## Can I import my BlindSquare places to VoiceVista?
+Yes, you can create a BlindSquare backup of your places and import it into VoiceVista.
+
+1. Open BlindSquare and go to the “My Places” screen.
+2. Tap the action button in the top right corner of the screen.
+3. Either email the exported file to yourself or save it in the Files app.
+    * If you have emailed the export, open your Mail app, open the email to yourself, and tap the attached JSON file to open it. Tap the 'Share' button at the bottom of the screen and select VoiceVista.
+    * If you have saved the export to the Files app, open VoiceVista and select the Markers tab. Tap the button at the top right of the screen to add new markers and select the option to import markers from BlindSquare.
+Please note that only the names and the coordinates of the BlindSquare markers will be imported into VoiceVista. Additional information for example “Alert Distance” or the accuracy a marker has been saved with cannot be imported.
+[TOC](faq.html#q-30)
+
+<p id="a-99"></p>
 ## Do you have more tips?
 If you put your phone in your pocket and stop moving, the beacon sound will get quieter because VoiceVista can't
  tell which way you are facing. Solve this by starting to walk again, or pulling your phone out and holding it

@@ -33,7 +33,8 @@
 30. [In what ways can I personalise my VoiceVista experience?](faq-a.html#a-27)
 31. [What is Open Street Map and why do we use it for VoiceVista?](faq-a.html#a-28)
 32. [Why is VoiceVista working offline?](faq-a.html#a-29)
-33. [Do you have more tips?](faq-a.html#a-30)
+33. [Can I import my BlindSquare places to VoiceVista?](faq-a.html#a-30)
+34. [Do you have more tips?](faq-a.html#a-99)
 
 ---
 
