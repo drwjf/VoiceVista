@@ -292,17 +292,11 @@
 /* volumeSetting.beacon */
 "BEACON" = "İŞARET";
 
-/* first_launch.beacon.callout.ahead */
-"Beacon ahead" = "işaret ışığı";
-
 /* settings.beaconAutoMute */
 "BEACON AUTO-MUTE DISTANCE" = "BEACON OTOMATİK SESSİZ MESAFESİ";
 
 /* No comment provided by engineer. */
 "Beacon Auto-mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
-
-/* first_launch.beacon.callout.behind */
-"Beacon behind" = "arkadaki işaret";
 
 /* settings.beaconFrequency */
 "BEACON DISTANCE FREQUENCY" = "BEACON MESAFE FREKANSI";
@@ -357,9 +351,6 @@
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "İçerik Kırıntısı Modu";
-
-/* first_launch.callouts.example.1 */
-"Cafe" = "Kafe";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Navigasyon Algoritmasına Göre Hesapla";
@@ -848,9 +839,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Giriş Enlem ve Boylam";
 
-/* settings.callout.mobility.detail */
-"Intersection and transportation info" = "Kavşak ve ulaşım bilgileri";
-
 /* callouts.intersection_callout */
 "Intersection Callout" = "Kavşak Açıklama";
 
@@ -869,6 +857,9 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Yakında %@ ile kavşak";
 
+/* settings.callout.mobility */
+"Intersections" = "Kavşaklar";
+
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Önümüzdeki Kavşaklar";
 
@@ -886,6 +877,9 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Yakındaki yer listesini oluşturmak biraz zaman alabilir. Şu anda kullanılabilir veri yoksa, lütfen daha sonra tekrar ziyaret etmeyi deneyin.";
+
+/* No comment provided by engineer. */
+"Junction or road cross" = "Kavşak veya yol geçişi";
 
 /* general.alert.keep */
 "Keep" = "Kale";
@@ -925,12 +919,6 @@
 
 /* No comment provided by engineer. */
 "Longitude" = "Boylam";
-
-/* first_launch.callouts.example.3 */
-"Main Street goes left" = "Ana Cadde sola gider";
-
-/* first_launch.callouts.example.4 */
-"Main Street goes right" = "Ana Cadde sağa gidiyor";
 
 /* beacon.styles.mallet */
 "Mallet" = "tokmak";
@@ -999,7 +987,7 @@
 "Metric (Meters)" = "Metrik (Metre)";
 
 /* settings.callout.mobility */
-"Mobility" = "Hareketlilik";
+"Mobility and Safety" = "Hareketlilik ve Güvenlik";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "%@ izleniyor";
@@ -1201,12 +1189,6 @@
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Yakındaki Yerler";
-
-/* first_launch.beacon.callout.headtracking.haptic */
-"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "İşareti önünüze yerleştirmek. İşaretin dokunsal geri bildirimini deneyimlemek için sola ve sağa dönün.";
-
-/* first_launch.beacon.callout.headtracking.standard */
-"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "İşareti sağınıza yerleştiriyorum. Sesini takip etmek ve işaretin uzamsal sesini deneyimlemek için çevirin.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Lütfen rota oluşturmayı tamamlamak için ara noktalar ekleyin.";
@@ -1483,9 +1465,6 @@
 "Stop Route" = "Rotayı Durdur";
 
 /* No comment provided by engineer. */
-"Street Name" = "Sokak adı";
-
-/* No comment provided by engineer. */
 "Street Name Callout Interval" = "Sokak Adı Belirtme Aralığı";
 
 /* settings.streeInterval */
@@ -1506,6 +1485,12 @@
 
 /* vicinity.title */
 "Surroundings" = "çevre";
+
+/* No comment provided by engineer. */
+"Swipe left on cells to discover additional actions." = "Ek eylemleri keşfetmek için hücrelerde sola kaydırın.";
+
+/* No comment provided by engineer. */
+"Swipe up/down on cells to discover additional actions." = "Ek eylemleri keşfetmek için hücreleri yukarı/aşağı kaydırın.";
 
 /* beacon.styles.tactile */
 "Tactile" = "dokunsal";
@@ -1623,6 +1608,9 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Toplu taşıma";
 
+/* settings.callout.mobility.detail */
+"Transportation info" = "Ulaşım bilgileri";
+
 /* troubleshooting.title */
 "Troubleshooting" = "Sorun giderme";
 
@@ -1679,9 +1667,6 @@
 
 /* troubleshooting.gps_status.unknown */
 "Unknown Location Accuracy" = "Bilinmeyen Konum Doğruluğu";
-
-/* No comment provided by engineer. */
-"Unknown street name" = "Bilinmeyen sokak adı";
 
 /* No comment provided by engineer. */
 "Unknown Type" = "Bilinmeyen Tür";

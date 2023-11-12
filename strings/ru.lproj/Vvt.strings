@@ -292,17 +292,11 @@
 /* volumeSetting.beacon */
 "BEACON" = "МАЯК";
 
-/* first_launch.beacon.callout.ahead */
-"Beacon ahead" = "Маяк впереди";
-
 /* settings.beaconAutoMute */
 "BEACON AUTO-MUTE DISTANCE" = "РАССТОЯНИЕ АВТООТКЛЮЧЕНИЯ МАЯКА";
 
 /* No comment provided by engineer. */
 "Beacon Auto-mute Distance" = "Расстояние автоотключения маяка";
-
-/* first_launch.beacon.callout.behind */
-"Beacon behind" = "Маяк позади";
 
 /* settings.beaconFrequency */
 "BEACON DISTANCE FREQUENCY" = "ЧАСТОТА РАССТОЯНИЯ ДО МАЯКА";
@@ -357,9 +351,6 @@
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Режим 'хлебные крошки'";
-
-/* first_launch.callouts.example.1 */
-"Cafe" = "Кафе";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Рассчитать по алгоритму навигации";
@@ -848,9 +839,6 @@
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Ввести широту и долготу";
 
-/* settings.callout.mobility.detail */
-"Intersection and transportation info" = "Информация о перекрестках и транспорте";
-
 /* callouts.intersection_callout */
 "Intersection Callout" = "Объявление перекрёстка";
 
@@ -869,6 +857,9 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
 
+/* settings.callout.mobility */
+"Intersections" = "Перекрестки";
+
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Перекрестки впереди";
 
@@ -886,6 +877,9 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Создание списка ближайших мест может занять некоторое время. Если в настоящее время данные не доступны, попробуйте зайти позже.";
+
+/* No comment provided by engineer. */
+"Junction or road cross" = "Перекресток или перекресток дорог";
 
 /* general.alert.keep */
 "Keep" = "Сохранить";
@@ -925,12 +919,6 @@
 
 /* No comment provided by engineer. */
 "Longitude" = "Долгота";
-
-/* first_launch.callouts.example.3 */
-"Main Street goes left" = "Главная улица идет влево";
-
-/* first_launch.callouts.example.4 */
-"Main Street goes right" = "Главная улица идет вправо";
 
 /* beacon.styles.mallet */
 "Mallet" = "молоток";
@@ -999,7 +987,7 @@
 "Metric (Meters)" = "Метрическая (метры)";
 
 /* settings.callout.mobility */
-"Mobility" = "Мобильность";
+"Mobility and Safety" = "Мобильность и безопасность";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Отслеживание %@";
@@ -1201,12 +1189,6 @@
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Места поблизости";
-
-/* first_launch.beacon.callout.headtracking.haptic */
-"Placing beacon in front of you. Turn left and right to experience the beacon's haptic feedback." = "Устанавливаем маяк перед вами. Поворачивайтесь влево и вправо, чтобы ощутить тактильную обратную связь маяка.";
-
-/* first_launch.beacon.callout.headtracking.standard */
-"Placing beacon to your right. Turn to follow its sound and experience the beacon's spatial audio." = "Устанавливаем маяк справа от вас. Повернитесь, чтобы проследить за его звуком, и ощутите пространственный звук маяка.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Пожалуйста, добавьте путевые точки, чтобы завершить создание маршрута.";
@@ -1483,9 +1465,6 @@
 "Stop Route" = "Остановить маршрут";
 
 /* No comment provided by engineer. */
-"Street Name" = "Название улицы";
-
-/* No comment provided by engineer. */
 "Street Name Callout Interval" = "Интервал объявления названий улиц";
 
 /* settings.streeInterval */
@@ -1506,6 +1485,12 @@
 
 /* vicinity.title */
 "Surroundings" = "Окрестности";
+
+/* No comment provided by engineer. */
+"Swipe left on cells to discover additional actions." = "Проведите пальцем влево по ячейкам, чтобы открыть дополнительные действия.";
+
+/* No comment provided by engineer. */
+"Swipe up/down on cells to discover additional actions." = "Проведите вверх/вниз по ячейкам, чтобы открыть дополнительные действия.";
 
 /* beacon.styles.tactile */
 "Tactile" = "Тактильный";
@@ -1623,6 +1608,9 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Транспорт";
 
+/* settings.callout.mobility.detail */
+"Transportation info" = "Информация о транспорте";
+
 /* troubleshooting.title */
 "Troubleshooting" = "Поиск неисправностей";
 
@@ -1679,9 +1667,6 @@
 
 /* troubleshooting.gps_status.unknown */
 "Unknown Location Accuracy" = "Точность местоположения не определена";
-
-/* No comment provided by engineer. */
-"Unknown street name" = "Неизвестное название улицы";
 
 /* No comment provided by engineer. */
 "Unknown Type" = "Неизвестный тип";
