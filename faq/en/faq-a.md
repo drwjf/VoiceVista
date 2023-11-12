@@ -31,27 +31,29 @@ VoiceVista has features and benefits that span a variety of scenarios and time s
 
 <p id="a-2-1"></p>
 ## What will be reported when I press buttons in Surroundings? 
-The *"My Location"* button quickly gives you information that helps you figure out where you currently
- are. *"My Location"* tells you about your current location including things like the direction you are
+The Surroundings tab includes a number of options to give you information about where you are. Swipe up and down on each button tousing rota actions  obtain more specific information. 
+When using any button within this tab, hold your phone with the screen flat (facing towards the sky) and the top of the
+ phone pointing in the direction you are facing before you press the button. This acts like a compass telling the app
+ which direction you are facing.
+The *"What's My Location"* button quickly gives you information that helps you figure out where you currently
+ are. *"What's My Location"* tells you about your current location including things like the direction you are
  facing, where nearby roads or intersections are, and where nearby points of interest are.
-*"My Location"* is useful when you need to figure out where you are or what cardinal direction you are
- facing.
-The *"Around Me"* button tells you about one thing in each of the four quadrants around you (ahead, to the
- right, behind, and to the left). *"Around Me"* is intended to help you orient yourself to your
- surroundings.
-When you are trying to get your bearings and orient yourself to your surroundings, use *"Around Me"* to
- hear about the things around you.
-The *"Ahead of Me"* button tells you about four things ahead of you. *"Ahead of Me"* is intended to
- help you explore the way ahead of yourself when you are learning about a new area.
-When you are walking down the street, try using *"Ahead of Me"* to discover the places and things coming
- up on either side of the street ahead.
-The *"Nearby Markers"* button tells you about up to four markers that are closest to you. *"Nearby
+*"What's My Location"* is useful when you need to figure out where you are or what cardinal direction you are
+ facing. Swiping down on this button allows you to either save your current location as a marker or share your current location.
+The *"What's Around Me"* button tells you about one thing in each of the four quadrants around you (ahead, to the
+ right, behind, and to the left). Swiping down on this button will give you options to hear markers or places which are near by. The *"Nearby Markers"* button tells you about up to four markers that are closest to you. *"Nearby
  Markers"* is intended to help you orient yourself using places you already know about.
 When you are trying to get your bearings and orient yourself to your surroundings, use *"Nearby Markers"*
  to hear about the locations of places you know of.
-As with all four of the buttons, hold your phone with the screen flat (facing towards the sky) and the top of the
- phone pointing in the direction you are facing before you press the button. This acts like a compass telling the app
- which direction you are facing.
+ *"What's Around Me"* is intended to help you orient yourself to your
+ surroundings.
+When you are trying to get your bearings and orient yourself to your surroundings, use *"What's Around Me"* to
+ hear about the things around you.
+The *"What's Ahead of Me"* button tells you about four things ahead of you. *"What's Ahead of Me"* is intended to
+ help you explore the way ahead of yourself when you are learning about a new area.
+When you are walking down the street, try using *"What's Ahead of Me"* to discover the places and things coming
+ up on either side of the street ahead. Swipe down on this button to hear a list of intersections which are ahead of you.
+
 [TOC](faq.html#q-2-1)
 
 <p id="a-3"></p>
