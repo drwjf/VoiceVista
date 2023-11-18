@@ -118,6 +118,9 @@
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "İçerik Haritası Modunda Yol Noktaları Ekleme";
 
+/* No comment provided by engineer. */
+"Additional Actions Available" = "Ek İşlemler Mevcuttur";
+
 /* directions.unknown_address */
 "Address is unknown" = "adres bilinmiyor";
 
@@ -483,6 +486,12 @@
 "Delete a Route" = "Rotayı Silme";
 
 /* No comment provided by engineer. */
+"Delete Marker" = "İşaretçiyi Sil";
+
+/* No comment provided by engineer. */
+"Delete Marker?" = "İşaretçi Silinsin mi?";
+
+/* No comment provided by engineer. */
 "Delete Markers too" = "İşaretçileri de Sil";
 
 /* settings.clear_cache.alert_title */
@@ -515,7 +524,7 @@
 /* general.alert.dismiss */
 "Dismiss" = "Azletmek";
 
-/* markers.leftBarItem.sortByDistance */
+/* Sort style: Distance */
 "Distance" = "Mesafe";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -548,7 +557,7 @@
 /* No comment provided by engineer. */
 "Done" = "Tamamlamak";
 
-/* markers.rightBarButtonItem.hint */
+/* No comment provided by engineer. */
 "Double tap to add a new marker" = "Yeni bir işaretçi eklemek için iki kez dokunun";
 
 /* VoiceOver hint for the button that allows users to test their newly connected headset, %@ is the type of headset, 'Double tap to check your AirPods Pro' */
@@ -667,6 +676,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Rota Oluşturulamadı";
+
+/* No comment provided by engineer. */
+"Failed to Delete Marker" = "İşaretçi Silinemedi";
 
 /* No comment provided by engineer. */
 "Failed to Drop Breadcrumb Marker" = "İçerik Kırıntısı İşaretleyicisi Bırakılamadı";
@@ -807,10 +819,10 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Bu uygulama için iCloud saklama alanı dolu. Yeni bir işaretçi oluşturmak için mevcut işaretçilerinizden bazılarını kaldırarak yer açmanız gerekecek.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Ayarlar sekmesinde medya kontrollerini etkinleştirdiyseniz kulaklığınızdaki oynat/duraklat düğmesine basarak bir kırıntı işaretçisi de bırakabilirsiniz.";
+"If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Ayarlar sekmesinde medya kontrollerini etkinleştirdiyseniz son açıklamayı tekrarlamak için kulaklığınızdaki önceki düğmeye basın.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Ayarlar sekmesinde medya kontrollerini etkinleştirdiyseniz son açıklamayı tekrarlamak için kulaklığınızdaki önceki düğmeye basabilirsiniz.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Ayarlar sekmesinde medya kontrollerini etkinleştirdiyseniz kulaklığınızdaki oynat/duraklat düğmesine basarak bir kırıntı işaretçisi de bırakabilirsiniz.";
 
 /* settings.general.units.feet */
 "Imperial (Feet)" = "İmparatorluk (Ayak)";
@@ -823,6 +835,9 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Soundscape Rota Dosyasını İçe Aktar";
+
+/* No comment provided by engineer. */
+"Important Notice" = "Önemli Uyarı";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "ARAÇ İÇİ KONUŞMA ORANI";
@@ -903,10 +918,10 @@
 "Location" = "Konum";
 
 /* troubleshooting.gps_status.feet */
-"Location Accuracy: ±%@ feet" = "Konum Doğruluğu: ±%@ fit";
+"Location Accuracy: %@ feet" = "Konum Doğruluğu: %@ feet";
 
 /* troubleshooting.gps_status.meters */
-"Location Accuracy: ±%@ meters" = "Konum Doğruluğu: ±%@ metre";
+"Location Accuracy: %@ meters" = "Konum Doğruluğu: %@ metre";
 
 /* location_detail.title.default */
 "Location Details" = "Konum Ayrıntıları";
@@ -1002,7 +1017,7 @@
    ui.action_button.my_location */
 "My Location" = "Benim konumum";
 
-/* markers.leftBarItem.sortByName */
+/* Sort style: Name */
 "Name" = "İsim";
 
 /* No comment provided by engineer. */
@@ -1121,9 +1136,6 @@
 /* general.error.location_services_resume */
 "Open VoiceVista to resume Location Services" = "Konum Servislerini sürdürmek için VoiceVista'yı açın";
 
-/* No comment provided by engineer. */
-"Or simply shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Veya VoiceVista ön planda çalışırken son çağrıyı tekrarlamak için telefonu sallamanız yeterlidir.";
-
 /* beacon.styles.original */
 "Original" = "orijinal";
 
@@ -1211,6 +1223,9 @@
 
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "İlgi çekici yerler bilgileri";
+
+/* No comment provided by engineer. */
+"Press the previous button on your headphones to repeat the last callout." = "Son açıklamayı tekrarlamak için kulaklığınızdaki önceki düğmeye basın.";
 
 /* voice.action.preview */
 "Preview" = "Ön izleme";
@@ -1326,6 +1341,9 @@
 /* universal_links.alert.action.marker */
 "Save as Marker" = "İşaretçi olarak kaydet";
 
+/* No comment provided by engineer. */
+"Save Current" = "Geçerliyi Kaydet";
+
 /* user_activity.save_marker.title */
 "Save Marker" = "İşaretçiyi Kaydet";
 
@@ -1373,6 +1391,12 @@
 "Shake Motion Response" = "Sarsıntı Hareketi Tepkisi";
 
 /* No comment provided by engineer. */
+"Shake the phone to call out what's my location when VoiceVista is running in the foreground." = "VoiceVista ön planda çalışırken konumumun ne olduğunu söylemek için telefonu sallayın.";
+
+/* No comment provided by engineer. */
+"Shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "VoiceVista ön planda çalışırken son açıklamayı tekrarlamak için telefonu sallayın.";
+
+/* No comment provided by engineer. */
 "Share" = "Paylaşmak";
 
 /* No comment provided by engineer. */
@@ -1405,6 +1429,12 @@
 
 /* No comment provided by engineer. */
 "Snoozing" = "erteleme";
+
+/* No comment provided by engineer. */
+"Sorted by Distance" = "Mesafeye göre sıralanmış";
+
+/* No comment provided by engineer. */
+"Sorted By Name" = "İsme Göre Sıralanmış";
 
 /* settings.general.volume.sound */
 "Sound" = "Ses";
@@ -1487,10 +1517,7 @@
 "Surroundings" = "çevre";
 
 /* No comment provided by engineer. */
-"Swipe left on cells to discover additional actions." = "Ek eylemleri keşfetmek için hücrelerde sola kaydırın.";
-
-/* No comment provided by engineer. */
-"Swipe up/down on cells to discover additional actions." = "Ek eylemleri keşfetmek için hücreleri yukarı/aşağı kaydırın.";
+"Swipe left on buttons to perform additional actions, including places nearby and intersections ahead." = "Yakındaki yerler ve ilerideki kavşaklar da dahil olmak üzere ek eylemler gerçekleştirmek için düğmelerde sola kaydırın.";
 
 /* beacon.styles.tactile */
 "Tactile" = "dokunsal";
@@ -1530,16 +1557,22 @@
 "The names of generated markers start with the character '~'." = "Oluşturulan işaretçilerin adları '~' karakteriyle başlar.";
 
 /* No comment provided by engineer. */
-"There are no ahead intersections to call out right now" = "Şu anda seslenecek ileride kavşak yok";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "İzlemeyi başlatma işlevi, bir varış noktasına bir işaret koymaya benzer, ancak belirli bir mesafe uzakta olana kadar ses veya mesafe güncellemeleri almazsınız. Temel olarak, VoiceVista yalnızca hedefinize yaklaştığınızda uykuya dalar ve uyanır.";
 
 /* No comment provided by engineer. */
-"There are no ahead places to call out right now" = "Şu anda arayabileceğiniz herhangi bir yer yok";
+"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Çevre sekmesi ve Asistan sekmesi Sürüm 1.2.3'ten itibaren birleştirildi. Sekmelerin sayısı 5'ten 4'e düşürüldü. Artık ek eylemler gerçekleştirmek için Çevre sekmesinin düğmelerindeki eylem rotorunu kullanabilirsiniz.";
+
+/* No comment provided by engineer. */
+"There are no intersections ahead to call out right now" = "Şu anda ileride seslenecek kavşak yok";
 
 /* callouts.no_nearby_markers_to_call_out_now */
 "There are no nearby markers to call out right now." = "Şu anda çağrılacak yakınlarda işaretçi yok.";
 
 /* No comment provided by engineer. */
 "There are no nearby places to call out right now" = "Şu anda yakınlarda aranacak yer yok";
+
+/* No comment provided by engineer. */
+"There are no places ahead to call out right now" = "Şu anda ileride seslenecek yer yok";
 
 /* No comment provided by engineer. */
 "There are no turn by turn instructions now." = "Artık adım adım talimat yok.";
@@ -1560,10 +1593,10 @@
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "Bu, telefonunuzun pilinden tasarruf etmek için Konum Servislerini düşük güç modunda kullanır.";
 
 /* No comment provided by engineer. */
-"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın bulunduğunuz yeri ne kadar doğru bildiğine ilişkin bir tahmindir. ±10 metreden daha az iyidir. ±20 metreden daha az sorun yok. Başka bir şey fakirdir. Konum verileri, herhangi bir yapının altında değil, dışarıdayken en doğrudur.";
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 10 meters is good. Less than 20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın nerede olduğunuzu ne kadar doğru bildiğinin bir tahminidir. 10 metreden az iyidir. 20 metreden az mesafe uygundur. Diğer her şey kötüdür. Konum verileri, dışarıdayken ve herhangi bir yapının altında olmadığında en doğru sonucu verir.";
 
 /* No comment provided by engineer. */
-"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın bulunduğunuz yeri ne kadar doğru bildiğine ilişkin bir tahmindir. ±30 fitten daha azı iyidir. ±60 fitten daha azı uygundur. Başka bir şey fakirdir. Konum verileri, herhangi bir yapının altında değil, dışarıdayken en doğrudur.";
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın nerede olduğunuzu ne kadar doğru bildiğinin bir tahminidir. 30 feet'ten az iyidir. 60 feet'ten az sorun yok. Diğer her şey kötüdür. Konum verileri, dışarıdayken ve herhangi bir yapının altında olmadığında en doğrudur.";
 
 /* headphonesSetting.forget_headset.prompt.explanation */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Bu, kulaklığınızın VoiceVista ile bağlantısını kesecektir. Gelecekte VoiceVista'ya buradan tekrar bağlanabilirsiniz.";
@@ -1705,6 +1738,9 @@
 "Use final destination of route to find path" = "Yolu bulmak için rotanın son hedefini kullanın";
 
 /* No comment provided by engineer. */
+"Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Yakındaki yerler ve ilerideki kavşaklar da dahil olmak üzere ek eylemler gerçekleştirmek için düğmelerdeki eylem rotorunu kullanın.";
+
+/* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
 
 /* settings.streename.interval */
@@ -1742,7 +1778,7 @@
 "Voice volume" = "Ses seviyesi";
 
 /* No comment provided by engineer. */
-"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the general 'Markers' tab, and you can manage them here." = "VoiceVista rotanız için otomatik olarak işaretçiler oluşturabilir. Bu işaretleyiciler başlangıçta genel 'İşaretçiler' sekmesinde gizlidir ve bunları buradan yönetebilirsiniz.";
+"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista rotanız için otomatik olarak işaretçiler oluşturabilir. Bu işaretçiler başlangıçta 'İşaretçiler' sekmesinde gizlidir ve bunları buradan yönetebilirsiniz.";
 
 /* No comment provided by engineer. */
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista, başlangıç ve varış konumlarına göre referans için ara noktaları hesaplayabilir.";
@@ -1880,16 +1916,13 @@
 "You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Bir kırıntı işaretçisi bırakmak için kulaklığınızdaki oynat/duraklat düğmesine de basabilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can press the previous button on your headphones to repeat the last callout." = "Son açıklamayı tekrarlamak için kulaklığınızdaki önceki düğmeye basabilirsiniz.";
-
-/* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Rotayı düzenleyerek istediğiniz zaman rota boyunca yol noktalarının sırasını yeniden düzenleyebilirsiniz.";
-
-/* No comment provided by engineer. */
-"You can shake the phone to call out what's my location when VoiceVista is running in the foreground." = "VoiceVista ön planda çalışırken konumumun ne olduğunu söylemek için telefonu sallayabilirsiniz.";
 
 /* search.footnote.1 */
 "You can try searching by name or address." = "Ada veya adrese göre aramayı deneyebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Ek eylemler gerçekleştirmek için Çevre sekmesindeki düğmelerdeki eylem rotorunu kullanabilirsiniz.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
