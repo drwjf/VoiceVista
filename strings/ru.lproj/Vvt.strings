@@ -26,7 +26,7 @@
 "%1$@ only has %2$@ percent battery remaining." = "У %1$@ осталось всего %2$@ процентов заряда батареи.";
 
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
-"%1$@ was %2$@ %3$@" = "%1$@, %2$@ %3$@";
+"%1$@ was %2$@ %3$@" = "Вы прошли %1$@, %2$@ %3$@";
 
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, направление на %2$@";
@@ -117,6 +117,9 @@
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Добавить путевые точки в режиме 'хлебные крошки'";
+
+/* No comment provided by engineer. */
+"Additional Actions Available" = "Доступны дополнительные действия";
 
 /* directions.unknown_address */
 "Address is unknown" = "Адрес неизвестен";
@@ -483,13 +486,19 @@
 "Delete a Route" = "Удалить маршрут";
 
 /* No comment provided by engineer. */
+"Delete Marker" = "Удалить метку";
+
+/* No comment provided by engineer. */
+"Delete Marker?" = "Удалить метку?";
+
+/* No comment provided by engineer. */
 "Delete Markers too" = "Удалить маршрут и  метки";
 
 /* settings.clear_cache.alert_title */
 "Delete Stored Data?" = "Удалить сохраненные данные?";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
-"Departed roundabout. Now along %@" = "Съехал с кольцевого перекрёстка. Теперь по %@";
+"Departed roundabout. Now along %@" = "Съехал с кругового перекрёстка. Теперь по %@";
 
 /* beaconSetting.cues */
 "DEPARTURE AND ARRIVAL" = "ОТПРАВЛЕНИЕ И ПРИБЫТИЕ";
@@ -515,7 +524,7 @@
 /* general.alert.dismiss */
 "Dismiss" = "Отклонить";
 
-/* markers.leftBarItem.sortByDistance */
+/* Sort style: Distance */
 "Distance" = "Расстояние";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -548,7 +557,7 @@
 /* No comment provided by engineer. */
 "Done" = "Готово";
 
-/* markers.rightBarButtonItem.hint */
+/* No comment provided by engineer. */
 "Double tap to add a new marker" = "Коснитесь дважды, чтобы добавить новую метку";
 
 /* VoiceOver hint for the button that allows users to test their newly connected headset, %@ is the type of headset, 'Double tap to check your AirPods Pro' */
@@ -667,6 +676,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Не удалось создать маршрут";
+
+/* No comment provided by engineer. */
+"Failed to Delete Marker" = "Не удалось удалить маркер";
 
 /* No comment provided by engineer. */
 "Failed to Drop Breadcrumb Marker" = "Не удалось бросить хлебную крошку";
@@ -807,10 +819,10 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Хранилище iCloud для этого приложения заполнено. Для создания новой метки необходимо освободить место, удалив некоторые из существующих меток.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы бросить хлебную крошку.";
+"If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, нажмите кнопку «Предыдущая» на наушниках, чтобы повторить последний вызов.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the settings tab, you can press the previous button on your headphones to repeat the last callout." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы можете нажать на наушниках кнопку «Предыдущее», чтобы повторить последнее объявление.";
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа на вкладке настроек, вы также можете нажать кнопку воспроизведения/паузы на наушниках, чтобы бросить хлебную крошку.";
 
 /* settings.general.units.feet */
 "Imperial (Feet)" = "Британская (футы)";
@@ -823,6 +835,9 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Импортировать файл маршрута Soundscape";
+
+/* No comment provided by engineer. */
+"Important Notice" = "Важное замечание";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "Скорость речи в транспортном средстве";
@@ -852,7 +867,7 @@
 "Intersection with %1$@ %2$@ away" = "Перекресток с %1$@, на расстоянии %2$@";
 
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
-"Intersection with %1$@ was %2$@ %3$@" = "Перекрёсток с %1$@, %2$@ %3$@";
+"Intersection with %1$@ was %2$@ %3$@" = "Вы прошли перекрёсток с %1$@, %2$@ %3$@";
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Перекресток с %@ поблизости";
@@ -903,10 +918,10 @@
 "Location" = "Местоположение";
 
 /* troubleshooting.gps_status.feet */
-"Location Accuracy: ±%@ feet" = "Точность определения местоположения: ±%@ футов";
+"Location Accuracy: %@ feet" = "Точность определения местоположения: %@ футов";
 
 /* troubleshooting.gps_status.meters */
-"Location Accuracy: ±%@ meters" = "Точность определения местоположения: ±%@ метров";
+"Location Accuracy: %@ meters" = "Точность определения местоположения: %@ метров";
 
 /* location_detail.title.default */
 "Location Details" = "Детали местоположения";
@@ -1002,7 +1017,7 @@
    ui.action_button.my_location */
 "My Location" = "Мое местонахождение";
 
-/* markers.leftBarItem.sortByName */
+/* Sort style: Name */
 "Name" = "Имя";
 
 /* No comment provided by engineer. */
@@ -1121,9 +1136,6 @@
 /* general.error.location_services_resume */
 "Open VoiceVista to resume Location Services" = "Откройте VoiceVista, чтобы возобновить работу служб определения местоположения";
 
-/* No comment provided by engineer. */
-"Or simply shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Или просто встряхните телефон, чтобы повторить последнее объявление, когда VoiceVista работает на переднем плане.";
-
 /* beacon.styles.original */
 "Original" = "Оригинальный";
 
@@ -1212,6 +1224,9 @@
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "Информация о точках интереса";
 
+/* No comment provided by engineer. */
+"Press the previous button on your headphones to repeat the last callout." = "Нажмите кнопку «Предыдущий» на наушниках, чтобы повторить последний вызов.";
+
 /* voice.action.preview */
 "Preview" = "Предварительный просмотр";
 
@@ -1282,7 +1297,7 @@
 "Roundabout with %1$@ exits nearby" = "Круговой перекрёсток, съездов: %1$@ рядом";
 
 /* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "Круговой перекрёсток, съездов: %1$@, %2$@ %3$@";
+"Roundabout with %1$@ exits was %2$@ %3$@" = "Пройден круговой перекрёсток, съездов: %1$@, %2$@ %3$@";
 
 /* route_detail.name.default */
 "Route" = "Маршрут";
@@ -1325,6 +1340,9 @@
 
 /* universal_links.alert.action.marker */
 "Save as Marker" = "Сохранить как метку";
+
+/* No comment provided by engineer. */
+"Save Current" = "Сохранить текущий";
 
 /* user_activity.save_marker.title */
 "Save Marker" = "Сохранить метку";
@@ -1373,6 +1391,12 @@
 "Shake Motion Response" = "Реакция на встряхивание";
 
 /* No comment provided by engineer. */
+"Shake the phone to call out what's my location when VoiceVista is running in the foreground." = "Встряхните телефон, чтобы узнать мое местоположение, когда VoiceVista работает на переднем плане.";
+
+/* No comment provided by engineer. */
+"Shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Встряхните телефон, чтобы повторить последний вызов, когда VoiceVista работает на переднем плане.";
+
+/* No comment provided by engineer. */
 "Share" = "Поделиться";
 
 /* No comment provided by engineer. */
@@ -1405,6 +1429,12 @@
 
 /* No comment provided by engineer. */
 "Snoozing" = "Режим ожидания";
+
+/* No comment provided by engineer. */
+"Sorted by Distance" = "Сортировка по расстоянию";
+
+/* No comment provided by engineer. */
+"Sorted By Name" = "Сортировано по имени";
 
 /* settings.general.volume.sound */
 "Sound" = "Звук";
@@ -1487,10 +1517,7 @@
 "Surroundings" = "Окрестности";
 
 /* No comment provided by engineer. */
-"Swipe left on cells to discover additional actions." = "Проведите пальцем влево по ячейкам, чтобы открыть дополнительные действия.";
-
-/* No comment provided by engineer. */
-"Swipe up/down on cells to discover additional actions." = "Проведите вверх/вниз по ячейкам, чтобы открыть дополнительные действия.";
+"Swipe left on buttons to perform additional actions, including places nearby and intersections ahead." = "Проведите пальцем влево по кнопкам, чтобы выполнить дополнительные действия, включая места поблизости и перекрестки впереди.";
 
 /* beacon.styles.tactile */
 "Tactile" = "Тактильный";
@@ -1530,16 +1557,22 @@
 "The names of generated markers start with the character '~'." = "Имена меток, создаваемых VoiceVista, начинаются с символа «~».";
 
 /* No comment provided by engineer. */
-"There are no ahead intersections to call out right now" = "Впереди нет перекрестков.";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Функция мониторинга запуска аналогична установке маяка на пункт назначения, но вы не будете получать обновления звука или расстояния, пока не окажетесь на определенном расстоянии. По сути, VoiceVista переходит в режим сна и просыпается только тогда, когда вы приближаетесь к пункту назначения.";
 
 /* No comment provided by engineer. */
-"There are no ahead places to call out right now" = "Впереди нет мест.";
+"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Вкладки «Окружение» и «Помощник» были объединены из версии 1.2.3. Количество вкладок уменьшено с 5 до 4. Теперь вы можете использовать ротор действий на кнопках вкладки «Окружение» для выполнения дополнительных действий.";
+
+/* No comment provided by engineer. */
+"There are no intersections ahead to call out right now" = "Впереди нет перекрестков, на которые можно было бы позвонить прямо сейчас.";
 
 /* callouts.no_nearby_markers_to_call_out_now */
 "There are no nearby markers to call out right now." = "Рядом нет меток.";
 
 /* No comment provided by engineer. */
 "There are no nearby places to call out right now" = "Рядом нет мест.";
+
+/* No comment provided by engineer. */
+"There are no places ahead to call out right now" = "Впереди нет мест, куда можно позвонить прямо сейчас";
 
 /* No comment provided by engineer. */
 "There are no turn by turn instructions now." = "Пошаговых инструкций нет.";
@@ -1560,10 +1593,10 @@
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "При этом службы определения местоположения используются в режиме пониженного энергопотребления для экономии заряда батареи вашего телефона.";
 
 /* No comment provided by engineer. */
-"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±10 meters is good. Less than ±20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±10 метров – это хорошо. Менее ±20 метров нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда вы находитесь снаружи, а не внутри зданий или около них.";
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 10 meters is good. Less than 20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Меньше 10 метров – это хорошо. Меньше 20 метров — это нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда они находятся снаружи, а не под какими-либо конструкциями.";
 
 /* No comment provided by engineer. */
-"This value is an estimate of how accurately VoiceVista knows where you are located. Less than ±30 feet is good. Less than ±60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Менее ±30 футов — это хорошо. Менее ± 60 футов нормально. Все остальное плохо.  Данные о местоположении наиболее точны, когда вы находитесь снаружи, а не внутри зданий или около них.";
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Это значение является оценкой того, насколько точно VoiceVista знает, где вы находитесь. Меньше 30 футов — это хорошо. Менее 60 футов — это нормально. Все остальное плохо. Данные о местоположении наиболее точны, когда они находятся снаружи, а не под какими-либо конструкциями.";
 
 /* headphonesSetting.forget_headset.prompt.explanation */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Это отключит ваши наушники от VoiceVista. Отсюда вы в любой момент сможете подключиться к VoiceVista в дальнейшем.";
@@ -1705,6 +1738,9 @@
 "Use final destination of route to find path" = "Используйте конечный пункт назначения для построения маршрута.";
 
 /* No comment provided by engineer. */
+"Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Используйте ротор действий на кнопках, чтобы выполнять дополнительные действия, включая места поблизости и перекрестки впереди.";
+
+/* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Чтобы сохранить место как метку, используйте кнопку в правом верхнем углу.";
 
 /* settings.streename.interval */
@@ -1742,7 +1778,7 @@
 "Voice volume" = "Громкость голоса";
 
 /* No comment provided by engineer. */
-"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the general 'Markers' tab, and you can manage them here." = "VoiceVista может автоматически создавать метки для вашего маршрута. Они изначально скрыты на общей вкладке «Метки»,, управлять ими можно здесь.";
+"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista может автоматически генерировать маркеры для вашего маршрута. Эти маркеры изначально скрыты на вкладке «Маркеры», и вы можете управлять ими здесь.";
 
 /* No comment provided by engineer. */
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista может рассчитывать путевые точки для справки на основе начального и конечного местоположения.";
@@ -1880,16 +1916,13 @@
 "You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Вы также можете нажать на наушниках кнопку «воспроизведения/пауза», чтобы бросить хлебную крошку.";
 
 /* No comment provided by engineer. */
-"You can press the previous button on your headphones to repeat the last callout." = "Вы можете нажать на наушниках кнопку «Предыдущее», чтобы повторить последнее объявление.";
-
-/* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Вы можете изменить порядок путевых точек на маршруте в любое время, отредактировав маршрут.";
-
-/* No comment provided by engineer. */
-"You can shake the phone to call out what's my location when VoiceVista is running in the foreground." = "Вы можете встряхнуть телефон, чтобы узнать ваше местоположение, когда VoiceVista работает на переднем плане.";
 
 /* search.footnote.1 */
 "You can try searching by name or address." = "Вы можете попробовать выполнить поиск по имени или адресу.";
+
+/* No comment provided by engineer. */
+"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Для выполнения дополнительных действий можно использовать ротор действий на кнопках вкладки «Окружение».";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Вы рассчитали путевые точки этого маршрута.";
