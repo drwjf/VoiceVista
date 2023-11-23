@@ -79,7 +79,7 @@ Dalla schermata dei dettagli della posizione, puoi selezionare il pulsante "Avvi
 
 Impostare un audiofaro su una posizione nelle vicinanze consente a VoiceVista di tenerti informato attraverso la riproduzione di un suono distintivo proveniente dalla direzione di quella posizione. Questo audiofaro può essere messo in modalità silenziosa o riattivato direttamente dalla schermata principale. Inoltre, VoiceVista mostra dettagli sulla posizione in tale videata, inclusa la distanza e l'indirizzo stradale, se disponibile.  
 
-La configurazione di un audiofaro risulta utile quando desideri monitorare un punto di riferimento familiare mentre esplori una nuova area o quando ti stai dirigendo verso un luogo e desideri essere informato sulle tue immediate vicinanze lungo il percorso. La funzione di audiofaro non fornisce istruzioni dettagliate passo dopo passo, ma emette un suono continuo che indica la direzione verso di esso, in relazione alla tua posizione attuale. L'utilizzo di un audiofaro unite alle tue abilità di orientamento già acquisite e persino alla tua app di navigazione preferita, puoi decidere come raggiungere i luoghi più vicini.
+La configurazione di un audiofaro risulta utile quando desideri monitorare un punto di riferimento familiare mentre esplori una nuova area o quando ti stai dirigendo verso un luogo e desideri essere informato sulle tue immediate vicinanze lungo il percorso. La funzione di audiofaro non fornisce istruzioni dettagliate passo dopo passo, ma emette un suono continuo che indica la direzione verso di esso, in relazione alla tua posizione attuale. L'utilizzo di un audiofaro unite alle tue abilità di orientamento già acquisite e persino alla tua app di navigazione preferita, ti aiuteranno a decidere come raggiungere i luoghi più vicini.
 
 **Impostazione di un audiofaro**:  
 Innanzitutto, visualizza i dettagli di una posizione utilizzando la barra di ricerca per trovare un luogo, oppure toccando uno dei pulsanti "Luoghi nelle vicinanze", "Indicatori salvati" o "Posizione attuale" e scegliendo una posizione. Dalla schermata dei dettagli della posizione, puoi selezionare il pulsante "Avvia Audiofaro". Toccarlo ti riporterà alla schermata principale e attiverà un segnale acustico proveniente dalla direzione del luogo che hai selezionato.
@@ -93,60 +93,60 @@ Tocca il pulsante "Silenzia audiofaro" sotto il pulsante "Rimuovi audiofaro" nel
 [TOC](faq.html#q-4)
 
 <p id="a-5"></p>
-## How do I use a beacon like a pro?
-You can think of the audible beacon as a "lighthouse for the ears", notifying you of where your destination is relative to your location, as the crow flies.  
+## Come utilizzo un audiofaro come un vero esperto?
+L'audiofaro può essere pensato come una "bussola acustica", che ti notifica la posizione della tua destinazione rispetto alla tua posizione, in linea d'aria..  
 
-Like a lighthouse, it does not tell you how to get there – you may need to make many navigation choices along the way, just as a sailboat will have to make many strategic "tacks" to get closer to the lighthouse.  
+Come un faro, non ti dice come arrivarci: potresti dover fare molte scelte di navigazione lungo il percorso, proprio come una barca a vela dovrà fare molte "virate" strategiche per avvicinarsi al faro.  
 
-The continuous rhythmic sound of the audible beacon is spatialised from the direction of the destination, and helps you stay aware of the location of the destination relative to you as you walk.  
+Il suono ritmico e continuo dell'audiofaro viene spazializzato tenendo la direzione della destinazione come riferimento, ti aiuta perciò a rimanere consapevole della posizione della destinazione rispetto a te mentre cammini.  
 
-When you are walking directly toward the destination, or you point the phone toward the destination, a higher pitched "ring" sound will be heard.   
+Quando cammini direttamente verso la destinazione o punti il telefono verso di essa, avvertirai uno "squillo" dal tono più acuto.
 
-This feature allows you to pinpoint the direction of the destination since the direction of the rhythmic sound can sometimes be difficult to perceive in loud environments. When searching for the higher pitched "ring", hold the phone flat and sweep the phone slowly; turning your head to point in the same direction of the phone will ensure that you have the best spatial audio experience.  
+Questa funzione ti consente di individuare con precisione la direzione della destinazione poiché la direzione del suono ritmico può a volte essere difficile da percepire in ambienti rumorosi. Quando cerchi il "suono" più acuto, tieni il telefono in piano e ruotalo lentamente; per essere sicuri di ottenere la migliore esperienza audiospaziale, si consiglia di girare la testa fino a puntare nella stessa direzione del telefono .  
 
-The lighthouse metaphor for the beacon's design has several natural implications:  
+La metafora della bussola sonora utilizzata come audiofaro porta con sé diverse implicazioni::  
 
-1. There is no "correct" direction to travel when using the beacon, instead, with VoiceVista you choose how to get there;
-2. The higher pitched "ring" helps you pinpoint the direction of the destination only – it is not an indication of how you should get there;
-3. If you generally know how to get to your destination, you may wish to mute the beacon for the majority of your trip and turn it on only as you get closer to your destination.
+1. Non esiste una direzione "corretta" da percorrere quando si utilizza l'audiofaro, invece con VoiceVista scegli tu come arrivarci;
+2. Quella sorta di "squillo" più acuto ti indica la direzione della destinazione, ma non significa che per raggiungerla tu debba seguire solo quel suono, dipende dalla conformazione stradale e dal percorso;
+3. Se generalmente sai come arrivare a destinazione, potresti voler disattivare il suono dell'audiofaro per la maggior parte del viaggio e accenderlo solo quando ti avvicini alla destinazione.
 [TOC](faq.html#q-5)
 
 <p id="a-6"></p>
-## Why does the audible beacon disappear sometimes?
-VoiceVista's audible beacon is fundamentally a directional cue, telling you where your destination is relative to the direction you are facing. When VoiceVista is uncertain about what direction you are facing, it lowers the volume of the beacon.  
+## Perché talvolta l'audiofaro scompare?
+L'audiofaro di VoiceVista è fondamentalmente un segnale direzionale, che ti dice dove si trova la tua destinazione rispetto alla direzione in cui sei rivolto. Quando VoiceVista non è in grado di rilevarla, abbassa il volume dell'audiofaro.  
 
-Most often this occurs if you have been walking with the phone stored in a pocket or bag, and you stop moving, such as to cross a street. The beacon will get louder once you start moving again, or if you hold the phone flat and point it in the direction you are facing.  
+Molto spesso ciò si verifica se stai camminando con il telefono riposto in una tasca o in una borsa e ti fermi, ad esempio per attraversare una strada. Il segnale diventerà più forte quando ricomincerai a spostarti o se tieni il telefono diritto e lo punti nella direzione in cui sei rivolto.  
 [TOC](faq.html#q-6)
 
 <p id="a-7"></p>
-## Can I set a beacon on an address?
-Yes you can. After you found the address using the search field, You can add it as a marker by selecting the "Save" button, or using "Start beacon" to set it as a beacon immediately.
+## Posso impostare un audiofaro per un indirizzo?
+Si, puoi. Dopo aver trovato l'indirizzo utilizzando il campo di ricerca, puoi aggiungerlo come indicatore selezionando il pulsante "Salva" o utilizzando "Avvia audiofaro" per impostarlo immediatamente come tale.  
 [TOC](faq.html#q-7)
 
 <p id="a-8"></p>
-## How do I set a beacon on my home?
-VoiceVista supports setting beacons on addresses. To set a beacon on your home, or any other address, search for a location from the main VoiceVista screen. On the "Location Details" screen, tap the "Start Beacon" button.  
+## Come imposto un audiofaro per la mia casa?
+VoiceVista permette di impostare un audiofaro su un indirizzo. Perciò, sarà sufficiente cercare la posizione dalla schermata principale di VoiceVista, o tramite un indirizzo, oppure ancora meglio se ti trovi già a casa tua, in modo da migliorare la precisione. Nella schermata "Dettagli posizione", tocca il pulsante "Avvia Audiofaro".  
 [TOC](faq.html#q-8)
 
 <p id="a-9"></p>
-## When I set a beacon on a destination, how close will VoiceVista get me to the destination?
-VoiceVista can determine the location of your destination to within several metres, but not less. When VoiceVista determines that you are close to your destination, you will hear a final callout that your destination is nearby, and the beacon will turn off.  
+## Quando imposto un audiofaro su una destinazione, quanto vicino mi porterà VoiceVista al posto?
+VoiceVista può determinare la posizione della tua destinazione con un'approssimazione di diversi metri, ma non di meno. Quando VoiceVista stabilisce che ti trovi vicino alla tua destinazione, sentirai un ultimo avviso che la tua destinazione è vicina e l'audiofaro si spegnerà.
 [TOC](faq.html#q-9)
 
 <p id="a-10"></p>
-## Can I turn the beacon back on when I am close to my destination?
-Yes, you can turn the beacon back on once VoiceVista turns it off by selecting the "unmute beacon button"; however, since Location Services is only accurate to about 10 metres, we cannot guarantee the behaviour of the beacon when you are within a few metres of your destination.  
+## Posso riattivare l'audiofaro quando sono vicino alla mia destinazione?
+Sì, puoi riattivare l'audiofaro una volta che VoiceVista lo spegne selezionando il "pulsante riattiva audiofaro"; tuttavia, poiché i servizi di localizzazione sono accurati solo fino a circa 10 metri, non possiamo garantire il comportamento dell'audiofaro quando ti trovi a pochi metri dalla tua destinazione.  
 [TOC](faq.html#q-10)
 
 <p id="a-11"></p>
-## Why does VoiceVista call out road names twice when I approach an intersection?
-To accommodate a variety of intersection configurations, VoiceVista describes intersections as segments of roadways that depart from a common point.  
+## Perché VoiceVista mi notifica due volte i nomi delle strade quando mi avvicino a un incrocio?
+Per adattarsi alle molteplici varietà di incroci, VoiceVista li descrive come segmenti di strade che partono da un punto comune.  
 
-VoiceVista uses spatial audio to indicate the name of the road that goes to the left, the name of the road that continues straight ahead, and the name of the road that goes to the right, in that order.   
+VoiceVista utilizza l'audio spaziale per indicare il nome della strada che va a sinistra, il nome della strada che prosegue dritto e il nome della strada che va a destra, in quest'ordine.  
 
-If the description of the intersection begins with the road you are on rather than one to the left, then the intersection is a T with the road you are on continuing ahead and a road intersecting from the right.   
+Se la descrizione dell'incrocio inizia con la strada su cui ti trovi, anziché con una strada a sinistra, l'incrocio è una T con la strada su cui ti trovi che prosegue dritta e una strada che si interseca da destra.  
 
-Similarly, if the description only includes a road to the left and to the right, you will know that the road you are on ends at a T ahead of you. This method of describing intersections also supports the case when a road changes name at an intersection.  
+Allo stesso modo, se la descrizione include solo una strada a sinistra e una a destra, saprai che la strada su cui ti trovi termina in una T davanti a te. Questo metodo di descrizione degli incroci supporta anche il caso in cui una strada cambia nome in un incrocio.  
 [TOC](faq.html#q-11)
 
 <p id="a-12"></p>
