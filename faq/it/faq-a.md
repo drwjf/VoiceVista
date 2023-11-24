@@ -150,97 +150,97 @@ Allo stesso modo, se la descrizione include solo una strada a sinistra e una a d
 [TOC](faq.html#q-11)
 
 <p id="a-12"></p>
-## Why doesn't VoiceVista announce every business that I pass?
-VoiceVista is designed not to be too chatty. In addition, it uses Open Street Map as its back-end data source. Open Street Map (OSM, https://www.openstreetmap.org/) is a community-developed and edited map of the world, relying on individuals, to enter and curate the data.  
+## Perché VoiceVista non annuncia tutte le attività che incontro?
+VoiceVista è progettato per non essere troppo loquace. Inoltre, utilizza Open Street Map come fonte dati di back-end. Open Street Map (OSM, https://www.openstreetmap.org/) è una mappa del mondo sviluppata e modificata dalla comunità, che si affida ai singoli individui per inserire e curare i dati.  
 
-If a business or point of interest is not announced by VoiceVista, the most probable reason is that the business has not been added, or in some cases updated, by a member of the OSM community yet.  
+Se un'attività o un punto di interesse non viene annunciato da VoiceVista, la ragione più probabile è che quell'attività non sia stata ancora aggiunta, o in alcuni casi aggiornata, da un membro della comunità OSM.  
 [TOC](faq.html#q-12)
 
 <p id="a-13"></p>
-## Why do some callouts stop when I'm in a vehicle?
-In order to stop the number of callouts becoming overwhelming, some categories, such as intersections, are not announced automatically when you're travelling in a vehicle.  
+## Perché alcuni avvisi non vengono letti quando sono a bordo di un mezzo di trasporto?
+Per evitare che il numero di avvisi diventi eccessivo, alcune categorie, come gli incroci, non vengono annunciate automaticamente quando si viaggia a bordo di un mezzo di trasporto.  
 [TOC](faq.html#q-13)
 
 <p id="a-14"></p>
-## What if I don't understand a callout or miss it because of ambient noise?
-VoiceVista has a list of your recent callouts so that you can revisit callouts that you might have missed. To find this, tap on the search button on the Nearby Filters screen. At the bottom of this page, there is a section for "Recent Callouts" where the callout you missed will be listed.  
+## Cosa succede se non capisco un avviso o lo perdo a causa del rumore ambientale?
+VoiceVista conserva un elenco degli avvisi recenti in modo da poterli riascoltare nel caso vengano persi. Per trovarli, tocca il pulsante di ricerca nella schermata "Filtri nelle vicinanze". Nella parte inferiore di questa pagina è presente una sezione per "Avvisi recenti" in cui verranno elencati quelli persi.  
 [TOC](faq.html#q-14)
 
 <p id="a-15"></p>
-## What phone does VoiceVista run on?
-VoiceVista is currently available for Apple iOS, running on iPhone SE, iPhone 6S and later.  
+## Su quali telefoni funziona VoiceVista?
+VoiceVista è attualmente disponibile per Apple iOS, per dispositivi iPhone SE, iPhone 6S e versioni successive.  
 [TOC](faq.html#q-15)
 
 <p id="a-16"></p>
-## What headphones should I use with VoiceVista?
-VoiceVista supports spatial audio with dynamic head tracking when using compatible AirPods. When connected to VoiceVista, sensors in the AirPods tell VoiceVista the direction your head is facing.  
+## Quali cuffie dovrei usare con VoiceVista?
+VoiceVista supporta l'audio spaziale con tracciamento dinamico della testa quando si utilizzano AirPod compatibili. Quando sei connesso all'app, i sensori negli AirPods comunicano a VoiceVista la direzione in cui è rivolta la tua testa.  
 
-This helps VoiceVista to improve your audio experience making it more natural as you move around in the world. When you use VoiceVista with AirPods connected, you do not need to hold your phone for VoiceVista to work correctly.   
+Questo aiuta la nostra app  a migliorare la tua esperienza audio rendendola più naturale mentre ti muovi nel mondo. Quando usi VoiceVista con gli AirPods collegati, non è necessario tenere in mano il telefono affinché l'app funzioni correttamente.  
 
-You can use AirPods with VoiceVista anytime you would normally use VoiceVista. Using AirPods provides you with high quality audio and allows you to have a more hands-free experience with VoiceVista.  
+Puoi utilizzare gli AirPods con VoiceVista come hai sempre fatto. L'uso degli AirPods ti offre un audio di alta qualità e ti consente di avere un'esperienza con le mani sempre libere.  
 
-**Connecting a Device**:  
-Go to the "Head Tracking Headphones" item in the VoiceVista menu to connect your AirPods and follow the instructions on screen. Note that you will need to pair your AirPods to your phone in the Bluetooth settings before connecting them in VoiceVista.  
+**Collegamento di un dispositivo**:  
+Vai alla voce "Cuffie Con tracciamento della testa" nel menu VoiceVista per connettere i tuoi AirPods e segui le istruzioni sullo schermo. Tieni presente che dovrai accoppiare i tuoi AirPods al telefono nelle impostazioni Bluetooth prima di collegarli in VoiceVista.  
 
-**Using the Media Controls on your Headphones**:  
-When media controls are enabled in the VoiceVista settings, you can use the media controls on your AirPods to mute or unmute the beacon, call out your location or to repeat the last callout.  
+**Utilizzo dei controlli multimediali sulle cuffie**:  
+Quando i controlli multimediali sono abilitati nelle impostazioni di VoiceVista, li puoi utilizzare sui tuoi AirPods per disattivare o riattivare l'audiofaro, segnalare la tua posizione o ripetere l'ultimo avviso.  
 [TOC](faq.html#q-16)
 
 <p id="a-16-1"></p>
-## How to use media controls?
-You can access certain features in VoiceVista with the help of the media control buttons on your headphones.   
+## Come utilizzare i controlli multimediali?
+Puoi accedere ad alcune funzionalità di VoiceVista con l'aiuto dei pulsanti multimediali sulle cuffie.   
 
-This functionality works with any wired or Bluetooth headphones that have media control buttons like Play, Pause, Next, Previous and others. Different headphones may include different buttons so please refer to the list of actions below to determine which ones are available to you.  
+Questa caratteristica funziona con qualsiasi cuffia con cavo o Bluetooth dotata di pulsanti multimediale come Riproduci, Pausa, avanti, indietro e altri. Cuffie diverse possono includere pulsanti diversi, quindi fai riferimento all'elenco di azioni riportato di seguito per determinare quali sono disponibili.  
 
-Also note that this feature only works with headphones that support Apple's media controls (such as play and pause).  
+Tieni inoltre presente che tutto questo funziona solo con le cuffie che supportano i controlli multimediali di Apple (come riproduzione e pausa).  
 
-Headphone media controls can be used while VoiceVista is running. This is true whether you are currently in VoiceVista or while VoiceVista is in the background and even while your device is locked. Note however that headphone media control buttons will not work with VoiceVista if you are playing audio like music, podcasts or videos with another app.  
+I controlli multimediali delle cuffie possono essere utilizzati mentre VoiceVista è in esecuzione. Ciò comprende svariate situazioni, quando Voicevista è in esecuzione in primo piano, quando l'app è in background o anche quando lo schermo del tuo telefono è bloccato. Tieni presente, tuttavia, che i pulsanti di controllo multimediale delle cuffie non funzioneranno con VoiceVista se stai riproducendo audio come musica, podcast o video con un'altra app.  
 
-You can access the following features in VoiceVista using your the media control buttons on your headphones:  
+Puoi accedere alle seguenti funzionalità in VoiceVista utilizzando i pulsanti  multimediali sulle cuffie:
 
-⏯ Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio.   
-⏭ Next: Callout *"My Location"*.  
-⏮ Previous: Repeat last callout.  
-⏩ Skip Forward: Toggle callouts On and Off.  
-⏪ Skip Backward: Callout *"Around Me"*.  
+⏯ Play/Pausa: Disattiva l'audio di tutti gli avvisi correnti e, se è impostato un audiofaro, ne attiva/disattiva l'audio.  
+⏭ Avanti: Fornisce *"la mia posizione"*.  
+⏮ Indietro: Ripete l'ultimo avviso.  
+⏩ Salta avanti: Attiva o disattiva gli avvisi.  
+⏪ Salta indietro: Fornisce le informazioni del pulsante *"Attorno a me"*.  
 [TOC](faq.html#q-16-1)
 
 <p id="a-17"></p>
-## How does VoiceVista impact my iPhone's battery?
-Battery life varies significantly depending on which iPhone you own and how old it is. The biggest drain on your battery is having the screen on, so to maximise the battery life of your phone you should keep the screen locked whenever possible.   
+## In che modo VoiceVista influisce sulla batteria del mio iPhone?
+La durata della batteria varia in modo significativo a seconda dell'iPhone che possiedi e della sua età. Il consumo maggiore della batteria è dovuto allo schermo acceso, quindi per massimizzare la durata della batteria del telefono dovresti tenere lo schermo bloccato quando possibile.   
 
-To help minimise the impact on your iPhone battery VoiceVista now has a Sleep Mode and a Snooze Mode. To further reduce the amount of battery you use, when you aren't using VoiceVista, you should force close it via your iPhone's App Switcher.  
+Per ridurre al minimo l'impatto sulla batteria del tuo iPhone, VoiceVista ora dispone di una modalità Sospensione e una modalità Posponi. Per ridurre ulteriormente la quantità di batteria utilizzata, quando non usi VoiceVista, dovresti forzarne la chiusura tramite lo Swicther app del tuo iPhone.  
 [TOC](faq.html#q-17)
 
 <p id="a-18"></p>
-## How do I use Sleep Mode to minimise VoiceVista's impact on my phone battery?
-To put VoiceVista in to Sleep Mode select the "Sleep" button in the top right hand corner of the screen. When you select this VoiceVista will stop using Location Services and mobile data until you choose to wake it up again.  
+## Come posso utilizzare la modalità Sospensione per ridurre al minimo l'impatto di VoiceVista sulla batteria del mio telefono?
+Per mettere VoiceVista in modalità Sospensione, seleziona il pulsante "Sospendi" nell'angolo in alto a destra dello schermo. Quando lo selezioni, VoiceVista smetterà di utilizzare i servizi di localizzazione e i dati cellulare finché non sceglierai di riattivarlo.  
 [TOC](faq.html#q-18)
 
 <p id="a-19"></p>
-## How do I use Snooze mode to minimise VoiceVista's impact on my phone battery?
-To put VoiceVista in to Snooze Mode select the "Sleep" button in the top right hand corner of the screen. Once VoiceVista's in Sleep mode, select the "Wake up when I leave" button and VoiceVista will go in to a low power state until you leave your current location.  
+## Come posso utilizzare la modalità Posponi per ridurre al minimo l'impatto di VoiceVista sulla batteria del mio telefono?
+Per mettere VoiceVista in modalità Posponi, seleziona il pulsante "Sospendi" nell'angolo in alto a destra dello schermo. Una volta che VoiceVista è in modalità Sospensione, seleziona il pulsante "Riattiva quando esco" e VoiceVista entrerà in uno stato di basso consumo finché non lascerai la tua posizione attuale.  
 [TOC](faq.html#q-19)
 
 <p id="a-20"></p>
-## How does my choice of headphones affect the battery life of my phone?
-In history tests, the battery consumption of Bluetooth headphones is comparable to wired headphones and should not be a significant factor to consider when selecting headphones. That said, both earbud and bone-conducting headphones have wired and wireless model options.  
+## In che modo la scelta delle cuffie influisce sulla durata della batteria del mio telefono?
+Nei vari test effettuati, il consumo della batteria delle cuffie Bluetooth è paragonabile a quello delle cuffie con cavo e non dovrebbe essere un fattore significativo da considerare nella scelta delle cuffie. Detto questo, sia gli auricolari che le cuffie a conduzione ossea spesso consentono di scegliere un modello con cavo in fase di acquisto.  
 [TOC](faq.html#q-20)
 
 <p id="a-21"></p>
-## How does running VoiceVista in the background impact battery life of my phone?
-VoiceVista is a location-based app and uses Location Services to determine your location. In our tests, VoiceVista does not consume any more battery than the average map application; but if you are concerned about battery consumption when using your phone, the following are a few tips which will help lower usage:
+## In che modo l'esecuzione di VoiceVista in background influisce sulla durata della batteria del mio telefono?
+VoiceVista è un'app basata sulla posizione e si serve dei servizi di localizzazione per determinare la tua posizione. Nei nostri test, il consumo della batteria di VoiceVista è in linea con le app di navigazione più comuni; ma se sei preoccupato per il consumo della batteria durante l'utilizzo del telefono, di seguito sono riportati alcuni suggerimenti che ti aiuteranno a ridurne l'utilizzo:
 
-1. Turn the screen display off as much as possible when you are not interacting with the app.
-2. When not using the app, close it down. VoiceVista uses location services continually when it is running so that it always knows your location, even when you are not moving. Don't forget to restart the app when you resume your journey.
-3. In cold weather, keep your phone warm as batteries perform more poorly in colder temperatures.
+1. Blocca il telefono il più possibile quando non hai bisogno di interagire con l'app.
+2. Quando non usi l'app, chiudila. VoiceVista utilizza continuamente i servizi di localizzazione quando è in esecuzione in modo da sapere sempre dove ti trovi, anche quando non ti muovi. Non dimenticare di riavviare l'app quando riprendi il tragitto.
+3. Quando fa freddo, mantieni il telefono caldo poiché le batterie funzionano con più difficoltà a temperature più basse.
 [TOC](faq.html#q-21)
 
 <p id="a-22"></p>
-## How much mobile data does VoiceVista use?
-The amount of mobile data used depends on how you use VoiceVista. We have designed VoiceVista to use only a small amount of data when you're out and about by doing things like saving points as you walk around so you don't need to download them again every time you go back to somewhere you've already been.  
+## Quanti dati della rete cellulare utilizza VoiceVista?
+La quantità di dati cellulare necessari dipende da come usi VoiceVista. Abbiamo progettato l'app per utilizzare solo una piccola quantità di dati quando sei in movimento, facendo cose come salvare punti mentre cammini in modo da non dover scaricarli di nuovo ogni volta che torni in un luogo in cui sei già stato.  
 
-To reduce the amount of mobile data you use, make sure you are connected to Wi-Fi whenever possible, particularly to download the app. When you are not using VoiceVista, you should use the "Sleep" button to put VoiceVista to sleep or force close the app.  
+Per ridurre la quantità di dati cellulare utilizzati, assicurati di essere connesso al Wi-Fi quando possibile, in particolare per scaricare l'app. Quando non usi VoiceVista, dovresti premere il pulsante "Sospendi" per mettere VoiceVista in stop o forzare la chiusura dell'app.  
 [TOC](faq.html#q-22)
 
 <p id="a-23"></p>
