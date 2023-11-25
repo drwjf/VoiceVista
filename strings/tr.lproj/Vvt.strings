@@ -208,6 +208,9 @@
 /* callouts.around_you */
 "Around You" = "Senin etrafında";
 
+/* settings.arrival.style.arrived */
+"Arrived" = "Ulaşmış";
+
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "%@ konumunda";
 
@@ -279,6 +282,9 @@
 /* No comment provided by engineer. */
 "Automobile" = "Otomobil";
 
+/* Motion status: automotive */
+"Automotive" = "Otomotiv";
+
 /* directions.direction.away */
 "away" = "uzak";
 
@@ -288,24 +294,24 @@
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Bankalar ve ATM'ler";
 
+/* volumeSetting.beacon */
+"BEACON" = "İŞARET";
+
 /* beacon.generic_name
    settings.general.volume.beacon */
 "Beacon" = "işaret";
 
-/* volumeSetting.beacon */
-"BEACON" = "İŞARET";
-
-/* settings.beaconAutoMute */
-"BEACON AUTO-MUTE DISTANCE" = "BEACON OTOMATİK SESSİZ MESAFESİ";
+/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
+"Beacon Arrival Style" = "İşaretin Varış Stili";
 
 /* No comment provided by engineer. */
-"Beacon Auto-mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
-
-/* settings.beaconFrequency */
-"BEACON DISTANCE FREQUENCY" = "BEACON MESAFE FREKANSI";
+"Beacon arrived." = "İşaret geldi.";
 
 /* No comment provided by engineer. */
-"Beacon Distance Frequency Factor" = "İşaret Mesafesi Frekans Faktörü";
+"Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
+
+/* No comment provided by engineer. */
+"Beacon Frequency Factor" = "İşaret Frekans Faktörü";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "%@ üzerinde işaretçi";
@@ -367,6 +373,9 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Kalibrasyon tamamlandı";
 
+/* No comment provided by engineer. */
+"Callout Settings" = "Ek Bilgi Ayarları";
+
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Açıklama Yönü Stili";
 
@@ -376,11 +385,23 @@
 /* callouts.callouts_on */
 "Callouts On" = "Açıklamalar Açık";
 
+/* No comment provided by engineer. */
+"Callouts Settings" = "Ek Bilgi Ayarları";
+
 /* general.alert.cancel */
 "Cancel" = "İptal etmek";
 
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Bağlantıyı İptal Et";
+
+/* No comment provided by engineer. */
+"Change Beacon Arrival Style" = "Beacon Varış Stilini Değiştir";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesini Değiştir";
+
+/* No comment provided by engineer. */
+"Change Beacon Frequency Factor" = "İşaret Frekans Faktörünü Değiştir";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Açıklama Yönü Stilini Değiştir";
@@ -395,7 +416,13 @@
 "Change Pathfinding Transport Type" = "Yol Bulma Aktarım Türünü Değiştir";
 
 /* No comment provided by engineer. */
+"Change POI Range Multipler" = "POI Aralığı Çarpanını Değiştir";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Sarsıntı Hareketi Tepkisini Değiştir";
+
+/* No comment provided by engineer. */
+"Change Street Name Interval" = "Sokak Adı Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
@@ -479,6 +506,12 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Akım: %@";
 
+/* No comment provided by engineer. */
+"CUSTOMIZATION" = "ÖZELLEŞTİRME";
+
+/* Motion status: cycling */
+"Cycling" = "Bisikletçilik";
+
 /* general.alert.delete */
 "Delete" = "Silmek";
 
@@ -524,7 +557,8 @@
 /* general.alert.dismiss */
 "Dismiss" = "Azletmek";
 
-/* Sort style: Distance */
+/* settings.arrival.style.distance
+   Sort style: Distance */
 "Distance" = "Mesafe";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -719,8 +753,8 @@
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Sıkça Sorulan Sorular";
 
-/* settings.general */
-"GENERAL SETTINGS" = "GENEL AYARLAR";
+/* No comment provided by engineer. */
+"General Settings" = "Genel Ayarlar";
 
 /* No comment provided by engineer. */
 "Generate a New Reverse Route" = "Yeni Bir Ters Rota Oluştur";
@@ -944,9 +978,6 @@
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Tokmak (Çok Yavaş)";
 
-/* settings.callout */
-"MANAGE CALLOUTS" = "AÇIKLAMALARI YÖNET";
-
 /* No comment provided by engineer. */
 "Manage Generated Markers" = "Oluşturulan İşaretleyicileri Yönet";
 
@@ -995,9 +1026,6 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Yakındaki İşaretçiler";
 
-/* settings.media */
-"MEDIA CONTROLS" = "MEDYA KONTROLLERİ";
-
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrik (Metre)";
 
@@ -1010,6 +1038,9 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Hareket ve Fitness";
 
+/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+"Motion: %@" = "Hareket: %@";
+
 /* No comment provided by engineer. */
 "Mute Beacon" = "Sessiz İşareti";
 
@@ -1021,10 +1052,10 @@
 "Name" = "İsim";
 
 /* No comment provided by engineer. */
-"Navigation instructions" = "Navigasyon talimatları";
+"NAVIGATION" = "NAVİGASYON";
 
-/* settings.navigation */
-"NAVIGATION SETTINGS" = "NAVİGASYON AYARLARI";
+/* No comment provided by engineer. */
+"Navigation instructions" = "Navigasyon talimatları";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Yakın %@";
@@ -1076,7 +1107,13 @@
 "Next waypoint" = "sonraki ara nokta";
 
 /* No comment provided by engineer. */
+"Next: Call out What's My Location." = "Sonraki: Konumum Nedir'i çağırın.";
+
+/* No comment provided by engineer. */
 "No audio beacon set" = "Sesli işaret seti yok";
+
+/* No comment provided by engineer. */
+"No internet connection; some functions are limited in offline mode." = "İnternet bağlantısı yok; bazı işlevler çevrimdışı modda sınırlıdır.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Son açıklama yok";
@@ -1148,7 +1185,7 @@
 /* placesNearyBy.category.12 */
 "Others" = "Diğerleri";
 
-/* settings.preview */
+/* No comment provided by engineer. */
 "OTHERS" = "DİĞER";
 
 /* headphonesSetting.title.pair_audio */
@@ -1197,10 +1234,13 @@
 "Places and Landmarks" = "Yerler ve Simgesel Yapılar";
 
 /* placefilters.footnoot.2 */
-"Places data come from Apple Maps and OpenStreetMap." = "Yer verileri Apple Haritalar ve OpenStreetMap'ten gelir.";
+"Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Yer verileri Apple Haritalar, OpenStreetMap ve Overture Haritalardan gelir.";
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Yakındaki Yerler";
+
+/* No comment provided by engineer. */
+"Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Oynat/Duraklat: Geçerli tüm çağrıları kapatın ve sesli işaret ayarlanmışsa işaret sesini açın.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Lütfen rota oluşturmayı tamamlamak için ara noktalar ekleyin.";
@@ -1221,8 +1261,14 @@
 /* No comment provided by engineer. */
 "Please try later." = "Lütfen daha sonra tekrar deneyin.";
 
+/* No comment provided by engineer. */
+"POI Range Multipler" = "POI Aralığı Çarpanı";
+
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "İlgi çekici yerler bilgileri";
+
+/* No comment provided by engineer. */
+"PREFERENCE" = "TERCİH";
 
 /* No comment provided by engineer. */
 "Press the previous button on your headphones to repeat the last callout." = "Son açıklamayı tekrarlamak için kulaklığınızdaki önceki düğmeye basın.";
@@ -1244,6 +1290,9 @@
 
 /* beacon.command.2 */
 "Previous waypoint" = "Önceki ara nokta";
+
+/* No comment provided by engineer. */
+"Previous: Repeat last callout." = "Önceki: Son açıklamayı tekrarla.";
 
 /* placesNearyBy.category.10 */
 "Public Service" = "Kamu hizmeti";
@@ -1338,6 +1387,9 @@
 /* routes.title */
 "Routes" = "Rotalar";
 
+/* Motion status: running */
+"Running" = "Koşma";
+
 /* universal_links.alert.action.marker */
 "Save as Marker" = "İşaretçi olarak kaydet";
 
@@ -1408,6 +1460,12 @@
 /* beacon.styles.shimmer */
 "Shimmer" = "ışıltı";
 
+/* No comment provided by engineer. */
+"Shortcut Settings" = "Kısayol Ayarları";
+
+/* No comment provided by engineer. */
+"Shortcuts Settings" = "Kısayol Ayarları";
+
 /* beacon.styles.signal */
 "Signal" = "Sinyal";
 
@@ -1420,6 +1478,12 @@
 /* settings.general.siri
    siriSetting.title */
 "Siri Shortcuts" = "Siri Kısayolları";
+
+/* No comment provided by engineer. */
+"Skip Backward: Call out What's Around Me." = "Geriye Atla: Çevremdekileri Seslendirin.";
+
+/* No comment provided by engineer. */
+"Skip Forward: Toggle callouts On and Off." = "İleri Atla: Belirtme çizgilerini Açık ve Kapalı duruma getirin.";
 
 /* vicinity.sleep */
 "Sleep" = "Uyumak";
@@ -1482,11 +1546,14 @@
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
 "Starting Street Preview at %@" = "Sokak Önizlemesi %@ konumunda başlatılıyor";
 
-/* beacon.command.1 */
-"Stop beacon" = "İşareti durdur";
+/* Motion status: stationary */
+"Stationary" = "Sabit";
 
 /* No comment provided by engineer. */
 "Stop Beacon" = "İşaretçiyi Durdur";
+
+/* beacon.command.1 */
+"Stop beacon" = "İşareti durdur";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "İzlemeyi Durdur";
@@ -1495,10 +1562,7 @@
 "Stop Route" = "Rotayı Durdur";
 
 /* No comment provided by engineer. */
-"Street Name Callout Interval" = "Sokak Adı Belirtme Aralığı";
-
-/* settings.streeInterval */
-"STREET NAME INTERVAL" = "SOKAK ADI ARALIĞI";
+"Street Name Interval in Seconds" = "Saniye cinsinden Sokak Adı Aralığı";
 
 /* No comment provided by engineer. */
 "Street Names" = "Sokak isimleri";
@@ -1534,6 +1598,12 @@
 /* permissionmanager.alert.test */
 "Test Location" = "Test Konumu";
 
+/* No comment provided by engineer. */
+"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "İşaret ışığının otomatik susturulması mesafesi, ses işaretinin hangi mesafede otomatik olarak susturulacağını tanımlar.";
+
+/* No comment provided by engineer. */
+"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "İşaret frekansı faktörü, VoiceVista'nın işaret mesafesini ne sıklıkta duyuracağını belirler. Daha büyük bir faktör, daha sık açıklama yapılmasına neden olur.";
+
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "İçerik geçersiz görünüyor.";
 
@@ -1558,6 +1628,9 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "İzlemeyi başlatma işlevi, bir varış noktasına bir işaret koymaya benzer, ancak belirli bir mesafe uzakta olana kadar ses veya mesafe güncellemeleri almazsınız. Temel olarak, VoiceVista yalnızca hedefinize yaklaştığınızda uykuya dalar ve uyanır.";
+
+/* No comment provided by engineer. */
+"The street name interval in seconds defines the callout interval for street names." = "Saniye cinsinden sokak adı aralığı, sokak adları için belirtme aralığını tanımlar.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Çevre sekmesi ve Asistan sekmesi Sürüm 1.2.3'ten itibaren birleştirildi. Sekmelerin sayısı 5'ten 4'e düşürüldü. Artık ek eylemler gerçekleştirmek için Çevre sekmesinin düğmelerindeki eylem rotorunu kullanabilirsiniz.";
@@ -1692,7 +1765,8 @@
 /* No comment provided by engineer. */
 "Unknow location" = "Bilinmeyen konum";
 
-/* poi.unknown */
+/* Motion status: unknow
+   poi.unknown */
 "Unknown" = "Bilinmeyen";
 
 /* No comment provided by engineer. */
@@ -1743,15 +1817,6 @@
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
 
-/* settings.streename.interval */
-"Use this slider to adjust the callout interval for street names." = "Sokak adlarının belirtme aralığını ayarlamak için bu kaydırıcıyı kullanın.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Sesli uyarı ışığının otomatik olarak kapatılacağı mesafeyi ayarlamak için bu kaydırıcıyı kullanın.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Sesli işaret ışığına olan mesafeye göre açıklamaların sıklığını ayarlamak için bu kaydırıcıyı kullanın. Daha büyük bir faktör, daha sık açıklama metni anlamına gelir.";
-
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Bunu, kulaklığınızdaki düğmeler ve kilit ekranındaki medya oynatma düğmeleriyle VoiceVista'nın kontrolünü etkinleştirmek için kullanın. VoiceVista açıldığında, podcast'ler veya müzik gibi diğer ortamlar çalarken kullanılamayacağını unutmayın.";
 
@@ -1795,8 +1860,8 @@
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista bir navigasyon yardımcısıdır ve hareketlilik becerileri, çevrenizin farkında olma ve iyi muhakeme yerine kullanılmamalıdır. VoiceVista programına dahil edilen eşleme verileri bir üçüncü taraf programından alındığı için ortamınızda gezinirken dikkatli olun ve bu nedenle sunulan bilgilerin doğruluğuyla ilgili sınırlamalar olabilir.";
 
-/* banner.online.message */
-"VoiceVista is back online" = "VoiceVista tekrar çevrimiçi";
+/* No comment provided by engineer. */
+"VoiceVista is back online with full functionality." = "VoiceVista tam işlevselliğiyle yeniden çevrimiçi.";
 
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista kulaklığınıza bağlanıyor. Bir dakika...";
@@ -1846,7 +1911,7 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Çıktığımda Uyan";
 
-/* No comment provided by engineer. */
+/* Motion status: walking */
 "Walking" = "Yürüme";
 
 /* No comment provided by engineer. */
