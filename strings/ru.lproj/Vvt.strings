@@ -208,6 +208,12 @@
 /* callouts.around_you */
 "Around You" = "Вокруг вас";
 
+/* No comment provided by engineer. */
+"Arrive at the beacon" = "Прибытие к маяку";
+
+/* settings.arrival.style.arrived */
+"Arrived" = "Приехал";
+
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "У %@";
 
@@ -279,6 +285,9 @@
 /* No comment provided by engineer. */
 "Automobile" = "Автомобиль";
 
+/* Motion status: automotive */
+"Automotive" = "Автомобильная промышленность";
+
 /* directions.direction.away */
 "away" = "На расстоянии";
 
@@ -288,24 +297,24 @@
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Банки и банкоматы";
 
+/* volumeSetting.beacon */
+"BEACON" = "МАЯК";
+
 /* beacon.generic_name
    settings.general.volume.beacon */
 "Beacon" = "Маяк";
 
-/* volumeSetting.beacon */
-"BEACON" = "МАЯК";
+/* Noticafcation when start a beacon. %@ is beacon name */
+"Beacon %@ started" = "Маяк %@ запущен";
 
-/* settings.beaconAutoMute */
-"BEACON AUTO-MUTE DISTANCE" = "РАССТОЯНИЕ АВТООТКЛЮЧЕНИЯ МАЯКА";
-
-/* No comment provided by engineer. */
-"Beacon Auto-mute Distance" = "Расстояние автоотключения маяка";
-
-/* settings.beaconFrequency */
-"BEACON DISTANCE FREQUENCY" = "ЧАСТОТА РАССТОЯНИЯ ДО МАЯКА";
+/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
+"Beacon Arrival Style" = "Стиль прибытия маяка";
 
 /* No comment provided by engineer. */
-"Beacon Distance Frequency Factor" = "Коэффициент частоты Расстояние до маяка";
+"Beacon Auto-Mute Distance" = "Расстояние автоматического отключения маяка";
+
+/* No comment provided by engineer. */
+"Beacon Frequency Factor" = "Частотный коэффициент маяка";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Маяк у %@";
@@ -367,6 +376,9 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Калибровка завершена";
 
+/* No comment provided by engineer. */
+"Callout Settings" = "Настройки выноски";
+
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Стиль объявлений о направлении";
 
@@ -376,11 +388,23 @@
 /* callouts.callouts_on */
 "Callouts On" = "Объявления включены";
 
+/* No comment provided by engineer. */
+"Callouts Settings" = "Настройки выносок";
+
 /* general.alert.cancel */
 "Cancel" = "Отменить";
 
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Отменить подключение";
+
+/* No comment provided by engineer. */
+"Change Beacon Arrival Style" = "Изменить стиль прибытия маяка";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Mute Distance" = "Изменение расстояния автоматического отключения маяка";
+
+/* No comment provided by engineer. */
+"Change Beacon Frequency Factor" = "Изменить частотный коэффициент маяка";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Изменить Стиль объявлений о направлении";
@@ -395,7 +419,13 @@
 "Change Pathfinding Transport Type" = "Изменить тип передвижения";
 
 /* No comment provided by engineer. */
+"Change POI Range Multiplier" = "Изменить множитель диапазона POI";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Изменить реакцию на встряхивание";
+
+/* No comment provided by engineer. */
+"Change Street Name Interval" = "Изменить интервал названий улиц";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Сменить систему измерения";
@@ -479,6 +509,12 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Текущее: %@";
 
+/* No comment provided by engineer. */
+"CUSTOMIZATION" = "ПЕРСОНАЛИЗАЦИЯ";
+
+/* Motion status: cycling */
+"Cycling" = "Езда на велосипеде";
+
 /* general.alert.delete */
 "Delete" = "Удалить";
 
@@ -524,7 +560,8 @@
 /* general.alert.dismiss */
 "Dismiss" = "Отклонить";
 
-/* Sort style: Distance */
+/* settings.arrival.style.distance
+   Sort style: Distance */
 "Distance" = "Расстояние";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -719,8 +756,8 @@
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Часто задаваемые вопросы";
 
-/* settings.general */
-"GENERAL SETTINGS" = "ОБЩИЕ НАСТРОЙКИ";
+/* No comment provided by engineer. */
+"General Settings" = "общие настройки";
 
 /* No comment provided by engineer. */
 "Generate a New Reverse Route" = "Создать обратный маршрут";
@@ -944,9 +981,6 @@
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Молоток (очень медленно)";
 
-/* settings.callout */
-"MANAGE CALLOUTS" = "Управление объявлениями";
-
 /* No comment provided by engineer. */
 "Manage Generated Markers" = "Управление метками, созданными VoiceVista";
 
@@ -995,9 +1029,6 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Ближайшие метки";
 
-/* settings.media */
-"MEDIA CONTROLS" = "Элементы управления мультимедиа";
-
 /* settings.general.units.meters */
 "Metric (Meters)" = "Метрическая (метры)";
 
@@ -1010,6 +1041,9 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Движение и фитнес";
 
+/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+"Motion: %@" = "Движение: %@";
+
 /* No comment provided by engineer. */
 "Mute Beacon" = "Отключить звук маяка";
 
@@ -1021,10 +1055,10 @@
 "Name" = "Имя";
 
 /* No comment provided by engineer. */
-"Navigation instructions" = "Инструкции по навигации";
+"NAVIGATION" = "НАВИГАЦИЯ";
 
-/* settings.navigation */
-"NAVIGATION SETTINGS" = "НАСТРОЙКИ НАВИГАЦИИ";
+/* No comment provided by engineer. */
+"Navigation instructions" = "Инструкции по навигации";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Рядом с %@";
@@ -1076,7 +1110,13 @@
 "Next waypoint" = "Следующая путевая точка";
 
 /* No comment provided by engineer. */
+"Next: Call out What's My Location." = "Далее: Вызовите «Каково мое местоположение».";
+
+/* No comment provided by engineer. */
 "No audio beacon set" = "Звуковой маяк не установлен";
+
+/* No comment provided by engineer. */
+"No internet connection; some functions are limited in offline mode." = "Нет соединения с интернетом; некоторые функции ограничены в автономном режиме.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Объявлений нет";
@@ -1148,7 +1188,7 @@
 /* placesNearyBy.category.12 */
 "Others" = "Другое";
 
-/* settings.preview */
+/* No comment provided by engineer. */
 "OTHERS" = "ДРУГОЕ";
 
 /* headphonesSetting.title.pair_audio */
@@ -1197,10 +1237,13 @@
 "Places and Landmarks" = "Места и достопримечательности";
 
 /* placefilters.footnoot.2 */
-"Places data come from Apple Maps and OpenStreetMap." = "Данные о местах поступают из карт Apple и OpenStreetMap.";
+"Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Данные о местах поступают из Apple Maps, OpenStreetMap и Overture Maps.";
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Места поблизости";
+
+/* No comment provided by engineer. */
+"Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Воспроизведение/пауза: отключение звука всех текущих вызовов и, если звуковой маяк установлен, переключение звука маяка.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Пожалуйста, добавьте путевые точки, чтобы завершить создание маршрута.";
@@ -1221,8 +1264,14 @@
 /* No comment provided by engineer. */
 "Please try later." = "Пожалуйста, попробуйте позже.";
 
+/* No comment provided by engineer. */
+"POI Range Multiplier" = "Множитель диапазона POI";
+
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "Информация о точках интереса";
+
+/* No comment provided by engineer. */
+"PREFERENCE" = "ПРЕДПОЧТЕНИЯ";
 
 /* No comment provided by engineer. */
 "Press the previous button on your headphones to repeat the last callout." = "Нажмите кнопку «Предыдущий» на наушниках, чтобы повторить последний вызов.";
@@ -1244,6 +1293,9 @@
 
 /* beacon.command.2 */
 "Previous waypoint" = "Предыдущая путевая точка";
+
+/* No comment provided by engineer. */
+"Previous: Repeat last callout." = "Предыдущий: повтор последнего вызова.";
 
 /* placesNearyBy.category.10 */
 "Public Service" = "Общественные услуги";
@@ -1338,6 +1390,9 @@
 /* routes.title */
 "Routes" = "Маршруты";
 
+/* Motion status: running */
+"Running" = "Бег";
+
 /* universal_links.alert.action.marker */
 "Save as Marker" = "Сохранить как метку";
 
@@ -1408,6 +1463,12 @@
 /* beacon.styles.shimmer */
 "Shimmer" = "мерцание";
 
+/* No comment provided by engineer. */
+"Shortcut Settings" = "Настройки ярлыка";
+
+/* No comment provided by engineer. */
+"Shortcuts Settings" = "Настройки ярлыков";
+
 /* beacon.styles.signal */
 "Signal" = "Сигнал";
 
@@ -1420,6 +1481,12 @@
 /* settings.general.siri
    siriSetting.title */
 "Siri Shortcuts" = "Быстрые команды Siri";
+
+/* No comment provided by engineer. */
+"Skip Backward: Call out What's Around Me." = "Перейти назад: назвать то, что вокруг меня.";
+
+/* No comment provided by engineer. */
+"Skip Forward: Toggle callouts On and Off." = "Пропустить вперед: включение и выключение выносок.";
 
 /* vicinity.sleep */
 "Sleep" = "Режим сна";
@@ -1482,11 +1549,14 @@
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
 "Starting Street Preview at %@" = "Запуск Просмотра Улиц у %@";
 
-/* beacon.command.1 */
-"Stop beacon" = "Остановить маяк";
+/* Motion status: stationary */
+"Stationary" = "Стационарный";
 
 /* No comment provided by engineer. */
 "Stop Beacon" = "Остановить маяк";
+
+/* beacon.command.1 */
+"Stop beacon" = "Остановить маяк";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "Прекратить отслеживание";
@@ -1495,10 +1565,7 @@
 "Stop Route" = "Остановить маршрут";
 
 /* No comment provided by engineer. */
-"Street Name Callout Interval" = "Интервал объявления названий улиц";
-
-/* settings.streeInterval */
-"STREET NAME INTERVAL" = "ИНТЕРВАЛ НАЗВАНИЯ УЛИЦ";
+"Street Name Interval in Seconds" = "Интервал названий улиц в секундах";
 
 /* No comment provided by engineer. */
 "Street Names" = "Названия улиц";
@@ -1534,6 +1601,12 @@
 /* permissionmanager.alert.test */
 "Test Location" = "Тестовое местоположение";
 
+/* No comment provided by engineer. */
+"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Расстояние автоматического отключения звука маяка определяет, на каком расстоянии звук маяка автоматически отключается.";
+
+/* No comment provided by engineer. */
+"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Коэффициент частоты маяка определяет, как часто VoiceVista будет объявлять расстояние маяка. Больший коэффициент приводит к более частым вызовам.";
+
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "Содержимое недействительно.";
 
@@ -1558,6 +1631,9 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Функция мониторинга запуска аналогична установке маяка на пункт назначения, но вы не будете получать обновления звука или расстояния, пока не окажетесь на определенном расстоянии. По сути, VoiceVista переходит в режим сна и просыпается только тогда, когда вы приближаетесь к пункту назначения.";
+
+/* No comment provided by engineer. */
+"The street name interval in seconds defines the callout interval for street names." = "Интервал названий улиц в секундах определяет интервал выноски названий улиц.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Вкладки «Окружение» и «Помощник» были объединены из версии 1.2.3. Количество вкладок уменьшено с 5 до 4. Теперь вы можете использовать ротор действий на кнопках вкладки «Окружение» для выполнения дополнительных действий.";
@@ -1692,7 +1768,8 @@
 /* No comment provided by engineer. */
 "Unknow location" = "Неизвестное местоположение";
 
-/* poi.unknown */
+/* Motion status: unknow
+   poi.unknown */
 "Unknown" = "Неизвестно";
 
 /* No comment provided by engineer. */
@@ -1743,15 +1820,6 @@
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Чтобы сохранить место как метку, используйте кнопку в правом верхнем углу.";
 
-/* settings.streename.interval */
-"Use this slider to adjust the callout interval for street names." = "Используйте этот ползунок, чтобы настроить интервал объявления названий улиц.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Используйте этот ползунок, чтобы отрегулировать расстояние, на котором звуковой маяк автоматически отключается.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Используйте этот ползунок, чтобы настроить частоту объявлений в зависимости от расстояния до звукового маяка. Чем больше коэффициент, тем чаще объявления.";
-
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Используйте этот переключатель, чтобы включить управление VoiceVista с помощью кнопок на наушниках и кнопок воспроизведения мультимедиа на экране блокировки. Обратите внимание, что при включении VoiceVista нельзя использовать во время воспроизведения других медиафайлов, таких как подкасты или музыка.";
 
@@ -1795,8 +1863,8 @@
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista - это средство навигации и не должно использоваться вместо навыков передвижения, осознания окружающей обстановки и здравого смысла. Будьте осторожны при ориентировании на местности, поскольку данные карт, включенные в программу VoiceVista, получены из сторонних программ, поэтому точность представленной информации может быть ограничена.";
 
-/* banner.online.message */
-"VoiceVista is back online" = "Сетевое подключение восстановлено";
+/* No comment provided by engineer. */
+"VoiceVista is back online with full functionality." = "VoiceVista снова в сети с полной функциональностью.";
 
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "Секундочку... VoiceVista подключается к вашим наушникам.";
@@ -1846,7 +1914,7 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
 
-/* No comment provided by engineer. */
+/* Motion status: walking */
 "Walking" = "Пешком";
 
 /* No comment provided by engineer. */

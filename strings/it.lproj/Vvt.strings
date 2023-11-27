@@ -208,6 +208,12 @@
 /* callouts.around_you */
 "Around You" = "Intorno a te";
 
+/* No comment provided by engineer. */
+"Arrive at the beacon" = "Arrivo al faro";
+
+/* settings.arrival.style.arrived */
+"Arrived" = "Arrivato";
+
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "Presso %@";
 
@@ -279,6 +285,9 @@
 /* No comment provided by engineer. */
 "Automobile" = "Automobile";
 
+/* Motion status: automotive */
+"Automotive" = "Settore automobilistico";
+
 /* directions.direction.away */
 "away" = "lontano";
 
@@ -288,24 +297,24 @@
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Banche e sportelli bancomat";
 
+/* volumeSetting.beacon */
+"BEACON" = "AUDIOFARO";
+
 /* beacon.generic_name
    settings.general.volume.beacon */
 "Beacon" = "Audiofaro";
 
-/* volumeSetting.beacon */
-"BEACON" = "AUDIOFARO";
+/* Noticafcation when start a beacon. %@ is beacon name */
+"Beacon %@ started" = "Il segnale %@ è stato avviato";
 
-/* settings.beaconAutoMute */
-"BEACON AUTO-MUTE DISTANCE" = "DISTANZA per la disattivazione automatica dell'audiofaro";
-
-/* No comment provided by engineer. */
-"Beacon Auto-mute Distance" = "Distanza di disattivazione automatica del faro";
-
-/* settings.beaconFrequency */
-"BEACON DISTANCE FREQUENCY" = "FREQUENZA DISTANZA DEL FARO";
+/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
+"Beacon Arrival Style" = "Stile di arrivo del faro";
 
 /* No comment provided by engineer. */
-"Beacon Distance Frequency Factor" = "Fattore di frequenza della distanza del faro";
+"Beacon Auto-Mute Distance" = "Distanza di disattivazione automatica del faro";
+
+/* No comment provided by engineer. */
+"Beacon Frequency Factor" = "Fattore di frequenza del faro";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Audiofaro su %@";
@@ -367,6 +376,9 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Calibrazione completata";
 
+/* No comment provided by engineer. */
+"Callout Settings" = "Impostazioni callout";
+
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Stile della direzione per gli avvisi";
 
@@ -376,11 +388,23 @@
 /* callouts.callouts_on */
 "Callouts On" = "Avvisi attivati";
 
+/* No comment provided by engineer. */
+"Callouts Settings" = "Impostazioni callout";
+
 /* general.alert.cancel */
 "Cancel" = "Annulla";
 
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Annulla connessione";
+
+/* No comment provided by engineer. */
+"Change Beacon Arrival Style" = "Cambia lo stile di arrivo del faro";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Mute Distance" = "Modifica la distanza di disattivazione automatica del faro";
+
+/* No comment provided by engineer. */
+"Change Beacon Frequency Factor" = "Modifica il fattore di frequenza del segnale";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Modifica lo stile della direzione degli avvisi";
@@ -395,7 +419,13 @@
 "Change Pathfinding Transport Type" = "Modifica il tipo di trasporto per la ricerca percorsi";
 
 /* No comment provided by engineer. */
+"Change POI Range Multiplier" = "Modifica il moltiplicatore di intervallo PDI";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Modifica la risposta per lo scuotimento";
+
+/* No comment provided by engineer. */
+"Change Street Name Interval" = "Modifica l'intervallo del nome della strada";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Cambia unità di misura";
@@ -479,6 +509,12 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Attuale: %@";
 
+/* No comment provided by engineer. */
+"CUSTOMIZATION" = "PERSONALIZZAZIONE";
+
+/* Motion status: cycling */
+"Cycling" = "Ciclismo";
+
 /* general.alert.delete */
 "Delete" = "Elimina";
 
@@ -524,7 +560,8 @@
 /* general.alert.dismiss */
 "Dismiss" = "Chiudi";
 
-/* Sort style: Distance */
+/* settings.arrival.style.distance
+   Sort style: Distance */
 "Distance" = "Distanza";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -719,8 +756,8 @@
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Domande frequenti";
 
-/* settings.general */
-"GENERAL SETTINGS" = "IMPOSTAZIONI GENERALI";
+/* No comment provided by engineer. */
+"General Settings" = "Impostazioni generali";
 
 /* No comment provided by engineer. */
 "Generate a New Reverse Route" = "Genera un nuovo percorso inverso";
@@ -944,9 +981,6 @@
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Percussione (molto lento)";
 
-/* settings.callout */
-"MANAGE CALLOUTS" = "GESTISCI AVVISI";
-
 /* No comment provided by engineer. */
 "Manage Generated Markers" = "Gestisci gli indicatori generati";
 
@@ -995,9 +1029,6 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Indicatori nelle vicinanze";
 
-/* settings.media */
-"MEDIA CONTROLS" = "CONTROLLI MULTIMEDIALI";
-
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrico (metri)";
 
@@ -1010,6 +1041,9 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Movimento e fitness";
 
+/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+"Motion: %@" = "Movimento: %@";
+
 /* No comment provided by engineer. */
 "Mute Beacon" = "Disattiva audio audiofaro";
 
@@ -1021,10 +1055,10 @@
 "Name" = "Nome";
 
 /* No comment provided by engineer. */
-"Navigation instructions" = "Istruzioni di navigazione";
+"NAVIGATION" = "NAVIGAZIONE";
 
-/* settings.navigation */
-"NAVIGATION SETTINGS" = "IMPOSTAZIONI DI NAVIGAZIONE";
+/* No comment provided by engineer. */
+"Navigation instructions" = "Istruzioni di navigazione";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "Vicino a %@";
@@ -1076,7 +1110,13 @@
 "Next waypoint" = "Waypoint successivo";
 
 /* No comment provided by engineer. */
+"Next: Call out What's My Location." = "Successivo: Chiama Qual è la mia posizione.";
+
+/* No comment provided by engineer. */
 "No audio beacon set" = "Nessun audiofaro impostato";
+
+/* No comment provided by engineer. */
+"No internet connection; some functions are limited in offline mode." = "Nessuna connessione internet; alcune funzioni sono limitate in modalità offline.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Non ci sono avvisi";
@@ -1148,7 +1188,7 @@
 /* placesNearyBy.category.12 */
 "Others" = "Altri";
 
-/* settings.preview */
+/* No comment provided by engineer. */
 "OTHERS" = "ALTRI";
 
 /* headphonesSetting.title.pair_audio */
@@ -1197,10 +1237,13 @@
 "Places and Landmarks" = "Luoghi e punti di riferimento";
 
 /* placefilters.footnoot.2 */
-"Places data come from Apple Maps and OpenStreetMap." = "I dati sui luoghi provengono da Apple Maps e OpenStreetMap.";
+"Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "I dati sui luoghi provengono da Apple Maps, OpenStreetMap e Overture Maps.";
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Luoghi nelle vicinanze";
+
+/* No comment provided by engineer. */
+"Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Riproduci/Pausa: disattiva l'audio di tutti i richiami correnti e, se il segnale audio è impostato, attiva/disattiva l'audio del segnale.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Aggiungi waypoint per completare la creazione del percorso.";
@@ -1221,8 +1264,14 @@
 /* No comment provided by engineer. */
 "Please try later." = "Per favore prova più tardi.";
 
+/* No comment provided by engineer. */
+"POI Range Multiplier" = "Moltiplicatore di portata PDI";
+
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "Informazioni sui punti di interesse";
+
+/* No comment provided by engineer. */
+"PREFERENCE" = "PREFERENZA";
 
 /* No comment provided by engineer. */
 "Press the previous button on your headphones to repeat the last callout." = "Premi il pulsante precedente sulle cuffie per ripetere l'ultimo avviso.";
@@ -1244,6 +1293,9 @@
 
 /* beacon.command.2 */
 "Previous waypoint" = "Waypoint precedente";
+
+/* No comment provided by engineer. */
+"Previous: Repeat last callout." = "Precedente: ripete l'ultimo callout.";
 
 /* placesNearyBy.category.10 */
 "Public Service" = "Servizio pubblico";
@@ -1338,6 +1390,9 @@
 /* routes.title */
 "Routes" = "Percorsi";
 
+/* Motion status: running */
+"Running" = "Corsa";
+
 /* universal_links.alert.action.marker */
 "Save as Marker" = "Salva come indicatore";
 
@@ -1408,6 +1463,12 @@
 /* beacon.styles.shimmer */
 "Shimmer" = "Scintillio";
 
+/* No comment provided by engineer. */
+"Shortcut Settings" = "Impostazioni di scelta rapida";
+
+/* No comment provided by engineer. */
+"Shortcuts Settings" = "Impostazioni delle scorciatoie";
+
 /* beacon.styles.signal */
 "Signal" = "Segnale";
 
@@ -1420,6 +1481,12 @@
 /* settings.general.siri
    siriSetting.title */
 "Siri Shortcuts" = "Comandi rapidi di Siri";
+
+/* No comment provided by engineer. */
+"Skip Backward: Call out What's Around Me." = "Salta indietro: chiama ciò che mi circonda.";
+
+/* No comment provided by engineer. */
+"Skip Forward: Toggle callouts On and Off." = "Salta avanti: attiva e disattiva i callout.";
 
 /* vicinity.sleep */
 "Sleep" = "Sospendi";
@@ -1482,11 +1549,14 @@
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
 "Starting Street Preview at %@" = "Stai avviando la Street Preview su %@";
 
-/* beacon.command.1 */
-"Stop beacon" = "Ferma audiofaro";
+/* Motion status: stationary */
+"Stationary" = "Stazionario";
 
 /* No comment provided by engineer. */
 "Stop Beacon" = "Ferma audiofaro";
+
+/* beacon.command.1 */
+"Stop beacon" = "Ferma audiofaro";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "Interrompi il monitoraggio";
@@ -1495,10 +1565,7 @@
 "Stop Route" = "Interrompi Percorso";
 
 /* No comment provided by engineer. */
-"Street Name Callout Interval" = "Intervallo avvisi per i nomi delle strade";
-
-/* settings.streeInterval */
-"STREET NAME INTERVAL" = "INTERVALLO per i NOMI DELLE STRADE";
+"Street Name Interval in Seconds" = "Intervallo del nome della strada in secondi";
 
 /* No comment provided by engineer. */
 "Street Names" = "Nomi delle strade";
@@ -1534,6 +1601,12 @@
 /* permissionmanager.alert.test */
 "Test Location" = "Posizione di prova";
 
+/* No comment provided by engineer. */
+"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "La distanza di disattivazione automatica del faro definisce a quale distanza l'audio del faro viene automaticamente disattivato.";
+
+/* No comment provided by engineer. */
+"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Il fattore di frequenza del beacon determina la frequenza con cui VoiceVista annuncerà la distanza del beacon. Un fattore maggiore comporta chiamate più frequenti.";
+
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "Il contenuto sembra non essere valido.";
 
@@ -1558,6 +1631,9 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La funzione di monitoraggio iniziale è simile all'impostazione di un radiofaro su una destinazione, ma non riceverai aggiornamenti sull'audio o sulla distanza finché non sarai a una distanza specificata. In sostanza, VoiceVista va a dormire e si sveglia solo quando sei vicino alla tua destinazione.";
+
+/* No comment provided by engineer. */
+"The street name interval in seconds defines the callout interval for street names." = "L'intervallo del nome della strada in secondi definisce l'intervallo di callout per i nomi delle strade.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "La scheda Dintorni e la scheda Assistente sono state unite dalla versione 1.2.3. Schede ridotte da 5 a 4. Ora puoi utilizzare il rotore delle azioni sui pulsanti della scheda Dintorni per eseguire azioni aggiuntive.";
@@ -1692,7 +1768,8 @@
 /* No comment provided by engineer. */
 "Unknow location" = "Posizione sconosciuta";
 
-/* poi.unknown */
+/* Motion status: unknow
+   poi.unknown */
 "Unknown" = "Sconosciuto";
 
 /* No comment provided by engineer. */
@@ -1743,15 +1820,6 @@
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Utilizza il pulsante nell'angolo in alto a destra per salvare come indicatore.";
 
-/* settings.streename.interval */
-"Use this slider to adjust the callout interval for street names." = "Utilizza questo cursore per regolare l'intervallo degli avvisi per i nomi delle strade.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Utilizzare questo cursore per regolare la distanza alla quale l'audiofaro viene automaticamente disattivato.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Utilizzare questo dispositivo di scorrimento per regolare la frequenza degli avvisi in base alla distanza dall'audiofaro. Un fattore maggiore significa avvisi più frequenti.";
-
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Usa questa opzione per abilitare il controllo di VoiceVista con i pulsanti degli auricolari e i pulsanti di riproduzione dei contenuti multimediali della schermata di blocco. Tieni presente che quando è attivata, VoiceVista non può essere utilizzato durante la riproduzione di altri contenuti multimediali, come podcast o musica.";
 
@@ -1795,8 +1863,8 @@
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista è un ausilio alla navigazione e non deve essere utilizzato al posto delle capacità di mobilità, della consapevolezza dell'ambiente circostante e del buon senso. Prestare attenzione durante la navigazione nell'ambiente poiché i dati di mappatura incorporati nel programma VoiceVista vengono acquisiti da un programma di terze parti e, pertanto, potrebbero esserci limitazioni con l'accuratezza delle informazioni presentate.";
 
-/* banner.online.message */
-"VoiceVista is back online" = "VoiceVista è di nuovo online";
+/* No comment provided by engineer. */
+"VoiceVista is back online with full functionality." = "VoiceVista è tornato online con tutte le funzionalità.";
 
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista si sta connettendo alle tue cuffie. Un momento...";
@@ -1846,7 +1914,7 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Riattiva quando esco";
 
-/* No comment provided by engineer. */
+/* Motion status: walking */
 "Walking" = "A piedi";
 
 /* No comment provided by engineer. */

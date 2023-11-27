@@ -208,6 +208,12 @@
 /* callouts.around_you */
 "Around You" = "Autour de vous";
 
+/* No comment provided by engineer. */
+"Arrive at the beacon" = "Arriver à la balise";
+
+/* settings.arrival.style.arrived */
+"Arrived" = "Arrivé";
+
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "À %@";
 
@@ -279,6 +285,9 @@
 /* No comment provided by engineer. */
 "Automobile" = "Voiture";
 
+/* Motion status: automotive */
+"Automotive" = "Automobile";
+
 /* directions.direction.away */
 "away" = "loin";
 
@@ -288,24 +297,24 @@
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Banques et distributeurs de billets";
 
+/* volumeSetting.beacon */
+"BEACON" = "BALISE";
+
 /* beacon.generic_name
    settings.general.volume.beacon */
 "Beacon" = "Balise";
 
-/* volumeSetting.beacon */
-"BEACON" = "BALISE";
+/* Noticafcation when start a beacon. %@ is beacon name */
+"Beacon %@ started" = "Balise %@ démarrée";
 
-/* settings.beaconAutoMute */
-"BEACON AUTO-MUTE DISTANCE" = "DISTANCE DE MUTE AUTOMATIQUE DE LA BALISE";
-
-/* No comment provided by engineer. */
-"Beacon Auto-mute Distance" = "Distance de mise en sourdine automatique de la balise";
-
-/* settings.beaconFrequency */
-"BEACON DISTANCE FREQUENCY" = "FRÉQUENCE DE DISTANCE DE LA BALISE";
+/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
+"Beacon Arrival Style" = "Style d'arrivée de la balise";
 
 /* No comment provided by engineer. */
-"Beacon Distance Frequency Factor" = "Facteur de fréquence de distance de balise";
+"Beacon Auto-Mute Distance" = "Distance de mise en sourdine automatique de la balise";
+
+/* No comment provided by engineer. */
+"Beacon Frequency Factor" = "Facteur de fréquence de balise";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Balise sur %@";
@@ -367,6 +376,9 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Étalonnage terminé";
 
+/* No comment provided by engineer. */
+"Callout Settings" = "Paramètres de légende";
+
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Style de direction des légendes";
 
@@ -376,11 +388,23 @@
 /* callouts.callouts_on */
 "Callouts On" = "Notifications activées";
 
+/* No comment provided by engineer. */
+"Callouts Settings" = "Paramètres des légendes";
+
 /* general.alert.cancel */
 "Cancel" = "Annuler";
 
 /* settings.bluetooth.cancelConnect */
 "Cancel Connecting" = "Annuler la connexion";
+
+/* No comment provided by engineer. */
+"Change Beacon Arrival Style" = "Modifier le style d'arrivée de la balise";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Mute Distance" = "Modifier la distance de mise en sourdine automatique de la balise";
+
+/* No comment provided by engineer. */
+"Change Beacon Frequency Factor" = "Modifier le facteur de fréquence de la balise";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Modifier le style de direction des légendes";
@@ -395,7 +419,13 @@
 "Change Pathfinding Transport Type" = "Modifier le type de transport de recherche de chemin";
 
 /* No comment provided by engineer. */
+"Change POI Range Multiplier" = "Modifier le multiplicateur de plage de POI";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Modifier la réponse au mouvement de secousse";
+
+/* No comment provided by engineer. */
+"Change Street Name Interval" = "Modifier l'intervalle de nom de rue";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Modifier les unités de mesure";
@@ -479,6 +509,12 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Actuel: %@";
 
+/* No comment provided by engineer. */
+"CUSTOMIZATION" = "PERSONNALISATION";
+
+/* Motion status: cycling */
+"Cycling" = "Vélo";
+
 /* general.alert.delete */
 "Delete" = "Supprimer";
 
@@ -524,7 +560,8 @@
 /* general.alert.dismiss */
 "Dismiss" = "Ignorer";
 
-/* Sort style: Distance */
+/* settings.arrival.style.distance
+   Sort style: Distance */
 "Distance" = "Distance";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
@@ -719,8 +756,8 @@
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Foire Aux Questions";
 
-/* settings.general */
-"GENERAL SETTINGS" = "RÉGLAGES GÉNÉRAUX";
+/* No comment provided by engineer. */
+"General Settings" = "Réglages généraux";
 
 /* No comment provided by engineer. */
 "Generate a New Reverse Route" = "Générer un nouvel itinéraire inversé";
@@ -944,9 +981,6 @@
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Maillet (très lent)";
 
-/* settings.callout */
-"MANAGE CALLOUTS" = "GÉRER LES NOTIFICATIONS";
-
 /* No comment provided by engineer. */
 "Manage Generated Markers" = "Gérer les marqueurs générés";
 
@@ -995,9 +1029,6 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Balises à proximité";
 
-/* settings.media */
-"MEDIA CONTROLS" = "CONTRÔLES MÉDIA";
-
 /* settings.general.units.meters */
 "Metric (Meters)" = "Métriques (mètres)";
 
@@ -1010,6 +1041,9 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Motion & Fitness";
 
+/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+"Motion: %@" = "Mouvement: %@";
+
 /* No comment provided by engineer. */
 "Mute Beacon" = "Désactiver le son de la balise";
 
@@ -1021,10 +1055,10 @@
 "Name" = "Nom";
 
 /* No comment provided by engineer. */
-"Navigation instructions" = "Instructions de navigation";
+"NAVIGATION" = "LA NAVIGATION";
 
-/* settings.navigation */
-"NAVIGATION SETTINGS" = "PARAMÈTRES DE NAVIGATION";
+/* No comment provided by engineer. */
+"Navigation instructions" = "Instructions de navigation";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
 "Near %@" = "À proximité de %@";
@@ -1076,7 +1110,13 @@
 "Next waypoint" = "Point de repère suivant";
 
 /* No comment provided by engineer. */
+"Next: Call out What's My Location." = "Suivant : appelez Quelle est ma position.";
+
+/* No comment provided by engineer. */
 "No audio beacon set" = "Aucune balise audio définie";
+
+/* No comment provided by engineer. */
+"No internet connection; some functions are limited in offline mode." = "Pas de connexion Internet; certaines fonctions sont limitées en mode hors ligne.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Pas de dernier appel";
@@ -1148,7 +1188,7 @@
 /* placesNearyBy.category.12 */
 "Others" = "Autres";
 
-/* settings.preview */
+/* No comment provided by engineer. */
 "OTHERS" = "AUTRES";
 
 /* headphonesSetting.title.pair_audio */
@@ -1197,10 +1237,13 @@
 "Places and Landmarks" = "Lieux et repères";
 
 /* placefilters.footnoot.2 */
-"Places data come from Apple Maps and OpenStreetMap." = "Les données de lieux proviennent d'Apple Maps et d'OpenStreetMap.";
+"Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Les données de lieux proviennent d'Apple Maps, OpenStreetMap et Overture Maps.";
 
 /* No comment provided by engineer. */
 "Places Nearby" = "Emplacements à proximité";
+
+/* No comment provided by engineer. */
+"Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Lecture/Pause : coupez le son de toutes les légendes en cours et si la balise audio est activée, activez l'audio de la balise.";
 
 /* routeDetail.noWaypoints.alert.message */
 "Please add waypoints to complete the route creation." = "Veuillez ajouter des points de repère pour terminer la création de l'itinéraire.";
@@ -1221,8 +1264,14 @@
 /* No comment provided by engineer. */
 "Please try later." = "Merci d'essayer plus tard.";
 
+/* No comment provided by engineer. */
+"POI Range Multiplier" = "Multiplicateur de portée de POI";
+
 /* settings.callout.distance.poi.detail */
 "Points of interest info" = "Informations sur les points d'intérêt";
+
+/* No comment provided by engineer. */
+"PREFERENCE" = "PRÉFÉRENCE";
 
 /* No comment provided by engineer. */
 "Press the previous button on your headphones to repeat the last callout." = "Appuyez sur le bouton précédent de vos écouteurs pour répéter la dernière légende.";
@@ -1244,6 +1293,9 @@
 
 /* beacon.command.2 */
 "Previous waypoint" = "Point de repère précédent";
+
+/* No comment provided by engineer. */
+"Previous: Repeat last callout." = "Précédent : répéter la dernière légende.";
 
 /* placesNearyBy.category.10 */
 "Public Service" = "Service publique";
@@ -1338,6 +1390,9 @@
 /* routes.title */
 "Routes" = "Itinéraires";
 
+/* Motion status: running */
+"Running" = "En cours d'exécution";
+
 /* universal_links.alert.action.marker */
 "Save as Marker" = "Enregistrer en tant que marqueur";
 
@@ -1408,6 +1463,12 @@
 /* beacon.styles.shimmer */
 "Shimmer" = "Miroitement";
 
+/* No comment provided by engineer. */
+"Shortcut Settings" = "Paramètres de raccourci";
+
+/* No comment provided by engineer. */
+"Shortcuts Settings" = "Paramètres des raccourcis";
+
 /* beacon.styles.signal */
 "Signal" = "Signal";
 
@@ -1420,6 +1481,12 @@
 /* settings.general.siri
    siriSetting.title */
 "Siri Shortcuts" = "Raccourcis Siri";
+
+/* No comment provided by engineer. */
+"Skip Backward: Call out What's Around Me." = "Reculer : appelez ce qui m'entoure.";
+
+/* No comment provided by engineer. */
+"Skip Forward: Toggle callouts On and Off." = "Passer en avant : activez et désactivez les légendes.";
 
 /* vicinity.sleep */
 "Sleep" = "Mettre en veille";
@@ -1482,11 +1549,14 @@
 /* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
 "Starting Street Preview at %@" = "Démarrage de Street Preview à l’angle de %@";
 
-/* beacon.command.1 */
-"Stop beacon" = "Arrêter la balise";
+/* Motion status: stationary */
+"Stationary" = "Stationnaire";
 
 /* No comment provided by engineer. */
 "Stop Beacon" = "Balise d'arrêt";
+
+/* beacon.command.1 */
+"Stop beacon" = "Arrêter la balise";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "Arrêter la surveillance";
@@ -1495,10 +1565,7 @@
 "Stop Route" = "Arrêter l’Itinéraire";
 
 /* No comment provided by engineer. */
-"Street Name Callout Interval" = "Intervalle d'annotation du nom de rue";
-
-/* settings.streeInterval */
-"STREET NAME INTERVAL" = "INTERVALLE DE NOM DE RUE";
+"Street Name Interval in Seconds" = "Intervalle de nom de rue en secondes";
 
 /* No comment provided by engineer. */
 "Street Names" = "Noms de rues";
@@ -1534,6 +1601,12 @@
 /* permissionmanager.alert.test */
 "Test Location" = "Lieu d'essai";
 
+/* No comment provided by engineer. */
+"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "La distance de mise en sourdine automatique de la balise définit à quelle distance la balise audio est automatiquement mise en sourdine.";
+
+/* No comment provided by engineer. */
+"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Le facteur de fréquence de la balise détermine la fréquence à laquelle VoiceVista annoncera la distance de la balise. Un facteur plus important entraîne des appels plus fréquents.";
+
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "Le contenu semble non valide.";
 
@@ -1558,6 +1631,9 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La fonction de surveillance de démarrage s'apparente à l'installation d'une balise sur une destination, mais vous ne recevrez pas de mises à jour sonores ou de distance tant que vous ne serez pas à une distance spécifiée. Essentiellement, VoiceVista se met en veille et ne se réveille que lorsque vous êtes proche de votre destination.";
+
+/* No comment provided by engineer. */
+"The street name interval in seconds defines the callout interval for street names." = "L'intervalle de nom de rue en secondes définit l'intervalle d'appel pour les noms de rue.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "L'onglet Environnement et l'onglet Assistant ont été fusionnés à partir de la version 1.2.3. Onglets réduits de 5 à 4. Vous pouvez désormais utiliser le rotor d'actions sur les boutons de l'onglet Environs pour effectuer des actions supplémentaires.";
@@ -1692,7 +1768,8 @@
 /* No comment provided by engineer. */
 "Unknow location" = "Emplacement inconnu";
 
-/* poi.unknown */
+/* Motion status: unknow
+   poi.unknown */
 "Unknown" = "Inconnu";
 
 /* No comment provided by engineer. */
@@ -1743,15 +1820,6 @@
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Utilisez le bouton dans le coin supérieur droit pour enregistrer en tant que marqueur.";
 
-/* settings.streename.interval */
-"Use this slider to adjust the callout interval for street names." = "Utilisez ce curseur pour ajuster l'intervalle de légende pour les noms de rue.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the distance at which the audio beacon is automatically muted." = "Utilisez ce curseur pour régler la distance à laquelle la balise audio est automatiquement mise en sourdine.";
-
-/* settings.beacon.frequency.factor.slider */
-"Use this slider to adjust the frequency of callouts for distance to the audio beacon. A larger factor means more frequent callouts." = "Utilisez ce curseur pour ajuster la fréquence des légendes concernant la distance par rapport à la balise audio. Un facteur plus élevé signifie des appels plus fréquents.";
-
 /* settings.audio.mix_with_others.description */
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Utiliser cette fonctionnalité pour activer le contrôle de VoiceVista à l’aide des boutons de votre casque et les boutons de lecture multimédia sur l’écran de verrouillage. Notez qu’une fois activé, VoiceVista ne peut être utilisé si d’autres médias comme des podcasts ou de la musique sont en cours de lecture.";
 
@@ -1795,8 +1863,8 @@
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista est une aide à la navigation et ne doit pas être utilisé à la place des compétences de mobilité, d'être conscient de votre environnement et d'un bon jugement. Soyez prudent lorsque vous naviguez dans votre environnement, car les données cartographiques intégrées au programme VoiceVista sont récupérées à partir d'un programme tiers et, par conséquent, la précision des informations présentées peut être limitée.";
 
-/* banner.online.message */
-"VoiceVista is back online" = "VoiceVista est de nouveau en ligne";
+/* No comment provided by engineer. */
+"VoiceVista is back online with full functionality." = "VoiceVista est de retour en ligne avec toutes les fonctionnalités.";
 
 /* headphonesSetting.explain_ar.connecting */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista se connecte à votre casque. Un moment...";
@@ -1846,7 +1914,7 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Sortir de veille quand je pars";
 
-/* No comment provided by engineer. */
+/* Motion status: walking */
 "Walking" = "Marche";
 
 /* No comment provided by engineer. */
