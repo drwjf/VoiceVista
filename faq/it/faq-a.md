@@ -23,7 +23,7 @@ Tuttavia, la filosofia alla base di VoiceVista è quella di "illuminare il tuo m
 [TOC](faq.html#q-2)
 
 <p id="a-2-1"></p>
-## Cosa verrà segnalato quando premo i pulsanti inerenti i Dintorni? 
+## Cosa verrà segnalato quando premo i pulsanti "nei Dintorni"?  
 La scheda Dintorni include una serie di opzioni per darti informazioni su dove ti trovi. Scorri verso l'alto e verso il basso su ciascun pulsante per utilizzare le azioni del rotore e ottenere informazioni più specifiche.  
 
 Quando utilizzi qualsiasi pulsante all'interno di questa scheda, assicurati di tenere il telefono con lo schermo rivolto verso l'alto, in modo che sia piatto, e con la parte superiore del telefono puntata nella direzione in cui ti trovi, prima di premere il pulsante. Questo funge da bussola, fornendo all'applicazione l'indicazione della direzione in cui ti stai orientando.  
@@ -244,39 +244,39 @@ Per ridurre la quantità di dati cellulare utilizzati, assicurati di essere conn
 [TOC](faq.html#q-22)
 
 <p id="a-23"></p>
-## How is VoiceVista different from other map apps?
-VoiceVista provides an ambient description of your surroundings in aid of exploration and way-finding. Using spatial audio, VoiceVista will call out points of interest, parks, roads, and intersections from the direction they physically are in your immediate environment as you walk.  
+## In cosa VoiceVista differisce dalle altre app di navigazione?
+VoiceVista fornisce una descrizione ambientale di ciò che ti circonda, oltre all'esplorazione e alla ricerca della strada. Utilizzando l'audio spaziale, VoiceVista indicherà punti di interesse, parchi, strade e incroci dalla direzione in cui si trovano fisicamente nell'ambiente circostante mentre cammini.  
 
-For example, if you pass a shop on your right, you will hear the name of the shop sounding from your right. As you approach an intersection, you will hear each road name sounding from the direction it goes in, beginning to your left, ahead and to the right.  
+Ad esempio, se passi davanti a un negozio alla tua destra, sentirai il nome del negozio provenire dalla tua destra. Quando ti avvicini ad un incrocio, sentirai il nome di ogni strada provenire dalla direzione di ingresso, iniziando a sinistra, avanti e a destra.  
 
-VoiceVista play an audible beacon in the direction of your destination, empowering you to make your way there on your terms using your increased awareness of your surroundings and the location of your destination. And VoiceVista provides turn by turn directions to the next destination for your convenient.  
+VoiceVista riproduce un segnale acustico nella direzione della tua destinazione, consentendoti di raggiungerla con i tuoi tempi, fornendoti una maggiore consapevolezza dell'ambiente circostante e della posizione che devi raggiungere. E inoltre riceverai indicazioni passo passo, per rendere le cose più facili.  
 [TOC](faq.html#q-23)
 
 <p id="a-24"></p>
-## How do I use VoiceVista with a wayfinding app?
-VoiceVista is designed as an awareness app to help fill in details about your environment that you may not be aware of otherwise. While it provides turn-by-turn direction to the next beacon, it can be used alongside other navigation apps to provide complementary information.  
+## Come faccio a utilizzare VoiceVista con un'app di orientamento?
+VoiceVista è concepita per aumentare la tua consapevolezza riguardo a dettagli ambientali di cui potresti non essere altrimenti informato. Oltre a offrire indicazioni chiare per raggiungere l'audiofaro successivo, può essere integrata con altre app di navigazione per arricchire ulteriormente le tue informazioni di orientamento.  
 
-To use VoiceVista with these apps, start your navigation app first. Then, move over to VoiceVista and set a beacon on the same destination as in the navigation app. At this point, both apps will be running and you will hear walking directions from your navigation app, while getting updates on points of interest, intersections, and your distance to your destination from VoiceVista.  
+Per utilizzare VoiceVista con queste app, avvia prima l'app di navigazione. Quindi, passa a VoiceVista e imposta un audiofaro sulla stessa destinazione dell'app di navigazione. A questo punto, entrambe le app saranno in esecuzione e sentirai le indicazioni stradali dall'app di navigazione, mentre Voicevista ti fornirà aggiornamenti su punti di interesse, incroci e distanza dalla tua destinazione.  
 [TOC](faq.html#q-24)
 
 <p id="a-25"></p>
-## How do I control what I hear and when I hear it in VoiceVista?
-VoiceVista provides several ways to control what you hear and when:  
+## Come posso gestire l'audio in VoiceVista, per decidere sia cosa ascolto che quando ricevo le informazioni?
+VoiceVista offre diversi modi per controllare ciò che senti e quando:  
 
-1. Immediately stop all audio: Double tap the screen with two fingers to immediately turn off all audio, including any callout that is currently playing and the beacon if it is on. Callouts will resume automatically when you approach the next intersection or point of interest, but the audible beacon will not. Select the "unmute beacon button" on the main screen to resume hearing the beacon.
-2. Stop automatic callouts: When you are not travelling or have reached a destination, you probably will not need VoiceVista to continue to notify you of things around you. Instead of exiting the app, you can put VoiceVista in to Snooze mode and it will wake up again when you leave, or you can put VoiceVista into Sleep mode and it will stay off until you choose to turn it back on. Alternatively, you can select "Settings" from the tabs and choose to turn all callouts off in the "Manage Callouts" section.
-3. Stop the beacon: There are several scenarios for which you might set a destination, but not need the audible beacon on. For example, you may know exactly how to get to your destination but want to get automatic updates about how far away you are from your destination. Or, you may know roughly how to get to your destination, and only need the audio beacon as you near your destination. Whatever the case, you can choose when to hear the beacon by toggling the "mute beacon"/"unmute beacon" button on the main screen.
+1. Interrompere l'audio immediatamente: Tocca due volte lo schermo con due dita per disattivare subito tutto l'audio, compresi avvisi e un eventuale audiofaro. Gli avvisi riprenderanno non appena ti avvicinerai ad un incrocio o ad un punto di interesse, mentre il segnale acustico dell'audiofaro non si riattiverà da solo. Utilizza il pulsante "riattiva segnale audiofaro" nella schermata principale per riprendere ad ascoltarlo.
+2. Ferma gli avvisi automatici: Quando non stai viaggiando o hai raggiunto una destinazione, probabilmente non vorrai che VoiceVista continui ad avvisarti di ciò che ti circonda. Invece di uscire dall'app, puoi mettere VoiceVista in modalità Posponi, si riattiverà quando esci, oppure in modalità Sospensione, nel qual caso sarai tu a decidere quando riattivarlo. In alternativa, puoi selezionare la scheda "Impostazioni" e scegliere di disattivare tutti i gli avvisi nella sezione "Gestione avvisi".
+3. Disattivare il segnale dell'audiofaro: Ci sono diversi casi in cui potresti impostare una destinazione senza la necessità del segnale sonoro attivo dell'audiofaro. Ad esempio, potresti conoscere perfettamente il percorso ma desiderare aggiornamenti automatici sulla distanza rimanente. Oppure, potresti avere solo un'idea generale del percorso e aver bisogno dell'audiofaro soltanto quando ti avvicini alla meta. In entrambi i casi, puoi decidere quando attivare l'audiofaro, semplicemente usando il pulsante "silenzia audiofaro"/"attiva audiofaro" sulla schermata principale..
 [TOC](faq.html#q-25)
 
 <p id="a-26"></p>
-## Do I need to hold the phone in my hand all the time?
-No! While walking you can put the phone away in a bag or pocket or wherever is convenient.  
+## Devo tenere sempre il telefono in mano?
+NO! Mentre cammini puoi riporre il telefono in borsa, in tasca o dove preferisci.  
 
-VoiceVista will use the direction you are walking to figure out which callouts to announce to your left and to your right.  
+VoiceVista utilizzerà la direzione in cui stai camminando per capire quali avvisi annunciare alla tua sinistra e alla tua destra.  
 
-When you stop moving, VoiceVista does not know which direction you are facing. If the audible beacon is on, you will notice it get quiet until you start moving again.  
+Quando ti fermi, VoiceVista non sa in quale direzione sei rivolto. Se il segnale acustico dell'audiofaro è acceso, noterai che diventerà silenzioso finché non ricomincerai a muoverti.  
 
-You can pull the phone out to press the location and exploration buttons at the bottom of the screen at any time but make sure to hold the phone with the top of the phone pointing in the direction you are facing and with the screen to the sky. In this "flat" position, VoiceVista will use the phone's compass to determine which way you are facing and provide accurate spatial callouts. If the beacon is on, you will also notice that it returns to full volume.  
+Puoi estrarre il telefono in qualsiasi momento e premere i pulsanti in basso per avere informazioni sulla posizione o per esplorare, ma assicurati che la parte superiore del telefono sia puntata verso la direzione in cui sei rivolto e lo schermo verso il cielo. In questa posizione "piana", VoiceVista utilizzerà la bussola per determinare con precisione la tua direzione e fornire indicazioni spaziali accurate. Se l'audiofaro è attivo, noterai anche che il volume tornerà al massimo.  
 [TOC](faq.html#q-26)
 
 <p id="a-27"></p>
