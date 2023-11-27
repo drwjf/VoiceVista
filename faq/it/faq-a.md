@@ -280,61 +280,61 @@ Puoi estrarre il telefono in qualsiasi momento e premere i pulsanti in basso per
 [TOC](faq.html#q-26)
 
 <p id="a-27"></p>
-## In what ways can I personalise my VoiceVista experience?
-VoiceVista allows you to customise some key aspects of the callouts you hear as you are walking:  
+## In che modo posso personalizzare la mia esperienza con VoiceVista?
+VoiceVista ti consente di personalizzare alcuni aspetti chiave degli avvisi che senti mentre cammini:  
 
-1. Voice: You can choose which of the available voices on iOS you would like VoiceVista to use, as well as the speed at which callouts are spoken. Select Settings tab, then Voice to adjust the Speaking Rate and Voice settings. Additional voices and enhanced voices with a higher quality can be downloaded in the iOS Settings app at Settings > Accessibility > Spoken Content > Voices. 
-2. Distance Metric: VoiceVista allows you to hear all distances in either feet or metres. Open system settings app, change the option of "Measurement System General" in "General"/ "Language & Region" page. 
-3. Markers: You can mark your world with anything you care about. You can mark things that are personal and relevant to you like your home, your office and your preferred grocery store. Then VoiceVista will automatically call out marked places as you walk by or approach them, or you can also use the Nearby Markers button at the bottom of the VoiceVista home screen to hear a spatial callout of marked places around you. These markers will remain personal to you and will not be available to anyone else.
-4. Callouts: VoiceVista can tell you about things around you as you approach them by calling out their name from the direction they are located in. The app will do this automatically for all sorts of things like businesses, bus stops, and even intersections. You can configure what the app automatically calls out in the "Manage Callouts" section of the "Settings" screen, and you can turn all callouts off when you want the app to be silent.
+1. Voce: Puoi scegliere la voce di cui Voicevista si servirà tra quelle disponibili in IOS, nonché la velocità con cui vengono letti gli avvisi. Seleziona la scheda Impostazioni, quindi Voce per regolare la velocità del parlato e altre impostazioni. Sono anche disponibili Voci aggiuntive e di alta qualità che possono essere scaricate dalle impostazioni del telefono, andando in Impostazioni > Accessibilità > Contenuto letto ad alta voce > Voci. 
+2. Unità di misura per la distanza: VoiceVista ti consente di stabilire se ascoltare le distanze in metri o in piedi. Apri l'app Impostazioni di sistema, modifica l'opzione "Sistema di misura" andando in "Generale"/"Lingua e zona". 
+3. Indicatori: Puoi contrassegnare il tuo mondo con tutto ciò a cui tieni. Parliamo quindi di cose personali e rilevanti per te come la tua casa, il tuo ufficio e il tuo negozio di alimentari preferito. Quindi VoiceVista ti avviserà automaticamente quando transiterai vicino ai luoghi che hai salvato, oppure puoi anche utilizzare il pulsante Indicatori vicini nella parte inferiore della schermata principale per ascoltare una sorta di riepilogo spaziale dei luoghi contrassegnati intorno a te. Questi indicatori rimarranno personali e non saranno disponibili a nessun altro.
+4. Avvisi: VoiceVista ti dirà i nomi dei luoghi o dei punti attorno a te dalla direzione in cui si trovano man mano che ti avvicini ad essi. Ciò avverrà automaticamente per cose come attività commerciali, fermate dell'autobus e persino incroci. Puoi configurare ciò per cui vuoi essere avvertito automaticamente nella sezione "Gestisci avvisi" della schermata "Impostazioni" e puoi disattivare tutti gli avvisi quando vuoi che l'app rimanga silenziosa.
 
-In addition to the above, the following VoiceOver settings can influence how VoiceVista behaves:  
+Oltre a quanto sopra, le seguenti impostazioni di VoiceOver possono influenzare il comportamento di VoiceVista:  
 
-1. VoiceOver Tips: When VoiceOver tips are turned ON, you will hear more information about all the buttons on the primary VoiceVista screen. You can turn on VoiceOver tips by navigating to the iOS Settings app and going to Accessibility > VoiceOver > Verbosity, and turning the Speak Hints setting on.
-2. Audio Ducking: VoiceVista is designed to work with Audio Ducking turned OFF. When Audio Ducking is on, automatic callouts can be difficult to hear if VoiceOver is used simultaneously. We recommend turning Audio Ducking off to make it easier to hear all automatic callouts that occur as you are interacting with the phone. Audio ducking can be turned off in VoiceOver settings or via the VoiceOver rotor.
-3. Touch ID or Face ID to Unlock: Setting your phone to unlock using Touch ID or Face ID will make unlocking the phone fast and easy, and in turn, allow you to access the My Location, Around Me, and Ahead of Me buttons as quickly as possible when you are on the go. Set up Touch ID or Face ID unlocking in the iOS Settings app.  
+1. Suggerimenti di VoiceOver: quando i suggerimenti di VoiceOver sono attivati, potrai ascoltare ulteriori informazioni su tutti i pulsanti nella schermata principale di VoiceVista. Puoi attivare i suggerimenti di VoiceOver accedendo all'app Impostazioni iOS e andando su Accessibilità > VoiceOver > Verbosità e attivando l'impostazione Leggi suggerimenti.
+2. Attenuazione audio: VoiceVista è progettato per funzionare con l'attenuazione 'Audio disattivata. Nel caso fosse attiva, potrebbe risultare difficile ascoltare gli avvisi automatici mentre Voiceover parla. Ti consigliamo di disattivare l'attenuazione audio per rendere più semplice l'ascolto di tutti gli avvisi automatici che si verificano mentre interagisci con il telefono. Puoi disattivare questa caratteristica nelle impostazioni di VoiceOver o tramite il rotore.
+3. Sblocco con Touch ID o Face ID: Consigliamo di impostare lo sblocco del telefono tramite Touch ID o Face ID, in modo da rendere le operazioni più veloci, così da accedere ai pulsanti "La mia posizione", "Intorno a me" e "Davanti a me" il più rapidamente possibile quando sei in movimento. Configura lo sblocco Touch ID o Face ID nell'app Impostazioni iOS.  
 [TOC](faq.html#q-27)
 
 <p id="a-28"></p>
-## What is Open Street Map and why do we use it for VoiceVista?
-VoiceVista draws on geographic map data to provide the information callouts in the app. The primary map source we use is Open Street Map (www.openstreetmap.org) which is a rich community generated mapping platform, that enables organisations and individuals to improve the quality and granularity of the information provided and the accessibility of their spaces using Open Street Map map authoring tools.  
+## Cos'è Open Street Map e perché lo utilizziamo per VoiceVista?
+VoiceVista si basa sui dati geografici delle mappe per fornire gli avvisi informativi nell'app. La fonte principale di mappe che utilizziamo è Open Street Map (www.openstreetmap.org), una ricca piattaforma di mappatura generata dalla comunità, che consente alle organizzazioni e agli individui di migliorare la qualità e il dettaglio delle informazioni fornite e l'accessibilità dei propri spazi utilizzando gli strumenti messi a disposizione per la creazione di mappe .  
 [TOC](faq.html#q-28)
 
 <p id="a-29"></p>
-## Why is VoiceVista working offline?
-When there is no internet connection or an outage in the VoiceVista services, VoiceVista transitions into an offline mode. Nevertheless, VoiceVista will continue to work, but some functions may be limited.
-Callouts will continue to work if you are in an area that you have walked by before and that has been stored in your callout history. Similarly, you can place an audio beacon or create a marker on places that have been stored in your callout history.  
+## Perché VoiceVista funziona offline?
+Quando non è disponibile una connessione Internet o si verifica un'interruzione dei servizi sfruttati da VoiceVista, l'app passa alla modalità offline. Tuttavia, essa continuerà ad essere operativa, ma alcune caratteristiche limitate.
+Gli avvisi continueranno a funzionare se ti trovi in un'area in cui sei già passato e che è stata memorizzata nella cronologia degli avvisi stessi. Allo stesso modo, puoi inserire un audiofaro o creare un indicatore sui luoghi che sono stati memorizzati nella cronologia.  
 
-VoiceVista will try to resume normal operation when your phone is connected to Wi-Fi or mobile data is enabled and you are in an area with good signal. If your phone does have a good internet connection, but VoiceVista does not resume normal operation, then there may be an outage in the VoiceVista services.  
+VoiceVista proverà a ripristinare il normale funzionamento quando il telefono è connesso al Wi-Fi o i dati mobili sono abilitati e ti trovi in un'area con un buon segnale. Se il tuo telefono ha una buona connessione Internet, ma VoiceVista non riprende il normale funzionamento, potrebbe esserci un'interruzione nei servizi di cui si serve VoiceVista.  
 [TOC](faq.html#q-29)
 
 <p id="a-30"></p>
-## Can I import my BlindSquare places to VoiceVista?
-Yes, you can create a BlindSquare backup of your places and import it into VoiceVista.  
+## Posso importare i miei luoghi BlindSquare su VoiceVista?
+Sì, puoi creare un backup dei tuoi luoghi BlindSquare e importarlo in VoiceVista.  
 
-1. Open BlindSquare and go to the “My Places” screen.
-2. Tap the action button in the top right corner of the screen.
-3. Either email the exported file to yourself or save it in the Files app.
-    * If you have emailed the export, open your Mail app, open the email to yourself, and tap the attached JSON file to open it. Tap the 'Share' button at the bottom of the screen and select VoiceVista.
-    * If you have saved the export to the Files app, open VoiceVista and select the Markers tab. Tap the button at the top right of the screen to add new markers and select the option to import markers from BlindSquare.
-Please note that only the names and the coordinates of the BlindSquare markers will be imported into VoiceVista. Additional information for example “Alert Distance” or the accuracy a marker has been saved with cannot be imported.  
+1. Apri BlindSquare e vai alla schermata "I miei luoghi".
+2. Tocca il pulsante azioni nell'angolo in alto a destra dello schermo.
+3. Invia a te stesso il file esportato tramite e-mail o salvalo nell'app File.
+    * Se hai inviato l'esportazione via email, apri l'app Mail, trova l'email che ti sei spedito e tocca il file JSON allegato per aprirlo. Tocca il pulsante "Condividi" nella parte inferiore dello schermo e seleziona VoiceVista.
+    * Se hai salvato l'esportazione nell'app File, apri VoiceVista e seleziona la scheda Indicatori. Tocca il pulsante in alto a destra dello schermo per aggiungerne uno e seleziona l'opzione per importare gli indicatori da BlindSquare.
+Tieni presente che verranno importati in VoiceVista solo i nomi e le coordinate degli indicatori BlindSquare. Non è possibile importare informazioni aggiuntive, ad esempio la "Distanza per gli avvisi" o la precisione con cui è stato salvato un indicatore.  
 [TOC](faq.html#q-30)
 
 <p id="a-99"></p>
-## Do you have more tips?
-If you put your phone in your pocket and stop moving, the beacon sound will get quieter because VoiceVista can't tell which way you are facing. Solve this by starting to walk again, or pulling your phone out and holding it flat.  
+## Hai altri suggerimenti?
+Se metti il telefono in tasca e ti fermi, noterai che il suono dell'audiofaro diventerà più debole, perché VoiceVista non riesce a capire verso quale direzione sei rivolto. Per risolvere il problema, ricomincia a camminare o tira fuori il telefono tenendolo diritto avanti a te..  
 
-You can set a beacon on any address. From the main VoiceVista screen, search for the address. After selecting the address in the search results, a "Location Details" screen will be shown and it has an option to "Start Audio Beacon" on the address. In this way, you can set a beacon on businesses, places, points of interest, and residences that are not in Open Street Maps.  
+Puoi impostare un audiofaro su qualsiasi indirizzo. Dalla schermata principale di VoiceVista, cerca l'indirizzo. Dopo averlo selezionato dai risultati di ricerca, verrà visualizzata una schermata "Dettagli posizione" dove è presente un'opzione per impostare un audiofaro per tale indirizzo. In questo modo sarà possibile impostare un audiofaro su attività commerciali, luoghi, punti di interesse e abitazioni che non sono presenti in Open Street Maps.  
 
-You can find nearby bus stops by selecting the "Public Transport" filter in the Nearby Places list.  
+Puoi trovare le fermate dell'autobus a te più vicine selezionando il filtro "Trasporti pubblici" nell'elenco dei "Luoghi nelle vicinanze."  
 
-You can turn on and off the rhythmic sound of the beacon using the mute button on the home screen. If the beacon is muted you will still get updates about your distance to your destination every 50 metres or so.  
+È possibile attivare e disattivare il suono ritmico dell'audiofaro utilizzando il pulsante di attivazione/disattivazione suono audiofaro nella schermata principale. Quando il suono viene spento, riceverai comunque aggiornamenti sulla distanza dalla tua destinazione ogni 50 metri circa.  
 
-If you still want to interact with VoiceVista but don't want to hear automatic callouts you can turn callouts off by going to the "Manage Callouts" section of the "Settings" page from the menu. Or, if you aren't going to be using VoiceVista you can put it in either Sleep or Snooze mode using the "Sleep" button on the home screen.  
+Se desideri comunque interagire con VoiceVista ma non vuoi sentire gli avvisi automatici, puoi disattivarli andando alla sezione "Gestisci avvisi" della pagina "Impostazioni". Oppure, se non utilizzerai l'app, puoi metterla in modalità Sospensione o Posponi utilizzando il pulsante "Sospendi" nella schermata principale.  
 
-VoiceVista works best when you hold the phone flat with the screen facing the sky and the top of the phone pointing away from you.  
+VoiceVista funziona al meglio quando tieni il telefono diritto e piatto con lo schermo puntato verso il cielo e la parte superiore non rivolta verso di te.  
 
-If there is a bus route you take regularly, set your pick-up and exit stops as Markers. This way they will be saved so you can find them again easily, just go to "Markers" tab and find them in the list. You can set a beacon on them and you will get periodic updates on how close you are to your exit stop. Note: you can turn off the rhythmic sound and you will still get distance updates along the way.  
+Se c'è una linea di autobus che prendi regolarmente, imposta le varie fermate del tragitto come Indicatori. In questo modo verranno salvate, così da poterle ritrovare facilmente andando nella scheda "indicatori" e scorrendo l'elenco. Puoi impostare un audiofaro su di esse, così da essere aggiornato sulla distanza che intercorre tra la tua posizione e la fermata di discesa. Nota: puoi disattivare il suono ritmico e riceverai comunque aggiornamenti sulla distanza lungo il percorso.  
 
-Tapping the screen twice with two fingers will silence any active callouts.
+Toccando due volte lo schermo con due dita verranno silenziati tutti gli avvisi attivi.
 [TOC](faq.html#q-30)
