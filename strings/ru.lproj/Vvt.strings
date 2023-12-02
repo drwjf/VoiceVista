@@ -282,7 +282,7 @@
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Автоматические объявления";
 
-/* No comment provided by engineer. */
+/* Type 2 for navigation transport */
 "Automobile" = "Автомобиль";
 
 /* Motion status: automotive */
@@ -411,12 +411,6 @@
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Изменить приложение внешних карт";
-
-/* No comment provided by engineer. */
-"Change Path Calculation Mode" = "Изменить режим расчета маршрута";
-
-/* No comment provided by engineer. */
-"Change Pathfinding Transport Type" = "Изменить тип передвижения";
 
 /* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Изменить множитель диапазона POI";
@@ -846,6 +840,9 @@
 /* No comment provided by engineer. */
 "How many meters should waypoints be generated between each other for this route?" = "Сколько метров должно быть между путевыми точками на этом маршруте?";
 
+/* No comment provided by engineer. */
+"How to Calculate Path?" = "Как рассчитать путь?";
+
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
 
@@ -1161,6 +1158,9 @@
 /* No comment provided by engineer. */
 "On foot speaking rate. How does this sound?" = "Это тестовое сообщение для данной конфигурации.";
 
+/* Mode 2 for path calculation */
+"Only Use Last Waypoint" = "Использовать только последнюю точку маршрута";
+
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Ой! Что-то пошло не так.";
 
@@ -1196,12 +1196,6 @@
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Вставить URL-адрес из карт Apple";
-
-/* No comment provided by engineer. */
-"Path Calculation Mode" = "Режим расчета пути";
-
-/* No comment provided by engineer. */
-"Pathfinding Transport Type" = "Тип транспорта";
 
 /* No comment provided by engineer. */
 "Permission granted" = "Разрешение предоставлено";
@@ -1711,7 +1705,7 @@
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Всего путевых точек: %@ .";
 
-/* No comment provided by engineer. */
+/* Type 3 for navigation transport */
 "Transit" = "Транспорт";
 
 /* placesNearyBy.category.5 */
@@ -1808,11 +1802,8 @@
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Использовать текущую версию";
 
-/* No comment provided by engineer. */
-"Use each waypoint separately to find path" = "Используйте каждую путевую точку отдельно для построения маршрута.";
-
-/* No comment provided by engineer. */
-"Use final destination of route to find path" = "Используйте конечный пункт назначения для построения маршрута.";
+/* Mode 1 for path calculation */
+"Use Each Waypoint Separately" = "Используйте каждую путевую точку отдельно";
 
 /* No comment provided by engineer. */
 "Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Используйте ротор действий на кнопках, чтобы выполнять дополнительные действия, включая места поблизости и перекрестки впереди.";
@@ -1914,7 +1905,8 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Проснуться при смене местоположения";
 
-/* Motion status: walking */
+/* Motion status: walking
+   Type 1 for navigation transport */
 "Walking" = "Пешком";
 
 /* No comment provided by engineer. */
@@ -1964,6 +1956,9 @@
 
 /* first_use_experience.share.alert.message */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Когда вы делитесь меткой или маршрутом VoiceVista, вы делитесь местоположениями, связанными с этой меткой или маршрутом.  делитесь метками или маршрутами только с теми, кому вы доверяете.";
+
+/* No comment provided by engineer. */
+"Which Transport Type?" = "Какой тип транспорта?";
 
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Находясь на маршруте с VoiceVista, вы будете проинформированы о прибытии в каждую путевую точку, а звуковой маяк автоматически перейдет к следующей  точке.";

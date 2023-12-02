@@ -282,7 +282,7 @@
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Notifications automatiques";
 
-/* No comment provided by engineer. */
+/* Type 2 for navigation transport */
 "Automobile" = "Voiture";
 
 /* Motion status: automotive */
@@ -411,12 +411,6 @@
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Changer l'application Cartes externes";
-
-/* No comment provided by engineer. */
-"Change Path Calculation Mode" = "Changer le mode de calcul du chemin";
-
-/* No comment provided by engineer. */
-"Change Pathfinding Transport Type" = "Modifier le type de transport de recherche de chemin";
 
 /* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Modifier le multiplicateur de plage de POI";
@@ -846,6 +840,9 @@
 /* No comment provided by engineer. */
 "How many meters should waypoints be generated between each other for this route?" = "Combien de mètres les waypoints doivent-ils être générés entre eux pour cet itinéraire ?";
 
+/* No comment provided by engineer. */
+"How to Calculate Path?" = "Comment calculer le chemin ?";
+
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "J'ai partagé un marqueur VoiceVista avec vous ! '%@;'";
 
@@ -1161,6 +1158,9 @@
 /* No comment provided by engineer. */
 "On foot speaking rate. How does this sound?" = "Tarif parlant à pied. Comment ça sonne ?";
 
+/* Mode 2 for path calculation */
+"Only Use Last Waypoint" = "Utiliser uniquement le dernier waypoint";
+
 /* universal_links.alert.error.title */
 "Oops! Something went wrong." = "Oups! Un problème s’est produit.";
 
@@ -1196,12 +1196,6 @@
 
 /* No comment provided by engineer. */
 "Paste URL from Apple Maps" = "Coller l'URL d'Apple Maps";
-
-/* No comment provided by engineer. */
-"Path Calculation Mode" = "Mode de calcul de chemin";
-
-/* No comment provided by engineer. */
-"Pathfinding Transport Type" = "Type de transport d'orientation";
 
 /* No comment provided by engineer. */
 "Permission granted" = "Permission accordée";
@@ -1711,7 +1705,7 @@
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Nombre total de waypoints : %@ .";
 
-/* No comment provided by engineer. */
+/* Type 3 for navigation transport */
 "Transit" = "Transit";
 
 /* placesNearyBy.category.5 */
@@ -1808,11 +1802,8 @@
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Utiliser la version actuelle";
 
-/* No comment provided by engineer. */
-"Use each waypoint separately to find path" = "Utilisez chaque waypoint séparément pour trouver le chemin";
-
-/* No comment provided by engineer. */
-"Use final destination of route to find path" = "Utiliser la destination finale de l'itinéraire pour trouver le chemin";
+/* Mode 1 for path calculation */
+"Use Each Waypoint Separately" = "Utilisez chaque waypoint séparément";
 
 /* No comment provided by engineer. */
 "Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Utilisez le rotor d'actions sur les boutons pour effectuer des actions supplémentaires, y compris les lieux à proximité et les intersections à venir.";
@@ -1914,7 +1905,8 @@
 /* No comment provided by engineer. */
 "Wake Up When I Leave" = "Sortir de veille quand je pars";
 
-/* Motion status: walking */
+/* Motion status: walking
+   Type 1 for navigation transport */
 "Walking" = "Marche";
 
 /* No comment provided by engineer. */
@@ -1964,6 +1956,9 @@
 
 /* first_use_experience.share.alert.message */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Lorsque vous partagez un Marqueur ou un Itinéraire VoiceVista, vous partagez les emplacements associés à ce Marqueur ou cet Itinéraire. Partagez-les seulement avec des personnes de confiance.";
+
+/* No comment provided by engineer. */
+"Which Transport Type?" = "Quel type de transport ?";
 
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Lorsque vous parcourez votre Itinéraire avec VoiceVista, vous êtes informé quand vous arrivez à chaque point de repère, et la balise audio avance automatiquement jusqu’au point de repère suivant.";
