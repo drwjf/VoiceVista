@@ -6,6 +6,7 @@
 - Russian translation contributed by Danil Kostenkov.
 - Spanish translation contributed by Arturo Fernández Rivas and [Enrique Varela](https://about.me/enriquevarela).
 - Turkish translation contributed by [Sebahittin Bilsel](https://twitter.com/sebahittinbilse).
+Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 
 > %@ or %1$@, %2$@ are placeholders in the sentence, need to keep these placeholders as original text when translating.
 
