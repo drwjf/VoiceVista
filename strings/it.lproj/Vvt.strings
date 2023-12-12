@@ -145,6 +145,12 @@
 /* directions.direction.ahead_to_the_right */
 "ahead to the right" = "avanti a destra";
 
+/* No comment provided by engineer. */
+"Alert distance: %@" = "Avviso per la distanza: %@";
+
+/* %@ is marker name when location is in range of alert distance */
+"Alert: %@" = "Attenzione: %@";
+
 /* permissionmanager.alert.message */
 "All derived data is based on the test location because permission to access your real location was not granted." = "Tutti i dati derivati si basano sulla posizione di test, in quanto non è stata concessa l'autorizzazione ad accedere alla tua posizione reale.";
 
@@ -261,13 +267,16 @@
 "At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "A quanti piedi di distanza VoiceVista dovrebbe attivare la posizione come audiofaro?";
 
 /* No comment provided by engineer. */
-"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "A quanti piedi di distanza VoiceVista dovrebbe attivare la posizione come audiofaro?";
+"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "A quanti metri di distanza VoiceVista dovrebbe attivare la posizione come audiofaro?";
 
 /* No comment provided by engineer. */
 "At what distance should VoiceVista be triggered to activate the location as a beacon?" = "A quale distanza Voicevista dovrà attivare la posizione come audiofaro?";
 
 /* No comment provided by engineer. */
 "At what distance should waypoints be generated between each other for this route?" = "A quale distanza devono essere generati i waypoint tra loro per questo percorso?";
+
+/* No comment provided by engineer. */
+"At what distance would you like VoiceVista to alert you?" = "A quale distanza vuoi che VoiceVista ti avvisi?";
 
 /* beacon.audio_beacon
    settings.general.beacon */
@@ -305,7 +314,7 @@
 "Beacon" = "Audiofaro";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
-"Beacon %@ started" = "Il segnale %@ è stato avviato";
+"Beacon %@ started" = "Audiofaro %@ avviato";
 
 /* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
 "Beacon Arrival Style" = "Stile raggiungimento audiofaro";
@@ -1313,6 +1322,9 @@
 "Relative Direction" = "Direzione relativa";
 
 /* No comment provided by engineer. */
+"Remove Alert Distance Setting" = "Cancella l'impostazione per la distanza degli avvisi";
+
+/* No comment provided by engineer. */
 "Repeat Last Callout" = "Ripeti l'ultimo avviso";
 
 /* general.alert.replace */
@@ -1431,6 +1443,12 @@
 
 /* universal_links.alert.action.beacon */
 "Set a Beacon" = "Imposta un audiofaro";
+
+/* No comment provided by engineer. */
+"Set Alert Distance" = "Impostagli avvisi per la distanza";
+
+/* No comment provided by engineer. */
+"Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Imposta e salva una distanza per cui essere avvisato permanentemente per ciascun indicatore in modo individuale. Riceverai una notifica non appena ti starai avvicinando alla distanza definita.";
 
 /* settings.screen_title
    settings.title */
@@ -1706,7 +1724,7 @@
 "Total waypoints count: %@ ." = "Conteggio totale dei waypoint: %@ .";
 
 /* Type 3 for navigation transport */
-"Transit" = "Transito";
+"Transit" = "Trasporto pubblico";
 
 /* placesNearyBy.category.5 */
 "Transportation" = "Trasporto";
@@ -1791,10 +1809,10 @@
 "Updates about distance to the audio beacon when it's set" = "Aggiornamenti sulla distanza dall'audiofaro quando è impostato";
 
 /* No comment provided by engineer. */
-"Use buttons in the top-right corner to edit marker location, name and description." = "Utilizza i pulsanti nell'angolo in alto a destra per modificare la posizione, il nome e la descrizione dell'indicatore.";
+"Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Utilizza i pulsanti nell'angolo in alto a destra per modificare il nome dell'indicatore, l'annotazione, la distanza per gli avvisi e la posizione."; 
 
 /* No comment provided by engineer. */
-"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Utilizza i pulsanti nell'angolo in alto a destra per generare percorsi invertiti, modificare waypoint, nome e descrizione.";
+"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Utilizza i pulsanti nell'angolo in alto a destra per generare percorsi inversi, modificare waypoint, nome e descrizione.";
 
 /* No comment provided by engineer. */
 "Use Current Location" = "Utilizza la posizione corrente";
