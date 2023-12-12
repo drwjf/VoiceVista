@@ -1,5 +1,6 @@
 # VoiceVista
 
+- Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
