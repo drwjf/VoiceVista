@@ -1,0 +1,2055 @@
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+"%1$@ about %2$@" = "%1$@ aproximadament %2$@";
+
+/* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
+"%1$@ around %2$@" = "%1$@ al voltant de %2$@";
+
+/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, %3$@ is the orientation, '<Starbucks> is <5 meters> <ahead to the left>' */
+"%1$@ is %2$@ %3$@" = "%1$@ és %2$@ %3$@";
+
+/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, '<Starbucks> is <5 meters> away' */
+"%1$@ is %2$@ away" = "%1$@ és a %2$@ de distància";
+
+/* Notification, %1$@ is a point of interest, %2$@ is distance with units and %3$@ is a physical address, '<Some Place> is currently <5 meters>. Street address is <Some Address>' */
+"%1$@ is currently %2$@. Street address is %3$@." = "%1$@ és actualment %2$@. L'adreça postal és %3$@.";
+
+/* Notification, %1$@ is a point of interest and %2$@ is a physical address,'<Some Place> is nearby. Street address is <Some Address>' */
+"%1$@ is nearby. Street address is %2$@." = "%1$@ és a prop. L'adreça postal és %2$@.";
+
+/* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
+"%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "S'han assolit %1$@ de %2$@ waypoints, %3$@ restants";
+
+/* Label to display when the user is facing a road that they can travel down, %1$@ is the cardinal direction and %2$@ is the name of the road that they can travel down, 'SW on Main Street' */
+"%1$@ on %2$@" = "%1$@ a %2$@";
+
+/* Callouts notification, A hardware device only has a certain amount of battery remaining, %1$@ name of device %2$@ percent of battery remaining, 'VoiceVista remote only has 20 percent battery remaining.' */
+"%1$@ only has %2$@ percent battery remaining." = "A %1$@ només li queda un %2$@ per cent de bateria.";
+
+/* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
+"%1$@ was %2$@ %3$@" = "%1$@ era %2$@ %3$@";
+
+/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
+"%1$@, heading %2$@" = "%1$@, encapçalament %2$@";
+
+/* Title of a route, %1$@ is the name of the route, %2$@ is the index of the current waypoint and %3$@ is the total number of waypoints in the route, 'Home to Work, Waypoint 1 of 3' */
+"%1$@, Waypoint %2$@ of %3$@" = "%1$@, waypoint %2$@ de %3$@";
+
+/* Notification, %1$@ is a point of interest and %2$@ is a physical address, '<Some Place>. Street address is <Some Address>. Distance unknown.' */
+"%1$@. Street address is %2$@. Distance unknown." = "%1$@. L'adreça postal és %2$@. Distància desconeguda.";
+
+/* Notification, %@ is the point of interest, 'Starbucks close by' */
+"%@ close by" = "%@ tancat per";
+
+/* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
+"%@ connected." = "%@ connectat.";
+
+/* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
+"%@ disconnected." = "%@ desconnectat.";
+
+/* %@ is the navigation transport type, such as Walking, Automobile, Transit */
+"%@ Instructions:" = "%@ Instruccions:";
+
+/* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
+"%@ Intersection" = "%@ Intersecció";
+
+/* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
+"%@ is nearby" = "%@ és a prop";
+
+/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
+"%@ roundabout" = "%@ rotonda";
+
+/* %@ to indicate the number of seconds between street name announcements */
+"%@ seconds" = "%@ segons";
+
+/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
+"%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Waypoints assolits, últim waypoint proper";
+
+/* directions.name_continues_ahead */
+"%@, continues ahead" = "%@, segueix endavant";
+
+/* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
+"%@, continues ahead in roundabout" = "%@, segueix endavant a la rotonda";
+
+/* Notification, %@ street name, '<Pike Street>, goes left' */
+"%@, goes left" = "%@, va a l'esquerra";
+
+/* Notification, %@ street name, '<Pike Street>, goes left in roundabout' */
+"%@, goes left in roundabout" = "%@, va a l'esquerra a la rotonda";
+
+/* Notification, %@ street name, '<Pike Street>, goes right' */
+"%@, goes right" = "%@, va a la dreta";
+
+/* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
+"%@, goes right in roundabout" = "%@, va a la dreta a la rotonda";
+
+/* No comment provided by engineer. */
+"[Reverse]" = "[Revers]";
+
+/* voice.settings.enhanced_available */
+"A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "És possible que hi hagi disponible una versió de més qualitat d'aquesta veu. Per descarregar-lo i altres veus, aneu a la secció Contingut parlat de la configuració d'accessibilitat d'iOS.";
+
+/* universal_links.marker_existing.alert.message */
+"A marker already exists at this location. Do you want to replace it?" = "Ja hi ha un marcador en aquesta ubicació. Vols substituir-lo?";
+
+/* No comment provided by engineer. */
+"A network connection is required when deleting and reloading VoiceVista's map data. Check that your phone is not in airplane mode." = "Es requereix una connexió de xarxa per suprimir i tornar a carregar les dades del mapa de VoiceVista. Comproveu que el vostre telèfon no estigui en mode avió.";
+
+/* settings.about.title */
+"About VoiceVista" = "Sobre VoiceVista";
+
+/* settings.direction.style.absolute */
+"Absolute Direction" = "Direcció absoluta";
+
+/* behavior.scavenger_hunt.callout.started */
+"Activity started!" = "Comença l'activitat!";
+
+/* No comment provided by engineer. */
+"Add a Marker" = "Afegeix un marcador";
+
+/* No comment provided by engineer. */
+"Add a Route" = "Afegeix una ruta";
+
+/* No comment provided by engineer. */
+"Add Marker" = "Afegeix un marcador";
+
+/* routeDetail.noWaypoints.alert.addWaypoints */
+"Add Waypoints" = "Afegeix waypoints";
+
+/* No comment provided by engineer. */
+"Add Waypoints in Breadcrumb Mode" = "Afegeix waypoints en mode Breadcrumb";
+
+/* No comment provided by engineer. */
+"Additional Actions Available" = "Accions addicionals disponibles";
+
+/* directions.unknown_address */
+"Address is unknown" = "L'adreça és desconeguda";
+
+/* location_detail.default.address */
+"Address unknown" = "Adreça desconeguda";
+
+/* siri_shortcuts.description */
+"After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Després d'afegir dreceres de Siri, podreu utilitzar la vostra veu per invocar-les fins i tot quan VoiceVista no s'està executant.";
+
+/* directions.direction.ahead */
+"ahead" = "endavant";
+
+/* ui.action_button.ahead_of_me */
+"Ahead of Me" = "Davant de mi";
+
+/* callouts.ahead_of_you */
+"Ahead of You" = "Davant teu";
+
+/* directions.direction.ahead_to_the_left */
+"ahead to the left" = "endavant a l'esquerra";
+
+/* directions.direction.ahead_to_the_right */
+"ahead to the right" = "endavant a la dreta";
+
+/* No comment provided by engineer. */
+"Alert distance: %@" = "Distància d'alerta: %@";
+
+/* %@ is marker name when location is in range of alert distance */
+"Alert: %@" = "Alerta: %@";
+
+/* permissionmanager.alert.message */
+"All derived data is based on the test location because permission to access your real location was not granted." = "Totes les dades derivades es basen en la ubicació de prova perquè no es va concedir permís per accedir a la vostra ubicació real.";
+
+/* placesNearyBy.category.1 */
+"All Places" = "Tots els llocs";
+
+/* permissions.footnote */
+"All privacy data is stored exclusively on your local device or iCloud storage." = "Totes les dades de privadesa s'emmagatzemen exclusivament al vostre dispositiu local o a l'emmagatzematge d'iCloud.";
+
+/* settings.callout.all */
+"Allow Callouts" = "Permet textos destacats";
+
+/* No comment provided by engineer. */
+"Append reverse waypoints to the tail to make the route a circular journey." = "Afegiu waypoints inversos a la cua per fer de la ruta un viatge circular.";
+
+/* settings.headtracking.appleAirpods */
+"Apple AirPods" = "Apple AirPods";
+
+/* devices.callouts.check_audio.airpods */
+"Apple AirPods connected." = "Apple AirPods connectats.";
+
+/* settings.appleMpas */
+"Apple Maps" = "Apple Maps";
+
+/* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
+"Approaching %1$@ roundabout with %2$@ exits" = "S'acosta a la rotonda %1$@ amb %2$@ sortides";
+
+/* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
+"Approaching %1$@ with %2$@ exits" = "S'acosta a %1$@ amb %2$@ sortides";
+
+/* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
+"Approaching %@" = "S'acosta a %@";
+
+/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
+"Approaching %@ roundabout" = "S'acosta a la rotonda %@";
+
+/* preview.callout.approach.end */
+"Approaching end of road" = "S'acosta al final del camí";
+
+/* intersection.approaching_intersection */
+"Approaching intersection" = "S'acosta a la intersecció";
+
+/* preview.approaching_intersection.label */
+"Approaching Intersection" = "Aproximació a la intersecció";
+
+/* directions.approaching_roundabout */
+"Approaching roundabout" = "Aproximació a la rotonda";
+
+/* markers.destructive_delete_message */
+"Are you sure you want to delete this marker?" = "Esteu segur que voleu suprimir aquest marcador?";
+
+/* headphonesSetting.forget_headset.prompt.forget */
+"Are you sure you wish to forget these headphones?" = "Esteu segur que voleu oblidar aquests auriculars?";
+
+/* general.alert.confirmation_title */
+"Are You Sure?" = "Estàs segur?";
+
+/* ui.action_button.around_me */
+"Around Me" = "Al meu voltant";
+
+/* callouts.around_you */
+"Around You" = "Al teu voltant";
+
+/* No comment provided by engineer. */
+"Arrive at the beacon" = "Arribar a la balisa";
+
+/* settings.arrival.style.arrived */
+"Arrived" = "Arribat";
+
+/* Notification, %@ is a point of interest, 'At Starbucks' */
+"At %@" = "A %@";
+
+/* Directions using 1  o'clock position. */
+"at 1 o'clock" = "a la 1 en punt";
+
+/* Directions using 10 o'clock position. */
+"at 10 o'clock" = "a les 10 h";
+
+/* Directions using 11 o'clock position. */
+"at 11 o'clock" = "a les 11 h";
+
+/* Directions using 12 o'clock position. */
+"at 12 o'clock" = "a les 12 h";
+
+/* Directions using 2  o'clock position. */
+"at 2 o'clock" = "a les 2 en punt";
+
+/* Directions using 3  o'clock position. */
+"at 3 o'clock" = "a les 3 en punt";
+
+/* Directions using 4  o'clock position. */
+"at 4 o'clock" = "a les 4 en punt";
+
+/* Directions using 5  o'clock position. */
+"at 5 o'clock" = "a les 5 en punt";
+
+/* Directions using 6  o'clock position. */
+"at 6 o'clock" = "a les 6 en punt";
+
+/* Directions using 7  o'clock position. */
+"at 7 o'clock" = "a les 7 en punt";
+
+/* Directions using 8  o'clock position. */
+"at 8 o'clock" = "a les 8 en punt";
+
+/* Directions using 9  o'clock position. */
+"at 9 o'clock" = "a les 9 en punt";
+
+/* first_use_experience.preview.tutorial.alert.message.3
+   preview.note.2 */
+"At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "A cada intersecció, podeu tornar a utilitzar el telèfon per triar quina carretera baixar, o podeu explorar el vostre entorn immediat mitjançant els botons coneguts de VoiceVista a la part inferior de la pantalla.";
+
+/* No comment provided by engineer. */
+"At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "A quants peus s'ha d'activar VoiceVista per activar la ubicació com a balisa?";
+
+/* No comment provided by engineer. */
+"At how many meters should VoiceVista be triggered to activate the location as a beacon?" = "A quants metres s'ha d'activar VoiceVista per activar la ubicació com a balisa?";
+
+/* No comment provided by engineer. */
+"At what distance should VoiceVista be triggered to activate the location as a beacon?" = "A quina distància s'ha d'activar VoiceVista per activar la ubicació com a balisa?";
+
+/* No comment provided by engineer. */
+"At what distance should waypoints be generated between each other for this route?" = "A quina distància s'han de generar waypoints entre ells per a aquesta ruta?";
+
+/* No comment provided by engineer. */
+"At what distance would you like VoiceVista to alert you?" = "A quina distància voleu que VoiceVista us avisi?";
+
+/* beacon.audio_beacon
+   settings.general.beacon */
+"Audio Beacon" = "Balisa d'àudio";
+
+/* beaconSetting.audioStyle */
+"AUDIO STYLES" = "ESTILS D'AUDIO";
+
+/* general.error.ble.unauthorized.title */
+"Authorize Bluetooth" = "Autoritzar Bluetooth";
+
+/* callouts.automatic_callouts */
+"Automatic Callouts" = "Textos destacats automàtics";
+
+/* Type 2 for navigation transport */
+"Automobile" = "Automòbil";
+
+/* Motion status: automotive */
+"Automotive" = "Automoció";
+
+/* directions.direction.away */
+"away" = "lluny";
+
+/* ui.back_button.title */
+"Back" = "esquena";
+
+/* placesNearyBy.category.7 */
+"Banks & ATMs" = "Bancs i caixers automàtics";
+
+/* volumeSetting.beacon */
+"BEACON" = "BALISA";
+
+/* beacon.generic_name
+   settings.general.volume.beacon */
+"Beacon" = "Balisa";
+
+/* Noticafcation when start a beacon. %@ is beacon name */
+"Beacon %@ started" = "La balisa %@ ha començat";
+
+/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
+"Beacon Arrival Style" = "Estil d'arribada del far";
+
+/* No comment provided by engineer. */
+"Beacon Auto-Mute Distance" = "Distància de silenci automàtic de la balisa";
+
+/* No comment provided by engineer. */
+"Beacon Frequency Factor" = "Factor de freqüència del far";
+
+/* Notification, %@ is a location, 'Beacon on <Some Place>' */
+"Beacon on %@" = "Faro a %@";
+
+/* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
+"Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "La balisa s'ha establert a %1$@, %2$@ de distància, %3$@ de %4$@";
+
+/* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
+"Beacon set on %1$@, %2$@ of %3$@" = "La balisa s'ha establert a %1$@, %2$@ de %3$@";
+
+/* voiceSetting.title */
+"Beacon Settings" = "Configuració de la balisa";
+
+/* No comment provided by engineer. */
+"Beacon Turn by Turn Instructions" = "Beacon Instruccions gir a torn";
+
+/* volumeSettings.beacon */
+"Beacon volume" = "Volum de balisa";
+
+/* Notification, Beacon location nearby. */
+"Beacon within %@" = "Balisa dins de %@";
+
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Beacon within %@. Audio beacon has been muted" = "Balisa dins de %@. La balisa d'àudio s'ha silenciat";
+
+/* headphonesSetting.connect_headset.audio */
+"Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Abans de connectar els auriculars a VoiceVista, assegureu-vos que estiguin vinculats al vostre telèfon. Si encara no està vinculat, aneu a la secció Bluetooth de l'aplicació Configuració d'iOS per vincular el vostre dispositiu i, a continuació, torneu a VoiceVista.";
+
+/* directions.direction.behind */
+"behind" = "darrere";
+
+/* directions.direction.behind_to_the_left */
+"behind to the left" = "darrere a l'esquerra";
+
+/* directions.direction.behind_to_the_right */
+"behind to the right" = "darrere a la dreta";
+
+/* general.error.ble.unauthorized.message */
+"Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Es requereix permís de Bluetooth per connectar els auriculars. Obriu l'aplicació Configuració a continuació per activar el Bluetooth. Tingueu en compte que això pot provocar que l'aplicació es reiniciï.";
+
+/* No comment provided by engineer. */
+"Both decimal numbers and Google plus codes are supported" = "S'admeten tant els números decimals com els codis de Google Plus";
+
+/* No comment provided by engineer. */
+"Breadcrumb Marker Dropped" = "S'ha caigut el marcador de ruta de pa";
+
+/* No comment provided by engineer. */
+"Breadcrumb Mode" = "Mode breadcrumb";
+
+/* No comment provided by engineer. */
+"Calculate by Navigation Algorithm" = "Calcula per algorisme de navegació";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints" = "Calcular waypoints";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints by Algorithm" = "Calcular waypoints per algorisme";
+
+/* devices.callouts.calibrated */
+"Calibration complete" = "Calibració completa";
+
+/* No comment provided by engineer. */
+"Callout Settings" = "Configuració de text destacat";
+
+/* settings.general.callouts.direction.style */
+"Callouts Direction Style" = "Estil de direcció de texts destacats";
+
+/* callouts.callouts_off */
+"Callouts Off" = "Textos desactivats";
+
+/* callouts.callouts_on */
+"Callouts On" = "Textos destacats activats";
+
+/* No comment provided by engineer. */
+"Callouts Settings" = "Configuració de text destacat";
+
+/* general.alert.cancel */
+"Cancel" = "Cancel · lar";
+
+/* settings.bluetooth.cancelConnect */
+"Cancel Connecting" = "Cancel·la la connexió";
+
+/* No comment provided by engineer. */
+"Change Beacon Arrival Style" = "Canvia l'estil d'arribada del faro";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Mute Distance" = "Canvia la distància de silenci automàtic de la balisa";
+
+/* No comment provided by engineer. */
+"Change Beacon Frequency Factor" = "Canvia el factor de freqüència de la balisa";
+
+/* No comment provided by engineer. */
+"Change Callouts Direction Style" = "Canvia l'estil de direcció de text destacat";
+
+/* No comment provided by engineer. */
+"Change External Maps App" = "Canvia l'aplicació de mapes externs";
+
+/* No comment provided by engineer. */
+"Change POI Range Multiplier" = "Canvia el multiplicador d'interval de PDI";
+
+/* No comment provided by engineer. */
+"Change Shake Motion Response" = "Canvia la resposta de moviment de sacsejada";
+
+/* No comment provided by engineer. */
+"Change Street Name Interval" = "Canvia l'interval del nom del carrer";
+
+/* No comment provided by engineer. */
+"Change Units of Measure" = "Canviar unitats de mesura";
+
+/* No comment provided by engineer. */
+"Chat Group" = "Grup de xat";
+
+/* troubleshooting.checkaudio */
+"Check Headphones Status" = "Comproveu l'estat dels auriculars";
+
+/* headphonesSetting.connect_headset.completed.test */
+"Check Your Headphones" = "Comproveu els vostres auriculars";
+
+/* settings.clear_cache.markers.alert_message */
+"Choose 'Delete' to remove markers, beacons and routes, or 'Keep' to only remove map data. 'Delete' will reset the app back to a freshly installed state and cannot be undone!" = "Trieu 'Suprimeix' per eliminar marcadors, balises i rutes, o 'Conserva' per eliminar només les dades del mapa. 'Suprimeix' restablirà l'aplicació a un estat acabat d'instal·lar i no es pot desfer.";
+
+/* settings.clear_cache.cleaning_things */
+"Cleaning things up..." = "Netejant coses...";
+
+/* troubleshooting.cleardata */
+"Clear Stored Map Data" = "Esborra les dades del mapa emmagatzemades";
+
+/* general.text.clear_text */
+"Clear text" = "Text clar";
+
+/* settings.direction.style.clock */
+"Clock Position" = "Posició del rellotge";
+
+/* No comment provided by engineer. */
+"Close" = "Tanca";
+
+/* headphonesSetting.test_headset.continue */
+"Complete Configuring" = "Configuració completa";
+
+/* headphonesSetting.connect_headset.completed.airpods */
+"Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitats! Els vostres AirPods estan preparats per utilitzar-los, de manera que podeu posar el telèfon a la butxaca i marxar! VoiceVista ara farà un seguiment de la direcció del vostre cap, de manera que no necessiteu agafar el telèfon a la mà. Un sol clic al botó dels auriculars silenciarà o activarà la balisa, el doble clic indicarà la vostra ubicació i un triple clic repetirà l'última crida.";
+
+/* headphonesSetting.button.1
+   headphonesSetting.connect_headset */
+"Connect Headphones" = "Connecteu els auriculars";
+
+/* ui.continue */
+"Continue" = "Continua";
+
+/* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
+"Continuing along %@" = "Continuant al llarg de %@";
+
+/* Callout that occurs when the user resumes a paused preview mode along a road, %@ is the name of the road, 'Continuing preview along 9th Avenue North' */
+"Continuing Street Preview along %@" = "Continuant Street Preview al llarg de %@";
+
+/* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
+"Continuing Street Preview at %@" = "Continuació de Street Preview a %@";
+
+/* map.hint.1 */
+"Coordinates of the map center" = "Coordenades del centre del mapa";
+
+/* No comment provided by engineer. */
+"Create a New Route" = "Crea una nova ruta";
+
+/* No comment provided by engineer. */
+"Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Creeu una ruta per a vosaltres mateixos o per a una altra persona organitzant un conjunt de marcadors com a punts d'interès d'una ruta.";
+
+/* markers.footnote.1 */
+"Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Creeu marcadors per a les vostres destinacions preferides, punts d'interès en una ruta o qualsevol ubicació que vulgueu indicar.";
+
+/* beacon.styles.current */
+"Current" = "Actual";
+
+/* markers.current_location */
+"Current Location" = "Localització actual";
+
+/* preview.current_intersection_unknown.label */
+"Current Location Unknown" = "Ubicació actual desconeguda";
+
+/* %@ is index number of the current waypoint in the route */
+"Current waypoint index: %@ ." = "Índex de waypoint actual: %@ .";
+
+/* %@ is the current waypoint name */
+"Current waypoint name: %@ ." = "Nom del waypoint actual: %@ .";
+
+/* No comment provided by engineer. */
+"Current: %@" = "Actual: %@";
+
+/* No comment provided by engineer. */
+"CUSTOMIZATION" = "PERSONALITZACIÓ";
+
+/* Motion status: cycling */
+"Cycling" = "Ciclisme";
+
+/* general.alert.delete */
+"Delete" = "Suprimeix";
+
+/* No comment provided by engineer. */
+"Delete a Route" = "Suprimir una ruta";
+
+/* No comment provided by engineer. */
+"Delete Marker" = "Suprimeix el marcador";
+
+/* No comment provided by engineer. */
+"Delete Marker?" = "Vols suprimir el marcador?";
+
+/* No comment provided by engineer. */
+"Delete Markers too" = "Suprimeix també els marcadors";
+
+/* settings.clear_cache.alert_title */
+"Delete Stored Data?" = "Vols suprimir les dades emmagatzemades?";
+
+/* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
+"Departed roundabout. Now along %@" = "Rotonda partida. Ara al costat de %@";
+
+/* beaconSetting.cues */
+"DEPARTURE AND ARRIVAL" = "SORTIDA I ARRIBADA";
+
+/* No comment provided by engineer. */
+"Description" = "Descripció";
+
+/* No comment provided by engineer. */
+"Destination location" = "Localització de destinació";
+
+/* %@ is the beacon name */
+"Destination: %@ ." = "Destinació: %@ .";
+
+/* beacon.command.4 */
+"Detail information" = "Informació detallada";
+
+/* %@ is the direction to the beacon */
+"Direction: %@ ." = "Direcció: %@ .";
+
+/* preview.include_unnamed_roads.label.on */
+"Disable Unnamed Roads" = "Desactiva les carreteres sense nom";
+
+/* general.alert.dismiss */
+"Dismiss" = "Descartar";
+
+/* settings.arrival.style.distance
+   Sort style: Distance */
+"Distance" = "Distància";
+
+/* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
+"Distance between %1$@ and %2$@" = "Distància entre %1$@ i %2$@";
+
+/* %@ could be 50 meters or 150 feet */
+"Distance between waypoints, shoulde >= %@" = "Distància entre waypoints, shoulde >= %@";
+
+/* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
+"Distance should be between %1$@ and %2$@" = "La distància hauria d'estar entre %1$@ i %2$@";
+
+/* settings.callout.distance.poi */
+"Distance to Points of Interest" = "Distància als punts d'interès";
+
+/* settings.callout.distance.beacon */
+"Distance to the Audio Beacon" = "Distància a la balisa d'àudio";
+
+/* beacon.distance.unknown */
+"Distance unknown" = "Distància desconeguda";
+
+/* %@ is the distance to the beacon */
+"Distance: %@ ." = "Distància: %@ .";
+
+/* url_resource.alert.route.import_existing.message */
+"Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Vols substituir-lo? La substitució d'aquesta ruta també substituirà les marques utilitzades en aquesta ruta.";
+
+/* preview.alert.restart.message */
+"Do you want to restart VoiceVista Street Preview at this location?" = "Voleu reiniciar VoiceVista Street Preview en aquesta ubicació?";
+
+/* No comment provided by engineer. */
+"Done" = "Fet";
+
+/* No comment provided by engineer. */
+"Double tap to add a new marker" = "Fes doble toc per afegir un marcador nou";
+
+/* VoiceOver hint for the button that allows users to test their newly connected headset, %@ is the type of headset, 'Double tap to check your AirPods Pro' */
+"Double tap to check your %@" = "Fes doble toc per comprovar el teu %@";
+
+/* preview.include_unnamed_roads.hint.on */
+"Double tap to exclude unnamed roads during VoiceVista Street Preview" = "Fes doble toc per excloure carreteres sense nom durant VoiceVista Street Preview";
+
+/* preview.include_unnamed_roads.hint.off */
+"Double tap to include unnamed roads during VoiceVista Street Preview" = "Fes doble toc per incloure carreteres sense nom durant VoiceVista Street Preview";
+
+/* No comment provided by engineer. */
+"Double tap to mute the audio beacon." = "Fes doble toc per silenciar la balisa d'àudio.";
+
+/* waypoints.addBarButtonItem.hint */
+"Double tap to pick markers" = "Fes doble toc per triar marcadors";
+
+/* vicinity.sleep.acc_hint */
+"Double tap to put VoiceVista to sleep" = "Fes doble toc per posar VoiceVista a dormir";
+
+/* voice.apple.preview_hint */
+"Double tap to select and play a preview." = "Fes doble toc per seleccionar i reproduir una vista prèvia.";
+
+/* markers.leftBarItem.sortByName.hint */
+"Double tap to sort by distance" = "Fes doble toc per ordenar per distància";
+
+/* markers.leftBarItem.sortByDistance.hint */
+"Double tap to sort by name" = "Fes doble toc per ordenar per nom";
+
+/* No comment provided by engineer. */
+"Double tap to unmute the audio beacon." = "Fes doble toc per activar el so de la balisa d'àudio.";
+
+/* map.hint.2 */
+"Drag the map to change the coordinates" = "Arrossegueu el mapa per canviar les coordenades";
+
+/* beacon.styles.drop */
+"Drop" = "Tirar";
+
+/* No comment provided by engineer. */
+"Drop Breadcrumb Marker" = "Deixeu anar el marcador de ruta de pa";
+
+/* directions.cardinal.east */
+"East" = "Est";
+
+/* general.alert.edit */
+"Edit" = "Edita";
+
+/* No comment provided by engineer. */
+"Edit Marker Location" = "Edita la ubicació del marcador";
+
+/* No comment provided by engineer. */
+"Edit Marker Name" = "Edita el nom del marcador";
+
+/* No comment provided by engineer. */
+"Edit Route Name" = "Edita el nom de la ruta";
+
+/* No comment provided by engineer. */
+"Edit Waypoints" = "Edita punts de ruta";
+
+/* placesNearyBy.category.4 */
+"Education" = "Educació";
+
+/* beaconSettings.cues */
+"Enable Departure and Arrival Cues" = "Activa les indicacions de sortida i arribada";
+
+/* settings.audio.mix_with_others.title */
+"Enable Media Controls" = "Activa els controls multimèdia";
+
+/* preview.include_unnamed_roads.label.off */
+"Enable Unnamed Roads" = "Activa les carreteres sense nom";
+
+/* preview.callout.end */
+"Ending VoiceVista Street Preview" = "S'està acabant la vista prèvia de VoiceVista Street";
+
+/* voice.settings.enhanced_available.title */
+"Enhanced Voice Available!" = "Veu millorada disponible!";
+
+/* first_use_experience.preview.tutorial.alert.message.4 */
+"Enjoy and have fun!" = "Gaudeix i diverteix-te!";
+
+/* search.placeholder */
+"Enter text to search for places" = "Introduïu text per cercar llocs";
+
+/* placesNearyBy.category.9 */
+"Entertainment" = "Entreteniment";
+
+/* directions.amenity.entrance_list */
+"Entrance List" = "Llista d'entrada";
+
+/* general.error.error_occurred */
+"Error Occurred" = "S'ha produït un error";
+
+/* first_use_experience.preview.tutorial.alert.message.1 */
+"Explore and get a sense of an area anywhere in the world. For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "Exploreu i tingueu una idea d'una zona a qualsevol part del món. Per obtenir la millor experiència, us recomanem que us aixequeu per girar-vos al seu lloc i utilitzeu auriculars estèreo.";
+
+/* preview.search.label */
+"Explore Nearby" = "Explora a prop";
+
+/* settings.general.externalMapsApp */
+"External Maps App" = "Aplicació de mapes externs";
+
+/* placesNearyBy.category.11 */
+"Facilities" = "Instal·lacions";
+
+/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
+"Factor %@" = "Factor %@";
+
+/* No comment provided by engineer. */
+"Failed to Add Route" = "No s'ha pogut afegir la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Calculate Direction Steps" = "No s'han pogut calcular els passos de direcció";
+
+/* No comment provided by engineer. */
+"Failed to Calculate Waypoints for Route" = "No s'han pogut calcular els waypoints per a la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Create Route" = "No s'ha pogut crear la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Delete Marker" = "No s'ha pogut suprimir el marcador";
+
+/* No comment provided by engineer. */
+"Failed to Drop Breadcrumb Marker" = "No s'ha pogut deixar el marcador de ruta de pa";
+
+/* No comment provided by engineer. */
+"Failed to Generate Reverse Route" = "No s'ha pogut generar la ruta inversa";
+
+/* No comment provided by engineer. */
+"Failed to Get Your Current Location" = "No s'ha pogut obtenir la vostra ubicació actual";
+
+/* No comment provided by engineer. */
+"Failed to Import Markers" = "No s'han pogut importar els marcadors";
+
+/* No comment provided by engineer. */
+"Failed to Import Route" = "No s'ha pogut importar la ruta";
+
+/* No comment provided by engineer. */
+"Failed to Start Monitoring" = "No s'ha pogut iniciar la supervisió";
+
+/* No comment provided by engineer. */
+"Failed to Update" = "No s'ha pogut actualitzar";
+
+/* No comment provided by engineer. */
+"Failed to Update Route to Circular" = "No s'ha pogut actualitzar la ruta a circular";
+
+/* No comment provided by engineer. */
+"Filter Markers" = "Marcadors de filtre";
+
+/* beacon.styles.flare */
+"Flare" = "Flamarada";
+
+/* placesNearyBy.category.3 */
+"Food & Drink" = "Menjar i beure";
+
+/* general.alert.forget */
+"Forget" = "Oblida't";
+
+/* settings.bluetooth.forget */
+"Forget These Headphones" = "Oblida't d'aquests auriculars";
+
+/* No comment provided by engineer. */
+"Frequently Asked Questions" = "Preguntes freqüents";
+
+/* No comment provided by engineer. */
+"General Settings" = "Configuració general";
+
+/* No comment provided by engineer. */
+"Generate a New Reverse Route" = "Generar una nova ruta inversa";
+
+/* No comment provided by engineer. */
+"Generate Route from GPX File" = "Genera una ruta des del fitxer GPX";
+
+/* No comment provided by engineer. */
+"Generated from GPX file" = "Generat a partir d'un fitxer GPX";
+
+/* preview.loading */
+"Getting things ready..." = "Preparant les coses...";
+
+/* No comment provided by engineer. */
+"Go" = "Vés";
+
+/* settings.googleMaps */
+"Google Maps" = "Google Maps";
+
+/* placesNearyBy.category.6 */
+"Groceries" = "Comestibles";
+
+/* No comment provided by engineer. */
+"Group Discussions" = "Debats en grup";
+
+/* beaconSetting.hapticStyle.footer */
+"Haptic feedback is only available when your phone is unlocked and VoiceVista is open." = "Els comentaris hàptics només estan disponibles quan el telèfon està desbloquejat i VoiceVista està obert.";
+
+/* beacon.styles.haptic.pulse */
+"Haptic Pulse" = "Pols hàptic";
+
+/* beaconSetting.hapticStyle */
+"HAPTIC STYLES" = "ESTILS HÀPTICS";
+
+/* beacon.styles.haptic.wand */
+"Haptic Wand" = "Vareta hàptica";
+
+/* settings.headphones */
+"HEAD TRACKING HEADPHONES" = "AURICULARS DE SEGUIMENT DEL CAP";
+
+/* headphonesSetting.explain_ar.disconnected */
+"Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Els auriculars de seguiment del cap són auriculars Bluetooth amb sensors que indiquen a VoiceVista on us trobeu. Això ajuda a VoiceVista a millorar la vostra experiència d'àudio, fent-la més natural a mesura que us moveu pel món.\n\nToqueu el botó següent per connectar els vostres auriculars de seguiment de Head.";
+
+/* devices.callouts.check_audio.default */
+"Head tracking headphones are not connected." = "Els auriculars de seguiment del cap no estan connectats.";
+
+/* headphonesSetting.title.calibrate */
+"Headphones Calibration" = "Calibració d'auriculars";
+
+/* headphonesSetting.test_headset.title */
+"Headphones Check" = "Comprovació d'auriculars";
+
+/* headphonesSetting.title.first_connection */
+"Headphones Connected" = "Auriculars connectats";
+
+/* headphonesSetting.title.completed_connection */
+"Headphones Ready" = "Auriculars a punt";
+
+/* headphonesSetting.title.default */
+"Headphones Setting" = "Configuració dels auriculars";
+
+/* placesNearyBy.category.8 */
+"Healthcare" = "Atenció sanitària";
+
+/* No comment provided by engineer. */
+"Hear about the status of the headphones you are using with VoiceVista" = "Escolteu l'estat dels auriculars que feu servir amb VoiceVista";
+
+/* user_activity.intersections.title */
+"Hear Intersections Ahead" = "Escolteu les interseccions per davant";
+
+/* user_activity.nearby_markers.title */
+"Hear Markers Nearby" = "Escolteu els marcadors a prop";
+
+/* No comment provided by engineer. */
+"House numbers located nearby" = "Números de casa situats a prop";
+
+/* voice.voice_rate_test */
+"How does this sound?" = "Com sona això?";
+
+/* No comment provided by engineer. */
+"How many feet should waypoints be generated between each other for this route?" = "Quants peus s'han de generar waypoints entre si per a aquesta ruta?";
+
+/* No comment provided by engineer. */
+"How many meters should waypoints be generated between each other for this route?" = "Quants metres s'han de generar waypoints entre si per a aquesta ruta?";
+
+/* No comment provided by engineer. */
+"How to Calculate Path?" = "Com calcular el camí?";
+
+/* Message to display alongside a URL that can be used to import a marker. */
+"I've shared a VoiceVista marker with you! '%@;'" = "He compartit un marcador de VoiceVista amb tu! '%@;'";
+
+/* Message to display alongside a URL that can be used to import a route. */
+"I've shared a VoiceVista route with you! '%@'" = "He compartit una ruta de VoiceVista amb vosaltres! '%@'";
+
+/* icloud.kv_store.quota_violation_alert.message */
+"iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "L'emmagatzematge d'iCloud per a aquesta aplicació està ple. Per crear un marcador nou, haureu d'alliberar espai eliminant alguns dels vostres marcadors existents.";
+
+/* No comment provided by engineer. */
+"If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Si heu activat els controls multimèdia a la pestanya de configuració, premeu el botó anterior dels auriculars per repetir l'últim text destacat.";
+
+/* No comment provided by engineer. */
+"If you've enabled media controls in the settings tab, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Si heu activat els controls multimèdia a la pestanya de configuració, podeu prémer el botó de reproducció/pausa dels vostres auriculars per deixar anar també un marcador de ruta.";
+
+/* settings.general.units.feet */
+"Imperial (Feet)" = "Imperial (Peus)";
+
+/* No comment provided by engineer. */
+"Import Markers from BlindSquare Backup" = "Importa els marcadors de la còpia de seguretat de BlindSquare";
+
+/* No comment provided by engineer. */
+"Import Markers from GPX File" = "Importa els marcadors del fitxer GPX";
+
+/* No comment provided by engineer. */
+"Import Soundscape Route File" = "Importa el fitxer de ruta de Soundscape";
+
+/* No comment provided by engineer. */
+"Important Notice" = "Noticia important";
+
+/* voiceSetting.in_vehicle_rate */
+"IN VEHICLE SPEAKING RATE" = "EN TARIFA DE PARLA DE VEHICLES";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate" = "En taxa de parla del vehicle";
+
+/* No comment provided by engineer. */
+"In vehicle speaking rate. How does this sound?" = "En taxa de parla del vehicle. Com sona això?";
+
+/* settings.preview.unnamedroads.detail */
+"Include unnamed roads during Street Preview" = "Inclou carreteres sense nom durant Street Preview";
+
+/* No comment provided by engineer. */
+"Input Latitude and Longitude" = "Introduïu latitud i longitud";
+
+/* callouts.intersection_callout */
+"Intersection Callout" = "Text de la intersecció";
+
+/* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
+"Intersection with %1$@ %2$@" = "Intersecció amb %1$@ %2$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> <5 meters> <to the left>' */
+"Intersection with %1$@ %2$@ %3$@" = "Intersecció amb %1$@ %2$@ %3$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Intersection with <Pike Street> <5 meters> away' */
+"Intersection with %1$@ %2$@ away" = "Intersecció amb %1$@ %2$@ de distància";
+
+/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
+"Intersection with %1$@ was %2$@ %3$@" = "La intersecció amb %1$@ era %2$@ %3$@";
+
+/* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
+"Intersection with %@ nearby" = "Intersecció amb %@ a prop";
+
+/* settings.callout.mobility */
+"Intersections" = "Interseccions";
+
+/* ui.action_button.intersections */
+"Intersections Ahead" = "Interseccions per davant";
+
+/* No comment provided by engineer. */
+"Invalid Breadcrumb Route Name" = "El nom de la ruta de navegació no és vàlid";
+
+/* No comment provided by engineer. */
+"Invalid Latitude and Longitude" = "Latitud i Longitud no vàlides";
+
+/* No comment provided by engineer. */
+"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "És fàcil afegir un marcador nou per utilitzar-lo posteriorment en mode de navegació. Tots els marcadors nous d'aquesta ruta s'anomenaran automàticament.";
+
+/* No comment provided by engineer. */
+"It looks like your privacy settings are preventing from using motion & fitness, please change it in Settings app." = "Sembla que la vostra configuració de privadesa impedeix utilitzar el moviment i la forma física, canvieu-lo a l'aplicació Configuració.";
+
+/* places.footnote.1 */
+"It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Pot ser que trigui una mica a crear la llista de llocs propers. Si no hi ha dades disponibles en aquest moment, si us plau, proveu de tornar-ho a visitar més tard.";
+
+/* No comment provided by engineer. */
+"Junction or road cross" = "Cruïlla o cruïlla de carretera";
+
+/* general.alert.keep */
+"Keep" = "Mantenir";
+
+/* No comment provided by engineer. */
+"Keep Markers" = "Mantenir els marcadors";
+
+/* settings.clear_cache.markers.alert_title */
+"Keep Markers and Routes?" = "Mantenir els marcadors i les rutes?";
+
+/* settings.general.language */
+"Language" = "Llenguatge";
+
+/* No comment provided by engineer. */
+"Latitude or (Latitude, Longitude) or Plus codes" = "Codis Latitud o (Latitud, Longitud) o Plus";
+
+/* general.alert.offline.learn_more */
+"Learn more" = "Aprèn més";
+
+/* location */
+"Location" = "Ubicació";
+
+/* troubleshooting.gps_status.feet */
+"Location Accuracy: %@ feet" = "Precisió de la ubicació: %@ peus";
+
+/* troubleshooting.gps_status.meters */
+"Location Accuracy: %@ meters" = "Precisió de la ubicació: %@ metres";
+
+/* location_detail.title.default */
+"Location Details" = "Detalls de la ubicació";
+
+/* general.error.preview */
+"Location preview could not be started at this location." = "No s'ha pogut iniciar la previsualització de la ubicació en aquesta ubicació.";
+
+/* No comment provided by engineer. */
+"Location Services with Precise Location" = "Serveis de localització amb localització precisa";
+
+/* No comment provided by engineer. */
+"Longitude" = "Longitud";
+
+/* beacon.styles.mallet */
+"Mallet" = "Mallet";
+
+/* beacon.styles.mallet.slow */
+"Mallet (Slow)" = "Mallet (lent)";
+
+/* beacon.styles.mallet.very_slow */
+"Mallet (Very Slow)" = "Mallet (molt lent)";
+
+/* No comment provided by engineer. */
+"Manage Generated Markers" = "Gestiona els marcadors generats";
+
+/* No comment provided by engineer. */
+"Mark Current" = "Marca Current";
+
+/* No comment provided by engineer. */
+"Mark Current Location" = "Marca la ubicació actual";
+
+/* callouts.marked_points */
+"Marked Points" = "Punts marcats";
+
+/* markers.generic_name */
+"Marker" = "Marcador";
+
+/* universal_links.marker_existing.alert.title */
+"Marker already exists" = "El marcador ja existeix";
+
+/* No comment provided by engineer. */
+"Marker Annotation" = "Anotació del marcador";
+
+/* markerAddedEvent.marker_created */
+"Marker created" = "Marcador creat";
+
+/* markers.action.deleted */
+"Marker deleted" = "S'ha suprimit el marcador";
+
+/* location_detail.title.marker */
+"Marker Details" = "Detalls del marcador";
+
+/* No comment provided by engineer. */
+"Marker Name" = "Nom del marcador";
+
+/* Marker Information, %@ is the name of the marker, 'Marker. <Starbucks>' */
+"Marker. %@" = "Marcador. %@";
+
+/* No comment provided by engineer. */
+"Markers Imported from Blindsquare Backup Successfully" = "Els marcadors s'han importat de la còpia de seguretat de Blindsquare correctament";
+
+/* No comment provided by engineer. */
+"Markers Imported from GPX File Successfully" = "Els marcadors s'han importat correctament del fitxer GPX";
+
+/* No comment provided by engineer. */
+"Markers Nearby" = "Marcadors a prop";
+
+/* settings.general.units.meters */
+"Metric (Meters)" = "Mètrica (metres)";
+
+/* settings.callout.mobility */
+"Mobility and Safety" = "Mobilitat i Seguretat";
+
+/* %@ is the name of the monitoring location */
+"Monitoring %@" = "Monitorització de %@";
+
+/* No comment provided by engineer. */
+"Motion & Fitness" = "Moviment i fitness";
+
+/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+"Motion: %@" = "Moviment: %@";
+
+/* No comment provided by engineer. */
+"Mute Beacon" = "Faro silenciós";
+
+/* directions.my_location
+   ui.action_button.my_location */
+"My Location" = "La meva ubicació";
+
+/* Sort style: Name */
+"Name" = "Nom";
+
+/* No comment provided by engineer. */
+"NAVIGATION" = "NAVEGACIÓ";
+
+/* No comment provided by engineer. */
+"Navigation instructions" = "Instruccions de navegació";
+
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+"Near %@" = "Prop de %@";
+
+/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
+"Near address %@" = "A prop de l'adreça %@";
+
+/* poi_screen.section_header.nearby */
+"Nearby" = "A prop";
+
+/* ui.action_button.nearby_markers */
+"Nearby Markers" = "Marcadors propers";
+
+/* settings.callout.places.detail */
+"Nearby places likes shops and restaurants" = "Llocs propers com botigues i restaurants";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
+"Nearest road, %1$@, is %2$@ %3$@" = "La carretera més propera, %1$@, és %2$@ %3$@";
+
+/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Nearest road, <Pike Street>, is <5 meters> away' */
+"Nearest road, %1$@, is %2$@ away" = "La carretera més propera, %1$@, és a %2$@";
+
+/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
+"Nearest road, %1$@, was %2$@ %3$@" = "La carretera més propera, %1$@, era %2$@ %3$@";
+
+/* permissions.alert.title.1 */
+"Need Accuracy Location Permission" = "Necessiteu permís d'ubicació de precisió";
+
+/* permissions.alert.title.2 */
+"Need Motion & Fitness Permission" = "Necessites permís de moviment i fitness";
+
+/* No comment provided by engineer. */
+"Need to request permission" = "Cal demanar permís";
+
+/* No comment provided by engineer. */
+"Network Connection Required" = "Connexió a la xarxa necessària";
+
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
+   Notification, %@ intersection name */
+"Next intersection: %@" = "Pròxima intersecció: %@";
+
+/* preview.callout.road_finder.intersection.same */
+"Next intersection: Circles back to current intersection" = "Següent intersecció: torna a fer un cercle fins a la intersecció actual";
+
+/* preview.callout.road_finder.intersection.end */
+"Next intersection: End of road" = "Pròxima intersecció: final de carretera";
+
+/* beacon.command.3 */
+"Next waypoint" = "Següent waypoint";
+
+/* No comment provided by engineer. */
+"Next: Call out What's My Location." = "Següent: truca Quina és la meva ubicació.";
+
+/* No comment provided by engineer. */
+"No audio beacon set" = "No s'ha establert cap balisa d'àudio";
+
+/* No comment provided by engineer. */
+"No internet connection; some functions are limited in offline mode." = "Sense connexió a Internet; algunes funcions estan limitades en mode fora de línia.";
+
+/* No comment provided by engineer. */
+"No last callout" = "Sense l'última crida";
+
+/* location_detail.default.annotation */
+"No marker annotation" = "Sense anotació de marcador";
+
+/* No comment provided by engineer. */
+"No Motion Permission" = "Sense permís de moviment";
+
+/* No comment provided by engineer. */
+"No network connection" = "Sense connexió de xarxa";
+
+/* No comment provided by engineer. */
+"No waypoint data found in the GPX file." = "No s'han trobat dades de waypoint al fitxer GPX.";
+
+/* routeDetail.noWaypoints.alert.title */
+"No waypoints defined" = "No s'han definit waypoints";
+
+/* settings.direction.style.none */
+"None" = "Cap";
+
+/* directions.cardinal.north */
+"North" = "nord";
+
+/* directions.cardinal.north_east */
+"North East" = "Nord-est";
+
+/* directions.cardinal.north_west */
+"North West" = "nord-oest";
+
+/* general.alert.not_now
+   general.alert.notnow */
+"Not Now" = "Ara no";
+
+/* general.alert.offline_default.title */
+"Offline mode" = "Mode fora de línia";
+
+/* No comment provided by engineer. */
+"On foot speaking rate" = "Velocitat de parla a peu";
+
+/* voiceSetting.on_foot_rate */
+"ON FOOT SPEAKING RATE" = "TARIFA DE PARLA A PEU";
+
+/* No comment provided by engineer. */
+"On foot speaking rate. How does this sound?" = "Velocitat de parla a peu. Com sona això?";
+
+/* Mode 2 for path calculation */
+"Only Use Last Waypoint" = "Utilitzeu només l'últim waypoint";
+
+/* universal_links.alert.error.title */
+"Oops! Something went wrong." = "Vaja! Alguna cosa ha anat malament.";
+
+/* locationDetail.openInApple */
+"Open in Apple Maps" = "Obre a Apple Maps";
+
+/* locationDetail.openInGoogle */
+"Open in Google Maps" = "Obre a Google Maps";
+
+/* general.error.location_services_resume */
+"Open VoiceVista to resume Location Services" = "Obriu VoiceVista per reprendre els serveis d'ubicació";
+
+/* beacon.styles.original */
+"Original" = "Original";
+
+/* No comment provided by engineer. */
+"Other Distance" = "Altres Distància";
+
+/* voiceSetting.others */
+"OTHER LANGUAGES" = "ALTRES LLENGÜES";
+
+/* placesNearyBy.category.12 */
+"Others" = "Altres";
+
+/* No comment provided by engineer. */
+"OTHERS" = "ALTRES";
+
+/* headphonesSetting.title.pair_audio */
+"Pair Headphones Audio" = "Vincula l'àudio dels auriculars";
+
+/* No comment provided by engineer. */
+"Paste Marker from Soundscape" = "Enganxa el marcador de Soundscape";
+
+/* No comment provided by engineer. */
+"Paste URL from Apple Maps" = "Enganxeu l'URL d'Apple Maps";
+
+/* No comment provided by engineer. */
+"Permission granted" = "Permís concedit";
+
+/* No comment provided by engineer. */
+"Permission NOT granted" = "Permís NO concedit";
+
+/* No comment provided by engineer. */
+"Permission requested" = "Permís sol·licitat";
+
+/* permissinos.title */
+"Permissions" = "Permisos";
+
+/* No comment provided by engineer. */
+"Pick from Markers" = "Trieu entre els marcadors";
+
+/* markerpickers.title */
+"Pick Markers" = "Trieu els marcadors";
+
+/* No comment provided by engineer. */
+"Pick Waypoints from Markers" = "Trieu punts d'interès dels marcadors";
+
+/* beacon.styles.ping */
+"Ping" = "Ping";
+
+/* placefilters.title */
+"Places" = "Llocs";
+
+/* settings.callout.places */
+"Places and Landmarks" = "Llocs i fites";
+
+/* placefilters.footnoot.2 */
+"Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Les dades de llocs provenen d'Apple Maps, OpenStreetMap i Overture Maps.";
+
+/* No comment provided by engineer. */
+"Places Nearby" = "Llocs propers";
+
+/* No comment provided by engineer. */
+"Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Reproduir/pausa: silencieu els missatges destacats actuals i, si la balisa d'àudio està activada, canvieu l'àudio de la balisa.";
+
+/* routeDetail.noWaypoints.alert.message */
+"Please add waypoints to complete the route creation." = "Si us plau, afegiu waypoints per completar la creació de la ruta.";
+
+/* No comment provided by engineer. */
+"Please enter a route name." = "Introduïu un nom de ruta.";
+
+/* permissions.alert.message.1
+   permissions.alert.message.2 */
+"Please grant permission in Settings app." = "Doneu permís a l'aplicació Configuració.";
+
+/* No comment provided by engineer. */
+"Please specify destination location." = "Especifiqueu la ubicació de destinació.";
+
+/* No comment provided by engineer. */
+"Please specify starting location." = "Especifiqueu la ubicació d'inici.";
+
+/* No comment provided by engineer. */
+"Please try later." = "Si us plau, prova-ho més tard.";
+
+/* No comment provided by engineer. */
+"POI Range Multiplier" = "Multiplicador de rang de PDI";
+
+/* settings.callout.distance.poi.detail */
+"Points of interest info" = "Informació sobre punts d'interès";
+
+/* No comment provided by engineer. */
+"PREFERENCE" = "PREFERÈNCIA";
+
+/* No comment provided by engineer. */
+"Press the previous button on your headphones to repeat the last callout." = "Premeu el botó anterior dels auriculars per repetir l'última crida.";
+
+/* voice.action.preview */
+"Preview" = "Vista prèvia";
+
+/* preview.alert.restart.title */
+"Preview Already in Progress" = "Vista prèvia ja en curs";
+
+/* No comment provided by engineer. */
+"Previous" = "Anterior";
+
+/* directions.previous_location */
+"Previous Location" = "Ubicació anterior";
+
+/* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
+"Previous Location, Along %@" = "Ubicació anterior, al costat de %@";
+
+/* beacon.command.2 */
+"Previous waypoint" = "Punt de ruta anterior";
+
+/* No comment provided by engineer. */
+"Previous: Repeat last callout." = "Anterior: repeteix l'últim text destacat.";
+
+/* placesNearyBy.category.10 */
+"Public Service" = "Servei públic";
+
+/* placesNearyBy.category.2 */
+"Public Transit" = "Transport públic";
+
+/* waypoints.cancel_alert_quit */
+"Quit Without Save" = "Surt sense desar";
+
+/* No comment provided by engineer. */
+"Recent Callouts" = "Textos destacats recents";
+
+/* search.table.header.recentCallouts */
+"RECENT CALLOUTS" = "RECORDS RECENTS";
+
+/* No comment provided by engineer. */
+"Recent callouts are listed here." = "Els textos destacats recents es mostren aquí.";
+
+/* search.table.header.recentSelections */
+"RECENT SELECTIONS" = "SELECCIONS RECENTES";
+
+/* settings.direction.style.relative */
+"Relative Direction" = "Direcció relativa";
+
+/* No comment provided by engineer. */
+"Remove Alert Distance Setting" = "Elimina la configuració de distància d'alerta";
+
+/* No comment provided by engineer. */
+"Repeat Last Callout" = "Repetiu l'última crida";
+
+/* general.alert.replace */
+"Replace" = "Substituïu";
+
+/* preview.alert.restart.button */
+"Restart" = "Reinicia";
+
+/* general.alert.resume */
+"Resume" = "Resum";
+
+/* preview.callout.previous */
+"Returning to previous intersection" = "Tornant a la intersecció anterior";
+
+/* Label of button to generate a reverse route or update the current route to circular */
+"Reverse or Circular" = "Circular o inversa";
+
+/* No comment provided by engineer. */
+"Reverse Route Generated" = "Ruta inversa generada";
+
+/* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
+"Roundabout with %1$@ exits %2$@" = "Rotonda amb %1$@ sortides %2$@";
+
+/* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
+"Roundabout with %1$@ exits %2$@ %3$@" = "Rotonda amb %1$@ sortides %2$@ %3$@";
+
+/* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
+"Roundabout with %1$@ exits %2$@ away" = "Rotonda amb %1$@ sortides a %2$@ de distància";
+
+/* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
+"Roundabout with %1$@ exits nearby" = "Rotonda amb %1$@ sortides a prop";
+
+/* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
+"Roundabout with %1$@ exits was %2$@ %3$@" = "La rotonda amb %1$@ sortides era %2$@ %3$@";
+
+/* route_detail.name.default */
+"Route" = "Ruta";
+
+/* url_resource.alert.route.import_existing.title */
+"Route already exists" = "La ruta ja existeix";
+
+/* routes.callout.complete */
+"Route complete!" = "Ruta completada!";
+
+/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
+"Route Completed! %@" = "Ruta completada! %@";
+
+/* routeAddedEvent.route_created */
+"Route created" = "Ruta creada";
+
+/* routes.action.deleted */
+"Route deleted" = "S'ha suprimit la ruta";
+
+/* No comment provided by engineer. */
+"Route Details" = "Detalls de la ruta";
+
+/* routes.import.alert.title */
+"Route Error" = "Error de ruta";
+
+/* No comment provided by engineer. */
+"Route Name" = "Nom de la ruta";
+
+/* No comment provided by engineer. */
+"Route name: %@ ." = "Nom de la ruta: %@ .";
+
+/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
+"Route Stopped, %@" = "Ruta aturada, %@";
+
+/* No comment provided by engineer. */
+"Route Updated to a Circular Journey" = "Ruta actualitzada a un viatge circular";
+
+/* routes.title */
+"Routes" = "Rutes";
+
+/* Motion status: running */
+"Running" = "Córrer";
+
+/* universal_links.alert.action.marker */
+"Save as Marker" = "Desa com a marcador";
+
+/* No comment provided by engineer. */
+"Save Current" = "Desa el corrent";
+
+/* user_activity.save_marker.title */
+"Save Marker" = "Desa el marcador";
+
+/* url_resource.alert.route.import.save */
+"Save Route" = "Guarda la ruta";
+
+/* waypoints.cancel_alert_save */
+"Save then Exit" = "Desa i després Surt";
+
+/* search.title */
+"Search" = "Cerca";
+
+/* user_activity.search.title */
+"Search in VoiceVista" = "Cerca a VoiceVista";
+
+/* general.alert.offline_search.title */
+"Search is not available" = "La cerca no està disponible";
+
+/* No comment provided by engineer. */
+"Search Location by Text" = "Cerca la ubicació per text";
+
+/* No comment provided by engineer. */
+"Select a Destination Location" = "Seleccioneu una ubicació de destinació";
+
+/* markerspicker.footnote */
+"Select a marker to continue." = "Seleccioneu un marcador per continuar.";
+
+/* No comment provided by engineer. */
+"Select a Starting Location" = "Seleccioneu una ubicació inicial";
+
+/* markers.add.selectFromMap */
+"Select Location from Map" = "Seleccioneu la ubicació del mapa";
+
+/* universal_links.alert.action.beacon */
+"Set a Beacon" = "Estableix un far";
+
+/* No comment provided by engineer. */
+"Set Alert Distance" = "Estableix la distància d'alerta";
+
+/* No comment provided by engineer. */
+"Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Estableix i desa una distància d'alerta permanent per a cada marcador individualment. Se us notificarà tan aviat com estigui més a prop de la vostra distància definida.";
+
+/* settings.screen_title
+   settings.title */
+"Settings" = "Configuració";
+
+/* No comment provided by engineer. */
+"Shake Motion Response" = "Resposta de moviment de sacsejada";
+
+/* No comment provided by engineer. */
+"Shake the phone to call out what's my location when VoiceVista is running in the foreground." = "Agiteu el telèfon per dir quina és la meva ubicació quan VoiceVista s'executa en primer pla.";
+
+/* No comment provided by engineer. */
+"Shake the phone to repeat the last callout when VoiceVista is running in the foreground." = "Agiteu el telèfon per repetir l'última crida quan VoiceVista s'executa en primer pla.";
+
+/* No comment provided by engineer. */
+"Share" = "Compartir";
+
+/* No comment provided by engineer. */
+"Share Current" = "Comparteix el corrent";
+
+/* first_use_experience.share.alert.title */
+"Sharing in VoiceVista" = "Compartint a VoiceVista";
+
+/* beacon.styles.shimmer */
+"Shimmer" = "Brillant";
+
+/* No comment provided by engineer. */
+"Shortcut Settings" = "Configuració de la drecera";
+
+/* No comment provided by engineer. */
+"Shortcuts Settings" = "Configuració de dreceres";
+
+/* beacon.styles.signal */
+"Signal" = "Senyal";
+
+/* beacon.styles.signal.slow */
+"Signal (Slow)" = "Senyal (lent)";
+
+/* beacon.styles.signal.very_slow */
+"Signal (Very Slow)" = "Senyal (molt lent)";
+
+/* settings.general.siri
+   siriSetting.title */
+"Siri Shortcuts" = "Dreceres de Siri";
+
+/* No comment provided by engineer. */
+"Skip Backward: Call out What's Around Me." = "Saltar enrere: crida el que hi ha al meu voltant.";
+
+/* No comment provided by engineer. */
+"Skip Forward: Toggle callouts On and Off." = "Saltar endavant: activa i desactiva els textos destacats.";
+
+/* vicinity.sleep */
+"Sleep" = "Dormir";
+
+/* sleep.sleeping */
+"Sleeping" = "Dorment";
+
+/* No comment provided by engineer. */
+"Snoozing" = "Posposant";
+
+/* No comment provided by engineer. */
+"Sorted by Distance" = "Ordenat per Distància";
+
+/* No comment provided by engineer. */
+"Sorted By Name" = "Ordenat per nom";
+
+/* settings.general.volume.sound */
+"Sound" = "So";
+
+/* voiceSetting.sound */
+"SOUND EFFECTS" = "EFECTES DE SO";
+
+/* volumeSettings.sound */
+"Sound effects volume" = "Volum dels efectes de so";
+
+/* directions.cardinal.south */
+"South" = "Sud";
+
+/* directions.cardinal.south_east */
+"South East" = "Sud-est";
+
+/* directions.cardinal.south_west */
+"South West" = "Sud-oest";
+
+/* No comment provided by engineer. */
+"Start Beacon" = "Inici Beacon";
+
+/* Label of button to start breadcrumb mode */
+"Start Breadcrumb Mode" = "Inicieu el mode Breadcrumb";
+
+/* headphonesSetting.connect_headset.calibrate.button */
+"Start Calibration" = "Inicieu la calibració";
+
+/* No comment provided by engineer. */
+"Start Monitoring" = "Inicieu el seguiment";
+
+/* user_activity.start_route.title
+   voice.action.start_route */
+"Start Route" = "Inici de la ruta";
+
+/* user_activity.street_preview.title */
+"Start Street Preview" = "Inicieu Street Preview";
+
+/* No comment provided by engineer. */
+"Starting location" = "Lloc de partida";
+
+/* Callout that occurs when the user starts preview mode along a road, %@ is the name of the road, 'Starting preview along 9th Avenue North' */
+"Starting Street Preview along %@" = "S'està iniciant Street Preview al llarg de %@";
+
+/* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
+"Starting Street Preview at %@" = "S'està iniciant Street Preview a %@";
+
+/* Motion status: stationary */
+"Stationary" = "Estacionari";
+
+/* No comment provided by engineer. */
+"Stop Beacon" = "Stop Beacon";
+
+/* beacon.command.1 */
+"Stop beacon" = "Atura la balisa";
+
+/* No comment provided by engineer. */
+"Stop Monitoring" = "Atura el seguiment";
+
+/* No comment provided by engineer. */
+"Stop Route" = "Parada de ruta";
+
+/* No comment provided by engineer. */
+"Street Name Interval in Seconds" = "Interval del nom del carrer en segons";
+
+/* No comment provided by engineer. */
+"Street Names" = "Noms de carrers";
+
+/* first_use_experience.preview.tutorial.alert.title
+   preview.title */
+"Street Preview" = "Vista prèvia del carrer";
+
+/* preview.callout.paused */
+"Street Preview paused" = "Street Preview s'ha posat en pausa";
+
+/* No comment provided by engineer. */
+"Summary" = "Resum";
+
+/* vicinity.title */
+"Surroundings" = "Entorns";
+
+/* No comment provided by engineer. */
+"Swipe left on buttons to perform additional actions, including places nearby and intersections ahead." = "Feu lliscar els botons cap a l'esquerra per dur a terme accions addicionals, inclosos llocs propers i interseccions més endavant.";
+
+/* beacon.styles.tactile */
+"Tactile" = "Tàctil";
+
+/* No comment provided by engineer. */
+"Tap the button below to stop monitoring and wake up now." = "Toqueu el botó següent per aturar el seguiment i despertar-vos ara.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up now." = "Toca el botó de sota per despertar-te ara.";
+
+/* No comment provided by engineer. */
+"Tap the button below to wake up VoiceVista." = "Toqueu el botó següent per activar VoiceVista.";
+
+/* permissionmanager.alert.test */
+"Test Location" = "Ubicació de la prova";
+
+/* No comment provided by engineer. */
+"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "La distància de silenciació automàtica de la balisa defineix a quina distància es silencia automàticament la balisa d'àudio.";
+
+/* No comment provided by engineer. */
+"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "El factor de freqüència de la balisa determina la freqüència amb què VoiceVista anunciarà la distància de la balisa. Un factor més gran dóna lloc a trucades més freqüents.";
+
+/* url_resource.alert.route.import_error.message */
+"The content appears to be invalid." = "Sembla que el contingut no és vàlid.";
+
+/* No comment provided by engineer. */
+"The device does not support region monitoring feature." = "El dispositiu no admet la funció de supervisió de regió.";
+
+/* No comment provided by engineer. */
+"The distance between waypoints should not be too small." = "La distància entre waypoints no ha de ser massa petita.";
+
+/* %@ is the name of a route being breadcrumb mode */
+"The dropped breadcrumb marker will be named automatically and added to route %@." = "El marcador de navegació deixat s'anomenarà automàticament i s'afegirà a la ruta %@.";
+
+/* headphonesSetting.connect_headset.unavailable */
+"The headphones you selected are currently unavailable for connection. Please try again later." = "Els auriculars que heu seleccionat actualment no estan disponibles per a la connexió. Siusplau, intenta-ho més tard.";
+
+/* universal_links.alert.import_error.message
+   universal_links.alert.share_error.message */
+"The link appears to be invalid." = "Sembla que l'enllaç no és vàlid.";
+
+/* No comment provided by engineer. */
+"The names of generated markers start with the character '~'." = "Els noms dels marcadors generats comencen amb el caràcter '~'.";
+
+/* No comment provided by engineer. */
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La funció de supervisió d'inici és semblant a establir una balisa en una destinació, però no rebràs actualitzacions de so ni de distància fins que no estiguis a una distància especificada. Bàsicament, VoiceVista s'adorm i només es desperta quan esteu a prop de la vostra destinació.";
+
+/* No comment provided by engineer. */
+"The street name interval in seconds defines the callout interval for street names." = "L'interval de nom de carrer en segons defineix l'interval de trucada per als noms de carrer.";
+
+/* No comment provided by engineer. */
+"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "La pestanya Entorn i la pestanya Assistent s'han combinat des de la versió 1.2.3. Pestanyes reduïdes de 5 a 4. Ara podeu utilitzar el rotor d'accions dels botons de la pestanya Entorn per realitzar accions addicionals.";
+
+/* No comment provided by engineer. */
+"There are no intersections ahead to call out right now" = "No hi ha interseccions per davant per trucar ara mateix";
+
+/* callouts.no_nearby_markers_to_call_out_now */
+"There are no nearby markers to call out right now." = "No hi ha cap marcador proper per cridar ara mateix.";
+
+/* No comment provided by engineer. */
+"There are no nearby places to call out right now" = "No hi ha llocs propers per trucar ara mateix";
+
+/* No comment provided by engineer. */
+"There are no places ahead to call out right now" = "No hi ha cap lloc per davant per trucar ara mateix";
+
+/* No comment provided by engineer. */
+"There are no turn by turn instructions now." = "Ara no hi ha instruccions pas a pas.";
+
+/* general.alert.destructive_undone_message */
+"This action cannot be undone" = "Aquesta acció no es pot desfer";
+
+/* universal_links.alert.share_error.message */
+"This content could not be shared." = "Aquest contingut no s'ha pogut compartir.";
+
+/* No comment provided by engineer. */
+"This helps conserve battery when you are not actively using VoiceVista." = "Això ajuda a estalviar bateria quan no feu servir VoiceVista de manera activa.";
+
+/* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
+"This is %@. How does this sound?" = "Això és %@. Com sona això?";
+
+/* No comment provided by engineer. */
+"This uses Location Services in a low-power mode to conserve your phone's battery." = "Això utilitza els serveis d'ubicació en un mode de baix consum per estalviar la bateria del telèfon.";
+
+/* No comment provided by engineer. */
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 10 meters is good. Less than 20 meters is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Aquest valor és una estimació de la precisió amb què VoiceVista sap on et trobes. Menys de 10 metres és bo. Menys de 20 metres està bé. Qualsevol altra cosa és pobre. Les dades d'ubicació són més precises quan estan fora i no sota cap estructura.";
+
+/* No comment provided by engineer. */
+"This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Aquest valor és una estimació de la precisió amb què VoiceVista sap on et trobes. Menys de 30 peus és bo. Menys de 60 peus està bé. Qualsevol altra cosa és pobre. Les dades d'ubicació són més precises quan estan fora i no sota cap estructura.";
+
+/* headphonesSetting.forget_headset.prompt.explanation */
+"This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Això desconnectarà els vostres auriculars de VoiceVista. Podeu tornar a connectar-vos a VoiceVista en el futur des d'aquí.";
+
+/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+"To %@" = "a %@";
+
+/* placefilters.footnoot.1
+   places.footnot.2 */
+"To browse nearby places, access to location is required." = "Per navegar per llocs propers, cal accedir a la ubicació.";
+
+/* markers.footnote.2 */
+"To calculate distance, access location is required." = "Per calcular la distància, cal la ubicació d'accés.";
+
+/* search.footnot.2 */
+"To calculate distances, access to location is required." = "Per calcular les distàncies, cal accedir a la ubicació.";
+
+/* permissions.info.2 */
+"To enable these features, please grant the following permissions:" = "Per habilitar aquestes funcions, concediu els permisos següents:";
+
+/* No comment provided by engineer. */
+"To hear surroundings, access to location and motion is required." = "Per escoltar l'entorn, cal accedir a la ubicació i al moviment.";
+
+/* directions.direction.to_the_left */
+"to the left" = "a l'esquerra";
+
+/* directions.direction.to_the_right */
+"to the right" = "a la dreta";
+
+/* markerspicker.footnote.allowMultipleSelection */
+"Toggle markers on/off to select multiple." = "Activa/desactiva els marcadors per seleccionar múltiples.";
+
+/* No comment provided by engineer. */
+"Too Close to Drop Another Breadcrumb Marker" = "Massa a prop per deixar caure un altre marcador de ruta";
+
+/* %@ is the count of waypoints in a route */
+"Total waypoints count: %@ ." = "Recompte total de waypoints: %@ .";
+
+/* Type 3 for navigation transport */
+"Transit" = "Trànsit";
+
+/* placesNearyBy.category.5 */
+"Transportation" = "Transport";
+
+/* settings.callout.mobility.detail */
+"Transportation info" = "Informació de transport";
+
+/* troubleshooting.title */
+"Troubleshooting" = "Resolució de problemes";
+
+/* permissionmanager.alert.title */
+"Try with Test Location" = "Prova amb la ubicació de prova";
+
+/* settings.callout.all.detail */
+"Turn all callouts on or off" = "Activa o desactiva tots els textos destacats";
+
+/* general.error.location_services */
+"Turn on Location Services to use VoiceVista" = "Activeu els serveis d'ubicació per utilitzar VoiceVista";
+
+/* general.error.precise_location */
+"Turn on Precise Location to use VoiceVista" = "Activa la ubicació precisa per utilitzar VoiceVista";
+
+/* preview.callout.road_finder.error_instructions */
+"Turn to select a road and then press Go" = "Gireu per seleccionar una carretera i, a continuació, premeu Vés";
+
+/* preview.callout.road_finder.instructions */
+"Turn your phone to preview available roads" = "Gireu el telèfon per previsualitzar les carreteres disponibles";
+
+/* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
+"Turned left. Now along %@" = "Girat a l'esquerra. Ara al costat de %@";
+
+/* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
+"Turned right. Now along %@" = "Gira a la dreta. Ara al costat de %@";
+
+/* setting.audio.mix_with_others.confirmation */
+"Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Si activeu aquesta configuració, les notes destacades i altres àudios de VoiceVista es posaran en pausa cada vegada que comenceu a utilitzar una aplicació multimèdia diferent. Pots tornar a VoiceVista per reprendre els textos destacats.";
+
+/* settings.clear_cache.no_service.title */
+"Unable to Clear Stored Map Data" = "No es poden esborrar les dades del mapa emmagatzemades";
+
+/* headphonesSetting.connect_headset.error_title */
+"Unable to Connect" = "No pot connectar";
+
+/* No comment provided by engineer. */
+"Unable to Start Monitoring" = "No es pot iniciar el seguiment";
+
+/* No comment provided by engineer. */
+"Unexpected BlindSquare backup file format" = "Format de fitxer de còpia de seguretat de BlindSquare inesperat";
+
+/* settings.general.units */
+"Units of Measure" = "Unitats de mesura";
+
+/* No comment provided by engineer. */
+"Unknow location" = "Localització desconeguda";
+
+/* Motion status: unknow
+   poi.unknown */
+"Unknown" = "Desconegut";
+
+/* No comment provided by engineer. */
+"Unknown Current Location" = "Ubicació actual desconeguda";
+
+/* troubleshooting.gps_status.unknown */
+"Unknown Location Accuracy" = "Precisió d'ubicació desconeguda";
+
+/* No comment provided by engineer. */
+"Unknown Type" = "Tipus desconegut";
+
+/* No comment provided by engineer. */
+"Unknown URL in the pasteboard" = "URL desconegut al tauler";
+
+/* No comment provided by engineer. */
+"Unmute beacon" = "Activa la balisa";
+
+/* settings.preview.unnamedroads */
+"Unnamed Roads" = "Carreteres sense nom";
+
+/* No comment provided by engineer. */
+"Update Current Route to Circular" = "Actualitza la ruta actual a circular";
+
+/* No comment provided by engineer. */
+"Updates about distance to the audio beacon when it's set" = "Actualitzacions sobre la distància a la balisa d'àudio quan està configurada";
+
+/* No comment provided by engineer. */
+"Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Utilitzeu els botons de l'extrem superior dret per editar el nom del marcador, l'anotació, la distància d'alerta i la ubicació.";
+
+/* No comment provided by engineer. */
+"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Utilitzeu els botons de l'extrem superior dret per generar rutes invertides, editar waypoints, nom i descripció.";
+
+/* No comment provided by engineer. */
+"Use Current Location" = "Utilitza la ubicació actual";
+
+/* voice.settings.enhanced_available.button */
+"Use Current Version" = "Utilitzeu la versió actual";
+
+/* Mode 1 for path calculation */
+"Use Each Waypoint Separately" = "Utilitzeu cada waypoint per separat";
+
+/* No comment provided by engineer. */
+"Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Utilitzeu el rotor d'accions dels botons per realitzar accions addicionals, inclosos llocs propers i interseccions més endavant.";
+
+/* No comment provided by engineer. */
+"Use the button in the top-right corner to save as a marker." = "Utilitzeu el botó de l'extrem superior dret per desar-lo com a marcador.";
+
+/* settings.audio.mix_with_others.description */
+"Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Utilitzeu-ho per activar el control de VoiceVista amb els botons dels auriculars i els botons de reproducció multimèdia de la pantalla de bloqueig. Tingueu en compte que quan està activat, VoiceVista no es pot utilitzar mentre s'estan reproduint altres mitjans, com ara podcasts o música.";
+
+/* preview.note.1 */
+"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Feu servir el telèfon com a punter, gireu lentament i els noms dels carrers s'anomenaran mentre gireu. Quan estigueu de cara al carrer que voleu baixar, toqueu 'Anar' i avançareu a la següent intersecció.";
+
+/* No comment provided by engineer. */
+"View Detail" = "Veure Detall";
+
+/* settings.general.voice
+   settings.general.volume.voice */
+"Voice" = "Veu";
+
+/* volumeSetting.voice */
+"VOICE" = "VEU";
+
+/* No comment provided by engineer. */
+"Voice hint when approaching turn points" = "Suggeriment de veu quan s'acosta als punts de viratge";
+
+/* voiceSetting.title */
+"Voice Settings" = "Configuració de veu";
+
+/* volumeSettings.voice */
+"Voice volume" = "Volum de veu";
+
+/* No comment provided by engineer. */
+"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista pot generar automàticament marcadors per a la vostra ruta. Aquests marcadors s'amaguen inicialment a la pestanya 'Marcadors' i els podeu gestionar aquí.";
+
+/* No comment provided by engineer. */
+"VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista pot calcular punts de referència com a referència en funció de les ubicacions d'inici i de destinació.";
+
+/* No comment provided by engineer. */
+"VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "VoiceVista pot generar una nova ruta inversa amb waypoints en ordre invers per a la vostra comoditat. És possible que hàgiu d'ajustar els punts de referència per a la ruta invertida abans de començar la guia.";
+
+/* No comment provided by engineer. */
+"VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista descarrega dades de mapes mentre camines per tal que et pugui informar sobre les coses i els llocs que t'envolten. Si teniu problemes amb VoiceVista o utilitza massa memòria, podeu esborrar les dades del mapa emmagatzemades i VoiceVista només tornarà a descarregar les dades del mapa a prop de la vostra ubicació actual.";
+
+/* icloud.kv_store.quota_violation_alert.title */
+"VoiceVista iCloud Storage Full" = "Emmagatzematge VoiceVista iCloud complet";
+
+/* terms_of_use.safety_notice */
+"VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista és una ajuda per a la navegació i no s'ha d'utilitzar en lloc d'habilitats de mobilitat, ser conscient de l'entorn i bon criteri. Aneu amb compte quan navegueu pel vostre entorn, ja que les dades de mapes incorporades al programa VoiceVista es capturen d'un programa de tercers i, per tant, pot haver-hi limitacions amb la precisió de la informació presentada.";
+
+/* No comment provided by engineer. */
+"VoiceVista is back online with full functionality." = "VoiceVista torna a estar en línia amb totes les funcionalitats.";
+
+/* headphonesSetting.explain_ar.connecting */
+"VoiceVista is connecting to your headphones. One moment..." = "VoiceVista s'està connectant als teus auriculars. Un moment...";
+
+/* No comment provided by engineer. */
+"VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista està actualment en mode de repòs. En aquest mode, VoiceVista no utilitza els serveis d'ubicació ni baixa dades.";
+
+/* No comment provided by engineer. */
+"VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista està actualment en mode de posposar. Es despertarà automàticament quan abandonis la teva ubicació actual.";
+
+/* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
+"VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista està supervisant '%1$@' dins d'un interval '%2$@'. Quan arribeu a aquest rang, VoiceVista es despertarà automàticament i establirà aquest marcador com a balisa d'àudio.";
+
+/* settings.clear_cache.no_service.message */
+"VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista actualment no es pot connectar a Internet. Es requereix una connexió a Internet quan esborreu les dades del mapa emmagatzemades perquè les dades del mapa es puguin actualitzar.";
+
+/* headphonesSetting.explain_ar.paired */
+"VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista no està connectat actualment als teus auriculars. Assegureu-vos que els vostres auriculars estiguin engegats i a prop del telèfon.";
+
+/* general.error.heading */
+"VoiceVista is not sure which direction you are facing. Please hold your phone flat or begin walking and try again" = "VoiceVista no està segur de quina direcció esteu mirant. Si us plau, mantén el telèfon pla o comença a caminar i torna-ho a provar";
+
+/* devices.callouts.check_audio.airpods.disconnected */
+"VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista està cercant els vostres AirPods. Assegureu-vos que estiguin connectats al vostre telèfon.";
+
+/* general.alert.offline_default.message */
+"VoiceVista is working offline. Nevertheless, VoiceVista will continue to work, but some functions may be limited." = "VoiceVista funciona fora de línia. No obstant això, VoiceVista continuarà funcionant, però algunes funcions poden estar limitades.";
+
+/* settings.clear_cache.alert_message */
+"VoiceVista stores map data to reduce data and battery consumption. Deleting stored data will require VoiceVista to re-download the data." = "VoiceVista emmagatzema les dades del mapa per reduir el consum de dades i de bateria. L'eliminació de les dades emmagatzemades requerirà que VoiceVista torni a baixar-les.";
+
+/* settings.preview */
+"VOICEVISTA STREET PREVIEW" = "VOICEVISTA STREET PREVIEW";
+
+/* headphonesSetting.connect_headset.failed */
+"VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista no s'ha pogut connectar als teus auriculars. Siusplau, intenta-ho més tard.";
+
+/* settings.general.volume */
+"Volume" = "Volum";
+
+/* volumeSetting.title */
+"Volume Settings" = "Configuració de volum";
+
+/* No comment provided by engineer. */
+"Wake Up Now" = "Aixeca't ara";
+
+/* No comment provided by engineer. */
+"Wake Up When I Leave" = "Desperta quan surto";
+
+/* Motion status: walking
+   Type 1 for navigation transport */
+"Walking" = "Caminant";
+
+/* No comment provided by engineer. */
+"Waypoint" = "Waypoint";
+
+/* routes.import.alert.message */
+"Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Falten dades de waypoints per a una o més de les vostres rutes. Reviseu les rutes següents i torneu a afegir waypoints si cal.";
+
+/* waypoints.cancel_alert_title */
+"Waypoints Updated" = "Waypoints actualitzats";
+
+/* general.error.location_services_find_location_error */
+"We are having trouble finding your current location." = "Estem tenint problemes per trobar la teva ubicació actual.";
+
+/* general.error.location_services_find_location_error.try_again */
+"We are having trouble finding your current location. Try again later." = "Estem tenint problemes per trobar la teva ubicació actual. Torna-ho a provar més tard.";
+
+/* general.error.add_marker_error */
+"We are having trouble marking this place. Try again later." = "Estem tenint problemes per marcar aquest lloc. Torna-ho a provar més tard.";
+
+/* general.error.set_beacon_error */
+"We are having trouble setting the beacon currently. Try again later." = "Estem tenint problemes per configurar la balisa actualment. Torna-ho a provar més tard.";
+
+/* headphonesSetting.test_headset.explanation */
+"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Hem col·locat una balisa d'àudio a la teva dreta. Escolta on és i gira el cap cap a ell. Observeu com podeu fer-ho fins i tot quan teniu el telèfon a la butxaca. Quan hagis acabat, toca el botó següent per completar la configuració dels teus auriculars i gaudeix del teu proper passeig amb els teus nous auriculars de seguiment del cap.";
+
+/* devices.test_headset.callout */
+"We've placed an audio beacon to your right. Listen where it is, and turn your head towards it... Notice how you can do this even when your phone is in your pocket." = "Hem col·locat una balisa d'àudio a la teva dreta. Escolteu on és i gireu el cap cap a ell... Fixeu-vos en com podeu fer-ho fins i tot quan teniu el telèfon a la butxaca.";
+
+/* directions.cardinal.west */
+"West" = "Oest";
+
+/* user_activity.ahead_of_me.title */
+"What's Ahead of Me?" = "Què em queda per davant?";
+
+/* user_activity.around_me.title */
+"What's Around Me?" = "Què hi ha al meu voltant?";
+
+/* user_activity.my_location.title */
+"What's My Location?" = "Quina és la meva ubicació?";
+
+/* permissions.info.1 */
+"When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Quan navegueu amb VoiceVista, us guiarà una balisa d'àudio i es poden trucar les ubicacions al voltant i davant vostre.";
+
+/* general.alert.offline_search.message */
+"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Quan VoiceVista funciona fora de línia, la cerca està desactivada. Tanca per tornar a la pantalla anterior";
+
+/* first_use_experience.share.alert.message */
+"When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Quan compartiu un marcador o una ruta de VoiceVista, esteu compartint les ubicacions associades amb aquest marcador o ruta. Només has de compartir amb persones de confiança.";
+
+/* No comment provided by engineer. */
+"Which Transport Type?" = "Quin tipus de transport?";
+
+/* No comment provided by engineer. */
+"While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Durant la ruta amb VoiceVista, se us informarà quan arribeu a cada waypoint i la balisa d'àudio avançarà automàticament al següent waypoint.";
+
+/* general.alert.yes */
+"Yes" = "Sí";
+
+/* terms_of_use.medical_safety_disclaimer */
+"You acknowledge that VoiceVista (1) is not designed, intended, or made available as a medical device, and (2) is not designed or intended to be a substitute for professional medical advice, diagnosis, treatment, or judgment and should not be used to replace or as a substitute for professional medical advice, diagnosis, treatment, or judgment." = "Reconeixeu que VoiceVista (1) no està dissenyat, pensat o posat a disposició com a dispositiu mèdic, i (2) no està dissenyat ni pretén ser un substitut d'assessorament mèdic professional, diagnòstic, tractament o judici i no s'ha d'utilitzar per substituir o com a substitut d'assessorament mèdic professional, diagnòstic, tractament o judici.";
+
+/* No comment provided by engineer. */
+"You are already within the monitoring region." = "Ja esteu dins de la regió de seguiment.";
+
+/* No comment provided by engineer. */
+"You can pick waypoints from your list of markers." = "Podeu triar punts d'interès de la vostra llista de marcadors.";
+
+/* No comment provided by engineer. */
+"You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "També podeu prémer el botó de reproducció/pausa dels auriculars per deixar anar un marcador de ruta.";
+
+/* No comment provided by engineer. */
+"You can rearrange the order of waypoints along a route at any time by editing the route." = "Podeu reorganitzar l'ordre dels punts d'interès al llarg d'una ruta en qualsevol moment editant la ruta.";
+
+/* search.footnote.1 */
+"You can try searching by name or address." = "Pots provar de cercar per nom o adreça.";
+
+/* No comment provided by engineer. */
+"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Podeu utilitzar el rotor d'accions dels botons de la pestanya Entorn per realitzar accions addicionals.";
+
+/* No comment provided by engineer. */
+"You have calculated waypoints of this route." = "Heu calculat els waypoints d'aquesta ruta.";
+
+/* waypoints.cancel_alert_message */
+"You have changed waypoints of this route." = "Heu canviat els punts d'interès d'aquesta ruta.";
+
+/* No comment provided by engineer. */
+"You have not calculated waypoints of this route." = "No heu calculat els waypoints d'aquesta ruta.";
+
+/* universal_links.marker.alert.message */
+"You should only use markers from someone you trust." = "Només hauríeu d'utilitzar marcadors d'algú en qui confieu.";
+
+/* url_resource.alert.route.import.message */
+"You should only use routes from someone you trust." = "Només hauríeu d'utilitzar rutes d'algú en qui confieu.";
+
+/* first_use_experience.preview.tutorial.alert.message.2 */
+"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Se us traslladarà al mig del carrer a prop de la ubicació que heu seleccionat. Feu servir el telèfon com a punter, gireu lentament i els noms dels carrers s'anomenaran mentre gireu. Quan estigueu de cara al carrer que voleu baixar, toqueu 'Anar' i avançareu a la següent intersecció.";
+
+/* No comment provided by engineer. */
+"You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Ara tornareu a la pàgina d'inici de VoiceVista i es col·locarà una balisa d'àudio al vostre primer waypoint. Quan arribeu al waypoint, la balisa avançarà al següent waypoint de la vostra ruta.";
+
+/* No comment provided by engineer. */
+"You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "Ara tornareu a la pàgina d'inici de VoiceVista i s'iniciarà la balisa d'àudio. Escolteu atentament on es troba i, mantenint el telèfon pla, gireu cap a ell.";
+
+/* Title for alert that is displayed when importing a marker. */
+"You've received a marker: '%@'" = "Heu rebut un marcador: '%@'";
+
+/* Title for alert that is displayed when importing a route. */
+"You've received a route: '%@'" = "Heu rebut una ruta: '%@'";
+
+/* headphonesSetting.explain_ar.connected.airpods */
+"Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "Els vostres AirPods estan preparats per utilitzar-los, de manera que podeu posar el telèfon a la butxaca i marxar! VoiceVista fa un seguiment de la direcció del vostre cap, de manera que no cal que agafeu el telèfon a la mà.";
+
+/* headphonesSetting.connect_headset.calibrate.explanation */
+"Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Els vostres auriculars s'han connectat correctament a VoiceVista, però s'han de calibrar abans d'utilitzar-los. VoiceVista us informarà sempre que calgui calibrar els auriculars, per exemple, cada vegada que l'enceneu.";
+
+/* devices.callouts.needs_calibration */
+"Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Cal calibrar els auriculars. Traieu-los del cap i agiteu-los suaument en totes direccions.";
+
+/* headphonesSetting.connect_headset.unsupported_firmware */
+"Your Headphones need to be updated before they can connect to VoiceVista." = "Els vostres auriculars s'han d'actualitzar abans que es puguin connectar a VoiceVista.";
+
+/* headphonesSetting.airpods_unavailable.alert.description */
+"Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "El vostre iPhone no admet el seguiment del cap amb Apple AirPods. Comproveu que el vostre iPhone sigui un iPhone 7 o posterior i que tingui iOS 14.4 o posterior.";
+
+/* No comment provided by engineer. */
+"Your location data is exclusively stored on your device or within your iCloud storage for the purposes of privacy and security." = "Les vostres dades d'ubicació s'emmagatzemen exclusivament al vostre dispositiu o a l'emmagatzematge d'iCloud amb finalitats de privadesa i seguretat.";
+
