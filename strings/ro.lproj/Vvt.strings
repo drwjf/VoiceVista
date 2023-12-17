@@ -43,6 +43,9 @@
 /* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
 "%@ connected." = "%@ conectat.";
 
+/* No comment provided by engineer. */
+"%@ degress" = "%@ degradare";
+
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ deconectat.";
 
@@ -127,6 +130,12 @@
 /* location_detail.default.address */
 "Address unknown" = "Adresă necunoscută";
 
+/* No comment provided by engineer. */
+"Adjust Marker Location" = "Ajustați locația marcatorului";
+
+/* Label for a button to change selected marker's location to the current location */
+"Adjust to Current Location" = "Ajustați la locația curentă";
+
 /* siri_shortcuts.description */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "După adăugarea comenzilor rapide Siri, veți putea să vă folosiți vocea pentru a le invoca chiar și atunci când VoiceVista nu rulează.";
 
@@ -160,7 +169,7 @@
 /* permissions.footnote */
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Toate datele de confidențialitate sunt stocate exclusiv pe dispozitivul dvs. local sau pe stocarea iCloud.";
 
-/* settings.callout.all */
+/* No comment provided by engineer. */
 "Allow Callouts" = "Permite înștiințări";
 
 /* No comment provided by engineer. */
@@ -213,6 +222,9 @@
 
 /* callouts.around_you */
 "Around You" = "In jurul tau";
+
+/* No comment provided by engineer. */
+"Arrival and Departure Cues" = "Indicații de sosire și de plecare";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "Ajungeți la far";
@@ -278,8 +290,7 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "La ce distanță ați dori ca VoiceVista să vă alerteze?";
 
-/* beacon.audio_beacon
-   settings.general.beacon */
+/* beacon.audio_beacon */
 "Audio Beacon" = "Baliză audio";
 
 /* beaconSetting.audioStyle */
@@ -325,6 +336,9 @@
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Factorul de frecvență al farului";
 
+/* No comment provided by engineer. */
+"Beacon Information" = "Informații de semnalizare";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Far pe %@";
 
@@ -334,11 +348,14 @@
 /* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
 "Beacon set on %1$@, %2$@ of %3$@" = "Farul setat pe %1$@, %2$@ din %3$@";
 
-/* voiceSetting.title */
+/* No comment provided by engineer. */
 "Beacon Settings" = "Setări Beacon";
 
 /* No comment provided by engineer. */
-"Beacon Turn by Turn Instructions" = "Beacon Instrucțiuni pas cu pas";
+"Beacon Sound Effect" = "Efect de sunet Beacon";
+
+/* voiceSetting.title */
+"Beacon Sound Style" = "Stilul de sunet Beacon";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "Volumul farului";
@@ -384,9 +401,6 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Calibrare finalizată";
-
-/* No comment provided by engineer. */
-"Callout Settings" = "Setări înștiințări";
 
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Stilul de direcție înștiințări";
@@ -518,6 +532,9 @@
 /* Motion status: cycling */
 "Cycling" = "Ciclism";
 
+/* settings.direction.style.degree */
+"Degree Direction" = "Direcția de grad";
+
 /* general.alert.delete */
 "Delete" = "Șterge";
 
@@ -538,9 +555,6 @@
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Sensul giratoriu plecat. Acum împreună cu %@";
-
-/* beaconSetting.cues */
-"DEPARTURE AND ARRIVAL" = "PLECARE ȘI SOSIRE";
 
 /* No comment provided by engineer. */
 "Description" = "Descriere";
@@ -567,6 +581,12 @@
    Sort style: Distance */
 "Distance" = "Distanţă";
 
+/* No comment provided by engineer. */
+"Distance and direction to nearby POI" = "Distanța și direcția către POI din apropiere";
+
+/* No comment provided by engineer. */
+"Distance and direction to the beacon" = "Distanța și direcția până la far";
+
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Distanța dintre %1$@ și %2$@";
 
@@ -575,12 +595,6 @@
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Distanța ar trebui să fie între %1$@ și %2$@";
-
-/* settings.callout.distance.poi */
-"Distance to Points of Interest" = "Distanța până la punctele de interes";
-
-/* settings.callout.distance.beacon */
-"Distance to the Audio Beacon" = "Distanța până la farul audio";
 
 /* beacon.distance.unknown */
 "Distance unknown" = "Distanța necunoscută";
@@ -630,6 +644,9 @@
 /* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Atingeți de două ori pentru a activa semnalul audio.";
 
+/* Label for a button to open map to edit marker's location */
+"Drag Map To Pick Location" = "Trageți harta pentru a alege locația";
+
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Trageți harta pentru a modifica coordonatele";
 
@@ -646,9 +663,6 @@
 "Edit" = "Editați | ×";
 
 /* No comment provided by engineer. */
-"Edit Marker Location" = "Editați locația marcatorului";
-
-/* No comment provided by engineer. */
 "Edit Marker Name" = "Editați numele marcatorului";
 
 /* No comment provided by engineer. */
@@ -659,9 +673,6 @@
 
 /* placesNearyBy.category.4 */
 "Education" = "Educaţie";
-
-/* beaconSettings.cues */
-"Enable Departure and Arrival Cues" = "Activați indicațiile de plecare și de sosire";
 
 /* settings.audio.mix_with_others.title */
 "Enable Media Controls" = "Activați comenzile media";
@@ -838,7 +849,7 @@
 "Hear Markers Nearby" = "Ascultați marcajele din apropiere";
 
 /* No comment provided by engineer. */
-"House numbers located nearby" = "Numerele caselor situate în apropiere";
+"House numbers in close proximity" = "Numerele caselor în imediata apropiere";
 
 /* voice.voice_rate_test */
 "How does this sound?" = "Cum sună asta?";
@@ -915,7 +926,7 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Intersecție cu %@ în apropiere";
 
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Intersections" = "Intersecții";
 
 /* ui.action_button.intersections */
@@ -935,9 +946,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Crearea listei de locații din apropiere poate dura ceva timp. Dacă nu există date disponibile în acest moment, vă rugăm să încercați să vizitați din nou mai târziu.";
-
-/* No comment provided by engineer. */
-"Junction or road cross" = "Intersecție sau cruce de drum";
 
 /* general.alert.keep */
 "Keep" = "A pastra";
@@ -1024,6 +1032,9 @@
 "Marker. %@" = "Marker. %@";
 
 /* No comment provided by engineer. */
+"Markers" = "Markere";
+
+/* No comment provided by engineer. */
 "Markers Imported from Blindsquare Backup Successfully" = "Marcatori importați din Backup Blindsquare cu succes";
 
 /* No comment provided by engineer. */
@@ -1032,10 +1043,13 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Markere din apropiere";
 
+/* No comment provided by engineer. */
+"Melodies when arrived and departing" = "Melodii la sosire și la plecare";
+
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metric (metri)";
 
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Mobility and Safety" = "Mobilitate și siguranță";
 
 /* %@ is the name of the monitoring location */
@@ -1048,6 +1062,9 @@
 "Motion: %@" = "Mișcare: %@";
 
 /* No comment provided by engineer. */
+"Move away from the beacon" = "Îndepărtează-te de far";
+
+/* No comment provided by engineer. */
 "Mute Beacon" = "Mute Beacon";
 
 /* directions.my_location
@@ -1056,9 +1073,6 @@
 
 /* Sort style: Name */
 "Name" = "Nume";
-
-/* No comment provided by engineer. */
-"NAVIGATION" = "NAVIGARE";
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Instrucțiuni de navigare";
@@ -1072,11 +1086,17 @@
 /* poi_screen.section_header.nearby */
 "Nearby" = "Din apropiere";
 
+/* No comment provided by engineer. */
+"Nearby junctions and road crossings" = "Intersecții și treceri rutiere din apropiere";
+
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Markere din apropiere";
 
-/* settings.callout.places.detail */
-"Nearby places likes shops and restaurants" = "Locurile din apropiere plac magazinele și restaurantele";
+/* No comment provided by engineer. */
+"Nearby shops, restaurants, etc." = "Magazine in apropiere, restaurante etc.";
+
+/* No comment provided by engineer. */
+"Nearby transportation facilities and hubs" = "Facilități de transport și noduri din apropiere";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 "Nearest road, %1$@, is %2$@ %3$@" = "Cel mai apropiat drum, %1$@, este %2$@ %3$@";
@@ -1155,6 +1175,24 @@
    general.alert.notnow */
 "Not Now" = "Nu acum";
 
+/* Move the marker 5 meters east of its current location */
+"Nudge East" = "Nudge East";
+
+/* Move the marker 5 meters in the direction that their phone is pointing */
+"Nudge In Direction of Phone" = "Împingeți în direcția telefonului";
+
+/* Move the marker 5 meters north of its current location */
+"Nudge North" = "Împingeți spre nord";
+
+/* Move the marker 5 meters south of its current location */
+"Nudge South" = "Împingeți spre sud";
+
+/* Move the marker 5 meters west of its current location */
+"Nudge West" = "Nudge West";
+
+/* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
+"Nudging, %@ of original location" = "Deplasare, %@ din locația originală";
+
 /* general.alert.offline_default.title */
 "Offline mode" = "Modul offline";
 
@@ -1219,6 +1257,9 @@
 "Permissions" = "Permisiuni";
 
 /* No comment provided by engineer. */
+"Pick a Location" = "Alegeți o locație";
+
+/* No comment provided by engineer. */
 "Pick from Markers" = "Alegeți din marcatori";
 
 /* markerpickers.title */
@@ -1233,7 +1274,7 @@
 /* placefilters.title */
 "Places" = "Locuri";
 
-/* settings.callout.places */
+/* No comment provided by engineer. */
 "Places and Landmarks" = "Locuri și repere";
 
 /* placefilters.footnoot.2 */
@@ -1267,8 +1308,8 @@
 /* No comment provided by engineer. */
 "POI Range Multiplier" = "Multiplicator de intervale de puncte de interes";
 
-/* settings.callout.distance.poi.detail */
-"Points of interest info" = "Informații despre punctele de interes";
+/* No comment provided by engineer. */
+"Points of Interest Information" = "Informații despre punctele de interes";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "PREFERINŢĂ";
@@ -1476,9 +1517,6 @@
 "Shimmer" = "Strălucire";
 
 /* No comment provided by engineer. */
-"Shortcut Settings" = "Setări pentru comenzi rapide";
-
-/* No comment provided by engineer. */
 "Shortcuts Settings" = "Setări pentru comenzi rapide";
 
 /* beacon.styles.signal */
@@ -1532,6 +1570,9 @@
 
 /* directions.cardinal.south_west */
 "South West" = "Sud-Vest";
+
+/* No comment provided by engineer. */
+"Spatial sound from the direction of beacon" = "Sunetul spațial din direcția farului";
 
 /* No comment provided by engineer. */
 "Start Beacon" = "Porniți Beacon";
@@ -1642,10 +1683,13 @@
 "The names of generated markers start with the character '~'." = "Numele markerilor generați încep cu caracterul „~”.";
 
 /* No comment provided by engineer. */
+"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "Multiplicatorul intervalului POI guvernează distanța la care VoiceVista va anunța POI-urile din apropiere.";
+
+/* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Funcția de monitorizare a pornirii este asemănătoare cu setarea unui far pe o destinație, dar nu veți primi actualizări de sunet sau distanță până când sunteți la o anumită distanță. În esență, VoiceVista se culcă și se trezește numai atunci când sunteți aproape de destinație.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the callout interval for street names." = "Intervalul numelui străzilor în secunde definește intervalul de semnalizare pentru numele străzilor.";
+"The street name interval in seconds defines the interval for street name callouts." = "Intervalul numelui străzii în secunde definește intervalul pentru indicarea numelui străzii.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Fila Înconjurări și fila Asistent au fost îmbinate din versiunea 1.2.3. Filele reduse de la 5 la 4. Acum puteți utiliza rotorul de acțiuni de pe butoanele filei Înconjurări pentru a efectua acțiuni suplimentare.";
@@ -1664,6 +1708,9 @@
 
 /* No comment provided by engineer. */
 "There are no turn by turn instructions now." = "Nu există instrucțiuni rând cu rând acum.";
+
+/* No comment provided by engineer. */
+"There are several options for adjusting the marker location. In addition to aligning it with the current location, you can nudge the marker to move it 5 meters in the selected direction." = "Există mai multe opțiuni pentru ajustarea locației markerului. Pe lângă alinierea acestuia cu locația curentă, puteți deplasa marcatorul pentru a-l muta cu 5 metri în direcția selectată.";
 
 /* general.alert.destructive_undone_message */
 "This action cannot be undone" = "Această acțiune nu poate fi anulată";
@@ -1729,17 +1776,17 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
-/* settings.callout.mobility.detail */
-"Transportation info" = "Informații despre transport";
-
 /* troubleshooting.title */
 "Troubleshooting" = "Depanare";
 
 /* permissionmanager.alert.title */
 "Try with Test Location" = "Încercați cu Test Location";
 
-/* settings.callout.all.detail */
+/* No comment provided by engineer. */
 "Turn all callouts on or off" = "Activați sau dezactivați toate înștiințările";
+
+/* No comment provided by engineer. */
+"Turn by Turn Instructions" = "Instrucțiuni pas cu pas";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Activați Serviciile de localizare pentru a utiliza VoiceVista";
@@ -1804,9 +1851,6 @@
 
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Actualizați traseul curent la circular";
-
-/* No comment provided by engineer. */
-"Updates about distance to the audio beacon when it's set" = "Actualizări despre distanța până la semnalizatorul audio când este setat";
 
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Folosiți butoanele din colțul din dreapta sus pentru a edita numele markerului, adnotarea, distanța de alertă și locația.";
