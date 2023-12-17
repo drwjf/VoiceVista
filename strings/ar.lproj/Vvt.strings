@@ -13,6 +13,7 @@
 /* Notification, %1$@ is a point of interest and %2$@ is a physical address, '<Some Place>. Street address is <Some Address>. Distance unknown.' */
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 /* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
+/* No comment provided by engineer. */
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 /* %@ is the navigation transport type, such as Walking, Automobile, Transit */
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
@@ -71,6 +72,12 @@
 /* location_detail.default.address */
 "Address unknown" = "العنوان غير معروف";
 
+/* No comment provided by engineer. */
+"Adjust Marker Location" = "ضبط موقع العلامة";
+
+/* Label for a button to change selected marker's location to the current location */
+"Adjust to Current Location" = "التكيف مع الموقع الحالي";
+
 /* siri_shortcuts.description */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "بعد إضافة اختصارات Siri ، ستتمكن من استخدام صوتك لاستدعاءهم حتى عندما لا يكون VoiceVista قيد التشغيل.";
 
@@ -100,7 +107,7 @@
 /* permissions.footnote */
 "All privacy data is stored exclusively on your local device or iCloud storage." = "يتم تخزين جميع بيانات الخصوصية حصريًا على جهازك المحلي أو على مساحة تخزين iCloud.";
 
-/* settings.callout.all */
+/* No comment provided by engineer. */
 "Allow Callouts" = "السماح بوسائل الشرح";
 
 /* No comment provided by engineer. */
@@ -145,6 +152,9 @@
 
 /* callouts.around_you */
 "Around You" = "حولك";
+
+/* No comment provided by engineer. */
+"Arrival and Departure Cues" = "إشارات الوصول والمغادرة";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "الوصول إلى المنارة";
@@ -208,8 +218,7 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "على أي مسافة تريد أن ينبهك VoiceVista؟";
 
-/* beacon.audio_beacon
-   settings.general.beacon */
+/* beacon.audio_beacon */
 "Audio Beacon" = "منارة الصوت";
 
 /* beaconSetting.audioStyle */
@@ -253,14 +262,20 @@
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "عامل تردد المنارة";
 
+/* No comment provided by engineer. */
+"Beacon Information" = "معلومات المنارة";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 /* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
-/* voiceSetting.title */
+/* No comment provided by engineer. */
 "Beacon Settings" = "إعدادات منارة";
 
 /* No comment provided by engineer. */
-"Beacon Turn by Turn Instructions" = "منارة بدوره عن طريق تعليمات بدوره";
+"Beacon Sound Effect" = "منارة تأثير الصوت";
+
+/* voiceSetting.title */
+"Beacon Sound Style" = "منارة نمط الصوت";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "حجم منارة";
@@ -302,9 +317,6 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "المعايرة كاملة";
-
-/* No comment provided by engineer. */
-"Callout Settings" = "إعدادات وسيلة الشرح";
 
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "نمط اتجاه وسائل الشرح";
@@ -424,6 +436,9 @@
 /* Motion status: cycling */
 "Cycling" = "ركوب الدراجات";
 
+/* settings.direction.style.degree */
+"Degree Direction" = "اتجاه الدرجة";
+
 /* general.alert.delete */
 "Delete" = "يمسح";
 
@@ -443,9 +458,6 @@
 "Delete Stored Data?" = "حذف البيانات المخزنة؟";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
-/* beaconSetting.cues */
-"DEPARTURE AND ARRIVAL" = "المغادرة والوصول";
-
 /* No comment provided by engineer. */
 "Description" = "وصف";
 
@@ -467,15 +479,15 @@
    Sort style: Distance */
 "Distance" = "مسافة";
 
+/* No comment provided by engineer. */
+"Distance and direction to nearby POI" = "المسافة والاتجاه إلى النقاط المهمة القريبة";
+
+/* No comment provided by engineer. */
+"Distance and direction to the beacon" = "المسافة والاتجاه إلى المنارة";
+
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 /* %@ could be 50 meters or 150 feet */
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
-/* settings.callout.distance.poi */
-"Distance to Points of Interest" = "المسافة إلى النقاط المثيرة للاهتمام";
-
-/* settings.callout.distance.beacon */
-"Distance to the Audio Beacon" = "المسافة إلى منارة الصوت";
-
 /* beacon.distance.unknown */
 "Distance unknown" = "المسافة غير معروفة";
 
@@ -520,6 +532,9 @@
 /* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "انقر نقرًا مزدوجًا لإلغاء كتم صوت الإشارة الصوتية.";
 
+/* Label for a button to open map to edit marker's location */
+"Drag Map To Pick Location" = "اسحب الخريطة لاختيار الموقع";
+
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "اسحب الخريطة لتغيير الإحداثيات";
 
@@ -536,9 +551,6 @@
 "Edit" = "يحرر";
 
 /* No comment provided by engineer. */
-"Edit Marker Location" = "تحرير موقع العلامة";
-
-/* No comment provided by engineer. */
 "Edit Marker Name" = "تحرير اسم العلامة";
 
 /* No comment provided by engineer. */
@@ -549,9 +561,6 @@
 
 /* placesNearyBy.category.4 */
 "Education" = "تعليم";
-
-/* beaconSettings.cues */
-"Enable Departure and Arrival Cues" = "تمكين إشارات المغادرة والوصول";
 
 /* settings.audio.mix_with_others.title */
 "Enable Media Controls" = "تفعيل عناصر التحكم في الوسائط";
@@ -726,7 +735,7 @@
 "Hear Markers Nearby" = "سماع العلامات القريبة";
 
 /* No comment provided by engineer. */
-"House numbers located nearby" = "أرقام المنازل تقع في مكان قريب";
+"House numbers in close proximity" = "أرقام المنازل على مقربة";
 
 /* voice.voice_rate_test */
 "How does this sound?" = "ما رأيك؟";
@@ -789,7 +798,7 @@
 /* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Intersection with <Pike Street> <5 meters> away' */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Intersections" = "التقاطعات";
 
 /* ui.action_button.intersections */
@@ -809,9 +818,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "قد يستغرق إنشاء قائمة الأماكن المجاورة بعض الوقت. إذا لم تكن هناك بيانات متاحة في الوقت الحالي ، فيرجى محاولة الزيارة مرة أخرى لاحقًا.";
-
-/* No comment provided by engineer. */
-"Junction or road cross" = "تقاطع أو تقاطع طريق";
 
 /* general.alert.keep */
 "Keep" = "يحفظ";
@@ -892,6 +898,9 @@
 
 /* Marker Information, %@ is the name of the marker, 'Marker. <Starbucks>' */
 /* No comment provided by engineer. */
+"Markers" = "علامات";
+
+/* No comment provided by engineer. */
 "Markers Imported from Blindsquare Backup Successfully" = "تم استيراد العلامات من Blindsquare Backup بنجاح";
 
 /* No comment provided by engineer. */
@@ -900,10 +909,13 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "علامات قريبة";
 
+/* No comment provided by engineer. */
+"Melodies when arrived and departing" = "الألحان عند الوصول والمغادرة";
+
 /* settings.general.units.meters */
 "Metric (Meters)" = "متري (متر)";
 
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Mobility and Safety" = "التنقل والسلامة";
 
 /* %@ is the name of the monitoring location */
@@ -911,6 +923,9 @@
 "Motion & Fitness" = "الحركة واللياقة البدنية";
 
 /* %@ is value of motion status, for example: Stationary, Walking, Automotive */
+/* No comment provided by engineer. */
+"Move away from the beacon" = "ابتعد عن المنارة";
+
 /* No comment provided by engineer. */
 "Mute Beacon" = "منارة كتم الصوت";
 
@@ -922,9 +937,6 @@
 "Name" = "اسم";
 
 /* No comment provided by engineer. */
-"NAVIGATION" = "ملاحة";
-
-/* No comment provided by engineer. */
 "Navigation instructions" = "تعليمات التنقل";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
@@ -932,11 +944,17 @@
 /* poi_screen.section_header.nearby */
 "Nearby" = "مجاور";
 
+/* No comment provided by engineer. */
+"Nearby junctions and road crossings" = "بالقرب من التقاطعات ومعابر الطرق";
+
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "العلامات القريبة";
 
-/* settings.callout.places.detail */
-"Nearby places likes shops and restaurants" = "الأماكن المجاورة تحب المحلات التجارية والمطاعم";
+/* No comment provided by engineer. */
+"Nearby shops, restaurants, etc." = "المتاجر والمطاعم القريبة، الخ.";
+
+/* No comment provided by engineer. */
+"Nearby transportation facilities and hubs" = "مرافق النقل والمحاور القريبة";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 /* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Nearest road, <Pike Street>, is <5 meters> away' */
@@ -1007,6 +1025,22 @@
    general.alert.notnow */
 "Not Now" = "ليس الآن";
 
+/* Move the marker 5 meters east of its current location */
+"Nudge East" = "دفع الشرق";
+
+/* Move the marker 5 meters in the direction that their phone is pointing */
+"Nudge In Direction of Phone" = "دفع في اتجاه الهاتف";
+
+/* Move the marker 5 meters north of its current location */
+"Nudge North" = "دفع الشمال";
+
+/* Move the marker 5 meters south of its current location */
+"Nudge South" = "دفع الجنوب";
+
+/* Move the marker 5 meters west of its current location */
+"Nudge West" = "دفع الغرب";
+
+/* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
 /* general.alert.offline_default.title */
 "Offline mode" = "وضع غير متصل بالشبكة";
 
@@ -1071,6 +1105,9 @@
 "Permissions" = "أذونات";
 
 /* No comment provided by engineer. */
+"Pick a Location" = "اختر الموقع";
+
+/* No comment provided by engineer. */
 "Pick from Markers" = "اختر من العلامات";
 
 /* markerpickers.title */
@@ -1085,7 +1122,7 @@
 /* placefilters.title */
 "Places" = "أماكن";
 
-/* settings.callout.places */
+/* No comment provided by engineer. */
 "Places and Landmarks" = "الأماكن والمعالم";
 
 /* placefilters.footnoot.2 */
@@ -1119,8 +1156,8 @@
 /* No comment provided by engineer. */
 "POI Range Multiplier" = "مضاعف نطاق النقاط المهمة";
 
-/* settings.callout.distance.poi.detail */
-"Points of interest info" = "معلومات النقاط المثيرة للاهتمام";
+/* No comment provided by engineer. */
+"Points of Interest Information" = "معلومات النقاط المثيرة للاهتمام";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "التفضيل";
@@ -1310,9 +1347,6 @@
 "Shimmer" = "وميض";
 
 /* No comment provided by engineer. */
-"Shortcut Settings" = "إعدادات الاختصار";
-
-/* No comment provided by engineer. */
 "Shortcuts Settings" = "إعدادات الاختصارات";
 
 /* beacon.styles.signal */
@@ -1366,6 +1400,9 @@
 
 /* directions.cardinal.south_west */
 "South West" = "جنوب غرب";
+
+/* No comment provided by engineer. */
+"Spatial sound from the direction of beacon" = "الصوت المكاني من اتجاه المنارة";
 
 /* No comment provided by engineer. */
 "Start Beacon" = "ابدأ منارة";
@@ -1470,10 +1507,13 @@
 "The names of generated markers start with the character '~'." = "تبدأ أسماء العلامات التي تم إنشاؤها بالحرف '~'.";
 
 /* No comment provided by engineer. */
+"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "يتحكم مضاعف نطاق النقاط المهمة في المسافة التي سيعلن عبرها VoiceVista عن النقاط المهمة القريبة.";
+
+/* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "تشبه وظيفة مراقبة البداية إعداد إشارة ضوئية على وجهة ما، لكنك لن تتلقى تحديثات صوتية أو المسافة حتى تكون على مسافة محددة. في الأساس، ينام VoiceVista ويستيقظ فقط عندما تكون بالقرب من وجهتك.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the callout interval for street names." = "يحدد الفاصل الزمني لاسم الشارع بالثواني الفاصل الزمني لوسيلة الشرح لأسماء الشوارع.";
+"The street name interval in seconds defines the interval for street name callouts." = "يحدد الفاصل الزمني لاسم الشارع بالثواني الفاصل الزمني لوسائل شرح اسم الشارع.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "تم دمج علامة التبويب 'المناطق المحيطة' وعلامة التبويب 'المساعد' من الإصدار 1.2.3. تم تقليل علامات التبويب من 5 إلى 4. يمكنك الآن استخدام دوار الإجراءات الموجود على أزرار علامة التبويب 'المناطق المحيطة' لتنفيذ إجراءات إضافية.";
@@ -1492,6 +1532,9 @@
 
 /* No comment provided by engineer. */
 "There are no turn by turn instructions now." = "لا توجد تعليمات دورية الآن.";
+
+/* No comment provided by engineer. */
+"There are several options for adjusting the marker location. In addition to aligning it with the current location, you can nudge the marker to move it 5 meters in the selected direction." = "هناك عدة خيارات لضبط موقع العلامة. بالإضافة إلى محاذاته مع الموقع الحالي، يمكنك دفع العلامة لتحريكها مسافة 5 أمتار في الاتجاه المحدد.";
 
 /* general.alert.destructive_undone_message */
 "This action cannot be undone" = "لا يمكن التراجع عن هذا الإجراء";
@@ -1551,17 +1594,17 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "مواصلات";
 
-/* settings.callout.mobility.detail */
-"Transportation info" = "معلومات النقل";
-
 /* troubleshooting.title */
 "Troubleshooting" = "استكشاف الأخطاء وإصلاحها";
 
 /* permissionmanager.alert.title */
 "Try with Test Location" = "جرب مع موقع الاختبار";
 
-/* settings.callout.all.detail */
+/* No comment provided by engineer. */
 "Turn all callouts on or off" = "تشغيل أو إيقاف تشغيل جميع وسائل الشرح";
+
+/* No comment provided by engineer. */
+"Turn by Turn Instructions" = "تعليمات المنعطفات";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "قم بتشغيل خدمات الموقع لاستخدام VoiceVista";
@@ -1622,9 +1665,6 @@
 
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "تحديث المسار الحالي إلى التعميم";
-
-/* No comment provided by engineer. */
-"Updates about distance to the audio beacon when it's set" = "تحديثات حول المسافة إلى منارة الصوت عند ضبطها";
 
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "استخدم الأزرار الموجودة في الزاوية العلوية اليمنى لتحرير اسم العلامة والتعليق التوضيحي ومسافة التنبيه والموقع.";

@@ -43,6 +43,9 @@
 /* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
 "%@ connected." = "%@ connecté.";
 
+/* No comment provided by engineer. */
+"%@ degress" = "%@ diplôme";
+
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ déconnecté.";
 
@@ -127,6 +130,12 @@
 /* location_detail.default.address */
 "Address unknown" = "Adresse inconnue";
 
+/* No comment provided by engineer. */
+"Adjust Marker Location" = "Ajuster l'emplacement du marqueur";
+
+/* Label for a button to change selected marker's location to the current location */
+"Adjust to Current Location" = "Ajuster à l'emplacement actuel";
+
 /* siri_shortcuts.description */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Après l’ajout des raccourcis Siri, vous pourrez utiliser votre voix pour les appeler, même si VoiceVista n’est pas en cours d'exécution.";
 
@@ -160,7 +169,7 @@
 /* permissions.footnote */
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Toutes les données de confidentialité sont stockées exclusivement sur votre appareil ou sur le stockage iCloud.";
 
-/* settings.callout.all */
+/* No comment provided by engineer. */
 "Allow Callouts" = "Autoriser les notifications";
 
 /* No comment provided by engineer. */
@@ -213,6 +222,9 @@
 
 /* callouts.around_you */
 "Around You" = "Autour de vous";
+
+/* No comment provided by engineer. */
+"Arrival and Departure Cues" = "Indices d'arrivée et de départ";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "Arriver à la balise";
@@ -278,8 +290,7 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "À quelle distance souhaitez-vous que VoiceVista vous alerte ?";
 
-/* beacon.audio_beacon
-   settings.general.beacon */
+/* beacon.audio_beacon */
 "Audio Beacon" = "Balise sonore";
 
 /* beaconSetting.audioStyle */
@@ -325,6 +336,9 @@
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Facteur de fréquence de balise";
 
+/* No comment provided by engineer. */
+"Beacon Information" = "Informations sur la balise";
+
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Balise sur %@";
 
@@ -334,11 +348,14 @@
 /* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
 "Beacon set on %1$@, %2$@ of %3$@" = "Balise définie sur %1$@, %2$@ sur %3$@";
 
-/* voiceSetting.title */
+/* No comment provided by engineer. */
 "Beacon Settings" = "Réglages de balise";
 
 /* No comment provided by engineer. */
-"Beacon Turn by Turn Instructions" = "Instructions tour à tour pour la balise";
+"Beacon Sound Effect" = "Effet sonore de balise";
+
+/* voiceSetting.title */
+"Beacon Sound Style" = "Style sonore de balise";
 
 /* volumeSettings.beacon */
 "Beacon volume" = "Volume de la balise";
@@ -384,9 +401,6 @@
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Étalonnage terminé";
-
-/* No comment provided by engineer. */
-"Callout Settings" = "Paramètres de légende";
 
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Style de direction des légendes";
@@ -518,6 +532,9 @@
 /* Motion status: cycling */
 "Cycling" = "Vélo";
 
+/* settings.direction.style.degree */
+"Degree Direction" = "Direction du diplôme";
+
 /* general.alert.delete */
 "Delete" = "Supprimer";
 
@@ -538,9 +555,6 @@
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Vous avez quitté le rond-point. Vous vous trouvez maintenant sur %@";
-
-/* beaconSetting.cues */
-"DEPARTURE AND ARRIVAL" = "DEPART ET ARRIVEE";
 
 /* No comment provided by engineer. */
 "Description" = "Description";
@@ -567,6 +581,12 @@
    Sort style: Distance */
 "Distance" = "Distance";
 
+/* No comment provided by engineer. */
+"Distance and direction to nearby POI" = "Distance et direction vers le POI à proximité";
+
+/* No comment provided by engineer. */
+"Distance and direction to the beacon" = "Distance et direction jusqu'à la balise";
+
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Distance entre %1$@ et %2$@";
 
@@ -575,12 +595,6 @@
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "La distance doit être comprise entre %1$@ et %2$@";
-
-/* settings.callout.distance.poi */
-"Distance to Points of Interest" = "Distance aux points d'intérêt";
-
-/* settings.callout.distance.beacon */
-"Distance to the Audio Beacon" = "Distance de la balise audio";
 
 /* beacon.distance.unknown */
 "Distance unknown" = "Distance inconnue";
@@ -630,6 +644,9 @@
 /* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Appuyez deux fois pour réactiver le son de la balise.";
 
+/* Label for a button to open map to edit marker's location */
+"Drag Map To Pick Location" = "Faites glisser la carte pour choisir l'emplacement";
+
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Faites glisser la carte pour modifier les coordonnées";
 
@@ -646,9 +663,6 @@
 "Edit" = "Modifier";
 
 /* No comment provided by engineer. */
-"Edit Marker Location" = "Modifier l'emplacement du marqueur";
-
-/* No comment provided by engineer. */
 "Edit Marker Name" = "Modifier le nom du marqueur";
 
 /* No comment provided by engineer. */
@@ -659,9 +673,6 @@
 
 /* placesNearyBy.category.4 */
 "Education" = "Éducation";
-
-/* beaconSettings.cues */
-"Enable Departure and Arrival Cues" = "Activer les signals Départ et Arrivée";
 
 /* settings.audio.mix_with_others.title */
 "Enable Media Controls" = "Activation des contrôles multimédias";
@@ -838,7 +849,7 @@
 "Hear Markers Nearby" = "Écouter les marqueurs à proximité";
 
 /* No comment provided by engineer. */
-"House numbers located nearby" = "Numéros de maison situés à proximité";
+"House numbers in close proximity" = "Numéros de maison à proximité";
 
 /* voice.voice_rate_test */
 "How does this sound?" = "Qu’en pensez-vous ?";
@@ -915,7 +926,7 @@
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
 "Intersection with %@ nearby" = "Intersection avec %@ à proximité";
 
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Intersections" = "Intersections";
 
 /* ui.action_button.intersections */
@@ -935,9 +946,6 @@
 
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "La création de la liste des lieux à proximité peut prendre un certain temps. S'il n'y a pas de données disponibles pour le moment, veuillez réessayer plus tard.";
-
-/* No comment provided by engineer. */
-"Junction or road cross" = "Jonction ou croisement de route";
 
 /* general.alert.keep */
 "Keep" = "Conserver";
@@ -1024,6 +1032,9 @@
 "Marker. %@" = "Marqueur. %@";
 
 /* No comment provided by engineer. */
+"Markers" = "Marqueurs";
+
+/* No comment provided by engineer. */
 "Markers Imported from Blindsquare Backup Successfully" = "Marqueurs importés avec succès depuis Blindsquare Backup";
 
 /* No comment provided by engineer. */
@@ -1032,10 +1043,13 @@
 /* No comment provided by engineer. */
 "Markers Nearby" = "Balises à proximité";
 
+/* No comment provided by engineer. */
+"Melodies when arrived and departing" = "Mélodies à l'arrivée et au départ";
+
 /* settings.general.units.meters */
 "Metric (Meters)" = "Métriques (mètres)";
 
-/* settings.callout.mobility */
+/* No comment provided by engineer. */
 "Mobility and Safety" = "Mobilité et sécurité";
 
 /* %@ is the name of the monitoring location */
@@ -1048,6 +1062,9 @@
 "Motion: %@" = "Mouvement: %@";
 
 /* No comment provided by engineer. */
+"Move away from the beacon" = "Éloignez-vous de la balise";
+
+/* No comment provided by engineer. */
 "Mute Beacon" = "Désactiver le son de la balise";
 
 /* directions.my_location
@@ -1056,9 +1073,6 @@
 
 /* Sort style: Name */
 "Name" = "Nom";
-
-/* No comment provided by engineer. */
-"NAVIGATION" = "LA NAVIGATION";
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Instructions de navigation";
@@ -1072,11 +1086,17 @@
 /* poi_screen.section_header.nearby */
 "Nearby" = "À proximité";
 
+/* No comment provided by engineer. */
+"Nearby junctions and road crossings" = "Carrefours et passages à niveau à proximité";
+
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Marqueurs à proximité";
 
-/* settings.callout.places.detail */
-"Nearby places likes shops and restaurants" = "Les lieux à proximité comme les magasins et les restaurants";
+/* No comment provided by engineer. */
+"Nearby shops, restaurants, etc." = "Commerces, restaurants à proximité, etc.";
+
+/* No comment provided by engineer. */
+"Nearby transportation facilities and hubs" = "Installations et pôles de transport à proximité";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 "Nearest road, %1$@, is %2$@ %3$@" = "La route la plus proche, %1$@, est à %2$@ %3$@";
@@ -1155,6 +1175,24 @@
    general.alert.notnow */
 "Not Now" = "Pas maintenant";
 
+/* Move the marker 5 meters east of its current location */
+"Nudge East" = "Déplacement vers l’est";
+
+/* Move the marker 5 meters in the direction that their phone is pointing */
+"Nudge In Direction of Phone" = "Déplacement en direction du téléphone";
+
+/* Move the marker 5 meters north of its current location */
+"Nudge North" = "Déplacement vers le nord";
+
+/* Move the marker 5 meters south of its current location */
+"Nudge South" = "Déplacement vers le sud";
+
+/* Move the marker 5 meters west of its current location */
+"Nudge West" = "Déplacement vers l’ouest";
+
+/* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
+"Nudging, %@ of original location" = "Déplacement, %@ du lieu d’origine";
+
 /* general.alert.offline_default.title */
 "Offline mode" = "Mode hors ligne";
 
@@ -1219,6 +1257,9 @@
 "Permissions" = "Autorisations";
 
 /* No comment provided by engineer. */
+"Pick a Location" = "Choisissez un emplacement";
+
+/* No comment provided by engineer. */
 "Pick from Markers" = "Choisissez parmi les marqueurs";
 
 /* markerpickers.title */
@@ -1233,7 +1274,7 @@
 /* placefilters.title */
 "Places" = "Lieux";
 
-/* settings.callout.places */
+/* No comment provided by engineer. */
 "Places and Landmarks" = "Lieux et repères";
 
 /* placefilters.footnoot.2 */
@@ -1267,8 +1308,8 @@
 /* No comment provided by engineer. */
 "POI Range Multiplier" = "Multiplicateur de portée de POI";
 
-/* settings.callout.distance.poi.detail */
-"Points of interest info" = "Informations sur les points d'intérêt";
+/* No comment provided by engineer. */
+"Points of Interest Information" = "Informations sur les points d'intérêt";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "PRÉFÉRENCE";
@@ -1476,9 +1517,6 @@
 "Shimmer" = "Miroitement";
 
 /* No comment provided by engineer. */
-"Shortcut Settings" = "Paramètres de raccourci";
-
-/* No comment provided by engineer. */
 "Shortcuts Settings" = "Paramètres des raccourcis";
 
 /* beacon.styles.signal */
@@ -1532,6 +1570,9 @@
 
 /* directions.cardinal.south_west */
 "South West" = "Sud-ouest";
+
+/* No comment provided by engineer. */
+"Spatial sound from the direction of beacon" = "Son spatial provenant de la direction de la balise";
 
 /* No comment provided by engineer. */
 "Start Beacon" = "Démarrer la balise";
@@ -1642,10 +1683,13 @@
 "The names of generated markers start with the character '~'." = "Les noms des marqueurs générés commencent par le caractère '~'.";
 
 /* No comment provided by engineer. */
+"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "Le multiplicateur de portée des POI régit la distance sur laquelle VoiceVista annoncera les POI à proximité.";
+
+/* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La fonction de surveillance de démarrage s'apparente à l'installation d'une balise sur une destination, mais vous ne recevrez pas de mises à jour sonores ou de distance tant que vous ne serez pas à une distance spécifiée. Essentiellement, VoiceVista se met en veille et ne se réveille que lorsque vous êtes proche de votre destination.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the callout interval for street names." = "L'intervalle de nom de rue en secondes définit l'intervalle d'appel pour les noms de rue.";
+"The street name interval in seconds defines the interval for street name callouts." = "L'intervalle du nom de rue en secondes définit l'intervalle des légendes de nom de rue.";
 
 /* No comment provided by engineer. */
 "The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "L'onglet Environnement et l'onglet Assistant ont été fusionnés à partir de la version 1.2.3. Onglets réduits de 5 à 4. Vous pouvez désormais utiliser le rotor d'actions sur les boutons de l'onglet Environs pour effectuer des actions supplémentaires.";
@@ -1664,6 +1708,9 @@
 
 /* No comment provided by engineer. */
 "There are no turn by turn instructions now." = "Il n’y a pas d’instructions tour par tour pour le moment.";
+
+/* No comment provided by engineer. */
+"There are several options for adjusting the marker location. In addition to aligning it with the current location, you can nudge the marker to move it 5 meters in the selected direction." = "Il existe plusieurs options pour ajuster l'emplacement du marqueur. En plus de l'aligner avec l'emplacement actuel, vous pouvez pousser le marqueur pour le déplacer de 5 mètres dans la direction sélectionnée.";
 
 /* general.alert.destructive_undone_message */
 "This action cannot be undone" = "Cette action ne peut pas être annulée";
@@ -1729,17 +1776,17 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
-/* settings.callout.mobility.detail */
-"Transportation info" = "Informations sur le transport";
-
 /* troubleshooting.title */
 "Troubleshooting" = "Résolution des problèmes";
 
 /* permissionmanager.alert.title */
 "Try with Test Location" = "Essayez avec l'emplacement de test";
 
-/* settings.callout.all.detail */
+/* No comment provided by engineer. */
 "Turn all callouts on or off" = "Activer ou désactiver toutes les notifications";
+
+/* No comment provided by engineer. */
+"Turn by Turn Instructions" = "Instructions pas à pas";
 
 /* general.error.location_services */
 "Turn on Location Services to use VoiceVista" = "Activer les services de localisation pour utiliser VoiceVista";
@@ -1804,9 +1851,6 @@
 
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Mettre à jour l'itinéraire actuel vers la circulaire";
-
-/* No comment provided by engineer. */
-"Updates about distance to the audio beacon when it's set" = "Mises à jour de la distance de la balise sonore lorsque celle-ci est définie";
 
 /* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Utilisez les boutons dans le coin supérieur droit pour modifier le nom du marqueur, l'annotation, la distance d'alerte et l'emplacement.";

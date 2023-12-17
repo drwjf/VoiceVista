@@ -2,7 +2,7 @@
 "osm.tag.crossing" = "Pas de vianants";
 
 /* Open Street Map term. Used to describe the type of the feature which is currently under construction. */
-"osm.tag.construction" = "Construcció";
+"osm.tag.construction" = "Obres";
 
 /* Open Street Map term. NOT DEFINED IN OSM */
 "osm.tag.dangerous_area" = "Zona Perillosa";
@@ -17,7 +17,7 @@
 "osm.tag.elevator" = "Ascensor";
 
 /* Open Street Map term. A walking path is is a generic path, either multi-use or unspecified usage, open to all pedestrians and not intended for motorized vehicles. */
-"osm.tag.walking_path" = "Sender a peu";
+"osm.tag.walking_path" = "Camí";
 
 /* Open Street Map term. Is a road or an area mainly or exclusively for pedestrians in which some vehicle traffic may be authorized (e.g. emergency, taxi, delivery, ...). Typically found in shopping areas, town centres, places with tourism attractions and recreation/civic areas, where wide expanses of hard surface are provided for pedestrians to walk. */
 "osm.tag.pedestrian_street" = "Carrer de vianants";
@@ -26,7 +26,7 @@
 "osm.tag.bicycle_path" = "Carril bici";
 
 /* Open Street Map term. Used for roads that are used for accessing residential areas and in residential areas but which are not normally used as through routes. */
-"osm.tag.residential_street" = "Carrer Residencial";
+"osm.tag.residential_street" = "Zona Residencial";
 
 /* Open Street Map term. Used in two senses: 1. As a service way for access to buildings or places 2. Frontage road parallel to a major road. */
 "osm.tag.service_road" = "Carretera de Servei";
@@ -38,7 +38,7 @@
 "osm.tag.highway" = "Carretera";
 
 /* Open Street Map term. Any highway that has a given name. Used as a display name for place or a location. %@ is an highway name, such as "London Highway". */
-"osm.tag.highway.named" = "%@ Carretera";
+"osm.tag.highway.named" = "Carretera %@";
 
 /* Open Street Map term. Any highway that has a reference number or name. Used as a display name for place or a location. %@ is an highway id, such as "Highway 520" or "Highway B". */
 "osm.tag.highway.refed" = "Carretera %@";
@@ -65,16 +65,16 @@
 "osm.tag.covered_pavilion" = "Pavelló cobert";
 
 /* Open Street Map term. A small local shop carrying a variety of everyday products, mostly including single-serving food items such as milk, bread, snacks, groceries to over-the-counter medications, household items, stationery, and small auto supplies such as fuses. */
-"osm.tag.convenience_store" = "Botiga de conveniència";
+"osm.tag.convenience_store" = "Botiga";
 
 /* Open Street Map term. A doorway through which people can enter or exit a building. */
 "osm.tag.building_entrance" = "Entrada de l'edifici";
 
 /* Open Street Map term. Used to designate a place or an area where all employees, passengers or a large crowd assemble in case of an emergency in an installation, building or a public place. */
-"osm.tag.assembly_point" = "Punt d'ensamblatge";
+"osm.tag.assembly_point" = "Punt de trobada";
 
 /* Open Street Map term. Used to describe fence-like barriers positioned along paths, footways, cycleways or tracks which serve to either slow cycle access or prevent it entirely depending on spacing and layout. */
-"osm.tag.cycle_barrier" = "Barrera del cicle";
+"osm.tag.cycle_barrier" = "Balla";
 
 /* Open Street Map term. Used to describe a barrier to allow one person at a time to pass. Use this for small turnstiles like the ones in supermarkets or some subways. */
 "osm.tag.turnstile" = "Torniquet";
@@ -89,16 +89,16 @@
 "osm.tag.restroom" = "Lavabo";
 
 /* Open Street Map term. Used to describe a facility used by the public, customers, or other authorised users for parking motor vehicles, such as cars and trucks, commonly known as a car park (British English) or parking lot (American English). */
-"osm.tag.parking_lot" = "Aparcament";
+"osm.tag.parking_lot" = "pàrking";
 
 /* Open Street Map term. Used to describe the entry/exit point to a parking area. */
-"osm.tag.parking_entrance" = "Entrada d'aparcament";
+"osm.tag.parking_entrance" = "Entrada de pàrking";
 
 /* Open Street Map term. A place for people to sit. */
 "osm.tag.bench" = "Banc";
 
 /* Open Street Map term. Used for the locating the point where taxis wait, not the point where passengers wait. */
-"osm.tag.taxi_waiting_area" = "Zona d'espera de taxis";
+"osm.tag.taxi_waiting_area" = "Para de taxis";
 
 /* Open Street Map term. A place where letters and parcels may be sent or collected.. */
 "osm.tag.post_office" = "Oficina de correus";
@@ -107,7 +107,7 @@
 "osm.tag.post_box" = "Bústia";
 
 /* Open Street Map term. A single small container for depositing garbage that is easily accessible for pedestrians. */
-"osm.tag.waste_basket" = "Cistella d'escombraries";
+"osm.tag.waste_basket" = "Contenidor d'escombraries";
 
 /* Open Street Map term. A place where people can bathe under water sprays. May be run as a local amenity by the government, or part of commercial provisions. */
 "osm.tag.shower" = "Dutxa";
@@ -116,49 +116,49 @@
 "osm.tag.bike_parking" = "Aparcament de bicicletes";
 
 /* Open Street Map term. An informal place with sit-down facilities selling beverages and light meals and/or snacks. */
-"osm.tag.cafe" = "Cafè";
+"osm.tag.cafe" = "Cafeteria";
 
 /* Open Street Map term. Generally a formal eating places with sit-down facilities selling full meals served by waiters and often licensed (where allowed) to sell alcoholic drinks. */
 "osm.tag.restaurant" = "Restaurant";
 
 /* Open Street Map term. A public telephone, phone box, or telephone on a stand or wall. Usually you pay to use them, often only via a pre-pay card. */
-"osm.tag.telephone" = "Telèfon";
+"osm.tag.telephone" = "Cabina Telefònica";
 
 /* Open Street Map term. Used to map a fuel station, also known as a filling station, petrol station, gas station and petrol garage. It is the retail-type facility where motor vehicles can be refueled. */
-"osm.tag.gas_station" = "Gasolinera";
+"osm.tag.gas_station" = "Benzinera";
 
 /* Open Street Map term. A financial establishment where customers can, among other services, deposit and withdraw money, take loans, make investments and transfer funds. This definition encompasses banks, credit unions, building societies, and other similar establishments. It does not include money lenders or financial offices that are not banks */
-"osm.tag.bank" = "Banc";
+"osm.tag.bank" = "Oficina Bancària";
 
 /* Open Street Map term. An automated teller machine (ATM), or automatic banking machine (ABM), or "cash machine", is a computerised telecommunications device that provides the clients of a financial institution with access to financial transactions in a public space without the need for a cashier, human clerk or bank teller. */
 "osm.tag.atm" = "caixer automàtic";
 
 /* Open Street Map term. Used as a display name for place or a location. %@ is a bank name, such as "Chase ATM". */
-"osm.tag.atm.named" = "%@ ATM";
+"osm.tag.atm.named" = "Caixer de %@";
 
 /* Open Street Map term. Used as a display name for place or a location. %@ is an ATM id, such as "ATM 7" or "ATM B". */
-"osm.tag.atm.refed" = "caixer automàtic %@";
+"osm.tag.atm.refed" = "caixer automàtic de %@";
 
 /* Open Street Map term. A bus stop is a place where passengers can board or alight from a bus. Its position may be marked by a shelter, pole, bus lay-by, or road markings. */
 "osm.tag.bus_stop" = "Parada d'autobús";
 
 /* Open Street Map term. Used as a display name for place or a location. %@ is a bus stop name, such as "London Bus Stop". */
-"osm.tag.bus_stop.named" = "%@ Parada d'autobús";
+"osm.tag.bus_stop.named" = "Parada d'autobús %@";
 
 /* Open Street Map term. Used as a display name for place or a location. %@ is a bus stop id, such as "Bus Stop 7" or "Bus Stop B". */
 "osm.tag.bus_stop.refed" = "Parada d'autobús %@";
 
 /* Open Street Map term. Used for a container or centre that accepts waste for recycling, and donations of used goods. */
-"osm.tag.recycling_bin" = "Paperera de reciclatge";
+"osm.tag.recycling_bin" = "Contenidor de reciclatge";
 
 /* Open Street Map term. A water feature with cultural, decorational or historical significance or which serves a recreational purpose. */
 "osm.tag.fountain" = "Font";
 
 /* Open Street Map term. This covers places such as mosques, churches, cathedrals, synagogues, temples, etc. */
-"osm.tag.place_of_worship" = "Lloc de culte";
+"osm.tag.place_of_worship" = "Centre de culte";
 
 /* Open Street Map term. Used for places where humans can obtain potable water for consumption. */
-"osm.tag.water_fountain" = "Font d'aigua";
+"osm.tag.water_fountain" = "Font d'aigua potable";
 
 /* Open Street Map term. A facility used to clean the exterior and, in some cases, the interior of motor vehicles. */
 "osm.tag.car_wash" = "Rentat de cotxes";
@@ -170,7 +170,7 @@
 "osm.tag.playground" = "Parc infantil";
 
 /* Open Street Map term. An area designed for practising a particular sport, normally designated with appropriate markings. Examples include tennis courts, basketball courts, soccer pitches, and riding arenas. */
-"osm.tag.sports_field" = "Camp d'Esports";
+"osm.tag.sports_field" = "Camp esportiu";
 
 /* Open Street Map term. A place built for swimming as a recreational activity or sport. */
 "osm.tag.swimming_pool" = "Piscina";
@@ -185,5 +185,5 @@
 "osm.tag.picnic_table" = "Taula de pícnic";
 
 /* Open Street Map term. A locality that is suitable for outdoors eating and may have any of a number of facilities to aid a picnic. */
-"osm.tag.picnic_area" = "Àrea de pícnic";
+"osm.tag.picnic_area" = "Zona de pícnic";
 
