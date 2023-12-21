@@ -1,5 +1,6 @@
 # VoiceVista
 
+- Arabic translation contributed by Hasan Tayem.
 - Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.
