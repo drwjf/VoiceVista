@@ -103,6 +103,9 @@
 /* settings.direction.style.absolute */
 "Absolute Direction" = "Direcció absoluta";
 
+/* No comment provided by engineer. */
+"Accuracy: %@" = "Precisió: %@";
+
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Comença l'activitat!";
 
@@ -171,6 +174,9 @@
 
 /* No comment provided by engineer. */
 "Allow Callouts" = "Permet notificacions de veu";
+
+/* No comment provided by engineer. */
+"Altitude: %@" = "Altitud: %@";
 
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Afegeix senyals inversos a la cua per fer de la ruta un viatge circular.";
@@ -289,9 +295,6 @@
 
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "A quina distància voleu que VoiceVista us avisi?";
-
-/* beacon.audio_beacon */
-"Audio Beacon" = "Objectiu sonor";
 
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "ESTILS D'AUDIO";
@@ -436,13 +439,22 @@
 "Change External Maps App" = "Canvia l'aplicació de mapes externs";
 
 /* No comment provided by engineer. */
+"Change GPS Information Distance Interval" = "Canviar l'interval de distància de la informació GPS";
+
+/* No comment provided by engineer. */
+"Change GPS Information Time Interval" = "Canviar l'interval de temps d'informació GPS";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Canvia el multiplicador d'interval de Punts d'Interès";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Canvia la resposta de moviment de sacseig";
 
 /* No comment provided by engineer. */
-"Change Street Name Interval" = "Canvia l'interval del nom del carrer";
+"Change Street Name Distance Interval" = "Canvia l'interval de distància del nom del carrer";
+
+/* No comment provided by engineer. */
+"Change Street Name Time Interval" = "Canvia l'interval de temps del nom del carrer";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Canviar unitats de mesura";
@@ -713,6 +725,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Instal·lacions";
 
+/* No comment provided by engineer. */
+"Facing: %@" = "Orientació: %@";
+
 /* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
 "Factor %@" = "Factor %@";
 
@@ -756,6 +771,9 @@
 "Failed to Update Route to Circular" = "No hem pogut actualitzar la ruta a circular";
 
 /* No comment provided by engineer. */
+"FAQ" = "Preguntes freqüents";
+
+/* No comment provided by engineer. */
 "Filter Markers" = "Filtrar Marcadors";
 
 /* beacon.styles.flare */
@@ -772,6 +790,9 @@
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Preguntes freqüents";
+
+/* No comment provided by engineer. */
+"Fundraising Notice" = "Avís de recaptació de fons";
 
 /* No comment provided by engineer. */
 "General Settings" = "Configuració general";
@@ -793,6 +814,15 @@
 
 /* settings.googleMaps */
 "Google Maps" = "Google Maps";
+
+/* No comment provided by engineer. */
+"GPS Information" = "Informació GPS";
+
+/* No comment provided by engineer. */
+"GPS Information Distance Interval" = "Informació GPS Interval de distància";
+
+/* No comment provided by engineer. */
+"GPS Information Time Interval" = "Interval de temps d'informació GPS";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Comestibles";
@@ -873,6 +903,12 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "L'emmagatzematge d'iCloud per a aquesta aplicació està ple. Per crear un marcador nou, hauràs d'alliberar espai eliminant alguns dels marcadors que ja tens.";
 
 /* No comment provided by engineer. */
+"If you are unable to grant Motion & Fitness permission for VoiceVista, you may have disabled it for all apps. Please open the Settings app, navigate to Privacy & Security, find Motion & Fitness, and check the status of Fitness Tracking." = "Si no podeu concedir el permís de Motion & Fitness per a VoiceVista, és possible que l'hàgiu desactivat per a totes les aplicacions. Obriu l'aplicació Configuració, aneu a Privadesa i seguretat, cerqueu Motion & Fitness i comproveu l'estat del seguiment de l'aptitud.";
+
+/* No comment provided by engineer. */
+"If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Si no heu trobat la vostra pregunta aquí, visiteu l'App Store per deixar un comentari. La teva pregunta serà atesa a l'App Store, podent ser seleccionada per a la seva inclusió a les PMF.";
+
+/* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Si has activat els controls multimèdia a la pestanya de configuració, prem el botó de pista anterior dels auriculars per repetir l'última notificació de veu.";
 
 /* No comment provided by engineer. */
@@ -889,9 +925,6 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importar el fitxer de ruta de Soundscape";
-
-/* No comment provided by engineer. */
-"Important Notice" = "Noticia important";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "Velocitat de la veu en rutes en vehicles";
@@ -962,17 +995,20 @@
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Codis Latitud o (Latitud, Longitud) o Plus";
 
+/* No comment provided by engineer. */
+"Latitude, longitude and altitude" = "Latitud, longitud i altitud";
+
+/* No comment provided by engineer. */
+"Latitude: %@, Longitude: %@" = "Latitud: %1$@, Longitud: %2$@";
+
 /* general.alert.offline.learn_more */
 "Learn more" = "Per saber-ne més";
 
 /* location */
 "Location" = "Ubicació";
 
-/* troubleshooting.gps_status.feet */
-"Location Accuracy: %@ feet" = "Precisió de la ubicació: %@ peus";
-
-/* troubleshooting.gps_status.meters */
-"Location Accuracy: %@ meters" = "Precisió de la ubicació: %@ metres";
+/* %@ could be 4 meters or 12 feet */
+"Location Accuracy: %@" = "Precisió de la ubicació: %@";
 
 /* location_detail.title.default */
 "Location Details" = "Detalls de la ubicació";
@@ -1063,6 +1099,9 @@
 
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Allunyeu-vos de la balisa";
+
+/* No comment provided by engineer. */
+"Moving: %@" = "Moviment: %@";
 
 /* No comment provided by engineer. */
 "Mute Beacon" = "Silenciar objectiu";
@@ -1618,7 +1657,10 @@
 "Stop Route" = "Parar la ruta";
 
 /* No comment provided by engineer. */
-"Street Name Interval in Seconds" = "Interval del nom del carrer en segons";
+"Street Name Distance Interval" = "Nom del carrer Interval de distància";
+
+/* No comment provided by engineer. */
+"Street Name Time Interval" = "Nom del carrer Interval de temps";
 
 /* No comment provided by engineer. */
 "Street Names" = "Noms de carrers";
@@ -1629,6 +1671,12 @@
 
 /* preview.callout.paused */
 "Street Preview paused" = "Exploració de carrers en pausa";
+
+/* No comment provided by engineer. */
+"Subscribe Now" = "Subscriu-t'hi ara";
+
+/* No comment provided by engineer. */
+"Subscription Status" = "Estat de la subscripció";
 
 /* No comment provided by engineer. */
 "Summary" = "Resum";
@@ -1689,10 +1737,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La funció de seguiment és semblant a establir un objectiu en una destinació, però no rebràs actualitzacions sonores ni de distància fins que no estiguis a una distància especificada. Bàsicament, el VoiceVista s'adorm i només es desperta quan estiguis a prop de la teva destinació.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the interval for street name callouts." = "L'interval del nom del carrer en segons defineix l'interval per a les trucades del nom del carrer.";
-
-/* No comment provided by engineer. */
-"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "La pestanya Entorn i la pestanya Assistent s'han combinat des de la versió 1.2.3. Ara pots utilitzar el rotor d'accions dels botons de la pestanya Entorn per realitzar accions addicionals.";
+"The street name intervals define the distance and time interval for street name callouts." = "Els intervals de nom dels carrers defineixen la distància i l'interval de temps per als noms dels carrers.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "No hi ha interseccions per davant per notificar ara mateix";
@@ -1749,11 +1794,17 @@
 /* search.footnot.2 */
 "To calculate distances, access to location is required." = "Per calcular les distàncies, necessitem accés a la ubicació.";
 
+/* No comment provided by engineer. */
+"To calculate distances, access to your location is required." = "Per calcular distàncies, cal accedir a la vostra ubicació.";
+
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Per habilitar aquestes funcions, concedeix els permisos següents:";
 
 /* No comment provided by engineer. */
-"To hear surroundings, access to location and motion is required." = "Per escoltar l'entorn, necessitem accés a la ubicació i al moviment.";
+"To provide directions, access to motion & fitness data is required." = "Per proporcionar indicacions, cal tenir accés a dades de moviment i aptitud.";
+
+/* No comment provided by engineer. */
+"To provide directions, access to motion data is required." = "Per proporcionar indicacions, cal accedir a les dades de moviment.";
 
 /* directions.direction.to_the_left */
 "to the left" = "a l'esquerra";
@@ -1909,6 +1960,9 @@
 
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "El VoiceVista descarrega dades de mapes mentre camines per poder-te informar sobre els llocs i edificis que t'envolten. Si tens problemes amb el VoiceVista o veus que utilitza massa memòria, pots esborrar les dades del mapa emmagatzemades i VoiceVista només tornarà a descarregar les dades del mapa a prop de la teva ubicació actual.";
+
+/* No comment provided by engineer. */
+"VoiceVista has a plan to support Sony Earbuds. Users can subscribe to contribute funds for the development devices." = "VoiceVista té un pla per donar suport als auriculars Sony. Els usuaris es poden subscriure per aportar fons per als dispositius de desenvolupament.";
 
 /* icloud.kv_store.quota_violation_alert.title */
 "VoiceVista iCloud Storage Full" = "LA memòria d'iCloud de VoiceVista està plena";
