@@ -103,6 +103,9 @@
 /* settings.direction.style.absolute */
 "Absolute Direction" = "Direcția absolută";
 
+/* No comment provided by engineer. */
+"Accuracy: %@" = "Precizie: %@";
+
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Activitatea a început!";
 
@@ -171,6 +174,9 @@
 
 /* No comment provided by engineer. */
 "Allow Callouts" = "Permite înștiințări";
+
+/* No comment provided by engineer. */
+"Altitude: %@" = "Altitudine: %@";
 
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Adăugați puncte de trecere inversă la coadă pentru a face traseul o călătorie circulară.";
@@ -289,9 +295,6 @@
 
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "La ce distanță ați dori ca VoiceVista să vă alerteze?";
-
-/* beacon.audio_beacon */
-"Audio Beacon" = "Baliză audio";
 
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "STILURI AUDIO";
@@ -436,13 +439,22 @@
 "Change External Maps App" = "Schimbați aplicația Hărți externe";
 
 /* No comment provided by engineer. */
+"Change GPS Information Distance Interval" = "Modificarea intervalului de distanță al informațiilor GPS";
+
+/* No comment provided by engineer. */
+"Change GPS Information Time Interval" = "Modificarea intervalului de timp al informațiilor GPS";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Schimbați multiplicatorul intervalului POI";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Schimbați răspunsul la mișcare";
 
 /* No comment provided by engineer. */
-"Change Street Name Interval" = "Schimbați intervalul numelui străzii";
+"Change Street Name Distance Interval" = "Modificarea numelui străzii Interval distanță";
+
+/* No comment provided by engineer. */
+"Change Street Name Time Interval" = "Modificarea intervalului de timp al numelui străzii";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Schimbați unitățile de măsură";
@@ -713,6 +725,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Facilităţi";
 
+/* No comment provided by engineer. */
+"Facing: %@" = "Cu fața: %@";
+
 /* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
 "Factor %@" = "Factorul %@";
 
@@ -756,6 +771,9 @@
 "Failed to Update Route to Circular" = "Nu s-a putut actualiza traseul la circular";
 
 /* No comment provided by engineer. */
+"FAQ" = "FAQ";
+
+/* No comment provided by engineer. */
 "Filter Markers" = "Marcatori de filtrare";
 
 /* beacon.styles.flare */
@@ -772,6 +790,9 @@
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "întrebări frecvente";
+
+/* No comment provided by engineer. */
+"Fundraising Notice" = "Notificare de strângere de fonduri";
 
 /* No comment provided by engineer. */
 "General Settings" = "setari generale";
@@ -793,6 +814,15 @@
 
 /* settings.googleMaps */
 "Google Maps" = "Hărți Google";
+
+/* No comment provided by engineer. */
+"GPS Information" = "Informații GPS";
+
+/* No comment provided by engineer. */
+"GPS Information Distance Interval" = "Informații GPS Interval distanță";
+
+/* No comment provided by engineer. */
+"GPS Information Time Interval" = "Informații GPS Interval de timp";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Băcănii";
@@ -873,6 +903,12 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Stocarea iCloud pentru această aplicație este plină. Pentru a crea un marcator nou, va trebui să eliberați spațiu prin eliminarea unora dintre marcatoarele existente.";
 
 /* No comment provided by engineer. */
+"If you are unable to grant Motion & Fitness permission for VoiceVista, you may have disabled it for all apps. Please open the Settings app, navigate to Privacy & Security, find Motion & Fitness, and check the status of Fitness Tracking." = "Dacă nu puteți acorda permisiunea Motion &; Fitness pentru VoiceVista, este posibil să o fi dezactivat pentru toate aplicațiile. Vă rugăm să deschideți aplicația Setări, să navigați la Confidențialitate și securitate, să găsiți Motion & Fitness și să verificați starea Fitness Tracking.";
+
+/* No comment provided by engineer. */
+"If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Dacă nu ai găsit întrebarea aici, te rugăm să vizitezi App Store pentru a lăsa un comentariu. Întrebarea ta va fi abordată în App Store și poate fi selectată pentru a fi inclusă în FAQ.";
+
+/* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Dacă ați activat comenzile media în fila de setări, apăsați butonul anterior de pe căști pentru a repeta ultimul mesaj.";
 
 /* No comment provided by engineer. */
@@ -889,9 +925,6 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importați fișierul rută Soundscape";
-
-/* No comment provided by engineer. */
-"Important Notice" = "Notă importantă";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "ÎN RATA DE VORBIREA VEHICULUI";
@@ -962,17 +995,20 @@
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Codurile Latitudine sau (Latitudine, Longitudine) sau Plus";
 
+/* No comment provided by engineer. */
+"Latitude, longitude and altitude" = "Latitudine, longitudine și altitudine";
+
+/* No comment provided by engineer. */
+"Latitude: %@, Longitude: %@" = "Latitudine: %1$@, Longitudine: %2$@";
+
 /* general.alert.offline.learn_more */
 "Learn more" = "Află mai multe";
 
 /* location */
 "Location" = "Locație";
 
-/* troubleshooting.gps_status.feet */
-"Location Accuracy: %@ feet" = "Precizia locației: %@ picioare";
-
-/* troubleshooting.gps_status.meters */
-"Location Accuracy: %@ meters" = "Precizia locației: %@ metri";
+/* %@ could be 4 meters or 12 feet */
+"Location Accuracy: %@" = "Precizia locației: %@";
 
 /* location_detail.title.default */
 "Location Details" = "Detalii despre locație";
@@ -1063,6 +1099,9 @@
 
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Îndepărtează-te de far";
+
+/* No comment provided by engineer. */
+"Moving: %@" = "În mișcare: %@";
 
 /* No comment provided by engineer. */
 "Mute Beacon" = "Mute Beacon";
@@ -1618,7 +1657,10 @@
 "Stop Route" = "Opriți traseul";
 
 /* No comment provided by engineer. */
-"Street Name Interval in Seconds" = "Intervalul numelui străzii în secunde";
+"Street Name Distance Interval" = "Numele străzii Interval distanță";
+
+/* No comment provided by engineer. */
+"Street Name Time Interval" = "Numele străzii Interval de timp";
 
 /* No comment provided by engineer. */
 "Street Names" = "Numele străzilor";
@@ -1629,6 +1671,12 @@
 
 /* preview.callout.paused */
 "Street Preview paused" = "Street Preview a fost întreruptă";
+
+/* No comment provided by engineer. */
+"Subscribe Now" = "Abonează-te acum";
+
+/* No comment provided by engineer. */
+"Subscription Status" = "Starea abonamentului";
 
 /* No comment provided by engineer. */
 "Summary" = "rezumat";
@@ -1689,10 +1737,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Funcția de monitorizare a pornirii este asemănătoare cu setarea unui far pe o destinație, dar nu veți primi actualizări de sunet sau distanță până când sunteți la o anumită distanță. În esență, VoiceVista se culcă și se trezește numai atunci când sunteți aproape de destinație.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the interval for street name callouts." = "Intervalul numelui străzii în secunde definește intervalul pentru indicarea numelui străzii.";
-
-/* No comment provided by engineer. */
-"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Fila Înconjurări și fila Asistent au fost îmbinate din versiunea 1.2.3. Filele reduse de la 5 la 4. Acum puteți utiliza rotorul de acțiuni de pe butoanele filei Înconjurări pentru a efectua acțiuni suplimentare.";
+"The street name intervals define the distance and time interval for street name callouts." = "Intervalele pentru numele străzilor definesc distanța și intervalul de timp pentru înștiințările cu numele străzilor.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Nu există intersecții în față pe care să le sunați acum";
@@ -1749,11 +1794,17 @@
 /* search.footnot.2 */
 "To calculate distances, access to location is required." = "Pentru a calcula distanțe, este necesar accesul la locație.";
 
+/* No comment provided by engineer. */
+"To calculate distances, access to your location is required." = "Pentru a calcula distanțele, este necesar accesul la locația dvs.";
+
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Pentru a activa aceste funcții, acordați următoarele permisiuni:";
 
 /* No comment provided by engineer. */
-"To hear surroundings, access to location and motion is required." = "Pentru a auzi împrejurimile, este necesar accesul la locație și mișcare.";
+"To provide directions, access to motion & fitness data is required." = "Pentru a oferi indicații de orientare, este necesar accesul la datele de mișcare și fitness.";
+
+/* No comment provided by engineer. */
+"To provide directions, access to motion data is required." = "Pentru a furniza indicații de orientare, este necesar accesul la datele de mișcare.";
 
 /* directions.direction.to_the_left */
 "to the left" = "La stânga";
@@ -1909,6 +1960,9 @@
 
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista descarcă datele hărților pe măsură ce vă plimbați, astfel încât să vă poată spune despre lucrurile și locurile din jurul vostru. Dacă întâmpinați probleme cu VoiceVista sau folosește prea multă memorie, puteți șterge datele hărții stocate, iar VoiceVista va descărca din nou datele hărții din apropierea locației dvs. actuale.";
+
+/* No comment provided by engineer. */
+"VoiceVista has a plan to support Sony Earbuds. Users can subscribe to contribute funds for the development devices." = "VoiceVista are un plan pentru a sprijini Sony Earbuds. Utilizatorii se pot abona pentru a contribui cu fonduri pentru dispozitivele de dezvoltare.";
 
 /* icloud.kv_store.quota_violation_alert.title */
 "VoiceVista iCloud Storage Full" = "Stocare VoiceVista iCloud plină";

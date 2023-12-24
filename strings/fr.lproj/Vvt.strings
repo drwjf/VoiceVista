@@ -103,6 +103,9 @@
 /* settings.direction.style.absolute */
 "Absolute Direction" = "Direction absolue";
 
+/* No comment provided by engineer. */
+"Accuracy: %@" = "Précision : %@";
+
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Activité démarrée !";
 
@@ -171,6 +174,9 @@
 
 /* No comment provided by engineer. */
 "Allow Callouts" = "Autoriser les notifications";
+
+/* No comment provided by engineer. */
+"Altitude: %@" = "Altitude : %@";
 
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Ajoutez des waypoints inversés à la queue pour faire de l'itinéraire un voyage circulaire.";
@@ -289,9 +295,6 @@
 
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "À quelle distance souhaitez-vous que VoiceVista vous alerte ?";
-
-/* beacon.audio_beacon */
-"Audio Beacon" = "Balise sonore";
 
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "STYLES AUDIO";
@@ -436,13 +439,22 @@
 "Change External Maps App" = "Changer l'application Cartes externes";
 
 /* No comment provided by engineer. */
+"Change GPS Information Distance Interval" = "Modifier l’intervalle de distance des informations GPS";
+
+/* No comment provided by engineer. */
+"Change GPS Information Time Interval" = "Modifier l’intervalle de temps des informations GPS";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Modifier le multiplicateur de plage de POI";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Modifier la réponse au mouvement de secousse";
 
 /* No comment provided by engineer. */
-"Change Street Name Interval" = "Modifier l'intervalle de nom de rue";
+"Change Street Name Distance Interval" = "Modifier l’intervalle de distance du nom de la rue";
+
+/* No comment provided by engineer. */
+"Change Street Name Time Interval" = "Changer l’intervalle de temps du nom de la rue";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Modifier les unités de mesure";
@@ -713,6 +725,9 @@
 /* placesNearyBy.category.11 */
 "Facilities" = "Installations";
 
+/* No comment provided by engineer. */
+"Facing: %@" = "Parement : %@";
+
 /* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
 "Factor %@" = "Facteur %@";
 
@@ -756,6 +771,9 @@
 "Failed to Update Route to Circular" = "Échec de la mise à jour de l'itinéraire vers la circulaire";
 
 /* No comment provided by engineer. */
+"FAQ" = "FAQ";
+
+/* No comment provided by engineer. */
 "Filter Markers" = "Marqueurs de filtre";
 
 /* beacon.styles.flare */
@@ -772,6 +790,9 @@
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Foire Aux Questions";
+
+/* No comment provided by engineer. */
+"Fundraising Notice" = "Avis de collecte de fonds";
 
 /* No comment provided by engineer. */
 "General Settings" = "Réglages généraux";
@@ -793,6 +814,15 @@
 
 /* settings.googleMaps */
 "Google Maps" = "Google Maps";
+
+/* No comment provided by engineer. */
+"GPS Information" = "Informations GPS";
+
+/* No comment provided by engineer. */
+"GPS Information Distance Interval" = "Intervalle de distance des informations GPS";
+
+/* No comment provided by engineer. */
+"GPS Information Time Interval" = "Intervalle de temps d’information GPS";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Épiceries";
@@ -873,6 +903,12 @@
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Le stockage iCloud pour cette application est plein. Pour créer un nouveau marqueur, vous devez libérer de l’espace en supprimant certains de vos marqueurs existants.";
 
 /* No comment provided by engineer. */
+"If you are unable to grant Motion & Fitness permission for VoiceVista, you may have disabled it for all apps. Please open the Settings app, navigate to Privacy & Security, find Motion & Fitness, and check the status of Fitness Tracking." = "Si vous n’êtes pas en mesure d’accorder l’autorisation Motion & Fitness pour VoiceVista, vous l’avez peut-être désactivée pour toutes les applications. Veuillez ouvrir l’application Paramètres, accéder à Confidentialité et sécurité, trouver Motion et Fitness et vérifier l’état du suivi de la condition physique.";
+
+/* No comment provided by engineer. */
+"If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Si vous n’avez pas trouvé votre question ici, rendez-vous sur l’App Store pour laisser un commentaire. Votre question sera traitée dans l’App Store et pourra être sélectionnée pour être incluse dans la FAQ.";
+
+/* No comment provided by engineer. */
 "If you've enabled media controls in the settings tab, press the previous button on your headphones to repeat the last callout." = "Si vous avez activé les commandes multimédias dans l'onglet Paramètres, appuyez sur le bouton précédent de vos écouteurs pour répéter la dernière légende.";
 
 /* No comment provided by engineer. */
@@ -889,9 +925,6 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importer le fichier d'itinéraire Soundscape";
-
-/* No comment provided by engineer. */
-"Important Notice" = "Avis important";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "DANS LE TAUX DE PAROLE DU VÉHICULE";
@@ -962,17 +995,20 @@
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude ou (Latitude, Longitude) ou Codes Plus";
 
+/* No comment provided by engineer. */
+"Latitude, longitude and altitude" = "Latitude, longitude et altitude";
+
+/* No comment provided by engineer. */
+"Latitude: %@, Longitude: %@" = "Latitude : %1$@, Longitude : %2$@";
+
 /* general.alert.offline.learn_more */
 "Learn more" = "En savoir plus";
 
 /* location */
 "Location" = "Emplacement";
 
-/* troubleshooting.gps_status.feet */
-"Location Accuracy: %@ feet" = "Précision de localisation : %@ pieds";
-
-/* troubleshooting.gps_status.meters */
-"Location Accuracy: %@ meters" = "Précision de localisation : %@ mètres";
+/* %@ could be 4 meters or 12 feet */
+"Location Accuracy: %@" = "Précision de l’emplacement : %@";
 
 /* location_detail.title.default */
 "Location Details" = "Détails de l’emplacement";
@@ -1063,6 +1099,9 @@
 
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Éloignez-vous de la balise";
+
+/* No comment provided by engineer. */
+"Moving: %@" = "Déménagement : %@";
 
 /* No comment provided by engineer. */
 "Mute Beacon" = "Désactiver le son de la balise";
@@ -1618,7 +1657,10 @@
 "Stop Route" = "Arrêter l’Itinéraire";
 
 /* No comment provided by engineer. */
-"Street Name Interval in Seconds" = "Intervalle de nom de rue en secondes";
+"Street Name Distance Interval" = "Intervalle de distance du nom de rue";
+
+/* No comment provided by engineer. */
+"Street Name Time Interval" = "Intervalle de temps entre les noms de rue";
 
 /* No comment provided by engineer. */
 "Street Names" = "Noms de rues";
@@ -1629,6 +1671,12 @@
 
 /* preview.callout.paused */
 "Street Preview paused" = "Street Preview mis en pause";
+
+/* No comment provided by engineer. */
+"Subscribe Now" = "Abonnez-vous maintenant";
+
+/* No comment provided by engineer. */
+"Subscription Status" = "Statut de l’abonnement";
 
 /* No comment provided by engineer. */
 "Summary" = "Résumé";
@@ -1689,10 +1737,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La fonction de surveillance de démarrage s'apparente à l'installation d'une balise sur une destination, mais vous ne recevrez pas de mises à jour sonores ou de distance tant que vous ne serez pas à une distance spécifiée. Essentiellement, VoiceVista se met en veille et ne se réveille que lorsque vous êtes proche de votre destination.";
 
 /* No comment provided by engineer. */
-"The street name interval in seconds defines the interval for street name callouts." = "L'intervalle du nom de rue en secondes définit l'intervalle des légendes de nom de rue.";
-
-/* No comment provided by engineer. */
-"The Surroundings tab and the Assistant tab have been merged from Version 1.2.3. Tabs reduced from 5 to 4. You can now use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "L'onglet Environnement et l'onglet Assistant ont été fusionnés à partir de la version 1.2.3. Onglets réduits de 5 à 4. Vous pouvez désormais utiliser le rotor d'actions sur les boutons de l'onglet Environs pour effectuer des actions supplémentaires.";
+"The street name intervals define the distance and time interval for street name callouts." = "Les intervalles de nom de rue définissent la distance et l’intervalle de temps pour les légendes de nom de rue.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Il n'y a aucune intersection à signaler pour le moment";
@@ -1749,11 +1794,17 @@
 /* search.footnot.2 */
 "To calculate distances, access to location is required." = "Pour calculer les distances, l'accès à la localisation est requis.";
 
+/* No comment provided by engineer. */
+"To calculate distances, access to your location is required." = "Pour calculer les distances, l’accès à votre position est nécessaire.";
+
 /* permissions.info.2 */
 "To enable these features, please grant the following permissions:" = "Pour activer ces fonctionnalités, veuillez accorder les autorisations suivantes :";
 
 /* No comment provided by engineer. */
-"To hear surroundings, access to location and motion is required." = "Pour entendre l'environnement, l'accès à l'emplacement et au mouvement est nécessaire.";
+"To provide directions, access to motion & fitness data is required." = "Pour fournir des directions, l’accès aux données de mouvement et de condition physique est nécessaire.";
+
+/* No comment provided by engineer. */
+"To provide directions, access to motion data is required." = "Pour fournir des itinéraires, il est nécessaire d’accéder aux données de mouvement.";
 
 /* directions.direction.to_the_left */
 "to the left" = "à gauche";
@@ -1909,6 +1960,9 @@
 
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista télécharge des données de carte pendant que vous vous promenez afin de pouvoir vous informer sur les choses et les lieux qui vous entourent. Si vous rencontrez des problèmes avec VoiceVista ou s’il utilise trop de mémoire, vous pouvez effacer les données de carte stockées et VoiceVista ne retéléchargera que les données de carte proches de votre emplacement actuel.";
+
+/* No comment provided by engineer. */
+"VoiceVista has a plan to support Sony Earbuds. Users can subscribe to contribute funds for the development devices." = "VoiceVista a un plan pour prendre en charge les écouteurs Sony. Les utilisateurs peuvent s’abonner pour contribuer financièrement aux dispositifs de développement.";
 
 /* icloud.kv_store.quota_violation_alert.title */
 "VoiceVista iCloud Storage Full" = "Stockage iCloud VoiceVista plein";
