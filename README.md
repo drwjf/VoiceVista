@@ -10,8 +10,7 @@
 - Spanish translation contributed by Arturo Fernández Rivas and [Enrique Varela](https://about.me/enriquevarela).
 - Turkish translation contributed by [Sebahittin Bilsel](https://twitter.com/sebahittinbilse).
 
-> %@ or %1$@, %2$@ are placeholders in the sentence, need to keep these placeholders as original text when translating.
-
+> %@ or %1$@, %2$@ are placeholders in the sentence, need to keep these placeholders as original text when translating.  
 > \n means new line in the sentence, need to keep it as original text when translating.
 
 
