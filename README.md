@@ -5,6 +5,7 @@
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
+- Polish translation contributed by Przemyslaw Rogalski. [https://twitter.com/Rogalenko]
 - Russian translation contributed by Danil Kostenkov.
 - Spanish translation contributed by Arturo Fernández Rivas and [Enrique Varela](https://about.me/enriquevarela).
 - Turkish translation contributed by [Sebahittin Bilsel](https://twitter.com/sebahittinbilse).
