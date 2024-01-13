@@ -64,6 +64,9 @@
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ sekundi";
 
+/* %@ is count of calculated steps */
+"%@ steps" = "%@ koraka";
+
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "%@ dosegnutih putnih točaka, zadnja putna točka u blizini";
 
@@ -120,6 +123,9 @@
 
 /* routeDetail.noWaypoints.alert.addWaypoints */
 "Add Waypoints" = "Dodajte međutočke";
+
+/* No comment provided by engineer. */
+"Add Waypoints from Markers" = "Dodaj točke iz oznaka";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Dodavanje putnih točaka u Breadcrumb modu";
@@ -220,7 +226,7 @@
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Jeste li sigurni da želite izbrisati ovu oznaku?";
 
-/* headphonesSetting.forget_headset.prompt.forget */
+/* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Jeste li sigurni da želite zaboraviti ove slušalice?";
 
 /* general.alert.confirmation_title */
@@ -374,7 +380,7 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Cilj unutar %@. Zvuk cilja je isključen";
 
-/* headphonesSetting.connect_headset.audio */
+/* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Prije povezivanja slušalica s VoiceVistom, provjerite jesu li uparene s vašim telefonom. Ako nisu, idite u Bluetooth postavke u iOS Postavkama kako biste ih uparili, a zatim se vratite u VoiceVistu.";
 
 /* directions.direction.behind */
@@ -393,10 +399,19 @@
 "Both decimal numbers and Google plus codes are supported" = "Podržani su i decimalni brojevi i Google plus kodovi";
 
 /* No comment provided by engineer. */
+"Breadcrumb a New Route" = "Krušna mrvica nove rute";
+
+/* No comment provided by engineer. */
+"Breadcrumb a New Route?" = "Breadcrumb nova ruta?";
+
+/* No comment provided by engineer. */
 "Breadcrumb Marker Dropped" = "Postavljena je Breadcrumb oznaka";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Breadcrumb Mode";
+
+/* No comment provided by engineer. */
+"Calculate a New Route" = "Izračunaj novu rutu";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Izračunajte navigacijskim algoritmom";
@@ -425,7 +440,7 @@
 /* general.alert.cancel */
 "Cancel" = "Otkazati";
 
-/* settings.bluetooth.cancelConnect */
+/* No comment provided by engineer. */
 "Cancel Connecting" = "Odustani od povezivanja";
 
 /* No comment provided by engineer. */
@@ -470,7 +485,7 @@
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Provjerite status slušalica";
 
-/* headphonesSetting.connect_headset.completed.test */
+/* No comment provided by engineer. */
 "Check Your Headphones" = "Provjerite svoje slušalice";
 
 /* settings.clear_cache.markers.alert_message */
@@ -491,17 +506,16 @@
 /* No comment provided by engineer. */
 "Close" = "Zatvoriti";
 
-/* headphonesSetting.test_headset.continue */
+/* No comment provided by engineer. */
 "Complete Configuring" = "Dovršeno konfiguriranje";
 
-/* headphonesSetting.connect_headset.completed.airpods */
+/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Čestitamo! Vaši AirPods su spremni za upotrebu, tako da možete staviti telefon u džep i krenuti! VoiceVista će sada pratiti smjer vaše glave tako da ne morate držati telefon u ruci. Jednim klikom na gumb slušalica isključit će se ili uključiti cilj, dvostruki klik najavit će vašu lokaciju, a trostruki klik ponovit će posljednju najavu.";
 
-/* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+/* No comment provided by engineer. */
 "Connect Headphones" = "Spojite slušalice";
 
-/* ui.continue */
+/* No comment provided by engineer. */
 "Continue" = "Nastaviti";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
@@ -518,6 +532,12 @@
 
 /* No comment provided by engineer. */
 "Create a New Route" = "Stvorite novu rutu";
+
+/* No comment provided by engineer. */
+"Create A New Route to There" = "Stvaranje nove rute do tamo";
+
+/* No comment provided by engineer. */
+"Create a New Route?" = "Želite li stvoriti novu rutu?";
 
 /* No comment provided by engineer. */
 "Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Stvorite rutu za sebe ili za nekog drugog organiziranjem skupa oznaka kao putnih točaka na ruti.";
@@ -591,7 +611,7 @@
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "Onemogući neimenovane ceste";
 
-/* general.alert.dismiss */
+/* No comment provided by engineer. */
 "Dismiss" = "Odbaciti";
 
 /* settings.arrival.style.distance */
@@ -742,13 +762,7 @@
 "Factor %@" = "Učestalost %@";
 
 /* No comment provided by engineer. */
-"Failed to Add Route" = "Dodavanje rute nije uspjelo";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Neuspješno izračunavanje koraka smjera";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "Neuspješno izračunavanje putnih točaka za rutu";
+"Failed to Calculate Waypoints" = "Izračun točaka nije uspio";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Stvaranje rute nije uspjelo";
@@ -772,6 +786,9 @@
 "Failed to Import Route" = "Uvoz rute nije uspio";
 
 /* No comment provided by engineer. */
+"Failed to New a Route" = "Novo rute nije uspjelo";
+
+/* No comment provided by engineer. */
 "Failed to Start Monitoring" = "Pokretanje pračenja nije uspjelo";
 
 /* No comment provided by engineer. */
@@ -792,14 +809,17 @@
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Hrana & piće";
 
-/* general.alert.forget */
+/* No comment provided by engineer. */
 "Forget" = "Zaboraviti";
 
-/* settings.bluetooth.forget */
+/* No comment provided by engineer. */
 "Forget These Headphones" = "Zaboravi ove slušalice";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Često postavljana pitanja";
+
+/* %@ is name of a marker or POI */
+"From the current address to %@" = "Od trenutne adrese do %@";
 
 /* No comment provided by engineer. */
 "General Settings" = "Opće postavke";
@@ -852,25 +872,25 @@
 /* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "SLUŠALICE ZA PRAĆENJE GLAVE";
 
-/* headphonesSetting.explain_ar.disconnected */
+/* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Slušalice za praćenje glave su Bluetooth slušalice sa senzorima koji govore VoiceVista kamo ste okrenuti. Ovo pomaže VoiceVista da poboljša vaše audio iskustvo, čineći ga prirodnijim dok se krećete svijetom.\n\nDodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "Slušalice za praćenje glave nisu spojene.";
 
-/* headphonesSetting.title.calibrate */
+/* No comment provided by engineer. */
 "Headphones Calibration" = "Kalibracija slušalica";
 
-/* headphonesSetting.test_headset.title */
+/* No comment provided by engineer. */
 "Headphones Check" = "Provjera slušalica";
 
-/* headphonesSetting.title.first_connection */
+/* No comment provided by engineer. */
 "Headphones Connected" = "Slušalice spojene";
 
-/* headphonesSetting.title.completed_connection */
+/* No comment provided by engineer. */
 "Headphones Ready" = "Slušalice spremne";
 
-/* headphonesSetting.title.default */
+/* No comment provided by engineer. */
 "Headphones Setting" = "Postavka slušalica";
 
 /* placesNearyBy.category.8 */
@@ -1048,6 +1068,9 @@
 "Manage Generated Markers" = "Upravljanje generiranim oznakama";
 
 /* No comment provided by engineer. */
+"MAP" = "KARTA";
+
+/* No comment provided by engineer. */
 "Mark Current" = "Označi Trenutno";
 
 /* No comment provided by engineer. */
@@ -1128,6 +1151,9 @@
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Upute za navigaciju";
+
+/* No comment provided by engineer. */
+"NAVIGATION INSTRUCTIONS" = "UPUTE ZA NAVIGACIJU";
 
 /* No comment provided by engineer. */
 "Navigation Instructions" = "Upute za navigaciju";
@@ -1314,7 +1340,7 @@
 /* No comment provided by engineer. */
 "OTHERS" = "DRUGI";
 
-/* headphonesSetting.title.pair_audio */
+/* No comment provided by engineer. */
 "Pair Headphones Audio" = "Uparite audio slušalice";
 
 /* No comment provided by engineer. */
@@ -1343,9 +1369,6 @@
 
 /* markerpickers.title */
 "Pick Markers" = "Odaberite oznake";
-
-/* No comment provided by engineer. */
-"Pick Waypoints from Markers" = "Odaberite putne točke iz markera";
 
 /* beacon.styles.ping */
 "Ping" = "Ping";
@@ -1519,6 +1542,9 @@
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Ruta ažurirana na kružno putovanje";
 
+/* No comment provided by engineer. */
+"ROUTE WAYPOINTS" = "TOČKE RUTE";
+
 /* routes.title */
 "Routes" = "Rute";
 
@@ -1665,7 +1691,7 @@
 /* Label of button to start breadcrumb mode */
 "Start Breadcrumb Mode" = "Pokrenite Breadcrumb Mode";
 
-/* headphonesSetting.connect_headset.calibrate.button */
+/* No comment provided by engineer. */
 "Start Calibration" = "Pokreni kalibraciju";
 
 /* No comment provided by engineer. */
@@ -1766,7 +1792,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "The dropped breadcrumb marker will be named automatically and added to route %@." = "Ispuštena breadcrumb oznaka bit će automatski imenovana i dodana ruti %@.";
 
-/* headphonesSetting.connect_headset.unavailable */
+/* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Slušalice koje ste odabrali trenutno nisu dostupne za povezivanje. Molimo pokušajte ponovo kasnije.";
 
 /* universal_links.alert.import_error.message
@@ -1824,10 +1850,11 @@
 /* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Ova vrijednost je procjena koliko točno VoiceVista zna gdje se nalazite. Manje od 30 stopa je dobro. Manje od 60 stopa je u redu. Sve drugo je jadno. Podaci o lokaciji najtočniji su kada su vani, a ne ispod bilo kakvih građevina.";
 
-/* headphonesSetting.forget_headset.prompt.explanation */
+/* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Ovo će prekinuti vezu vaših slušalica s VoiceVista. Odavde se u budućnosti možete ponovo povezati s VoiceVista.";
 
-/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Za %@";
 
 /* placefilters.footnoot.1
@@ -1906,7 +1933,7 @@
 /* settings.clear_cache.no_service.title */
 "Unable to Clear Stored Map Data" = "Nije moguće izbrisati pohranjene podatke karte";
 
-/* headphonesSetting.connect_headset.error_title */
+/* No comment provided by engineer. */
 "Unable to Connect" = "Ne može se povezati";
 
 /* No comment provided by engineer. */
@@ -2015,7 +2042,7 @@
 /* No comment provided by engineer. */
 "VoiceVista is back online with full functionality." = "VoiceVista je ponovno na mreži s punom funkcionalnošću.";
 
-/* headphonesSetting.explain_ar.connecting */
+/* No comment provided by engineer. */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista se povezuje s vašim slušalicama. Jedan trenutak...";
 
 /* No comment provided by engineer. */
@@ -2030,7 +2057,7 @@
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista se trenutno ne može spojiti na internet. Prilikom brisanja pohranjenih podataka karte potrebna je internetska veza kako bi se podaci karte mogli osvježiti.";
 
-/* headphonesSetting.explain_ar.paired */
+/* No comment provided by engineer. */
 "VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista trenutno nije spojen na vaše slušalice. Provjerite jesu li vaše slušalice uključene i blizu vašeg telefona.";
 
 /* general.error.heading */
@@ -2048,7 +2075,7 @@
 /* settings.preview */
 "VOICEVISTA STREET PREVIEW" = "VOICEVISTA PREGLED ULICA";
 
-/* headphonesSetting.connect_headset.failed */
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista se nije mogla povezati s vašim slušalicama. Molimo pokušajte ponovo kasnije.";
 
 /* No comment provided by engineer. */
@@ -2067,6 +2094,9 @@
 /* routes.import.alert.message */
 "Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Podaci o međutočkama nedostaju za jednu ili više vaših ruta. Pregledajte sljedeće rute i po potrebi ponovno dodajte međutočke.";
 
+/* No comment provided by engineer. */
+"Waypoints Calculated" = "Izračunate točke";
+
 /* waypoints.cancel_alert_title */
 "Waypoints Updated" = "Putne točke ažurirane";
 
@@ -2082,7 +2112,7 @@
 /* general.error.set_beacon_error */
 "We are having trouble setting the beacon currently. Try again later." = "Trenutno imamo problema s postavljanjem cilja. Pokušajte ponovno kasnije.";
 
-/* headphonesSetting.test_headset.explanation */
+/* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Postavili smo audio cilj s vaše desne strane. Slušajte gdje je i okrenite glavu prema njemu. Primijetite kako to možete učiniti čak i kada vam je telefon u džepu. Kada završite, dodirnite gumb ispod da biste dovršili konfiguriranje svojih slušalica i uživajte u sljedećoj šetnji sa svojim novim slušalicama za praćenje glave.";
 
 /* devices.test_headset.callout */
@@ -2169,19 +2199,19 @@
 /* Title for alert that is displayed when importing a route. */
 "You've received a route: '%@'" = "Primili ste rutu: '%@'";
 
-/* headphonesSetting.explain_ar.connected.airpods */
+/* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "Vaši AirPods su spremni za upotrebu, tako da možete staviti telefon u džep i krenuti! VoiceVista prati smjer vaše glave tako da ne morate držati telefon u ruci.";
 
-/* headphonesSetting.connect_headset.calibrate.explanation */
+/* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Vaše su se slušalice uspješno spojile na VoiceVista, ali se moraju kalibrirati prije upotrebe. VoiceVista će vas obavijestiti kad god je potrebna kalibracija slušalica, na primjer svaki put kad ih uključite.";
 
 /* devices.callouts.needs_calibration */
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Vaše slušalice moraju biti kalibrirane. Uklonite ih s glave i nježno protresite u svim smjerovima.";
 
-/* headphonesSetting.connect_headset.unsupported_firmware */
+/* No comment provided by engineer. */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "Vaše slušalice moraju se ažurirati prije nego što se mogu povezati s VoiceVista.";
 
-/* headphonesSetting.airpods_unavailable.alert.description */
+/* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "Vaš iPhone ne podržava praćenje glave s Apple AirPods. Provjerite je li vaš iPhone iPhone 7 ili noviji i ima li iOS 14.4 ili noviji.";
 
 /* No comment provided by engineer. */

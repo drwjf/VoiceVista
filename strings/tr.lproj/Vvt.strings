@@ -64,6 +64,9 @@
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ saniye";
 
+/* %@ is count of calculated steps */
+"%@ steps" = "%@ adımlar";
+
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Ara Noktaya Ulaşıldı, Yakınlardaki Son Ara Nokta";
 
@@ -120,6 +123,9 @@
 
 /* routeDetail.noWaypoints.alert.addWaypoints */
 "Add Waypoints" = "Yol Noktası Ekle";
+
+/* No comment provided by engineer. */
+"Add Waypoints from Markers" = "İşaretçilerden Yol İşaretleri Ekleme";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "İçerik Haritası Modunda Yol Noktaları Ekleme";
@@ -220,7 +226,7 @@
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Bu işaretçiyi silmek istediğinizden emin misiniz?";
 
-/* headphonesSetting.forget_headset.prompt.forget */
+/* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Bu kulaklıkları unutmak istediğinizden emin misiniz?";
 
 /* general.alert.confirmation_title */
@@ -374,7 +380,7 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "%@ içindeki işaretçi. Sesli işaret kapatıldı";
 
-/* headphonesSetting.connect_headset.audio */
+/* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Kulaklığınızı VoiceVista'ya bağlamadan önce, kulaklığınızın telefonunuzla eşlendiğinden emin olun. Henüz eşleştirilmemişse, cihazınızı eşleştirmek için iOS Ayarları uygulamasındaki Bluetooth bölümüne gidin ve ardından VoiceVista'ya dönün.";
 
 /* directions.direction.behind */
@@ -393,10 +399,19 @@
 "Both decimal numbers and Google plus codes are supported" = "Hem ondalık sayılar hem de Google plus kodları desteklenir";
 
 /* No comment provided by engineer. */
+"Breadcrumb a New Route" = "Breadcrumb: Yeni Bir Rota";
+
+/* No comment provided by engineer. */
+"Breadcrumb a New Route?" = "Breadcrumb Yeni Bir Rota mı?";
+
+/* No comment provided by engineer. */
 "Breadcrumb Marker Dropped" = "İçerik Kırıntısı İşaretleyicisi Düştü";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "İçerik Kırıntısı Modu";
+
+/* No comment provided by engineer. */
+"Calculate a New Route" = "Yeni Bir Rota Hesaplayın";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Navigasyon Algoritmasına Göre Hesapla";
@@ -425,7 +440,7 @@
 /* general.alert.cancel */
 "Cancel" = "İptal etmek";
 
-/* settings.bluetooth.cancelConnect */
+/* No comment provided by engineer. */
 "Cancel Connecting" = "Bağlantıyı İptal Et";
 
 /* No comment provided by engineer. */
@@ -470,7 +485,7 @@
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Kulaklık Durumunu Kontrol Edin";
 
-/* headphonesSetting.connect_headset.completed.test */
+/* No comment provided by engineer. */
 "Check Your Headphones" = "Kulaklıklarınızı Kontrol Edin";
 
 /* settings.clear_cache.markers.alert_message */
@@ -491,17 +506,16 @@
 /* No comment provided by engineer. */
 "Close" = "Kapalı";
 
-/* headphonesSetting.test_headset.continue */
+/* No comment provided by engineer. */
 "Complete Configuring" = "Yapılandırmayı Tamamlayın";
 
-/* headphonesSetting.connect_headset.completed.airpods */
+/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Tebrikler! AirPods'unuz kullanıma hazır, böylece telefonunuzu cebinize koyup gidebilirsiniz! VoiceVista artık başınızın yönünü takip edecek, böylece telefonu elinizde tutmanıza gerek kalmayacak. Kulaklık düğmesine tek tıklama işaretin sesini kapatır veya açar, çift tıklama konumunuzu belirtir ve üç kez tıklama son açıklamayı tekrarlar.";
 
-/* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+/* No comment provided by engineer. */
 "Connect Headphones" = "Kulaklıkları Bağlayın";
 
-/* ui.continue */
+/* No comment provided by engineer. */
 "Continue" = "Devam etmek";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
@@ -518,6 +532,12 @@
 
 /* No comment provided by engineer. */
 "Create a New Route" = "Yeni Rota Oluştur";
+
+/* No comment provided by engineer. */
+"Create A New Route to There" = "Oraya Yeni Bir Rota Oluşturun";
+
+/* No comment provided by engineer. */
+"Create a New Route?" = "Yeni bir rota mı oluşturacaksınız?";
 
 /* No comment provided by engineer. */
 "Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Bir rota üzerinde ara noktalar olarak bir dizi işaretçi düzenleyerek kendiniz veya bir başkası için bir rota oluşturun.";
@@ -591,7 +611,7 @@
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "İsimsiz Yolları Devre Dışı Bırak";
 
-/* general.alert.dismiss */
+/* No comment provided by engineer. */
 "Dismiss" = "Azletmek";
 
 /* settings.arrival.style.distance */
@@ -742,13 +762,7 @@
 "Factor %@" = "Faktör %@";
 
 /* No comment provided by engineer. */
-"Failed to Add Route" = "Rota Eklenemedi";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Yön Adımları Hesaplanamadı";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "Rota için Yol Noktaları Hesaplanamadı";
+"Failed to Calculate Waypoints" = "Ara noktalar hesaplanamadı";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Rota Oluşturulamadı";
@@ -772,6 +786,9 @@
 "Failed to Import Route" = "Rota İçe Aktarılamadı";
 
 /* No comment provided by engineer. */
+"Failed to New a Route" = "Rota yenilenemedi";
+
+/* No comment provided by engineer. */
 "Failed to Start Monitoring" = "İzleme Başlatılamadı";
 
 /* No comment provided by engineer. */
@@ -792,14 +809,17 @@
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Yiyecek içecek";
 
-/* general.alert.forget */
+/* No comment provided by engineer. */
 "Forget" = "Unutmak";
 
-/* settings.bluetooth.forget */
+/* No comment provided by engineer. */
 "Forget These Headphones" = "Bu Kulaklıkları Unutun";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Sıkça Sorulan Sorular";
+
+/* %@ is name of a marker or POI */
+"From the current address to %@" = "Geçerli adresten %@ adresine";
 
 /* No comment provided by engineer. */
 "General Settings" = "Genel Ayarlar";
@@ -852,25 +872,25 @@
 /* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "KAFA TAKİP KULAKLIKLARI";
 
-/* headphonesSetting.explain_ar.disconnected */
+/* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Kafa izleme kulaklıkları, VoiceVista'ya nereye baktığınızı söyleyen sensörlere sahip Bluetooth kulaklıklardır. Bu, VoiceVista'nın ses deneyiminizi iyileştirmesine yardımcı olarak siz dünyada dolaşırken daha doğal hale getirir.\n\nBaş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "Kafa izleme kulaklıkları bağlı değil.";
 
-/* headphonesSetting.title.calibrate */
+/* No comment provided by engineer. */
 "Headphones Calibration" = "Kulaklık Kalibrasyonu";
 
-/* headphonesSetting.test_headset.title */
+/* No comment provided by engineer. */
 "Headphones Check" = "Kulaklık Kontrolü";
 
-/* headphonesSetting.title.first_connection */
+/* No comment provided by engineer. */
 "Headphones Connected" = "Kulaklık Bağlandı";
 
-/* headphonesSetting.title.completed_connection */
+/* No comment provided by engineer. */
 "Headphones Ready" = "Kulaklıklar Hazır";
 
-/* headphonesSetting.title.default */
+/* No comment provided by engineer. */
 "Headphones Setting" = "Kulaklık Ayarı";
 
 /* placesNearyBy.category.8 */
@@ -1048,6 +1068,9 @@
 "Manage Generated Markers" = "Oluşturulan İşaretleyicileri Yönet";
 
 /* No comment provided by engineer. */
+"MAP" = "HARİTA";
+
+/* No comment provided by engineer. */
 "Mark Current" = "Akımı İşaretle";
 
 /* No comment provided by engineer. */
@@ -1128,6 +1151,9 @@
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Navigasyon talimatları";
+
+/* No comment provided by engineer. */
+"NAVIGATION INSTRUCTIONS" = "NAVIGASYON TALIMATLARI";
 
 /* No comment provided by engineer. */
 "Navigation Instructions" = "Navigasyon Talimatları";
@@ -1314,7 +1340,7 @@
 /* No comment provided by engineer. */
 "OTHERS" = "DİĞER";
 
-/* headphonesSetting.title.pair_audio */
+/* No comment provided by engineer. */
 "Pair Headphones Audio" = "Kulaklık Sesini Eşleştir";
 
 /* No comment provided by engineer. */
@@ -1343,9 +1369,6 @@
 
 /* markerpickers.title */
 "Pick Markers" = "İşaretçileri Seçin";
-
-/* No comment provided by engineer. */
-"Pick Waypoints from Markers" = "İşaretçilerden Yol Noktalarını Seçin";
 
 /* beacon.styles.ping */
 "Ping" = "ping";
@@ -1519,6 +1542,9 @@
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rota Dairesel Yolculuk olarak Güncellendi";
 
+/* No comment provided by engineer. */
+"ROUTE WAYPOINTS" = "ROTA ARA NOKTALARI";
+
 /* routes.title */
 "Routes" = "Rotalar";
 
@@ -1665,7 +1691,7 @@
 /* Label of button to start breadcrumb mode */
 "Start Breadcrumb Mode" = "İçerik Kırıntısı Modunu Başlat";
 
-/* headphonesSetting.connect_headset.calibrate.button */
+/* No comment provided by engineer. */
 "Start Calibration" = "Kalibrasyonu Başlat";
 
 /* No comment provided by engineer. */
@@ -1766,7 +1792,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "The dropped breadcrumb marker will be named automatically and added to route %@." = "Bırakılan içerik haritası işaretçisi otomatik olarak adlandırılacak ve %@ rotasına eklenecektir.";
 
-/* headphonesSetting.connect_headset.unavailable */
+/* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Seçtiğiniz kulaklıklar şu anda bağlantı için uygun değil. Lütfen daha sonra tekrar deneyiniz.";
 
 /* universal_links.alert.import_error.message
@@ -1824,10 +1850,11 @@
 /* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Bu değer, VoiceVista'nın nerede olduğunuzu ne kadar doğru bildiğinin bir tahminidir. 30 feet'ten az iyidir. 60 feet'ten az sorun yok. Diğer her şey kötüdür. Konum verileri, dışarıdayken ve herhangi bir yapının altında olmadığında en doğrudur.";
 
-/* headphonesSetting.forget_headset.prompt.explanation */
+/* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Bu, kulaklığınızın VoiceVista ile bağlantısını kesecektir. Gelecekte VoiceVista'ya buradan tekrar bağlanabilirsiniz.";
 
-/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "İle %@";
 
 /* placefilters.footnoot.1
@@ -1906,7 +1933,7 @@
 /* settings.clear_cache.no_service.title */
 "Unable to Clear Stored Map Data" = "Kayıtlı Harita Verileri Temizlenemiyor";
 
-/* headphonesSetting.connect_headset.error_title */
+/* No comment provided by engineer. */
 "Unable to Connect" = "Bağlanılamıyor";
 
 /* No comment provided by engineer. */
@@ -2015,7 +2042,7 @@
 /* No comment provided by engineer. */
 "VoiceVista is back online with full functionality." = "VoiceVista tam işlevselliğiyle yeniden çevrimiçi.";
 
-/* headphonesSetting.explain_ar.connecting */
+/* No comment provided by engineer. */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista kulaklığınıza bağlanıyor. Bir dakika...";
 
 /* No comment provided by engineer. */
@@ -2030,7 +2057,7 @@
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista şu anda internete bağlanamıyor. Harita verilerinin yenilenebilmesi için saklanan harita verileri temizlenirken bir internet bağlantısı gereklidir.";
 
-/* headphonesSetting.explain_ar.paired */
+/* No comment provided by engineer. */
 "VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista şu anda kulaklığınıza bağlı değil. Lütfen kulaklığınızın açık ve telefonunuzun yakınında olduğundan emin olun.";
 
 /* general.error.heading */
@@ -2048,7 +2075,7 @@
 /* settings.preview */
 "VOICEVISTA STREET PREVIEW" = "VOICEVISTA SOKAK ÖNİZLEME";
 
-/* headphonesSetting.connect_headset.failed */
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista kulaklığınıza bağlanamadı. Lütfen daha sonra tekrar deneyiniz.";
 
 /* No comment provided by engineer. */
@@ -2067,6 +2094,9 @@
 /* routes.import.alert.message */
 "Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Bir veya daha fazla rotanız için yol noktası verileri eksik. Lütfen aşağıdaki rotaları gözden geçirin ve gerekirse ara noktaları yeniden ekleyin.";
 
+/* No comment provided by engineer. */
+"Waypoints Calculated" = "Hesaplanan Yol Noktaları";
+
 /* waypoints.cancel_alert_title */
 "Waypoints Updated" = "Ara Noktalar Güncellendi";
 
@@ -2082,7 +2112,7 @@
 /* general.error.set_beacon_error */
 "We are having trouble setting the beacon currently. Try again later." = "Şu anda sinyali ayarlarken sorun yaşıyoruz. Daha sonra tekrar deneyin.";
 
-/* headphonesSetting.test_headset.explanation */
+/* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Sağınıza bir sesli işaret yerleştirdik. Nerede olduğunu dinleyin ve başınızı ona doğru çevirin. Telefonunuz cebinizdeyken bile bunu nasıl yapabildiğinize dikkat edin. İşiniz bittiğinde, kulaklığınızı yapılandırmayı tamamlamak için aşağıdaki düğmeye dokunun ve yeni kafa izleme kulaklığınızla bir sonraki yürüyüşünüzün tadını çıkarın.";
 
 /* devices.test_headset.callout */
@@ -2169,19 +2199,19 @@
 /* Title for alert that is displayed when importing a route. */
 "You've received a route: '%@'" = "Bir rota aldınız: '%@'";
 
-/* headphonesSetting.explain_ar.connected.airpods */
+/* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "AirPods'unuz kullanıma hazır, böylece telefonunuzu cebinize koyup gidebilirsiniz! VoiceVista, telefonu elinizde tutmanıza gerek kalmaması için başınızın yönünü takip ediyor.";
 
-/* headphonesSetting.connect_headset.calibrate.explanation */
+/* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Kulaklığınız VoiceVista'ya başarıyla bağlandı ancak kullanmadan önce kalibre edilmelidir. VoiceVista, kulaklık kalibrasyonu gerektiğinde, örneğin her açtığınızda sizi bilgilendirecektir.";
 
 /* devices.callouts.needs_calibration */
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Kulaklıklarınızın kalibre edilmesi gerekiyor. Bunları kafanızdan çıkarın ve her yöne doğru hafifçe sallayın.";
 
-/* headphonesSetting.connect_headset.unsupported_firmware */
+/* No comment provided by engineer. */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "VoiceVista'ya bağlanabilmeleri için önce Kulaklıklarınızın güncellenmesi gerekir.";
 
-/* headphonesSetting.airpods_unavailable.alert.description */
+/* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "iPhone'unuz, Apple AirPods ile kafa izlemeyi desteklemiyor. iPhone'unuzun bir iPhone 7 veya daha yenisi olduğunu ve iOS 14.4 veya daha yenisini çalıştırdığını kontrol edin.";
 
 /* No comment provided by engineer. */
