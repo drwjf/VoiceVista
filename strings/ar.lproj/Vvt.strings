@@ -20,6 +20,7 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 /* %@ to indicate the number of seconds between street name announcements */
+/* %@ is count of calculated steps */
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 /* directions.name_continues_ahead */
 /* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
@@ -60,6 +61,9 @@
 
 /* routeDetail.noWaypoints.alert.addWaypoints */
 "Add Waypoints" = "أضف نقاط الطريق";
+
+/* No comment provided by engineer. */
+"Add Waypoints from Markers" = "إضافة نقاط الطريق من العلامات";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "أضف نقاط الطريق في وضع Breadcrumb";
@@ -146,7 +150,7 @@
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "هل أنت متأكد أنك تريد حذف هذه العلامة؟";
 
-/* headphonesSetting.forget_headset.prompt.forget */
+/* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "هل أنت متأكد أنك ترغب في نسيان هذه السماعات؟";
 
 /* general.alert.confirmation_title */
@@ -286,7 +290,7 @@
 
 /* Notification, Beacon location nearby. */
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
-/* headphonesSetting.connect_headset.audio */
+/* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "قبل توصيل سماعات الرأس الخاصة بك بـ VoiceVista ، تأكد من إقرانها بهاتفك. إذا لم يتم الاقتران بعد ، فانتقل إلى قسم Bluetooth في تطبيق إعدادات iOS لإقران جهازك ثم العودة إلى VoiceVista.";
 
 /* directions.direction.behind */
@@ -305,10 +309,19 @@
 "Both decimal numbers and Google plus codes are supported" = "يتم دعم كل من الأرقام العشرية ورموز Google plus";
 
 /* No comment provided by engineer. */
+"Breadcrumb a New Route" = "فتات الخبز طريق جديد";
+
+/* No comment provided by engineer. */
+"Breadcrumb a New Route?" = "فتات الخبز طريق جديد؟";
+
+/* No comment provided by engineer. */
 "Breadcrumb Marker Dropped" = "تم إسقاط علامة مسار التنقل";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "وضع مسار التنقل";
+
+/* No comment provided by engineer. */
+"Calculate a New Route" = "حساب مسار جديد";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "حساب عن طريق خوارزمية الملاحة";
@@ -337,7 +350,7 @@
 /* general.alert.cancel */
 "Cancel" = "يلغي";
 
-/* settings.bluetooth.cancelConnect */
+/* No comment provided by engineer. */
 "Cancel Connecting" = "إلغاء الاتصال";
 
 /* No comment provided by engineer. */
@@ -382,7 +395,7 @@
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "تحقق من حالة سماعات الرأس";
 
-/* headphonesSetting.connect_headset.completed.test */
+/* No comment provided by engineer. */
 "Check Your Headphones" = "تحقق من سماعات الرأس الخاصة بك";
 
 /* settings.clear_cache.markers.alert_message */
@@ -403,17 +416,16 @@
 /* No comment provided by engineer. */
 "Close" = "يغلق";
 
-/* headphonesSetting.test_headset.continue */
+/* No comment provided by engineer. */
 "Complete Configuring" = "التكوين الكامل";
 
-/* headphonesSetting.connect_headset.completed.airpods */
+/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "تهانينا! AirPods الخاص بك جاهز للاستخدام ، لذا يمكنك وضع هاتفك في جيبك والانطلاق! سيتعقب VoiceVista الآن اتجاه رأسك حتى لا تحتاج إلى حمل الهاتف في يدك. ستؤدي نقرة واحدة على زر سماعات الرأس إلى كتم صوت المرشد أو إلغاء كتمه ، وسيؤدي النقر المزدوج إلى شرح موقعك ، وستؤدي نقرة ثلاثية إلى تكرار وسيلة الشرح الأخيرة.";
 
-/* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+/* No comment provided by engineer. */
 "Connect Headphones" = "قم بتوصيل سماعات الرأس";
 
-/* ui.continue */
+/* No comment provided by engineer. */
 "Continue" = "يكمل";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
@@ -424,6 +436,12 @@
 
 /* No comment provided by engineer. */
 "Create a New Route" = "أنشئ طريقًا جديدًا";
+
+/* No comment provided by engineer. */
+"Create A New Route to There" = "إنشاء طريق جديد إلى هناك";
+
+/* No comment provided by engineer. */
+"Create a New Route?" = "إنشاء مسار جديد؟";
 
 /* No comment provided by engineer. */
 "Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "قم بإنشاء مسار لك أو لشخص آخر من خلال تنظيم مجموعة من العلامات كنقاط مسار على الطريق.";
@@ -483,7 +501,7 @@
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "تعطيل الطرق بدون اسم";
 
-/* general.alert.dismiss */
+/* No comment provided by engineer. */
 "Dismiss" = "رفض";
 
 /* settings.arrival.style.distance */
@@ -620,13 +638,7 @@
 /* No comment provided by engineer. */
 /* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
 /* No comment provided by engineer. */
-"Failed to Add Route" = "فشل في إضافة الطريق";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "فشل في حساب خطوات الاتجاه";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "فشل في حساب نقاط الطريق للطريق";
+"Failed to Calculate Waypoints" = "فشل حساب نقاط الطريق";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "فشل في إنشاء الطريق";
@@ -650,6 +662,9 @@
 "Failed to Import Route" = "فشل استيراد الطريق";
 
 /* No comment provided by engineer. */
+"Failed to New a Route" = "فشل في مسار جديد";
+
+/* No comment provided by engineer. */
 "Failed to Start Monitoring" = "فشل في بدء المراقبة";
 
 /* No comment provided by engineer. */
@@ -670,15 +685,16 @@
 /* placesNearyBy.category.3 */
 "Food & Drink" = "طعام شراب";
 
-/* general.alert.forget */
+/* No comment provided by engineer. */
 "Forget" = "ينسى";
 
-/* settings.bluetooth.forget */
+/* No comment provided by engineer. */
 "Forget These Headphones" = "ننسى هذه السماعات";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "أسئلة مكررة";
 
+/* %@ is name of a marker or POI */
 /* No comment provided by engineer. */
 "General Settings" = "الاعدادات العامة";
 
@@ -730,25 +746,25 @@
 /* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "سماعات تتبع الرأس";
 
-/* headphonesSetting.explain_ar.disconnected */
+/* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "سماعات تتبع الرأس هي سماعات بلوتوث مزودة بأجهزة استشعار تخبر VoiceVista أين تواجه. يساعد ذلك VoiceVista على تحسين تجربتك الصوتية ، مما يجعلها أكثر طبيعية أثناء تنقلك في جميع أنحاء العالم.\n\nانقر فوق الزر أدناه لتوصيل سماعات الرأس الخاصة بتتبع الرأس.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "سماعات تتبع الرأس غير متصلة.";
 
-/* headphonesSetting.title.calibrate */
+/* No comment provided by engineer. */
 "Headphones Calibration" = "معايرة سماعات الرأس";
 
-/* headphonesSetting.test_headset.title */
+/* No comment provided by engineer. */
 "Headphones Check" = "فحص سماعات الرأس";
 
-/* headphonesSetting.title.first_connection */
+/* No comment provided by engineer. */
 "Headphones Connected" = "سماعات الرأس متصلة";
 
-/* headphonesSetting.title.completed_connection */
+/* No comment provided by engineer. */
 "Headphones Ready" = "سماعات جاهزة";
 
-/* headphonesSetting.title.default */
+/* No comment provided by engineer. */
 "Headphones Setting" = "إعداد سماعات الرأس";
 
 /* placesNearyBy.category.8 */
@@ -908,6 +924,9 @@
 "Manage Generated Markers" = "إدارة العلامات المولدة";
 
 /* No comment provided by engineer. */
+"MAP" = "خريطة";
+
+/* No comment provided by engineer. */
 "Mark Current" = "مارك الحالي";
 
 /* No comment provided by engineer. */
@@ -980,6 +999,9 @@
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "تعليمات التنقل";
+
+/* No comment provided by engineer. */
+"NAVIGATION INSTRUCTIONS" = "تعليمات الملاحة";
 
 /* No comment provided by engineer. */
 "Navigation Instructions" = "تعليمات الملاحة";
@@ -1152,7 +1174,7 @@
 /* No comment provided by engineer. */
 "OTHERS" = "آحرون";
 
-/* headphonesSetting.title.pair_audio */
+/* No comment provided by engineer. */
 "Pair Headphones Audio" = "إقران صوت سماعات الرأس";
 
 /* No comment provided by engineer. */
@@ -1181,9 +1203,6 @@
 
 /* markerpickers.title */
 "Pick Markers" = "اختر المحددات";
-
-/* No comment provided by engineer. */
-"Pick Waypoints from Markers" = "اختر نقاط الطريق من العلامات";
 
 /* beacon.styles.ping */
 "Ping" = "بينغ";
@@ -1339,6 +1358,9 @@
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "تم تحديث المسار إلى رحلة دائرية";
 
+/* No comment provided by engineer. */
+"ROUTE WAYPOINTS" = "نقاط الطريق";
+
 /* routes.title */
 "Routes" = "طرق";
 
@@ -1481,7 +1503,7 @@
 /* Label of button to start breadcrumb mode */
 "Start Breadcrumb Mode" = "بدء وضع مسار التنقل";
 
-/* headphonesSetting.connect_headset.calibrate.button */
+/* No comment provided by engineer. */
 "Start Calibration" = "بدء المعايرة";
 
 /* No comment provided by engineer. */
@@ -1576,7 +1598,7 @@
 "The distance between waypoints should not be too small." = "يجب ألا تكون المسافة بين نقاط الطريق صغيرة جدًا.";
 
 /* %@ is the name of a route being breadcrumb mode */
-/* headphonesSetting.connect_headset.unavailable */
+/* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "سماعات الرأس التي حددتها غير متاحة حاليًا للاتصال. الرجاء معاودة المحاولة في وقت لاحق.";
 
 /* universal_links.alert.import_error.message
@@ -1632,10 +1654,11 @@
 /* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "هذه القيمة هي تقدير لمدى دقة معرفة VoiceVista لمكان تواجدك. أقل من 30 قدم جيد. أقل من 60 قدمًا على ما يرام. وأي شيء آخر فهو فقير. تكون بيانات الموقع أكثر دقة عندما تكون بالخارج وليس تحت أي هياكل.";
 
-/* headphonesSetting.forget_headset.prompt.explanation */
+/* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "سيؤدي هذا إلى فصل سماعات الرأس الخاصة بك عن VoiceVista. يمكنك الاتصال بـ VoiceVista مرة أخرى في المستقبل من هنا.";
 
-/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 /* placefilters.footnoot.1
    places.footnot.2 */
 "To browse nearby places, access to location is required." = "لتصفح الأماكن المجاورة ، يلزم الوصول إلى الموقع.";
@@ -1706,7 +1729,7 @@
 /* settings.clear_cache.no_service.title */
 "Unable to Clear Stored Map Data" = "تعذر محو بيانات الخرائط المخزنة";
 
-/* headphonesSetting.connect_headset.error_title */
+/* No comment provided by engineer. */
 "Unable to Connect" = "غير قادر على الاتصال";
 
 /* No comment provided by engineer. */
@@ -1815,7 +1838,7 @@
 /* No comment provided by engineer. */
 "VoiceVista is back online with full functionality." = "عاد VoiceVista إلى الإنترنت بوظائفه الكاملة.";
 
-/* headphonesSetting.explain_ar.connecting */
+/* No comment provided by engineer. */
 "VoiceVista is connecting to your headphones. One moment..." = "يقوم VoiceVista بالاتصال بسماعات الرأس الخاصة بك. لحظة واحدة ...";
 
 /* No comment provided by engineer. */
@@ -1828,7 +1851,7 @@
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista غير قادر حاليًا على الاتصال بالإنترنت. يلزم الاتصال بالإنترنت عند مسح بيانات الخريطة المخزنة بحيث يمكن تحديث بيانات الخريطة.";
 
-/* headphonesSetting.explain_ar.paired */
+/* No comment provided by engineer. */
 "VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista غير متصل حاليًا بسماعات الرأس الخاصة بك. يرجى التأكد من تشغيل سماعات الرأس وقربها من هاتفك.";
 
 /* general.error.heading */
@@ -1846,7 +1869,7 @@
 /* settings.preview */
 "VOICEVISTA STREET PREVIEW" = "معاينة شارع VOICEVISTA";
 
-/* headphonesSetting.connect_headset.failed */
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "لم يتمكن VoiceVista من الاتصال بسماعات الرأس الخاصة بك. الرجاء معاودة المحاولة في وقت لاحق.";
 
 /* No comment provided by engineer. */
@@ -1865,6 +1888,9 @@
 /* routes.import.alert.message */
 "Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "بيانات الإحداثية مفقودة لواحد أو أكثر من مساراتك. يرجى مراجعة المسارات التالية ، وإعادة إضافة الإحداثيات إذا لزم الأمر.";
 
+/* No comment provided by engineer. */
+"Waypoints Calculated" = "نقاط الطريق المحسوبة";
+
 /* waypoints.cancel_alert_title */
 "Waypoints Updated" = "تم تحديث نقاط الطريق";
 
@@ -1880,7 +1906,7 @@
 /* general.error.set_beacon_error */
 "We are having trouble setting the beacon currently. Try again later." = "نواجه مشكلة في إعداد المرشد حاليًا. حاول مرة أخرى في وقت لاحق.";
 
-/* headphonesSetting.test_headset.explanation */
+/* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "لقد وضعنا منارة صوتية على يمينك. استمع أين هو ، وأدر رأسك نحوه. لاحظ كيف يمكنك القيام بذلك حتى عندما يكون هاتفك في جيبك. عند الانتهاء ، انقر فوق الزر أدناه لإكمال تكوين سماعات الرأس الخاصة بك ، واستمتع بالمشي التالي مع سماعات الرأس الجديدة لتتبع الرأس.";
 
 /* devices.test_headset.callout */
@@ -1963,19 +1989,19 @@
 
 /* Title for alert that is displayed when importing a marker. */
 /* Title for alert that is displayed when importing a route. */
-/* headphonesSetting.explain_ar.connected.airpods */
+/* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "AirPods الخاص بك جاهز للاستخدام ، لذا يمكنك وضع هاتفك في جيبك والانطلاق! يتتبع VoiceVista اتجاه رأسك حتى لا تحتاج إلى حمل الهاتف في يدك.";
 
-/* headphonesSetting.connect_headset.calibrate.explanation */
+/* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "تم توصيل سماعات الرأس الخاصة بك بنجاح بـ VoiceVista ولكن يجب معايرتها قبل الاستخدام. ستخبرك VoiceVista متى دعت الحاجة إلى معايرة سماعات الرأس ، على سبيل المثال في كل مرة تقوم فيها بتشغيلها.";
 
 /* devices.callouts.needs_calibration */
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "يجب معايرة سماعات الرأس الخاصة بك. قم بإزالتها من رأسك وهزها برفق في جميع الاتجاهات.";
 
-/* headphonesSetting.connect_headset.unsupported_firmware */
+/* No comment provided by engineer. */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "يجب تحديث سماعات الرأس الخاصة بك قبل أن تتمكن من الاتصال بـ VoiceVista.";
 
-/* headphonesSetting.airpods_unavailable.alert.description */
+/* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "لا يدعم جهاز iPhone الخاص بك تتبع الرأس مع Apple AirPods. تأكد من أن جهاز iPhone الخاص بك هو iPhone 7 أو إصدار أحدث ويعمل بنظام iOS 14.4 أو إصدار أحدث.";
 
 /* No comment provided by engineer. */
