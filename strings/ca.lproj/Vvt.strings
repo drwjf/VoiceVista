@@ -64,6 +64,9 @@
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ segons";
 
+/* %@ is count of calculated steps */
+"%@ steps" = "Passos %@";
+
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "Has arribat a %@ senyals, últim senyal proper";
 
@@ -120,6 +123,9 @@
 
 /* routeDetail.noWaypoints.alert.addWaypoints */
 "Add Waypoints" = "Afegeix senyals";
+
+/* No comment provided by engineer. */
+"Add Waypoints from Markers" = "Afegir Waypoints des de Markers";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Afegeix senyals en mode Molletes";
@@ -220,7 +226,7 @@
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Segur que vols borrar aquest marcador?";
 
-/* headphonesSetting.forget_headset.prompt.forget */
+/* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Segur que vols oblidar aquests auriculars?";
 
 /* general.alert.confirmation_title */
@@ -374,7 +380,7 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Objectiu dins de %@. L'objectiu sonor s'ha silenciat";
 
-/* headphonesSetting.connect_headset.audio */
+/* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Abans de connectar els auriculars a VoiceVista, assegura't de que estiguin vinculats al teu telèfon. Si encara no estàn vinculats, vés a la secció Bluetooth de l'aplicació Configuració d'iOS per vincular el dispositiu i, a continuació, torna a VoiceVista.";
 
 /* directions.direction.behind */
@@ -393,10 +399,19 @@
 "Both decimal numbers and Google plus codes are supported" = "S'admeten tant els números decimals com els codis de Google Plus";
 
 /* No comment provided by engineer. */
+"Breadcrumb a New Route" = "Breadcrumb: una nova ruta";
+
+/* No comment provided by engineer. */
+"Breadcrumb a New Route?" = "Una nova ruta?";
+
+/* No comment provided by engineer. */
 "Breadcrumb Marker Dropped" = "S'ha deixat anar el marcador de ruta de molletes";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Mode Molletes";
+
+/* No comment provided by engineer. */
+"Calculate a New Route" = "Calcular una nova ruta";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Calcula per algorisme de navegació";
@@ -425,8 +440,11 @@
 /* general.alert.cancel */
 "Cancel" = "Cancel·lar";
 
-/* settings.bluetooth.cancelConnect */
+/* No comment provided by engineer. */
 "Cancel Connecting" = "Cancel·la la connexió";
+
+/* %@ is POI category, for example, Restaurant or Bank */
+"Category: %@" = "Categoria: %@";
 
 /* No comment provided by engineer. */
 "Change Beacon Arrival Style" = "Canvia l'estil d'arribada de l'objectiu";
@@ -470,7 +488,7 @@
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Comprova l'estat dels auriculars";
 
-/* headphonesSetting.connect_headset.completed.test */
+/* No comment provided by engineer. */
 "Check Your Headphones" = "Comprova els auriculars";
 
 /* settings.clear_cache.markers.alert_message */
@@ -491,17 +509,16 @@
 /* No comment provided by engineer. */
 "Close" = "Tancar";
 
-/* headphonesSetting.test_headset.continue */
+/* No comment provided by engineer. */
 "Complete Configuring" = "Configuració completa";
 
-/* headphonesSetting.connect_headset.completed.airpods */
+/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitats! Els AirPods estan preparats, ja pots posar-te el mòbil a la butxaca i caminar! VoiceVista ara farà un seguiment de la direcció del teu cap, de manera que no necessites agafar el mòbil a la mà. Un sol clic al botó dels auriculars silenciarà o activarà l'objectiu, un doble toc indicarà la teva ubicació i un triple toc repetirà l'última notificació de veu.";
 
-/* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+/* No comment provided by engineer. */
 "Connect Headphones" = "Connecta els auriculars";
 
-/* ui.continue */
+/* No comment provided by engineer. */
 "Continue" = "Continuar";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
@@ -518,6 +535,12 @@
 
 /* No comment provided by engineer. */
 "Create a New Route" = "Crear una nova ruta";
+
+/* No comment provided by engineer. */
+"Create A New Route to There" = "Crea una nova ruta fins allà";
+
+/* No comment provided by engineer. */
+"Create a New Route?" = "Crear una nova ruta?";
 
 /* No comment provided by engineer. */
 "Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Crear una ruta per oper tu o per compartir amb altres persones organitzant un conjunt de marcadors com a punts d'interès d'una ruta.";
@@ -591,7 +614,7 @@
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "Desactiva les carreteres sense nom";
 
-/* general.alert.dismiss */
+/* No comment provided by engineer. */
 "Dismiss" = "Descartar";
 
 /* settings.arrival.style.distance */
@@ -742,13 +765,7 @@
 "Factor %@" = "Factor %@";
 
 /* No comment provided by engineer. */
-"Failed to Add Route" = "No hem pogut afegir la ruta";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "No hem pogut calcular les indicacions de direcció";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "No s'han pogut calcular els senyals per a la ruta";
+"Failed to Calculate Waypoints" = "No s'han pogut calcular waypoints";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "No hem pogut crear la ruta";
@@ -772,6 +789,9 @@
 "Failed to Import Route" = "No hem pogut importar la ruta";
 
 /* No comment provided by engineer. */
+"Failed to New a Route" = "No s'ha pogut renovar una ruta";
+
+/* No comment provided by engineer. */
 "Failed to Start Monitoring" = "No hem pogut iniciar el seguiment";
 
 /* No comment provided by engineer. */
@@ -792,14 +812,17 @@
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Menjar i Begudes";
 
-/* general.alert.forget */
+/* No comment provided by engineer. */
 "Forget" = "Oblida'r";
 
-/* settings.bluetooth.forget */
+/* No comment provided by engineer. */
 "Forget These Headphones" = "Oblidar els auriculars";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "Preguntes freqüents";
+
+/* %@ is name of a marker or POI */
+"From the current address to %@" = "De l'adreça actual al %@";
 
 /* No comment provided by engineer. */
 "General Settings" = "Configuració general";
@@ -852,25 +875,25 @@
 /* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "AURICULARS AMB SEGUIMENT DEL CAP";
 
-/* headphonesSetting.explain_ar.disconnected */
+/* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Els auriculars amb seguiment del cap són auriculars Bluetooth amb sensors que indiquen a VoiceVista cap a on estàs mirant. Això ajuda a VoiceVista a millorar la teva experiència sonora a l'hora d'indicar, fent-la més natural a mesura que et vas movent per l'entorn.\n\nToca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "No hi ha cap auriculars amb seguiment del cap connectats.";
 
-/* headphonesSetting.title.calibrate */
+/* No comment provided by engineer. */
 "Headphones Calibration" = "Calibració d'auriculars";
 
-/* headphonesSetting.test_headset.title */
+/* No comment provided by engineer. */
 "Headphones Check" = "Comprovar auriculars";
 
-/* headphonesSetting.title.first_connection */
+/* No comment provided by engineer. */
 "Headphones Connected" = "Els auriculars s'han connectat";
 
-/* headphonesSetting.title.completed_connection */
+/* No comment provided by engineer. */
 "Headphones Ready" = "Els auriculars estan a punt";
 
-/* headphonesSetting.title.default */
+/* No comment provided by engineer. */
 "Headphones Setting" = "Configuració dels auriculars";
 
 /* placesNearyBy.category.8 */
@@ -1048,6 +1071,9 @@
 "Manage Generated Markers" = "Gestiona els marcadors generats";
 
 /* No comment provided by engineer. */
+"MAP" = "MAPA";
+
+/* No comment provided by engineer. */
 "Mark Current" = "Marcar Actual";
 
 /* No comment provided by engineer. */
@@ -1128,6 +1154,9 @@
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Indicacions de navegació";
+
+/* No comment provided by engineer. */
+"NAVIGATION INSTRUCTIONS" = "INSTRUCCIONS DE NAVEGACIÓ";
 
 /* No comment provided by engineer. */
 "Navigation Instructions" = "Instruccions de navegació";
@@ -1314,7 +1343,7 @@
 /* No comment provided by engineer. */
 "OTHERS" = "ALTRES";
 
-/* headphonesSetting.title.pair_audio */
+/* No comment provided by engineer. */
 "Pair Headphones Audio" = "Vincula el so dels auriculars";
 
 /* No comment provided by engineer. */
@@ -1343,9 +1372,6 @@
 
 /* markerpickers.title */
 "Pick Markers" = "Tria els marcadors";
-
-/* No comment provided by engineer. */
-"Pick Waypoints from Markers" = "Triar senyals de la llista de marcadors";
 
 /* beacon.styles.ping */
 "Ping" = "Ping";
@@ -1519,6 +1545,9 @@
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Ruta canviada a viatge circular";
 
+/* No comment provided by engineer. */
+"ROUTE WAYPOINTS" = "WAYPOINTS DE LA RUTA";
+
 /* routes.title */
 "Routes" = "Rutes";
 
@@ -1665,7 +1694,7 @@
 /* Label of button to start breadcrumb mode */
 "Start Breadcrumb Mode" = "Iniciar el mode Molletes";
 
-/* headphonesSetting.connect_headset.calibrate.button */
+/* No comment provided by engineer. */
 "Start Calibration" = "Iniciar la calibració";
 
 /* No comment provided by engineer. */
@@ -1766,7 +1795,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "The dropped breadcrumb marker will be named automatically and added to route %@." = "El marcador de molletes que deixis s'anomenarà automàticament i s'afegirà a la ruta %@.";
 
-/* headphonesSetting.connect_headset.unavailable */
+/* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Els auriculars que has seleccionat no estan disponibles ara mateix. Siusplau, intenta-ho més tard.";
 
 /* universal_links.alert.import_error.message
@@ -1824,10 +1853,11 @@
 /* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Aquest valor és una estimació de la precisió amb què el VoiceVista sap on et trobes en cada moment. Menys de 30 peus és molt bo. Menys de 60 està bé. Una distància més gran està força malament. Les dades d'ubicació s'obtenen millor quan ets fora, i no ets a sota de cap estructura.";
 
-/* headphonesSetting.forget_headset.prompt.explanation */
+/* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Això desconnectarà els auriculars del VoiceVista. Pots tornar-los a connectar al VoiceVista en un altre moment des d'aquí.";
 
-/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Dirigint-te a %@";
 
 /* placefilters.footnoot.1
@@ -1906,7 +1936,7 @@
 /* settings.clear_cache.no_service.title */
 "Unable to Clear Stored Map Data" = "No es poden esborrar les dades del mapa emmagatzemades";
 
-/* headphonesSetting.connect_headset.error_title */
+/* No comment provided by engineer. */
 "Unable to Connect" = "No es pot connectar";
 
 /* No comment provided by engineer. */
@@ -2015,7 +2045,7 @@
 /* No comment provided by engineer. */
 "VoiceVista is back online with full functionality." = "El VoiceVista torna a estar en línia amb totes les funcionalitats.";
 
-/* headphonesSetting.explain_ar.connecting */
+/* No comment provided by engineer. */
 "VoiceVista is connecting to your headphones. One moment..." = "El VoiceVista s'està connectant amb els teus auriculars. Un moment...";
 
 /* No comment provided by engineer. */
@@ -2030,7 +2060,7 @@
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "El VoiceVista no es pot connectar a Internet ara mateix. Es necessita una connexió a Internet quan esborris les dades del mapa emmagatzemades perquè les dades del mapa es puguin actualitzar.";
 
-/* headphonesSetting.explain_ar.paired */
+/* No comment provided by engineer. */
 "VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "El VoiceVista no es pot connectar als teus auriculars. Mira que els auriculars estiguin engegats i a prop del telèfon.";
 
 /* general.error.heading */
@@ -2048,7 +2078,7 @@
 /* settings.preview */
 "VOICEVISTA STREET PREVIEW" = "EXPLORACIÖ DE CARRERS de VOICEVISTA";
 
-/* headphonesSetting.connect_headset.failed */
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "El VoiceVista no s'ha pogut connectar als teus auriculars. Siusplau, Intenta-ho més tard.";
 
 /* No comment provided by engineer. */
@@ -2067,6 +2097,9 @@
 /* routes.import.alert.message */
 "Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Falten dades de senyals per a una o més de les teves rutes. Revisa les rutes següents i torna a afegir senyals si cal.";
 
+/* No comment provided by engineer. */
+"Waypoints Calculated" = "Waypoints calculats";
+
 /* waypoints.cancel_alert_title */
 "Waypoints Updated" = "Senyals actualitzats";
 
@@ -2082,7 +2115,7 @@
 /* general.error.set_beacon_error */
 "We are having trouble setting the beacon currently. Try again later." = "Estem tenint problemes per configurar l'objectiu actualment. Torna-ho a provar més tard.";
 
-/* headphonesSetting.test_headset.explanation */
+/* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Hem col·locat un objectiu sonor a la teva dreta. Escolta on és i gira el cap cap a l'objectiu. Observa com pots fer-ho fins i tot quan tens el telèfon a la butxaca. Quan hagis acabat, toca el botó de baix per completar la configuració dels teus auriculars i gaudeix del teu proper passeig amb els teus nous auriculars amb seguiment del cap.";
 
 /* devices.test_headset.callout */
@@ -2169,19 +2202,19 @@
 /* Title for alert that is displayed when importing a route. */
 "You've received a route: '%@'" = "Has rebut una ruta: '%@'";
 
-/* headphonesSetting.explain_ar.connected.airpods */
+/* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "Els AirPods estan preparats, ja pots posar-te el telèfon a la butxaca i caminar! El VoiceVista fa un seguiment de la direcció del teu cap, de manera que no cal que agafis el telèfon a la mà.";
 
-/* headphonesSetting.connect_headset.calibrate.explanation */
+/* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Els teus auriculars s'han connectat correctament al VoiceVista, però s'han de calibrar abans d'utilitzar-los. El VoiceVista t'informarà sempre que calgui calibrar els auriculars, per exemple, cada vegada que els encenguis.";
 
 /* devices.callouts.needs_calibration */
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Cal calibrar els auriculars. Treu-te'ls del cap i sacseja'ls suaument en totes direccions.";
 
-/* headphonesSetting.connect_headset.unsupported_firmware */
+/* No comment provided by engineer. */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "Els teus auriculars s'han d'actualitzar abans que es puguin connectar al VoiceVista.";
 
-/* headphonesSetting.airpods_unavailable.alert.description */
+/* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "El teu iPhone no admet el seguiment del cap amb els AirPods d'Apple. Comprova que el teu iPhone sigui un iPhone 7 o més nou, i que tingui iOS 14.4 o més nou.";
 
 /* No comment provided by engineer. */

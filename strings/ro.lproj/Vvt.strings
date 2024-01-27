@@ -64,6 +64,9 @@
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ secunde";
 
+/* %@ is count of calculated steps */
+"%@ steps" = "%@ pași";
+
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 "%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Puncte de trecere atinse, Ultimul punct de referință din apropiere";
 
@@ -120,6 +123,9 @@
 
 /* routeDetail.noWaypoints.alert.addWaypoints */
 "Add Waypoints" = "Adăugați puncte de trecere";
+
+/* No comment provided by engineer. */
+"Add Waypoints from Markers" = "Adăugarea punctelor intermediare din marcatori";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Adăugați puncte de referință în modul Breadcrumb";
@@ -220,7 +226,7 @@
 /* markers.destructive_delete_message */
 "Are you sure you want to delete this marker?" = "Sigur doriți să ștergeți acest marcator?";
 
-/* headphonesSetting.forget_headset.prompt.forget */
+/* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Sigur vrei să uiți aceste căști?";
 
 /* general.alert.confirmation_title */
@@ -374,7 +380,7 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Baliză în %@. Indicatorul audio a fost dezactivat";
 
-/* headphonesSetting.connect_headset.audio */
+/* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Înainte de a vă conecta căștile la VoiceVista, asigurați-vă că sunt asociate cu telefonul dvs. Dacă nu este încă asociat, accesați secțiunea Bluetooth din aplicația Setări iOS pentru a vă asocia dispozitivul și apoi reveniți la VoiceVista.";
 
 /* directions.direction.behind */
@@ -393,10 +399,19 @@
 "Both decimal numbers and Google plus codes are supported" = "Sunt acceptate atât numerele zecimale, cât și codurile Google plus";
 
 /* No comment provided by engineer. */
+"Breadcrumb a New Route" = "Pesmet: un nou traseu";
+
+/* No comment provided by engineer. */
+"Breadcrumb a New Route?" = "Pesmet: un nou traseu?";
+
+/* No comment provided by engineer. */
 "Breadcrumb Marker Dropped" = "Marcatorul Breadcrumb a scăpat";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Modul Breadcrumb";
+
+/* No comment provided by engineer. */
+"Calculate a New Route" = "Calculați o rută nouă";
 
 /* No comment provided by engineer. */
 "Calculate by Navigation Algorithm" = "Calculați prin algoritmul de navigare";
@@ -425,7 +440,7 @@
 /* general.alert.cancel */
 "Cancel" = "Anulare";
 
-/* settings.bluetooth.cancelConnect */
+/* No comment provided by engineer. */
 "Cancel Connecting" = "Anulează conectarea";
 
 /* No comment provided by engineer. */
@@ -470,7 +485,7 @@
 /* troubleshooting.checkaudio */
 "Check Headphones Status" = "Verificați starea căștilor";
 
-/* headphonesSetting.connect_headset.completed.test */
+/* No comment provided by engineer. */
 "Check Your Headphones" = "Verificați-vă căștile";
 
 /* settings.clear_cache.markers.alert_message */
@@ -491,17 +506,16 @@
 /* No comment provided by engineer. */
 "Close" = "Închide";
 
-/* headphonesSetting.test_headset.continue */
+/* No comment provided by engineer. */
 "Complete Configuring" = "Configurare completă";
 
-/* headphonesSetting.connect_headset.completed.airpods */
+/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitări! AirPod-urile dvs. sunt gata de utilizare, astfel încât să vă puteți pune telefonul în buzunar și să plecați! VoiceVista va urmări acum direcția capului, astfel încât să nu fie nevoie să țineți telefonul în mână. Un singur clic pe butonul căștilor va dezactiva sau dezactiva semnalul, dublu clic va indica locația dvs., iar un triplu clic va repeta ultimul semnal.";
 
-/* headphonesSetting.button.1
-   headphonesSetting.connect_headset */
+/* No comment provided by engineer. */
 "Connect Headphones" = "Conectați căștile";
 
-/* ui.continue */
+/* No comment provided by engineer. */
 "Continue" = "Continua";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
@@ -518,6 +532,12 @@
 
 /* No comment provided by engineer. */
 "Create a New Route" = "Creați o rută nouă";
+
+/* No comment provided by engineer. */
+"Create A New Route to There" = "Creați o nouă rută către acolo";
+
+/* No comment provided by engineer. */
+"Create a New Route?" = "Creați un traseu nou?";
 
 /* No comment provided by engineer. */
 "Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Creați o rută pentru dvs. sau pentru altcineva organizând un set de marcaje ca puncte de referință pe o rută.";
@@ -591,7 +611,7 @@
 /* preview.include_unnamed_roads.label.on */
 "Disable Unnamed Roads" = "Dezactivați Drumuri fără nume";
 
-/* general.alert.dismiss */
+/* No comment provided by engineer. */
 "Dismiss" = "Respingeți";
 
 /* settings.arrival.style.distance */
@@ -742,13 +762,7 @@
 "Factor %@" = "Factorul %@";
 
 /* No comment provided by engineer. */
-"Failed to Add Route" = "Nu s-a putut adăuga traseul";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Direction Steps" = "Nu s-au calculat pașii de direcție";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for Route" = "Nu s-a putut calcula punctele de referință pentru rută";
+"Failed to Calculate Waypoints" = "Nu s-au putut calcula punctele intermediare";
 
 /* No comment provided by engineer. */
 "Failed to Create Route" = "Nu s-a putut crea traseul";
@@ -772,6 +786,9 @@
 "Failed to Import Route" = "Nu s-a putut importa traseul";
 
 /* No comment provided by engineer. */
+"Failed to New a Route" = "Nu a reușit să noi o rută";
+
+/* No comment provided by engineer. */
 "Failed to Start Monitoring" = "Nu s-a pornit monitorizarea";
 
 /* No comment provided by engineer. */
@@ -792,14 +809,17 @@
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Mancare bautura";
 
-/* general.alert.forget */
+/* No comment provided by engineer. */
 "Forget" = "A uita";
 
-/* settings.bluetooth.forget */
+/* No comment provided by engineer. */
 "Forget These Headphones" = "Uitați de aceste căști";
 
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "întrebări frecvente";
+
+/* %@ is name of a marker or POI */
+"From the current address to %@" = "De la adresa curentă la %@";
 
 /* No comment provided by engineer. */
 "General Settings" = "setari generale";
@@ -852,25 +872,25 @@
 /* settings.headphones */
 "HEAD TRACKING HEADPHONES" = "CĂȚI CĂȘTI DE URMARARE A CAPULUI";
 
-/* headphonesSetting.explain_ar.disconnected */
+/* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Căștile de urmărire a capului sunt căști Bluetooth cu senzori care indică VoiceVista unde vă confruntați. Acest lucru ajută VoiceVista să vă îmbunătățească experiența audio, făcând-o mai naturală pe măsură ce vă deplasați prin lume.\n\nAtingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* devices.callouts.check_audio.default */
 "Head tracking headphones are not connected." = "Căștile de urmărire a capului nu sunt conectate.";
 
-/* headphonesSetting.title.calibrate */
+/* No comment provided by engineer. */
 "Headphones Calibration" = "Calibrarea căștilor";
 
-/* headphonesSetting.test_headset.title */
+/* No comment provided by engineer. */
 "Headphones Check" = "Verificarea căștilor";
 
-/* headphonesSetting.title.first_connection */
+/* No comment provided by engineer. */
 "Headphones Connected" = "Căștile conectate";
 
-/* headphonesSetting.title.completed_connection */
+/* No comment provided by engineer. */
 "Headphones Ready" = "Căști gata";
 
-/* headphonesSetting.title.default */
+/* No comment provided by engineer. */
 "Headphones Setting" = "Setarea căștilor";
 
 /* placesNearyBy.category.8 */
@@ -1048,6 +1068,9 @@
 "Manage Generated Markers" = "Gestionați marcatorii generați";
 
 /* No comment provided by engineer. */
+"MAP" = "HARTĂ";
+
+/* No comment provided by engineer. */
 "Mark Current" = "Mark Current";
 
 /* No comment provided by engineer. */
@@ -1128,6 +1151,9 @@
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Instrucțiuni de navigare";
+
+/* No comment provided by engineer. */
+"NAVIGATION INSTRUCTIONS" = "INSTRUCȚIUNI DE NAVIGARE";
 
 /* No comment provided by engineer. */
 "Navigation Instructions" = "Instrucțiuni de navigare";
@@ -1314,7 +1340,7 @@
 /* No comment provided by engineer. */
 "OTHERS" = "ALȚII";
 
-/* headphonesSetting.title.pair_audio */
+/* No comment provided by engineer. */
 "Pair Headphones Audio" = "Împerecheați căștile audio";
 
 /* No comment provided by engineer. */
@@ -1343,9 +1369,6 @@
 
 /* markerpickers.title */
 "Pick Markers" = "Alegeți Markere";
-
-/* No comment provided by engineer. */
-"Pick Waypoints from Markers" = "Alegeți puncte de referință din marcatori";
 
 /* beacon.styles.ping */
 "Ping" = "Ping";
@@ -1519,6 +1542,9 @@
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Traseu actualizat la o călătorie circulară";
 
+/* No comment provided by engineer. */
+"ROUTE WAYPOINTS" = "PUNCTE DE TRECERE A TRASEULUI";
+
 /* routes.title */
 "Routes" = "Trasee";
 
@@ -1665,7 +1691,7 @@
 /* Label of button to start breadcrumb mode */
 "Start Breadcrumb Mode" = "Porniți modul Breadcrumb";
 
-/* headphonesSetting.connect_headset.calibrate.button */
+/* No comment provided by engineer. */
 "Start Calibration" = "Începeți calibrarea";
 
 /* No comment provided by engineer. */
@@ -1766,7 +1792,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "The dropped breadcrumb marker will be named automatically and added to route %@." = "Marcatorul de pesmet aruncat va fi denumit automat și adăugat la ruta %@.";
 
-/* headphonesSetting.connect_headset.unavailable */
+/* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Căștile pe care le-ați selectat sunt momentan indisponibile pentru conectare. Vă rugăm să încercați din nou mai târziu.";
 
 /* universal_links.alert.import_error.message
@@ -1824,10 +1850,11 @@
 /* No comment provided by engineer. */
 "This value is an estimate of how accurately VoiceVista knows where you are located. Less than 30 feet is good. Less than 60 feet is ok. Anything else is poor. Location data is most accurate when outside and not under any structures." = "Această valoare este o estimare a cât de precis știe VoiceVista unde vă aflați. Mai puțin de 30 de picioare este bine. Mai puțin de 60 de picioare este ok. Orice altceva este sărac. Datele de locație sunt cele mai precise când sunt în exterior și nu sub nicio structură.";
 
-/* headphonesSetting.forget_headset.prompt.explanation */
+/* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Aceasta vă va deconecta căștile de la VoiceVista. Vă puteți conecta din nou la VoiceVista în viitor de aici.";
 
-/* Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
+/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "La %@";
 
 /* placefilters.footnoot.1
@@ -1906,7 +1933,7 @@
 /* settings.clear_cache.no_service.title */
 "Unable to Clear Stored Map Data" = "Nu se pot șterge datele stocate pe hartă";
 
-/* headphonesSetting.connect_headset.error_title */
+/* No comment provided by engineer. */
 "Unable to Connect" = "Imposibil de conectat";
 
 /* No comment provided by engineer. */
@@ -2015,7 +2042,7 @@
 /* No comment provided by engineer. */
 "VoiceVista is back online with full functionality." = "VoiceVista este din nou online cu funcționalitate completă.";
 
-/* headphonesSetting.explain_ar.connecting */
+/* No comment provided by engineer. */
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista se conectează la căștile dvs. Un moment...";
 
 /* No comment provided by engineer. */
@@ -2030,7 +2057,7 @@
 /* settings.clear_cache.no_service.message */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista nu se poate conecta în prezent la internet. Este necesară o conexiune la internet când ștergeți datele hărții stocate, astfel încât datele hărții să poată fi reîmprospătate.";
 
-/* headphonesSetting.explain_ar.paired */
+/* No comment provided by engineer. */
 "VoiceVista is not currently connected to your headphones. Please ensure your headphones are turned on and near your phone." = "VoiceVista nu este conectat momentan la căștile dvs. Asigurați-vă că căștile sunt pornite și sunt aproape de telefon.";
 
 /* general.error.heading */
@@ -2048,7 +2075,7 @@
 /* settings.preview */
 "VOICEVISTA STREET PREVIEW" = "VOICEVISTA STREET PREVIEW";
 
-/* headphonesSetting.connect_headset.failed */
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista nu s-a putut conecta la căștile dvs. Vă rugăm să încercați din nou mai târziu.";
 
 /* No comment provided by engineer. */
@@ -2067,6 +2094,9 @@
 /* routes.import.alert.message */
 "Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Datele punctelor de trecere lipsesc pentru una sau mai multe dintre rutele dvs. Vă rugăm să examinați următoarele rute și să adăugați din nou puncte de referință dacă este necesar.";
 
+/* No comment provided by engineer. */
+"Waypoints Calculated" = "Puncte intermediare calculate";
+
 /* waypoints.cancel_alert_title */
 "Waypoints Updated" = "Puncte de trecere actualizate";
 
@@ -2082,7 +2112,7 @@
 /* general.error.set_beacon_error */
 "We are having trouble setting the beacon currently. Try again later." = "În prezent, avem probleme cu setarea farului. Încercați mai târziu.";
 
-/* headphonesSetting.test_headset.explanation */
+/* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Am plasat o baliză audio în dreapta ta. Ascultă unde este și întoarce-ți capul spre el. Observați cum puteți face acest lucru chiar și atunci când telefonul este în buzunar. Când ați terminat, atingeți butonul de mai jos pentru a finaliza configurarea căștilor și bucurați-vă de următoarea plimbare cu noile căști de urmărire a capului.";
 
 /* devices.test_headset.callout */
@@ -2169,19 +2199,19 @@
 /* Title for alert that is displayed when importing a route. */
 "You've received a route: '%@'" = "Ați primit o rută: „%@”";
 
-/* headphonesSetting.explain_ar.connected.airpods */
+/* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "AirPod-urile dvs. sunt gata de utilizare, astfel încât să vă puteți pune telefonul în buzunar și să plecați! VoiceVista urmărește direcția capului, astfel încât nu trebuie să țineți telefonul în mână.";
 
-/* headphonesSetting.connect_headset.calibrate.explanation */
+/* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Căștile dvs. s-au conectat cu succes la VoiceVista, dar trebuie să fie calibrate înainte de utilizare. VoiceVista vă va informa ori de câte ori este necesară calibrarea căștilor, de exemplu de fiecare dată când o porniți.";
 
 /* devices.callouts.needs_calibration */
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Căștile dvs. trebuie calibrate. Scoate-le din cap și scutură-le ușor în toate direcțiile.";
 
-/* headphonesSetting.connect_headset.unsupported_firmware */
+/* No comment provided by engineer. */
 "Your Headphones need to be updated before they can connect to VoiceVista." = "Căștile dvs. trebuie să fie actualizate înainte de a se putea conecta la VoiceVista.";
 
-/* headphonesSetting.airpods_unavailable.alert.description */
+/* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "iPhone-ul dvs. nu acceptă urmărirea capului cu Apple AirPods. Verificați dacă iPhone-ul dvs. este un iPhone 7 sau o versiune ulterioară și rulează iOS 14.4 sau o versiune ulterioară.";
 
 /* No comment provided by engineer. */
