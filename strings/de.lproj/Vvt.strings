@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -44,7 +44,7 @@
 "%@ connected." = "%@ verbunden.";
 
 /* No comment provided by engineer. */
-"%@ degress" = "%@ Grad";
+"%@ degrees" = "%@ Grad";
 
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
 "%@ disconnected." = "%@ getrennt.";
@@ -287,8 +287,7 @@
 "at 9 o'clock" = "auf 9 Uhr";
 
 /* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 
-*/
+   preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "An jeder Kreuzung können Sie mit dem Telefon eine Straße wählen, oder Sie können Ihre Umgebung mit den Tasten unten auf dem Bildschirm erkunden.";
 
 /* No comment provided by engineer. */
@@ -426,6 +425,12 @@
 /* devices.callouts.calibrated */
 "Calibration complete" = "Kalibrierung abgeschlossen";
 
+/* No comment provided by engineer. */
+"Call Phone" = "Telefon anrufen";
+
+/* %@ is a phone number */
+"Call Telephone: %@" = "Telefon anrufen: %@";
+
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Richtungsangabe für Orte";
 
@@ -548,6 +553,9 @@
 
 /* markers.footnote.1 */
 "Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Erstellen Sie Markierungen für Ihre Lieblingsziele, als Wegpunkte oder für beliebige Orte, die Ihnen angesagt werden sollen.";
+
+/* No comment provided by engineer. */
+"Create Route" = "Route erstellen";
 
 /* beacon.styles.current */
 "Current" = "Aktuell";
@@ -769,6 +777,9 @@
 "Failed to Calculate Waypoints" = "Wegpunkte konnten nicht berechnet werden";
 
 /* No comment provided by engineer. */
+"Failed to Create a New Route" = "Fehler beim Erstellen einer neuen Route";
+
+/* No comment provided by engineer. */
 "Failed to Create Route" = "Route konnte nicht erstellt werden";
 
 /* No comment provided by engineer. */
@@ -788,9 +799,6 @@
 
 /* No comment provided by engineer. */
 "Failed to Import Route" = "Route konnte nicht importiert werden.";
-
-/* No comment provided by engineer. */
-"Failed to New a Route" = "Neue Route konnte nicht erstellt werden";
 
 /* No comment provided by engineer. */
 "Failed to Start Monitoring" = "Überwachen konnte nicht eingeschaltet werden";
@@ -1150,8 +1158,7 @@
 "Mute Beacon" = "Signal stummschalten";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1209,8 +1216,7 @@
 "Network Connection Required" = "Netzwerkverbindung erforderlich";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1271,8 +1277,7 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow 
-*/
+   general.alert.notnow */
 "Not Now" = "Später";
 
 /* No comment provided by engineer. */
@@ -1402,8 +1407,7 @@
 "Please enter a route name." = "Bitte geben Sie den Namen der Route ein.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1417,6 +1421,9 @@
 
 /* No comment provided by engineer. */
 "POI Range Multiplier" = "Faktor für Entfernung zu Orten";
+
+/* No comment provided by engineer. */
+"Points of Interest Category" = "Kategorie 'Points of Interest'";
 
 /* No comment provided by engineer. */
 "Points of Interest Information" = "Informationen  über Orte";
@@ -1608,8 +1615,7 @@
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Dann erhalten Sie eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1646,8 +1652,7 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title 
-*/
+   siriSetting.title */
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* No comment provided by engineer. */
@@ -1708,8 +1713,7 @@
 "Start Monitoring" = "Überwachen einschalten";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1731,7 +1735,7 @@
 "Stop Beacon" = "Signal ausschalten";
 
 /* beacon.command.1 */
-"Stop beacon" = "Stop beacon";
+"Stop beacon" = "Signal ausschalten";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "Überwachen ausschalten";
@@ -1749,8 +1753,7 @@
 "Street Names" = "Straßennamen";
 
 /* first_use_experience.preview.tutorial.alert.title
-   preview.title 
-*/
+   preview.title */
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1808,8 +1811,7 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message 
-*/
+   universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* No comment provided by engineer. */
@@ -1867,13 +1869,11 @@
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihre Kopfhörer von VoiceVista. Sie können ihre Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' 
-*/
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
 
 /* placefilters.footnoot.1
-   places.footnot.2 
-*/
+   places.footnot.2 */
 "To browse nearby places, access to location is required." = "Um Orte in der Nähe anzusehen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* markers.footnote.2 */
@@ -1964,8 +1964,7 @@
 "Unknow location" = "Unbekannter Ort";
 
 /* Motion status: unknow
-   poi.unknown 
-*/
+   poi.unknown */
 "Unknown" = "Unbekannt";
 
 /* No comment provided by engineer. */
@@ -2024,6 +2023,9 @@
 
 /* No comment provided by engineer. */
 "View Detail" = "Details ansehen";
+
+/* No comment provided by engineer. */
+"Visit Web" = "Zum Web";
 
 /* No comment provided by engineer. */
 "Voice hint when approaching turn points" = "Abbiegungen vorher ankündigen";
@@ -2101,8 +2103,7 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* Motion status: walking
-   Type 1 for navigation transport 
-*/
+   Type 1 for navigation transport */
 "Walking" = "Gehen";
 
 /* No comment provided by engineer. */
