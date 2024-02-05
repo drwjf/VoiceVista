@@ -286,9 +286,11 @@
 /* Directions using 9  o'clock position. */
 "at 9 o'clock" = "saat 9 da";
 
-/* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 */
+/* preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "Her kavşakta, hangi yoldan aşağı ineceğinizi seçmek için telefonu tekrar kullanabilir veya ekranın alt kısmındaki tanıdık VoiceVista düğmelerini kullanarak yakın çevrenizi keşfedebilirsiniz.";
+
+/* No comment provided by engineer. */
+"At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons." = "Her kavşakta, hangi yoldan gideceğinizi seçmek için telefonu tekrar kullanabilir veya tanıdık VoiceVista düğmelerini kullanarak yakın çevrenizi keşfedebilirsiniz.";
 
 /* No comment provided by engineer. */
 "At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "Konumu bir işaretçi olarak etkinleştirmek için VoiceVista'nın kaç fitte tetiklenmesi gerekir?";
@@ -644,6 +646,9 @@
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Mesafe %1$@ ile %2$@ arasında olmalıdır";
 
+/* No comment provided by engineer. */
+"Distance to %@" = "%@'a uzaklık";
+
 /* beacon.distance.unknown */
 "Distance unknown" = "Mesafe bilinmiyor";
 
@@ -696,6 +701,9 @@
 "Double tap to sort by name" = "Ada göre sıralamak için iki kez dokunun";
 
 /* No comment provided by engineer. */
+"Double tap to stop monitoring and wake up now" = "İzlemeyi durdurmak ve şimdi uyanmak için iki kez dokunun";
+
+/* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Ses sinyalinin sesini açmak için iki kez dokunun.";
 
 /* Label for a button to open map to edit marker's location */
@@ -740,7 +748,7 @@
 /* voice.settings.enhanced_available.title */
 "Enhanced Voice Available!" = "Geliştirilmiş Ses Kullanılabilir!";
 
-/* first_use_experience.preview.tutorial.alert.message.4 */
+/* No comment provided by engineer. */
 "Enjoy and have fun!" = "Eğlenin ve eğlenin!";
 
 /* search.placeholder */
@@ -755,8 +763,8 @@
 /* general.error.error_occurred */
 "Error Occurred" = "Hata oluştu";
 
-/* first_use_experience.preview.tutorial.alert.message.1 */
-"Explore and get a sense of an area anywhere in the world. For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "Dünyanın herhangi bir yerindeki bir alanı keşfedin ve hissedin. En iyi deneyim için ayağa kalkıp yerine dönmenizi ve stereo kulaklık kullanmanızı öneririz.";
+/* No comment provided by engineer. */
+"Explore and get a sense of an area anywhere in the world." = "Dünyanın herhangi bir yerindeki bir alanı keşfedin ve hissedin.";
 
 /* preview.search.label */
 "Explore Nearby" = "Yakındakileri Keşfet";
@@ -801,9 +809,6 @@
 "Failed to Import Route" = "Rota İçe Aktarılamadı";
 
 /* No comment provided by engineer. */
-"Failed to Start Monitoring" = "İzleme Başlatılamadı";
-
-/* No comment provided by engineer. */
 "Failed to Update" = "Güncelleme başarısız oldu";
 
 /* No comment provided by engineer. */
@@ -820,6 +825,9 @@
 
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Yiyecek içecek";
+
+/* No comment provided by engineer. */
+"For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "En iyi deneyim için, yerine dönmek için ayağa kalkmanızı ve stereo kulaklık kullanmanızı öneririz.";
 
 /* No comment provided by engineer. */
 "Forget" = "Unutmak";
@@ -1002,10 +1010,16 @@
 "Intersection with %@ nearby" = "Yakında %@ ile kavşak";
 
 /* No comment provided by engineer. */
+"INTERSECTIONS" = "KAVŞAK";
+
+/* No comment provided by engineer. */
 "Intersections" = "Kavşaklar";
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Önümüzdeki Kavşaklar";
+
+/* No comment provided by engineer. */
+"Intersections Nearby" = "Yakındaki kavşaklar";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Geçersiz İçerik Haritası Rota Adı";
@@ -1057,6 +1071,9 @@
 
 /* location_detail.title.default */
 "Location Details" = "Konum Ayrıntıları";
+
+/* No comment provided by engineer. */
+"Location Explorer" = "Konum Gezgini";
 
 /* general.error.preview */
 "Location preview could not be started at this location." = "Konum önizlemesi bu konumda başlatılamadı.";
@@ -1387,6 +1404,9 @@
 
 /* placefilters.title */
 "Places" = "Yer";
+
+/* No comment provided by engineer. */
+"PLACES" = "YERLER";
 
 /* No comment provided by engineer. */
 "Places and Landmarks" = "Yerler ve Simgesel Yapılar";
@@ -1752,8 +1772,7 @@
 /* No comment provided by engineer. */
 "Street Names" = "Sokak isimleri";
 
-/* first_use_experience.preview.tutorial.alert.title
-   preview.title */
+/* preview.title */
 "Street Preview" = "Sokak Önizlemesi";
 
 /* preview.callout.paused */
@@ -1771,14 +1790,8 @@
 /* vicinity.title */
 "Surroundings" = "çevre";
 
-/* No comment provided by engineer. */
-"Swipe left on buttons to perform additional actions, including places nearby and intersections ahead." = "Yakındaki yerler ve ilerideki kavşaklar da dahil olmak üzere ek eylemler gerçekleştirmek için düğmelerde sola kaydırın.";
-
 /* beacon.styles.tactile */
 "Tactile" = "dokunsal";
-
-/* No comment provided by engineer. */
-"Tap the button below to stop monitoring and wake up now." = "İzlemeyi durdurmak ve hemen uyanmak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "Tap the button below to wake up now." = "Şimdi uyanmak için aşağıdaki düğmeye dokunun.";
@@ -1797,9 +1810,6 @@
 
 /* url_resource.alert.route.import_error.message */
 "The content appears to be invalid." = "İçerik geçersiz görünüyor.";
-
-/* No comment provided by engineer. */
-"The device does not support region monitoring feature." = "Cihaz bölge izleme özelliğini desteklememektedir.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Ara noktalar arasındaki mesafe çok küçük olmamalıdır.";
@@ -1829,7 +1839,10 @@
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Şu anda ileride seslenecek kavşak yok";
 
-/* callouts.no_nearby_markers_to_call_out_now */
+/* No comment provided by engineer. */
+"There are no nearby intersections to call out right now." = "Şu anda yakınlarda seslenilecek bir kavşak yok.";
+
+/* No comment provided by engineer. */
 "There are no nearby markers to call out right now." = "Şu anda çağrılacak yakınlarda işaretçi yok.";
 
 /* No comment provided by engineer. */
@@ -2007,9 +2020,6 @@
 "Use Each Waypoint Separately" = "Her Yol Noktasını Ayrı Ayrı Kullanın";
 
 /* No comment provided by engineer. */
-"Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Yakındaki yerler ve ilerideki kavşaklar da dahil olmak üzere ek eylemler gerçekleştirmek için düğmelerdeki eylem rotorunu kullanın.";
-
-/* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
 
 /* settings.audio.mix_with_others.description */
@@ -2038,6 +2048,12 @@
 
 /* No comment provided by engineer. */
 "Voice volume" = "Ses seviyesi";
+
+/* settings.headphones */
+"VOICES AND SOUNDS" = "SESLER VE SESLER";
+
+/* No comment provided by engineer. */
+"VoiceVista Blog" = "VoiceVista Blogu";
 
 /* No comment provided by engineer. */
 "VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista rotanız için otomatik olarak işaretçiler oluşturabilir. Bu işaretçiler başlangıçta 'İşaretçiler' sekmesinde gizlidir ve bunları buradan yönetebilirsiniz.";
@@ -2173,6 +2189,9 @@
 "You are already within the monitoring region." = "Zaten izleme bölgesindesiniz.";
 
 /* No comment provided by engineer. */
+"You can now explore virtual locations by teleporting between intersections and places." = "Artık kavşaklar ve yerler arasında ışınlanarak sanal yerleri keşfedebilirsiniz.";
+
+/* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "İşaretçiler listenizden ara noktaları seçebilirsiniz.";
 
 /* No comment provided by engineer. */
@@ -2181,11 +2200,17 @@
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Rotayı düzenleyerek istediğiniz zaman rota boyunca yol noktalarının sırasını yeniden düzenleyebilirsiniz.";
 
+/* No comment provided by engineer. */
+"You can teleport between nearby intersections and places to explore their distance relationships." = "Uzaklık ilişkilerini keşfetmek için yakındaki kavşaklar ve yerler arasında ışınlanabilirsiniz.";
+
 /* search.footnote.1 */
 "You can try searching by name or address." = "Ada veya adrese göre aramayı deneyebilirsiniz.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Ek eylemler gerçekleştirmek için Çevre sekmesindeki düğmelerdeki eylem rotorunu kullanabilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can use the actions rotor on the buttons to perform additional actions." = "Ek eylemler gerçekleştirmek için düğmelerdeki eylemler rotorunu kullanabilirsiniz.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
@@ -2202,8 +2227,11 @@
 /* url_resource.alert.route.import.message */
 "You should only use routes from someone you trust." = "Yalnızca güvendiğiniz birinin rotalarını kullanmalısınız.";
 
-/* first_use_experience.preview.tutorial.alert.message.2 */
-"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Seçtiğiniz yerin yakınındaki sokağın ortasına götürüleceksiniz. Telefonu işaretçi olarak kullanarak yavaşça dönün, siz dönerken sokak adları söylenecektir. Aşağı inmek istediğiniz sokağa baktığınızda, 'Git'e dokunun ve bir sonraki kavşağa ilerleyeceksiniz.";
+/* No comment provided by engineer. */
+"You will be teleported to the location you selected." = "Seçtiğiniz konuma ışınlanacaksınız.";
+
+/* No comment provided by engineer. */
+"You will be teleported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Seçtiğiniz konumun yakınındaki sokağın ortasına ışınlanacaksınız. Telefonu bir işaretçi olarak kullanarak yavaşça çevirin ve döndükçe sokak adları söylenecektir. Aşağı inmek istediğiniz caddeye baktığınızda, 'Git' e dokunun ve bir sonraki kavşağa ilerleyeceksiniz.";
 
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Şimdi VoiceVista ana sayfasına döneceksiniz ve ilk yol noktanıza bir Sesli İşaretçi yerleştirilecek. Ara noktaya vardığınızda, işaret rotanızdaki bir sonraki ara noktaya ilerleyecektir.";
