@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -286,10 +286,11 @@
 /* Directions using 9  o'clock position. */
 "at 9 o'clock" = "auf 9 Uhr";
 
-/* first_use_experience.preview.tutorial.alert.message.3
-   preview.note.2 
-*/
+/* preview.note.2 */
 "At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons at the bottom of the screen." = "An jeder Kreuzung können Sie mit dem Telefon eine Straße wählen, oder Sie können Ihre Umgebung mit den Tasten unten auf dem Bildschirm erkunden.";
+
+/* No comment provided by engineer. */
+"At each intersection, you can use the phone again to choose which road to go down, or you can explore your immediate surroundings using the familiar VoiceVista buttons." = "An jeder Kreuzung können Sie erneut mit dem Telefon auswählen, welche Straße Sie einschlagen möchten, oder Sie können Ihre unmittelbare Umgebung mit den bekannten VoiceVista-Tasten erkunden.";
 
 /* No comment provided by engineer. */
 "At how many feet should VoiceVista be triggered to activate the location as a beacon?" = "Bei welchem Abstand in Fuß soll VoiceVista den Ort als Signal einschalten?";
@@ -645,6 +646,9 @@
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Die Entfernung sollte zwischen %1$@ und %2$@ betragen";
 
+/* No comment provided by engineer. */
+"Distance to %@" = "Abstand zu %@";
+
 /* beacon.distance.unknown */
 "Distance unknown" = "Entfernung unbekannt";
 
@@ -697,6 +701,9 @@
 "Double tap to sort by name" = "Zum Sortieren nach Name doppeltippen";
 
 /* No comment provided by engineer. */
+"Double tap to stop monitoring and wake up now" = "Doppeltippen, um die Überwachung zu beenden und jetzt aufzuwachen";
+
+/* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Doppeltippen, um die Stummschaltung für das Tonsignal aufzuheben.";
 
 /* Label for a button to open map to edit marker's location */
@@ -741,7 +748,7 @@
 /* voice.settings.enhanced_available.title */
 "Enhanced Voice Available!" = "Bessere Stimme verfügbar!";
 
-/* first_use_experience.preview.tutorial.alert.message.4 */
+/* No comment provided by engineer. */
 "Enjoy and have fun!" = "Viel Spaß!";
 
 /* search.placeholder */
@@ -756,8 +763,8 @@
 /* general.error.error_occurred */
 "Error Occurred" = "Ein Fehler ist aufgetreten";
 
-/* first_use_experience.preview.tutorial.alert.message.1 */
-"Explore and get a sense of an area anywhere in the world. For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "Schauen Sie sich einen beliebigen Ort auf der Welt an. Wir empfehlen Ihnen, dafür aufzustehen, damit Sie sich auf der Stelle drehen können.";
+/* No comment provided by engineer. */
+"Explore and get a sense of an area anywhere in the world." = "Erkunden und bekommen Sie ein Gefühl für ein Gebiet überall auf der Welt.";
 
 /* preview.search.label */
 "Explore Nearby" = "Umgebung erkunden";
@@ -802,9 +809,6 @@
 "Failed to Import Route" = "Route konnte nicht importiert werden.";
 
 /* No comment provided by engineer. */
-"Failed to Start Monitoring" = "Überwachen konnte nicht eingeschaltet werden";
-
-/* No comment provided by engineer. */
 "Failed to Update" = "Aktualisierung fehlgeschlagen";
 
 /* No comment provided by engineer. */
@@ -821,6 +825,9 @@
 
 /* placesNearyBy.category.3 */
 "Food & Drink" = "Essen & Trinken";
+
+/* No comment provided by engineer. */
+"For the best experience, we recommend that you stand up to turn in place and use stereo headphones." = "Für ein optimales Erlebnis empfehlen wir Ihnen, aufzustehen, um sich auf der Stelle zu drehen und Stereo-Kopfhörer zu verwenden.";
 
 /* No comment provided by engineer. */
 "Forget" = "Ignorieren";
@@ -1003,10 +1010,16 @@
 "Intersection with %@ nearby" = "Bei Kreuzung mit %@";
 
 /* No comment provided by engineer. */
+"INTERSECTIONS" = "SCHNITTPUNKTE";
+
+/* No comment provided by engineer. */
 "Intersections" = "Kreuzungen";
 
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Kreuzungen geradeaus";
+
+/* No comment provided by engineer. */
+"Intersections Nearby" = "Kreuzungen in der Nähe";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route Name" = "Ungültiger Name für Brotkrumenroute";
@@ -1058,6 +1071,9 @@
 
 /* location_detail.title.default */
 "Location Details" = "Ortsbeschreibung";
+
+/* No comment provided by engineer. */
+"Location Explorer" = "Standort-Explorer";
 
 /* general.error.preview */
 "Location preview could not be started at this location." = "Die Vorschau konnte an diesem Standort nicht gestartet werden.";
@@ -1159,8 +1175,7 @@
 "Mute Beacon" = "Signal stummschalten";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1218,8 +1233,7 @@
 "Network Connection Required" = "Netzwerkverbindung erforderlich";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1280,8 +1294,7 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow 
-*/
+   general.alert.notnow */
 "Not Now" = "Später";
 
 /* No comment provided by engineer. */
@@ -1393,6 +1406,9 @@
 "Places" = "Orte";
 
 /* No comment provided by engineer. */
+"PLACES" = "ORTE";
+
+/* No comment provided by engineer. */
 "Places and Landmarks" = "Orte und Orientierungspunkte";
 
 /* placefilters.footnoot.2 */
@@ -1411,8 +1427,7 @@
 "Please enter a route name." = "Bitte geben Sie den Namen der Route ein.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1620,8 +1635,7 @@
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Dann erhalten Sie eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1658,8 +1672,7 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title 
-*/
+   siriSetting.title */
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* No comment provided by engineer. */
@@ -1720,8 +1733,7 @@
 "Start Monitoring" = "Überwachen einschalten";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1760,9 +1772,7 @@
 /* No comment provided by engineer. */
 "Street Names" = "Straßennamen";
 
-/* first_use_experience.preview.tutorial.alert.title
-   preview.title 
-*/
+/* preview.title */
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1780,14 +1790,8 @@
 /* vicinity.title */
 "Surroundings" = "Umgebung";
 
-/* No comment provided by engineer. */
-"Swipe left on buttons to perform additional actions, including places nearby and intersections ahead." = "Wischen Sie auf den Tasten nach links für weitere Aktionen, zum Beispiel „Orte in der Nähe“ und „Kreuzungen geradeaus“.";
-
 /* beacon.styles.tactile */
 "Tactile" = "Taktil";
-
-/* No comment provided by engineer. */
-"Tap the button below to stop monitoring and wake up now." = "Tippen Sie die Taste unten, um die Überwachung zu beenden und VoiceVista zu aktivieren.";
 
 /* No comment provided by engineer. */
 "Tap the button below to wake up now." = "Taste unten tippen, um jetzt aufzuwachen.";
@@ -1808,9 +1812,6 @@
 "The content appears to be invalid." = "Der Inhalt scheint ungültig zu sein.";
 
 /* No comment provided by engineer. */
-"The device does not support region monitoring feature." = "Dieses Gerät unterstützt die Umkreisüberwachung nicht.";
-
-/* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Die Entfernung zwischen Wegpunkten sollte nicht zu klein sein.";
 
 /* %@ is the name of a route being breadcrumb mode */
@@ -1820,8 +1821,7 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message 
-*/
+   universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* No comment provided by engineer. */
@@ -1839,7 +1839,10 @@
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Vor Ihnen liegen keine Kreuzungen zum Ansagen.";
 
-/* callouts.no_nearby_markers_to_call_out_now */
+/* No comment provided by engineer. */
+"There are no nearby intersections to call out right now." = "Im Moment gibt es keine Kreuzungen in der Nähe, an die man sich wenden könnte.";
+
+/* No comment provided by engineer. */
 "There are no nearby markers to call out right now." = "Keine Markierungen zum Ansagen in der Nähe.";
 
 /* No comment provided by engineer. */
@@ -1879,13 +1882,11 @@
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihre Kopfhörer von VoiceVista. Sie können ihre Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' 
-*/
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
 
 /* placefilters.footnoot.1
-   places.footnot.2 
-*/
+   places.footnot.2 */
 "To browse nearby places, access to location is required." = "Um Orte in der Nähe anzusehen, ist der Zugriff auf die Ortungsdienste erforderlich.";
 
 /* markers.footnote.2 */
@@ -1976,8 +1977,7 @@
 "Unknow location" = "Unbekannter Ort";
 
 /* Motion status: unknow
-   poi.unknown 
-*/
+   poi.unknown */
 "Unknown" = "Unbekannt";
 
 /* No comment provided by engineer. */
@@ -2020,9 +2020,6 @@
 "Use Each Waypoint Separately" = "Anhand aller Wegpunkte";
 
 /* No comment provided by engineer. */
-"Use the actions rotor on the buttons to perform additional actions, including places nearby and intersections ahead." = "Nutzen Sie Rotoraktionen auf den Tasten, um weitere Aktionen auszuführen, zum Beispiel „Orte in der Nähe“ und „Kreuzungen geradeaus“.";
-
-/* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "Nutzen Sie die Taste rechts, um als Markierung zu speichern.";
 
 /* settings.audio.mix_with_others.description */
@@ -2051,6 +2048,12 @@
 
 /* No comment provided by engineer. */
 "Voice volume" = "Sprachlautstärke";
+
+/* settings.headphones */
+"VOICES AND SOUNDS" = "STIMMEN UND KLÄNGE";
+
+/* No comment provided by engineer. */
+"VoiceVista Blog" = "VoiceVista-Blog";
 
 /* No comment provided by engineer. */
 "VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista kann für Ihre Route automatisch Markierungen erstellen. Diese Markierungen werden im Tab „Markierung“ ausgeblendet. Hier können Sie diese Markierungen verwalten.";
@@ -2116,8 +2119,7 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* Motion status: walking
-   Type 1 for navigation transport 
-*/
+   Type 1 for navigation transport */
 "Walking" = "Gehen";
 
 /* No comment provided by engineer. */
@@ -2187,6 +2189,9 @@
 "You are already within the monitoring region." = "Sie befinden sich bereits im überwachten Umkreis.";
 
 /* No comment provided by engineer. */
+"You can now explore virtual locations by teleporting between intersections and places." = "Du kannst jetzt virtuelle Orte erkunden, indem du dich zwischen Kreuzungen und Orten teleportierst.";
+
+/* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Sie können Wegpunkte aus der Liste Ihrer Markierungen auswählen.";
 
 /* No comment provided by engineer. */
@@ -2195,11 +2200,17 @@
 /* No comment provided by engineer. */
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Sie können die Reihenfolge der Wegpunkte entlang einer Route jederzeit ändern, indem Sie die Route bearbeiten.";
 
+/* No comment provided by engineer. */
+"You can teleport between nearby intersections and places to explore their distance relationships." = "Du kannst dich zwischen nahe gelegenen Kreuzungen und Orten teleportieren, um ihre Entfernungsbeziehungen zu erkunden.";
+
 /* search.footnote.1 */
 "You can try searching by name or address." = "Suchen Sie nach einem Namen oder einer Adresse.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Mit dem Rotor können Sie auf den Tasten des Tabs „Umgebung“ zusätzliche Aktionen ausführen.";
+
+/* No comment provided by engineer. */
+"You can use the actions rotor on the buttons to perform additional actions." = "Sie können den Aktionsrotor auf den Schaltflächen verwenden, um zusätzliche Aktionen auszuführen.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Sie haben Wegpunkte dieser Route berechnet.";
@@ -2216,8 +2227,11 @@
 /* url_resource.alert.route.import.message */
 "You should only use routes from someone you trust." = "Sie sollten nur Routen von vertrauenswürdigen Personen verwenden.";
 
-/* first_use_experience.preview.tutorial.alert.message.2 */
-"You will be transported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Sie werden mitten auf der Fahrbahn der Straße platziert, die in der Nähe Ihres gewählten Punktes liegt. Verwenden Sie das iPhone wie einen Zeiger, drehen Sie sich langsam, und die Straßen werden Ihnen angesagt. Wenn Sie die gewünschte Straße gefunden haben, tippen Sie auf „Gehen“, und Sie gelangen zur nächsten Kreuzung.";
+/* No comment provided by engineer. */
+"You will be teleported to the location you selected." = "Du wirst an den von dir ausgewählten Ort teleportiert.";
+
+/* No comment provided by engineer. */
+"You will be teleported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Du wirst in die Mitte der Straße in die Nähe des von dir ausgewählten Ortes teleportiert. Verwenden Sie das Telefon als Zeiger, drehen Sie sich langsam, und die Straßennamen werden beim Drehen gerufen. Wenn Sie vor der Straße stehen, die Sie hinuntergehen möchten, tippen Sie auf 'Los' und Sie gelangen zur nächsten Kreuzung.";
 
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Sie kehren nun zur Startseite von VoiceVista zurück und ein Tonsignal wird auf den ersten Wegpunkt platziert. Wenn Sie den Wegpunkt erreichen, springt das Tonsignal zum nächsten Wegpunkt Ihrer Route.";
