@@ -4,6 +4,7 @@
 - Arabic translation contributed by Hasan Tayem.
 - Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 - Croatian translation contributed by Mario Markovina.
+- Danish translation contributed by Claus Thøgersen.
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
@@ -21,8 +22,7 @@
 - Install and run the GitHub Desktop App.
 - Create a new branch based on main. (Please ensure to fetch from origin and pull from origin to update to the latest main.)
 - Open the repository in the external editor.
-- Edit files in strings folder
-- Commit changes
-- Publish the branch
-- Create a Pull Request to merge the branch to main 
-
+- Edit files in strings folder.
+- Commit changes.
+- Publish the branch.
+- Create a Pull Request to merge the branch to main.
