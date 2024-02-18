@@ -428,10 +428,10 @@
 "Calibration complete" = "Calibrazione completata";
 
 /* No comment provided by engineer. */
-"Call Phone" = "Chiama Telefono";
+"Call Phone" = "Chiamata Telefonica";
 
 /* %@ is a phone number */
-"Call Telephone: %@" = "Telefono di chiamata: %@";
+"Call Telephone: %@" = "Chiama il numero: %@";
 
 /* settings.general.callouts.direction.style */
 "Callouts Direction Style" = "Stile direzione per gli avvisi";
@@ -701,7 +701,7 @@
 "Double tap to sort by name" = "Tocca due volte per ordinare per nome";
 
 /* No comment provided by engineer. */
-"Double tap to stop monitoring and wake up now" = "Tocca due volte per interrompere il monitoraggio e svegliarti ora";
+"Double tap to stop monitoring now" = "Tocca due volte per interrompere il monitoraggio adesso";
 
 /* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Tocca due volte per attivare il suono dell'audiofaro.";
@@ -788,6 +788,9 @@
 "Failed to Create a New Route" = "Impossibile creare un nuovo percorso";
 
 /* No comment provided by engineer. */
+"Failed to Create Marker" = "Impossibile creare il marcatore";
+
+/* No comment provided by engineer. */
 "Failed to Create Route" = "Impossibile creare il percorso";
 
 /* No comment provided by engineer. */
@@ -807,6 +810,9 @@
 
 /* No comment provided by engineer. */
 "Failed to Import Route" = "Impossibile importare il percorso";
+
+/* No comment provided by engineer. */
+"Failed to Remove the Last Breadcrumb Marker" = "Impossibile rimuovere l'ultimo indicatore breadcrumb";
 
 /* No comment provided by engineer. */
 "Failed to Update" = "Impossibile aggiornare";
@@ -1010,7 +1016,7 @@
 "Intersection with %@ nearby" = "Incrocio con %@ nelle vicinanze";
 
 /* No comment provided by engineer. */
-"INTERSECTIONS" = "INTERSEZIONI";
+"INTERSECTIONS" = "INCROCI";
 
 /* No comment provided by engineer. */
 "Intersections" = "Incroci";
@@ -1022,7 +1028,7 @@
 "Intersections Nearby" = "Incroci nelle vicinanze";
 
 /* No comment provided by engineer. */
-"Invalid Breadcrumb Route Name" = "Nome percorso briciole di pane non valido";
+"Invalid Breadcrumb Route" = "Percorso breadcrumb non valido";
 
 /* No comment provided by engineer. */
 "Invalid Latitude and Longitude" = "Latitudine e longitudine non valide";
@@ -1052,6 +1058,9 @@
 "Language" = "Lingua";
 
 /* No comment provided by engineer. */
+"Last Breadcrumb Marker Removed" = "Ultimo indicatore breadcrumb rimosso";
+
+/* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitudine o (Latitudine, Longitudine) o Codici Plus";
 
 /* No comment provided by engineer. */
@@ -1073,7 +1082,7 @@
 "Location Details" = "Dettagli posizione";
 
 /* No comment provided by engineer. */
-"Location Explorer" = "Esplora posizione";
+"Location Explorer" = "Esplorazione virtuale del luogo";
 
 /* general.error.preview */
 "Location preview could not be started at this location." = "Non è stato possibile avviare l'anteprima di questa posizione.";
@@ -1406,7 +1415,10 @@
 "Places" = "Luoghi";
 
 /* No comment provided by engineer. */
-"PLACES" = "POSTI";
+"PLACES" = "LUOGHI";
+
+/* No comment provided by engineer. */
+"Places Ahead" = "Luoghi avanti";
 
 /* No comment provided by engineer. */
 "Places and Landmarks" = "Luoghi e punti di riferimento";
@@ -1504,6 +1516,9 @@
 
 /* No comment provided by engineer. */
 "Remove Alert Distance Setting" = "Cancella l'impostazione per la distanza degli avvisi";
+
+/* No comment provided by engineer. */
+"Remove Last Breadcrumb Marker" = "Rimuovi l'ultimo indicatore di breadcrumb";
 
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Ripeti l'ultimo avviso";
@@ -1767,7 +1782,7 @@
 "Street Name Distance Interval" = "Intervallo di distanza del nome della via";
 
 /* No comment provided by engineer. */
-"Street Name Time Interval" = "Intervallo di tempo del nome della via";
+"Street Name Time Interval" = "Intervallo di tempo per il nome della via";
 
 /* No comment provided by engineer. */
 "Street Names" = "Nomi delle strade";
@@ -1835,6 +1850,9 @@
 
 /* No comment provided by engineer. */
 "The street name intervals define the distance and time interval for street name callouts." = "Gli intervalli dei nomi delle strade definiscono la distanza e l'intervallo di tempo per gli avvisi dei nomi delle strade.";
+
+/* No comment provided by engineer. */
+"There are no breadcrumb markers in this route." = "Non ci sono indicatori di breadcrumb in questo percorso.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Non ci sono incroci più avanti da segnalare in questo momento";
@@ -1973,9 +1991,6 @@
 /* settings.general.units */
 "Units of Measure" = "Unità di misura";
 
-/* No comment provided by engineer. */
-"Unknow location" = "Posizione sconosciuta";
-
 /* Motion status: unknow
    poi.unknown */
 "Unknown" = "Sconosciuto";
@@ -1985,6 +2000,9 @@
 
 /* No comment provided by engineer. */
 "Unknown Current Location" = "Posizione corrente sconosciuta";
+
+/* No comment provided by engineer. */
+"Unknown location" = "Posizione sconosciuta";
 
 /* troubleshooting.gps_status.unknown */
 "Unknown Location Accuracy" = "Precisione della posizione sconosciuta";
@@ -2189,7 +2207,7 @@
 "You are already within the monitoring region." = "Ti trovi già nella regione di monitoraggio.";
 
 /* No comment provided by engineer. */
-"You can now explore virtual locations by teleporting between intersections and places." = "Ora puoi esplorare luoghi virtuali teletrasportandoti tra incroci e luoghi.";
+"You can now explore virtual locations by teleporting between intersections and places." = "Ora puoi esplorare virtualmente una posizione teletrasportandoti tra incroci e luoghi.";
 
 /* No comment provided by engineer. */
 "You can pick waypoints from your list of markers." = "Puoi scegliere i waypoint dal tuo elenco di indicatori.";
@@ -2201,7 +2219,7 @@
 "You can rearrange the order of waypoints along a route at any time by editing the route." = "Puoi cambiare in qualsiasi momento l'ordine dei waypoint lungo un percorso modificando quest'ultimo.";
 
 /* No comment provided by engineer. */
-"You can teleport between nearby intersections and places to explore their distance relationships." = "Puoi teletrasportarti tra gli incroci e i luoghi vicini per esplorare le loro relazioni di distanza.";
+"You can teleport between nearby intersections and places to explore their distance relationships." = "Puoi teletrasportarti tra gli incroci e i luoghi vicini per studiare le distanze tra loro.";
 
 /* search.footnote.1 */
 "You can try searching by name or address." = "Puoi provare a cercare per nome o indirizzo.";
@@ -2231,7 +2249,7 @@
 "You will be teleported to the location you selected." = "Verrai teletrasportato nella posizione che hai selezionato.";
 
 /* No comment provided by engineer. */
-"You will be teleported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Verrai teletrasportato al centro della strada vicino alla posizione che hai selezionato. Usando il telefono come puntatore, gira lentamente e i nomi delle strade verranno chiamati mentre ti giri. Quando sei di fronte alla strada che vuoi percorrere, tocca 'Vai' e avanzerai fino all'incrocio successivo.";
+"You will be teleported to the middle of the street near the location you selected. Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Verrai teletrasportato al centro della strada vicino alla posizione che hai selezionato. Usando il telefono come puntatore, gira lentamente e verrai avvisato sui nomi delle strade mentre ti giri. Quando sei di fronte alla strada che vuoi percorrere, tocca 'Vai' e avanzerai fino all'incrocio successivo.";
 
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and an Audio Beacon will be placed on your first waypoint. When you arrive at the waypoint, the beacon will advance to the next waypoint on your route." = "Tornerai alla home page VoiceVista e un audiofaro verrà posizionato sul tuo primo waypoint. Quando arriverai al waypoint, l'audiofaro avanzerà al successivo waypoint sul percorso.";
