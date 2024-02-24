@@ -113,7 +113,7 @@
 "All privacy data is stored exclusively on your local device or iCloud storage." = "يتم تخزين جميع بيانات الخصوصية حصريًا على جهازك المحلي أو على مساحة تخزين iCloud.";
 
 /* No comment provided by engineer. */
-"Allow Callouts" = "السماح بوسائل الشرح";
+"Allow Automatic Callouts" = "السماح بوسائل الشرح التلقائية";
 
 /* No comment provided by engineer. */
 "Along Road" = "على طول الطريق";
@@ -153,7 +153,7 @@
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "هل أنت متأكد أنك ترغب في نسيان هذه السماعات؟";
 
-/* general.alert.confirmation_title */
+/* No comment provided by engineer. */
 "Are You Sure?" = "هل أنت متأكد؟";
 
 /* ui.action_button.around_me */
@@ -161,9 +161,6 @@
 
 /* callouts.around_you */
 "Around You" = "حولك";
-
-/* No comment provided by engineer. */
-"Arrival and Departure Cues" = "إشارات الوصول والمغادرة";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "الوصول إلى المنارة";
@@ -229,6 +226,9 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "على أي مسافة تريد أن ينبهك VoiceVista؟";
 
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Audio beacon has been muted" = "تم كتم صوت منارة الصوت";
+
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "أنماط الصوت";
 
@@ -257,9 +257,6 @@
 "Beacon" = "منارة";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
-/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
-"Beacon Arrival Style" = "نمط وصول المنارة";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "وصلت المنارة";
 
@@ -269,17 +266,11 @@
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "عامل تردد المنارة";
 
-/* No comment provided by engineer. */
-"Beacon Information" = "معلومات المنارة";
-
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 /* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
 /* No comment provided by engineer. */
 "Beacon Settings" = "إعدادات منارة";
-
-/* No comment provided by engineer. */
-"Beacon Sound Effect" = "منارة تأثير الصوت";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "إعداد صوت المنارة";
@@ -290,7 +281,6 @@
 /* No comment provided by engineer. */
 "Beacon volume" = "حجم منارة";
 
-/* Notification, Beacon location nearby. */
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 /* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "قبل توصيل سماعات الرأس الخاصة بك بـ VoiceVista ، تأكد من إقرانها بهاتفك. إذا لم يتم الاقتران بعد ، فانتقل إلى قسم Bluetooth في تطبيق إعدادات iOS لإقران جهازك ثم العودة إلى VoiceVista.";
@@ -361,9 +351,6 @@
 
 /* %@ is POI category, for example, Restaurant or Bank */
 /* No comment provided by engineer. */
-"Change Beacon Arrival Style" = "تغيير نمط وصول المنارة";
-
-/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "تغيير مسافة كتم صوت المنارة تلقائيًا";
 
 /* No comment provided by engineer. */
@@ -382,16 +369,16 @@
 "Change GPS Information Time Interval" = "تغيير الفاصل الزمني لمعلومات GPS";
 
 /* No comment provided by engineer. */
+"Change House Number Distance Interval" = "تغيير رقم المنزل الفاصل الزمني للمسافة";
+
+/* No comment provided by engineer. */
+"Change House Number Time Interval" = "تغيير الفاصل الزمني لرقم المنزل";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "تغيير مضاعف نطاق النقاط المهمة";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "تغيير استجابة حركة الاهتزاز";
-
-/* No comment provided by engineer. */
-"Change Street Name Distance Interval" = "تغيير الفاصل الزمني لمسافة اسم الشارع";
-
-/* No comment provided by engineer. */
-"Change Street Name Time Interval" = "تغيير الفاصل الزمني لاسم الشارع";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "تغيير وحدات القياس";
@@ -471,14 +458,11 @@
 /* %@ is index number of the current waypoint in the route */
 /* %@ is the current waypoint name */
 /* No comment provided by engineer. */
-/* No comment provided by engineer. */
-"CUSTOMIZATION" = "التخصيص";
-
 /* Motion status: cycling */
 "Cycling" = "ركوب الدراجات";
 
-/* settings.direction.style.degree */
-"Degree Direction" = "اتجاه الدرجة";
+/* settings.direction.style.degrees */
+"Degrees Direction" = "اتجاه الدرجات";
 
 /* general.alert.delete */
 "Delete" = "يمسح";
@@ -504,9 +488,6 @@
 "Destination location" = "موقع وجهة";
 
 /* %@ is the beacon name */
-/* beacon.command.4 */
-"Detail information" = "معلومات مفصلة";
-
 /* %@ is the direction to the beacon */
 /* No comment provided by engineer. */
 "Disable Unnamed Roads" = "تعطيل الطرق بدون اسم";
@@ -519,9 +500,6 @@
 
 /* settings.arrival.style.distance */
 "Distance" = "مسافة";
-
-/* No comment provided by engineer. */
-"Distance and direction to nearby POI" = "المسافة والاتجاه إلى النقاط المهمة القريبة";
 
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "المسافة والاتجاه إلى المنارة";
@@ -613,7 +591,7 @@
 /* placesNearyBy.category.4 */
 "Education" = "تعليم";
 
-/* settings.audio.mix_with_others.title */
+/* No comment provided by engineer. */
 "Enable Media Controls" = "تفعيل عناصر التحكم في الوسائط";
 
 /* No comment provided by engineer. */
@@ -740,6 +718,12 @@
 "Google Maps" = "خرائط جوجل";
 
 /* No comment provided by engineer. */
+"GPS Altitude" = "ارتفاع نظام تحديد المواقع العالمي (GPS)";
+
+/* No comment provided by engineer. */
+"GPS DETAIL" = "تفاصيل نظام تحديد المواقع";
+
+/* No comment provided by engineer. */
 "GPS Information" = "معلومات نظام تحديد المواقع";
 
 /* No comment provided by engineer. */
@@ -747,6 +731,12 @@
 
 /* No comment provided by engineer. */
 "GPS Information Time Interval" = "الفاصل الزمني لمعلومات GPS";
+
+/* No comment provided by engineer. */
+"GPS Latitude and longitude" = "GPS خطوط الطول والعرض";
+
+/* No comment provided by engineer. */
+"GPS Speed" = "سرعة نظام تحديد المواقع";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "البقالة";
@@ -806,7 +796,10 @@
 "HELP" = "تعليمات";
 
 /* No comment provided by engineer. */
-"House numbers in close proximity" = "أرقام المنازل على مقربة";
+"House Number Distance Interval" = "رقم المنزل المسافة الفاصل الزمني";
+
+/* No comment provided by engineer. */
+"House Number Time Interval" = "الفاصل الزمني لرقم المنزل";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "ما رأيك؟";
@@ -881,9 +874,6 @@
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "التقاطعات";
 
-/* No comment provided by engineer. */
-"Intersections" = "التقاطعات";
-
 /* ui.action_button.intersections */
 "Intersections Ahead" = "التقاطعات أمامك";
 
@@ -925,9 +915,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude أو (Latitude, Longitude) أو رموز Plus";
-
-/* No comment provided by engineer. */
-"Latitude, longitude and altitude" = "خطوط الطول والعرض والارتفاع";
 
 /* No comment provided by engineer. */
 /* general.alert.offline.learn_more */
@@ -1019,9 +1006,6 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "متري (متر)";
 
-/* No comment provided by engineer. */
-"Mobility and Safety" = "التنقل والسلامة";
-
 /* %@ is the name of the monitoring location */
 /* No comment provided by engineer. */
 "Motion & Fitness" = "الحركة واللياقة البدنية";
@@ -1056,7 +1040,10 @@
 "Nearby" = "مجاور";
 
 /* No comment provided by engineer. */
-"Nearby junctions and road crossings" = "بالقرب من التقاطعات ومعابر الطرق";
+"Nearby house numbers" = "أرقام المنازل القريبة";
+
+/* No comment provided by engineer. */
+"Nearby intersections" = "التقاطعات القريبة";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "العلامات القريبة";
@@ -1090,7 +1077,7 @@
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "التقاطع التالي: نهاية الطريق";
 
-/* beacon.command.3 */
+/* No comment provided by engineer. */
 "Next waypoint" = "الإحداثية التالية";
 
 /* No comment provided by engineer. */
@@ -1219,6 +1206,9 @@
 "Pair Headphones Audio" = "إقران صوت سماعات الرأس";
 
 /* No comment provided by engineer. */
+"PARAMETERS" = "البارامترات";
+
+/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "لصق ماركر من Soundscape";
 
 /* No comment provided by engineer. */
@@ -1258,9 +1248,6 @@
 "Places Ahead" = "الأماكن المقبلة";
 
 /* No comment provided by engineer. */
-"Places and Landmarks" = "الأماكن والمعالم";
-
-/* No comment provided by engineer. */
 "Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "تأتي بيانات الأماكن من خرائط Apple وOpenStreetMap وOverture Maps.";
 
 /* No comment provided by engineer. */
@@ -1289,13 +1276,16 @@
 "Please try later." = "يرجى المحاولة لاحقا.";
 
 /* No comment provided by engineer. */
+"POI Category" = "فئة نقاط الاهتمام";
+
+/* No comment provided by engineer. */
+"POI DETAIL" = "تفاصيل نقطة الاهتمام";
+
+/* No comment provided by engineer. */
+"POI Distance and Direction" = "مسافة POI واتجاهها";
+
+/* No comment provided by engineer. */
 "POI Range Multiplier" = "مضاعف نطاق النقاط المهمة";
-
-/* No comment provided by engineer. */
-"Points of Interest Category" = "فئة نقاط الاهتمام";
-
-/* No comment provided by engineer. */
-"Points of Interest Information" = "معلومات النقاط المثيرة للاهتمام";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "التفضيل";
@@ -1319,7 +1309,7 @@
 "Previous Location" = "الموقع السابق";
 
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
-/* beacon.command.2 */
+/* No comment provided by engineer. */
 "Previous waypoint" = "إحداثية سابقة";
 
 /* No comment provided by engineer. */
@@ -1583,7 +1573,7 @@
 /* No comment provided by engineer. */
 "Stop Beacon" = "توقف عن الإشارة";
 
-/* beacon.command.1 */
+/* No comment provided by engineer. */
 "Stop beacon" = "توقف منارة";
 
 /* No comment provided by engineer. */
@@ -1591,15 +1581,6 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "وقف الطريق";
-
-/* No comment provided by engineer. */
-"Street Name Distance Interval" = "الفاصل الزمني لمسافة اسم الشارع";
-
-/* No comment provided by engineer. */
-"Street Name Time Interval" = "الفاصل الزمني لاسم الشارع";
-
-/* No comment provided by engineer. */
-"Street Names" = "أسماء الشوارع";
 
 /* No comment provided by engineer. */
 "Street Preview" = "معاينة الشارع";
@@ -1760,9 +1741,6 @@
 /* No comment provided by engineer. */
 "Turn all callouts on or off" = "تشغيل أو إيقاف تشغيل جميع وسائل الشرح";
 
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "تعليمات المنعطفات";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "قم بتشغيل الموقع الدقيق لاستخدام VoiceVista";
 
@@ -1774,7 +1752,7 @@
 
 /* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
 /* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
-/* setting.audio.mix_with_others.confirmation */
+/* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "سيؤدي تشغيل هذا الإعداد إلى توقف وسائل شرح VoiceVista وغيرها من الأصوات عندما تبدأ في استخدام تطبيق وسائط مختلف. يمكنك العودة إلى VoiceVista لاستئناف وسائل الشرح.";
 
 /* settings.clear_cache.no_service.title */
