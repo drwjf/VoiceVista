@@ -179,7 +179,7 @@
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Svi podaci o privatnosti pohranjuju se isključivo na vašem lokalnom uređaju ili iCloud pohrani.";
 
 /* No comment provided by engineer. */
-"Allow Callouts" = "Dopusti najave";
+"Allow Automatic Callouts" = "Dopusti automatske oblačiće";
 
 /* No comment provided by engineer. */
 "Along Road" = "Uz cestu";
@@ -229,7 +229,7 @@
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Jeste li sigurni da želite zaboraviti ove slušalice?";
 
-/* general.alert.confirmation_title */
+/* No comment provided by engineer. */
 "Are You Sure?" = "Jeste li sigurni?";
 
 /* ui.action_button.around_me */
@@ -237,9 +237,6 @@
 
 /* callouts.around_you */
 "Around You" = "Oko vas";
-
-/* No comment provided by engineer. */
-"Arrival and Departure Cues" = "Znakovi dolaska i odlaska";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "Dolazak do cilja";
@@ -307,6 +304,9 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "Na kojoj udaljenosti želite da vas VoiceVista upozori?";
 
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Audio beacon has been muted" = "Audiozapisnik je isključen";
+
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "AUDIO STILOVI";
 
@@ -337,9 +337,6 @@
 /* Noticafcation when start a beacon. %@ is beacon name */
 "Beacon %@ started" = "Cilj %@ je pokrenut";
 
-/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
-"Beacon Arrival Style" = "Stil dolaska na cilj";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Stigli ste na cilj";
 
@@ -348,9 +345,6 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Frekvencijski faktor cilja";
-
-/* No comment provided by engineer. */
-"Beacon Information" = "Informacije cilja";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Cilj na %@";
@@ -365,9 +359,6 @@
 "Beacon Settings" = "Postavke cilja";
 
 /* No comment provided by engineer. */
-"Beacon Sound Effect" = "Zvučni efekt cilja";
-
-/* No comment provided by engineer. */
 "Beacon Sound Setting" = "Postavka zvuka cilja";
 
 /* No comment provided by engineer. */
@@ -375,9 +366,6 @@
 
 /* No comment provided by engineer. */
 "Beacon volume" = "Glasnoća cilja";
-
-/* Notification, Beacon location nearby. */
-"Beacon within %@" = "Cilj unutar %@";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Cilj unutar %@. Zvuk cilja je isključen";
@@ -455,9 +443,6 @@
 "Category: %@" = "Kategorija: %@";
 
 /* No comment provided by engineer. */
-"Change Beacon Arrival Style" = "Promijeni stil dolaska na cilj";
-
-/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "Promjena udaljenosti automatskog isključivanja cilja";
 
 /* No comment provided by engineer. */
@@ -476,16 +461,16 @@
 "Change GPS Information Time Interval" = "Promjena vremenskog intervala GPS informacija";
 
 /* No comment provided by engineer. */
+"Change House Number Distance Interval" = "Promjena intervala udaljenosti kućnog broja";
+
+/* No comment provided by engineer. */
+"Change House Number Time Interval" = "Promjena vremenskog intervala kućnog broja";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Promijenite množitelj raspona POI";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Promjena odziva na protresanje";
-
-/* No comment provided by engineer. */
-"Change Street Name Distance Interval" = "Promjena intervala udaljenosti naziva ulice";
-
-/* No comment provided by engineer. */
-"Change Street Name Time Interval" = "Promjena vremenskog intervala naziva ulice";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Promjena mjernih jedinica";
@@ -577,14 +562,11 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Trenutno: %@";
 
-/* No comment provided by engineer. */
-"CUSTOMIZATION" = "PRILAGOĐAVANJE";
-
 /* Motion status: cycling */
 "Cycling" = "Bicikliranje";
 
-/* settings.direction.style.degree */
-"Degree Direction" = "Smijer stupnjevi";
+/* settings.direction.style.degrees */
+"Degrees Direction" = "Smjer stupnjeva";
 
 /* general.alert.delete */
 "Delete" = "Izbrisati";
@@ -616,9 +598,6 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Odredište: %@ .";
 
-/* beacon.command.4 */
-"Detail information" = "Detaljne informacije";
-
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Smjer: %@ .";
 
@@ -633,9 +612,6 @@
 
 /* settings.arrival.style.distance */
 "Distance" = "Udaljenost";
-
-/* No comment provided by engineer. */
-"Distance and direction to nearby POI" = "Udaljenost i smjer do obližnje točke interesa";
 
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Udaljenost i smjer do cilja";
@@ -739,7 +715,7 @@
 /* placesNearyBy.category.4 */
 "Education" = "Obrazovanje";
 
-/* settings.audio.mix_with_others.title */
+/* No comment provided by engineer. */
 "Enable Media Controls" = "Omogući kontrole medija";
 
 /* No comment provided by engineer. */
@@ -872,6 +848,12 @@
 "Google Maps" = "Google karte";
 
 /* No comment provided by engineer. */
+"GPS Altitude" = "GPS nadmorska visina";
+
+/* No comment provided by engineer. */
+"GPS DETAIL" = "GPS DETALJ";
+
+/* No comment provided by engineer. */
 "GPS Information" = "GPS informacije";
 
 /* No comment provided by engineer. */
@@ -879,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "GPS Information Time Interval" = "Vremenski interval GPS informacija";
+
+/* No comment provided by engineer. */
+"GPS Latitude and longitude" = "GPS zemljopisna širina i dužina";
+
+/* No comment provided by engineer. */
+"GPS Speed" = "GPS brzina";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Namirnice";
@@ -938,7 +926,10 @@
 "HELP" = "POMOĆ";
 
 /* No comment provided by engineer. */
-"House numbers in close proximity" = "Kućni brojevi u neposrednoj blizini";
+"House Number Distance Interval" = "Interval udaljenosti kućnog broja";
+
+/* No comment provided by engineer. */
+"House Number Time Interval" = "Vremenski interval kućnog broja";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Kako ovo zvuči?";
@@ -1027,9 +1018,6 @@
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "SJECIŠTA";
 
-/* No comment provided by engineer. */
-"Intersections" = "Raskrižja";
-
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Raskrižja ispred";
 
@@ -1071,9 +1059,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Zemljopisna širina ili (Širina, Dužina) ili Plus kodovi";
-
-/* No comment provided by engineer. */
-"Latitude, longitude and altitude" = "Zemljopisna širina, dužina i nadmorska visina";
 
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Zemljopisna širina: %1$@, zemljopisna dužina: %2$@";
@@ -1171,9 +1156,6 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "metrički (metri)";
 
-/* No comment provided by engineer. */
-"Mobility and Safety" = "Mobilnost i sigurnost";
-
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Praćenje %@";
 
@@ -1218,7 +1200,10 @@
 "Nearby" = "U blizini";
 
 /* No comment provided by engineer. */
-"Nearby junctions and road crossings" = "Obližnja čvorišta i raskrižja";
+"Nearby house numbers" = "Brojevi kuća u blizini";
+
+/* No comment provided by engineer. */
+"Nearby intersections" = "Obližnja raskrižja";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Oznake u blizini";
@@ -1260,7 +1245,7 @@
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "Sljedeće raskrižje: Kraj ceste";
 
-/* beacon.command.3 */
+/* No comment provided by engineer. */
 "Next waypoint" = "Sljedeća putna točka";
 
 /* No comment provided by engineer. */
@@ -1391,6 +1376,9 @@
 "Pair Headphones Audio" = "Uparite audio slušalice";
 
 /* No comment provided by engineer. */
+"PARAMETERS" = "PARAMETARA";
+
+/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Zalijepi marker iz Soundscapea";
 
 /* No comment provided by engineer. */
@@ -1430,9 +1418,6 @@
 "Places Ahead" = "Mjesta naprijed";
 
 /* No comment provided by engineer. */
-"Places and Landmarks" = "Mjesta i orijentiri";
-
-/* No comment provided by engineer. */
 "Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Podaci o mjestima dolaze iz Apple Maps, OpenStreetMap i Overture Maps.";
 
 /* No comment provided by engineer. */
@@ -1461,13 +1446,16 @@
 "Please try later." = "Molimo pokušajte kasnije.";
 
 /* No comment provided by engineer. */
+"POI Category" = "Poi kategorija";
+
+/* No comment provided by engineer. */
+"POI DETAIL" = "POI DETALJ";
+
+/* No comment provided by engineer. */
+"POI Distance and Direction" = "Poi udaljenost i smjer";
+
+/* No comment provided by engineer. */
 "POI Range Multiplier" = "Množitelj raspona POI";
-
-/* No comment provided by engineer. */
-"Points of Interest Category" = "Kategorija točaka interesa";
-
-/* No comment provided by engineer. */
-"Points of Interest Information" = "Informacije o točkama interesa";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "PREFERENCE";
@@ -1493,7 +1481,7 @@
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Prethodna lokacija, uz %@";
 
-/* beacon.command.2 */
+/* No comment provided by engineer. */
 "Previous waypoint" = "Prethodna putna točka";
 
 /* No comment provided by engineer. */
@@ -1781,7 +1769,7 @@
 /* No comment provided by engineer. */
 "Stop Beacon" = "Zaustavi Cilj";
 
-/* beacon.command.1 */
+/* No comment provided by engineer. */
 "Stop beacon" = "Zaustavi cilj";
 
 /* No comment provided by engineer. */
@@ -1789,15 +1777,6 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "Zaustavi rutu";
-
-/* No comment provided by engineer. */
-"Street Name Distance Interval" = "Interval udaljenosti naziva ulice";
-
-/* No comment provided by engineer. */
-"Street Name Time Interval" = "Vremenski interval naziva ulice";
-
-/* No comment provided by engineer. */
-"Street Names" = "Imena ulica";
 
 /* No comment provided by engineer. */
 "Street Preview" = "Pregled ulice";
@@ -1966,9 +1945,6 @@
 /* No comment provided by engineer. */
 "Turn all callouts on or off" = "Uključite ili isključite sve najave";
 
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Upute skretanje po skretanje";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "Uključite Precise Location za korištenje VoiceViste";
 
@@ -1984,7 +1960,7 @@
 /* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
 "Turned right. Now along %@" = "Skrenuo desno. Sada uz %@";
 
-/* setting.audio.mix_with_others.confirmation */
+/* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Uključivanje ove postavke uzrokovat će pauziranje najava VoiceViste i drugog zvuka kad god počnete koristiti drugu medijsku aplikaciju. Možete se vratiti na VoiceVistu da nastavite s najavama.";
 
 /* settings.clear_cache.no_service.title */

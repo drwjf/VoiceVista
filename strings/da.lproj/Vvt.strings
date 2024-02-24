@@ -179,7 +179,7 @@
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Alle privatlivsdata gemmes udelukkende på din lokale enhed eller i Apple iCloud.";
 
 /* No comment provided by engineer. */
-"Allow Callouts" = "Tillad lydbeskeder";
+"Allow Automatic Callouts" = "Tillad automatiske billedforklaringer";
 
 /* No comment provided by engineer. */
 "Along Road" = "Langs Vej";
@@ -229,7 +229,7 @@
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Er du sikker på, at du vil glemme disse hovedtelefoner?";
 
-/* general.alert.confirmation_title */
+/* No comment provided by engineer. */
 "Are You Sure?" = "Er du sikker?";
 
 /* ui.action_button.around_me */
@@ -237,9 +237,6 @@
 
 /* callouts.around_you */
 "Around You" = "Omkring dig";
-
-/* No comment provided by engineer. */
-"Arrival and Departure Cues" = "Ankomst- og afgangssignaler";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "Ankom til beacon";
@@ -307,6 +304,9 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "I hvilken afstand vil du have VoiceVista til at advare dig?";
 
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Audio beacon has been muted" = "Audio beacon er blevet slået fra";
+
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "LYDSTIL";
 
@@ -337,9 +337,6 @@
 /* Noticafcation when start a beacon. %@ is beacon name */
 "Beacon %@ started" = "Lydfyr %@ startede";
 
-/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
-"Beacon Arrival Style" = "Lydfyr Ankomst Style";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Lydfyr ankommet";
 
@@ -348,9 +345,6 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Beacon Frequency Factor";
-
-/* No comment provided by engineer. */
-"Beacon Information" = "Information om lydfyr";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Lydfyr på %@";
@@ -365,9 +359,6 @@
 "Beacon Settings" = "Indstillinger for lydfyr";
 
 /* No comment provided by engineer. */
-"Beacon Sound Effect" = "Lydfyr lydeffekt";
-
-/* No comment provided by engineer. */
 "Beacon Sound Setting" = "Lydfyr lydindstilling";
 
 /* No comment provided by engineer. */
@@ -375,9 +366,6 @@
 
 /* No comment provided by engineer. */
 "Beacon volume" = "Lydstyrke for lydfyr";
-
-/* Notification, Beacon location nearby. */
-"Beacon within %@" = "Lydfyr inden for %@";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Lydfyr inden for %@. Lydfyret er slået fra";
@@ -455,9 +443,6 @@
 "Category: %@" = "Kategori: %@";
 
 /* No comment provided by engineer. */
-"Change Beacon Arrival Style" = "Skift annoncering af ankomst til lydfyr";
-
-/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "Skift afstand for automatisk dvale af lydfyr";
 
 /* No comment provided by engineer. */
@@ -476,16 +461,16 @@
 "Change GPS Information Time Interval" = "Skift tidsinterval for GPS-oplysninger";
 
 /* No comment provided by engineer. */
+"Change House Number Distance Interval" = "Skift afstandsinterval for husnummer";
+
+/* No comment provided by engineer. */
+"Change House Number Time Interval" = "Skift tidsinterval for husnummer";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Skift afstand for interessepunktsmultiplikator";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Skift handling når enheden rystes";
-
-/* No comment provided by engineer. */
-"Change Street Name Distance Interval" = "Skift afstandsinterval for gadenavn";
-
-/* No comment provided by engineer. */
-"Change Street Name Time Interval" = "Skift tidsinterval for gadenavn";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Skift måleenhed";
@@ -577,14 +562,11 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Nuværende: %@";
 
-/* No comment provided by engineer. */
-"CUSTOMIZATION" = "TILPASNING";
-
 /* Motion status: cycling */
 "Cycling" = "Cykling";
 
-/* settings.direction.style.degree */
-"Degree Direction" = "Retning i grader";
+/* settings.direction.style.degrees */
+"Degrees Direction" = "Grader Retning";
 
 /* general.alert.delete */
 "Delete" = "Slet";
@@ -616,9 +598,6 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Destination: %@ .";
 
-/* beacon.command.4 */
-"Detail information" = "Detaljerede oplysninger";
-
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Retning: %@ .";
 
@@ -633,9 +612,6 @@
 
 /* settings.arrival.style.distance */
 "Distance" = "Afstand";
-
-/* No comment provided by engineer. */
-"Distance and direction to nearby POI" = "Afstand og retning til nærliggende POI";
 
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Afstand og retning til lydfyr";
@@ -739,7 +715,7 @@
 /* placesNearyBy.category.4 */
 "Education" = "Uddannelse";
 
-/* settings.audio.mix_with_others.title */
+/* No comment provided by engineer. */
 "Enable Media Controls" = "Aktivér mediekontrolelementer";
 
 /* No comment provided by engineer. */
@@ -872,6 +848,12 @@
 "Google Maps" = "Google kort";
 
 /* No comment provided by engineer. */
+"GPS Altitude" = "GPS-højde";
+
+/* No comment provided by engineer. */
+"GPS DETAIL" = "GPS-DETALJE";
+
+/* No comment provided by engineer. */
 "GPS Information" = "GPS-oplysninger";
 
 /* No comment provided by engineer. */
@@ -879,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "GPS Information Time Interval" = "GPS-information tidsinterval";
+
+/* No comment provided by engineer. */
+"GPS Latitude and longitude" = "GPS Breddegrad og længdegrad";
+
+/* No comment provided by engineer. */
+"GPS Speed" = "GPS-hastighed";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Dagligvarer";
@@ -938,7 +926,10 @@
 "HELP" = "HJÆLP";
 
 /* No comment provided by engineer. */
-"House numbers in close proximity" = "Husnumre i umiddelbar nærhed";
+"House Number Distance Interval" = "Husnummer Afstandsinterval";
+
+/* No comment provided by engineer. */
+"House Number Time Interval" = "Husnummer tidsinterval";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Hvordan lyder den?";
@@ -1027,9 +1018,6 @@
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "VEJKRYDS";
 
-/* No comment provided by engineer. */
-"Intersections" = "Kryds";
-
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Vejkryds forude";
 
@@ -1071,9 +1059,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude eller (Latitude, Longitude) eller Plus-koder";
-
-/* No comment provided by engineer. */
-"Latitude, longitude and altitude" = "Breddegrad, længdegrad og højde";
 
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Latitud: %1$@, Længdegrad: %2$@";
@@ -1171,9 +1156,6 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrisk (meter)";
 
-/* No comment provided by engineer. */
-"Mobility and Safety" = "Mobilitet og sikkerhed";
-
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Overvågning %@";
 
@@ -1218,7 +1200,10 @@
 "Nearby" = "I nærheden";
 
 /* No comment provided by engineer. */
-"Nearby junctions and road crossings" = "Vejkryds i nærheden";
+"Nearby house numbers" = "Husnumre i nærheden";
+
+/* No comment provided by engineer. */
+"Nearby intersections" = "Vejkryds i nærheden";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Mærker i nærheden";
@@ -1260,7 +1245,7 @@
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "Næste kryds: Afslutning af vej";
 
-/* beacon.command.3 */
+/* No comment provided by engineer. */
 "Next waypoint" = "Næste rutepunkt";
 
 /* No comment provided by engineer. */
@@ -1391,6 +1376,9 @@
 "Pair Headphones Audio" = "Par hovedtelefoner";
 
 /* No comment provided by engineer. */
+"PARAMETERS" = "PARAMETRE";
+
+/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Indsæt mærke  fra Soundscape";
 
 /* No comment provided by engineer. */
@@ -1430,9 +1418,6 @@
 "Places Ahead" = "Steder forude";
 
 /* No comment provided by engineer. */
-"Places and Landmarks" = "Steder og landemærker";
-
-/* No comment provided by engineer. */
 "Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Stedsdata kommer fra Apple Maps, OpenStreetMap og Overture Maps.";
 
 /* No comment provided by engineer. */
@@ -1461,13 +1446,16 @@
 "Please try later." = "Prøv venligst .";
 
 /* No comment provided by engineer. */
+"POI Category" = "POI kategori";
+
+/* No comment provided by engineer. */
+"POI DETAIL" = "POI-DETALJE";
+
+/* No comment provided by engineer. */
+"POI Distance and Direction" = "POI-afstand og -retning";
+
+/* No comment provided by engineer. */
 "POI Range Multiplier" = "POI Range Multiplikator";
-
-/* No comment provided by engineer. */
-"Points of Interest Category" = "Interessepunkter kategori";
-
-/* No comment provided by engineer. */
-"Points of Interest Information" = "Oplysninger om interessepunkter";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "Indstillinger";
@@ -1493,7 +1481,7 @@
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Forrige placering, langs %@";
 
-/* beacon.command.2 */
+/* No comment provided by engineer. */
 "Previous waypoint" = "forrige rutepunkt";
 
 /* No comment provided by engineer. */
@@ -1781,7 +1769,7 @@
 /* No comment provided by engineer. */
 "Stop Beacon" = "Stop Lydfyr";
 
-/* beacon.command.1 */
+/* No comment provided by engineer. */
 "Stop beacon" = "Stop Lydfyr";
 
 /* No comment provided by engineer. */
@@ -1789,15 +1777,6 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "Stop rute";
-
-/* No comment provided by engineer. */
-"Street Name Distance Interval" = "Afstandsinterval for gadenavn";
-
-/* No comment provided by engineer. */
-"Street Name Time Interval" = "Tidsinterval for gadenavn";
-
-/* No comment provided by engineer. */
-"Street Names" = "Gadenavne";
 
 /* No comment provided by engineer. */
 "Street Preview" = "Street Preview";
@@ -1966,9 +1945,6 @@
 /* No comment provided by engineer. */
 "Turn all callouts on or off" = "Slå alle beskeder til eller fra";
 
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "ruteinstruktioner";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "Slå Præcis placering til for at bruge VoiceVista";
 
@@ -1984,7 +1960,7 @@
 /* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
 "Turned right. Now along %@" = "Drejede til højre. Nu langs %@";
 
-/* setting.audio.mix_with_others.confirmation */
+/* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Hvis du slår denne indstilling til, afbrydes beskeder og anden lyd fra VoiceVista, når du begynder at bruge en anden medieapp. Du kan vende tilbage til VoiceVista for at genoptage lydbeskeder.";
 
 /* settings.clear_cache.no_service.title */

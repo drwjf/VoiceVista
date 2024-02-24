@@ -179,7 +179,7 @@
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Tüm gizlilik verileri, yalnızca yerel aygıtınızda veya iCloud saklama alanında saklanır.";
 
 /* No comment provided by engineer. */
-"Allow Callouts" = "Açıklama Metinlerine İzin Ver";
+"Allow Automatic Callouts" = "Otomatik açıklama metinlerine izin ver";
 
 /* No comment provided by engineer. */
 "Along Road" = "Yol boyunca";
@@ -229,7 +229,7 @@
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Bu kulaklıkları unutmak istediğinizden emin misiniz?";
 
-/* general.alert.confirmation_title */
+/* No comment provided by engineer. */
 "Are You Sure?" = "Emin misin?";
 
 /* ui.action_button.around_me */
@@ -237,9 +237,6 @@
 
 /* callouts.around_you */
 "Around You" = "Senin etrafında";
-
-/* No comment provided by engineer. */
-"Arrival and Departure Cues" = "Varış ve Ayrılış İpuçları";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "İşaret ışığına varın";
@@ -307,6 +304,9 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "VoiceVista'nın sizi hangi mesafeden uyarmasını istersiniz?";
 
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Audio beacon has been muted" = "Ses işaretçisi sessize alındı";
+
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "SES TARZLARI";
 
@@ -337,9 +337,6 @@
 /* Noticafcation when start a beacon. %@ is beacon name */
 "Beacon %@ started" = "İşaretçi %@ başlatıldı";
 
-/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
-"Beacon Arrival Style" = "İşaretin Varış Stili";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "İşaret Ulaştı";
 
@@ -348,9 +345,6 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "İşaret Frekans Faktörü";
-
-/* No comment provided by engineer. */
-"Beacon Information" = "İşaret Bilgileri";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "%@ üzerinde işaretçi";
@@ -365,9 +359,6 @@
 "Beacon Settings" = "İşaret Ayarları";
 
 /* No comment provided by engineer. */
-"Beacon Sound Effect" = "İşaret Ses Efekti";
-
-/* No comment provided by engineer. */
 "Beacon Sound Setting" = "İşaret Sesi Ayarı";
 
 /* No comment provided by engineer. */
@@ -375,9 +366,6 @@
 
 /* No comment provided by engineer. */
 "Beacon volume" = "işaret hacmi";
-
-/* Notification, Beacon location nearby. */
-"Beacon within %@" = "%@ içindeki işaretçi";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "%@ içindeki işaretçi. Sesli işaret kapatıldı";
@@ -455,9 +443,6 @@
 "Category: %@" = "Kategori: %@";
 
 /* No comment provided by engineer. */
-"Change Beacon Arrival Style" = "Beacon Varış Stilini Değiştir";
-
-/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesini Değiştir";
 
 /* No comment provided by engineer. */
@@ -476,16 +461,16 @@
 "Change GPS Information Time Interval" = "GPS Bilgi Zaman Aralığını Değiştirin";
 
 /* No comment provided by engineer. */
+"Change House Number Distance Interval" = "Ev Numarası Mesafe Aralığını Değiştir";
+
+/* No comment provided by engineer. */
+"Change House Number Time Interval" = "Ev Numarası Zaman Aralığını Değiştir";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "POI Aralığı Çarpanını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Sarsıntı Hareketi Tepkisini Değiştir";
-
-/* No comment provided by engineer. */
-"Change Street Name Distance Interval" = "Sokak Adı Mesafe Aralığını Değiştir";
-
-/* No comment provided by engineer. */
-"Change Street Name Time Interval" = "Sokak Adı Zaman Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
@@ -577,14 +562,11 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Akım: %@";
 
-/* No comment provided by engineer. */
-"CUSTOMIZATION" = "ÖZELLEŞTİRME";
-
 /* Motion status: cycling */
 "Cycling" = "Bisikletçilik";
 
-/* settings.direction.style.degree */
-"Degree Direction" = "Derece Yönü";
+/* settings.direction.style.degrees */
+"Degrees Direction" = "Derece Yönü";
 
 /* general.alert.delete */
 "Delete" = "Silmek";
@@ -616,9 +598,6 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Varış noktası: %@ .";
 
-/* beacon.command.4 */
-"Detail information" = "detay bilgileri";
-
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Yön: %@ .";
 
@@ -633,9 +612,6 @@
 
 /* settings.arrival.style.distance */
 "Distance" = "Mesafe";
-
-/* No comment provided by engineer. */
-"Distance and direction to nearby POI" = "Yakındaki İÇN'ye olan mesafe ve yön";
 
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "İşarete olan mesafe ve yön";
@@ -739,7 +715,7 @@
 /* placesNearyBy.category.4 */
 "Education" = "Eğitim";
 
-/* settings.audio.mix_with_others.title */
+/* No comment provided by engineer. */
 "Enable Media Controls" = "Medya Kontrollerini Etkinleştir";
 
 /* No comment provided by engineer. */
@@ -872,6 +848,12 @@
 "Google Maps" = "Google Haritalar";
 
 /* No comment provided by engineer. */
+"GPS Altitude" = "GPS Yüksekliği";
+
+/* No comment provided by engineer. */
+"GPS DETAIL" = "GPS DETAYI";
+
+/* No comment provided by engineer. */
 "GPS Information" = "GPS Bilgileri";
 
 /* No comment provided by engineer. */
@@ -879,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "GPS Information Time Interval" = "GPS Bilgileri Zaman Aralığı";
+
+/* No comment provided by engineer. */
+"GPS Latitude and longitude" = "GPS Enlem ve boylam";
+
+/* No comment provided by engineer. */
+"GPS Speed" = "GPS Hızı";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Bakkaliye";
@@ -938,7 +926,10 @@
 "HELP" = "YARDIM";
 
 /* No comment provided by engineer. */
-"House numbers in close proximity" = "Yakındaki ev numaraları";
+"House Number Distance Interval" = "Ev Numarası Mesafe Aralığı";
+
+/* No comment provided by engineer. */
+"House Number Time Interval" = "Ev Numarası Zaman Aralığı";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Bu kulağa nasıl geliyor?";
@@ -1027,9 +1018,6 @@
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "KAVŞAK";
 
-/* No comment provided by engineer. */
-"Intersections" = "Kavşaklar";
-
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Önümüzdeki Kavşaklar";
 
@@ -1071,9 +1059,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Enlem veya (Enlem, Boylam) veya Artı kodları";
-
-/* No comment provided by engineer. */
-"Latitude, longitude and altitude" = "Enlem, boylam ve yükseklik";
 
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Enlem: %1$@, Boylam: %2$@";
@@ -1171,9 +1156,6 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrik (Metre)";
 
-/* No comment provided by engineer. */
-"Mobility and Safety" = "Hareketlilik ve Güvenlik";
-
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "%@ izleniyor";
 
@@ -1218,7 +1200,10 @@
 "Nearby" = "Yakında";
 
 /* No comment provided by engineer. */
-"Nearby junctions and road crossings" = "Yakındaki kavşaklar ve yol geçişleri";
+"Nearby house numbers" = "Yakındaki ev numaraları";
+
+/* No comment provided by engineer. */
+"Nearby intersections" = "Yakındaki kavşaklar";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Yakındaki İşaretçiler";
@@ -1260,7 +1245,7 @@
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "Sonraki kavşak: Yolun sonu";
 
-/* beacon.command.3 */
+/* No comment provided by engineer. */
 "Next waypoint" = "sonraki ara nokta";
 
 /* No comment provided by engineer. */
@@ -1391,6 +1376,9 @@
 "Pair Headphones Audio" = "Kulaklık Sesini Eşleştir";
 
 /* No comment provided by engineer. */
+"PARAMETERS" = "PARAMETRE";
+
+/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Soundscape'ten Yapıştır İşaretçisi";
 
 /* No comment provided by engineer. */
@@ -1430,9 +1418,6 @@
 "Places Ahead" = "Önümüzdeki Yerler";
 
 /* No comment provided by engineer. */
-"Places and Landmarks" = "Yerler ve Simgesel Yapılar";
-
-/* No comment provided by engineer. */
 "Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Yer verileri Apple Haritalar, OpenStreetMap ve Overture Haritalardan gelir.";
 
 /* No comment provided by engineer. */
@@ -1461,13 +1446,16 @@
 "Please try later." = "Lütfen daha sonra tekrar deneyin.";
 
 /* No comment provided by engineer. */
+"POI Category" = "İlgi Çekici Nokta Kategorisi";
+
+/* No comment provided by engineer. */
+"POI DETAIL" = "İÇN DETAYI";
+
+/* No comment provided by engineer. */
+"POI Distance and Direction" = "POI Mesafe ve Yön";
+
+/* No comment provided by engineer. */
 "POI Range Multiplier" = "POI Aralığı Çarpanı";
-
-/* No comment provided by engineer. */
-"Points of Interest Category" = "İlgi Çekici Noktalar Kategorisi";
-
-/* No comment provided by engineer. */
-"Points of Interest Information" = "İlgi Çekici Nokta Bilgileri";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "TERCİH";
@@ -1493,7 +1481,7 @@
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Önceki Konum, %@ Boyunca";
 
-/* beacon.command.2 */
+/* No comment provided by engineer. */
 "Previous waypoint" = "Önceki ara nokta";
 
 /* No comment provided by engineer. */
@@ -1781,7 +1769,7 @@
 /* No comment provided by engineer. */
 "Stop Beacon" = "İşaretçiyi Durdur";
 
-/* beacon.command.1 */
+/* No comment provided by engineer. */
 "Stop beacon" = "İşareti durdur";
 
 /* No comment provided by engineer. */
@@ -1789,15 +1777,6 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "Rotayı Durdur";
-
-/* No comment provided by engineer. */
-"Street Name Distance Interval" = "Sokak Adı Mesafe Aralığı";
-
-/* No comment provided by engineer. */
-"Street Name Time Interval" = "Sokak Adı Zaman Aralığı";
-
-/* No comment provided by engineer. */
-"Street Names" = "Sokak isimleri";
 
 /* No comment provided by engineer. */
 "Street Preview" = "Sokak Önizlemesi";
@@ -1966,9 +1945,6 @@
 /* No comment provided by engineer. */
 "Turn all callouts on or off" = "Tüm açıklama metinlerini aç veya kapat";
 
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Adım Adım Talimatlar";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "VoiceVista'yı kullanmak için Hassas Konum'u açın";
 
@@ -1984,7 +1960,7 @@
 /* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
 "Turned right. Now along %@" = "Sağa döndü. Şimdi %@ boyunca";
 
-/* setting.audio.mix_with_others.confirmation */
+/* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Bu ayarın açılması, farklı bir medya uygulamasını kullanmaya başladığınızda VoiceVista'nın belirtme çizgilerinin ve diğer seslerin duraklamasına neden olur. Ek bilgileri devam ettirmek için VoiceVista'ya dönebilirsiniz.";
 
 /* settings.clear_cache.no_service.title */

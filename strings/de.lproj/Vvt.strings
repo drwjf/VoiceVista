@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -179,7 +179,7 @@
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Alle Daten werden ausschließlich auf Ihrem lokalen Gerät oder in Ihrem iCloud gespeichert.";
 
 /* No comment provided by engineer. */
-"Allow Callouts" = "Ansagen zulassen";
+"Allow Automatic Callouts" = "Automatische Callouts zulassen";
 
 /* No comment provided by engineer. */
 "Along Road" = "Entlang der Straße";
@@ -229,7 +229,7 @@
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Sind Sie sicher, dass Sie diese Kopfhörer vergessen möchten?";
 
-/* general.alert.confirmation_title */
+/* No comment provided by engineer. */
 "Are You Sure?" = "Sind Sie sicher?";
 
 /* ui.action_button.around_me */
@@ -237,9 +237,6 @@
 
 /* callouts.around_you */
 "Around You" = "Um Sie herum";
-
-/* No comment provided by engineer. */
-"Arrival and Departure Cues" = "Hinweise bei Ankunft und Aufbruch";
 
 /* No comment provided by engineer. */
 "Arrive at the beacon" = "Erreiche Signal";
@@ -307,6 +304,9 @@
 /* No comment provided by engineer. */
 "At what distance would you like VoiceVista to alert you?" = "In welcher Entfernung wollen Sie die Meldung hören?";
 
+/* Notification, Beacon location nearby. Audio beacon has been muted. */
+"Audio beacon has been muted" = "Audio-Beacon wurde stummgeschaltet";
+
 /* beaconSetting.audioStyle */
 "AUDIO STYLES" = "TÖNE FÜR SIGNALE";
 
@@ -337,9 +337,6 @@
 /* Noticafcation when start a beacon. %@ is beacon name */
 "Beacon %@ started" = "Signal für %@ eingeschaltet";
 
-/* Beacon Arrival Style's value may be `None` or `Beacon Arrived` */
-"Beacon Arrival Style" = "Bei Erreichen des Signals";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Signal erreicht";
 
@@ -348,9 +345,6 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Häufigkeit der Ansage von Signalen";
-
-/* No comment provided by engineer. */
-"Beacon Information" = "Signal Infos";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Signal auf %@";
@@ -365,9 +359,6 @@
 "Beacon Settings" = "Signaleinstellungen";
 
 /* No comment provided by engineer. */
-"Beacon Sound Effect" = "Signalton";
-
-/* No comment provided by engineer. */
 "Beacon Sound Setting" = "Toneinstellung für Signal";
 
 /* No comment provided by engineer. */
@@ -375,9 +366,6 @@
 
 /* No comment provided by engineer. */
 "Beacon volume" = "Lautstärke der Signale";
-
-/* Notification, Beacon location nearby. */
-"Beacon within %@" = "Signal innerhalb von %@";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Signal innerhalb von %@. Tonsignal wurde stumm geschaltet.";
@@ -455,9 +443,6 @@
 "Category: %@" = "Kategorie: %@";
 
 /* No comment provided by engineer. */
-"Change Beacon Arrival Style" = "Verhalten beim Erreichen des Signals ändern";
-
-/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "Entfernung zum Stummschalten von Signalen ändern";
 
 /* No comment provided by engineer. */
@@ -476,16 +461,16 @@
 "Change GPS Information Time Interval" = "Zeitintervall für GPS-Info-Ansage ändern";
 
 /* No comment provided by engineer. */
+"Change House Number Distance Interval" = "Entfernungsintervall für Hausnummern ändern";
+
+/* No comment provided by engineer. */
+"Change House Number Time Interval" = "Zeitintervall Hausnummer ändern";
+
+/* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Faktor für die Entfernung zu Orten ändern";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Einstellung für die Schüttelgeste ändern";
-
-/* No comment provided by engineer. */
-"Change Street Name Distance Interval" = "Entfernungsintervall für Straßenansage ändern";
-
-/* No comment provided by engineer. */
-"Change Street Name Time Interval" = "Zeitintervall für Straßenansage ändern";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Maßeinheiten ändern";
@@ -577,14 +562,11 @@
 /* No comment provided by engineer. */
 "Current: %@" = "Aktuell: %@";
 
-/* No comment provided by engineer. */
-"CUSTOMIZATION" = "ANPASSEN";
-
 /* Motion status: cycling */
 "Cycling" = "Fahrrad";
 
-/* settings.direction.style.degree */
-"Degree Direction" = "Grad";
+/* settings.direction.style.degrees */
+"Degrees Direction" = "Grad-Richtung";
 
 /* general.alert.delete */
 "Delete" = "Löschen";
@@ -616,9 +598,6 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Ziel: %@ .";
 
-/* beacon.command.4 */
-"Detail information" = "Details";
-
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Richtung: %@ .";
 
@@ -633,9 +612,6 @@
 
 /* settings.arrival.style.distance */
 "Distance" = "Entfernung";
-
-/* No comment provided by engineer. */
-"Distance and direction to nearby POI" = "Entfernung und Richtung zu Orten in der Nähe";
 
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Entfernung und Richtung zu Signal";
@@ -739,7 +715,7 @@
 /* placesNearyBy.category.4 */
 "Education" = "Bildung";
 
-/* settings.audio.mix_with_others.title */
+/* No comment provided by engineer. */
 "Enable Media Controls" = "Mediensteuerung aktivieren";
 
 /* No comment provided by engineer. */
@@ -872,6 +848,12 @@
 "Google Maps" = "Google Maps";
 
 /* No comment provided by engineer. */
+"GPS Altitude" = "GPS-Höhe";
+
+/* No comment provided by engineer. */
+"GPS DETAIL" = "GPS-DETAIL";
+
+/* No comment provided by engineer. */
 "GPS Information" = "GPS-Information";
 
 /* No comment provided by engineer. */
@@ -879,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "GPS Information Time Interval" = "Zeitintervall für GPS-Info-Ansage";
+
+/* No comment provided by engineer. */
+"GPS Latitude and longitude" = "GPS Längen- und Breitengrad";
+
+/* No comment provided by engineer. */
+"GPS Speed" = "GPS-Geschwindigkeit";
 
 /* placesNearyBy.category.6 */
 "Groceries" = "Lebensmittel";
@@ -938,7 +926,10 @@
 "HELP" = "HILFE";
 
 /* No comment provided by engineer. */
-"House numbers in close proximity" = "Hausnummern in der Nähe";
+"House Number Distance Interval" = "Hausnummern-Entfernungsintervall";
+
+/* No comment provided by engineer. */
+"House Number Time Interval" = "Zeitintervall Hausnummer";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Wie klingt das?";
@@ -1027,9 +1018,6 @@
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "KREUZUNGEN";
 
-/* No comment provided by engineer. */
-"Intersections" = "Kreuzungen";
-
 /* ui.action_button.intersections */
 "Intersections Ahead" = "Kreuzungen geradeaus";
 
@@ -1071,9 +1059,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Breitengrad oder (Breitengrad, Längengrad) oder Google-Plus-Code";
-
-/* No comment provided by engineer. */
-"Latitude, longitude and altitude" = "Breite, Länge und Höhe";
 
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Breite: %1$@, Länge: %2$@";
@@ -1171,9 +1156,6 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrisch (Meter)";
 
-/* No comment provided by engineer. */
-"Mobility and Safety" = "Mobilität und Sicherheit";
-
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Überwache %@";
 
@@ -1193,8 +1175,7 @@
 "Mute Beacon" = "Signal stummschalten";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1219,7 +1200,10 @@
 "Nearby" = "In der Nähe";
 
 /* No comment provided by engineer. */
-"Nearby junctions and road crossings" = "Kreuzungen und Weggabelungen in der Nähe";
+"Nearby house numbers" = "Hausnummern in der Nähe";
+
+/* No comment provided by engineer. */
+"Nearby intersections" = "Kreuzungen in der Nähe";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Markierungen in der Nähe";
@@ -1252,8 +1236,7 @@
 "Network Connection Required" = "Netzwerkverbindung erforderlich";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1262,7 +1245,7 @@
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: End of road" = "Nächste Kreuzung: Ende der Straße";
 
-/* beacon.command.3 */
+/* No comment provided by engineer. */
 "Next waypoint" = "Nächster Wegpunkt";
 
 /* No comment provided by engineer. */
@@ -1314,8 +1297,7 @@
 "North West" = "Nordwest";
 
 /* general.alert.not_now
-   general.alert.notnow 
-*/
+   general.alert.notnow */
 "Not Now" = "Später";
 
 /* No comment provided by engineer. */
@@ -1394,6 +1376,9 @@
 "Pair Headphones Audio" = "Kopfhörer verbinden, Audio";
 
 /* No comment provided by engineer. */
+"PARAMETERS" = "PARAMETER";
+
+/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Markierung aus Soundscape einfügen";
 
 /* No comment provided by engineer. */
@@ -1433,9 +1418,6 @@
 "Places Ahead" = "Orte Geradeaus";
 
 /* No comment provided by engineer. */
-"Places and Landmarks" = "Orte und Orientierungspunkte";
-
-/* No comment provided by engineer. */
 "Places data come from Apple Maps, OpenStreetMap and Overture Maps." = "Die Ortsdaten stammen von Apple Karten, OpenStreetMap und Overture Maps.";
 
 /* No comment provided by engineer. */
@@ -1451,8 +1433,7 @@
 "Please enter a route name." = "Bitte geben Sie den Namen der Route ein.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1465,13 +1446,16 @@
 "Please try later." = "Bitte versuchen Sie es später.";
 
 /* No comment provided by engineer. */
+"POI Category" = "POI-Kategorie";
+
+/* No comment provided by engineer. */
+"POI DETAIL" = "POI-DETAIL";
+
+/* No comment provided by engineer. */
+"POI Distance and Direction" = "POI-Entfernung und -Richtung";
+
+/* No comment provided by engineer. */
 "POI Range Multiplier" = "Faktor für Entfernung zu Orten";
-
-/* No comment provided by engineer. */
-"Points of Interest Category" = "Ortskategorie";
-
-/* No comment provided by engineer. */
-"Points of Interest Information" = "Informationen über Orte";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "EINSTELLUNGEN";
@@ -1497,7 +1481,7 @@
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous Location, Along %@" = "Vorheriger Standort, auf %@";
 
-/* beacon.command.2 */
+/* No comment provided by engineer. */
 "Previous waypoint" = "Vorheriger Wegpunkt";
 
 /* No comment provided by engineer. */
@@ -1666,8 +1650,7 @@
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Dann erhalten Sie eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1704,8 +1687,7 @@
 "Signal (Very Slow)" = "Hinweis (Sehr Langsam)";
 
 /* settings.general.siri
-   siriSetting.title 
-*/
+   siriSetting.title */
 "Siri Shortcuts" = "Siri-Kurzbefehle";
 
 /* No comment provided by engineer. */
@@ -1766,8 +1748,7 @@
 "Start Monitoring" = "Überwachen einschalten";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1788,7 +1769,7 @@
 /* No comment provided by engineer. */
 "Stop Beacon" = "Signal Ausschalten";
 
-/* beacon.command.1 */
+/* No comment provided by engineer. */
 "Stop beacon" = "Signal ausschalten";
 
 /* No comment provided by engineer. */
@@ -1796,15 +1777,6 @@
 
 /* No comment provided by engineer. */
 "Stop Route" = "Route anhalten";
-
-/* No comment provided by engineer. */
-"Street Name Distance Interval" = "Entfernungsintervall für Straßenansage";
-
-/* No comment provided by engineer. */
-"Street Name Time Interval" = "Zeitintervall für Straßenansage";
-
-/* No comment provided by engineer. */
-"Street Names" = "Straßennamen";
 
 /* No comment provided by engineer. */
 "Street Preview" = "Straßenvorschau";
@@ -1855,8 +1827,7 @@
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Ihre gewählten Kopfhörer können momentan nicht verbunden werden. Bitte versuchen Sie es später erneut.";
 
 /* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message 
-*/
+   universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Der Link scheint ungültig zu sein.";
 
 /* No comment provided by engineer. */
@@ -1920,8 +1891,7 @@
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihre Kopfhörer von VoiceVista. Sie können ihre Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' 
-*/
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
 
 /* places.footnot.2 */
@@ -1975,9 +1945,6 @@
 /* No comment provided by engineer. */
 "Turn all callouts on or off" = "Alle Ansagen ein- oder ausschalten";
 
-/* No comment provided by engineer. */
-"Turn by Turn Instructions" = "Navigationsanweisungen";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "„Genauer Standort“ aktivieren, um VoiceVista zu verwenden";
 
@@ -1993,7 +1960,7 @@
 /* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
 "Turned right. Now along %@" = "Rechts abgebogen. Jetzt auf %@";
 
-/* setting.audio.mix_with_others.confirmation */
+/* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Wenn Sie diese Einstellung aktivieren, hören Sie von VoiceVista keine Ansagen und Tonsignale mehr, sobald sie eine andere App benutzen, die Medien wiedergibt. kehren Sie zu VoiceVista zurück, um wieder Ansagen zu hören.";
 
 /* settings.clear_cache.no_service.title */
@@ -2012,8 +1979,7 @@
 "Units of Measure" = "Maßeinheiten";
 
 /* Motion status: unknow
-   poi.unknown 
-*/
+   poi.unknown */
 "Unknown" = "Unbekannt";
 
 /* No comment provided by engineer. */
@@ -2155,8 +2121,7 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* Motion status: walking
-   Type 1 for navigation transport 
-*/
+   Type 1 for navigation transport */
 "Walking" = "Gehen";
 
 /* No comment provided by engineer. */
