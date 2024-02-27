@@ -50,6 +50,7 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "بدأ النشاط!";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
 /* No comment provided by engineer. */
 "Add a Marker" = "أضف علامة";
 
@@ -265,6 +266,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "عامل تردد المنارة";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "منارة لم تبدأ";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
@@ -1010,7 +1014,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "الحركة واللياقة البدنية";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
 /* No comment provided by engineer. */
 "Move away from the beacon" = "ابتعد عن المنارة";
 
@@ -1085,9 +1088,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "لم يتم تعيين إشارة صوتية";
-
-/* No comment provided by engineer. */
-"No beacon set" = "لا توجد مجموعة منارة";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "لا يوجد اتصال بالإنترنت؛ بعض الوظائف محدودة في وضع عدم الاتصال.";
@@ -1631,6 +1631,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "يبدو أن الرابط غير صالح.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "يمكن أن يكون نشاط الحركة ثابتا أو مشيا أو جريا أو سيارة أو ركوب دراجات أو غير معروف.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "تبدأ أسماء العلامات التي تم إنشاؤها بالحرف '~'.";
