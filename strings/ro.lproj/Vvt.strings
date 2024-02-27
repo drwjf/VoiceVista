@@ -112,6 +112,9 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Activitatea a început!";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
+"Activity: %@" = "Activitate: %@";
+
 /* No comment provided by engineer. */
 "Add a Marker" = "Adăugați un marcator";
 
@@ -345,6 +348,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Factorul de frecvență al farului";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "Beacon nu a început";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Far pe %@";
@@ -1162,9 +1168,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Mișcare și fitness";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
-"Motion: %@" = "Mișcare: %@";
-
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Îndepărtează-te de far";
 
@@ -1253,9 +1256,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "Nicio baliză audio setată";
-
-/* No comment provided by engineer. */
-"No beacon set" = "Fără set de balize";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Fără conexiune internet; unele funcții sunt limitate în modul offline.";
@@ -1829,6 +1829,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Linkul pare a fi invalid.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Activitatea de mișcare ar putea fi staționară, mersul pe jos, alergarea, auto, ciclismul sau necunoscută.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "Numele markerilor generați încep cu caracterul „~”.";

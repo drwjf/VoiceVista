@@ -112,6 +112,9 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Actividad iniciada.";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
+"Activity: %@" = "Actividad: %@";
+
 /* No comment provided by engineer. */
 "Add a Marker" = "Añadir un marcador";
 
@@ -345,6 +348,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Factor de frecuencia de baliza";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "Baliza no iniciada";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Baliza en %@";
@@ -1162,9 +1168,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Actividad física";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
-"Motion: %@" = "Movimiento: %@";
-
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Aléjate de la baliza";
 
@@ -1253,9 +1256,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "No hay ninguna baliza de audio configurada";
-
-/* No comment provided by engineer. */
-"No beacon set" = "Sin conjunto de balizas";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Sin conexión a Internet; Algunas funciones están limitadas en el modo fuera de línea.";
@@ -1829,6 +1829,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "El enlace no parece ser válido.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "La actividad de movimiento puede ser estacionaria, caminar, correr, automotriz, andar en bicicleta o desconocida.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "Los nombres de los marcadores generados comienzan con el carácter '~'.";

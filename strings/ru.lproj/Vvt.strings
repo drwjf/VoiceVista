@@ -112,6 +112,9 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Погнали!";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
+"Activity: %@" = "Активность: %@";
+
 /* No comment provided by engineer. */
 "Add a Marker" = "Добавить метку";
 
@@ -345,6 +348,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Коэффициент частоты маяка";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "Маяк не запущен";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Маяк у %@";
@@ -1162,9 +1168,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Движение и фитнес";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
-"Motion: %@" = "Движение: %@";
-
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Отойдите от маяка";
 
@@ -1253,9 +1256,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "Звуковой маяк не установлен";
-
-/* No comment provided by engineer. */
-"No beacon set" = "Маяк не установлен";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Нет соединения с интернетом; некоторые функции ограничены в автономном режиме.";
@@ -1829,6 +1829,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Ссылка недействительна.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Двигательная активность может быть неподвижной, ходьбой, бегом, автомобилем, ездой на велосипеде или неизвестной.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "Имена меток, создаваемых VoiceVista, начинаются с символа «~».";

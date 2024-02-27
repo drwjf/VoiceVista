@@ -112,6 +112,9 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Comença l'activitat!";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
+"Activity: %@" = "Activitat: %@";
+
 /* No comment provided by engineer. */
 "Add a Marker" = "Afegeix un marcador";
 
@@ -345,6 +348,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Factor de freqüència de l'objectiu";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "Balisa no iniciada";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Objectiu a %@";
@@ -1162,9 +1168,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Moviment i forma física";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
-"Motion: %@" = "Moviment: %@";
-
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Allunya't de l'objectiu";
 
@@ -1253,9 +1256,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "No s'ha establert cap objectiu sonor";
-
-/* No comment provided by engineer. */
-"No beacon set" = "No hi ha joc de balises";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "No tens connexió a Internet; algunes funcions estan limitades.";
@@ -1829,6 +1829,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Sembla que l'enllaç no és vàlid.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "L'activitat de moviment pot ser estacionària, caminant, corrent, automotriu, en bicicleta o desconeguda.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "Els noms dels marcadors generats comencen amb el caràcter '~'.";

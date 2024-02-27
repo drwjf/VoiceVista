@@ -112,6 +112,9 @@
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "L'attività è iniziata!";
 
+/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
+"Activity: %@" = "Attività: %@";
+
 /* No comment provided by engineer. */
 "Add a Marker" = "Aggiungi un indicatore";
 
@@ -345,6 +348,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Frequency Factor" = "Fattore di frequenza dell'audiofaro";
+
+/* No comment provided by engineer. */
+"Beacon Not Started" = "Beacon non avviato";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Audiofaro su %@";
@@ -1162,9 +1168,6 @@
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Movimento e fitness";
 
-/* %@ is value of motion status, for example: Stationary, Walking, Automotive */
-"Motion: %@" = "Movimento: %@";
-
 /* No comment provided by engineer. */
 "Move away from the beacon" = "Allontanamento dall'audiofaro";
 
@@ -1253,9 +1256,6 @@
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "Nessun audiofaro impostato";
-
-/* No comment provided by engineer. */
-"No beacon set" = "Nessun audiofaro impostato";
 
 /* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Nessuna connessione internet; alcune funzioni sono limitate in modalità offline.";
@@ -1829,6 +1829,9 @@
 /* universal_links.alert.import_error.message
    universal_links.alert.share_error.message */
 "The link appears to be invalid." = "Il link non sembra essere valido.";
+
+/* No comment provided by engineer. */
+"The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "L'attività di movimento può essere stazionaria, camminata, corsa, automobilistica, ciclismo o sconosciuta.";
 
 /* No comment provided by engineer. */
 "The names of generated markers start with the character '~'." = "I nomi degli indicatori generati iniziano con il carattere '~'.";
