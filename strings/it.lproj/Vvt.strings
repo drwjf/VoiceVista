@@ -10,12 +10,6 @@
 /* Notification, %1$@ is the point of interest, %2$@ is the distance with units, '<Starbucks> is <5 meters> away' */
 "%1$@ is %2$@ away" = "%1$@ è a %2$@ di distanza";
 
-/* Notification, %1$@ is a point of interest, %2$@ is distance with units and %3$@ is a physical address, '<Some Place> is currently <5 meters>. Street address is <Some Address>' */
-"%1$@ is currently %2$@. Street address is %3$@." = "%1$@ dista attualmente %2$@. L'indirizzo è %3$@.";
-
-/* Notification, %1$@ is a point of interest and %2$@ is a physical address,'<Some Place> is nearby. Street address is <Some Address>' */
-"%1$@ is nearby. Street address is %2$@." = "%1$@ è nelle vicinanze. L'indirizzo è %2$@.";
-
 /* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
 "%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "%1$@ di %2$@ waypoint raggiunti, %3$@ rimanenti";
 
@@ -30,12 +24,6 @@
 
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, rivolto verso %2$@";
-
-/* Title of a route, %1$@ is the name of the route, %2$@ is the index of the current waypoint and %3$@ is the total number of waypoints in the route, 'Home to Work, Waypoint 1 of 3' */
-"%1$@, Waypoint %2$@ of %3$@" = "%1$@, Waypoint %2$@ di %3$@";
-
-/* Notification, %1$@ is a point of interest and %2$@ is a physical address, '<Some Place>. Street address is <Some Address>. Distance unknown.' */
-"%1$@. Street address is %2$@. Distance unknown." = "%1$@. L'indirizzo è %2$@. Distanza sconosciuta.";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "In prossimità di %@";
@@ -58,8 +46,26 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "%@ è nelle vicinanze";
 
+/* %@ is count of deleted markers */
+"%@ Markers Deleted" = "%@ Indicatori eliminati";
+
+/* %@ is count of imported markers */
+"%@ Markers Imported from Blindsquare Backup" = "%@ Marker importati da Blindsquare Backup";
+
+/* %@ is count of imported markers */
+"%@ Markers Imported from GPX File" = "%@ Marker importati dal file GPX";
+
+/* %@ is the count of restored markers */
+"%@ Markers Restored" = "%@ Indicatori ripristinati";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "Rotonda di %@";
+
+/* %@ is count of deleted routes */
+"%@ Routes Deleted" = "%@ Percorsi eliminati";
+
+/* %@ is the count of restored routers */
+"%@ Routes Restored" = "%@ Percorsi ripristinati";
 
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ secondi";
@@ -94,7 +100,7 @@
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Potrebbe essere disponibile una versione di qualità superiore di questa voce. Per scaricare questa e altre voci, vai alla sezione Contenuto letto ad alta voce delle impostazioni di accessibilità di iOS.";
 
-/* universal_links.marker_existing.alert.message */
+/* No comment provided by engineer. */
 "A marker already exists at this location. Do you want to replace it?" = "Esiste già un indicatore in questa posizione. Vuoi sostituirlo?";
 
 /* No comment provided by engineer. */
@@ -109,11 +115,11 @@
 /* No comment provided by engineer. */
 "Accuracy: %@" = "Precisione: %@";
 
+/* No comment provided by engineer. */
+"Activity" = "Attività";
+
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "L'attività è iniziata!";
-
-/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
-"Activity: %@" = "Attività: %@";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "Aggiungi un indicatore";
@@ -122,12 +128,15 @@
 "Add a Route" = "Aggiungi un percorso";
 
 /* No comment provided by engineer. */
+"Add Current Location as Waypoint" = "Aggiungi la posizione corrente come punto di passaggio";
+
+/* No comment provided by engineer. */
 "Add Marker" = "Aggiungi indicatore";
 
 /* No comment provided by engineer. */
 "Add Shortcut" = "Aggiungi scorciatoia";
 
-/* routeDetail.noWaypoints.alert.addWaypoints */
+/* No comment provided by engineer. */
 "Add Waypoints" = "Aggiungi waypoint";
 
 /* No comment provided by engineer. */
@@ -152,7 +161,13 @@
 "Adjust to Current Location" = "Imposta sulla posizione corrente";
 
 /* No comment provided by engineer. */
+"Adjust Waypoint Location" = "Regola la posizione del waypoint";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Dopo aver aggiunto Comandi rapidi di Siri, sarai in grado di usare la tua voce per richiamarli anche quando VoiceVista non è in esecuzione.";
+
+/* No comment provided by engineer. */
+"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "Dopo essere passato alla modalità breadcrumb, VoiceVista registrerà un nuovo punto di passaggio nella posizione quando tocchi il pulsante. Tutti i nuovi waypoint su questo percorso verranno nominati automaticamente.";
 
 /* directions.direction.ahead */
 "ahead" = "davanti";
@@ -194,6 +209,12 @@
 "Altitude: %@" = "Altitudine: %@";
 
 /* No comment provided by engineer. */
+"Annotataion" = "Annotazione";
+
+/* No comment provided by engineer. */
+"Annotation" = "Annotazione";
+
+/* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Aggiungi waypoint inversi alla coda per rendere il percorso un viaggio circolare.";
 
 /* No comment provided by engineer. */
@@ -228,9 +249,6 @@
 
 /* directions.approaching_roundabout */
 "Approaching roundabout" = "Ti stai avvicinando alla rotonda";
-
-/* markers.destructive_delete_message */
-"Are you sure you want to delete this marker?" = "Vuoi eliminare questo indicatore?";
 
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Sei sicuro di voler ignorare questi auricolari?";
@@ -334,6 +352,12 @@
 /* ui.back_button.title */
 "Back" = "Indietro";
 
+/* No comment provided by engineer. */
+"Backup Markers" = "Indicatori di backup";
+
+/* No comment provided by engineer. */
+"Backup Routes" = "Percorsi di backup";
+
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Banche e sportelli bancomat";
 
@@ -404,10 +428,13 @@
 "Breadcrumb a New Route?" = "Creare nuovo percorso con briciole di pane?";
 
 /* No comment provided by engineer. */
-"Breadcrumb Marker Dropped" = "Briciola di pane rilasciata";
+"Breadcrumb Mode" = "Modalità briciole di pane";
 
 /* No comment provided by engineer. */
-"Breadcrumb Mode" = "Modalità briciole di pane";
+"Breadcrumb Waypoint Recorded" = "Waypoint breadcrumb registrato";
+
+/* No comment provided by engineer. */
+"Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "I breadcrumb qui sono una serie di waypoint registrati che tracciano il percorso. Questi punti di passaggio sono simili alla scia di briciole di pane lasciate da Hansel e Gretel nella famosa fiaba, da cui il nome.";
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Calcola un nuovo percorso";
@@ -420,6 +447,9 @@
 
 /* No comment provided by engineer. */
 "Calculate Waypoints by Algorithm" = "Calcola waypoint tramite algoritmo";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints using Apple Maps" = "Calcola waypoint utilizzando le mappe di Apple";
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Calibrazione completata";
@@ -490,20 +520,23 @@
 /* No comment provided by engineer. */
 "Chat Group" = "Gruppo chat";
 
-/* troubleshooting.checkaudio */
+/* No comment provided by engineer. */
 "Check Headphones Status" = "Controlla lo stato delle auricolari";
 
 /* No comment provided by engineer. */
 "Check Your Headphones" = "Controlla gli auricolari";
 
-/* settings.clear_cache.markers.alert_message */
-"Choose 'Delete' to remove markers, beacons and routes, or 'Keep' to only remove map data. 'Delete' will reset the app back to a freshly installed state and cannot be undone!" = "Scegli 'Elimina' per rimuovere indicatori, audiofari e percorsi oppure 'Mantieni' per rimuovere solo i dati della mappa. 'Elimina' ripristinerà l'app allo stato di una nuova installazione, e l'operazione non può essere annullata!";
-
-/* settings.clear_cache.cleaning_things */
+/* No comment provided by engineer. */
 "Cleaning things up..." = "Pulizia in corso...";
 
-/* troubleshooting.cleardata */
+/* No comment provided by engineer. */
+"Clear" = "Cancella";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Cancella dati archiviati delle mappe";
+
+/* No comment provided by engineer. */
+"Clear Stored Map Data?" = "Cancellare i dati della mappa memorizzati?";
 
 /* general.text.clear_text */
 "Clear text" = "Cancella testo";
@@ -516,6 +549,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configurazione completata";
+
+/* No comment provided by engineer. */
+"Confirm the Route" = "Conferma il percorso";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Congratulazioni! I tuoi auricolari AirPods sono pronti per l'uso, quindi puoi mettere il telefono in tasca e uscire! VoiceVista ora seguirà la direzione della tua testa, quindi non devi tenere il telefono in mano. Un singolo clic sul pulsante degli auricolari disattiverà o riattiverà l'audio dell'audiofaro, un doppio clic notificherà la tua posizione e un triplo clic ripeterà l'ultimo avviso.";
@@ -542,24 +578,18 @@
 "Create a New Route" = "Crea un nuovo percorso";
 
 /* No comment provided by engineer. */
-"Create A New Route to There" = "Crea un nuovo percorso per raggiungere il luogo";
-
-/* No comment provided by engineer. */
 "Create a New Route?" = "Creare un nuovo percorso?";
 
 /* No comment provided by engineer. */
-"Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Crea un percorso per te o per qualcun altro organizzando una serie di indicatori come waypoint in un percorso.";
+"Create a route for yourself or for someone else by organizing a set of waypoints." = "Crea un percorso per te o per qualcun altro organizzando una serie di waypoint.";
 
 /* markers.footnote.1 */
 "Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Crea indicatori per le tue destinazioni preferite, per i waypoint lungo un percorso o per qualsiasi posizione di cui vuoi essere avvisato quando la raggiungi.";
 
-/* No comment provided by engineer. */
-"Create Route" = "Crea percorso";
-
 /* beacon.styles.current */
 "Current" = "Corrente";
 
-/* markers.current_location */
+/* No comment provided by engineer. */
 "Current Location" = "Posizione attuale";
 
 /* No comment provided by engineer. */
@@ -580,11 +610,23 @@
 /* settings.direction.style.degrees */
 "Degrees Direction" = "Direzione gradi";
 
-/* general.alert.delete */
+/* No comment provided by engineer. */
 "Delete" = "Elimina";
 
 /* No comment provided by engineer. */
 "Delete a Route?" = "Eliminare un percorso?";
+
+/* No comment provided by engineer. */
+"Delete All Markers" = "Elimina tutti i marcatori";
+
+/* No comment provided by engineer. */
+"Delete All Markers?" = "Eliminare tutti i marcatori?";
+
+/* No comment provided by engineer. */
+"Delete All Routes" = "Elimina tutti i percorsi";
+
+/* No comment provided by engineer. */
+"Delete All Routes?" = "Eliminare tutti i percorsi?";
 
 /* No comment provided by engineer. */
 "Delete Marker" = "Elimina indicatore";
@@ -593,16 +635,10 @@
 "Delete Marker %@?" = "Eliminare l'indicatore %@?";
 
 /* No comment provided by engineer. */
-"Delete Markers too" = "Elimina anche gli indicatori";
-
-/* settings.clear_cache.alert_title */
-"Delete Stored Data?" = "Eliminare i dati archiviati?";
+"Delete Waypoint" = "Elimina punto di passaggio";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Sei uscito dalla rotonda. Ora sei in %@";
-
-/* No comment provided by engineer. */
-"Description" = "Descrizione";
 
 /* No comment provided by engineer. */
 "Destination location" = "Località di destinazione";
@@ -640,17 +676,11 @@
 /* No comment provided by engineer. */
 "Distance to %@" = "Distanza da %@";
 
-/* beacon.distance.unknown */
-"Distance unknown" = "Distanza sconosciuta";
-
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Distanza: %@ .";
 
-/* url_resource.alert.route.import_existing.message */
-"Do you want to replace it? Replacing this route will also replace the markers used in this route." = "Vuoi sostituirlo? La sostituzione del percorso implica anche la sostituzione degli indicatori usati al suo interno.";
-
-/* preview.alert.restart.message */
-"Do you want to restart VoiceVista Street Preview at this location?" = "Vuoi riavviare VoiceVista Street Preview su questa posizione?";
+/* No comment provided by engineer. */
+"Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Vuoi sostituirlo? La sostituzione di questo percorso sostituirà anche i punti di passaggio utilizzati in questo percorso.";
 
 /* No comment provided by engineer. */
 "Done" = "Fatto";
@@ -685,7 +715,7 @@
 /* vicinity.sleep.acc_hint */
 "Double tap to put VoiceVista to sleep" = "Tocca due volte per sospendere VoiceVista";
 
-/* voice.apple.preview_hint */
+/* No comment provided by engineer. */
 "Double tap to select and play a preview." = "Tocca due volte per selezionare e riprodurre un'anteprima.";
 
 /* markers.leftBarItem.sortByName.hint */
@@ -712,9 +742,6 @@
 /* beacon.styles.drop */
 "Drop" = "Rilascia";
 
-/* No comment provided by engineer. */
-"Drop Breadcrumb Marker" = "Rilascia briciola di pane";
-
 /* directions.cardinal.east */
 "East" = "Est";
 
@@ -723,6 +750,9 @@
 
 /* No comment provided by engineer. */
 "Edit Route Name" = "Modifica nome percorso";
+
+/* No comment provided by engineer. */
+"Edit Waypoint Name" = "Modifica nome punto di passaggio";
 
 /* No comment provided by engineer. */
 "Edit Waypoints" = "Modifica waypoint";
@@ -776,25 +806,16 @@
 "Factor %@" = "Fattore %@";
 
 /* No comment provided by engineer. */
+"Failed to Backup Markers" = "Impossibile eseguire il backup dei marcatori";
+
+/* No comment provided by engineer. */
+"Failed to Backup Routes" = "Impossibile eseguire il backup dei percorsi";
+
+/* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Impossibile calcolare i waypoint";
 
 /* No comment provided by engineer. */
-"Failed to Create a New Route" = "Impossibile creare un nuovo percorso";
-
-/* No comment provided by engineer. */
-"Failed to Create Marker" = "Impossibile creare il marcatore";
-
-/* No comment provided by engineer. */
-"Failed to Create Route" = "Impossibile creare il percorso";
-
-/* No comment provided by engineer. */
-"Failed to Delete Marker" = "Impossibile eliminare l'indicatore";
-
-/* No comment provided by engineer. */
-"Failed to Drop Breadcrumb Marker" = "Impossibile rilasciare la briciola di pane";
-
-/* No comment provided by engineer. */
-"Failed to Generate Reverse Route" = "Impossibile generare il percorso inverso";
+"Failed to Calculate Waypoints for the Route" = "Impossibile calcolare i waypoint per il percorso";
 
 /* No comment provided by engineer. */
 "Failed to Get Your Current Location" = "Impossibile ottenere la tua posizione attuale";
@@ -806,13 +827,10 @@
 "Failed to Import Route" = "Impossibile importare il percorso";
 
 /* No comment provided by engineer. */
-"Failed to Remove the Last Breadcrumb Marker" = "Impossibile rimuovere l'ultimo indicatore breadcrumb";
+"Failed to Restore Markers" = "Impossibile ripristinare i marcatori";
 
 /* No comment provided by engineer. */
-"Failed to Update" = "Impossibile aggiornare";
-
-/* No comment provided by engineer. */
-"Failed to Update Route to Circular" = "Impossibile trasformare il percorso in circolare";
+"Failed to Restore Routes" = "Impossibile ripristinare i percorsi";
 
 /* No comment provided by engineer. */
 "FAQ" = "Domande frequenti";
@@ -849,6 +867,9 @@
 
 /* No comment provided by engineer. */
 "Generate Route from GPX File" = "Genera percorso da file GPX";
+
+/* No comment provided by engineer. */
+"Generated by Algorithm" = "Generato dall'algoritmo";
 
 /* No comment provided by engineer. */
 "Generated from GPX file" = "Generato da file GPX";
@@ -955,16 +976,13 @@
 /* No comment provided by engineer. */
 "How many meters should waypoints be generated between each other for this route?" = "Quanti metri dovrebbero essere generati tra un waypoint e l'altro per questo percorso?";
 
-/* No comment provided by engineer. */
-"How to Calculate Path?" = "Come calcolare il percorso?";
-
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Ho condiviso con te un indicatore VoiceVista! '%@;'";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you! '%@'" = "Ho condiviso con te un percorso VoiceVista! '%@'";
 
-/* icloud.kv_store.quota_violation_alert.message */
+/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Lo spazio di archiviazione di iCloud per questa app è esaurito. Per creare un nuovo indicatore, sarà necessario liberare spazio rimuovendo alcuni indicatori esistenti.";
 
 /* No comment provided by engineer. */
@@ -993,6 +1011,9 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importa file di percorso Soundscape";
+
+/* No comment provided by engineer. */
+"Import VoiceVista Route File" = "Importa file di percorso VoiceVista";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "Velocità della voce in un mezzo di trasporto";
@@ -1048,29 +1069,17 @@
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Sembra che le tue impostazioni sulla privacy impediscano l'uso della posizione precisa e del movimento e del fitness. Si prega di apportare le modifiche necessarie nell'app Impostazioni.";
 
-/* No comment provided by engineer. */
-"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "È facile aggiungere un nuovo indicatore per un utilizzo successivo in modalità briciole di pane. Tutti i nuovi indicatori su questo percorso verranno nominati automaticamente.";
-
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Potrebbe volerci un po' di tempo per creare l'elenco dei luoghi nelle vicinanze. Se al momento non ci sono dati disponibili, prova a tornare più tardi.";
 
 /* No comment provided by engineer. */
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Sembra che le tue impostazioni sulla privacy impediscano l'uso di Motion & Fitness. Si prega di regolare questa impostazione nell'app Impostazioni.";
 
-/* general.alert.keep */
-"Keep" = "Mantieni";
-
-/* No comment provided by engineer. */
-"Keep Markers" = "Mantieni gli indicatori";
-
-/* settings.clear_cache.markers.alert_title */
-"Keep Markers and Routes?" = "Mantenere Indicatori e Percorsi?";
-
 /* No comment provided by engineer. */
 "Language" = "Lingua";
 
 /* No comment provided by engineer. */
-"Last Breadcrumb Marker Removed" = "Ultimo indicatore di tipo briciola di pane rimosso";
+"Last Breadcrumb Waypoint Removed" = "Ultimo waypoint breadcrumb rimosso";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitudine o (Latitudine, Longitudine) o Codici Plus";
@@ -1078,14 +1087,11 @@
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Latitudine: %1$@, Longitudine: %2$@";
 
-/* general.alert.offline.learn_more */
-"Learn more" = "Altre informazioni";
-
 /* location */
 "Location" = "Posizione";
 
-/* %@ could be 4 meters or 12 feet */
-"Location Accuracy: %@" = "Precisione della posizione: %@";
+/* No comment provided by engineer. */
+"Location Accuracy" = "Precisione della posizione";
 
 /* location_detail.title.default */
 "Location Details" = "Dettagli posizione";
@@ -1093,7 +1099,7 @@
 /* No comment provided by engineer. */
 "Location Explorer" = "Esplorazione virtuale del luogo";
 
-/* general.error.preview */
+/* No comment provided by engineer. */
 "Location preview could not be started at this location." = "Non è stato possibile avviare l'anteprima di questa posizione.";
 
 /* No comment provided by engineer. */
@@ -1110,9 +1116,6 @@
 
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Percussione (molto lento)";
-
-/* No comment provided by engineer. */
-"Manage Generated Markers" = "Gestisci gli indicatori generati";
 
 /* No comment provided by engineer. */
 "MAP" = "MAPPA";
@@ -1132,14 +1135,11 @@
 /* No comment provided by engineer. */
 "Marker Alert" = "Avviso indicatore";
 
-/* universal_links.marker_existing.alert.title */
+/* No comment provided by engineer. */
 "Marker already exists" = "Indicatore già esistente";
 
 /* No comment provided by engineer. */
 "Marker Annotation" = "Annotazione indicatore";
-
-/* markerAddedEvent.marker_created */
-"Marker created" = "Indicatore creato";
 
 /* No comment provided by engineer. */
 "Marker deleted" = "Indicatore eliminato";
@@ -1158,12 +1158,6 @@
 
 /* No comment provided by engineer. */
 "Markers Ahead" = "Marcatori avanti";
-
-/* No comment provided by engineer. */
-"Markers Imported from Blindsquare Backup Successfully" = "Indicatori importati correttamente dal Backup Blindsquare";
-
-/* No comment provided by engineer. */
-"Markers Imported from GPX File Successfully" = "Indicatori importati dal file GPX correttamente";
 
 /* No comment provided by engineer. */
 "Markers Nearby" = "Indicatori nelle vicinanze";
@@ -1214,9 +1208,6 @@
 /* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
 "Near address %@" = "Vicino all'indirizzo %@";
 
-/* poi_screen.section_header.nearby */
-"Nearby" = "Nelle vicinanze";
-
 /* No comment provided by engineer. */
 "Nearby house numbers" = "Numeri civici nelle vicinanze";
 
@@ -1252,6 +1243,9 @@
 
 /* No comment provided by engineer. */
 "Network Connection Required" = "Connessione di rete richiesta";
+
+/* %@ is the name of a route being breadcrumb mode */
+"New waypoints will be named automatically and added to route %@." = "I nuovi waypoint verranno nominati automaticamente e aggiunti al percorso %@.";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
    Notification, %@ intersection name */
@@ -1296,8 +1290,8 @@
 /* No comment provided by engineer. */
 "No waypoint data found in the GPX file." = "Nessun dato di waypoint trovato nel file GPX.";
 
-/* routeDetail.noWaypoints.alert.title */
-"No waypoints defined" = "Nessun waypoint definito";
+/* No comment provided by engineer. */
+"No Waypoints Defined" = "Nessun waypoint definito";
 
 /* settings.direction.style.none */
 "None" = "Nessuno";
@@ -1311,8 +1305,7 @@
 /* directions.cardinal.north_west */
 "North West" = "Nord Ovest";
 
-/* general.alert.not_now
-   general.alert.notnow */
+/* No comment provided by engineer. */
 "Not Now" = "Non ora";
 
 /* No comment provided by engineer. */
@@ -1336,9 +1329,6 @@
 /* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
 "Nudging, %@ of original location" = "Spostamento di %@ dalla posizione originale";
 
-/* general.alert.offline_default.title */
-"Offline mode" = "Modalità offline";
-
 /* No comment provided by engineer. */
 "On foot speaking rate" = "Velocità della voce a piedi";
 
@@ -1351,7 +1341,7 @@
 /* Mode 2 for path calculation */
 "Only Use Last Waypoint" = "Utilizza solo l'ultimo WayPoint";
 
-/* universal_links.alert.error.title */
+/* No comment provided by engineer. */
 "Oops! Something went wrong." = "Ops! Si è verificato un errore.";
 
 /* locationDetail.openInApple */
@@ -1444,7 +1434,7 @@
 /* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Riproduci/Pausa: disattiva tutti gli avvisi correnti e, se è stato impostato un suono per l'audiofaro, lo attiva o lo disattiva.";
 
-/* routeDetail.noWaypoints.alert.message */
+/* No comment provided by engineer. */
 "Please add waypoints to complete the route creation." = "Aggiungi waypoint per completare la creazione del percorso.";
 
 /* No comment provided by engineer. */
@@ -1487,9 +1477,6 @@
 /* voice.action.preview */
 "Preview" = "Anteprima";
 
-/* preview.alert.restart.title */
-"Preview Already in Progress" = "Anteprima già in esecuzione";
-
 /* No comment provided by engineer. */
 "Previous" = "Precedente";
 
@@ -1511,7 +1498,7 @@
 /* placesNearyBy.category.2 */
 "Public Transit" = "Trasporto pubblico";
 
-/* waypoints.cancel_alert_quit */
+/* No comment provided by engineer. */
 "Quit Without Save" = "Esci senza salvare";
 
 /* No comment provided by engineer. */
@@ -1536,16 +1523,19 @@
 "Remove Alert Distance Setting" = "Cancella l'impostazione per la distanza degli avvisi";
 
 /* No comment provided by engineer. */
-"Remove Last Breadcrumb Marker" = "Rimuovi l'ultimo indicatore di tipo briciole di pane";
+"Remove Last Added Waypoint" = "Rimuovi l'ultimo waypoint aggiunto";
 
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Ripeti l'ultimo avviso";
 
-/* general.alert.replace */
+/* No comment provided by engineer. */
 "Replace" = "Sostituisci";
 
-/* preview.alert.restart.button */
-"Restart" = "Riavvia";
+/* No comment provided by engineer. */
+"Restore Markers" = "Ripristina marcatori";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Ripristina percorsi";
 
 /* general.alert.resume */
 "Resume" = "Riprendi";
@@ -1577,7 +1567,7 @@
 /* route_detail.name.default */
 "Route" = "Percorso";
 
-/* url_resource.alert.route.import_existing.title */
+/* No comment provided by engineer. */
 "Route already exists" = "Il percorso esiste già";
 
 /* routes.callout.complete */
@@ -1586,23 +1576,20 @@
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
 "Route Completed! %@" = "Percorso completato! %@";
 
-/* routeAddedEvent.route_created */
-"Route created" = "Percorso creato";
-
-/* routes.action.deleted */
+/* No comment provided by engineer. */
 "Route deleted" = "Percorso eliminato";
 
 /* No comment provided by engineer. */
 "Route Details" = "Dettagli percorso";
-
-/* routes.import.alert.title */
-"Route Error" = "Errore percorso";
 
 /* No comment provided by engineer. */
 "Route Name" = "Nome Percorso";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Nome del percorso: %@ .";
+
+/* No comment provided by engineer. */
+"Route Steps" = "Passaggi del percorso";
 
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Percorso interrotto, %@";
@@ -1619,7 +1606,7 @@
 /* Motion status: running */
 "Running" = "Corsa";
 
-/* universal_links.alert.action.marker */
+/* No comment provided by engineer. */
 "Save as Marker" = "Salva come indicatore";
 
 /* No comment provided by engineer. */
@@ -1628,10 +1615,10 @@
 /* user_activity.save_marker.title */
 "Save Marker" = "Salva indicatore";
 
-/* url_resource.alert.route.import.save */
+/* No comment provided by engineer. */
 "Save Route" = "Salva Percorso";
 
-/* waypoints.cancel_alert_save */
+/* No comment provided by engineer. */
 "Save then Exit" = "Salva ed Esci";
 
 /* search.title */
@@ -1639,9 +1626,6 @@
 
 /* user_activity.search.title */
 "Search in VoiceVista" = "Cerca in VoiceVista";
-
-/* general.alert.offline_search.title */
-"Search is not available" = "Ricerca non disponibile";
 
 /* No comment provided by engineer. */
 "Search Location by Text" = "Cerca posizione tramite testo";
@@ -1658,7 +1642,7 @@
 /* markers.add.selectFromMap */
 "Select Location from Map" = "Seleziona Posizione dalla mappa";
 
-/* universal_links.alert.action.beacon */
+/* No comment provided by engineer. */
 "Set a Beacon" = "Imposta un audiofaro";
 
 /* No comment provided by engineer. */
@@ -1686,7 +1670,7 @@
 /* No comment provided by engineer. */
 "Share Current" = "Condividi corrente";
 
-/* first_use_experience.share.alert.title */
+/* No comment provided by engineer. */
 "Sharing in VoiceVista" = "Condivisione in VoiceVista";
 
 /* beacon.styles.shimmer */
@@ -1762,6 +1746,9 @@
 "Start Calibration" = "Inizia calibrazione";
 
 /* No comment provided by engineer. */
+"Start Guidance" = "Avvia la guida";
+
+/* No comment provided by engineer. */
 "Start Monitoring" = "Inizia il monitoraggio";
 
 /* user_activity.start_route.title
@@ -1831,27 +1818,17 @@
 /* No comment provided by engineer. */
 "The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Il fattore di frequenza dell'audiofaro determina quanto spesso VoiceVista comunicherà la distanza dell'audiofaro. Un coefficiente più elevato si tradurrà in avvisi più frequenti.";
 
-/* url_resource.alert.route.import_error.message */
-"The content appears to be invalid." = "Il contenuto sembra non essere valido.";
-
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "La distanza tra i WayPoint non dovrebbe essere troppo piccola.";
-
-/* %@ is the name of a route being breadcrumb mode */
-"The dropped breadcrumb marker will be named automatically and added to route %@." = "La briciola di pane rilasciata verrà denominata automaticamente e aggiunta al percorso %@.";
 
 /* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Gli auricolari selezionati non sono attualmente disponibili per la connessione. Riprova più tardi.";
 
-/* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message */
+/* No comment provided by engineer. */
 "The link appears to be invalid." = "Il link non sembra essere valido.";
 
 /* No comment provided by engineer. */
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "L'attività di movimento ha i seguenti valori: fermo, camminata, corsa, mezzo di trasporto, in bici o sconosciuto.";
-
-/* No comment provided by engineer. */
-"The names of generated markers start with the character '~'." = "I nomi degli indicatori generati iniziano con il carattere '~'.";
 
 /* No comment provided by engineer. */
 "The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "Il moltiplicatore dell'intervallo POI determina la distanza dalla quale VoiceVista annuncerà i POI vicini.";
@@ -1860,7 +1837,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La funzione di avvio del monitoraggio è simile a posizionare un audiofaro sulla destinazione; tuttavia, non riceverai aggiornamenti sonori o vocali fino a quando non sarai ad una certa distanza. In pratica, VoiceVista entra in uno stato di attesa e si attiva solo quando sei vicino al punto di arrivo.";
 
 /* No comment provided by engineer. */
-"There are no breadcrumb markers in this route." = "Non ci sono indicatori di briciole di pane in questo percorso.";
+"There are no breadcrumb waypoints in this route." = "Non sono presenti waypoint breadcrumb in questo percorso.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Non ci sono incroci più avanti da segnalare in questo momento";
@@ -1886,17 +1863,14 @@
 /* No comment provided by engineer. */
 "There are several options for adjusting the marker location. In addition to aligning it with the current location, you can nudge the marker to move it 5 meters in the selected direction." = "Sono disponibili diverse opzioni per regolare la posizione dell'indicatore. Oltre ad allinearlo con la posizione corrente, puoi spostarlo di 5 metri nella direzione selezionata.";
 
-/* general.alert.destructive_undone_message */
-"This action cannot be undone" = "Questa azione non può essere annullata";
-
-/* universal_links.alert.share_error.message */
-"This content could not be shared." = "Questo contenuto non può essere condiviso.";
-
 /* No comment provided by engineer. */
 "This helps conserve battery when you are not actively using VoiceVista." = "Ciò aiuta a risparmiare la batteria quando non utilizzi attivamente VoiceVista.";
 
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Ecco %@. Come ti pare?";
+
+/* No comment provided by engineer. */
+"This opertaion cannot be undone!" = "Questa operazione non può essere annullata!";
 
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "Utilizza i servizi di localizzazione in modalità a basso consumo per risparmiare la batteria del telefono.";
@@ -1945,7 +1919,7 @@
 "Toggle markers on/off to select multiple." = "Attiva/disattiva gli indicatori per selezionarne più di uno.";
 
 /* No comment provided by engineer. */
-"Too Close to Drop Another Breadcrumb Marker" = "Troppo vicino per rilasciare una briciola di pane";
+"Too Close to Record Another Breadcrumb Waypoint" = "Troppo vicino per registrare un altro waypoint breadcrumb";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Conteggio totale dei waypoint: %@ .";
@@ -1983,7 +1957,7 @@
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Se attivi questa impostazione, gli avvisi di VoiceVista ed eventuali altre comunicazioni audio vengono messi in pausa ogni volta che inizi a utilizzare un'app multimediale diversa. Puoi tornare a VoiceVista per riprendere gli avvisi.";
 
-/* settings.clear_cache.no_service.title */
+/* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Impossibile cancellare i dati archiviati delle mappe";
 
 /* No comment provided by engineer. */
@@ -2011,9 +1985,6 @@
 /* No comment provided by engineer. */
 "Unknown location" = "Posizione sconosciuta";
 
-/* troubleshooting.gps_status.unknown */
-"Unknown Location Accuracy" = "Precisione della posizione sconosciuta";
-
 /* No comment provided by engineer. */
 "Unknown Type" = "Tipo sconosciuto";
 
@@ -2036,10 +2007,13 @@
 "Update Current Route to Circular" = "Aggiorna il percorso corrente a Circolare";
 
 /* No comment provided by engineer. */
+"Use buttons in the top-right corner to delete, edit the name and adjust the location of the waypoint." = "Utilizza i pulsanti nell'angolo in alto a destra per eliminare, modificare il nome e regolare la posizione del waypoint.";
+
+/* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Utilizza i pulsanti nell'angolo in alto a destra per modificare il nome dell'indicatore, l'annotazione, la distanza per gli avvisi e la posizione.";
 
 /* No comment provided by engineer. */
-"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Utilizza i pulsanti nell'angolo in alto a destra per generare percorsi inversi, modificare waypoint, nome e descrizione.";
+"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and annotation." = "Utilizza i pulsanti nell'angolo in alto a destra per generare percorsi invertiti, modificare waypoint, nome e annotazione.";
 
 /* No comment provided by engineer. */
 "Use Current Location" = "Utilizza la posizione corrente";
@@ -2066,12 +2040,15 @@
 "View Detail" = "vedi dettagli";
 
 /* No comment provided by engineer. */
+"View Steps" = "Visualizza passaggi";
+
+/* No comment provided by engineer. */
 "Visit Web" = "Visita il sito Web";
 
 /* No comment provided by engineer. */
 "Voice hint when approaching turn points" = "Suggerimento vocale quando ci si avvicina ai punti di svolta";
 
-/* voiceSetting.title */
+/* No comment provided by engineer. */
 "Voice Settings" = "Impostazioni voce";
 
 /* No comment provided by engineer. */
@@ -2087,9 +2064,6 @@
 "VoiceVista Blog" = "Blog VoiceVista";
 
 /* No comment provided by engineer. */
-"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista può generare automaticamente indicatori per il tuo percorso. Essi sono inizialmente nascosti nella scheda 'Indicatori' e puoi gestirli qui.";
-
-/* No comment provided by engineer. */
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista può calcolare waypoint per avere dei punti di riferimento in base alle posizioni di partenza e di destinazione.";
 
 /* No comment provided by engineer. */
@@ -2098,7 +2072,7 @@
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista scarica i dati delle mappe mentre cammini in modo da poterti indicare le cose e i luoghi intorno a te. In caso di problemi con VoiceVista o se viene utilizzata troppa memoria, puoi cancellare i dati delle mappe archiviati e VoiceVista scaricherà nuovamente soltanto i dati delle mappe vicino alla posizione attuale.";
 
-/* icloud.kv_store.quota_violation_alert.title */
+/* No comment provided by engineer. */
 "VoiceVista iCloud Storage Full" = "Spazio di archiviazione di iCloud per VoiceVista esaurito";
 
 /* terms_of_use.safety_notice */
@@ -2119,7 +2093,7 @@
 /* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
 "VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista sta attualmente monitorando '%1$@' all'interno di un intervallo di '%2$@'. Quando arrivi in questo intervallo, VoiceVista si attiverà automaticamente e imposterà questo indicatore come audiofaro.";
 
-/* settings.clear_cache.no_service.message */
+/* No comment provided by engineer. */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista non è attualmente in grado di connettersi a Internet. È necessaria una connessione Internet quando si cancellano i dati delle mappe archiviati in modo da poter essere aggiornati.";
 
 /* No comment provided by engineer. */
@@ -2131,11 +2105,8 @@
 /* devices.callouts.check_audio.airpods.disconnected */
 "VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista sta cercando i tuoi auricolari AirPods. Assicurati che siano connessi al telefono.";
 
-/* general.alert.offline_default.message */
-"VoiceVista is working offline. Nevertheless, VoiceVista will continue to work, but some functions may be limited." = "VoiceVista è offline. Alcune funzioni potrebbero essere limitate ma VoiceVista continuerà a funzionare.";
-
-/* settings.clear_cache.alert_message */
-"VoiceVista stores map data to reduce data and battery consumption. Deleting stored data will require VoiceVista to re-download the data." = "VoiceVista archivia i dati delle mappe per ridurre i dati e il consumo della batteria. L'eliminazione dei dati archiviati richiederà a VoiceVista di scaricare nuovamente i dati.";
+/* No comment provided by engineer. */
+"VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista memorizza i dati della mappa per ridurre il consumo di dati e batteria. La cancellazione dei dati della mappa memorizzati richiederà a VoiceVista di scaricare nuovamente i dati.";
 
 /* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista non è riuscito a connettersi ai tuoi auricolari. Riprova più tardi.";
@@ -2153,26 +2124,23 @@
 /* No comment provided by engineer. */
 "Waypoint" = "Waypoint";
 
-/* routes.import.alert.message */
-"Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Dati del waypoint mancanti per uno o più percorsi. Esamina i percorsi seguenti e aggiungi di nuovo i waypoint se necessario.";
+/* location_detail.title.default */
+"Waypoint Details" = "Dettagli waypoint";
+
+/* No comment provided by engineer. */
+"Waypoint Name" = "Nome del punto di passaggio";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Waypoint calcolati";
 
-/* waypoints.cancel_alert_title */
+/* No comment provided by engineer. */
 "Waypoints Updated" = "Waypoint aggiornati";
 
 /* general.error.location_services_find_location_error */
 "We are having trouble finding your current location." = "Si è verificato un problema durante la ricerca della tua posizione attuale.";
 
-/* general.error.location_services_find_location_error.try_again */
+/* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Si è verificato un problema durante la ricerca della tua posizione attuale. Riprova più tardi.";
-
-/* general.error.add_marker_error */
-"We are having trouble marking this place. Try again later." = "Si è verificato un problema nel contrassegnare questo luogo. Riprova più tardi.";
-
-/* general.error.set_beacon_error */
-"We are having trouble setting the beacon currently. Try again later." = "Si è verificato un problema nel l'impostazione dell'audiofaro. Riprova più tardi.";
 
 /* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Abbiamo posizionato un audiofaro alla tua destra. Ascolta dov'è e gira la testa verso di esso. Considera che puoi farlo anche quando il telefono è in tasca. Al termine, tocca il pulsante in basso per completare la configurazione degli auricolari e goditi la prossima passeggiata con i tuoi nuovi auricolari con tracciamento della testa.";
@@ -2195,10 +2163,7 @@
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Durante la navigazione con VoiceVista, sarai guidato da un audiofaro, e verrai avvisato sulle posizioni intorno e davanti a te.";
 
-/* general.alert.offline_search.message */
-"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Quando VoiceVista funziona offline, la ricerca è disabilitata. Chiudi per tornare alla schermata precedente";
-
-/* first_use_experience.share.alert.message */
+/* No comment provided by engineer. */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Quando condividi un percorso o un indicatore VoiceVista, viene eseguita la condivisione delle posizioni associate a tale indicatore o percorso. Esegui la condivisione solo con persone di cui hai fiducia.";
 
 /* No comment provided by engineer. */
@@ -2207,7 +2172,7 @@
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Quando ti trovi sul tuo percorso con VoiceVista, sarai avvisato ogni qualvolta raggiungerai un waypoint e l'audiofaro verrà impostato automaticamente su quello successivo.";
 
-/* general.alert.yes */
+/* No comment provided by engineer. */
 "Yes" = "Sì";
 
 /* terms_of_use.medical_safety_disclaimer */
@@ -2243,16 +2208,16 @@
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Hai calcolato i waypoint di questo percorso.";
 
-/* waypoints.cancel_alert_message */
+/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Hai modificato i waypoint di questo percorso.";
 
 /* No comment provided by engineer. */
 "You have not calculated waypoints of this route." = "Non hai calcolato i waypoint di questo percorso.";
 
-/* universal_links.marker.alert.message */
+/* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Usa solo gli indicatori di persone di cui hai fiducia.";
 
-/* url_resource.alert.route.import.message */
+/* No comment provided by engineer. */
 "You should only use routes from someone you trust." = "Dovresti utilizzare solo i percorsi di persone di cui hai fiducia.";
 
 /* No comment provided by engineer. */
@@ -2270,7 +2235,7 @@
 /* Title for alert that is displayed when importing a marker. */
 "You've received a marker: '%@'" = "Hai ricevuto un indicatore: '%@'";
 
-/* Title for alert that is displayed when importing a route. */
+/* No comment provided by engineer. */
 "You've received a route: '%@'" = "Hai ricevuto un percorso: '%@'";
 
 /* No comment provided by engineer. */
