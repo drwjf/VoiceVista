@@ -10,12 +10,6 @@
 /* Notification, %1$@ is the point of interest, %2$@ is the distance with units, '<Starbucks> is <5 meters> away' */
 "%1$@ is %2$@ away" = "%1$@ на расстоянии %2$@";
 
-/* Notification, %1$@ is a point of interest, %2$@ is distance with units and %3$@ is a physical address, '<Some Place> is currently <5 meters>. Street address is <Some Address>' */
-"%1$@ is currently %2$@. Street address is %3$@." = "%1$@, %2$@. Адрес: %3$@.";
-
-/* Notification, %1$@ is a point of interest and %2$@ is a physical address,'<Some Place> is nearby. Street address is <Some Address>' */
-"%1$@ is nearby. Street address is %2$@." = "%1$@ рядом. Адрес: %2$@.";
-
 /* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
 "%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "Пройдено %1$@ из %2$@ путевых точек, осталось %3$@";
 
@@ -30,12 +24,6 @@
 
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
 "%1$@, heading %2$@" = "%1$@, направление на %2$@";
-
-/* Title of a route, %1$@ is the name of the route, %2$@ is the index of the current waypoint and %3$@ is the total number of waypoints in the route, 'Home to Work, Waypoint 1 of 3' */
-"%1$@, Waypoint %2$@ of %3$@" = "%1$@, путевая точка %2$@ из %3$@";
-
-/* Notification, %1$@ is a point of interest and %2$@ is a physical address, '<Some Place>. Street address is <Some Address>. Distance unknown.' */
-"%1$@. Street address is %2$@. Distance unknown." = "%1$@. Адрес: %2$@. Расстояние не определено.";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ рядом";
@@ -58,8 +46,26 @@
 /* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
 "%@ is nearby" = "%@ рядом";
 
+/* %@ is count of deleted markers */
+"%@ Markers Deleted" = "Маркеры %@ удалены";
+
+/* %@ is count of imported markers */
+"%@ Markers Imported from Blindsquare Backup" = "Маркеры %@, импортированные из резервной копии Blindsquare";
+
+/* %@ is count of imported markers */
+"%@ Markers Imported from GPX File" = "Маркеры %@, импортированные из файла GPX";
+
+/* %@ is the count of restored markers */
+"%@ Markers Restored" = "Маркеры %@ восстановлены";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "круговой перекрёсток %@";
+
+/* %@ is count of deleted routes */
+"%@ Routes Deleted" = "%@ Маршруты удалены";
+
+/* %@ is the count of restored routers */
+"%@ Routes Restored" = "%@ Маршруты восстановлены";
 
 /* %@ to indicate the number of seconds between street name announcements */
 "%@ seconds" = "%@ секунд";
@@ -94,7 +100,7 @@
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Может быть доступна более качественная версия этого голоса. Чтобы загрузить его и другие голоса, перейдите в раздел «Устный контент» в настройках универсального доступа iOS.";
 
-/* universal_links.marker_existing.alert.message */
+/* No comment provided by engineer. */
 "A marker already exists at this location. Do you want to replace it?" = " Метка здесь уже  установлена. Хотите заменить?";
 
 /* No comment provided by engineer. */
@@ -109,11 +115,11 @@
 /* No comment provided by engineer. */
 "Accuracy: %@" = "Точность: %@";
 
+/* No comment provided by engineer. */
+"Activity" = "Активность";
+
 /* behavior.scavenger_hunt.callout.started */
 "Activity started!" = "Погнали!";
-
-/* %@ is value of motion activity status, for example: Stationary, Walking, Automotive */
-"Activity: %@" = "Активность: %@";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "Добавить метку";
@@ -122,12 +128,15 @@
 "Add a Route" = "Добавить маршрут";
 
 /* No comment provided by engineer. */
+"Add Current Location as Waypoint" = "Добавить текущее местоположение в качестве путевой точки";
+
+/* No comment provided by engineer. */
 "Add Marker" = "Добавить метку";
 
 /* No comment provided by engineer. */
 "Add Shortcut" = "Добавить быстрое действие";
 
-/* routeDetail.noWaypoints.alert.addWaypoints */
+/* No comment provided by engineer. */
 "Add Waypoints" = "Добавить путевые точки";
 
 /* No comment provided by engineer. */
@@ -152,7 +161,13 @@
 "Adjust to Current Location" = "Скорректировать по текущему местоположению";
 
 /* No comment provided by engineer. */
+"Adjust Waypoint Location" = "Отрегулируйте местоположение путевой точки";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "После добавления быстрых команд Siri вы сможете использовать свой голос для их вызова, даже если VoiceVista не запущена.";
+
+/* No comment provided by engineer. */
+"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "После переключения в режим «Хлебные крошки» VoiceVista запишет новую путевую точку в этом месте, когда вы нажмете кнопку. Всем новым путевым точкам на этом маршруте будут присвоены имена автоматически.";
 
 /* directions.direction.ahead */
 "ahead" = "впереди";
@@ -194,6 +209,12 @@
 "Altitude: %@" = "Высота: %@";
 
 /* No comment provided by engineer. */
+"Annotataion" = "Аннотация";
+
+/* No comment provided by engineer. */
+"Annotation" = "Аннотация";
+
+/* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Добавьте обратные путевые точки в конец маршрута, чтобы сделать маршрут круговым.";
 
 /* No comment provided by engineer. */
@@ -228,9 +249,6 @@
 
 /* directions.approaching_roundabout */
 "Approaching roundabout" = "Впереди круговой перекрёсток";
-
-/* markers.destructive_delete_message */
-"Are you sure you want to delete this marker?" = "Вы уверены, что хотите удалить эту метку?";
 
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Вы уверены, что хотите забыть эти наушники?";
@@ -334,6 +352,12 @@
 /* ui.back_button.title */
 "Back" = "Назад";
 
+/* No comment provided by engineer. */
+"Backup Markers" = "Резервные маркеры";
+
+/* No comment provided by engineer. */
+"Backup Routes" = "Резервные маршруты";
+
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Банки и банкоматы";
 
@@ -404,10 +428,13 @@
 "Breadcrumb a New Route?" = "Навигационная цепочка нового маршрута?";
 
 /* No comment provided by engineer. */
-"Breadcrumb Marker Dropped" = "Метка навигационной цепочки добавлена";
+"Breadcrumb Mode" = "Режим 'навигационная цепочка'";
 
 /* No comment provided by engineer. */
-"Breadcrumb Mode" = "Режим 'навигационная цепочка'";
+"Breadcrumb Waypoint Recorded" = "Маршрутная точка 'Хлебные крошки' записана";
+
+/* No comment provided by engineer. */
+"Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "Хлебные крошки здесь представляют собой серию записанных путевых точек, которые отслеживают путь. Эти путевые точки сродни следу из хлебных крошек, оставленному Гензелем и Гретель в знаменитой сказке, отсюда и название.";
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Расчёт нового маршрута";
@@ -420,6 +447,9 @@
 
 /* No comment provided by engineer. */
 "Calculate Waypoints by Algorithm" = "Рассчитать путевые точки по алгоритму";
+
+/* No comment provided by engineer. */
+"Calculate Waypoints using Apple Maps" = "Рассчитать путевые точки с помощью Apple Maps";
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Калибровка завершена";
@@ -490,20 +520,23 @@
 /* No comment provided by engineer. */
 "Chat Group" = "Присоединиться к группе в WhatsApp";
 
-/* troubleshooting.checkaudio */
+/* No comment provided by engineer. */
 "Check Headphones Status" = "Проверить состояние наушников";
 
 /* No comment provided by engineer. */
 "Check Your Headphones" = "Проверить наушники";
 
-/* settings.clear_cache.markers.alert_message */
-"Choose 'Delete' to remove markers, beacons and routes, or 'Keep' to only remove map data. 'Delete' will reset the app back to a freshly installed state and cannot be undone!" = "Выберите «Удалить», чтобы удалить метки, маяки и маршруты, или «Сохранить», чтобы удалить только данные карт. «Удалить» вернет приложение в только что установленное состояние и не может быть отменено!";
-
-/* settings.clear_cache.cleaning_things */
+/* No comment provided by engineer. */
 "Cleaning things up..." = "Очистка кеша...";
 
-/* troubleshooting.cleardata */
+/* No comment provided by engineer. */
+"Clear" = "Прозрачный";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Очистить сохранённые данные карт";
+
+/* No comment provided by engineer. */
+"Clear Stored Map Data?" = "Очистить сохраненные данные карты?";
 
 /* general.text.clear_text */
 "Clear text" = "Очистить текст";
@@ -516,6 +549,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Завершить настройку";
+
+/* No comment provided by engineer. */
+"Confirm the Route" = "Подтвердите маршрут";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Поздравляем! Ваши AirPods готовы к использованию, вы можете положить телефон в карман и отправиться в путь! VoiceVista теперь будет отслеживать направление вашей головы, поэтому вам не нужно держать телефон в руках. Одно нажатие кнопки наушников отключит или включит звук маяка, двойное нажатие укажет ваше местоположение, а тройное нажатие повторит последнее объявление.";
@@ -542,24 +578,18 @@
 "Create a New Route" = "Создать новый маршрут";
 
 /* No comment provided by engineer. */
-"Create A New Route to There" = "Создать новый маршрут туда";
-
-/* No comment provided by engineer. */
 "Create a New Route?" = "Создать новый маршрут?";
 
 /* No comment provided by engineer. */
-"Create a route for yourself or for someone else by organizing a set of markers as waypoints on a route." = "Создайте маршрут для себя или для других, организовав набор меток в качестве путевых точек на маршруте.";
+"Create a route for yourself or for someone else by organizing a set of waypoints." = "Создайте маршрут для себя или для кого-то другого, организовав набор путевых точек.";
 
 /* markers.footnote.1 */
 "Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Создавайте метки для ваших любимых пунктов назначения, путевых точек на маршруте или любых мест, которые вы хотите отметить.";
 
-/* No comment provided by engineer. */
-"Create Route" = "Создать маршрут";
-
 /* beacon.styles.current */
 "Current" = "Текущий";
 
-/* markers.current_location */
+/* No comment provided by engineer. */
 "Current Location" = "Текущее местоположение";
 
 /* No comment provided by engineer. */
@@ -580,11 +610,23 @@
 /* settings.direction.style.degrees */
 "Degrees Direction" = "Направление в градусах";
 
-/* general.alert.delete */
+/* No comment provided by engineer. */
 "Delete" = "Удалить";
 
 /* No comment provided by engineer. */
 "Delete a Route?" = "Удалить маршрут?";
+
+/* No comment provided by engineer. */
+"Delete All Markers" = "Удалить все маркеры";
+
+/* No comment provided by engineer. */
+"Delete All Markers?" = "Удалить все маркеры?";
+
+/* No comment provided by engineer. */
+"Delete All Routes" = "Удалить все маршруты";
+
+/* No comment provided by engineer. */
+"Delete All Routes?" = "Удалить все маршруты?";
 
 /* No comment provided by engineer. */
 "Delete Marker" = "Удалить метку";
@@ -593,16 +635,10 @@
 "Delete Marker %@?" = "Удалить метку %@?";
 
 /* No comment provided by engineer. */
-"Delete Markers too" = "Удалить маршрут и  метки";
-
-/* settings.clear_cache.alert_title */
-"Delete Stored Data?" = "Удалить сохранённые данные?";
+"Delete Waypoint" = "Удалить маршрутную точку";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Съехал с кругового перекрёстка. Теперь по %@";
-
-/* No comment provided by engineer. */
-"Description" = "Описание";
 
 /* No comment provided by engineer. */
 "Destination location" = "Место назначения";
@@ -640,17 +676,11 @@
 /* No comment provided by engineer. */
 "Distance to %@" = "Расстояние до %@";
 
-/* beacon.distance.unknown */
-"Distance unknown" = "Расстояние не определено";
-
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Расстояние: %@ .";
 
-/* url_resource.alert.route.import_existing.message */
-"Do you want to replace it? Replacing this route will also replace the markers used in this route." = " Хотите заменить? При этом будут заменены метки, используемые в этом маршруте.";
-
-/* preview.alert.restart.message */
-"Do you want to restart VoiceVista Street Preview at this location?" = "Вы хотите перезапустить предварительный просмотр улиц VoiceVista здесь?";
+/* No comment provided by engineer. */
+"Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Вы хотите заменить это? При замене этого маршрута также будут заменены путевые точки, используемые в этом маршруте.";
 
 /* No comment provided by engineer. */
 "Done" = "Готово";
@@ -685,7 +715,7 @@
 /* vicinity.sleep.acc_hint */
 "Double tap to put VoiceVista to sleep" = "Коснитесь дважды, чтобы перевести VoiceVista в спящий режим";
 
-/* voice.apple.preview_hint */
+/* No comment provided by engineer. */
 "Double tap to select and play a preview." = "Коснитесь дважды, чтобы выбрать и воспроизвести предварительный просмотр выбранного голоса.";
 
 /* markers.leftBarItem.sortByName.hint */
@@ -712,9 +742,6 @@
 /* beacon.styles.drop */
 "Drop" = "Падение";
 
-/* No comment provided by engineer. */
-"Drop Breadcrumb Marker" = "Добавить метку в навигационную цепочку";
-
 /* directions.cardinal.east */
 "East" = "Восток";
 
@@ -723,6 +750,9 @@
 
 /* No comment provided by engineer. */
 "Edit Route Name" = "Изменить название маршрута";
+
+/* No comment provided by engineer. */
+"Edit Waypoint Name" = "Изменить имя маршрутной точки";
 
 /* No comment provided by engineer. */
 "Edit Waypoints" = "Редактировать путевые точки";
@@ -776,25 +806,16 @@
 "Factor %@" = "Коэффициент %@";
 
 /* No comment provided by engineer. */
+"Failed to Backup Markers" = "Не удалось создать резервную копию маркеров.";
+
+/* No comment provided by engineer. */
+"Failed to Backup Routes" = "Не удалось создать резервную копию маршрутов.";
+
+/* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Не удалось расчитать путевые точки";
 
 /* No comment provided by engineer. */
-"Failed to Create a New Route" = "Не удалось создать новый маршрут";
-
-/* No comment provided by engineer. */
-"Failed to Create Marker" = "Не удалось создать метку";
-
-/* No comment provided by engineer. */
-"Failed to Create Route" = "Не удалось создать маршрут";
-
-/* No comment provided by engineer. */
-"Failed to Delete Marker" = "Не удалось удалить метку";
-
-/* No comment provided by engineer. */
-"Failed to Drop Breadcrumb Marker" = "Не удалось добавить метку в навигационную цепочку";
-
-/* No comment provided by engineer. */
-"Failed to Generate Reverse Route" = "Не удалось создать обратный маршрут.";
+"Failed to Calculate Waypoints for the Route" = "Не удалось рассчитать путевые точки для маршрута.";
 
 /* No comment provided by engineer. */
 "Failed to Get Your Current Location" = "Не удалось получить ваше текущее местоположение";
@@ -806,13 +827,10 @@
 "Failed to Import Route" = "Не удалось импортировать маршрут.";
 
 /* No comment provided by engineer. */
-"Failed to Remove the Last Breadcrumb Marker" = "Не удалось удалить последнюю метку навигационной цепочки.";
+"Failed to Restore Markers" = "Не удалось восстановить маркеры";
 
 /* No comment provided by engineer. */
-"Failed to Update" = "Не удалось обновить";
-
-/* No comment provided by engineer. */
-"Failed to Update Route to Circular" = "Не удалось создать круговой маршрут.";
+"Failed to Restore Routes" = "Не удалось восстановить маршруты.";
 
 /* No comment provided by engineer. */
 "FAQ" = "Чаво";
@@ -849,6 +867,9 @@
 
 /* No comment provided by engineer. */
 "Generate Route from GPX File" = "Создать маршрут из файла GPX";
+
+/* No comment provided by engineer. */
+"Generated by Algorithm" = "Сгенерировано алгоритмом";
 
 /* No comment provided by engineer. */
 "Generated from GPX file" = "Создано из файла GPX";
@@ -955,16 +976,13 @@
 /* No comment provided by engineer. */
 "How many meters should waypoints be generated between each other for this route?" = "Сколько метров должно быть между путевыми точками на этом маршруте?";
 
-/* No comment provided by engineer. */
-"How to Calculate Path?" = "Как рассчитать маршрут?";
-
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you! '%@'" = "Я поделился с вами маршрутом VoiceVista! '%@'";
 
-/* icloud.kv_store.quota_violation_alert.message */
+/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Хранилище iCloud для этого приложения заполнено. Для создания новой метки необходимо освободить место, удалив некоторые из существующих меток.";
 
 /* No comment provided by engineer. */
@@ -993,6 +1011,9 @@
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Импортировать файл маршрута Soundscape";
+
+/* No comment provided by engineer. */
+"Import VoiceVista Route File" = "Импортировать файл маршрута VoiceVista";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "Скорость речи в транспортном средстве";
@@ -1048,29 +1069,17 @@
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Похоже, что ваши настройки конфиденциальности не позволяют использовать данные о точном местоположении, движении и фитнесе. Пожалуйста, внесите необходимые изменения в приложении «Настройки».";
 
-/* No comment provided by engineer. */
-"It is easy to add a new marker for later use in breadcrumb mode. All new markers on this route will be named automatically." = "В режиме 'навигационная цепочка' легко добавить новую метку для последующего использования. Всем новым меткам на этом маршруте будут присвоены имена автоматически.";
-
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Создание списка ближайших мест может занять некоторое время. Если в настоящее время данные не доступны, попробуйте зайти позже.";
 
 /* No comment provided by engineer. */
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Похоже, что ваши настройки конфиденциальности препятствуют использованию motion & fitness. Пожалуйста, настройте это в приложении «Настройки».";
 
-/* general.alert.keep */
-"Keep" = "Сохранить";
-
-/* No comment provided by engineer. */
-"Keep Markers" = "Сохранить метки";
-
-/* settings.clear_cache.markers.alert_title */
-"Keep Markers and Routes?" = "Сохранить метки и маршруты?";
-
 /* No comment provided by engineer. */
 "Language" = "Язык";
 
 /* No comment provided by engineer. */
-"Last Breadcrumb Marker Removed" = "Последняя метка навигационной цепочки удалена";
+"Last Breadcrumb Waypoint Removed" = "Последняя путевая точка хлебных крошек удалена";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Широта или (широта, долгота) или коды Google Plus";
@@ -1078,14 +1087,11 @@
 /* No comment provided by engineer. */
 "Latitude: %@, Longitude: %@" = "Широта: %1$@, Долгота: %2$@";
 
-/* general.alert.offline.learn_more */
-"Learn more" = "Узнать больше";
-
 /* location */
 "Location" = "Местоположение";
 
-/* %@ could be 4 meters or 12 feet */
-"Location Accuracy: %@" = "Точность определения местоположения: %@";
+/* No comment provided by engineer. */
+"Location Accuracy" = "Точность местоположения";
 
 /* location_detail.title.default */
 "Location Details" = "Детали местоположения";
@@ -1093,7 +1099,7 @@
 /* No comment provided by engineer. */
 "Location Explorer" = "Обозреватель местоположения";
 
-/* general.error.preview */
+/* No comment provided by engineer. */
 "Location preview could not be started at this location." = "Предварительный просмотр местоположения  не может быть запущен здесь.";
 
 /* No comment provided by engineer. */
@@ -1110,9 +1116,6 @@
 
 /* beacon.styles.mallet.very_slow */
 "Mallet (Very Slow)" = "Молоток (очень медленно)";
-
-/* No comment provided by engineer. */
-"Manage Generated Markers" = "Управление метками, созданными VoiceVista";
 
 /* No comment provided by engineer. */
 "MAP" = "КАРТА";
@@ -1132,14 +1135,11 @@
 /* No comment provided by engineer. */
 "Marker Alert" = "Оповещение о метке";
 
-/* universal_links.marker_existing.alert.title */
+/* No comment provided by engineer. */
 "Marker already exists" = "Метка уже существует";
 
 /* No comment provided by engineer. */
 "Marker Annotation" = "Примечание метки";
-
-/* markerAddedEvent.marker_created */
-"Marker created" = "Метка создана";
 
 /* No comment provided by engineer. */
 "Marker deleted" = "Метка удалена";
@@ -1158,12 +1158,6 @@
 
 /* No comment provided by engineer. */
 "Markers Ahead" = "Метки впереди";
-
-/* No comment provided by engineer. */
-"Markers Imported from Blindsquare Backup Successfully" = "Метки успешно импортированы из резервной копии Blindsquare";
-
-/* No comment provided by engineer. */
-"Markers Imported from GPX File Successfully" = "Метки успешно импортированы из файла GPX";
 
 /* No comment provided by engineer. */
 "Markers Nearby" = "Метки поблизости";
@@ -1214,9 +1208,6 @@
 /* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
 "Near address %@" = "Ближайший адрес %@";
 
-/* poi_screen.section_header.nearby */
-"Nearby" = "Рядом";
-
 /* No comment provided by engineer. */
 "Nearby house numbers" = "Номера домов поблизости";
 
@@ -1252,6 +1243,9 @@
 
 /* No comment provided by engineer. */
 "Network Connection Required" = "Требуется подключение к сети";
+
+/* %@ is the name of a route being breadcrumb mode */
+"New waypoints will be named automatically and added to route %@." = "Новые путевые точки будут названы автоматически и добавлены в маршрут %@.";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
    Notification, %@ intersection name */
@@ -1296,8 +1290,8 @@
 /* No comment provided by engineer. */
 "No waypoint data found in the GPX file." = "В файле GPX не найдены данные о путевых точках.";
 
-/* routeDetail.noWaypoints.alert.title */
-"No waypoints defined" = "Путевые точки не определены";
+/* No comment provided by engineer. */
+"No Waypoints Defined" = "Маршрутные точки не определены";
 
 /* settings.direction.style.none */
 "None" = "Ничего";
@@ -1311,8 +1305,7 @@
 /* directions.cardinal.north_west */
 "North West" = "северо-Запад";
 
-/* general.alert.not_now
-   general.alert.notnow */
+/* No comment provided by engineer. */
 "Not Now" = "Не сейчас";
 
 /* No comment provided by engineer. */
@@ -1336,9 +1329,6 @@
 /* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
 "Nudging, %@ of original location" = "Метка сдвинута на %@ от исходного местоположения";
 
-/* general.alert.offline_default.title */
-"Offline mode" = "Автономный режим";
-
 /* No comment provided by engineer. */
 "On foot speaking rate" = "Скорость речи на пеших маршрутах";
 
@@ -1351,7 +1341,7 @@
 /* Mode 2 for path calculation */
 "Only Use Last Waypoint" = "Использовать только последнюю точку маршрута";
 
-/* universal_links.alert.error.title */
+/* No comment provided by engineer. */
 "Oops! Something went wrong." = "Ой! Что-то пошло не так.";
 
 /* locationDetail.openInApple */
@@ -1444,7 +1434,7 @@
 /* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Воспроизведение/пауза: отключение звука всех текущих объявлений и, если звуковой маяк установлен, переключение звука маяка.";
 
-/* routeDetail.noWaypoints.alert.message */
+/* No comment provided by engineer. */
 "Please add waypoints to complete the route creation." = "Пожалуйста, добавьте путевые точки, чтобы завершить создание маршрута.";
 
 /* No comment provided by engineer. */
@@ -1487,9 +1477,6 @@
 /* voice.action.preview */
 "Preview" = "Предварительный просмотр";
 
-/* preview.alert.restart.title */
-"Preview Already in Progress" = "Предварительный просмотр уже запущен";
-
 /* No comment provided by engineer. */
 "Previous" = "Предыдущее местоположение";
 
@@ -1511,7 +1498,7 @@
 /* placesNearyBy.category.2 */
 "Public Transit" = "Общественный транспорт";
 
-/* waypoints.cancel_alert_quit */
+/* No comment provided by engineer. */
 "Quit Without Save" = "Выйти без сохранения";
 
 /* No comment provided by engineer. */
@@ -1536,16 +1523,19 @@
 "Remove Alert Distance Setting" = "Удалить настройку расстояния оповещения";
 
 /* No comment provided by engineer. */
-"Remove Last Breadcrumb Marker" = "Удалить последнюю метку навигационной цепочки";
+"Remove Last Added Waypoint" = "Удалить последнюю добавленную путевую точку";
 
 /* No comment provided by engineer. */
 "Repeat Last Callout" = "Повторить последнее объявление";
 
-/* general.alert.replace */
+/* No comment provided by engineer. */
 "Replace" = "Заменить";
 
-/* preview.alert.restart.button */
-"Restart" = "Перезапустить";
+/* No comment provided by engineer. */
+"Restore Markers" = "Восстановить маркеры";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Восстановить маршруты";
 
 /* general.alert.resume */
 "Resume" = "Возобновить";
@@ -1577,7 +1567,7 @@
 /* route_detail.name.default */
 "Route" = "Маршрут";
 
-/* url_resource.alert.route.import_existing.title */
+/* No comment provided by engineer. */
 "Route already exists" = "Маршрут уже существует";
 
 /* routes.callout.complete */
@@ -1586,23 +1576,20 @@
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
 "Route Completed! %@" = "Маршрут пройдён! %@";
 
-/* routeAddedEvent.route_created */
-"Route created" = "Маршрут создан";
-
-/* routes.action.deleted */
+/* No comment provided by engineer. */
 "Route deleted" = "Маршрут удалён";
 
 /* No comment provided by engineer. */
 "Route Details" = "Детали маршрута";
-
-/* routes.import.alert.title */
-"Route Error" = "Ошибка маршрута";
 
 /* No comment provided by engineer. */
 "Route Name" = "Название маршрута";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Название маршрута: %@ .";
+
+/* No comment provided by engineer. */
+"Route Steps" = "Шаги маршрута";
 
 /* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 "Route Stopped, %@" = "Маршрут остановлен, %@";
@@ -1619,7 +1606,7 @@
 /* Motion status: running */
 "Running" = "Бег";
 
-/* universal_links.alert.action.marker */
+/* No comment provided by engineer. */
 "Save as Marker" = "Сохранить как метку";
 
 /* No comment provided by engineer. */
@@ -1628,10 +1615,10 @@
 /* user_activity.save_marker.title */
 "Save Marker" = "Сохранить метку";
 
-/* url_resource.alert.route.import.save */
+/* No comment provided by engineer. */
 "Save Route" = "Сохранить маршрут";
 
-/* waypoints.cancel_alert_save */
+/* No comment provided by engineer. */
 "Save then Exit" = "Сохранить и выйти";
 
 /* search.title */
@@ -1639,9 +1626,6 @@
 
 /* user_activity.search.title */
 "Search in VoiceVista" = "Поиск в VoiceVista";
-
-/* general.alert.offline_search.title */
-"Search is not available" = "Поиск недоступен";
 
 /* No comment provided by engineer. */
 "Search Location by Text" = "Найти местоположение по тексту";
@@ -1658,7 +1642,7 @@
 /* markers.add.selectFromMap */
 "Select Location from Map" = "Выбрать местоположение на карте";
 
-/* universal_links.alert.action.beacon */
+/* No comment provided by engineer. */
 "Set a Beacon" = "Установить маяк";
 
 /* No comment provided by engineer. */
@@ -1686,7 +1670,7 @@
 /* No comment provided by engineer. */
 "Share Current" = "Поделиться текущим местоположением";
 
-/* first_use_experience.share.alert.title */
+/* No comment provided by engineer. */
 "Sharing in VoiceVista" = "Совместное использование в VoiceVista";
 
 /* beacon.styles.shimmer */
@@ -1762,6 +1746,9 @@
 "Start Calibration" = "Начать калибровку";
 
 /* No comment provided by engineer. */
+"Start Guidance" = "Начать руководство";
+
+/* No comment provided by engineer. */
 "Start Monitoring" = "Начать отслеживание";
 
 /* user_activity.start_route.title
@@ -1831,27 +1818,17 @@
 /* No comment provided by engineer. */
 "The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Коэффициент частоты маяка определяет, как часто VoiceVista будет объявлять расстояние до маяка. Чем больше коэффициент, тем чаще объявления.";
 
-/* url_resource.alert.route.import_error.message */
-"The content appears to be invalid." = "Содержимое недействительно.";
-
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
-
-/* %@ is the name of a route being breadcrumb mode */
-"The dropped breadcrumb marker will be named automatically and added to route %@." = "Добавленной метке навигационной цепочки будет присвоено имя автоматически, и она будет добавлена к маршруту %@.";
 
 /* No comment provided by engineer. */
 "The headphones you selected are currently unavailable for connection. Please try again later." = "Выбранные вами наушники в настоящее время недоступны для подключения. Пожалуйста, повторите попытку позже.";
 
-/* universal_links.alert.import_error.message
-   universal_links.alert.share_error.message */
+/* No comment provided by engineer. */
 "The link appears to be invalid." = "Ссылка недействительна.";
 
 /* No comment provided by engineer. */
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Состояние движения может быть неподвижный, ходьба, бег, автомобиль, езда на велосипеде или неопрерделённым.";
-
-/* No comment provided by engineer. */
-"The names of generated markers start with the character '~'." = "Имена меток, создаваемых VoiceVista, начинаются с символа «~».";
 
 /* No comment provided by engineer. */
 "The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "Множитель диапазона точек интереса определяет расстояние, на котором VoiceVista будет объявлять близлежащие точки интереса.";
@@ -1860,7 +1837,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Функция начать отслеживание похожа на установку маяка у места назначения, но вы не будете получать звуковые сигналы или информацию о расстоянии, пока не удалитесь на определенное расстояние. По сути, VoiceVista переходит в режим сна и просыпается только тогда, когда вы приближаетесь к месту назначения.";
 
 /* No comment provided by engineer. */
-"There are no breadcrumb markers in this route." = "На этом маршруте нет меток навигационной цепочки.";
+"There are no breadcrumb waypoints in this route." = "На этом маршруте нет навигационных точек.";
 
 /* No comment provided by engineer. */
 "There are no intersections ahead to call out right now" = "Впереди нет перекрёстков.";
@@ -1886,17 +1863,14 @@
 /* No comment provided by engineer. */
 "There are several options for adjusting the marker location. In addition to aligning it with the current location, you can nudge the marker to move it 5 meters in the selected direction." = "Существует несколько вариантов настройки местоположения метки. Помимо выравнивания по текущему местоположению, вы можете сдвинуть метку, перемещая её на 5 метров в выбранном направлении.";
 
-/* general.alert.destructive_undone_message */
-"This action cannot be undone" = "Это действие нельзя отменить";
-
-/* universal_links.alert.share_error.message */
-"This content could not be shared." = "Не удалось поделиться этим контентом.";
-
 /* No comment provided by engineer. */
 "This helps conserve battery when you are not actively using VoiceVista." = "Это помогает экономить заряд батареи, когда вы не используете VoiceVista.";
 
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Меня зовут %@. Это тестовое сообщение для данной конфигурации.";
+
+/* No comment provided by engineer. */
+"This opertaion cannot be undone!" = "Эту операцию невозможно отменить!";
 
 /* No comment provided by engineer. */
 "This uses Location Services in a low-power mode to conserve your phone's battery." = "При этом службы геолокации используются в режиме пониженного энергопотребления для экономии заряда батареи вашего телефона.";
@@ -1945,7 +1919,7 @@
 "Toggle markers on/off to select multiple." = "Включите/выключите метки, чтобы выбрать несколько меток разом.";
 
 /* No comment provided by engineer. */
-"Too Close to Drop Another Breadcrumb Marker" = "Слишком близко, чтобы добавить ещё одну метку навигационной цепочки";
+"Too Close to Record Another Breadcrumb Waypoint" = "Слишком близко для записи еще одной маршрутной точки «хлебных крошек»";
 
 /* %@ is the count of waypoints in a route */
 "Total waypoints count: %@ ." = "Всего путевых точек: %@ .";
@@ -1983,7 +1957,7 @@
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Включение этого параметра приведет к тому, что объявления VoiceVista и другой звук будут приостанавливаться всякий раз, когда вы начинаете использовать другое мультимедийное приложение. Вы можете вернуться в VoiceVista, чтобы их возобновить.";
 
-/* settings.clear_cache.no_service.title */
+/* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Невозможно очистить сохранённые данные карт";
 
 /* No comment provided by engineer. */
@@ -2011,9 +1985,6 @@
 /* No comment provided by engineer. */
 "Unknown location" = "Неизвестное местоположение";
 
-/* troubleshooting.gps_status.unknown */
-"Unknown Location Accuracy" = "Точность местоположения не определена";
-
 /* No comment provided by engineer. */
 "Unknown Type" = "Неизвестный тип";
 
@@ -2036,10 +2007,13 @@
 "Update Current Route to Circular" = "Создать круговой маршрут";
 
 /* No comment provided by engineer. */
+"Use buttons in the top-right corner to delete, edit the name and adjust the location of the waypoint." = "Используйте кнопки в правом верхнем углу, чтобы удалить, отредактировать имя и настроить местоположение путевой точки.";
+
+/* No comment provided by engineer. */
 "Use buttons in the top-right corner to edit marker name, annotation, alert distance and location." = "Используйте кнопки в правом верхнем углу, чтобы редактировать имя метки, примечание, расстояние оповещения и местоположение.";
 
 /* No comment provided by engineer. */
-"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and description." = "Используйте кнопки в правом верхнем углу, чтобы создавать обратные маршруты, редактировать путевые точки, их названия и описания.";
+"Use buttons in the top-right corner to generate reversed routes, edit waypoints, name and annotation." = "Используйте кнопки в правом верхнем углу, чтобы создавать обратные маршруты, редактировать путевые точки, названия и аннотации.";
 
 /* No comment provided by engineer. */
 "Use Current Location" = "Использовать текущее местоположение";
@@ -2066,12 +2040,15 @@
 "View Detail" = "Посмотреть детали";
 
 /* No comment provided by engineer. */
+"View Steps" = "Посмотреть шаги";
+
+/* No comment provided by engineer. */
 "Visit Web" = "Посетить веб-сайт";
 
 /* No comment provided by engineer. */
 "Voice hint when approaching turn points" = "Голосовая подсказка при приближении к поворотам";
 
-/* voiceSetting.title */
+/* No comment provided by engineer. */
 "Voice Settings" = "Настройки голоса";
 
 /* No comment provided by engineer. */
@@ -2087,9 +2064,6 @@
 "VoiceVista Blog" = "Блог VoiceVista";
 
 /* No comment provided by engineer. */
-"VoiceVista can automatically generate markers for your route. These markers are initially hidden in the 'Markers' tab, and you can manage them here." = "VoiceVista может автоматически создавать метки для вашего маршрута. Они изначально скрыты на вкладке «Метки», вы можете управлять ими здесь.";
-
-/* No comment provided by engineer. */
 "VoiceVista can calculate waypoints for reference based on the starting and destination locations." = "VoiceVista может рассчитывать путевые точки для справки на основе начального и конечного местоположения.";
 
 /* No comment provided by engineer. */
@@ -2098,7 +2072,7 @@
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista загружает данные карт, когда вы идёте, чтобы рассказать вам о том, что находится вокруг вас. Если у вас возникли проблемы с VoiceVista или оно использует слишком много памяти, вы можете очистить сохранённые данные карт. VoiceVista повторно загрузит их только рядом с вашим текущим местоположением.";
 
-/* icloud.kv_store.quota_violation_alert.title */
+/* No comment provided by engineer. */
 "VoiceVista iCloud Storage Full" = "Хранилище iCloud заполнено";
 
 /* terms_of_use.safety_notice */
@@ -2119,7 +2093,7 @@
 /* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
 "VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista в настоящее время отслеживает «%1$@» в диапазоне «%2$@». Когда вы окажетесь в этом диапазоне, VoiceVista автоматически проснётся и установит эту метку в качестве звукового маяка.";
 
-/* settings.clear_cache.no_service.message */
+/* No comment provided by engineer. */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista в настоящее время не может подключиться к Интернету. Для очистки сохранённых данных карт требуется подключение к Интернету, чтобы их можно было обновить.";
 
 /* No comment provided by engineer. */
@@ -2131,11 +2105,8 @@
 /* devices.callouts.check_audio.airpods.disconnected */
 "VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista ищет ваши AirPods. Убедитесь, что они подключены к вашему телефону.";
 
-/* general.alert.offline_default.message */
-"VoiceVista is working offline. Nevertheless, VoiceVista will continue to work, but some functions may be limited." = "VoiceVista работает в автономном режиме. Тем не менее, VoiceVista продолжит работу, но некоторые функции могут быть ограничены.";
-
-/* settings.clear_cache.alert_message */
-"VoiceVista stores map data to reduce data and battery consumption. Deleting stored data will require VoiceVista to re-download the data." = "VoiceVista хранит данные карт, чтобы уменьшить потребление данных и заряда батареи. Удаление сохранённых данных потребует от VoiceVista повторной загрузки данных.";
+/* No comment provided by engineer. */
+"VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista сохраняет данные карты, чтобы сократить расход данных и заряда батареи. Для очистки сохраненных данных карты потребуется повторная загрузка данных VoiceVista.";
 
 /* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista не удалось подключиться к вашим наушникам. Пожалуйста, повторите попытку позже.";
@@ -2153,26 +2124,23 @@
 /* No comment provided by engineer. */
 "Waypoint" = "путевая точка";
 
-/* routes.import.alert.message */
-"Waypoint data is missing for one or more of your routes. Please review the following routes, and re-add waypoints if necessary." = "Данные путевых точек отсутствуют для одного или нескольких ваших маршрутов. Просмотрите следующие маршруты и при необходимости повторно добавьте путевые точки.";
+/* location_detail.title.default */
+"Waypoint Details" = "Детали маршрутной точки";
+
+/* No comment provided by engineer. */
+"Waypoint Name" = "Имя маршрутной точки";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Расчитанные путевые точки";
 
-/* waypoints.cancel_alert_title */
+/* No comment provided by engineer. */
 "Waypoints Updated" = "Обновлены путевые точки";
 
 /* general.error.location_services_find_location_error */
 "We are having trouble finding your current location." = "Возникли проблемы с определением вашего текущего местоположения.";
 
-/* general.error.location_services_find_location_error.try_again */
+/* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Возникли проблемы с определением вашего текущего местоположения. Попробуйте позже.";
-
-/* general.error.add_marker_error */
-"We are having trouble marking this place. Try again later." = "Возникли проблемы с пометкой этого места. Попробуйте позже.";
-
-/* general.error.set_beacon_error */
-"We are having trouble setting the beacon currently. Try again later." = "Возникли проблемы с настройкой маяка. Попробуйте позже.";
 
 /* No comment provided by engineer. */
 "We've placed an audio beacon to your right. Listen where it is, and turn your head towards it. Notice how you can do this even when your phone is in your pocket. When you are done, Tap the button below to complete configuring your headphones, and enjoy your next walk with your new head tracking headphones." = "Мы разместили звуковой маяк справа от вас. Послушайте, где он находится, и поверните к нему голову. Обратите внимание: вы можете это сделать, даже когда ваш телефон находится в кармане. Когда вы закончите, нажмите кнопку ниже, чтобы завершить настройку наушников, и наслаждайтесь следующей прогулкой с новыми наушниками с функцией отслеживания положения головы.";
@@ -2195,10 +2163,7 @@
 /* permissions.info.1 */
 "When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "При навигации с помощью VoiceVista вы будете ориентироваться по звуковому маяку, а также   получать информацию о местах  вокруг и впереди вас.";
 
-/* general.alert.offline_search.message */
-"When VoiceVista is working offline, search is disabled. Close to return to the previous screen" = "Когда VoiceVista работает в автономном режиме, поиск мест не доступен. Закройте это предупреждение, чтобы вернуться на предыдущий экран";
-
-/* first_use_experience.share.alert.message */
+/* No comment provided by engineer. */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Когда вы делитесь меткой или маршрутом VoiceVista, вы делитесь местоположениями, связанными с этой меткой или маршрутом.  делитесь метками или маршрутами только с теми, кому вы доверяете.";
 
 /* No comment provided by engineer. */
@@ -2207,7 +2172,7 @@
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Находясь на маршруте с VoiceVista, вы будете проинформированы о прибытии в каждую путевую точку, а звуковой маяк автоматически перейдёт к следующей  точке.";
 
-/* general.alert.yes */
+/* No comment provided by engineer. */
 "Yes" = "Да";
 
 /* terms_of_use.medical_safety_disclaimer */
@@ -2243,16 +2208,16 @@
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Вы рассчитали путевые точки этого маршрута.";
 
-/* waypoints.cancel_alert_message */
+/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Вы изменили путевые точки этого маршрута.";
 
 /* No comment provided by engineer. */
 "You have not calculated waypoints of this route." = "Вы не рассчитали путевые точки этого маршрута.";
 
-/* universal_links.marker.alert.message */
+/* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Вы должны использовать метки только от тех, кому вы доверяете.";
 
-/* url_resource.alert.route.import.message */
+/* No comment provided by engineer. */
 "You should only use routes from someone you trust." = "Вы должны использовать маршруты только от тех, кому вы доверяете.";
 
 /* No comment provided by engineer. */
@@ -2270,7 +2235,7 @@
 /* Title for alert that is displayed when importing a marker. */
 "You've received a marker: '%@'" = "Вы получили метку: '%@'";
 
-/* Title for alert that is displayed when importing a route. */
+/* No comment provided by engineer. */
 "You've received a route: '%@'" = "Вы получили маршрут: '%@'";
 
 /* No comment provided by engineer. */
