@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -95,6 +95,9 @@
 "%@, goes right in roundabout" = "%@, führt nach dem Kreisverkehr nach rechts";
 
 /* No comment provided by engineer. */
+"'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "Mit 'Zurücksetzen' wird die App in den neu installierten Zustand zurückversetzt, und diese Aktion kann nicht rückgängig gemacht werden!";
+
+/* No comment provided by engineer. */
 "[Reverse]" = "[Umgekehrt]";
 
 /* voice.settings.enhanced_available */
@@ -135,6 +138,9 @@
 
 /* No comment provided by engineer. */
 "Add Shortcut" = "Kurzbefehle hinzufügen";
+
+/* No comment provided by engineer. */
+"Add Waypoint" = "Wegpunkt hinzufügen";
 
 /* No comment provided by engineer. */
 "Add Waypoints" = "Wegpunkte hinzufügen";
@@ -207,9 +213,6 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Höhe: %@";
-
-/* No comment provided by engineer. */
-"Annotataion" = "Notiz";
 
 /* No comment provided by engineer. */
 "Annotation" = "Notiz";
@@ -606,6 +609,9 @@
 
 /* Motion status: cycling */
 "Cycling" = "Fahrrad";
+
+/* No comment provided by engineer. */
+"Data Management" = "Datenmanagement";
 
 /* settings.direction.style.degrees */
 "Degrees Direction" = "Richtung in Grad";
@@ -1025,9 +1031,6 @@
 "In vehicle speaking rate. How does this sound?" = "Sprechtempo beim Fahren. Wie klingt das?";
 
 /* No comment provided by engineer. */
-"Include unnamed roads for intersections nearby, intersections ahead, street previews and location exploration" = "Unbenannte Straßen bei „Kreuzungen in der Nähe“, „Kreuzungen geradeaus“ und „Ort erkunden“ berücksichtigen.";
-
-/* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Länge und Breite eingeben";
 
 /* No comment provided by engineer. */
@@ -1035,6 +1038,9 @@
 
 /* callouts.intersection_callout */
 "Intersection Callout" = "Kreuzungsansage";
+
+/* No comment provided by engineer. */
+"INTERSECTION DETAIL" = "DETAILS ZUR KREUZUNG";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Kreuzung mit %1$@ %2$@";
@@ -1187,8 +1193,7 @@
 "Mute Beacon" = "Signal stummschalten";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1249,8 +1254,7 @@
 "New waypoints will be named automatically and added to route %@." = "Neue Wegpunkte werden automatisch benannt und der Route %@ hinzugefügt.";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1443,8 +1447,7 @@
 "Please enter a route name." = "Bitte geben Sie den Namen der Route ein.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1533,6 +1536,15 @@
 
 /* No comment provided by engineer. */
 "Replace" = "Ersetzen";
+
+/* No comment provided by engineer. */
+"Reset" = "Zurücksetzen";
+
+/* No comment provided by engineer. */
+"Reset iCloud Data" = "iCloud-Daten zurücksetzen";
+
+/* No comment provided by engineer. */
+"Reset iCloud Data?" = "iCloud-Daten zurücksetzen?";
 
 /* No comment provided by engineer. */
 "Restore Markers" = "Markierungen wiederherstellen";
@@ -1627,6 +1639,9 @@
 /* search.title */
 "Search" = "Suchen";
 
+/* No comment provided by engineer. */
+"Search a Place" = "Einen Ort suchen";
+
 /* user_activity.search.title */
 "Search in VoiceVista" = "In VoiceVista suchen";
 
@@ -1655,8 +1670,7 @@
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Sie erhalten eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1756,8 +1770,7 @@
 "Start Monitoring" = "Überwachen einschalten";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1788,6 +1801,9 @@
 "Stop Route" = "Route anhalten";
 
 /* No comment provided by engineer. */
+"Stop route" = "Route stoppen";
+
+/* No comment provided by engineer. */
 "Street Preview" = "Straßenvorschau";
 
 /* preview.callout.paused */
@@ -1813,6 +1829,12 @@
 
 /* No comment provided by engineer. */
 "Tap the button below to wake up VoiceVista." = "Taste unten tippen, um VoiceVista zu wecken.";
+
+/* No comment provided by engineer. */
+"Tap the button in the top right corner to toggle the exploration of unnamed roads on or off." = "Tippen Sie auf die Schaltfläche in der oberen rechten Ecke, um die Erkundung unbenannter Straßen ein- oder auszuschalten.";
+
+/* No comment provided by engineer. */
+"Tap the button in the top right corner to toggle the preview of unnamed roads on or off." = "Tippen Sie auf die Schaltfläche in der oberen rechten Ecke, um die Vorschau der unbenannten Straßen ein- oder auszuschalten.";
 
 /* permissionmanager.alert.test */
 "Test Location" = "Teststandort";
@@ -1890,8 +1912,7 @@
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihre Kopfhörer von VoiceVista. Sie können Ihre Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' 
-*/
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
 
 /* places.footnot.2 */
@@ -1936,7 +1957,7 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
-/* troubleshooting.title */
+/* No comment provided by engineer. */
 "Troubleshooting" = "Problembehandlung";
 
 /* No comment provided by engineer. */
@@ -1979,8 +2000,7 @@
 "Units of Measure" = "Maßeinheiten";
 
 /* Motion status: unknow
-   poi.unknown 
-*/
+   poi.unknown */
 "Unknown" = "Unbekannt";
 
 /* No comment provided by engineer. */
@@ -2116,6 +2136,9 @@
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista speichert Kartendaten, um den Daten- und Akkuverbrauch zu reduzieren. Nach dem Löschen gespeicherter Kartendaten muss VoiceVista diese erneut herunterladen.";
 
 /* No comment provided by engineer. */
+"VoiceVista synchronizes data via iCloud between devices. If you encounter issues with iCloud, you can reset the app to its freshly installed state." = "VoiceVista synchronisiert Daten über iCloud zwischen Geräten. Wenn Sie Probleme mit iCloud haben, können Sie die App auf den frisch installierten Zustand zurücksetzen.";
+
+/* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista konnte sich nicht mit Ihren Kopfhörern verbinden. Bitte versuchen Sie es später erneut.";
 
 /* No comment provided by engineer. */
@@ -2125,8 +2148,7 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* Motion status: walking
-   Type 1 for navigation transport 
-*/
+   Type 1 for navigation transport */
 "Walking" = "Gehen";
 
 /* No comment provided by engineer. */
