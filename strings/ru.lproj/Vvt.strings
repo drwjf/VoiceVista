@@ -64,7 +64,7 @@
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Маршрутов удалено";
 
-/* %@ is the count of restored routers */
+/* %@ is the count of restored routes */
 "%@ Routes Restored" = "%@ Маршрутов восстановлено";
 
 /* %@ to indicate the number of seconds between street name announcements */
@@ -1103,6 +1103,8 @@
 "Latitude or (Latitude, Longitude) or Plus codes" = "Широта или (широта, долгота) или коды Google Plus";
 
 /* No comment provided by engineer. */
+"Latitude: %1$@, Longitude: %2$@" = "Широта: %1$@, Долгота: %2$@";
+
 /* No comment provided by engineer. */
 "List Intersections Ahead" = "Список перекрёстков впереди";
 
@@ -2250,6 +2252,12 @@
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "Вы можете использовать обьект ротор «Действия» на кнопках для выполнения дополнительных действий.";
+
+/* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "Вы не можете удалить маркер, пока он является текущим маяком.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "Вы не можете удалить маршрут, пока он предоставляет руководство.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Вы рассчитали путевые точки этого маршрута.";

@@ -20,7 +20,7 @@
 /* %@ is the count of restored markers */
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 /* %@ is count of deleted routes */
-/* %@ is the count of restored routers */
+/* %@ is the count of restored routes */
 /* %@ to indicate the number of seconds between street name announcements */
 /* %@ is count of calculated steps */
 /* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
@@ -2042,6 +2042,12 @@
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "يمكنك استخدام دوار الإجراءات على الأزرار لتنفيذ إجراءات إضافية.";
+
+/* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "لا يمكنك حذف علامة أثناء كونها المرشد الحالي.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "لا يمكنك حذف مسار أثناء تقديم الإرشادات.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "لقد قمت بحساب نقاط الطريق لهذا الطريق.";

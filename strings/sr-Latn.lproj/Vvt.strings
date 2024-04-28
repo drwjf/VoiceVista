@@ -64,7 +64,7 @@
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Руте избрисане";
 
-/* %@ is the count of restored routers */
+/* %@ is the count of restored routes */
 "%@ Routes Restored" = "%@ Руте су враћене";
 
 /* %@ to indicate the number of seconds between street name announcements */
@@ -1103,6 +1103,8 @@
 "Latitude or (Latitude, Longitude) or Plus codes" = "Geografska širina ili (geografska širina, geografska dužina) ili plus kodovi";
 
 /* No comment provided by engineer. */
+"Latitude: %1$@, Longitude: %2$@" = "Geografska širina: %1$@, Geografska dužina: %2$@";
+
 /* No comment provided by engineer. */
 "List Intersections Ahead" = "Наведите раскрснице испред";
 
@@ -2250,6 +2252,12 @@
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "Rotor radnji na dugmadima možete da koristite da biste izvršili dodatne radnje.";
+
+/* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "Ne možete izbrisati označivač dok je to trenutni far.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "Ne možete izbrisati rutu dok ona obezbeđuje smernice.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Izračunali ste putne tačke ove rute.";
