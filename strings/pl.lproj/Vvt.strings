@@ -64,7 +64,7 @@
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Trasy usunięte";
 
-/* %@ is the count of restored routers */
+/* %@ is the count of restored routes */
 "%@ Routes Restored" = "%@ Trasy przywrócone";
 
 /* %@ to indicate the number of seconds between street name announcements */
@@ -1103,6 +1103,8 @@
 "Latitude or (Latitude, Longitude) or Plus codes" = "Kody szerokości lub (szerokości, długości geograficznej) lub Plus";
 
 /* No comment provided by engineer. */
+"Latitude: %1$@, Longitude: %2$@" = "Szerokość geograficzna: %1$@, Długość geograficzna: %2$@";
+
 /* No comment provided by engineer. */
 "List Intersections Ahead" = "Lista skrzyżowań przed nami";
 
@@ -2250,6 +2252,12 @@
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "Możesz użyć zestawu operacji na przyciskach, aby wykonać dodatkowe akcje.";
+
+/* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "Nie można usunąć znacznika, gdy jest on bieżącym sygnałem nawigacyjnym.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "Nie można usunąć trasy, gdy jest ona prowadzona.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Obliczyłeś punkty orientacyjne tej trasy.";

@@ -64,7 +64,7 @@
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rotalar Silindi";
 
-/* %@ is the count of restored routers */
+/* %@ is the count of restored routes */
 "%@ Routes Restored" = "%@ Rotalar Geri Yüklendi";
 
 /* %@ to indicate the number of seconds between street name announcements */
@@ -1103,6 +1103,8 @@
 "Latitude or (Latitude, Longitude) or Plus codes" = "Enlem veya (Enlem, Boylam) veya Artı kodları";
 
 /* No comment provided by engineer. */
+"Latitude: %1$@, Longitude: %2$@" = "Enlem: %1$@, Boylam: %2$@";
+
 /* No comment provided by engineer. */
 "List Intersections Ahead" = "İlerideki Kavşakları Listele";
 
@@ -2250,6 +2252,12 @@
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "Ek eylemler gerçekleştirmek için düğmelerdeki eylemler rotorunu kullanabilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "Geçerli işaret olan bir işaretçiyi silemezsiniz.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "Rehberlik sağlarken bir rotayı silemezsiniz.";
 
 /* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
