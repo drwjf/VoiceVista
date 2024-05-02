@@ -50,10 +50,10 @@
 "%@ Markers Deleted" = "%@ Indicatori eliminati";
 
 /* %@ is count of imported markers */
-"%@ Markers Imported from Blindsquare Backup" = "%@ Marker importati da Blindsquare Backup";
+"%@ Markers Imported from Blindsquare Backup" = "%@ Indicatori importati dal backup Blindsquare";
 
 /* %@ is count of imported markers */
-"%@ Markers Imported from GPX File" = "%@ Marker importati dal file GPX";
+"%@ Markers Imported from GPX File" = "%@ indicatori importati dal file GPX";
 
 /* %@ is the count of restored markers */
 "%@ Markers Restored" = "%@ Indicatori ripristinati";
@@ -95,7 +95,7 @@
 "%@, goes right in roundabout" = "%@, è sulla destra alla rotonda";
 
 /* No comment provided by engineer. */
-"'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "'Ripristina' ripristinerà l'app allo stato appena installato e questa azione non può essere annullata!";
+"'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "'Reimposta' ripristinerà l'app allo stato originale e questa azione non può essere annullata!";
 
 /* No comment provided by engineer. */
 "[Reverse]" = "[Reverse]";
@@ -134,7 +134,7 @@
 "Add a Route" = "Aggiungi un percorso";
 
 /* No comment provided by engineer. */
-"Add Current Location as Waypoint" = "Aggiungi la posizione corrente come punto di passaggio";
+"Add Current Location as Waypoint" = "Aggiungi la posizione corrente come waypoint";
 
 /* No comment provided by engineer. */
 "Add Marker" = "Aggiungi indicatore";
@@ -149,7 +149,7 @@
 "Add Waypoints" = "Aggiungi waypoint";
 
 /* No comment provided by engineer. */
-"Add Waypoints from Markers" = "Aggiunta di waypoint dai marcatori";
+"Add Waypoints from Markers" = "Aggiungi waypoint dagli indicatori";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Aggiungi waypoint in modalità briciole di pane";
@@ -176,7 +176,7 @@
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Dopo aver aggiunto Comandi rapidi di Siri, sarai in grado di usare la tua voce per richiamarli anche quando VoiceVista non è in esecuzione.";
 
 /* No comment provided by engineer. */
-"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "Dopo essere passato alla modalità breadcrumb, VoiceVista registrerà un nuovo punto di passaggio nella posizione quando tocchi il pulsante. Tutti i nuovi waypoint su questo percorso verranno nominati automaticamente.";
+"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "Dopo essere passato alla modalità breadcrumb, VoiceVista registrerà un nuovo waypoint nella posizione in cui tocchi il pulsante. Tutti i nuovi waypoint su questo percorso verranno nominati automaticamente.";
 
 /* directions.direction.ahead */
 "ahead" = "davanti";
@@ -440,7 +440,7 @@
 "Breadcrumb Mode" = "Modalità briciole di pane";
 
 /* No comment provided by engineer. */
-"Breadcrumb Waypoint Recorded" = "Waypoint breadcrumb registrato";
+"Breadcrumb Waypoint Recorded" = "Waypoint registrato";
 
 /* No comment provided by engineer. */
 "Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "I breadcrumb qui sono una serie di waypoint registrati che tracciano il percorso. Questi punti di passaggio sono simili alla scia di briciole di pane lasciate da Hansel e Gretel nella famosa fiaba, da cui il nome.";
@@ -518,7 +518,7 @@
 "Change House Number Time Interval" = "Stabilisci ogni quanto ricevere informazioni sul numero civico";
 
 /* No comment provided by engineer. */
-"Change or Remove" = "Modificare o rimuovere";
+"Change or Remove" = "Modifica o rimuovi";
 
 /* No comment provided by engineer. */
 "Change POI Range Multiplier" = "Modifica il moltiplicatore di intervallo POI";
@@ -533,7 +533,7 @@
 "Chat Group" = "Gruppo chat";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Controlla lo stato delle auricolari";
+"Check Headphones Status" = "Controlla lo stato degli auricolari";
 
 /* No comment provided by engineer. */
 "Check Your Headphones" = "Controlla gli auricolari";
@@ -632,10 +632,10 @@
 "Delete a Route?" = "Eliminare un percorso?";
 
 /* No comment provided by engineer. */
-"Delete All Markers" = "Elimina tutti i marcatori";
+"Delete All Markers" = "Elimina tutti gli indicatori";
 
 /* No comment provided by engineer. */
-"Delete All Markers?" = "Eliminare tutti i marcatori?";
+"Delete All Markers?" = "Eliminare tutti gli indicatori?";
 
 /* No comment provided by engineer. */
 "Delete All Routes" = "Elimina tutti i percorsi";
@@ -650,7 +650,7 @@
 "Delete Marker %@?" = "Eliminare l'indicatore %@?";
 
 /* No comment provided by engineer. */
-"Delete Waypoint" = "Elimina punto di passaggio";
+"Delete Waypoint" = "Elimina waypoint";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Sei uscito dalla rotonda. Ora sei in %@";
@@ -695,7 +695,7 @@
 "Distance: %@ ." = "Distanza: %@ .";
 
 /* No comment provided by engineer. */
-"Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Vuoi sostituirlo? La sostituzione di questo percorso sostituirà anche i punti di passaggio utilizzati in questo percorso.";
+"Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Vuoi sostituirlo? La sostituzione di questo percorso provocherà anche quella dei waypoint utilizzati in questo percorso.";
 
 /* No comment provided by engineer. */
 "Done" = "Fatto";
@@ -719,7 +719,7 @@
 "Double tap to include unnamed roads" = "Tocca due volte per includere strade senza nome";
 
 /* No comment provided by engineer. */
-"Double tap to mute all automatic callouts." = "Tocca due volte per disattivare tutte le didascalie automatiche.";
+"Double tap to mute all automatic callouts." = "Tocca due volte per disattivare tutti gli avvisi automatici.";
 
 /* No comment provided by engineer. */
 "Double tap to mute the audio beacon." = "Tocca due volte per disattivare il suono dell'audiofaro.";
@@ -743,7 +743,7 @@
 "Double tap to stop monitoring now" = "Tocca due volte per interrompere il monitoraggio adesso";
 
 /* No comment provided by engineer. */
-"Double tap to unmute all automatic callouts." = "Tocca due volte per riattivare tutte le didascalie automatiche.";
+"Double tap to unmute all automatic callouts." = "Tocca due volte per riattivare tutti gli avvisi automatici.";
 
 /* No comment provided by engineer. */
 "Double tap to unmute the audio beacon." = "Tocca due volte per attivare il suono dell'audiofaro.";
@@ -767,7 +767,7 @@
 "Edit Route Name" = "Modifica nome percorso";
 
 /* No comment provided by engineer. */
-"Edit Waypoint Name" = "Modifica nome punto di passaggio";
+"Edit Waypoint Name" = "Modifica nome waypoint";
 
 /* No comment provided by engineer. */
 "Edit Waypoints" = "Modifica waypoint";
@@ -821,7 +821,7 @@
 "Factor %@" = "Fattore %@";
 
 /* No comment provided by engineer. */
-"Failed to Backup Markers" = "Impossibile eseguire il backup dei marcatori";
+"Failed to Backup Markers" = "Impossibile eseguire il backup degli indicatori";
 
 /* No comment provided by engineer. */
 "Failed to Backup Routes" = "Impossibile eseguire il backup dei percorsi";
@@ -842,7 +842,7 @@
 "Failed to Import Route" = "Impossibile importare il percorso";
 
 /* No comment provided by engineer. */
-"Failed to Restore Markers" = "Impossibile ripristinare i marcatori";
+"Failed to Restore Markers" = "Impossibile ripristinare gli indicatori";
 
 /* No comment provided by engineer. */
 "Failed to Restore Routes" = "Impossibile ripristinare i percorsi";
@@ -1106,7 +1106,7 @@
 "Latitude: %1$@, Longitude: %2$@" = "Latitudine: %1$@, Longitudine: %2$@";
 
 /* No comment provided by engineer. */
-"List Intersections Ahead" = "Elenca le intersezioni successive";
+"List Intersections Ahead" = "Elenca gli incroci davanti a te";
 
 /* No comment provided by engineer. */
 "List Intersections Nearby" = "Elenca incroci nelle vicinanze";
@@ -1181,7 +1181,7 @@
 "Markers" = "Indicatori";
 
 /* No comment provided by engineer. */
-"Markers Ahead" = "Marcatori avanti";
+"Markers Ahead" = "Indicatori davanti a te";
 
 /* No comment provided by engineer. */
 "Markers Nearby" = "Indicatori nelle vicinanze";
@@ -1435,7 +1435,7 @@
 "Pick Markers" = "Scegli indicatori";
 
 /* No comment provided by engineer. */
-"Pin to Top" = "Fissa verso l'alto";
+"Pin to Top" = "Fissa in alto";
 
 /* beacon.styles.ping */
 "Ping" = "Tintinnio";
@@ -1562,10 +1562,10 @@
 "Reset iCloud Data" = "Ripristina i dati di iCloud";
 
 /* No comment provided by engineer. */
-"Reset iCloud Data?" = "Ripristina i dati di iCloud?";
+"Reset iCloud Data?" = "Ripristinare i dati di iCloud?";
 
 /* No comment provided by engineer. */
-"Restore Markers" = "Ripristina marcatori";
+"Restore Markers" = "Ripristina indicatori";
 
 /* No comment provided by engineer. */
 "Restore Routes" = "Ripristina percorsi";
@@ -2046,7 +2046,7 @@
 "Unnamed Roads" = "Strade senza nome";
 
 /* No comment provided by engineer. */
-"Unpin from Top" = "Sblocca dall'alto";
+"Unpin from Top" = "Rimuovi fissa verso l'alto";
 
 /* No comment provided by engineer. */
 "Update Current Route to Circular" = "Aggiorna il percorso corrente a Circolare";
