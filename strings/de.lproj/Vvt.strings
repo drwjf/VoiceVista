@@ -1,4 +1,4 @@
-﻿/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
+/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
 "%1$@ about %2$@" = "%1$@ in etwa %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
@@ -348,6 +348,9 @@
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatische Ansagen";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Einstellungen für automatische Callouts";
 
 /* Type 2 for navigation transport */
 "Automobile" = "Auto";
@@ -753,6 +756,9 @@
 
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Ziehen Sie die Karte, um die Koordinaten zu ändern.";
+
+/* No comment provided by engineer. */
+"DRIVING SCENARIO" = "FAHR-SZENARIO";
 
 /* beacon.styles.drop */
 "Drop" = "Tropfen";
@@ -1196,6 +1202,12 @@
 "Monitoring %@" = "Überwache %@";
 
 /* No comment provided by engineer. */
+"Monitoring Callouts Switches" = "Überwachen von Callouts-Switches";
+
+/* No comment provided by engineer. */
+"Monitoring Settings" = "Monitoring-Einstellungen";
+
+/* No comment provided by engineer. */
 "Motion & Fitness" = "Bewegung & Fitness";
 
 /* No comment provided by engineer. */
@@ -1211,8 +1223,7 @@
 "Mute Beacon" = "Signal stummschalten";
 
 /* directions.my_location
-   ui.action_button.my_location 
-*/
+   ui.action_button.my_location */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1234,19 +1245,31 @@
 "Near address %@" = "Nächste Adresse %@";
 
 /* No comment provided by engineer. */
-"Nearby house numbers" = "Hausnummern in der Nähe";
+"Nearby Bus Stops" = "Bushaltestellen in der Nähe";
 
 /* No comment provided by engineer. */
-"Nearby intersections" = "Kreuzungen in der Nähe";
+"Nearby House Numbers" = "Hausnummern in der Nähe";
+
+/* No comment provided by engineer. */
+"Nearby Information Points" = "Informationspunkte in der Nähe";
+
+/* No comment provided by engineer. */
+"Nearby Intersections" = "Kreuzungen in der Nähe";
+
+/* No comment provided by engineer. */
+"Nearby Landmarks" = "Sehenswürdigkeiten in der Nähe";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Markierungen in der Nähe";
 
 /* No comment provided by engineer. */
-"Nearby shops, restaurants, etc." = "Geschäfte und Restaurants in der Nähe";
+"Nearby Mobility Facilities and Hubs" = "Mobilitätseinrichtungen und -knotenpunkte in der Nähe";
 
 /* No comment provided by engineer. */
-"Nearby transportation facilities and hubs" = "Nahegelegene Verkehrsinfrastruktur";
+"Nearby Places" = "Orte in der Nähe";
+
+/* No comment provided by engineer. */
+"Nearby Safety Spots and Areas" = "Sicherheitsstellen und -bereiche in der Nähe";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 "Nearest road, %1$@, is %2$@ %3$@" = "Nächste Straße, %1$@, ist %2$@ %3$@";
@@ -1273,8 +1296,7 @@
 "New waypoints will be named automatically and added to route %@." = "Neue Wegpunkte werden automatisch benannt und der Route %@ hinzugefügt.";
 
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name 
-*/
+   Notification, %@ intersection name */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1467,8 +1489,7 @@
 "Please enter a route name." = "Bitte geben Sie den Namen der Route ein.";
 
 /* permissions.alert.message.1
-   permissions.alert.message.2 
-*/
+   permissions.alert.message.2 */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
@@ -1691,8 +1712,7 @@
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Sie erhalten eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
 /* settings.screen_title
-   settings.title 
-*/
+   settings.title */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1792,8 +1812,7 @@
 "Start Monitoring" = "Überwachen einschalten";
 
 /* user_activity.start_route.title
-   voice.action.start_route 
-*/
+   voice.action.start_route */
 "Start Route" = "Route starten";
 
 /* user_activity.street_preview.title */
@@ -1841,6 +1860,12 @@
 /* No comment provided by engineer. */
 "Summary" = "Zusammenfassung";
 
+/* No comment provided by engineer. */
+"Surrounding Callouts Switches" = "Umliegende Callout-Schalter";
+
+/* No comment provided by engineer. */
+"Surrounding Settings" = "Umgebungseinstellungen";
+
 /* vicinity.title */
 "Surroundings" = "Umgebung";
 
@@ -1858,6 +1883,9 @@
 
 /* No comment provided by engineer. */
 "Tap the button in the top right corner to toggle the preview of unnamed roads on or off." = "Tippen Sie auf die Taste oben rechts, um umzuschalten, ob unbenannte Straßen in der Straßenvorschau berücksichtigt werden sollen.";
+
+/* No comment provided by engineer. */
+"Tap the refresh button in the top right corner to recalculate relative directions based on the current direction." = "Tippen Sie auf die Schaltfläche 'Aktualisieren' in der oberen rechten Ecke, um die relativen Richtungen basierend auf der aktuellen Richtung neu zu berechnen.";
 
 /* permissionmanager.alert.test */
 "Test Location" = "Teststandort";
@@ -1935,8 +1963,7 @@
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihre Kopfhörer von VoiceVista. Sie können Ihre Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' 
-*/
+   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
 
 /* places.footnot.2 */
@@ -2024,8 +2051,7 @@
 "Units of Measure" = "Maßeinheiten";
 
 /* Motion status: unknow
-   poi.unknown 
-*/
+   poi.unknown */
 "Unknown" = "Unbekannt";
 
 /* No comment provided by engineer. */
@@ -2173,9 +2199,11 @@
 "Wake Up When I Leave" = "Aktivieren, wenn ich gehe";
 
 /* Motion status: walking
-   Type 1 for navigation transport 
-*/
+   Type 1 for navigation transport */
 "Walking" = "Gehen";
+
+/* No comment provided by engineer. */
+"WALKING SCENARIO" = "WALKING-SZENARIO";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Wegpunkt";
