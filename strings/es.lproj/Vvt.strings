@@ -67,14 +67,11 @@
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Rutas importadas";
 
-/* %@ to indicate the number of seconds between street name announcements */
+/* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ segundos";
 
 /* %@ is count of calculated steps */
 "%@ steps" = "%@ pasos";
-
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
-"%@ Waypoints Reached, Last Waypoint Nearby" = "Puntos de ruta alcanzados de %@, último punto de ruta cerca";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, continúa hacia adelante";
@@ -123,9 +120,6 @@
 
 /* No comment provided by engineer. */
 "Activity" = "Actividad";
-
-/* behavior.scavenger_hunt.callout.started */
-"Activity started!" = "Actividad iniciada.";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "Añadir un marcador";
@@ -383,9 +377,6 @@
 "Beacon Auto-Mute Distance" = "Distancia de silencio automático de baliza";
 
 /* No comment provided by engineer. */
-"Beacon Frequency Factor" = "Factor de frecuencia de baliza";
-
-/* No comment provided by engineer. */
 "Beacon Not Started" = "Baliza no iniciada";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
@@ -449,6 +440,12 @@
 "Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Crear la lista de cruces cercanos puede llevar algún tiempo. Si no hay datos disponibles en este momento, inténtelo de nuevo más tarde.";
 
 /* No comment provided by engineer. */
+"Bus Stop" = "Parada de autobús";
+
+/* No comment provided by engineer. */
+"Bus Stops Range" = "Gama de paradas de autobús";
+
+/* No comment provided by engineer. */
 "Calculate a New Route" = "Calcular una nueva ruta";
 
 /* No comment provided by engineer. */
@@ -497,7 +494,7 @@
 "Change Beacon Auto-Mute Distance" = "Cambiar la distancia de silencio automático de la baliza";
 
 /* No comment provided by engineer. */
-"Change Beacon Frequency Factor" = "Cambiar el factor de frecuencia de la baliza";
+"Change Bus Stops Range" = "Cambiar rango de paradas de autobús";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Cambiar el estilo de los avisos de rumbo";
@@ -518,16 +515,34 @@
 "Change House Number Time Interval" = "Cambiar el intervalo de tiempo del número de casa";
 
 /* No comment provided by engineer. */
+"Change Infomration Points Range" = "Cambiar rango de puntos de información";
+
+/* No comment provided by engineer. */
+"Change Landmarks Range" = "Cambiar rango de puntos de referencia";
+
+/* No comment provided by engineer. */
+"Change Mobility Facilities Range" = "Cambiar gama de instalaciones de movilidad";
+
+/* No comment provided by engineer. */
+"Change Objects Range" = "Cambiar rango de objetos";
+
+/* No comment provided by engineer. */
 "Change or Remove" = "Cambiar o eliminar";
 
 /* No comment provided by engineer. */
-"Change POI Range Multiplier" = "Cambiar multiplicador de rango de puntos de interés";
+"Change Places Range" = "Cambiar rango de lugares";
+
+/* No comment provided by engineer. */
+"Change Safety Spots Range" = "Cambiar rango de puntos de seguridad";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Cambiar la acción al agitar";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Cambiar unidades de medida";
+
+/* No comment provided by engineer. */
+"Change Waypoint Sensing Distance" = "Cambiar la distancia de detección del waypoint";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Grupo de chat";
@@ -835,9 +850,6 @@
 /* No comment provided by engineer. */
 "Facing: %@" = "Mirando al: %@";
 
-/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
-"Factor %@" = "Factor %@";
-
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Error al calcular los puntos de referencia";
 
@@ -1073,6 +1085,12 @@
 "In vehicle speaking rate. How does this sound?" = "Velocidad de la voz en el modo vehículo. ¿Como suena esto?";
 
 /* No comment provided by engineer. */
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "En el modo caminar, los rangos definen distancias de llamada para los puntos de interés detectados en diferentes supercategorías. Estas autonomías se multiplican por seis en modo conducción.";
+
+/* No comment provided by engineer. */
+"Information Points Range" = "Gama de puntos de información";
+
+/* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Introducir latitud y longitud";
 
 /* No comment provided by engineer. */
@@ -1109,6 +1127,9 @@
 "Intersections Nearby" = "Cruces cercanos";
 
 /* No comment provided by engineer. */
+"INTERVALS" = "INTERVALOS";
+
+/* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Ruta de ruta de navegación no válida";
 
 /* No comment provided by engineer. */
@@ -1124,6 +1145,9 @@
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Parece que tu configuración de privacidad está impidiendo el uso de movimiento y fitness. Ajústalo en los ajustes del teléfono.";
 
 /* No comment provided by engineer. */
+"Landmarks Range" = "Rango de puntos de referencia";
+
+/* No comment provided by engineer. */
 "Language" = "Idioma";
 
 /* No comment provided by engineer. */
@@ -1131,6 +1155,9 @@
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Se eliminó el último punto de ruta de ruta de navegación";
+
+/* No comment provided by engineer. */
+"Last Waypoint Nearby" = "Último punto de referencia cercano";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Códigos de latitud o (latitud, longitud) o más";
@@ -1224,6 +1251,9 @@
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "Métrica (metros)";
+
+/* No comment provided by engineer. */
+"Mobility Facilities Range" = "Gama de Instalaciones de Movilidad";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Supervisión %@";
@@ -1417,6 +1447,9 @@
 "Nudging, %@ of original location" = "Posicionando, %@ de la ubicación original";
 
 /* No comment provided by engineer. */
+"Objects Range" = "Gama de objetos";
+
+/* No comment provided by engineer. */
 "On foot speaking rate" = "Velocidad de la voz en el modo a pie";
 
 /* voiceSetting.on_foot_rate */
@@ -1516,6 +1549,9 @@
 "Places Nearby" = "Lugares cercanos";
 
 /* No comment provided by engineer. */
+"Places Range" = "Rango de lugares";
+
+/* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Reproducir/Pausar: silencia cualquier aviso actual y, si la baliza de audio está configurada, alterna el audio de la baliza.";
 
 /* No comment provided by engineer. */
@@ -1545,9 +1581,6 @@
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "Distancia y rumbo del punto de interés";
-
-/* No comment provided by engineer. */
-"POI Range Multiplier" = "Multiplicador de rango de puntos de interés";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "AJUSTES";
@@ -1589,6 +1622,9 @@
 "Raise funds for development and operations" = "Recaudar fondos para el desarrollo y las operaciones";
 
 /* No comment provided by engineer. */
+"RANGES" = "RANGOS";
+
+/* No comment provided by engineer. */
 "Recent Callouts" = "Avisos recientes";
 
 /* No comment provided by engineer. */
@@ -1627,9 +1663,6 @@
 /* No comment provided by engineer. */
 "Restore to iCloud" = "Restaurar a iCloud";
 
-/* general.alert.resume */
-"Resume" = "Reanudar";
-
 /* preview.callout.previous */
 "Returning to previous intersection" = "Volviendo al cruce anterior";
 
@@ -1663,9 +1696,6 @@
 /* routes.callout.complete */
 "Route complete!" = "Ruta completada.";
 
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
-"Route Completed! %@" = "Ruta completada. %@";
-
 /* No comment provided by engineer. */
 "Route deleted" = "Ruta eliminada";
 
@@ -1681,9 +1711,6 @@
 /* No comment provided by engineer. */
 "Route Steps" = "Pasos de la ruta";
 
-/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
-"Route Stopped, %@" = "Ruta detenida, %@";
-
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Ruta actualizada a un viaje circular";
 
@@ -1695,6 +1722,9 @@
 
 /* Motion status: running */
 "Running" = "Correr";
+
+/* No comment provided by engineer. */
+"Safety Spots Range" = "Gama de puntos de seguridad";
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Guardar como marcador";
@@ -1927,9 +1957,6 @@
 "The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "La distancia de silenciamiento automático de la baliza define a qué distancia se silencia automáticamente la baliza de audio.";
 
 /* No comment provided by engineer. */
-"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "El factor de frecuencia de la baliza determina con qué frecuencia VoiceVista avisará de la distancia a ella. Un factor mayor da como resultado avisos más frecuentes.";
-
-/* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "La distancia entre los puntos de referencia no debe ser demasiado pequeña.";
 
 /* No comment provided by engineer. */
@@ -1942,10 +1969,10 @@
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "La actividad de movimiento puede ser estacionaria, caminar, correr, automotriz, andar en bicicleta o desconocida.";
 
 /* No comment provided by engineer. */
-"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "El multiplicador de rango de puntos de interés controla la distancia sobre la cual VoiceVista anunciará los puntos de interés cercanos.";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La función de inicio de monitoreo es similar a configurar una baliza en un destino, pero no recibirá actualizaciones de sonido o distancia hasta que se encuentre a una distancia específica. Básicamente, VoiceVista entra en modo de suspensión y se despierta sólo cuando estás cerca de tu destino.";
 
 /* No comment provided by engineer. */
-"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "La función de inicio de monitoreo es similar a configurar una baliza en un destino, pero no recibirá actualizaciones de sonido o distancia hasta que se encuentre a una distancia específica. Básicamente, VoiceVista entra en modo de suspensión y se despierta sólo cuando estás cerca de tu destino.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "La distancia de detección del punto de ruta define el rango en el que el punto de ruta actual enviará la guía de ruta al siguiente punto de ruta.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "No hay puntos de ruta de navegación en esta ruta.";
@@ -2249,6 +2276,9 @@
 
 /* No comment provided by engineer. */
 "Waypoint Name" = "Nombre del punto de referencia";
+
+/* No comment provided by engineer. */
+"Waypoint Sensing Distance" = "Distancia de detección del punto de referencia";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Puntos de referencia calculados";

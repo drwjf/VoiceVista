@@ -67,14 +67,11 @@
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Ruter importeret";
 
-/* %@ to indicate the number of seconds between street name announcements */
+/* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ sekunder";
 
 /* %@ is count of calculated steps */
 "%@ steps" = "%@ trin";
-
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
-"%@ Waypoints Reached, Last Waypoint Nearby" = "%@ rutepunkter nået. Sidste rutepunkt I nærheden";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, fortsætter lige ud";
@@ -123,9 +120,6 @@
 
 /* No comment provided by engineer. */
 "Activity" = "Aktivitet";
-
-/* behavior.scavenger_hunt.callout.started */
-"Activity started!" = "Aktiviteten er startet!";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "Tilføj et rutepunkt";
@@ -383,9 +377,6 @@
 "Beacon Auto-Mute Distance" = "Lydfyr automatisk dvale";
 
 /* No comment provided by engineer. */
-"Beacon Frequency Factor" = "Beacon Frequency Factor";
-
-/* No comment provided by engineer. */
 "Beacon Not Started" = "Beacon ikke startet";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
@@ -449,6 +440,12 @@
 "Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Det kan tage noget tid at bygge listen over kryds i nærheden. Hvis ingen data er tilgængelige i øjeblikket, bedes du prøve igen senere.";
 
 /* No comment provided by engineer. */
+"Bus Stop" = "Busstoppested";
+
+/* No comment provided by engineer. */
+"Bus Stops Range" = "Bus Stop Range";
+
+/* No comment provided by engineer. */
 "Calculate a New Route" = "Beregn en ny rute";
 
 /* No comment provided by engineer. */
@@ -497,7 +494,7 @@
 "Change Beacon Auto-Mute Distance" = "Skift afstand for automatisk dvale af lydfyr";
 
 /* No comment provided by engineer. */
-"Change Beacon Frequency Factor" = "Skift Beacon Frequency Factor";
+"Change Bus Stops Range" = "Skift rækkevidde til busstoppesteder";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Skift annoncering af retning";
@@ -518,16 +515,34 @@
 "Change House Number Time Interval" = "Skift tidsinterval for husnummer";
 
 /* No comment provided by engineer. */
+"Change Infomration Points Range" = "Skift interval for informationspunkter";
+
+/* No comment provided by engineer. */
+"Change Landmarks Range" = "Skift landmærkeområde";
+
+/* No comment provided by engineer. */
+"Change Mobility Facilities Range" = "Skift mobilitetsfaciliteter";
+
+/* No comment provided by engineer. */
+"Change Objects Range" = "Skift objektområde";
+
+/* No comment provided by engineer. */
 "Change or Remove" = "Skift eller fjern";
 
 /* No comment provided by engineer. */
-"Change POI Range Multiplier" = "Skift afstand for interessepunktsmultiplikator";
+"Change Places Range" = "Skift stedområde";
+
+/* No comment provided by engineer. */
+"Change Safety Spots Range" = "Skift udvalg af sikkerhedspunkter";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Skift handling når enheden rystes";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Skift måleenhed";
+
+/* No comment provided by engineer. */
+"Change Waypoint Sensing Distance" = "Skift waypoint-registreringsafstand";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Chat gruppe";
@@ -835,9 +850,6 @@
 /* No comment provided by engineer. */
 "Facing: %@" = "retning mod  : %@";
 
-/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
-"Factor %@" = "Faktor %@";
-
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Kunne ikke beregne rutepunkter";
 
@@ -1073,6 +1085,12 @@
 "In vehicle speaking rate. How does this sound?" = "Talehastighed i køretøjet. Hvordan lyder det her?";
 
 /* No comment provided by engineer. */
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "I gåtilstand definerer intervaller udkaldsafstande for detekterede POI'er i forskellige superkategorier. Disse intervaller ganges med seks i køretilstand.";
+
+/* No comment provided by engineer. */
+"Information Points Range" = "Information Point Range";
+
+/* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Indtast breddegrad og længdegrad";
 
 /* No comment provided by engineer. */
@@ -1109,6 +1127,9 @@
 "Intersections Nearby" = "Vejkryds i nærheden";
 
 /* No comment provided by engineer. */
+"INTERVALS" = "INTERVALLER";
+
+/* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Ugyldig brødkrummerute";
 
 /* No comment provided by engineer. */
@@ -1124,6 +1145,9 @@
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Det ser ud til, at dine privatlivsindstillinger forhindrer brugen af motion & fitness. Juster dette i iOS Indstillinger.";
 
 /* No comment provided by engineer. */
+"Landmarks Range" = "Landmark Range";
+
+/* No comment provided by engineer. */
 "Language" = "Sprog";
 
 /* No comment provided by engineer. */
@@ -1131,6 +1155,9 @@
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Sidste brødkrumme-waypoint blev fjernet";
+
+/* No comment provided by engineer. */
+"Last Waypoint Nearby" = "Sidste waypoint i nærheden";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude eller (Latitude, Longitude) eller Plus-koder";
@@ -1224,6 +1251,9 @@
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrisk (meter)";
+
+/* No comment provided by engineer. */
+"Mobility Facilities Range" = "Mobilitetsfaciliteter";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Overvågning %@";
@@ -1417,6 +1447,9 @@
 "Nudging, %@ of original location" = "Gå %@ af den oprindelige placering";
 
 /* No comment provided by engineer. */
+"Objects Range" = "Objektets rækkevidde";
+
+/* No comment provided by engineer. */
 "On foot speaking rate" = "Talehastighed til fods";
 
 /* voiceSetting.on_foot_rate */
@@ -1516,6 +1549,9 @@
 "Places Nearby" = "Steder i nærheden";
 
 /* No comment provided by engineer. */
+"Places Range" = "Steder Range";
+
+/* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Afspil/pause: Slå alle aktuelle beskeder fra, og hvis et lydsignal er indstillet, skal du skifte til lydfyret.";
 
 /* No comment provided by engineer. */
@@ -1545,9 +1581,6 @@
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "POI-afstand og -retning";
-
-/* No comment provided by engineer. */
-"POI Range Multiplier" = "POI Range Multiplikator";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "Indstillinger";
@@ -1589,6 +1622,9 @@
 "Raise funds for development and operations" = "Skaffe midler til udvikling og drift";
 
 /* No comment provided by engineer. */
+"RANGES" = "OMRÅDER";
+
+/* No comment provided by engineer. */
 "Recent Callouts" = "Seneste beskeder";
 
 /* No comment provided by engineer. */
@@ -1627,9 +1663,6 @@
 /* No comment provided by engineer. */
 "Restore to iCloud" = "Gendan til iCloud";
 
-/* general.alert.resume */
-"Resume" = "Genoptag";
-
 /* preview.callout.previous */
 "Returning to previous intersection" = "Vender tilbage til forrige kryds";
 
@@ -1663,9 +1696,6 @@
 /* routes.callout.complete */
 "Route complete!" = "Ruten er fuldført!";
 
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
-"Route Completed! %@" = "Rute afsluttet! %@";
-
 /* No comment provided by engineer. */
 "Route deleted" = "Ruten er slettet";
 
@@ -1681,9 +1711,6 @@
 /* No comment provided by engineer. */
 "Route Steps" = "Rutetrin";
 
-/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
-"Route Stopped, %@" = "Rute stoppet, %@";
-
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rute opdateret til en cirkulær rejse";
 
@@ -1695,6 +1722,9 @@
 
 /* Motion status: running */
 "Running" = "Løb";
+
+/* No comment provided by engineer. */
+"Safety Spots Range" = "Sikkerhedsspots række";
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Gem som mærke";
@@ -1927,9 +1957,6 @@
 "The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Afstand for automatisk dæmpning af lydfyr definerer, i hvilken afstand lydfyret automatisk slås fra.";
 
 /* No comment provided by engineer. */
-"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Beacon-frekvensfaktoren bestemmer, hvor ofte VoiceVista annoncerer lydfyret -afstanden. En større faktor resulterer i hyppigere beskeder.";
-
-/* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Afstanden mellem rutepunkter bør ikke være for lille.";
 
 /* No comment provided by engineer. */
@@ -1942,10 +1969,10 @@
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Bevægelsesaktiviteten kan være stationær, gå, løbe, bil, cykle eller ukendt.";
 
 /* No comment provided by engineer. */
-"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "POI-områdemultiplikatoren styrer den afstand VoiceVista vil annoncere interessepunkter .";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Startovervågningsfunktionen er beslægtet med at indstille et lydfyr på en destination, men du modtager ikke lyd- eller afstandsopdateringer, før du er en bestemt afstand væk. I det væsentlige går VoiceVista i dvale og vågner kun, når du er i nærheden af din destination.";
 
 /* No comment provided by engineer. */
-"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Startovervågningsfunktionen er beslægtet med at indstille et lydfyr på en destination, men du modtager ikke lyd- eller afstandsopdateringer, før du er en bestemt afstand væk. I det væsentlige går VoiceVista i dvale og vågner kun, når du er i nærheden af din destination.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Waypoint-registreringsafstanden definerer det område, hvor det aktuelle waypoint vil videresende rutevejledning til det næste waypoint.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Der er ingen brødkrumme-waypoints på denne rute.";
@@ -2249,6 +2276,9 @@
 
 /* No comment provided by engineer. */
 "Waypoint Name" = "Waypoint navn";
+
+/* No comment provided by engineer. */
+"Waypoint Sensing Distance" = "Waypoint-registreringsafstand";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Rutepunkter beregnet";
