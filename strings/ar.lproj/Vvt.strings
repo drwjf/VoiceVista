@@ -21,9 +21,8 @@
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 /* %@ is count of deleted routes */
 /* %@ is the count of imported routes */
-/* %@ to indicate the number of seconds between street name announcements */
+/* %@ to indicate the number of seconds between some announcements */
 /* %@ is count of calculated steps */
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
 /* directions.name_continues_ahead */
 /* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
 /* Notification, %@ street name, '<Pike Street>, goes left' */
@@ -57,9 +56,6 @@
 /* No comment provided by engineer. */
 /* No comment provided by engineer. */
 "Activity" = "نشاط";
-
-/* behavior.scavenger_hunt.callout.started */
-"Activity started!" = "بدأ النشاط!";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "أضف علامة";
@@ -299,9 +295,6 @@
 "Beacon Auto-Mute Distance" = "منارة مسافة كتم الصوت التلقائي";
 
 /* No comment provided by engineer. */
-"Beacon Frequency Factor" = "عامل تردد المنارة";
-
-/* No comment provided by engineer. */
 "Beacon Not Started" = "منارة لم تبدأ";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
@@ -357,6 +350,12 @@
 "Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "قد يستغرق إنشاء قائمة التقاطعات القريبة بعض الوقت. إذا لم تكن هناك بيانات متاحة في الوقت الحالي، يرجى المحاولة مرة أخرى لاحقًا.";
 
 /* No comment provided by engineer. */
+"Bus Stop" = "موقف باص";
+
+/* No comment provided by engineer. */
+"Bus Stops Range" = "نطاق مواقف الحافلات";
+
+/* No comment provided by engineer. */
 "Calculate a New Route" = "حساب مسار جديد";
 
 /* No comment provided by engineer. */
@@ -401,7 +400,7 @@
 "Change Beacon Auto-Mute Distance" = "تغيير مسافة كتم صوت المنارة تلقائيًا";
 
 /* No comment provided by engineer. */
-"Change Beacon Frequency Factor" = "تغيير عامل تردد المنارة";
+"Change Bus Stops Range" = "تغيير نطاق مواقف الحافلات";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "تغيير نمط اتجاه وسائل الشرح";
@@ -422,16 +421,34 @@
 "Change House Number Time Interval" = "تغيير الفاصل الزمني لرقم المنزل";
 
 /* No comment provided by engineer. */
+"Change Infomration Points Range" = "تغيير نطاق نقاط المعلومات";
+
+/* No comment provided by engineer. */
+"Change Landmarks Range" = "تغيير نطاق المعالم";
+
+/* No comment provided by engineer. */
+"Change Mobility Facilities Range" = "تغيير نطاق مرافق التنقل";
+
+/* No comment provided by engineer. */
+"Change Objects Range" = "تغيير نطاق الكائنات";
+
+/* No comment provided by engineer. */
 "Change or Remove" = "تغيير أو إزالة";
 
 /* No comment provided by engineer. */
-"Change POI Range Multiplier" = "تغيير مضاعف نطاق النقاط المهمة";
+"Change Places Range" = "تغيير نطاق الأماكن";
+
+/* No comment provided by engineer. */
+"Change Safety Spots Range" = "تغيير نطاق نقاط الأمان";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "تغيير استجابة حركة الاهتزاز";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "تغيير وحدات القياس";
+
+/* No comment provided by engineer. */
+"Change Waypoint Sensing Distance" = "تغيير مسافة استشعار نقطة الطريق";
 
 /* No comment provided by engineer. */
 "Chat Group" = "مجموعة الدردشة";
@@ -705,7 +722,6 @@
 "Facilities" = "مرافق";
 
 /* No comment provided by engineer. */
-/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "فشل حساب نقاط الطريق";
 
@@ -935,6 +951,12 @@
 "In vehicle speaking rate. How does this sound?" = "في معدل التحدث بالسيارة. ما رأيك؟";
 
 /* No comment provided by engineer. */
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "في وضع المشي، تحدد النطاقات مسافات الاستدعاء للنقاط المهمة المكتشفة في فئات فائقة مختلفة. يتم ضرب هذه النطاقات بستة في وضع القيادة.";
+
+/* No comment provided by engineer. */
+"Information Points Range" = "نطاق نقاط المعلومات";
+
+/* No comment provided by engineer. */
 "Input Latitude and Longitude" = "إدخال خط الطول وخط العرض";
 
 /* No comment provided by engineer. */
@@ -961,6 +983,9 @@
 "Intersections Nearby" = "التقاطعات القريبة";
 
 /* No comment provided by engineer. */
+"INTERVALS" = "فترات";
+
+/* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "مسار التنقل غير صالح";
 
 /* No comment provided by engineer. */
@@ -976,11 +1001,17 @@
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "يبدو أن إعدادات الخصوصية الخاصة بك تمنع استخدام الحركة واللياقة البدنية. يرجى ضبط هذا في تطبيق الإعدادات.";
 
 /* No comment provided by engineer. */
+"Landmarks Range" = "نطاق المعالم";
+
+/* No comment provided by engineer. */
 "Language" = "لغة";
 
 /* No comment provided by engineer. */
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "تمت إزالة آخر نقطة مسار للتنقل";
+
+/* No comment provided by engineer. */
+"Last Waypoint Nearby" = "آخر نقطة الطريق القريبة";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude أو (Latitude, Longitude) أو رموز Plus";
@@ -1070,6 +1101,9 @@
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "متري (متر)";
+
+/* No comment provided by engineer. */
+"Mobility Facilities Range" = "نطاق مرافق التنقل";
 
 /* %@ is the name of the monitoring location */
 /* No comment provided by engineer. */
@@ -1243,6 +1277,9 @@
 
 /* %@ is distance and directio. Example: Nudging, 15 meters northwest of original location */
 /* No comment provided by engineer. */
+"Objects Range" = "نطاق الكائنات";
+
+/* No comment provided by engineer. */
 "On foot speaking rate" = "سيرا على الأقدام معدل التحدث";
 
 /* voiceSetting.on_foot_rate */
@@ -1342,6 +1379,9 @@
 "Places Nearby" = "الأماكن القريبة";
 
 /* No comment provided by engineer. */
+"Places Range" = "نطاق الأماكن";
+
+/* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "تشغيل/إيقاف مؤقت: كتم صوت أي وسيلة شرح حالية وإذا تم تعيين الإشارة الصوتية، فقم بتبديل صوت الإشارة الصوتية.";
 
 /* No comment provided by engineer. */
@@ -1371,9 +1411,6 @@
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "مسافة POI واتجاهها";
-
-/* No comment provided by engineer. */
-"POI Range Multiplier" = "مضاعف نطاق النقاط المهمة";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "التفضيل";
@@ -1411,6 +1448,9 @@
 
 /* No comment provided by engineer. */
 "Raise funds for development and operations" = "جمع الأموال للتطوير والعمليات";
+
+/* No comment provided by engineer. */
+"RANGES" = "نطاقات";
 
 /* No comment provided by engineer. */
 "Recent Callouts" = "وسائل الشرح الأخيرة";
@@ -1451,9 +1491,6 @@
 /* No comment provided by engineer. */
 "Restore to iCloud" = "استعادة إلى iCloud";
 
-/* general.alert.resume */
-"Resume" = "سيرة ذاتية";
-
 /* preview.callout.previous */
 "Returning to previous intersection" = "العودة إلى التقاطع السابق";
 
@@ -1477,7 +1514,6 @@
 /* routes.callout.complete */
 "Route complete!" = "اكتمل الطريق!";
 
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
 /* No comment provided by engineer. */
 "Route deleted" = "تم حذف المسار";
 
@@ -1491,7 +1527,6 @@
 /* No comment provided by engineer. */
 "Route Steps" = "خطوات الطريق";
 
-/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "تم تحديث المسار إلى رحلة دائرية";
 
@@ -1503,6 +1538,9 @@
 
 /* Motion status: running */
 "Running" = "جري";
+
+/* No comment provided by engineer. */
+"Safety Spots Range" = "نطاق نقاط السلامة";
 
 /* No comment provided by engineer. */
 "Save as Marker" = "حفظ باسم ماركر";
@@ -1727,9 +1765,6 @@
 "The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "تحدد مسافة كتم صوت الإشارة التلقائية المسافة التي يتم فيها كتم صوت إشارة الصوت تلقائيًا.";
 
 /* No comment provided by engineer. */
-"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "يحدد عامل تردد الإشارة عدد المرات التي سيعلن فيها VoiceVista عن مسافة الإشارة. يؤدي العامل الأكبر إلى وسائل شرح أكثر تكرارًا.";
-
-/* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "يجب ألا تكون المسافة بين نقاط الطريق صغيرة جدًا.";
 
 /* No comment provided by engineer. */
@@ -1742,10 +1777,10 @@
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "يمكن أن يكون نشاط الحركة ثابتا أو مشيا أو جريا أو سيارة أو ركوب دراجات أو غير معروف.";
 
 /* No comment provided by engineer. */
-"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "يتحكم مضاعف نطاق النقاط المهمة في المسافة التي سيعلن عبرها VoiceVista عن النقاط المهمة القريبة.";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "تشبه وظيفة مراقبة البداية إعداد إشارة ضوئية على وجهة ما، لكنك لن تتلقى تحديثات صوتية أو المسافة حتى تكون على مسافة محددة. في الأساس، ينام VoiceVista ويستيقظ فقط عندما تكون بالقرب من وجهتك.";
 
 /* No comment provided by engineer. */
-"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "تشبه وظيفة مراقبة البداية إعداد إشارة ضوئية على وجهة ما، لكنك لن تتلقى تحديثات صوتية أو المسافة حتى تكون على مسافة محددة. في الأساس، ينام VoiceVista ويستيقظ فقط عندما تكون بالقرب من وجهتك.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "تحدد مسافة استشعار الإحداثية النطاق الذي ستقوم فيه نقطة الطريق الحالية بإعادة توجيه توجيه المسار إلى نقطة الطريق التالية.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "لا توجد نقاط طريق للتنقل في هذا الطريق.";
@@ -2037,6 +2072,9 @@
 
 /* No comment provided by engineer. */
 "Waypoint Name" = "اسم نقطة الطريق";
+
+/* No comment provided by engineer. */
+"Waypoint Sensing Distance" = "المسافة الاستشعار عن نقطة الطريق";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "نقاط الطريق المحسوبة";

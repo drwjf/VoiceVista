@@ -67,14 +67,11 @@
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Trasee importate";
 
-/* %@ to indicate the number of seconds between street name announcements */
+/* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ secunde";
 
 /* %@ is count of calculated steps */
 "%@ steps" = "%@ pași";
-
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
-"%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Puncte de trecere atinse, Ultimul punct de referință din apropiere";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, continuă înainte";
@@ -123,9 +120,6 @@
 
 /* No comment provided by engineer. */
 "Activity" = "Activitate";
-
-/* behavior.scavenger_hunt.callout.started */
-"Activity started!" = "Activitatea a început!";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "Adăugați un marcator";
@@ -383,9 +377,6 @@
 "Beacon Auto-Mute Distance" = "Distanța de dezactivare automată a farului";
 
 /* No comment provided by engineer. */
-"Beacon Frequency Factor" = "Factorul de frecvență al farului";
-
-/* No comment provided by engineer. */
 "Beacon Not Started" = "Beacon nu a început";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
@@ -449,6 +440,12 @@
 "Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Crearea listei de intersecții din apropiere poate dura ceva timp. Dacă nu există date disponibile în acest moment, vă rugăm să încercați din nou mai târziu.";
 
 /* No comment provided by engineer. */
+"Bus Stop" = "Stație de autobuz";
+
+/* No comment provided by engineer. */
+"Bus Stops Range" = "Gama de stații de autobuz";
+
+/* No comment provided by engineer. */
 "Calculate a New Route" = "Calculați o rută nouă";
 
 /* No comment provided by engineer. */
@@ -497,7 +494,7 @@
 "Change Beacon Auto-Mute Distance" = "Schimbați Distanța Auto-Mute Beacon";
 
 /* No comment provided by engineer. */
-"Change Beacon Frequency Factor" = "Modificați factorul de frecvență al farului";
+"Change Bus Stops Range" = "Schimbați intervalul de stații de autobuz";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Schimbați stilul direcției înștiințărilor";
@@ -518,16 +515,34 @@
 "Change House Number Time Interval" = "Schimbați intervalul de timp al numărului casei";
 
 /* No comment provided by engineer. */
+"Change Infomration Points Range" = "Modificați intervalul de puncte de informații";
+
+/* No comment provided by engineer. */
+"Change Landmarks Range" = "Modificați intervalul de repere";
+
+/* No comment provided by engineer. */
+"Change Mobility Facilities Range" = "Schimbați gama de facilități de mobilitate";
+
+/* No comment provided by engineer. */
+"Change Objects Range" = "Modificați intervalul obiectelor";
+
+/* No comment provided by engineer. */
 "Change or Remove" = "Modificarea sau eliminarea";
 
 /* No comment provided by engineer. */
-"Change POI Range Multiplier" = "Schimbați multiplicatorul intervalului POI";
+"Change Places Range" = "Schimbați intervalul de locuri";
+
+/* No comment provided by engineer. */
+"Change Safety Spots Range" = "Schimbați intervalul punctelor de siguranță";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Schimbați răspunsul la mișcare";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Schimbați unitățile de măsură";
+
+/* No comment provided by engineer. */
+"Change Waypoint Sensing Distance" = "Schimbați distanța de detectare a punctului de trecere";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Grup de chat";
@@ -835,9 +850,6 @@
 /* No comment provided by engineer. */
 "Facing: %@" = "Cu fața: %@";
 
-/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
-"Factor %@" = "Factorul %@";
-
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Nu s-au putut calcula punctele intermediare";
 
@@ -1073,6 +1085,12 @@
 "In vehicle speaking rate. How does this sound?" = "În rata de vorbire a vehiculului. Cum sună asta?";
 
 /* No comment provided by engineer. */
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "În modul de mers pe jos, intervalele definesc distanțele de apelare pentru POI detectate în diferite supercategorii. Aceste intervale sunt înmulțite cu șase în modul de conducere.";
+
+/* No comment provided by engineer. */
+"Information Points Range" = "Gama de puncte de informare";
+
+/* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Introduceți latitudine și longitudine";
 
 /* No comment provided by engineer. */
@@ -1109,6 +1127,9 @@
 "Intersections Nearby" = "Intersecții în apropiere";
 
 /* No comment provided by engineer. */
+"INTERVALS" = "INTERVALE";
+
+/* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Rută Breadcrumb nevalidă";
 
 /* No comment provided by engineer. */
@@ -1124,6 +1145,9 @@
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Se pare că setările dvs. de confidențialitate împiedică utilizarea mișcării și a fitnessului. Vă rugăm să ajustați acest lucru în aplicația Setări.";
 
 /* No comment provided by engineer. */
+"Landmarks Range" = "Gama de repere";
+
+/* No comment provided by engineer. */
 "Language" = "Limba";
 
 /* No comment provided by engineer. */
@@ -1131,6 +1155,9 @@
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Ultimul punct de trecere Breadcrumb a fost eliminat";
+
+/* No comment provided by engineer. */
+"Last Waypoint Nearby" = "Ultimul punct de trecere din apropiere";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Codurile Latitudine sau (Latitudine, Longitudine) sau Plus";
@@ -1224,6 +1251,9 @@
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metric (metri)";
+
+/* No comment provided by engineer. */
+"Mobility Facilities Range" = "Gama de facilităţi de mobilitate";
 
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "Monitorizarea %@";
@@ -1417,6 +1447,9 @@
 "Nudging, %@ of original location" = "Deplasare, %@ din locația originală";
 
 /* No comment provided by engineer. */
+"Objects Range" = "Gama de obiecte";
+
+/* No comment provided by engineer. */
 "On foot speaking rate" = "Rata vorbirii pe jos";
 
 /* voiceSetting.on_foot_rate */
@@ -1516,6 +1549,9 @@
 "Places Nearby" = "Locuri din apropiere";
 
 /* No comment provided by engineer. */
+"Places Range" = "Gama de locuri";
+
+/* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Redare/Pauză: dezactivați orice înștiințări curente și, dacă semnalizatorul audio este setat, comutați semnalul audio.";
 
 /* No comment provided by engineer. */
@@ -1545,9 +1581,6 @@
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "Distanța și direcția POI";
-
-/* No comment provided by engineer. */
-"POI Range Multiplier" = "Multiplicator de intervale de puncte de interes";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "PREFERINŢĂ";
@@ -1589,6 +1622,9 @@
 "Raise funds for development and operations" = "Strângeți fonduri pentru dezvoltare și operațiuni";
 
 /* No comment provided by engineer. */
+"RANGES" = "DOMENIILE";
+
+/* No comment provided by engineer. */
 "Recent Callouts" = "Înștiințări recente";
 
 /* No comment provided by engineer. */
@@ -1627,9 +1663,6 @@
 /* No comment provided by engineer. */
 "Restore to iCloud" = "Restaurarea pe iCloud";
 
-/* general.alert.resume */
-"Resume" = "Relua";
-
 /* preview.callout.previous */
 "Returning to previous intersection" = "Revenind la intersecția anterioară";
 
@@ -1663,9 +1696,6 @@
 /* routes.callout.complete */
 "Route complete!" = "Traseul finalizat!";
 
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
-"Route Completed! %@" = "Traseu finalizat! %@";
-
 /* No comment provided by engineer. */
 "Route deleted" = "Traseul a fost șters";
 
@@ -1681,9 +1711,6 @@
 /* No comment provided by engineer. */
 "Route Steps" = "Pași de traseu";
 
-/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
-"Route Stopped, %@" = "Traseu oprit, %@";
-
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Traseu actualizat la o călătorie circulară";
 
@@ -1695,6 +1722,9 @@
 
 /* Motion status: running */
 "Running" = "Alergare";
+
+/* No comment provided by engineer. */
+"Safety Spots Range" = "Gama puncte de siguranță";
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Salvați ca Marker";
@@ -1927,9 +1957,6 @@
 "The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Distanța de dezactivare automată a semnalizatorului definește la ce distanță este dezactivată automat semnalizatorul audio.";
 
 /* No comment provided by engineer. */
-"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "Factorul de frecvență al farului determină cât de des va anunța VoiceVista distanța farului. Un factor mai mare are ca rezultat înștiințări mai frecvente.";
-
-/* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Distanța dintre punctele de referință nu trebuie să fie prea mică.";
 
 /* No comment provided by engineer. */
@@ -1942,10 +1969,10 @@
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Activitatea de mișcare ar putea fi staționară, mersul pe jos, alergarea, auto, ciclismul sau necunoscută.";
 
 /* No comment provided by engineer. */
-"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "Multiplicatorul intervalului POI guvernează distanța la care VoiceVista va anunța POI-urile din apropiere.";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Funcția de monitorizare a pornirii este asemănătoare cu setarea unui far pe o destinație, dar nu veți primi actualizări de sunet sau distanță până când sunteți la o anumită distanță. În esență, VoiceVista se culcă și se trezește numai atunci când sunteți aproape de destinație.";
 
 /* No comment provided by engineer. */
-"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Funcția de monitorizare a pornirii este asemănătoare cu setarea unui far pe o destinație, dar nu veți primi actualizări de sunet sau distanță până când sunteți la o anumită distanță. În esență, VoiceVista se culcă și se trezește numai atunci când sunteți aproape de destinație.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Distanța de detectare a punctului de trecere definește intervalul la care punctul de trecere curent va transmite ghidarea rută către următorul punct de referință.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Nu există puncte de referință pe această rută.";
@@ -2249,6 +2276,9 @@
 
 /* No comment provided by engineer. */
 "Waypoint Name" = "Numele punctului de trecere";
+
+/* No comment provided by engineer. */
+"Waypoint Sensing Distance" = "Distanța de detectare a punctului de trecere";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Puncte intermediare calculate";
