@@ -49,14 +49,14 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ İşaretçiler Silindi";
 
+/* %@ is the count of imported markers */
+"%@ Markers Imported" = "%@ İçe Aktarılan İşaretçiler";
+
 /* %@ is count of imported markers */
 "%@ Markers Imported from Blindsquare Backup" = "Blindsquare Yedeklemesinden İçe Aktarılan %@ İşaretçiler";
 
 /* %@ is count of imported markers */
 "%@ Markers Imported from GPX File" = "%@ İşaretçiler GPX Dosyasından İçe Aktarıldı";
-
-/* %@ is the count of restored markers */
-"%@ Markers Restored" = "%@ İşaretleyiciler Geri Yüklendi";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ dönel kavşak";
@@ -64,17 +64,14 @@
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rotalar Silindi";
 
-/* %@ is the count of restored routers */
-"%@ Routes Restored" = "%@ Rotalar Geri Yüklendi";
+/* %@ is the count of imported routes */
+"%@ Routes Imported" = "%@ İçe Aktarılan Yollar";
 
-/* %@ to indicate the number of seconds between street name announcements */
+/* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ saniye";
 
 /* %@ is count of calculated steps */
 "%@ steps" = "%@ adımlar";
-
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is the number of waypoints reached, '3 Waypoints Reached, Last Waypoint Nearby' */
-"%@ Waypoints Reached, Last Waypoint Nearby" = "%@ Ara Noktaya Ulaşıldı, Yakınlardaki Son Ara Nokta";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, devam ediyor";
@@ -95,6 +92,9 @@
 "%@, goes right in roundabout" = "%@, döner kavşaktan sağa gider";
 
 /* No comment provided by engineer. */
+"'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "'Sıfırla', uygulamayı yeni yüklenen durumuna geri döndürür ve bu işlem geri alınamaz!";
+
+/* No comment provided by engineer. */
 "[Reverse]" = "[Tersi]";
 
 /* voice.settings.enhanced_available */
@@ -113,13 +113,13 @@
 "Absolute Direction" = "Mutlak Yön";
 
 /* No comment provided by engineer. */
+"Access to location is required to browse nearby intersections." = "Yakındaki kavşaklara göz atmak için konuma erişim gereklidir.";
+
+/* No comment provided by engineer. */
 "Accuracy: %@" = "Doğruluk: %@";
 
 /* No comment provided by engineer. */
 "Activity" = "Aktivite";
-
-/* behavior.scavenger_hunt.callout.started */
-"Activity started!" = "Etkinlik başladı!";
 
 /* No comment provided by engineer. */
 "Add a Marker" = "İşaretçi Ekle";
@@ -135,6 +135,9 @@
 
 /* No comment provided by engineer. */
 "Add Shortcut" = "Kısayol Ekle";
+
+/* No comment provided by engineer. */
+"Add Waypoint" = "Yol Noktası Ekle";
 
 /* No comment provided by engineer. */
 "Add Waypoints" = "Yol Noktası Ekle";
@@ -209,10 +212,10 @@
 "Altitude: %@" = "Rakım: %@";
 
 /* No comment provided by engineer. */
-"Annotataion" = "Ek açıklama";
-
-/* No comment provided by engineer. */
 "Annotation" = "Dipnot";
+
+/* Type 4 for navigation transport */
+"Any" = "Herhangi";
 
 /* No comment provided by engineer. */
 "Append reverse waypoints to the tail to make the route a circular journey." = "Rotayı dairesel bir yolculuk haline getirmek için kuyruğa ters yol noktaları ekleyin.";
@@ -353,10 +356,10 @@
 "Back" = "Geri";
 
 /* No comment provided by engineer. */
-"Backup Markers" = "Yedekleme İşaretleyicileri";
+"Backup and Restore" = "Yedekleme ve Geri Yükleme";
 
 /* No comment provided by engineer. */
-"Backup Routes" = "Yedekleme Rotaları";
+"Backup from iCloud" = "İCloud'dan yedekleme";
 
 /* placesNearyBy.category.7 */
 "Banks & ATMs" = "Bankalar ve ATM'ler";
@@ -372,9 +375,6 @@
 
 /* No comment provided by engineer. */
 "Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
-
-/* No comment provided by engineer. */
-"Beacon Frequency Factor" = "İşaret Frekans Faktörü";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "İşaret Başlatılmadı";
@@ -437,6 +437,15 @@
 "Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "Buradaki kırıntılar, yolu izleyen bir dizi kayıtlı ara noktadır. Bu ara noktalar, ünlü peri masalında Hansel ve Gretel'in bıraktığı ekmek kırıntılarının izine benziyor, dolayısıyla adı da buradan geliyor.";
 
 /* No comment provided by engineer. */
+"Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Yakındaki kavşak listesinin oluşturulması biraz zaman alabilir. Şu anda herhangi bir veri mevcut değilse, lütfen daha sonra tekrar deneyin.";
+
+/* No comment provided by engineer. */
+"Bus Stop" = "Otobüs durağı";
+
+/* No comment provided by engineer. */
+"Bus Stops Range" = "Otobüs Durakları Aralığı";
+
+/* No comment provided by engineer. */
 "Calculate a New Route" = "Yeni Bir Rota Hesaplayın";
 
 /* No comment provided by engineer. */
@@ -485,7 +494,7 @@
 "Change Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesini Değiştir";
 
 /* No comment provided by engineer. */
-"Change Beacon Frequency Factor" = "İşaret Frekans Faktörünü Değiştir";
+"Change Bus Stops Range" = "Otobüs Durakları Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Callouts Direction Style" = "Açıklama Yönü Stilini Değiştir";
@@ -506,16 +515,34 @@
 "Change House Number Time Interval" = "Ev Numarası Zaman Aralığını Değiştir";
 
 /* No comment provided by engineer. */
+"Change Infomration Points Range" = "Bilgi Puanı Aralığını Değiştir";
+
+/* No comment provided by engineer. */
+"Change Landmarks Range" = "Yer İşaretleri Aralığını Değiştir";
+
+/* No comment provided by engineer. */
+"Change Mobility Facilities Range" = "Mobilite Olanakları Aralığını Değiştir";
+
+/* No comment provided by engineer. */
+"Change Objects Range" = "Nesne Aralığını Değiştir";
+
+/* No comment provided by engineer. */
 "Change or Remove" = "Değiştir veya Kaldır";
 
 /* No comment provided by engineer. */
-"Change POI Range Multiplier" = "POI Aralığı Çarpanını Değiştir";
+"Change Places Range" = "Yer Aralığını Değiştir";
+
+/* No comment provided by engineer. */
+"Change Safety Spots Range" = "Güvenlik Noktaları Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Sarsıntı Hareketi Tepkisini Değiştir";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
+
+/* No comment provided by engineer. */
+"Change Waypoint Sensing Distance" = "Yol Noktası Algılama Mesafesini Değiştir";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Sohbet Grubu";
@@ -606,6 +633,9 @@
 
 /* Motion status: cycling */
 "Cycling" = "Bisikletçilik";
+
+/* No comment provided by engineer. */
+"DATA MANAGEMENT" = "VERİ YÖNETİMİ";
 
 /* settings.direction.style.degrees */
 "Degrees Direction" = "Derece Yönü";
@@ -739,6 +769,9 @@
 /* map.hint.2 */
 "Drag the map to change the coordinates" = "Koordinatları değiştirmek için haritayı sürükleyin";
 
+/* No comment provided by engineer. */
+"DRIVING SCENARIO" = "SÜRÜŞ SENARYOSU";
+
 /* beacon.styles.drop */
 "Drop" = "Düşürmek";
 
@@ -794,6 +827,21 @@
 "Explore Nearby" = "Yakındakileri Keşfet";
 
 /* No comment provided by engineer. */
+"EXPLORING SCENARIO" = "SENARYOYU KEŞFETME";
+
+/* No comment provided by engineer. */
+"Export and Import" = "İhracat ve İthalat";
+
+/* No comment provided by engineer. */
+"Export Markers Backup File (.vmb)" = "İşaretçileri Dışa Aktar Yedekleme Dosyası (.vmb)";
+
+/* No comment provided by engineer. */
+"Export Routes Backup File (.vrb)" = "Rotaları Dışa Aktar Yedekleme Dosyası (.vrb)";
+
+/* No comment provided by engineer. */
+"EXPORT TO FILE" = "DOSYAYA AKTAR";
+
+/* No comment provided by engineer. */
 "External Maps App" = "Harici Haritalar Uygulaması";
 
 /* placesNearyBy.category.11 */
@@ -802,15 +850,6 @@
 /* No comment provided by engineer. */
 "Facing: %@" = "Karşı karşıya: %@";
 
-/* %@ to indicate the frequency factor of distance to beacon callouts. A larger factor means more frequent callout. */
-"Factor %@" = "Faktör %@";
-
-/* No comment provided by engineer. */
-"Failed to Backup Markers" = "İşaretçiler Yedeklenemedi";
-
-/* No comment provided by engineer. */
-"Failed to Backup Routes" = "Rotalar Yedeklenemedi";
-
 /* No comment provided by engineer. */
 "Failed to Calculate Waypoints" = "Ara noktalar hesaplanamadı";
 
@@ -818,7 +857,16 @@
 "Failed to Calculate Waypoints for the Route" = "Rota için Yol Noktaları Hesaplanamadı";
 
 /* No comment provided by engineer. */
+"Failed to Export Markers" = "İşaretçiler dışa aktarılamadı";
+
+/* No comment provided by engineer. */
+"Failed to Export Routes" = "Yollar dışa aktarılamadı";
+
+/* No comment provided by engineer. */
 "Failed to Get Your Current Location" = "Mevcut Konumunuz Alınamadı";
+
+/* No comment provided by engineer. */
+"Failed to Import GPX File" = "GPX dosyası içe aktarılamadı";
 
 /* No comment provided by engineer. */
 "Failed to Import Markers" = "İşaretçiler İçe Aktarılamadı";
@@ -827,10 +875,7 @@
 "Failed to Import Route" = "Rota İçe Aktarılamadı";
 
 /* No comment provided by engineer. */
-"Failed to Restore Markers" = "İşaretçiler Geri Yüklenemedi";
-
-/* No comment provided by engineer. */
-"Failed to Restore Routes" = "Rotalar Geri Yüklenemedi";
+"Failed to Import Routes" = "Yollar içe aktarılamadı";
 
 /* No comment provided by engineer. */
 "FAQ" = "SSS";
@@ -864,9 +909,6 @@
 
 /* No comment provided by engineer. */
 "Generate a New Reverse Route" = "Yeni Bir Ters Rota Oluştur";
-
-/* No comment provided by engineer. */
-"Generate Route from GPX File" = "GPX Dosyasından Rota Oluştur";
 
 /* No comment provided by engineer. */
 "Generated by Algorithm" = "Algoritma tarafından oluşturuldu";
@@ -955,6 +997,9 @@
 /* user_activity.intersections.title */
 "Hear Intersections Ahead" = "İlerideki Kavşakları Duyun";
 
+/* No comment provided by engineer. */
+"Hear Intersections Nearby" = "Yakındaki Kavşakları Duyun";
+
 /* user_activity.nearby_markers.title */
 "Hear Markers Nearby" = "Yakındaki İşaretçileri Duy";
 
@@ -983,6 +1028,12 @@
 "I've shared a VoiceVista route with you! '%@'" = "Sizinle bir VoiceVista rotası paylaştım! '%@'";
 
 /* No comment provided by engineer. */
+"iCloud data backed up to the device successfully." = "iCloud verileri cihaza başarıyla yedeklendi.";
+
+/* No comment provided by engineer. */
+"iCloud data restored from the device successfully." = "iCloud verileri cihazdan başarıyla geri yüklendi.";
+
+/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Bu uygulama için iCloud saklama alanı dolu. Yeni bir işaretçi oluşturmak için mevcut işaretçilerinizden bazılarını kaldırarak yer açmanız gerekecek.";
 
 /* No comment provided by engineer. */
@@ -1004,16 +1055,25 @@
 "Imperial (Feet)" = "İmparatorluk (Ayak)";
 
 /* No comment provided by engineer. */
-"Import Markers from BlindSquare Backup" = "İşaretleyicileri BlindSquare Backup'tan İçe Aktar";
+"Import Blindsquare Backup File" = "Blindsquare Yedekleme Dosyasını İçe Aktar";
 
 /* No comment provided by engineer. */
-"Import Markers from GPX File" = "İşaretçileri GPX Dosyasından İçe Aktar";
+"IMPORT FROM FILE" = "DOSYADAN İÇE AKTAR";
+
+/* No comment provided by engineer. */
+"Import GPX File" = "GPX Dosyasını İçe Aktar";
+
+/* No comment provided by engineer. */
+"Import Markers Backup File (.vmb)" = "İşaretçileri İçe Aktar Yedekleme Dosyası (.vmb)";
+
+/* No comment provided by engineer. */
+"Import Routes Backup File (.vrb)" = "İçeri Aktarma Yolları Yedekleme Dosyası (.vrb)";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Soundscape Rota Dosyasını İçe Aktar";
 
 /* No comment provided by engineer. */
-"Import VoiceVista Route File" = "VoiceVista Rota Dosyasını İçe Aktar";
+"Import VoiceVista Route File (.vvr)" = "VoiceVista Yol Dosyasını (.vvr) İçe Aktar";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "ARAÇ İÇİ KONUŞMA ORANI";
@@ -1025,7 +1085,10 @@
 "In vehicle speaking rate. How does this sound?" = "Araç içi konuşma hızı. Bu kulağa nasıl geliyor?";
 
 /* No comment provided by engineer. */
-"Include unnamed roads for intersections nearby, intersections ahead, street previews and location exploration" = "Yakındaki kavşaklar, ilerideki kavşaklar, sokak önizlemeleri ve konum keşfi için adsız yolları dahil edin";
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Yürüyüş modunda aralıklar, farklı üst kategorilerde tespit edilen İÇN'ler için çağrı mesafelerini tanımlar. Sürüş modunda bu aralıklar altıyla çarpılır.";
+
+/* No comment provided by engineer. */
+"Information Points Range" = "Bilgi Noktaları Aralığı";
 
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Giriş Enlem ve Boylam";
@@ -1035,6 +1098,9 @@
 
 /* callouts.intersection_callout */
 "Intersection Callout" = "Kavşak Açıklama";
+
+/* No comment provided by engineer. */
+"INTERSECTION DETAIL" = "KAVŞAK DETAYI";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "%1$@ %2$@ ile kesişme";
@@ -1061,6 +1127,9 @@
 "Intersections Nearby" = "Yakındaki kavşaklar";
 
 /* No comment provided by engineer. */
+"INTERVALS" = "ARALIKLAR";
+
+/* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Geçersiz İçerik Haritası Rotası";
 
 /* No comment provided by engineer. */
@@ -1076,16 +1145,31 @@
 "It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Görünüşe göre gizlilik ayarlarınız hareket ve fitness kullanımını engelliyor. Lütfen bunu Ayarlar uygulamasında ayarlayın.";
 
 /* No comment provided by engineer. */
+"Landmarks Range" = "Yer İşaretleri Aralığı";
+
+/* No comment provided by engineer. */
 "Language" = "Dil";
+
+/* No comment provided by engineer. */
+"Last backup on this device: %@" = "Bu cihazdaki son yedekleme: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Son Kırıntı Ara Noktası Kaldırıldı";
 
 /* No comment provided by engineer. */
+"Last Waypoint Nearby" = "Yakındaki Son Yol Noktası";
+
+/* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Enlem veya (Enlem, Boylam) veya Artı kodları";
 
 /* No comment provided by engineer. */
-"Latitude: %@, Longitude: %@" = "Enlem: %1$@, Boylam: %2$@";
+"Latitude: %1$@, Longitude: %2$@" = "Enlem: %1$@, Boylam: %2$@";
+
+/* No comment provided by engineer. */
+"List Intersections Ahead" = "İlerideki Kavşakları Listele";
+
+/* No comment provided by engineer. */
+"List Intersections Nearby" = "Yakındaki Kavşakları Listele";
 
 /* location */
 "Location" = "Konum";
@@ -1168,8 +1252,17 @@
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrik (Metre)";
 
+/* No comment provided by engineer. */
+"Mobility Facilities Range" = "Mobilite Olanakları Aralığı";
+
 /* %@ is the name of the monitoring location */
 "Monitoring %@" = "%@ izleniyor";
+
+/* No comment provided by engineer. */
+"Monitoring Callouts Switches" = "Belirtme Çizgisi Anahtarlarını İzleme";
+
+/* No comment provided by engineer. */
+"Monitoring Settings" = "İzleme Ayarları";
 
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Hareket ve Fitness";
@@ -1209,19 +1302,34 @@
 "Near address %@" = "%@ adresinin yakınında";
 
 /* No comment provided by engineer. */
-"Nearby house numbers" = "Yakındaki ev numaraları";
+"Nearby Bus Stops" = "Yakındaki Otobüs Durakları";
 
 /* No comment provided by engineer. */
-"Nearby intersections" = "Yakındaki kavşaklar";
+"Nearby House Numbers" = "Yakındaki Ev Numaraları";
+
+/* No comment provided by engineer. */
+"Nearby Information Points" = "Yakındaki Bilgi Noktaları";
+
+/* No comment provided by engineer. */
+"Nearby Intersections" = "Yakındaki Kavşaklar";
+
+/* No comment provided by engineer. */
+"Nearby Landmarks" = "Yakındaki Merkezi Noktalar";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Yakındaki İşaretçiler";
 
 /* No comment provided by engineer. */
-"Nearby shops, restaurants, etc." = "Yakındaki mağazalar, restoranlar vb.";
+"Nearby Mobility Facilities" = "Yakındaki Hareketlilik Tesisleri";
 
 /* No comment provided by engineer. */
-"Nearby transportation facilities and hubs" = "Yakındaki ulaşım tesisleri ve merkezleri";
+"Nearby Objects" = "Yakındaki Nesneler";
+
+/* No comment provided by engineer. */
+"Nearby Places" = "Yakındaki Yerler";
+
+/* No comment provided by engineer. */
+"Nearby Safety Spots" = "Yakındaki Güvenlik Noktaları";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 "Nearest road, %1$@, is %2$@ %3$@" = "En yakın yol, %1$@, %2$@ %3$@";
@@ -1243,6 +1351,9 @@
 
 /* No comment provided by engineer. */
 "Network Connection Required" = "Ağ Bağlantısı Gerekli";
+
+/* No comment provided by engineer. */
+"Never" = "Hiç";
 
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Yeni ara noktalar otomatik olarak adlandırılacak ve %@ rotasına eklenecek.";
@@ -1267,10 +1378,16 @@
 "No audio beacon set" = "Sesli işaret seti yok";
 
 /* No comment provided by engineer. */
+"No backup data found on the device." = "Cihazda yedek veri bulunamadı.";
+
+/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "İnternet bağlantısı yok; bazı işlevler çevrimdışı modda sınırlıdır.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Son açıklama yok";
+
+/* No comment provided by engineer. */
+"No location is set for monitoring." = "İzleme için herhangi bir konum ayarlanmadı.";
 
 /* location_detail.default.annotation */
 "No marker annotation" = "İşaretçi notu yok";
@@ -1288,10 +1405,10 @@
 "No Precise Location and Motion Permission" = "Kesin konum ve hareket izni yok";
 
 /* No comment provided by engineer. */
-"No waypoint data found in the GPX file." = "GPX dosyasında ara nokta verisi bulunamadı.";
+"No Waypoints Defined" = "Tanımlanmış Yol Noktası Yok";
 
 /* No comment provided by engineer. */
-"No Waypoints Defined" = "Tanımlanmış Yol Noktası Yok";
+"No Waypoints or Tracks Data Found in the GPX File" = "GPX dosyasında ara nokta veya parça verisi bulunamadı";
 
 /* settings.direction.style.none */
 "None" = "Hiçbiri";
@@ -1330,6 +1447,9 @@
 "Nudging, %@ of original location" = "Sürükleme, orijinal konumun %@'i";
 
 /* No comment provided by engineer. */
+"Objects Range" = "Nesne Aralığı";
+
+/* No comment provided by engineer. */
 "On foot speaking rate" = "Ayakta konuşma hızı";
 
 /* voiceSetting.on_foot_rate */
@@ -1337,9 +1457,6 @@
 
 /* No comment provided by engineer. */
 "On foot speaking rate. How does this sound?" = "Ayakta konuşma hızı. Bu kulağa nasıl geliyor?";
-
-/* Mode 2 for path calculation */
-"Only Use Last Waypoint" = "Yalnızca Son Yol Noktasını Kullan";
 
 /* No comment provided by engineer. */
 "Oops! Something went wrong." = "Hata! Bir şeyler yanlış gitti.";
@@ -1432,6 +1549,9 @@
 "Places Nearby" = "Yakındaki Yerler";
 
 /* No comment provided by engineer. */
+"Places Range" = "Yer Aralığı";
+
+/* No comment provided by engineer. */
 "Play/Pause: Mute any current callouts and if the audio beacon is set, toggle the beacon audio." = "Oynat/Duraklat: Geçerli tüm çağrıları kapatın ve sesli işaret ayarlanmışsa işaret sesini açın.";
 
 /* No comment provided by engineer. */
@@ -1461,9 +1581,6 @@
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "POI Mesafe ve Yön";
-
-/* No comment provided by engineer. */
-"POI Range Multiplier" = "POI Aralığı Çarpanı";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "TERCİH";
@@ -1505,6 +1622,9 @@
 "Raise funds for development and operations" = "Geliştirme ve operasyonlar için fon toplayın";
 
 /* No comment provided by engineer. */
+"RANGES" = "ARALIKLAR";
+
+/* No comment provided by engineer. */
 "Recent Callouts" = "Son Açıklamalar";
 
 /* No comment provided by engineer. */
@@ -1532,13 +1652,16 @@
 "Replace" = "Yer değiştirmek";
 
 /* No comment provided by engineer. */
-"Restore Markers" = "İşaretçileri Geri Yükle";
+"Reset" = "Sıfırlama";
 
 /* No comment provided by engineer. */
-"Restore Routes" = "Rotaları Geri Yükle";
+"Reset Everything" = "Her Şeyi Sıfırla";
 
-/* general.alert.resume */
-"Resume" = "Sürdürmek";
+/* No comment provided by engineer. */
+"Reset iCloud Data?" = "iCloud Verileri Sıfırlansın mı?";
+
+/* No comment provided by engineer. */
+"Restore to iCloud" = "iCloud'a geri yükle";
 
 /* preview.callout.previous */
 "Returning to previous intersection" = "Önceki kavşağa dönüş";
@@ -1573,9 +1696,6 @@
 /* routes.callout.complete */
 "Route complete!" = "Rota tamamlandı!";
 
-/* Accessibility Text displayed for when a route ends and the route was completed, %@ is name of the route, 'Route Completed! Home to Work' */
-"Route Completed! %@" = "Rota Tamamlandı! %@";
-
 /* No comment provided by engineer. */
 "Route deleted" = "Rota silindi";
 
@@ -1591,9 +1711,6 @@
 /* No comment provided by engineer. */
 "Route Steps" = "Rota Adımları";
 
-/* Text displayed for when a route ends but the route was not completed, %@ is name of the route, 'Route Ended, Home to Work' */
-"Route Stopped, %@" = "Rota Durduruldu, %@";
-
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rota Dairesel Yolculuk olarak Güncellendi";
 
@@ -1605,6 +1722,9 @@
 
 /* Motion status: running */
 "Running" = "Koşma";
+
+/* No comment provided by engineer. */
+"Safety Spots Range" = "Güvenlik Noktaları Aralığı";
 
 /* No comment provided by engineer. */
 "Save as Marker" = "İşaretçi olarak kaydet";
@@ -1623,6 +1743,9 @@
 
 /* search.title */
 "Search" = "Aramak";
+
+/* No comment provided by engineer. */
+"Search a Place" = "Bir Yer Arayın";
 
 /* user_activity.search.title */
 "Search in VoiceVista" = "VoiceVista'da ara";
@@ -1700,7 +1823,7 @@
 /* vicinity.sleep */
 "Sleep" = "Uyumak";
 
-/* sleep.sleeping */
+/* No comment provided by engineer. */
 "Sleeping" = "Uyuyor";
 
 /* No comment provided by engineer. */
@@ -1783,6 +1906,9 @@
 "Stop Route" = "Rotayı Durdur";
 
 /* No comment provided by engineer. */
+"Stop route" = "Rotayı durdur";
+
+/* No comment provided by engineer. */
 "Street Preview" = "Sokak Önizlemesi";
 
 /* preview.callout.paused */
@@ -1797,6 +1923,12 @@
 /* No comment provided by engineer. */
 "Summary" = "Özet";
 
+/* No comment provided by engineer. */
+"Surrounding Callouts Switches" = "Çevreleyen Belirtme Çizgileri Anahtarları";
+
+/* No comment provided by engineer. */
+"Surrounding Settings" = "Çevre Ayarları";
+
 /* vicinity.title */
 "Surroundings" = "çevre";
 
@@ -1809,14 +1941,20 @@
 /* No comment provided by engineer. */
 "Tap the button below to wake up VoiceVista." = "VoiceVista'yı uyandırmak için aşağıdaki düğmeye dokunun.";
 
+/* No comment provided by engineer. */
+"Tap the button in the top right corner to toggle the exploration of unnamed roads on or off." = "Adsız yolların keşfini açmak veya kapatmak için sağ üst köşedeki düğmeye dokunun.";
+
+/* No comment provided by engineer. */
+"Tap the button in the top right corner to toggle the preview of unnamed roads on or off." = "Adsız yolların önizlemesini açmak veya kapatmak için sağ üst köşedeki düğmeye dokunun.";
+
+/* No comment provided by engineer. */
+"Tap the refresh button in the top right corner to recalculate relative directions based on the current direction." = "Göreli yönleri geçerli yöne göre yeniden hesaplamak için sağ üst köşedeki yenile düğmesine dokunun.";
+
 /* permissionmanager.alert.test */
 "Test Location" = "Test Konumu";
 
 /* No comment provided by engineer. */
 "The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "İşaret ışığının otomatik susturulması mesafesi, ses işaretinin hangi mesafede otomatik olarak susturulacağını tanımlar.";
-
-/* No comment provided by engineer. */
-"The beacon frequency factor determines how often VoiceVista will announce the beacon distance. A larger factor results in more frequent callouts." = "İşaret frekansı faktörü, VoiceVista'nın işaret mesafesini ne sıklıkta duyuracağını belirler. Daha büyük bir faktör, daha sık açıklama yapılmasına neden olur.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Ara noktalar arasındaki mesafe çok küçük olmamalıdır.";
@@ -1831,10 +1969,10 @@
 "The motion activity could be stationary, walking, running, automotive, cycling, or unknown." = "Hareket aktivitesi hareketsiz, yürüme, koşma, otomotiv, bisiklete binme veya bilinmeyen olabilir.";
 
 /* No comment provided by engineer. */
-"The POI range multiplier governs the distance over which VoiceVista will announce nearby POIs." = "İÇN aralığı çarpanı, VoiceVista'nın yakındaki İÇN'leri duyuracağı mesafeyi yönetir.";
+"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "İzlemeyi başlatma işlevi, bir varış noktasına bir işaret koymaya benzer, ancak belirli bir mesafe uzakta olana kadar ses veya mesafe güncellemeleri almazsınız. Temel olarak, VoiceVista yalnızca hedefinize yaklaştığınızda uykuya dalar ve uyanır.";
 
 /* No comment provided by engineer. */
-"The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "İzlemeyi başlatma işlevi, bir varış noktasına bir işaret koymaya benzer, ancak belirli bir mesafe uzakta olana kadar ses veya mesafe güncellemeleri almazsınız. Temel olarak, VoiceVista yalnızca hedefinize yaklaştığınızda uykuya dalar ve uyanır.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Yol noktası algılama mesafesi, mevcut yol noktasının rota rehberliğini bir sonraki yol noktasına ileteceği aralığı tanımlar.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Bu rotada kırıntı ara noktaları yoktur.";
@@ -1930,7 +2068,7 @@
 /* placesNearyBy.category.5 */
 "Transportation" = "Toplu taşıma";
 
-/* troubleshooting.title */
+/* No comment provided by engineer. */
 "Troubleshooting" = "Sorun giderme";
 
 /* No comment provided by engineer. */
@@ -2021,9 +2159,6 @@
 /* voice.settings.enhanced_available.button */
 "Use Current Version" = "Geçerli Sürümü Kullan";
 
-/* Mode 1 for path calculation */
-"Use Each Waypoint Separately" = "Her Yol Noktasını Ayrı Ayrı Kullanın";
-
 /* No comment provided by engineer. */
 "Use the button in the top-right corner to save as a marker." = "İşaretçi olarak kaydetmek için sağ üst köşedeki düğmeyi kullanın.";
 
@@ -2085,6 +2220,9 @@
 "VoiceVista is connecting to your headphones. One moment..." = "VoiceVista kulaklığınıza bağlanıyor. Bir dakika...";
 
 /* No comment provided by engineer. */
+"VoiceVista is currently in sleep mode." = "VoiceVista şu anda uyku modunda.";
+
+/* No comment provided by engineer. */
 "VoiceVista is currently in sleep mode. In this mode, VoiceVista does not use Location Services or download data." = "VoiceVista şu anda uyku modunda. Bu modda VoiceVista, Konum Servislerini kullanmaz veya veri indirmez.";
 
 /* No comment provided by engineer. */
@@ -2106,7 +2244,13 @@
 "VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista, AirPod'larınızı arıyor. Telefonunuza bağlı olduklarından emin olun.";
 
 /* No comment provided by engineer. */
+"VoiceVista is unable to locate your current position at the moment." = "VoiceVista şu anda mevcut konumunuzu bulamıyor.";
+
+/* No comment provided by engineer. */
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista, verileri ve pil tüketimini azaltmak için harita verilerini saklar. Saklanan harita verilerinin temizlenmesi, VoiceVista'nın verileri yeniden indirmesini gerektirecektir.";
+
+/* No comment provided by engineer. */
+"VoiceVista synchronizes data via iCloud between devices. If you encounter issues with iCloud, you can reset the app to its freshly installed state." = "VoiceVista, verileri iCloud aracılığıyla cihazlar arasında senkronize eder. iCloud ile ilgili sorunlarla karşılaşırsanız, uygulamayı yeni yüklenmiş durumuna sıfırlayabilirsiniz.";
 
 /* No comment provided by engineer. */
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista kulaklığınıza bağlanamadı. Lütfen daha sonra tekrar deneyiniz.";
@@ -2122,6 +2266,9 @@
 "Walking" = "Yürüme";
 
 /* No comment provided by engineer. */
+"WALKING SCENARIO" = "YÜRÜME SENARYOSU";
+
+/* No comment provided by engineer. */
 "Waypoint" = "ara nokta";
 
 /* location_detail.title.default */
@@ -2129,6 +2276,9 @@
 
 /* No comment provided by engineer. */
 "Waypoint Name" = "Yol Noktası Adı";
+
+/* No comment provided by engineer. */
+"Waypoint Sensing Distance" = "Yol Noktası Algılama Mesafesi";
 
 /* No comment provided by engineer. */
 "Waypoints Calculated" = "Hesaplanan Yol Noktaları";
@@ -2182,6 +2332,18 @@
 "You are already within the monitoring region." = "Zaten izleme bölgesindesiniz.";
 
 /* No comment provided by engineer. */
+"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "İşaretçileri ve rotaları iCloud'dan bu aygıta yedekleyebilirsiniz. Bazen senkronizasyon sorunları nedeniyle iCloud verileri kaybolabilir. Bu gibi durumlarda, cihazdan iCloud'a geri yüklemeyi deneyebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Araçtayken VoiceVista'nın otomatik olarak nasıl uyaracağını özelleştirebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can customize how VoiceVista automatically announces when you are walking." = "Yürürken VoiceVista'nın otomatik olarak nasıl uyaracağını özelleştirebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "'Çevremdekiler' ve 'Önümüzdekiler' komutlarına dokunduğunuzda VoiceVista'nın hangi İÇN kategorilerini duyuracağını özelleştirebilirsiniz.";
+
+/* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Artık kavşaklar ve yerler arasında ışınlanarak sanal yerleri keşfedebilirsiniz.";
 
 /* No comment provided by engineer. */
@@ -2206,10 +2368,19 @@
 "You can use the actions rotor on the buttons to perform additional actions." = "Ek eylemler gerçekleştirmek için düğmelerdeki eylemler rotorunu kullanabilirsiniz.";
 
 /* No comment provided by engineer. */
+"You can't delete a marker while it is the current beacon." = "Geçerli işaret olan bir işaretçiyi silemezsiniz.";
+
+/* No comment provided by engineer. */
+"You can't delete a route while it is providing guidance." = "Rehberlik sağlarken bir rotayı silemezsiniz.";
+
+/* No comment provided by engineer. */
 "You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Bu rotanın ara noktalarını değiştirdiniz.";
+
+/* No comment provided by engineer. */
+"You have no markers and routes data that need to be backed up." = "Yedeklenmesi gereken işaretçileriniz ve rota verileriniz yok.";
 
 /* No comment provided by engineer. */
 "You have not calculated waypoints of this route." = "Bu rotanın ara noktalarını hesaplamadınız.";
@@ -2240,6 +2411,9 @@
 
 /* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "AirPods'unuz kullanıma hazır, böylece telefonunuzu cebinize koyup gidebilirsiniz! VoiceVista, telefonu elinizde tutmanıza gerek kalmaması için başınızın yönünü takip ediyor.";
+
+/* No comment provided by engineer. */
+"Your current location is not the first waypoint defined in the route. Please select one of the nearest waypoints to start the route." = "Geçerli konumunuz rotada tanımlanan ilk ara nokta değil. Rotayı başlatmak için lütfen en yakın ara noktalardan birini seçin.";
 
 /* No comment provided by engineer. */
 "Your headphones connected successfully to VoiceVista but must be calibrated before use. VoiceVista will inform you whenever headphones calibration is needed, for example each time you turn it on." = "Kulaklığınız VoiceVista'ya başarıyla bağlandı ancak kullanmadan önce kalibre edilmelidir. VoiceVista, kulaklık kalibrasyonu gerektiğinde, örneğin her açtığınızda sizi bilgilendirecektir.";
