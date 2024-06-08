@@ -58,8 +58,14 @@
 /* %@ is count of imported markers */
 "%@ Markers Imported from GPX File" = "%@ Markører importeret fra GPX-fil";
 
+/* No comment provided by engineer. */
+"%@ minutes" = "%@ minutter";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "Rundkørslen %@";
+
+/* %@ is count of calculated routes */
+"%@ routes calculated" = "%@ ruter beregnet";
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Ruter slettet";
@@ -69,9 +75,6 @@
 
 /* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ sekunder";
-
-/* %@ is count of calculated steps */
-"%@ steps" = "%@ trin";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, fortsætter lige ud";
@@ -349,6 +352,12 @@
 /* Motion status: automotive */
 "Automotive" = "Køretøj";
 
+/* No comment provided by engineer. */
+"Avoid Highways" = "Undgå motorveje";
+
+/* No comment provided by engineer. */
+"Avoid Tolls" = "Undgå vejafgifter";
+
 /* directions.direction.away */
 "away" = "væk";
 
@@ -450,9 +459,6 @@
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Beregn en ny rute";
-
-/* No comment provided by engineer. */
-"Calculate by Navigation Algorithm" = "Beregn ved hjælp af navigationsalgoritme";
 
 /* No comment provided by engineer. */
 "Calculate Waypoints" = "Beregn rutepunkter";
@@ -584,9 +590,6 @@
 "Complete Configuring" = "Fuldfører konfigurationen";
 
 /* No comment provided by engineer. */
-"Confirm the Route" = "Bekræft ruten";
-
-/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Tillykke! Dine AirPods er klar til brug, så du kan lægge telefonen i lommen og gå! VoiceVista vil nu spore, hvilken retning dit hoved vender i, så du ikke behøver at holde telefonen i hånden. Et enkelt klik på knappen på hovedtelefonerne slår lydfyret til eller fra, et dobbeltklik sender en lydbesked om din placering, og et tredobbelt klik gentager den sidste lydbesked.";
 
 /* No comment provided by engineer. */
@@ -682,6 +685,9 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Destination: %@ .";
 
+/* No comment provided by engineer. */
+"Details of Route %@" = "Detaljer om rute %@";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Retning: %@ .";
 
@@ -714,6 +720,9 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Afstand: %@ .";
+
+/* No comment provided by engineer. */
+"DISTANCES" = "AFSTAND";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Vil du erstatte det? Udskiftning af denne rute vil også erstatte de waypoints, der bruges på denne rute.";
@@ -857,10 +866,7 @@
 "Facing: %@" = "retning mod  : %@";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Waypoints" = "Kunne ikke beregne rutepunkter";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for the Route" = "Kunne ikke beregne waypoints for ruten";
+"Failed to Calculate Navigation Routes" = "Kunne ikke beregne navigationsruter";
 
 /* No comment provided by engineer. */
 "Failed to Export Markers" = "Kunne ikke eksportere markører";
@@ -1308,10 +1314,13 @@
 "Navigation instructions" = "Navigationsvejledning";
 
 /* No comment provided by engineer. */
-"NAVIGATION INSTRUCTIONS" = "NAVIGATIONSINSTRUKTIONER";
+"Navigation Instructions" = "Instruktioner til navigation";
 
 /* No comment provided by engineer. */
-"Navigation Instructions" = "Instruktioner til navigation";
+"NAVIGATION ROUTES" = "NAVIGATIONSRUTER";
+
+/* No comment provided by engineer. */
+"Navigation Routes Calculated" = "Navigationsruter beregnet";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigations vendepunkt";
@@ -1595,12 +1604,6 @@
 "Please grant permission in Settings app." = "Giv venligst tilladelse i appen Indstillinger.";
 
 /* No comment provided by engineer. */
-"Please specify destination location." = "Angiv destinationsplacering.";
-
-/* No comment provided by engineer. */
-"Please specify starting location." = "Angiv et startsted.";
-
-/* No comment provided by engineer. */
 "Please try later." = "Prøv venligst .";
 
 /* No comment provided by engineer. */
@@ -1737,9 +1740,6 @@
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Rutenavn: %@ .";
-
-/* No comment provided by engineer. */
-"Route Steps" = "Rutetrin";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rute opdateret til en cirkulær rejse";
@@ -2101,6 +2101,9 @@
 /* Type 3 for navigation transport */
 "Transit" = "Transit";
 
+/* No comment provided by engineer. */
+"Transport Type" = "Transport Type";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
@@ -2130,6 +2133,9 @@
 
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Hvis du slår denne indstilling til, afbrydes beskeder og anden lyd fra VoiceVista, når du begynder at bruge en anden medieapp. Du kan vende tilbage til VoiceVista for at genoptage lydbeskeder.";
+
+/* No comment provided by engineer. */
+"TURNPOINT OPTIONS" = "MULIGHEDER FOR TURNPOINT";
 
 /* No comment provided by engineer. */
 "Turnpoint Sensing Distance" = "Vendepunktssensorafstand";
@@ -2212,9 +2218,6 @@
 
 /* No comment provided by engineer. */
 "View Detail" = "Se detaljer";
-
-/* No comment provided by engineer. */
-"View Steps" = "Se trin";
 
 /* No comment provided by engineer. */
 "Visit Web" = "Besøg Web";
@@ -2323,13 +2326,7 @@
 "Waypoint Sensing Distance" = "Waypoint-registreringsafstand";
 
 /* No comment provided by engineer. */
-"Waypoints Calculated" = "Rutepunkter beregnet";
-
-/* No comment provided by engineer. */
 "Waypoints Updated" = "Rutepunkter opdateret";
-
-/* general.error.location_services_find_location_error */
-"We are having trouble finding your current location." = "Vi har problemer med at finde din aktuelle placering.";
 
 /* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Vi har problemer med at finde din aktuelle position. Prøv igen senere.";
@@ -2416,16 +2413,10 @@
 "You can't delete a route while it is providing guidance." = "Du kan ikke slette en rute, mens den giver vejledning.";
 
 /* No comment provided by engineer. */
-"You have calculated waypoints of this route." = "Du har beregnet rutepunkter for denne rute.";
-
-/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Du har ændret rutepunkter på denne rute.";
 
 /* No comment provided by engineer. */
 "You have no markers and routes data that need to be backed up." = "Du har ingen markører og rutedata, der skal sikkerhedskopieres.";
-
-/* No comment provided by engineer. */
-"You have not calculated waypoints of this route." = "Du har ikke beregnet waypoints for denne rute.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Du bør kun bruge mærker fra nogen, du har tillid til.";
