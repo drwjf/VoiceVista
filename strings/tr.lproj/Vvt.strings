@@ -58,8 +58,14 @@
 /* %@ is count of imported markers */
 "%@ Markers Imported from GPX File" = "%@ İşaretçiler GPX Dosyasından İçe Aktarıldı";
 
+/* No comment provided by engineer. */
+"%@ minutes" = "%@ dakika";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ dönel kavşak";
+
+/* %@ is count of calculated routes */
+"%@ routes calculated" = "%@ rota hesaplandı";
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rotalar Silindi";
@@ -69,9 +75,6 @@
 
 /* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ saniye";
-
-/* %@ is count of calculated steps */
-"%@ steps" = "%@ adımlar";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, devam ediyor";
@@ -349,6 +352,12 @@
 /* Motion status: automotive */
 "Automotive" = "Otomotiv";
 
+/* No comment provided by engineer. */
+"Avoid Highways" = "Karayollarından Kaçının";
+
+/* No comment provided by engineer. */
+"Avoid Tolls" = "Geçiş Ücretlerinden Kaçının";
+
 /* directions.direction.away */
 "away" = "uzak";
 
@@ -450,9 +459,6 @@
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Yeni Bir Rota Hesaplayın";
-
-/* No comment provided by engineer. */
-"Calculate by Navigation Algorithm" = "Navigasyon Algoritmasına Göre Hesapla";
 
 /* No comment provided by engineer. */
 "Calculate Waypoints" = "Yol Noktalarını Hesapla";
@@ -584,9 +590,6 @@
 "Complete Configuring" = "Yapılandırmayı Tamamlayın";
 
 /* No comment provided by engineer. */
-"Confirm the Route" = "Rotayı Onaylayın";
-
-/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Tebrikler! AirPods'unuz kullanıma hazır, böylece telefonunuzu cebinize koyup gidebilirsiniz! VoiceVista artık başınızın yönünü takip edecek, böylece telefonu elinizde tutmanıza gerek kalmayacak. Kulaklık düğmesine tek tıklama işaretin sesini kapatır veya açar, çift tıklama konumunuzu belirtir ve üç kez tıklama son açıklamayı tekrarlar.";
 
 /* No comment provided by engineer. */
@@ -682,6 +685,9 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Varış noktası: %@ .";
 
+/* No comment provided by engineer. */
+"Details of Route %@" = "%@ Rotasının Detayları";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Yön: %@ .";
 
@@ -714,6 +720,9 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Mesafe: %@ .";
+
+/* No comment provided by engineer. */
+"DISTANCES" = "MESAFELER";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Değiştirmek istiyor musun? Bu rotayı değiştirmek, bu rotada kullanılan ara noktaları da değiştirecektir.";
@@ -857,10 +866,7 @@
 "Facing: %@" = "Karşı karşıya: %@";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Waypoints" = "Ara noktalar hesaplanamadı";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for the Route" = "Rota için Yol Noktaları Hesaplanamadı";
+"Failed to Calculate Navigation Routes" = "Navigasyon Rotaları Hesaplanamadı";
 
 /* No comment provided by engineer. */
 "Failed to Export Markers" = "İşaretçiler dışa aktarılamadı";
@@ -1308,10 +1314,13 @@
 "Navigation instructions" = "Navigasyon talimatları";
 
 /* No comment provided by engineer. */
-"NAVIGATION INSTRUCTIONS" = "NAVIGASYON TALIMATLARI";
+"Navigation Instructions" = "Navigasyon Talimatları";
 
 /* No comment provided by engineer. */
-"Navigation Instructions" = "Navigasyon Talimatları";
+"NAVIGATION ROUTES" = "NAVİGASYON ROTALARI";
+
+/* No comment provided by engineer. */
+"Navigation Routes Calculated" = "Hesaplanan Navigasyon Rotaları";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigasyon Dönüş Noktası";
@@ -1595,12 +1604,6 @@
 "Please grant permission in Settings app." = "Lütfen Ayarlar uygulamasında izin verin.";
 
 /* No comment provided by engineer. */
-"Please specify destination location." = "Lütfen varış yerini belirtin.";
-
-/* No comment provided by engineer. */
-"Please specify starting location." = "Lütfen başlangıç yerini belirtin.";
-
-/* No comment provided by engineer. */
 "Please try later." = "Lütfen daha sonra tekrar deneyin.";
 
 /* No comment provided by engineer. */
@@ -1737,9 +1740,6 @@
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Rota adı: %@ .";
-
-/* No comment provided by engineer. */
-"Route Steps" = "Rota Adımları";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rota Dairesel Yolculuk olarak Güncellendi";
@@ -2101,6 +2101,9 @@
 /* Type 3 for navigation transport */
 "Transit" = "Taşıma";
 
+/* No comment provided by engineer. */
+"Transport Type" = "Taşıma Türü";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Toplu taşıma";
 
@@ -2130,6 +2133,9 @@
 
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Bu ayarın açılması, farklı bir medya uygulamasını kullanmaya başladığınızda VoiceVista'nın belirtme çizgilerinin ve diğer seslerin duraklamasına neden olur. Ek bilgileri devam ettirmek için VoiceVista'ya dönebilirsiniz.";
+
+/* No comment provided by engineer. */
+"TURNPOINT OPTIONS" = "DÖNÜŞ NOKTASI SEÇENEKLERİ";
 
 /* No comment provided by engineer. */
 "Turnpoint Sensing Distance" = "Dönüş Noktası Algılama Mesafesi";
@@ -2212,9 +2218,6 @@
 
 /* No comment provided by engineer. */
 "View Detail" = "ayrıntılara bakın";
-
-/* No comment provided by engineer. */
-"View Steps" = "Adımları göster";
 
 /* No comment provided by engineer. */
 "Visit Web" = "Web'i ziyaret edin";
@@ -2323,13 +2326,7 @@
 "Waypoint Sensing Distance" = "Yol Noktası Algılama Mesafesi";
 
 /* No comment provided by engineer. */
-"Waypoints Calculated" = "Hesaplanan Yol Noktaları";
-
-/* No comment provided by engineer. */
 "Waypoints Updated" = "Ara Noktalar Güncellendi";
-
-/* general.error.location_services_find_location_error */
-"We are having trouble finding your current location." = "Geçerli konumunuzu bulmakta sorun yaşıyoruz.";
 
 /* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Geçerli konumunuzu bulmakta sorun yaşıyoruz. Daha sonra tekrar deneyin.";
@@ -2416,16 +2413,10 @@
 "You can't delete a route while it is providing guidance." = "Rehberlik sağlarken bir rotayı silemezsiniz.";
 
 /* No comment provided by engineer. */
-"You have calculated waypoints of this route." = "Bu rotanın ara noktalarını hesapladınız.";
-
-/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Bu rotanın ara noktalarını değiştirdiniz.";
 
 /* No comment provided by engineer. */
 "You have no markers and routes data that need to be backed up." = "Yedeklenmesi gereken işaretçileriniz ve rota verileriniz yok.";
-
-/* No comment provided by engineer. */
-"You have not calculated waypoints of this route." = "Bu rotanın ara noktalarını hesaplamadınız.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Yalnızca güvendiğiniz birinin kalemlerini kullanmalısınız.";

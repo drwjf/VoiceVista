@@ -58,8 +58,14 @@
 /* %@ is count of imported markers */
 "%@ Markers Imported from GPX File" = "Marcadors %@ importats des del fitxer GPX";
 
+/* No comment provided by engineer. */
+"%@ minutes" = "%@ minuts";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "rotonda %@";
+
+/* %@ is count of calculated routes */
+"%@ routes calculated" = "%@ rutes calculades";
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rutes suprimides";
@@ -69,9 +75,6 @@
 
 /* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ segons";
-
-/* %@ is count of calculated steps */
-"%@ steps" = "Passos %@";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@ segueix endavant";
@@ -349,6 +352,12 @@
 /* Motion status: automotive */
 "Automotive" = "En cotxe";
 
+/* No comment provided by engineer. */
+"Avoid Highways" = "Eviteu les carreteres";
+
+/* No comment provided by engineer. */
+"Avoid Tolls" = "Eviteu els peatges";
+
 /* directions.direction.away */
 "away" = "més enllà";
 
@@ -450,9 +459,6 @@
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Calcular una nova ruta";
-
-/* No comment provided by engineer. */
-"Calculate by Navigation Algorithm" = "Calcula per algorisme de navegació";
 
 /* No comment provided by engineer. */
 "Calculate Waypoints" = "Calcular senyals";
@@ -584,9 +590,6 @@
 "Complete Configuring" = "Configuració completa";
 
 /* No comment provided by engineer. */
-"Confirm the Route" = "Confirmeu la ruta";
-
-/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitats! Els AirPods estan preparats, ja pots posar-te el mòbil a la butxaca i caminar! VoiceVista ara farà un seguiment de la direcció del teu cap, de manera que no necessites agafar el mòbil a la mà. Un sol clic al botó dels auriculars silenciarà o activarà l'objectiu, un doble toc indicarà la teva ubicació i un triple toc repetirà l'última notificació de veu.";
 
 /* No comment provided by engineer. */
@@ -682,6 +685,9 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Destinació: %@ .";
 
+/* No comment provided by engineer. */
+"Details of Route %@" = "Detalls de la ruta %@";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Direcció: %@ .";
 
@@ -714,6 +720,9 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Distància: %@ .";
+
+/* No comment provided by engineer. */
+"DISTANCES" = "DISTÀNCIES";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Vols substituir-lo? La substitució d'aquesta ruta també substituirà els waypoints utilitzats en aquesta ruta.";
@@ -857,10 +866,7 @@
 "Facing: %@" = "Orientació: %@";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Waypoints" = "No s'han pogut calcular waypoints";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for the Route" = "No s'han pogut calcular els waypoints de la ruta";
+"Failed to Calculate Navigation Routes" = "No s'han pogut calcular les rutes de navegació";
 
 /* No comment provided by engineer. */
 "Failed to Export Markers" = "No s'han pogut exportar marcadors";
@@ -1308,10 +1314,13 @@
 "Navigation instructions" = "Indicacions de navegació";
 
 /* No comment provided by engineer. */
-"NAVIGATION INSTRUCTIONS" = "INSTRUCCIONS DE NAVEGACIÓ";
+"Navigation Instructions" = "Instruccions de navegació";
 
 /* No comment provided by engineer. */
-"Navigation Instructions" = "Instruccions de navegació";
+"NAVIGATION ROUTES" = "RUTES DE NAVEGACIÓ";
+
+/* No comment provided by engineer. */
+"Navigation Routes Calculated" = "Rutes de navegació calculades";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Punt de gir de navegació";
@@ -1595,12 +1604,6 @@
 "Please grant permission in Settings app." = "Dona permís a l'aplicació Configuració.";
 
 /* No comment provided by engineer. */
-"Please specify destination location." = "Especifica la ubicació de destinació.";
-
-/* No comment provided by engineer. */
-"Please specify starting location." = "Especifica la ubicació d'inici.";
-
-/* No comment provided by engineer. */
 "Please try later." = "Si us plau, prova-ho més tard.";
 
 /* No comment provided by engineer. */
@@ -1737,9 +1740,6 @@
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Nom de la ruta: %@ .";
-
-/* No comment provided by engineer. */
-"Route Steps" = "Passos de la ruta";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Ruta canviada a viatge circular";
@@ -2101,6 +2101,9 @@
 /* Type 3 for navigation transport */
 "Transit" = "Trànsit";
 
+/* No comment provided by engineer. */
+"Transport Type" = "Tipus de transport";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
@@ -2130,6 +2133,9 @@
 
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Si actives aquesta opció, les notificacions i altres sons del VoiceVista es posaran en pausa cada vegada que una aplicació multimèdia comenci a reproduir. Pots tornar al VoiceVista per reprendre la reproducció de les notificacions.";
+
+/* No comment provided by engineer. */
+"TURNPOINT OPTIONS" = "OPCIONS DE PUNT D'INVIR";
 
 /* No comment provided by engineer. */
 "Turnpoint Sensing Distance" = "Distància de detecció de punts de gir";
@@ -2212,9 +2218,6 @@
 
 /* No comment provided by engineer. */
 "View Detail" = "Veure més informació";
-
-/* No comment provided by engineer. */
-"View Steps" = "Veure els passos";
 
 /* No comment provided by engineer. */
 "Visit Web" = "Visitar web";
@@ -2323,13 +2326,7 @@
 "Waypoint Sensing Distance" = "Distància de detecció de waypoint";
 
 /* No comment provided by engineer. */
-"Waypoints Calculated" = "Waypoints calculats";
-
-/* No comment provided by engineer. */
 "Waypoints Updated" = "Senyals actualitzats";
-
-/* general.error.location_services_find_location_error */
-"We are having trouble finding your current location." = "Tenim problemes per trobar la teva ubicació actual.";
 
 /* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Estem tenint problemes per trobar la teva ubicació actual. Torna-ho a provar més tard.";
@@ -2416,16 +2413,10 @@
 "You can't delete a route while it is providing guidance." = "No podeu suprimir una ruta mentre us proporcioni orientacions.";
 
 /* No comment provided by engineer. */
-"You have calculated waypoints of this route." = "Has calculat els senyals d'aquesta ruta.";
-
-/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Has canviat els senyals d'aquesta ruta.";
 
 /* No comment provided by engineer. */
 "You have no markers and routes data that need to be backed up." = "No teniu marcadors ni dades de rutes que s'hagin de fer còpies de seguretat.";
-
-/* No comment provided by engineer. */
-"You have not calculated waypoints of this route." = "No has calculat els senyals d'aquesta ruta.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Utilitza només marcadors de persones de confiança.";

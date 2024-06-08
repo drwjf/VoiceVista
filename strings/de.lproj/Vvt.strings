@@ -58,8 +58,14 @@
 /* %@ is count of imported markers */
 "%@ Markers Imported from GPX File" = "%@ Markierungen aus GPX-Datei importiert";
 
+/* No comment provided by engineer. */
+"%@ minutes" = "%@ Protokoll";
+
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
 "%@ roundabout" = "%@ Kreisverkehr";
+
+/* %@ is count of calculated routes */
+"%@ routes calculated" = "%@ Routen berechnet";
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Routen gelöscht";
@@ -69,9 +75,6 @@
 
 /* %@ to indicate the number of seconds between some announcements */
 "%@ seconds" = "%@ Sekunden";
-
-/* %@ is count of calculated steps */
-"%@ steps" = "%@ Schritte";
 
 /* directions.name_continues_ahead */
 "%@, continues ahead" = "%@, führt geradeaus";
@@ -349,6 +352,12 @@
 /* Motion status: automotive */
 "Automotive" = "Fahrzeug";
 
+/* No comment provided by engineer. */
+"Avoid Highways" = "Vermeide Autobahnen";
+
+/* No comment provided by engineer. */
+"Avoid Tolls" = "Maut vermeiden";
+
 /* directions.direction.away */
 "away" = "entfernt";
 
@@ -450,9 +459,6 @@
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Route berechnen";
-
-/* No comment provided by engineer. */
-"Calculate by Navigation Algorithm" = "Mit Navigationsalgorithmus berechnen";
 
 /* No comment provided by engineer. */
 "Calculate Waypoints" = "Wegpunkte berechnen";
@@ -584,9 +590,6 @@
 "Complete Configuring" = "Konfiguration fertigstellen";
 
 /* No comment provided by engineer. */
-"Confirm the Route" = "Route bestätigen";
-
-/* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Herzlichen Glückwunsch! Ihre Airpods sind fertig eingerichtet, sie können Ihr Telefon in der Tasche tragen und losgehen! VoiceVista erkennt Ihre Richtung an Ihrem Kopf und Sie müssen das Telefon nicht mehr in der Hand halten. Ein Einzelklick der Kopfhörertaste schaltet das Signal ein oder aus, ein Doppelklick sagt Ihren Standort an, und ein Dreifachklick wiederholt die letzte Ansage.";
 
 /* No comment provided by engineer. */
@@ -682,6 +685,9 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Ziel: %@ .";
 
+/* No comment provided by engineer. */
+"Details of Route %@" = "Einzelheiten zur Route %@";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Richtung: %@ .";
 
@@ -714,6 +720,9 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Entfernung: %@";
+
+/* No comment provided by engineer. */
+"DISTANCES" = "ENTFERNUNGEN";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Möchten Sie diese ersetzen? Wenn Sie diese Route ersetzen, werden auch die darin verwendeten Wegpunkte ersetzt.";
@@ -857,10 +866,7 @@
 "Facing: %@" = "Blickrichtung: %@";
 
 /* No comment provided by engineer. */
-"Failed to Calculate Waypoints" = "Wegpunkte konnten nicht berechnet werden";
-
-/* No comment provided by engineer. */
-"Failed to Calculate Waypoints for the Route" = "Wegpunkte der Route konnten nicht berechnet werden";
+"Failed to Calculate Navigation Routes" = "Navigationsrouten konnten nicht berechnet werden";
 
 /* No comment provided by engineer. */
 "Failed to Export Markers" = "Fehler beim Exportieren von Markern";
@@ -1308,10 +1314,13 @@
 "Navigation instructions" = "Navigationshinweise";
 
 /* No comment provided by engineer. */
-"NAVIGATION INSTRUCTIONS" = "NAVIGATIONSHINWEISE";
+"Navigation Instructions" = "Navigationshinweise";
 
 /* No comment provided by engineer. */
-"Navigation Instructions" = "Navigationshinweise";
+"NAVIGATION ROUTES" = "NAVIGATIONSROUTEN";
+
+/* No comment provided by engineer. */
+"Navigation Routes Calculated" = "Berechnete Navigationsrouten";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Abbiegung";
@@ -1595,12 +1604,6 @@
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
-"Please specify destination location." = "Bitte geben Sie das Ziel an.";
-
-/* No comment provided by engineer. */
-"Please specify starting location." = "Bitte geben Sie den Beginn an.";
-
-/* No comment provided by engineer. */
 "Please try later." = "Bitte versuchen Sie es später.";
 
 /* No comment provided by engineer. */
@@ -1737,9 +1740,6 @@
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Routenname: %@ .";
-
-/* No comment provided by engineer. */
-"Route Steps" = "Routenanweisungen";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Route als Schleife aktualisiert";
@@ -2101,6 +2101,9 @@
 /* Type 3 for navigation transport */
 "Transit" = "ÖPNV";
 
+/* No comment provided by engineer. */
+"Transport Type" = "Transporttyp";
+
 /* placesNearyBy.category.5 */
 "Transportation" = "Transport";
 
@@ -2130,6 +2133,9 @@
 
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Wenn Sie diese Einstellung aktivieren, hören Sie von VoiceVista keine Ansagen und Tonsignale mehr, sobald sie eine andere App benutzen, die Medien wiedergibt. Kehren Sie zu VoiceVista zurück, um wieder Ansagen zu hören.";
+
+/* No comment provided by engineer. */
+"TURNPOINT OPTIONS" = "WENDEPUNKTOPTIONEN";
 
 /* No comment provided by engineer. */
 "Turnpoint Sensing Distance" = "Wendepunkt-Erfassungsabstand";
@@ -2212,9 +2218,6 @@
 
 /* No comment provided by engineer. */
 "View Detail" = "Details ansehen";
-
-/* No comment provided by engineer. */
-"View Steps" = "Anweisungen anzeigen";
 
 /* No comment provided by engineer. */
 "Visit Web" = "Webseite";
@@ -2323,13 +2326,7 @@
 "Waypoint Sensing Distance" = "Wegpunkt-Erkennungsdistanz";
 
 /* No comment provided by engineer. */
-"Waypoints Calculated" = "Wegpunkte berechnet";
-
-/* No comment provided by engineer. */
 "Waypoints Updated" = "Wegpunkte aktualisiert";
-
-/* general.error.location_services_find_location_error */
-"We are having trouble finding your current location." = "Ihr aktueller Standort wurde nicht gefunden.";
 
 /* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Ihr aktueller Standort wurde nicht gefunden. Versuchen Sie es später erneut.";
@@ -2416,16 +2413,10 @@
 "You can't delete a route while it is providing guidance." = "Sie können die Route nicht löschen, während Sie sich darauf führen lassen.";
 
 /* No comment provided by engineer. */
-"You have calculated waypoints of this route." = "Sie haben Wegpunkte dieser Route berechnet.";
-
-/* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Sie haben Wegpunkte dieser Route geändert.";
 
 /* No comment provided by engineer. */
 "You have no markers and routes data that need to be backed up." = "Sie haben keine Markierungs- und Routendaten, die gesichert werden müssen.";
-
-/* No comment provided by engineer. */
-"You have not calculated waypoints of this route." = "Sie haben keine Wegpunkte dieser Route berechnet.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Sie sollten nur Markierungen von vertrauenswürdigen Personen verwenden.";
