@@ -11,7 +11,7 @@
 "%1$@ is %2$@ away" = "%1$@ er %2$@ væk";
 
 /* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
-"%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "%1$@ af %2$@ vejpunkter nået, %3$@ mangler";
+"%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "%1$@ af %2$@ rutepunkter nået, %3$@ mangler";
 
 /* Label to display when the user is facing a road that they can travel down, %1$@ is the cardinal direction and %2$@ is the name of the road that they can travel down, 'SW on Main Street' */
 "%1$@ on %2$@" = "%1$@ på %2$@";
@@ -125,13 +125,13 @@
 "Activity" = "Aktivitet";
 
 /* No comment provided by engineer. */
-"Add a Marker" = "Tilføj en markør";
+"Add a Marker" = "Tilføj et mærke";
 
 /* No comment provided by engineer. */
 "Add a Route" = "Tilføj en rute";
 
 /* No comment provided by engineer. */
-"Add Current Location as Waypoint" = "Tilføj aktuel position som waypoint";
+"Add Current Location as Waypoint" = "Tilføj aktuel position som rutepunkt";
 
 /* No comment provided by engineer. */
 "Add Marker" = "Tilføj mærke";
@@ -140,13 +140,13 @@
 "Add Shortcut" = "Tilføj genvej";
 
 /* No comment provided by engineer. */
-"Add Waypoint" = "Tilføj waypoint";
+"Add Waypoint" = "Tilføj rutepunkt";
 
 /* No comment provided by engineer. */
-"Add Waypoints" = "Tilføj vejpunkter";
+"Add Waypoints" = "Tilføj rutepunkter";
 
 /* No comment provided by engineer. */
-"Add Waypoints from Markers" = "Tilføj waypoints fra mærker";
+"Add Waypoints from Markers" = "Tilføj rutepunkter fra mærker";
 
 /* No comment provided by engineer. */
 "Add Waypoints in Breadcrumb Mode" = "Tilføj rutepunkter i brødkrummetilstand";
@@ -167,13 +167,13 @@
 "Adjust to Current Location" = "Opdater til aktuel placering";
 
 /* No comment provided by engineer. */
-"Adjust Waypoint Location" = "Juster waypointplacering";
+"Adjust Waypoint Location" = "Juster placeringen af rutepunktet ";
 
 /* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Når du har tilføjet Genveje i Siri, kan du bruge din stemme til at starte dem, selv når VoiceVista ikke kører.";
 
 /* No comment provided by engineer. */
-"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "Efter at have skiftet til Breadcrumb-tilstand optager VoiceVista et nyt waypoint på stedet, når du trykker på knappen. Alle nye waypoints på denne rute vil automatisk blive navngivet.";
+"After switching to Breadcrumb mode, VoiceVista will record a new waypoint at the location when you tap the button. All new waypoints on this route will be named automatically." = "I brødkrummetilstand optager sætter et nyt waypoint på stedet, når du trykker på knappen. Alle nye rutepunkter på denne rute vil automatisk blive navngivet.";
 
 /* directions.direction.ahead */
 "ahead" = "forude";
@@ -221,7 +221,7 @@
 "Any" = "Nogen";
 
 /* No comment provided by engineer. */
-"Append reverse waypoints to the tail to make the route a circular journey." = "Tilføj omvendte waypoints til halen for at gøre ruten til en cirkulær rejse.";
+"Append reverse waypoints to the tail to make the route a circular journey." = "Tilføj rutepunkterne i omvendt rækkefølge for at gøre ruten til en cirkulær rute."; 
 
 /* No comment provided by engineer. */
 "Apple AirPods" = "Apple AirPods";
@@ -377,13 +377,13 @@
 "Beacon" = "Lydfyr";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
-"Beacon %@ started" = "Beacon %@ startede";
+"Beacon %@ started" = "Lydfyr %@ startede";
 
 /* No comment provided by engineer. */
-"Beacon Arrived" = "Beacon ankom";
+"Beacon Arrived" = "Lydfyr ankommet";
 
 /* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "Beacon Auto-Mute Distance";
+"Beacon Auto-Mute Distance" = "afstand for automatisk slukning af lydfyr";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "Afstand til lydfyr";
@@ -404,13 +404,13 @@
 "Beacon Settings" = "Indstillinger for lydfyr";
 
 /* No comment provided by engineer. */
-"Beacon Sound Setting" = "Beacon lydindstilling";
+"Beacon Sound Setting" = "indstil for lydfyr";
 
 /* No comment provided by engineer. */
-"Beacon Sound Settings" = "Beacon lydindstillinger";
+"Beacon Sound Settings" = "Lydfyr vælg lyde";
 
 /* No comment provided by engineer. */
-"Beacon volume" = "Beacon volumen";
+"Beacon volume" = "lydstyrke for lydfyr ";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Beacon within %@. Audio beacon has been muted" = "Lydfyr inden for %@. Lydfyret er blevet slået fra";
@@ -449,25 +449,25 @@
 "Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "Brødkrummer her er en række registrerede waypoints, der sporer stien. Disse waypoints er beslægtet med sporet af brødkrummer efterladt af Hans og Grete i det berømte eventyr, deraf navnet.";
 
 /* No comment provided by engineer. */
-"Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Det kan tage noget tid at bygge listen over kryds i nærheden. Hvis ingen data er tilgængelige i øjeblikket, bedes du prøve igen senere.";
+"Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Det kan tage noget tid at  opdatere listen over kryds i nærheden. Hvis ingen data er tilgængelige i øjeblikket, bedes du prøve igen senere.";
 
 /* No comment provided by engineer. */
 "Bus Stops" = "Busstoppesteder";
 
 /* No comment provided by engineer. */
-"Bus Stops Range" = "Bus Stop Range";
+"Bus Stops Range" = "afstand til busstoppesteder";
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Beregn en ny rute";
 
 /* No comment provided by engineer. */
-"Calculate Waypoints" = "Beregn waypoints";
+"Calculate Waypoints" = "Beregn rutepunkter";
 
 /* No comment provided by engineer. */
-"Calculate Waypoints by Algorithm" = "Beregn waypoints efter algoritme";
+"Calculate Waypoints by Algorithm" = "Beregn rutepunkter ved hjælp af algoritme";
 
 /* No comment provided by engineer. */
-"Calculate Waypoints using Apple Maps" = "Beregn waypoints ved hjælp af Apple Maps";
+"Calculate Waypoints using Apple Maps" = "Beregn rutepunkter  ved hjælp af Apple Maps";
 
 /* devices.callouts.calibrated */
 "Calibration complete" = "Kalibreringen er fuldført";
@@ -479,19 +479,19 @@
 "Call Telephone: %@" = "Ring til telefon: %@";
 
 /* No comment provided by engineer. */
-"Callouts Direction Style" = "Billedforklaringsretningsstil";
+"Callouts Direction Style" = "Vælg hvordan retning skal annonceres";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Automatisk annoncering fra";
 
 /* callouts.callouts_on */
-"Callouts On" = "Lydbeskeder til";
+"Callouts On" = "Annoncering til";
 
 /* No comment provided by engineer. */
-"Callouts Settings" = "Indstillinger for billedforklaringer";
+"Callouts Settings" = "Indstillinger for annonceringer ";
 
 /* No comment provided by engineer. */
-"Callouts Sound Settings" = "Billedforklaringer Lydindstillinger";
+"Callouts Sound Settings" = "indstil lyde der bruges ved annonceringer"; 
 
 /* general.alert.cancel */
 "Cancel" = "Annuller";
@@ -509,7 +509,7 @@
 "Change Bus Stops Range" = "Skift rækkevidde til busstoppesteder";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "Skift billedforklaringsretningsstil";
+"Change Callouts Direction Style"Ændre annoncering af retning";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Skift ekstern kort-app";
@@ -530,7 +530,7 @@
 "Change Information Points Range" = "Skift rækkevidde for informationspunkter";
 
 /* No comment provided by engineer. */
-"Change Landmarks Range" = "Skift landmærkeområde";
+"Change Landmarks Range" = "Skift afstand for annoncering af landmarks";
 
 /* No comment provided by engineer. */
 "Change Mobility Facilities Range" = "Skift afstand for annoncering af mobilitet";
@@ -548,7 +548,7 @@
 "Change Safety Spots Range" = "Skift afstand til sikkerhedspunkter";
 
 /* No comment provided by engineer. */
-"Change Shake Motion Response" = "Skift Shake Motion Response";
+"Change Shake Motion Response" = "Skift Ændre styrken af ryst";
 
 /* No comment provided by engineer. */
 "Change Turnpoint Sensing Distance" = "Skift vendepunktssensorafstand";
@@ -626,7 +626,7 @@
 "Create markers for your favorite destinations, waypoints on a route, or any locations you want calledout." = "Opret markører for dine yndlingsdestinationer, waypoints på en rute eller andre steder, du vil have kaldt.";
 
 /* No comment provided by engineer. */
-"Crossings" = "Krydsninger";
+"Crossings" = "kryds";
 
 /* beacon.styles.current */
 "Current" = "Igangværende";
@@ -680,7 +680,7 @@
 "Delete Marker %@?" = "Slet markør %@?";
 
 /* No comment provided by engineer. */
-"Delete Waypoint" = "Slet waypoint";
+"Delete Waypoint" = "Slet rutepunkt";
 
 /* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
 "Departed roundabout. Now along %@" = "Forlod rundkørsel. Nu langs %@";
@@ -710,13 +710,13 @@
 "Distance" = "Afstand";
 
 /* No comment provided by engineer. */
-"Distance and direction to the beacon" = "Afstand og retning til beacon";
+"Distance and direction to the beacon" = "Afstand og retning til lydfyret";
 
 /* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Afstand mellem %1$@ og %2$@";
 
 /* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Afstand mellem waypoints, shoulde >= %@";
+"Distance between waypoints, shoulde >= %@" = "Afstand mellem rutepunkter, skal være >= %@";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Afstanden skal være mellem %1$@ og %2$@";
@@ -761,19 +761,19 @@
 "Double tap to mute the audio beacon." = "Dobbelttryk for at slå lydfyret fra.";
 
 /* waypoints.addBarButtonItem.hint */
-"Double tap to pick markers" = "Tryk to gange for at vælge markører";
+"Double tap to pick markers" = "Tryk to gange for at vælge mærker";
 
 /* vicinity.sleep.acc_hint */
 "Double tap to put VoiceVista to sleep" = "Dobbelttryk for at sætte VoiceVista i dvale";
 
 /* No comment provided by engineer. */
-"Double tap to select and play a preview." = "Dobbelttryk for at vælge og afspille et eksempel.";
+"Double tap to select and play a preview." = "Dobbelttryk for at afspille et eksempel.";
 
 /* markers.leftBarItem.sortByName.hint */
 "Double tap to sort by distance" = "Dobbelttryk for at sortere efter afstand";
 
 /* markers.leftBarItem.sortByDistance.hint */
-"Double tap to sort by name" = "Dobbelttryk for at sortere efter navn";
+"Double tap to sort by name" = "Tryk 2 gange for at sortere efter navn";
 
 /* No comment provided by engineer. */
 "Double tap to stop monitoring now" = "Tryk to gange for at stoppe overvågningen nu";
@@ -782,7 +782,7 @@
 "Double tap to unmute all automatic callouts." = "Tryk to gange for at aktivere alle automatiske annonceringer.";
 
 /* No comment provided by engineer. */
-"Double tap to unmute the audio beacon." = "Dobbelttryk for at slå lydfyret til.";
+"Double tap to unmute the audio beacon." = "Tryk 2 gange for at slå lydfyret til.";
 
 /* Label for a button to open map to edit marker's location */
 "Drag Map To Pick Location" = "Træk kortet for at vælge placering";
@@ -791,7 +791,7 @@
 "Drag the map to change the coordinates" = "Træk kortet for at ændre koordinaterne";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "KØRSELSSCENARIE";
+"DRIVING SCENARIO" = "Annoncering i bil" ";
 
 /* beacon.styles.drop */
 "Drop" = "Dråbe";
@@ -806,10 +806,10 @@
 "Edit Route Name" = "Rediger rutenavn";
 
 /* No comment provided by engineer. */
-"Edit Waypoint Name" = "Rediger waypointnavn";
+"Edit Waypoint Name" = "Rediger navn på rutepunkt";
 
 /* No comment provided by engineer. */
-"Edit Waypoints" = "Rediger waypoints";
+"Edit Waypoints" = "Rediger rutepunkter";
 
 /* No comment provided by engineer. */
 "Education" = "Uddannelse";
@@ -848,7 +848,7 @@
 "Explore Nearby" = "Udforsk i nærheden";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "UDFORSKNING AF SCENARIET";
+"EXPLORING SCENARIO" = "UDFORSKNING AF området";
 
 /* No comment provided by engineer. */
 "Export and Import" = "Eksport og import";
@@ -899,7 +899,7 @@
 "FAQ" = "Ofte stillede spørgsmål";
 
 /* No comment provided by engineer. */
-"Filter Markers" = "Filtermarkører";
+"Filter Markers" = "sorter mærker";
 
 /* beacon.styles.flare */
 "Flare" = "Lysglimt";
@@ -1016,10 +1016,10 @@
 "Hear Intersections Ahead" = "Hør vejkryds forude";
 
 /* No comment provided by engineer. */
-"Hear Intersections Nearby" = "Hør vejkryds i nærheden";
+"Hear Intersections Nearby" = "annoncer vejkryds i nærheden";
 
 /* user_activity.nearby_markers.title */
-"Hear Markers Nearby" = "Hør mærker i nærheden";
+"Hear Markers Nearby" = "annoncer mærker i nærheden";
 
 /* No comment provided by engineer. */
 "HELP" = "HJÆLP";
@@ -1028,10 +1028,10 @@
 "HINT SOUNDS" = "TIP LYDE";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Husnummer Afstandsinterval";
+"House Number Distance Interval" = "Afstandsinterval for annoncering af husnummer";
 
 /* No comment provided by engineer. */
-"House Number Time Interval" = "Husnummer tidsinterval";
+"House Number Time Interval" = "tidsinterval for annoncering af husnummer";
 
 /* No comment provided by engineer. */
 "House Numbers" = "Husnumre";
@@ -1040,10 +1040,10 @@
 "How does this sound?" = "Hvordan lyder den?";
 
 /* No comment provided by engineer. */
-"How many feet should waypoints be generated between each other for this route?" = "Hvor mange fod skal der genereres waypoints mellem hinanden for denne rute?";
+"How many feet should waypoints be generated between each other for this route?" = "Hvor mange fod skal der være imellem waypoints på denne rute?";
 
 /* No comment provided by engineer. */
-"How many meters should waypoints be generated between each other for this route?" = "Hvor mange meter skal der genereres waypoints mellem hinanden for denne rute?";
+"How many meters should waypoints be generated between each other for this route?" = "Hvor mange meter skal der være imellem rutepunkterne på denne rute?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
 "I've shared a VoiceVista marker with you! '%@;'" = "Jeg har delt en VoiceVista-markør med dig! '%@;'";
@@ -1070,7 +1070,7 @@
 "If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Hvis du ikke fandt dit spørgsmål her, kan du besøge App Store for at efterlade en kommentar. Dit spørgsmål vil blive behandlet i App Store, og det kan blive valgt til optagelse i Ofte stillede spørgsmål.";
 
 /* No comment provided by engineer. */
-"If you've enabled media controls in the shortcuts settings, press the play button on your headphones to wake up VoiceVista." = "Hvis du har slået mediekontroller til i indstillingerne for genveje, skal du trykke på afspilningsknappen på dine hovedtelefoner for at vække VoiceVista.";
+"If you've enabled media controls in the shortcuts settings, press the play button on your headphones to wake up VoiceVista." = "Hvis du har aktiveret mediekontroller til i indstillingerne for genveje, skal du trykke på afspilningsknappen på dine hovedtelefoner for at vække VoiceVista.";
 
 /* No comment provided by engineer. */
 "If you've enabled media controls in the shortcuts settings, press the previous button on your headphones to repeat the last callout." = "Hvis du har aktiveret mediekontroller i genvejsindstillingerne, skal du trykke på den forrige knap på dine hovedtelefoner for at gentage den sidste besked.";
@@ -1103,22 +1103,22 @@
 "Import VoiceVista Route File (.vvr)" = "Importer VoiceVista-rutefil (.vvr)";
 
 /* voiceSetting.in_vehicle_rate */
-"IN VEHICLE SPEAKING RATE" = "I KØRETØJ TALER";
+"IN VEHICLE SPEAKING RATE" = "vælg hastighed for annoncering i bil";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate" = "Talehastighed i køretøjet";
+"In vehicle speaking rate" = "Talehastighed for annoncering i bill";
 
 /* No comment provided by engineer. */
-"In vehicle speaking rate. How does this sound?" = "Talehastighed i køretøjet. Hvordan lyder det her?";
+"In vehicle speaking rate. How does this sound?" = "hør talehastighed i bil.   Hvordan lyder det her?";
 
 /* No comment provided by engineer. */
-"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "I gåtilstand definerer intervaller udkaldsafstande for detekterede POI'er i forskellige superkategorier. Disse intervaller ganges med seks i køretilstand.";
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "til fods definerer intervaller automatisk annoncering for interessepunkter i de valgte superkategorier. Disse intervaller ganges med seks når man er i bil.";
 
 /* No comment provided by engineer. */
 "Information Points" = "Informationspunkter";
 
 /* No comment provided by engineer. */
-"Information Points Range" = "Information Point Range";
+"Information Points Range" = "afstand til informationspunkter Range";
 
 /* No comment provided by engineer. */
 "Input Latitude and Longitude" = "Indtast breddegrad og længdegrad";
@@ -1178,7 +1178,7 @@
 "Landmarks" = "Landemærker";
 
 /* No comment provided by engineer. */
-"Landmarks Range" = "Landmark Range";
+"Landmarks Range" = "afstand til landemærker";
 
 /* No comment provided by engineer. */
 "Language" = "Sprog";
@@ -1190,7 +1190,7 @@
 "Last Breadcrumb Waypoint Removed" = "Sidste brødkrumme-waypoint blev fjernet";
 
 /* No comment provided by engineer. */
-"Last Waypoint Nearby" = "Sidste waypoint i nærheden";
+"Last Waypoint Nearby" = "seneste rutepunkt";
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "Latitude eller (Latitude, Longitude) eller Plus-koder";
@@ -1214,7 +1214,7 @@
 "Location Details" = "Oplysninger om placering";
 
 /* No comment provided by engineer. */
-"Location Explorer" = "Beliggenhed Explorer";
+"Location Explorer" = "udforsk omgivelser";
 
 /* No comment provided by engineer. */
 "Location preview could not be started at this location." = "Eksempelvisning af placering kunne ikke startes på denne placering.";
@@ -1247,16 +1247,16 @@
 "Marked Points" = "Markerede punkter";
 
 /* markers.generic_name */
-"Marker" = "Markør";
+"Marker" = "Mærker";
 
 /* No comment provided by engineer. */
-"Marker Alert" = "Markør Alert";
+"Marker Alert" = "advarsel for mærke";
 
 /* No comment provided by engineer. */
 "Marker already exists" = "Mærket findes allerede";
 
 /* No comment provided by engineer. */
-"Marker Annotation" = "Markør annotation";
+"Marker Annotation" = "tekst til  mærke";
 
 /* No comment provided by engineer. */
 "Marker deleted" = "Mærke blev slettet";
@@ -1265,22 +1265,22 @@
 "Marker Details" = "Oplysninger om mærke";
 
 /* No comment provided by engineer. */
-"Marker Name" = "Markør navn";
+"Marker Name" = "navn på mærke";
 
 /* Marker Information, %@ is the name of the marker, 'Marker. <Starbucks>' */
-"Marker. %@" = "Markør. %@";
+"Marker. %@" = "Mærke. %@";
 
 /* No comment provided by engineer. */
 "Markers" = "Mærker";
 
 /* No comment provided by engineer. */
-"Markers Ahead" = "Markører forude";
+"Markers Ahead" = "Mærker forude";
 
 /* No comment provided by engineer. */
-"Markers Nearby" = "Markører i nærheden";
+"Markers Nearby" = "Mærker i nærheden";
 
 /* No comment provided by engineer. */
-"Melodies when arrived and departing" = "Melodier ved ankomst og afgang";
+"Melodies when arrived and departing" = "afpsil lyd ved ankomst og afgang";
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "Metrisk (meter)";
@@ -1307,7 +1307,7 @@
 "Move away from the beacon" = "Flyt væk fra fyret";
 
 /* No comment provided by engineer. */
-"Moving: %@" = "Flytning: %@";
+"Moving: %@" = "bevæger dig: %@";
 
 /* No comment provided by engineer. */
 "Mute All" = "Slå lyden fra for alle";
@@ -1329,7 +1329,7 @@
 "NAVIGATION ROUTES" = "NAVIGATIONSRUTER";
 
 /* No comment provided by engineer. */
-"Navigation Routes Calculated" = "Navigationsruter beregnet";
+"Navigation Routes Calculated" = "ruter beregnet";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigations vendepunkt";
@@ -2293,25 +2293,25 @@
 
 /* Motion status: walking
    Type 1 for navigation transport */
-"Walking" = "Gåture";
+"Walking" = "Til fods";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "WALKING SCENARIO";
+"WALKING SCENARIO" = "Annoncering til fods"; 
 
 /* No comment provided by engineer. */
-"Waypoint" = "Vejpunkt";
+"Waypoint" = "Rutepunkt";
 
 /* location_detail.title.default */
-"Waypoint Details" = "Oplysninger om waypoint";
+"Waypoint Details" = "Oplysninger om rutepunkt";
 
 /* No comment provided by engineer. */
-"Waypoint Name" = "Waypoint navn";
+"Waypoint Name" = "Navn på rutepunkt";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "Waypoint-registreringsafstand";
+"Waypoint Sensing Distance" = "Afstand for  registrering af rutepunkter";
 
 /* No comment provided by engineer. */
-"Waypoints Updated" = "Waypoints opdateret";
+"Waypoints Updated" = "Rutepunkter opdateret";
 
 /* No comment provided by engineer. */
 "We are having trouble finding your current location. Try again later." = "Vi har problemer med at finde din aktuelle position. Prøv igen senere.";
@@ -2335,7 +2335,7 @@
 "What's My Location?" = "Hvad er min placering?";
 
 /* permissions.info.1 */
-"When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Når du navigerer med VoiceVista, vil du blive guidet af et lydfyr, og steder omkring og foran dig kan blive kaldt frem.";
+"When navigating with VoiceVista, you will be guided by an audio beacon, and locations around and ahead of you can be called out." = "Når du anvender VoiceVista, vil du blive guidet af et lydfyr, og steder omkring og foran dig vil blive annonceret"; 
 
 /* No comment provided by engineer. */
 "When you share a VoiceVista marker or route, you are sharing the locations associated with that marker or route. You should only share with people you trust." = "Når du deler et VoiceVista-mærke eller en rute, deler du de placeringer, der er knyttet til det pågældende mærke eller den pågældende rute. Du bør kun dele med personer, du har tillid til.";
@@ -2359,13 +2359,13 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Du kan sikkerhedskopiere markører og ruter fra iCloud til denne enhed. Nogle gange kan iCloud-data gå tabt på grund af synkroniseringsproblemer. I sådanne tilfælde kan du prøve at gendanne fra enheden til iCloud.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Du kan tilpasse, hvordan VoiceVista automatisk meddeler, når du sidder i et køretøj.";
+"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Du kan tilpasse hvad der annonceres automatisk når du er i bil.";
 
 /* No comment provided by engineer. */
 "You can customize how VoiceVista automatically announces when you are monitoing a location." = "Du kan tilpasse, hvordan VoiceVista automatisk annoncerer, når du overvåger en placering.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Du kan tilpasse, hvordan VoiceVista automatisk meddeler, når du går.";
+"You can customize how VoiceVista automatically announces when you are walking." = "Du kan tilpasse, hvad der annonceres når du er til fods"; 
 
 /* No comment provided by engineer. */
 "You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Du kan tilpasse, hvilke IP-kategorier VoiceVista annoncerer, når du trykker på kommandoerne 'Omkring mig' og 'Hvad er der forude'.";
@@ -2392,19 +2392,19 @@
 "You can turn off sound effects for specific POI super caegories and markers." = "Du kan slå lydeffekter fra for specifikke POI-superkategorier og -markører.";
 
 /* No comment provided by engineer. */
-"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Du kan bruge handlingsrotoren på knapperne på fanen Omgivelser til at udføre yderligere handlinger.";
+"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Vælg handlinger i rotoren for at få adgang til flere funktioner.";
 
 /* No comment provided by engineer. */
-"You can use the actions rotor on the buttons to perform additional actions." = "Du kan bruge handlingsrotoren på knapperne til at udføre yderligere handlinger.";
+"You can use the actions rotor on the buttons to perform additional actions." = "Vælg  handlinger i voiceover rotoren for at få adgang til flere muligheder ";
 
 /* No comment provided by engineer. */
-"You can't delete a marker while it is the current beacon." = "Du kan ikke slette en markør, mens den er det aktuelle fyrtårn.";
+"You can't delete a marker while it is the current beacon." = "Du kan ikke slette et mærke, mens den er aktiveret som  lydfyr.";
 
 /* No comment provided by engineer. */
-"You can't delete a route while it is providing guidance." = "Du kan ikke slette en rute, mens den giver vejledning.";
+"You can't delete a route while it is providing guidance." = "Du kan ikke slette en igangværende rute.";
 
 /* No comment provided by engineer. */
-"You have changed waypoints of this route." = "Du har ændret waypoints på denne rute.";
+"You have changed rutepunkter of this route." = "Du har ændret waypoints på denne rute.";
 
 /* No comment provided by engineer. */
 "You have no markers and routes data that need to be backed up." = "Du har ingen markører og rutedata, der skal sikkerhedskopieres.";
