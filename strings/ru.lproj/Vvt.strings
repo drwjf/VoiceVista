@@ -22,8 +22,8 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "Вы прошли %1$@, %2$@ %3$@";
 
-/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
-"%1$@, heading %2$@" = "%1$@, направление на %2$@";
+/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
+"%1$@, heading to %2$@" = "%1$@, переход к %2$@";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ рядом";
@@ -200,7 +200,7 @@
 "All derived data is based on the test location because permission to access your real location was not granted." = "Все полученные данные основаны на тестовом местоположении, поскольку разрешение на доступ к вашему реальному местоположению не было предоставлено.";
 
 /* No comment provided by engineer. */
-"All POIs" = "Все POI";
+"All POIs" = "Все точки интереса";
 
 /* permissions.footnote */
 "All privacy data is stored exclusively on your local device or iCloud storage." = "Все данные о конфиденциальности хранятся исключительно на вашем  устройстве или в хранилище iCloud.";
@@ -373,7 +373,7 @@
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Банки и банкоматы";
 
-/* beacon.generic_name */
+/* No comment provided by engineer. */
 "Beacon" = "Маяк";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
@@ -1283,10 +1283,10 @@
 "Monitoring %@" = "Отслеживание %@";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "Мониторинг условных обозначений Коммутаторы";
+"Monitoring Callouts Switches" = "Управление уведомлениями об отслеживании";
 
 /* No comment provided by engineer. */
-"Monitoring Settings" = "Настройки мониторинга";
+"Monitoring Settings" = "Настройки отслеживания";
 
 /* No comment provided by engineer. */
 "Motion & Fitness" = "Движение и фитнес";
@@ -1305,7 +1305,7 @@
 
 /* directions.my_location
    ui.action_button.my_location */
-"My Location" = "Моё местонахождение";
+"My Location" = "Моё местоположение";
 
 /* No comment provided by engineer. */
 "Navigation instructions" = "Инструкции по навигации";
@@ -1408,7 +1408,7 @@
 "No Waypoints Defined" = "Путевые точки не определены";
 
 /* No comment provided by engineer. */
-"No Waypoints or Tracks Data Found in the GPX File" = "В файле GPX не найдены данные путевых точек или треков";
+"No Waypoints or Tracks Data Found in the GPX File" = "В файле GPX не найдены данные путевых точек или маршрутов";
 
 /* settings.direction.style.none */
 "None" = "Ничего";
@@ -1474,7 +1474,7 @@
 "Open VoiceVista to resume Location Services" = "Откройте VoiceVista, чтобы возобновить работу служб геолокации";
 
 /* No comment provided by engineer. */
-"OpenStreetMap Tags" = "OpenStreetMap Tags";
+"OpenStreetMap Tags" = "Теги OpenStreetMap";
 
 /* beacon.styles.original */
 "Original" = "Оригинальный";
@@ -1921,16 +1921,16 @@
 "Summary" = "Краткий отчёт о состоянии маяка";
 
 /* No comment provided by engineer. */
-"Supercategory Definitions" = "Определения суперкатегорий";
+"Supercategory Definitions" = "Значения суперкатегорий";
 
 /* No comment provided by engineer. */
-"SUPERCATEGORY SOUNDS" = "СУПЕРКАТЕГОРИЯ ЗВУКИ";
+"SUPERCATEGORY SOUNDS" = "ЗВУКИ СУПЕРКАТЕГОРИЙ";
 
 /* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "Окружающие условные обозначения Переключатели";
+"Surrounding Callouts Switches" = "Уведомления об окрестностях";
 
 /* No comment provided by engineer. */
-"Surrounding Settings" = "Окружающая обстановка";
+"Surrounding Settings" = "Настройки оповещений окрестностей";
 
 /* vicinity.title */
 "Surroundings" = "Окрестности";
@@ -2102,7 +2102,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Включение этого параметра приведет к тому, что объявления VoiceVista и другой звук будут приостанавливаться всякий раз, когда вы начинаете использовать другое мультимедийное приложение. Вы можете вернуться в VoiceVista, чтобы их возобновить.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "ВАРИАНТЫ ПОВОРОТНОЙ ТОЧКИ";
+"TURNPOINT OPTIONS" = "Варианты точки поворота";
 
 /* No comment provided by engineer. */
 "Turnpoint Sensing Distance" = "Расстояние определения точки поворота";
@@ -2178,7 +2178,7 @@
 "Use this to enable control of VoiceVista with the buttons on your headphones and the media playback buttons on the lock screen. Note that when turned on, VoiceVista can’t be used while other media such as podcasts or music is playing." = "Используйте этот переключатель, чтобы включить управление VoiceVista с помощью кнопок на наушниках и кнопок воспроизведения мультимедиа на экране блокировки. Обратите внимание, что при включении VoiceVista нельзя использовать во время воспроизведения других медиафайлов, таких как подкасты или музыка.";
 
 /* No comment provided by engineer. */
-"Users can become subscribers to support continuous development and cover server costs. However, it is not mandatory, as all features are available to non-subscribers as well." = "Пользователи могут стать подписчиками, чтобы поддерживать непрерывную разработку и покрывать расходы на сервер. Однако это не обязательно, так как все функции доступны и для тех, кто не является подписчиком.";
+"Users can become subscribers to support continuous development and cover server costs. However, it is not mandatory, as all features are available to non-subscribers as well." = "Пользователи могут оформить подписку, чтобы поддерживать непрерывную разработку и покрывать расходы на сервер. Однако это не обязательно, так как все функции доступны и для тех, кто не является подписчиком.";
 
 /* No comment provided by engineer. */
 "Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно поворачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрёстку.";
@@ -2347,10 +2347,10 @@
 "You can customize how VoiceVista automatically announces when you are monitoing a location." = "Вы можете настроить автоматическое объявление VoiceVista, когда вы отслеживаете местоположение.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Вы можете настроить автоматическое оповещение VoiceVista о том, что вы идёте.";
+"You can customize how VoiceVista automatically announces when you are walking." = "Вы можете настроить автоматическое оповещение VoiceVista во время движения пешком.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Вы можете настроить, какие категории POI будет объявлять VoiceVista при нажатии команд «Что вокруг» и «Что впереди».";
+"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Вы можете настроить, какие категории POI будет объявлять VoiceVista при нажатии кнопок «Что вокруг» и «Что впереди».";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Теперь вы можете исследовать местоположения, мгновенно перемещаясь между перекрёстками и местами.";
@@ -2377,7 +2377,7 @@
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Для выполнения дополнительных действий можно использовать объект ротора «действия» на кнопках вкладки «Окрестности».";
 
 /* No comment provided by engineer. */
-"You can use the actions rotor on the buttons to perform additional actions." = "Вы можете использовать обьект ротор «Действия» на кнопках для выполнения дополнительных действий.";
+"You can use the actions rotor on the buttons to perform additional actions." = "Вы можете использовать объект ротора «Действия» на кнопках для выполнения дополнительных действий.";
 
 /* No comment provided by engineer. */
 "You can't delete a marker while it is the current beacon." = "Вы не можете удалить метку, пока она является текущим маяком.";

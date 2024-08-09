@@ -5,6 +5,7 @@
 - Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 - Croatian translation contributed by Mario Markovina.
 - Danish translation contributed by Claus Thøgersen.
+- Estonian translation contributed by Artur Räpp.
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
@@ -29,7 +30,7 @@
 ## Steps for Translating
 - Run the GitHub Desktop App.
 - Switch the current branch to main, click "Fetch origin", then click "Pull origin", to update locally and synchronize with the latest main branch in the remote repository.
-- Click on the "Branch" menu, then select "New Branch..." to create a new local branch based on remote main branch. 
+- Click on the "Branch" menu, then select "New Branch..." to create a new local branch based on the newest main branch. 
 - Click on the "Repository" menu, then select "Show in Finder" (on macOS) to locate the files for editing.
 - Edit files using any editor you prefer in the strings folder.
 - Click "Commit to ..." to commit changes in the local branch.
