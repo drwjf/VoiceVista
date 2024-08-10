@@ -5,6 +5,7 @@
 - Catalan translation contributed by [Oriol Gómez - Plataforma No ho Veiem Clar](https://www.nohoveiemclar.cat).
 - Croatian translation contributed by Mario Markovina.
 - Danish translation contributed by Claus Thøgersen.
+- Dutch translation contributed by Jesse Wienholts.
 - Estonian translation contributed by Artur Räpp.
 - French translation contributed by Saladeuh.
 - German translation contributed by Sandra Pilz.

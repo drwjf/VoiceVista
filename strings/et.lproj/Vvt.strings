@@ -22,8 +22,8 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@ oli %2$@ %3$@";
 
-/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
-"%1$@, heading %2$@" = "%1$@, suund %2$@";
+/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
+"%1$@, heading to %2$@" = "%1$@, suundudes %2$@";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ on lähedal";
@@ -254,7 +254,7 @@
 "Approaching Intersection" = "Läheneb ristmik";
 
 /* directions.approaching_roundabout */
-"Approaching roundabout" = "Läheneb ringtee ";
+"Approaching roundabout" = "Läheneb ringtee";
 
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Kas oled kindel, et soovid need kõrvaklapid unustada?";
@@ -273,9 +273,6 @@
 
 /* settings.arrival.style.arrived */
 "Arrived" = "Kohal";
-
-/* Notification, %@ is a point of interest, 'At Starbucks' */
-"At %@" = "Koht %@";
 
 /* Directions using 1  o'clock position. */
 "at 1 o'clock" = "kella 1 suunas";
@@ -373,7 +370,7 @@
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Pangad ja sularahaautomaadid";
 
-/* beacon.generic_name */
+/* No comment provided by engineer. */
 "Beacon" = "Majakas";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
@@ -607,9 +604,6 @@
 /* Callout that occurs when the user resumes a paused preview mode along a road, %@ is the name of the road, 'Continuing preview along 9th Avenue North' */
 "Continuing Street Preview along %@" = "Tänava eelvaate jätkamine mööda %@";
 
-/* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
-"Continuing Street Preview at %@" = "Tänava eelvaate jätkamine kohas %@";
-
 /* map.hint.1 */
 "Coordinates of the map center" = "Kaardi keskpunkti koordinaadid";
 
@@ -688,9 +682,6 @@
 /* %@ is the beacon name */
 "Destination: %@ ." = "Sihtkoht: %@ .";
 
-/* No comment provided by engineer. */
-"Details of Route %@" = "Teekonna %@ üksikasjad";
-
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Suund: %@ .";
 
@@ -709,17 +700,11 @@
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Kaugus ja suund majakani";
 
-/* Placeholder in textfiled to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
-"Distance between %1$@ and %2$@" = "Vahemaa %1$@ ja %2$@ vahel";
-
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Teekonnapunktide vaheline kaugus peaks olema > = %@";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Vahemaa peab olema vahemikus %1$@ kuni %2$@";
-
-/* No comment provided by engineer. */
-"Distance to %@" = "Kaugus kohani %@";
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Kaugus: %@ .";
@@ -917,9 +902,6 @@
 "Frequently Asked Questions" = "Korduma kippuvad küsimused";
 
 /* No comment provided by engineer. */
-/* %@ is name of a marker or POI */
-"From the current address to %@" = "Hetke aadressilt kuni kohani %@";
-
 "General Settings" = "Üldised seaded";
 
 /* No comment provided by engineer. */
@@ -1321,9 +1303,6 @@
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Liikumise pööramispunkt";
-
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
-"Near %@" = "%@ lähedal";
 
 /* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
 "Near address %@" = "Aadressi %@ lähedal";
@@ -1748,7 +1727,7 @@
 "Search Location by Text" = "Otsi asukohta teksti alusel";
 
 /* No comment provided by engineer. */
-"Select a Destination Location" = "Vali sihtkoht ";
+"Select a Destination Location" = "Vali sihtkoht";
 
 /* markerspicker.footnote */
 "Select a marker to continue." = "Jätkamiseks vali tähis.";
@@ -1883,9 +1862,6 @@
 
 /* Callout that occurs when the user starts preview mode along a road, %@ is the name of the road, 'Starting preview along 9th Avenue North' */
 "Starting Street Preview along %@" = "Tänava eelvaate käivitamine piki %@";
-
-/* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
-"Starting Street Preview at %@" = "Tänava eelvaate käivitamine kohas %@";
 
 /* Motion status: stationary */
 "Stationary" = "Paigal";
