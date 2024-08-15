@@ -2,7 +2,7 @@
 "%1$@ about %2$@" = "%1$@ umbes %2$@";
 
 /* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
-"%1$@ around %2$@" = "%1$@ ligilähedaselt %2$@";
+"%1$@ around %2$@" = "%1$@ umbes %2$@";
 
 /* Notification, %1$@ is the point of interest, %2$@ is the distance with units, %3$@ is the orientation, '<Starbucks> is <5 meters> <ahead to the left>' */
 "%1$@ is %2$@ %3$@" = "%1$@ on %2$@ %3$@";
@@ -22,20 +22,20 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@ oli %2$@ %3$@";
 
-/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading south' */
-"%1$@, heading %2$@" = "%1$@, suund %2$@";
+/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
+"%1$@, heading to %2$@" = "%1$@, suundudes %2$@";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ on lähedal";
 
 /* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
-"%@ connected." = "%@ ühendatud.";
+"%@ connected." = "%@ - ühendatud.";
 
 /* No comment provided by engineer. */
 "%@ degrees" = "%@ kraadi";
 
 /* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
-"%@ disconnected." = "%@ ühendus katkestatud.";
+"%@ disconnected." = "%@ - ühendus katkestatud.";
 
 /* %@ is the navigation transport type, such as Walking, Automobile, Transit */
 "%@ Instructions:" = "%@ juhised:";
@@ -98,7 +98,7 @@
 "'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "'Lähtestamine' viib äpi värskelt paigaldatud olekusse ja seda tegevust ei saa tagasi võtta!";
 
 /* No comment provided by engineer. */
-"[Reverse]" = "[Ümber pöörama]	";
+"[Reverse]" = "[Ümberpööramine]";
 
 /* voice.settings.enhanced_available */
 "A higher quality version of this voice may be available. To download it and other voices, go to the Spoken Content section of the iOS accessibility settings." = "Sellest häälest võib olemas olla paremakvaliteediline versioon. Selle ja teiste häälte alla laadimiseks mine  iOSi Ligipääsetavuse seadistuste kõneldava sisu osasse.";
@@ -224,7 +224,7 @@
 "Append reverse waypoints to the tail to make the route a circular journey." = "Lisa lõpule tagasiteepunktid, et muuta teekond ringlevaks.";
 
 /* No comment provided by engineer. */
-"Apple AirPods" = "Apple AirPodsid";
+"Apple AirPods" = "Apple AirPods";
 
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPodsid on ühendatud.";
@@ -242,7 +242,7 @@
 "Approaching %@" = "Läheneb %@";
 
 /* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "%@ ringristmikule lähenemine";
+"Approaching %@ roundabout" = "Läheneb %@ ringtee";
 
 /* preview.callout.approach.end */
 "Approaching end of road" = "Läheneb tee lõpp";
@@ -254,7 +254,7 @@
 "Approaching Intersection" = "Läheneb ristmik";
 
 /* directions.approaching_roundabout */
-"Approaching roundabout" = "Läheneb ringtee ";
+"Approaching roundabout" = "Läheneb ringtee";
 
 /* No comment provided by engineer. */
 "Are you sure you wish to forget these headphones?" = "Kas oled kindel, et soovid need kõrvaklapid unustada?";
@@ -272,7 +272,7 @@
 "Arrive at the beacon" = "Saabud majaka juurde";
 
 /* settings.arrival.style.arrived */
-"Arrived" = "Koohal";
+"Arrived" = "Kohal";
 
 /* Directions using 1  o'clock position. */
 "at 1 o'clock" = "kella 1 suunas";
@@ -370,7 +370,7 @@
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Pangad ja sularahaautomaadid";
 
-/* beacon.generic_name */
+/* No comment provided by engineer. */
 "Beacon" = "Majakas";
 
 /* Noticafcation when start a beacon. %@ is beacon name */
@@ -398,7 +398,7 @@
 "Beacon set on %1$@, %2$@ of %3$@" = "Majakaks on %1$@, %2$@ kokku %3$@";
 
 /* No comment provided by engineer. */
-"Beacon Settings" = "Majaka seaded";
+"Beacon Settings" = "Majakate seaded";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "Majaka heli seaded";
@@ -515,10 +515,10 @@
 "Change GPS Information Time Interval" = "GPS-info aja intervalli muutmine";
 
 /* No comment provided by engineer. */
-"Change House Number Distance Interval" = "Maja numbri kauguse intervalli muutmine";
+"Change House Number Distance Interval" = "Majanumbri kauguse intervalli muutmine";
 
 /* No comment provided by engineer. */
-"Change House Number Time Interval" = "Maja numbri ajaintervalli muutmine";
+"Change House Number Time Interval" = "Majanumbri ajaintervalli muutmine";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Infopunktide vahemiku muutmine";
@@ -599,7 +599,7 @@
 "Continue" = "Jätka";
 
 /* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
-"Continuing along %@" = "Jätkad mööda %@";
+"Continuing along %@" = "Jätkamine mööda %@";
 
 /* Callout that occurs when the user resumes a paused preview mode along a road, %@ is the name of the road, 'Continuing preview along 9th Avenue North' */
 "Continuing Street Preview along %@" = "Tänava eelvaate jätkamine mööda %@";
@@ -704,7 +704,7 @@
 "Distance between waypoints, shoulde >= %@" = "Teekonnapunktide vaheline kaugus peaks olema > = %@";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
-"Distance should be between %1$@ and %2$@" = "Vahemaa peaks olema vahemikus %1$@ kuni %2$@";
+"Distance should be between %1$@ and %2$@" = "Vahemaa peab olema vahemikus %1$@ kuni %2$@";
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Kaugus: %@ .";
@@ -863,7 +863,7 @@
 "Failed to Export Routes" = "Teekondade eksportimine nurjus";
 
 /* No comment provided by engineer. */
-"Failed to Get Your Current Location" = "Hetke asukohta ei õnnestunud hankida";
+"Failed to Get Your Current Location" = "Hetke asukoha hankimine nurjus";
 
 /* No comment provided by engineer. */
 "Failed to Import GPX File" = "GPX-faili importimine nurjus";
@@ -1007,13 +1007,13 @@
 "HINT SOUNDS" = "VIHJEHELID";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Maja numbri kauguse intervall";
+"House Number Distance Interval" = "Majanumbri kauguse intervall";
 
 /* No comment provided by engineer. */
-"House Number Time Interval" = "Maja numbri ajaintervall";
+"House Number Time Interval" = "Majanumbri ajaintervall";
 
 /* No comment provided by engineer. */
-"House Numbers" = "Maja numbrid";
+"House Numbers" = "Majanumbrid";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Kuidas see kõlab?";
@@ -1190,7 +1190,7 @@
 "Location Explorer" = "Koha uurija";
 
 /* No comment provided by engineer. */
-"Location preview could not be started at this location." = "Asukoha eelvaadet ei saanud selles asukohas käivitada.";
+"Location preview could not be started at this location." = "Koha eelvaadet ei saanud selles asukohas käivitada.";
 
 /* No comment provided by engineer. */
 "Location Services with Precise Location" = "Asukohateenused täpse asukohaga";
@@ -1302,13 +1302,13 @@
 "Navigation Routes Calculated" = "Arvutatud liikumisteekonnad";
 
 /* No comment provided by engineer. */
-"Navigation Turn Point" = "Liikumise pöördepunkt";
+"Navigation Turn Point" = "Liikumise pööramispunkt";
 
 /* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Lähedal aadress %@";
+"Near address %@" = "Aadressi %@ lähedal";
 
 /* ui.action_button.nearby_markers */
-"Nearby Markers" = "Läheduses asuvad tähised";
+"Nearby Markers" = "Tähised läheduses";
 
 /* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
 "Nearest road, %1$@, is %2$@ %3$@" = "Lähim tee, %1$@, kaugus %2$@ %3$@";
@@ -1405,7 +1405,7 @@
 "Not Now" = "Mitte praegu";
 
 /* No comment provided by engineer. */
-"Notice" = "Märka";
+"Notice" = "Tähelepanu";
 
 /* Move the marker 5 meters east of its current location */
 "Nudge East" = "Nihuta ida suunas";
@@ -1513,7 +1513,7 @@
 "Pick Markers" = "Vali tähised";
 
 /* No comment provided by engineer. */
-"Pin to Top" = "Kinnita üles";
+"Pin to Top" = "Kinnita algusse";
 
 /* beacon.styles.ping */
 "Ping" = "Ping";
@@ -1544,10 +1544,10 @@
 "Please try later." = "Proovi hiljem.";
 
 /* No comment provided by engineer. */
-"POI Category" = "HP kategooria";
+"POI Category" = "Huvipunkti kategooria";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "HP üksikasjad";
+"POI DETAIL" = "Punkti üksikasjad";
 
 /* No comment provided by engineer. */
 "POI Distance and Direction" = "HP kaugus ja suund";
@@ -1556,13 +1556,13 @@
 "POI RANGES" = "HP VAHEMIKUD";
 
 /* No comment provided by engineer. */
-"POIs Ahead" = "HP-d ees";
+"POIs Ahead" = "Huvipunktid ees";
 
 /* No comment provided by engineer. */
 "POIs Nearby" = "Huvipunktid läheduses";
 
 /* No comment provided by engineer. */
-"PREFERENCE" = "EELISTUS";
+"PREFERENCE" = "EELISTUSED";
 
 /* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "VoiceVista äratamiseks vajuta kõrvaklappide esitusnuppu.";
@@ -1727,7 +1727,7 @@
 "Search Location by Text" = "Otsi asukohta teksti alusel";
 
 /* No comment provided by engineer. */
-"Select a Destination Location" = "Vali sihtkoht ";
+"Select a Destination Location" = "Vali sihtkoht";
 
 /* markerspicker.footnote */
 "Select a marker to continue." = "Jätkamiseks vali tähis.";
@@ -1794,7 +1794,7 @@
 "Skip Forward: Toggle callouts On and Off." = "Liigu edasi: lülita teated sisse ja välja.";
 
 /* vicinity.sleep */
-"Sleep" = "Uni";
+"Sleep" = "Maga";
 
 /* No comment provided by engineer. */
 "Sleeping" = "Magamine";
@@ -1909,7 +1909,7 @@
 "Surrounding Settings" = "Ümbritseva seaded";
 
 /* vicinity.title */
-"Surroundings" = "Ümbrused";
+"Surroundings" = "Ümbrus";
 
 /* beacon.styles.tactile */
 "Tactile" = "Kombatav";
@@ -1951,7 +1951,7 @@
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Käivitamise jälgimise funktsioon sarnaneb majaka seadmisega sihtkohta, kuid sa ei saa heli ega kauguse värskendusi enne, kui oled määratud kaugusel. Põhimõtteliselt läheb VoiceVista magama ja ärkab alles siis, kui oled sihtkoha lähedal.";
 
 /* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Teekonnapunkti tajumiskaugus määratleb vahemaa, milles praegune teekonnapunkt edastab juhised järgmisse teekonnapunkti.";
+"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Teekonnapunkti tajumiskaugus määrab vahemaa, milles praegune teekonnapunkt edastab juhised järgmisse teekonnapunkti.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Sellel teekonnal pole leivapurupunkte.";
@@ -2027,10 +2027,10 @@
 "To provide directions, access to motion data is required." = "Juhiste andmiseks on vajalik juurdepääs liikumisandmetele.";
 
 /* directions.direction.to_the_left */
-"to the left" = "vasakule";
+"to the left" = "vasakul";
 
 /* directions.direction.to_the_right */
-"to the right" = "paremale";
+"to the right" = "paremal";
 
 /* markerspicker.footnote.allowMultipleSelection */
 "Toggle markers on/off to select multiple." = "Lülita tähised sisse/välja, et mitut valida.";
@@ -2066,7 +2066,7 @@
 "Turn to select a road and then press Go" = "Tee valimiseks pööra ja siis vajuta nuppu Mine";
 
 /* preview.callout.road_finder.instructions */
-"Turn your phone to preview available roads" = "Pööra telefoni, et saadaolevatest tänavatest ülevaade saada";
+"Turn your phone to preview available roads" = "Pööra telefoni, et tänavatest ülevaade saada";
 
 /* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
 "Turned left. Now along %@" = "Pöörasid vasakule. Nüüd liigud mööda %@";
@@ -2078,10 +2078,10 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Selle sätte sisselülitamisel peatuvad VoiceVista teated ja muu heli , kui alustad mõne muu meediumirakenduse kasutamist. Teadete jätkamiseks naase VoiceVistasse.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "PÖÖRDEPUNKTI VALIKUD";
+"TURNPOINT OPTIONS" = "PÖÖRAMISPUNKTI VALIKUD";
 
 /* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "Pöördepunkti tajumise kaugus";
+"Turnpoint Sensing Distance" = "Pööramispunkti tajumise kaugus";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Salvestatud kaardiandmeid ei saa kustutada";
@@ -2157,7 +2157,7 @@
 "Users can become subscribers to support continuous development and cover server costs. However, it is not mandatory, as all features are available to non-subscribers as well." = "Kasutajad saavad saada tellijateks, et toetada pidevat arendamist ja katta serverikulusid. Kuid see pole kohustuslik, kuna kõik funktsioonid on saadaval ka mitte-tellijatele.";
 
 /* No comment provided by engineer. */
-"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Kasutades telefoni osutajana, pööra aeglaselt ja pööramise ajal öeldakse tänavad, millele osutad. Kui oled näoga tänava poole, kuhu soovid minna, puuduta nuppu 'Mine' ja liigud edasi järgmise ristmikuni.";
+"Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Kasuta telefoni osutajana ja pööra seda aeglaselt. Pööramise ajal öeldakse tänavad, millele osutad. Kui oled tänava poole, kuhu soovid minna, puuduta nuppu 'Mine' ja liigud edasi järgmise ristmikuni.";
 
 /* No comment provided by engineer. */
 "View Detail" = "Vaata üksikasju";
@@ -2229,7 +2229,7 @@
 "VoiceVista is searching for your AirPods. Ensure they are connected to your phone." = "VoiceVista otsib AirPodse. Veendu, et need oleksid sinu telefoniga ühendatud.";
 
 /* No comment provided by engineer. */
-"VoiceVista is unable to locate your current position at the moment." = "VoiceVista ei suuda hetkel sinu praegust asukohta leida.";
+"VoiceVista is unable to locate your current position at the moment." = "VoiceVista ei suuda hetkel praegust asukohta leida.";
 
 /* No comment provided by engineer. */
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista salvestab kaardiandmed, et vähendada andmete ja aku tarbimist. Salvestatud kaardiandmete kustutamiseks peab VoiceVista andmed uuesti alla laadima.";
@@ -2404,7 +2404,7 @@
 "Your headphones need to be calibrated. Remove them from your head and gently shake them in all directions." = "Kõrvaklapid tuleb kalibreerida. Eemalda need peast ja raputa neid õrnalt kõigis suundades.";
 
 /* No comment provided by engineer. */
-"Your Headphones need to be updated before they can connect to VoiceVista." = "Kõrvaklapid tuleb värskendada, enne kui need saavad VoiceVistaga ühenduse luua.";
+"Your Headphones need to be updated before they can connect to VoiceVista." = "Kõrvaklappe tuleb uuendada, enne kui need saavad VoiceVistaga ühenduse luua.";
 
 /* No comment provided by engineer. */
 "Your iPhone does not support head tracking with Apple AirPods. Check that your iPhone is an iPhone 7 or later and is running iOS 14.4 or later." = "Sinu iPhone ei toeta Apple AirPodsidega peajälgimist. Veendu, et sinu iPhone on iPhone 7 või uuem ja et selles töötab iOS 14.4 või uuem versioon.";
