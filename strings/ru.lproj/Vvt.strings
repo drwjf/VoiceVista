@@ -217,6 +217,15 @@
 /* No comment provided by engineer. */
 "Annotation" = "Примечание";
 
+/* No comment provided by engineer. */
+"Announce hint when approaching turnpoints" = "Объявлять подсказку при приближении к поворотным точкам";
+
+/* No comment provided by engineer. */
+"Announce turn instructions in advance at a specified distance." = "Заранее объявляйте инструкции по повороту на указанном расстоянии.";
+
+/* No comment provided by engineer. */
+"ANNOUNCING INTERVALS" = "ОБЪЯВЛЕНИЕ ИНТЕРВАЛОВ";
+
 /* Type 4 for navigation transport */
 "Any" = "Любой";
 
@@ -337,11 +346,14 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "Звук маяка отключён";
 
-/* beaconSetting.audioStyle */
-"AUDIO STYLES" = "Звуковые СТИЛИ";
-
-/* general.error.ble.unauthorized.title */
+/* No comment provided by engineer. */
 "Authorize Bluetooth" = "Разрешите использование Bluetooth";
+
+/* No comment provided by engineer. */
+"Auto-Mute" = "Автоматическое отключение звука";
+
+/* No comment provided by engineer. */
+"Auto-Unmute" = "Автоматическое включение звука";
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Автоматические объявления";
@@ -382,17 +394,23 @@
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Прибыл к маяку";
 
-/* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "Расстояние автоотключения маяка";
+/* beaconSetting.audioStyle */
+"BEACON AUDIO STYLES" = "СТИЛИ ЗВУКА BEACON";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "Расстояние до маяка";
+
+/* beaconSetting.hapticStyle */
+"BEACON HAPTIC STYLES" = "ТАКТИЛЬНЫЕ СТИЛИ МАЯКОВ";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "Маяк не запущен";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Маяк у %@";
+
+/* No comment provided by engineer. */
+"BEACON SENSING RANGES" = "ДИАПАЗОНЫ СРАБАТЫВАНИЯ РАДИОБУЕВ";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Маяк установлен у %1$@, на расстоянии %2$@, %3$@ из %4$@";
@@ -402,6 +420,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Settings" = "Настройки маяка";
+
+/* No comment provided by engineer. */
+"BEACON SOUND EFFECT VOLUME" = "ГРОМКОСТЬ ЗВУКОВОГО ЭФФЕКТА МАЯКА";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "Настройка звука маяка";
@@ -427,7 +448,7 @@
 /* directions.direction.behind_to_the_right */
 "behind to the right" = "позади справа";
 
-/* general.error.ble.unauthorized.message */
+/* No comment provided by engineer. */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Для подключения наушников требуется разрешение использовать Bluetooth. Откройте приложение «Настройки» ниже, чтобы включить Bluetooth. Обратите внимание, что это может привести к перезапуску приложения.";
 
 /* No comment provided by engineer. */
@@ -475,9 +496,6 @@
 /* %@ is a phone number */
 "Call Telephone: %@" = "Номер телефона: %@";
 
-/* No comment provided by engineer. */
-"Callouts Direction Style" = "Стиль объявлений о направлении";
-
 /* callouts.callouts_off */
 "Callouts Off" = "Объявления отключены";
 
@@ -487,14 +505,14 @@
 /* No comment provided by engineer. */
 "Callouts Settings" = "Настройки объявлений";
 
-/* No comment provided by engineer. */
-"Callouts Sound Settings" = "Настройки звука объявлений";
-
 /* general.alert.cancel */
 "Cancel" = "Отменить";
 
 /* No comment provided by engineer. */
 "Cancel Connecting" = "Отменить подключение";
+
+/* No comment provided by engineer. */
+"Category of the POI" = "Категория интересующего пункта";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Категория: %@";
@@ -503,10 +521,13 @@
 "Change Beacon Auto-Mute Distance" = "Изменить расстояния автоотключения маяка";
 
 /* No comment provided by engineer. */
+"Change Beacon Auto-Unmute Distance" = "Изменение расстояния автоматического включения звука маяка";
+
+/* No comment provided by engineer. */
 "Change Bus Stops Range" = "Изменить диапазон автобусных остановок";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "Изменить Стиль объявлений о направлении";
+"Change Direction Style" = "Изменение стиля направления";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Изменить приложение внешних карт";
@@ -691,6 +712,9 @@
 /* No comment provided by engineer. */
 "Details of Route %@" = "Подробности маршрута %@";
 
+/* No comment provided by engineer. */
+"Direction Style" = "Стиль направления";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Направление: %@ .";
 
@@ -709,6 +733,9 @@
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Расстояние и направление до маяка";
 
+/* No comment provided by engineer. */
+"Distance and Direction to the POI" = "Расстояние и направление до интересующего пункта";
+
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Расстояние между %1$@ и %2$@";
 
@@ -723,9 +750,6 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Расстояние: %@ .";
-
-/* No comment provided by engineer. */
-"DISTANCES" = "РАССТОЯНИЯ";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Хотите заменить? При этом будут заменены путевые точки, используемые в этом маршруте.";
@@ -788,7 +812,7 @@
 "Drag the map to change the coordinates" = "Перетащите карту, чтобы изменить координаты";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "ВОЖДЕНИЕ";
+"Driving Scenario" = "Сценарий вождения";
 
 /* beacon.styles.drop */
 "Drop" = "Падение";
@@ -845,7 +869,7 @@
 "Explore Nearby" = "Исследуйте поблизости";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "ИССЛЕДОВАНИЕ";
+"Exploring Scenario" = "Изучение сценария";
 
 /* No comment provided by engineer. */
 "Export and Import" = "Экспорт и импорт";
@@ -944,7 +968,7 @@
 "GPS Altitude" = "Высота над уровнем моря по GPS";
 
 /* No comment provided by engineer. */
-"GPS DETAIL" = "СВЕДЕНИЯ О GPS";
+"GPS ANNOUNCING OPTIONS" = "ОПЦИИ GPS ОПОВЕЩЕНИЯ";
 
 /* No comment provided by engineer. */
 "GPS Information" = "Информация GPS";
@@ -972,9 +996,6 @@
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Тактильный пульс";
-
-/* beaconSetting.hapticStyle */
-"HAPTIC STYLES" = "Тактильные стили";
 
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Тактильная палочка";
@@ -1009,13 +1030,13 @@
 /* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "Узнайте о состоянии наушников, которые вы используете с VoiceVista";
 
-/* user_activity.intersections.title */
+/* No comment provided by engineer. */
 "Hear Intersections Ahead" = "Прослушать перекрёстки впереди";
 
 /* No comment provided by engineer. */
 "Hear Intersections Nearby" = "Прослушать ближайшие перекрёстки";
 
-/* user_activity.nearby_markers.title */
+/* No comment provided by engineer. */
 "Hear Markers Nearby" = "Прослушать ближайшие метки";
 
 /* No comment provided by engineer. */
@@ -1121,7 +1142,7 @@
 "Intersection Callout" = "Объявление перекрёстка";
 
 /* No comment provided by engineer. */
-"INTERSECTION DETAIL" = "ПОДРОБНЕЕ О ПЕРЕКРЁСТКЕ";
+"INTERSECTION OPTIONS" = "ВАРИАНТЫ ПЕРЕКРЕСТКОВ";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Перекрёсток с %1$@ %2$@";
@@ -1149,9 +1170,6 @@
 
 /* No comment provided by engineer. */
 "Intersections Nearby" = "Перекрёстки поблизости";
-
-/* No comment provided by engineer. */
-"INTERVALS" = "ИНТЕРВАЛЫ";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Неверный маршрут навигационной цепочки";
@@ -1286,7 +1304,7 @@
 "Monitoring %@" = "Отслеживание %@";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "Управление уведомлениями об отслеживании";
+"Monitoring Scenario" = "Сценарий мониторинга";
 
 /* No comment provided by engineer. */
 "Monitoring Settings" = "Настройки отслеживания";
@@ -1306,8 +1324,7 @@
 /* No comment provided by engineer. */
 "Mute Beacon" = "Отключить звук маяка";
 
-/* directions.my_location
-   ui.action_button.my_location */
+/* No comment provided by engineer. */
 "My Location" = "Моё местоположение";
 
 /* No comment provided by engineer. */
@@ -1321,6 +1338,9 @@
 
 /* No comment provided by engineer. */
 "Navigation Routes Calculated" = "Рассчитаны маршруты навигации";
+
+/* No comment provided by engineer. */
+"Navigation Settings" = "Настройки навигации";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Поворот";
@@ -1343,10 +1363,10 @@
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "Nearest road, %1$@, was %2$@ %3$@" = "Пройдена ближайшая дорога, %1$@, %2$@ %3$@";
 
-/* permissions.alert.title.1 */
+/* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "Требуется разрешение на точную геопозицию";
 
-/* permissions.alert.title.2 */
+/* No comment provided by engineer. */
 "Need Motion & Fitness Permission" = "Требуется разрешение на движение и фитнес";
 
 /* No comment provided by engineer. */
@@ -1361,8 +1381,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Новые путевые точки будут названы автоматически и добавлены в маршрут %@.";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Следующий перекрёсток: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1504,9 +1523,6 @@
 "Pair Headphones Audio" = "Сопряжение наушников";
 
 /* No comment provided by engineer. */
-"PARAMETERS" = "ПАРАМЕТРЫ";
-
-/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Вставить метку из файла Soundscape";
 
 /* No comment provided by engineer. */
@@ -1560,24 +1576,32 @@
 /* No comment provided by engineer. */
 "Please enter a route name." = "Пожалуйста, введите название маршрута.";
 
-/* permissions.alert.message.1
-   permissions.alert.message.2 */
+/* No comment provided by engineer. */
 "Please grant permission in Settings app." = "Предоставьте разрешение в приложении «Настройки».";
 
 /* No comment provided by engineer. */
 "Please try later." = "Пожалуйста, попробуйте позже.";
 
 /* No comment provided by engineer. */
-"POI Category" = "Категория POI";
+"POI ANNOUNCING OPTIONS" = "ОПЦИИ ОБЪЯВЛЕНИЯ POI";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "СВЕДЕНИЯ О ТОЧКАХ ИНТЕРЕСА";
+"POI SENSING RANGES" = "ДИАПАЗОНЫ СРАБАТЫВАНИЯ POI";
 
 /* No comment provided by engineer. */
-"POI Distance and Direction" = "Расстояние и направление POI";
+"POI SOUND EFFECT OPTIONS" = "ВАРИАНТЫ ЗВУКОВЫХ ЭФФЕКТОВ POI";
 
 /* No comment provided by engineer. */
-"POI RANGES" = "ДИАПАЗОНЫ ТОЧЕК";
+"POI SOUND EFFECT VOLUME" = "ГРОМКОСТЬ ЗВУКОВОГО ЭФФЕКТА POI";
+
+/* No comment provided by engineer. */
+"POI Sound Settings" = "Настройки звука POI";
+
+/* No comment provided by engineer. */
+"POI Supercategory Options" = "Опции суперкатегории POI";
+
+/* No comment provided by engineer. */
+"POI SUPERCATEGORY OPTIONS" = "ОПЦИИ СУПЕРКАТЕГОРИИ POI";
 
 /* No comment provided by engineer. */
 "POIs Ahead" = "POI впереди";
@@ -1703,10 +1727,16 @@
 "Route Details" = "Детали маршрута";
 
 /* No comment provided by engineer. */
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "Навигация по маршруту переключается на следующую путевую точку по мере приближения к текущей путевой точке.";
+
+/* No comment provided by engineer. */
 "Route Name" = "Название маршрута";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Название маршрута: %@ .";
+
+/* No comment provided by engineer. */
+"Route Settings" = "Настройки маршрута";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Тип маршрута изменён на круговой";
@@ -1729,7 +1759,7 @@
 /* No comment provided by engineer. */
 "Save Current" = "Сохранить текущее";
 
-/* user_activity.save_marker.title */
+/* No comment provided by engineer. */
 "Save Marker" = "Сохранить метку";
 
 /* No comment provided by engineer. */
@@ -1744,7 +1774,7 @@
 /* No comment provided by engineer. */
 "Search a Place" = "Поиск мест";
 
-/* user_activity.search.title */
+/* No comment provided by engineer. */
 "Search in VoiceVista" = "Поиск в VoiceVista";
 
 /* No comment provided by engineer. */
@@ -1771,8 +1801,7 @@
 /* No comment provided by engineer. */
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Установите и сохраните постоянное расстояние оповещения для каждой метки индивидуально. Вы будете уведомлены, как только она окажется ближе заданного вами расстояния.";
 
-/* settings.screen_title
-   settings.title */
+/* No comment provided by engineer. */
 "Settings" = "Настройки";
 
 /* No comment provided by engineer. */
@@ -1835,12 +1864,6 @@
 /* No comment provided by engineer. */
 "Sound Effects List" = "Список звуковых эффектов";
 
-/* No comment provided by engineer. */
-"SOUND SWITCHES" = "ЗВУКОВЫЕ ПЕРЕКЛЮЧАТЕЛИ";
-
-/* No comment provided by engineer. */
-"SOUND VOLUME" = "ГРОМКОСТЬ";
-
 /* directions.cardinal.south */
 "South" = "Юг";
 
@@ -1874,11 +1897,10 @@
 /* No comment provided by engineer. */
 "Start Monitoring" = "Начать отслеживание";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
+/* voice.action.start_route */
 "Start Route" = "Начать маршрут";
 
-/* user_activity.street_preview.title */
+/* No comment provided by engineer. */
 "Start Street Preview" = "Запустить просмотр улиц";
 
 /* No comment provided by engineer. */
@@ -1924,13 +1946,13 @@
 "Summary" = "Краткий отчёт о состоянии маяка";
 
 /* No comment provided by engineer. */
+"SUPERCATEGORY DEFINITION" = "ОПРЕДЕЛЕНИЕ СУПЕРКАТЕГОРИИ";
+
+/* No comment provided by engineer. */
 "Supercategory Definitions" = "Значения суперкатегорий";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY SOUNDS" = "ЗВУКИ СУПЕРКАТЕГОРИЙ";
-
-/* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "Оповещения окрестностей";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "Настройки оповещений окрестностей";
@@ -1960,7 +1982,10 @@
 "Test Location" = "Тестовое местоположение";
 
 /* No comment provided by engineer. */
-"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Расстояние автоотключения маяка определяет, на каком расстоянии звук маяка автоматически отключается.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "Маяк запускается в режиме отключения звука и автоматически включается, когда вы входите в диапазон автоматического включения звука.";
+
+/* No comment provided by engineer. */
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "Маяк автоматически снова отключится, когда вы приблизитесь к пункту назначения и войдете в зону действия автоматического отключения звука.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Расстояние между путевыми точками не должно быть слишком маленьким.";
@@ -1976,9 +2001,6 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Функция начать отслеживание похожа на установку маяка у места назначения, но вы не будете получать звуковые сигналы или информацию о расстоянии, пока не удалитесь на определенное расстояние. По сути, VoiceVista переходит в режим сна и просыпается только тогда, когда вы приближаетесь к месту назначения.";
-
-/* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Расстояние обнаружения путевой точки определяет диапазон, в котором текущая путевая точка будет перенаправлять ведение по маршруту к следующей путевой точке.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "На этом маршруте нет путевых точек навигационной цепочки.";
@@ -2078,6 +2100,9 @@
 "Transportation" = "Транспорт";
 
 /* No comment provided by engineer. */
+"TRIP OPTIONS" = "ВАРИАНТЫ ПОЕЗДОК";
+
+/* No comment provided by engineer. */
 "Troubleshooting" = "Поиск неисправностей";
 
 /* No comment provided by engineer. */
@@ -2105,10 +2130,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Включение этого параметра приведет к тому, что объявления VoiceVista и другой звук будут приостанавливаться всякий раз, когда вы начинаете использовать другое мультимедийное приложение. Вы можете вернуться в VoiceVista, чтобы их возобновить.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "Варианты точки поворота";
-
-/* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "Расстояние определения точки поворота";
+"Turnpoint Hint Distance" = "Расстояние подсказки точки поворота";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Невозможно очистить сохранённые данные карт";
@@ -2193,7 +2215,7 @@
 "Visit Web" = "Посетить веб-сайт";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turnpoints" = "Голосовая подсказка при приближении к поворотам";
+"VOICE & SOUND" = "ГОЛОС И ЗВУК";
 
 /* No comment provided by engineer. */
 "Voice Settings" = "Настройки голоса";
@@ -2271,6 +2293,9 @@
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista не удалось подключиться к вашим наушникам. Пожалуйста, повторите попытку позже.";
 
 /* No comment provided by engineer. */
+"VOLUME & STYLE" = "ОБЪЕМ И СТИЛЬ";
+
+/* No comment provided by engineer. */
 "Wake Up Now" = "Проснуться сейчас";
 
 /* No comment provided by engineer. */
@@ -2281,7 +2306,7 @@
 "Walking" = "Пешком";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "Пешком";
+"Walking Scenario" = "Сценарий прогулки";
 
 /* No comment provided by engineer. */
 "Waypoint" = "путевая точка";
@@ -2293,7 +2318,7 @@
 "Waypoint Name" = "Название путевой точки";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "Расстояние обнаружения путевой точки";
+"Waypoint Switching Distance" = "Расстояние переключения путевых точек";
 
 /* No comment provided by engineer. */
 "Waypoints Updated" = "Обновлены путевые точки";
@@ -2310,13 +2335,13 @@
 /* directions.cardinal.west */
 "West" = "Запад";
 
-/* user_activity.ahead_of_me.title */
+/* No comment provided by engineer. */
 "What's Ahead of Me?" = "Что впереди?";
 
-/* user_activity.around_me.title */
+/* No comment provided by engineer. */
 "What's Around Me?" = "Что вокруг?";
 
-/* user_activity.my_location.title */
+/* No comment provided by engineer. */
 "What's My Location?" = "Где я?";
 
 /* permissions.info.1 */
@@ -2344,16 +2369,19 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Вы можете создавать резервные копии меток и маршрутов из iCloud на это устройство. Иногда данные iCloud могут быть потеряны из-за проблем с синхронизацией. В таких случаях можно попробовать выполнить восстановление с устройства в iCloud.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Вы можете настроить автоматическое оповещение VoiceVista о том, что вы находитесь в транспортном средстве.";
+"You can customize which supercategory POIs are announced for different scenarios." = "Вы можете настроить, какие интересующие пункты суперкатегорий будут объявляться для различных сценариев.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are monitoing a location." = "Вы можете настроить автоматическое объявление VoiceVista, когда вы отслеживаете местоположение.";
+"You can customize which supercategory POIs are announced while in a vehicle." = "Вы можете настроить, какие объекты суперкатегории будут объявляться во время нахождения в транспортном средстве.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Вы можете настроить автоматическое оповещение VoiceVista во время движения пешком.";
+"You can customize which supercategory POIs are announced while monitoring a location." = "Вы можете настроить, какие POI суперкатегорий будут объявляться во время мониторинга местоположения.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Вы можете настроить, какие категории POI будет объявлять VoiceVista при нажатии кнопок «Что вокруг» и «Что впереди».";
+"You can customize which supercategory POIs are announced while walking." = "Вы можете настроить, какие объекты суперкатегории будут объявляться во время ходьбы.";
+
+/* No comment provided by engineer. */
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "Вы можете настроить, какие объекты суперкатегорий будут объявляться с помощью команд «Что вокруг меня» и «Что впереди».";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Теперь вы можете исследовать местоположения, мгновенно перемещаясь между перекрёстками и местами.";
@@ -2374,7 +2402,7 @@
 "You can try searching by name or address." = "Вы можете искать места по имени или адресу.";
 
 /* No comment provided by engineer. */
-"You can turn off sound effects for specific POI super caegories and markers." = "Вы можете отключить звуковые эффекты для определённых суперкатегорий и меток POI.";
+"You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "Вы можете отключить звуковые эффекты для определенных суперкатегорий POI, разрешив озвучивать только текст POI.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Для выполнения дополнительных действий можно использовать объект ротора «действия» на кнопках вкладки «Окрестности».";
