@@ -214,6 +214,15 @@
 /* No comment provided by engineer. */
 "Annotation" = "Dipnot";
 
+/* No comment provided by engineer. */
+"Announce hint when approaching turnpoints" = "Dönüş noktalarına yaklaşırken ipucunu duyurun";
+
+/* No comment provided by engineer. */
+"Announce turn instructions in advance at a specified distance." = "Dönüş talimatlarını belirli bir mesafede önceden duyurun.";
+
+/* No comment provided by engineer. */
+"ANNOUNCING INTERVALS" = "ARALIKLARIN DUYURULMASI";
+
 /* Type 4 for navigation transport */
 "Any" = "Herhangi";
 
@@ -334,11 +343,14 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "Ses işaretçisi sessize alındı";
 
-/* beaconSetting.audioStyle */
-"AUDIO STYLES" = "SES TARZLARI";
-
-/* general.error.ble.unauthorized.title */
+/* No comment provided by engineer. */
 "Authorize Bluetooth" = "Bluetooth'u yetkilendir";
+
+/* No comment provided by engineer. */
+"Auto-Mute" = "Otomatik sessize alma";
+
+/* No comment provided by engineer. */
+"Auto-Unmute" = "Otomatik Sesi Aç";
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Otomatik Açıklamalar";
@@ -379,17 +391,23 @@
 /* No comment provided by engineer. */
 "Beacon Arrived" = "İşaret Ulaştı";
 
-/* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesi";
+/* beaconSetting.audioStyle */
+"BEACON AUDIO STYLES" = "BEACON SES STILLERI";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "İşaret Mesafesi";
+
+/* beaconSetting.hapticStyle */
+"BEACON HAPTIC STYLES" = "BEACON DOKUNSAL STILLERI";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "İşaret Başlatılmadı";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "%@ üzerinde işaretçi";
+
+/* No comment provided by engineer. */
+"BEACON SENSING RANGES" = "İŞARET ALGILAMA MESAFELERI";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "İşaret, %1$@, %2$@ uzakta, %3$@ / %4$@ üzerinde ayarlandı";
@@ -399,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Settings" = "İşaret Ayarları";
+
+/* No comment provided by engineer. */
+"BEACON SOUND EFFECT VOLUME" = "BEACON SES EFEKTI SES SEVIYESI";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "İşaret Sesi Ayarı";
@@ -424,7 +445,7 @@
 /* directions.direction.behind_to_the_right */
 "behind to the right" = "sağın arkasında";
 
-/* general.error.ble.unauthorized.message */
+/* No comment provided by engineer. */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Kulaklığınızı bağlamak için Bluetooth izni gereklidir. Bluetooth'u etkinleştirmek için aşağıdaki Ayarlar uygulamasını açın. Bunun, uygulamanın yeniden başlatılmasına neden olabileceğini unutmayın.";
 
 /* No comment provided by engineer. */
@@ -472,9 +493,6 @@
 /* %@ is a phone number */
 "Call Telephone: %@" = "Çağrı Telefonu: %@";
 
-/* No comment provided by engineer. */
-"Callouts Direction Style" = "Açıklama Yönü Stili";
-
 /* callouts.callouts_off */
 "Callouts Off" = "Açıklamalar Kapalı";
 
@@ -484,14 +502,14 @@
 /* No comment provided by engineer. */
 "Callouts Settings" = "Ek Bilgi Ayarları";
 
-/* No comment provided by engineer. */
-"Callouts Sound Settings" = "Açıklama Ses Ayarları";
-
 /* general.alert.cancel */
 "Cancel" = "İptal etmek";
 
 /* No comment provided by engineer. */
 "Cancel Connecting" = "Bağlantıyı İptal Et";
+
+/* No comment provided by engineer. */
+"Category of the POI" = "İÇN Kategorisi";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Kategori: %@";
@@ -500,10 +518,13 @@
 "Change Beacon Auto-Mute Distance" = "Beacon Otomatik Sessize Alma Mesafesini Değiştir";
 
 /* No comment provided by engineer. */
+"Change Beacon Auto-Unmute Distance" = "Beacon Otomatik Sesini Açma Mesafesini Değiştir";
+
+/* No comment provided by engineer. */
 "Change Bus Stops Range" = "Otobüs Durakları Aralığını Değiştir";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "Açıklama Yönü Stilini Değiştir";
+"Change Direction Style" = "Yön Stilini Değiştir";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Harici Haritalar Uygulamasını Değiştir";
@@ -688,6 +709,9 @@
 /* No comment provided by engineer. */
 "Details of Route %@" = "%@ Rotasının Detayları";
 
+/* No comment provided by engineer. */
+"Direction Style" = "Yön Stili";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Yön: %@ .";
 
@@ -706,6 +730,9 @@
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "İşarete olan mesafe ve yön";
 
+/* No comment provided by engineer. */
+"Distance and Direction to the POI" = "POI'ye Uzaklık ve Yön";
+
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "%1$@ ile %2$@ arasındaki mesafe";
 
@@ -720,9 +747,6 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Mesafe: %@ .";
-
-/* No comment provided by engineer. */
-"DISTANCES" = "MESAFELER";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Değiştirmek istiyor musun? Bu rotayı değiştirmek, bu rotada kullanılan ara noktaları da değiştirecektir.";
@@ -785,7 +809,7 @@
 "Drag the map to change the coordinates" = "Koordinatları değiştirmek için haritayı sürükleyin";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "SÜRÜŞ SENARYOSU";
+"Driving Scenario" = "Sürüş Senaryosu";
 
 /* beacon.styles.drop */
 "Drop" = "Düşürmek";
@@ -842,7 +866,7 @@
 "Explore Nearby" = "Yakındakileri Keşfet";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "SENARYOYU KEŞFETME";
+"Exploring Scenario" = "Senaryoyu Keşfetme";
 
 /* No comment provided by engineer. */
 "Export and Import" = "İhracat ve İthalat";
@@ -941,7 +965,7 @@
 "GPS Altitude" = "GPS Yüksekliği";
 
 /* No comment provided by engineer. */
-"GPS DETAIL" = "GPS DETAYI";
+"GPS ANNOUNCING OPTIONS" = "GPS DUYURU SEÇENEKLERI";
 
 /* No comment provided by engineer. */
 "GPS Information" = "GPS Bilgileri";
@@ -969,9 +993,6 @@
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Dokunsal Nabız";
-
-/* beaconSetting.hapticStyle */
-"HAPTIC STYLES" = "DOKUNMATİK TARZLAR";
 
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "dokunsal değnek";
@@ -1006,13 +1027,13 @@
 /* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "VoiceVista ile kullandığınız kulaklığın durumunu öğrenin";
 
-/* user_activity.intersections.title */
+/* No comment provided by engineer. */
 "Hear Intersections Ahead" = "İlerideki Kavşakları Duyun";
 
 /* No comment provided by engineer. */
 "Hear Intersections Nearby" = "Yakındaki Kavşakları Duyun";
 
-/* user_activity.nearby_markers.title */
+/* No comment provided by engineer. */
 "Hear Markers Nearby" = "Yakındaki İşaretçileri Duy";
 
 /* No comment provided by engineer. */
@@ -1118,7 +1139,7 @@
 "Intersection Callout" = "Kavşak Açıklama";
 
 /* No comment provided by engineer. */
-"INTERSECTION DETAIL" = "KAVŞAK DETAYI";
+"INTERSECTION OPTIONS" = "KAVŞAK SEÇENEKLERI";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "%1$@ %2$@ ile kesişme";
@@ -1146,9 +1167,6 @@
 
 /* No comment provided by engineer. */
 "Intersections Nearby" = "Yakındaki kavşaklar";
-
-/* No comment provided by engineer. */
-"INTERVALS" = "ARALIKLAR";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Geçersiz İçerik Haritası Rotası";
@@ -1283,7 +1301,7 @@
 "Monitoring %@" = "%@ izleniyor";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "Belirtme Çizgisi Anahtarlarını İzleme";
+"Monitoring Scenario" = "İzleme Senaryosu";
 
 /* No comment provided by engineer. */
 "Monitoring Settings" = "İzleme Ayarları";
@@ -1303,8 +1321,7 @@
 /* No comment provided by engineer. */
 "Mute Beacon" = "Sessiz İşareti";
 
-/* directions.my_location
-   ui.action_button.my_location */
+/* No comment provided by engineer. */
 "My Location" = "Benim konumum";
 
 /* No comment provided by engineer. */
@@ -1318,6 +1335,9 @@
 
 /* No comment provided by engineer. */
 "Navigation Routes Calculated" = "Hesaplanan Navigasyon Rotaları";
+
+/* No comment provided by engineer. */
+"Navigation Settings" = "Navigasyon Ayarları";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigasyon Dönüş Noktası";
@@ -1340,10 +1360,10 @@
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "Nearest road, %1$@, was %2$@ %3$@" = "En yakın yol, %1$@, %2$@ %3$@ idi";
 
-/* permissions.alert.title.1 */
+/* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "Doğruluk Konum İzni Gerekiyor";
 
-/* permissions.alert.title.2 */
+/* No comment provided by engineer. */
 "Need Motion & Fitness Permission" = "Hareket ve Fitness İzni Gerekiyor";
 
 /* No comment provided by engineer. */
@@ -1358,8 +1378,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Yeni ara noktalar otomatik olarak adlandırılacak ve %@ rotasına eklenecek.";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Sonraki kavşak: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1501,9 +1520,6 @@
 "Pair Headphones Audio" = "Kulaklık Sesini Eşleştir";
 
 /* No comment provided by engineer. */
-"PARAMETERS" = "PARAMETRE";
-
-/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Soundscape'ten Yapıştır İşaretçisi";
 
 /* No comment provided by engineer. */
@@ -1557,24 +1573,32 @@
 /* No comment provided by engineer. */
 "Please enter a route name." = "Lütfen bir rota adı girin.";
 
-/* permissions.alert.message.1
-   permissions.alert.message.2 */
+/* No comment provided by engineer. */
 "Please grant permission in Settings app." = "Lütfen Ayarlar uygulamasında izin verin.";
 
 /* No comment provided by engineer. */
 "Please try later." = "Lütfen daha sonra tekrar deneyin.";
 
 /* No comment provided by engineer. */
-"POI Category" = "İlgi Çekici Nokta Kategorisi";
+"POI ANNOUNCING OPTIONS" = "POI DUYURU SEÇENEKLERI";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "İÇN DETAYI";
+"POI SENSING RANGES" = "POI ALGILAMA MESAFELERI";
 
 /* No comment provided by engineer. */
-"POI Distance and Direction" = "POI Mesafe ve Yön";
+"POI SOUND EFFECT OPTIONS" = "POI SES EFEKTI SEÇENEKLERI";
 
 /* No comment provided by engineer. */
-"POI RANGES" = "İÇN ARALIKLARI";
+"POI SOUND EFFECT VOLUME" = "POI SES EFEKTI SES SEVIYESI";
+
+/* No comment provided by engineer. */
+"POI Sound Settings" = "POI Ses Ayarları";
+
+/* No comment provided by engineer. */
+"POI Supercategory Options" = "POI Üst Kategori Seçenekleri";
+
+/* No comment provided by engineer. */
+"POI SUPERCATEGORY OPTIONS" = "POI ÜST KATEGORI SEÇENEKLERI";
 
 /* No comment provided by engineer. */
 "POIs Ahead" = "Önümüzdeki İÇN'ler";
@@ -1700,10 +1724,16 @@
 "Route Details" = "Rota Ayrıntıları";
 
 /* No comment provided by engineer. */
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "Rota kılavuzu: Mevcut ara noktaya yaklaşırken bir sonraki ara noktaya geçin.";
+
+/* No comment provided by engineer. */
 "Route Name" = "Rota Adı";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Rota adı: %@ .";
+
+/* No comment provided by engineer. */
+"Route Settings" = "Rota Ayarları";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Rota Dairesel Yolculuk olarak Güncellendi";
@@ -1726,7 +1756,7 @@
 /* No comment provided by engineer. */
 "Save Current" = "Geçerliyi Kaydet";
 
-/* user_activity.save_marker.title */
+/* No comment provided by engineer. */
 "Save Marker" = "İşaretçiyi Kaydet";
 
 /* No comment provided by engineer. */
@@ -1741,7 +1771,7 @@
 /* No comment provided by engineer. */
 "Search a Place" = "Bir Yer Arayın";
 
-/* user_activity.search.title */
+/* No comment provided by engineer. */
 "Search in VoiceVista" = "VoiceVista'da ara";
 
 /* No comment provided by engineer. */
@@ -1768,8 +1798,7 @@
 /* No comment provided by engineer. */
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Her işaretleyici için ayrı ayrı kalıcı bir uyarı mesafesi ayarlayın ve kaydedin. Tanımladığınız mesafeye yaklaştığında bildirim alacaksınız.";
 
-/* settings.screen_title
-   settings.title */
+/* No comment provided by engineer. */
 "Settings" = "Ayarlar";
 
 /* No comment provided by engineer. */
@@ -1832,12 +1861,6 @@
 /* No comment provided by engineer. */
 "Sound Effects List" = "Ses Efektleri Listesi";
 
-/* No comment provided by engineer. */
-"SOUND SWITCHES" = "SES ANAHTARLARI";
-
-/* No comment provided by engineer. */
-"SOUND VOLUME" = "SES SEVİYESİ";
-
 /* directions.cardinal.south */
 "South" = "Güney";
 
@@ -1871,11 +1894,10 @@
 /* No comment provided by engineer. */
 "Start Monitoring" = "İzlemeye Başla";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
+/* voice.action.start_route */
 "Start Route" = "Rotayı Başlat";
 
-/* user_activity.street_preview.title */
+/* No comment provided by engineer. */
 "Start Street Preview" = "Sokak Önizlemesini Başlat";
 
 /* No comment provided by engineer. */
@@ -1921,13 +1943,13 @@
 "Summary" = "Özet";
 
 /* No comment provided by engineer. */
+"SUPERCATEGORY DEFINITION" = "ÜST KATEGORI TANIMI";
+
+/* No comment provided by engineer. */
 "Supercategory Definitions" = "Süper Kategori Tanımları";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY SOUNDS" = "ÜST KATEGORİ SESLER";
-
-/* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "Çevreleyen Belirtme Çizgileri Anahtarları";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "Çevre Ayarları";
@@ -1957,7 +1979,10 @@
 "Test Location" = "Test Konumu";
 
 /* No comment provided by engineer. */
-"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "İşaret ışığının otomatik susturulması mesafesi, ses işaretinin hangi mesafede otomatik olarak susturulacağını tanımlar.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "İşaret sessiz modda başlar ve Otomatik Sesi Açma aralığına girdiğinizde otomatik olarak sesi açılır.";
+
+/* No comment provided by engineer. */
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "Hedefe yaklaştığınızda ve Otomatik Sessize Alma aralığına girdiğinizde işaret otomatik olarak tekrar sessize alınacaktır.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Ara noktalar arasındaki mesafe çok küçük olmamalıdır.";
@@ -1973,9 +1998,6 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "İzlemeyi başlatma işlevi, bir varış noktasına bir işaret koymaya benzer, ancak belirli bir mesafe uzakta olana kadar ses veya mesafe güncellemeleri almazsınız. Temel olarak, VoiceVista yalnızca hedefinize yaklaştığınızda uykuya dalar ve uyanır.";
-
-/* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Yol noktası algılama mesafesi, mevcut yol noktasının rota rehberliğini bir sonraki yol noktasına ileteceği aralığı tanımlar.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Bu rotada kırıntı ara noktaları yoktur.";
@@ -2075,6 +2097,9 @@
 "Transportation" = "Toplu taşıma";
 
 /* No comment provided by engineer. */
+"TRIP OPTIONS" = "GEZİ SEÇENEKLERİ";
+
+/* No comment provided by engineer. */
 "Troubleshooting" = "Sorun giderme";
 
 /* No comment provided by engineer. */
@@ -2102,10 +2127,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Bu ayarın açılması, farklı bir medya uygulamasını kullanmaya başladığınızda VoiceVista'nın belirtme çizgilerinin ve diğer seslerin duraklamasına neden olur. Ek bilgileri devam ettirmek için VoiceVista'ya dönebilirsiniz.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "DÖNÜŞ NOKTASI SEÇENEKLERİ";
-
-/* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "Dönüş Noktası Algılama Mesafesi";
+"Turnpoint Hint Distance" = "Dönüş Noktası İpucu Mesafesi";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Kayıtlı Harita Verileri Temizlenemiyor";
@@ -2190,7 +2212,7 @@
 "Visit Web" = "Web'i ziyaret edin";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turnpoints" = "Dönüş noktalarına yaklaşırken sesli ipucu";
+"VOICE & SOUND" = "SES & SES";
 
 /* No comment provided by engineer. */
 "Voice Settings" = "Ses Ayarları";
@@ -2268,6 +2290,9 @@
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista kulaklığınıza bağlanamadı. Lütfen daha sonra tekrar deneyiniz.";
 
 /* No comment provided by engineer. */
+"VOLUME & STYLE" = "HACIM VE STİL";
+
+/* No comment provided by engineer. */
 "Wake Up Now" = "Şimdi uyan";
 
 /* No comment provided by engineer. */
@@ -2278,7 +2303,7 @@
 "Walking" = "Yürüme";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "YÜRÜME SENARYOSU";
+"Walking Scenario" = "Yürüme Senaryosu";
 
 /* No comment provided by engineer. */
 "Waypoint" = "ara nokta";
@@ -2290,7 +2315,7 @@
 "Waypoint Name" = "Yol Noktası Adı";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "Yol Noktası Algılama Mesafesi";
+"Waypoint Switching Distance" = "Yol Noktası Anahtarlama Mesafesi";
 
 /* No comment provided by engineer. */
 "Waypoints Updated" = "Ara Noktalar Güncellendi";
@@ -2307,13 +2332,13 @@
 /* directions.cardinal.west */
 "West" = "Batı";
 
-/* user_activity.ahead_of_me.title */
+/* No comment provided by engineer. */
 "What's Ahead of Me?" = "Önümde Ne Var?";
 
-/* user_activity.around_me.title */
+/* No comment provided by engineer. */
 "What's Around Me?" = "Etrafımda Neler Var?";
 
-/* user_activity.my_location.title */
+/* No comment provided by engineer. */
 "What's My Location?" = "Konumum nedir?";
 
 /* permissions.info.1 */
@@ -2341,16 +2366,19 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "İşaretçileri ve rotaları iCloud'dan bu aygıta yedekleyebilirsiniz. Bazen senkronizasyon sorunları nedeniyle iCloud verileri kaybolabilir. Bu gibi durumlarda, cihazdan iCloud'a geri yüklemeyi deneyebilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Araçtayken VoiceVista'nın otomatik olarak nasıl uyaracağını özelleştirebilirsiniz.";
+"You can customize which supercategory POIs are announced for different scenarios." = "Farklı senaryolar için hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are monitoing a location." = "Bir konumu izlerken VoiceVista'nın otomatik olarak nasıl duyuru yapacağını özelleştirebilirsiniz.";
+"You can customize which supercategory POIs are announced while in a vehicle." = "Bir araçtayken hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Yürürken VoiceVista'nın otomatik olarak nasıl uyaracağını özelleştirebilirsiniz.";
+"You can customize which supercategory POIs are announced while monitoring a location." = "Bir konumu izlerken hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "'Çevremdekiler' ve 'Önümüzdekiler' komutlarına dokunduğunuzda VoiceVista'nın hangi İÇN kategorilerini duyuracağını özelleştirebilirsiniz.";
+"You can customize which supercategory POIs are announced while walking." = "Yürürken hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
+
+/* No comment provided by engineer. */
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "'Etrafımda ne var' ve 'Önümde ne var' komutlarıyla hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Artık kavşaklar ve yerler arasında ışınlanarak sanal yerleri keşfedebilirsiniz.";
@@ -2371,7 +2399,7 @@
 "You can try searching by name or address." = "Ada veya adrese göre aramayı deneyebilirsiniz.";
 
 /* No comment provided by engineer. */
-"You can turn off sound effects for specific POI super caegories and markers." = "Belirli İÇN süper kategorileri ve işaretçileri için ses efektlerini kapatabilirsiniz.";
+"You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "Belirli İÇN üst kategorileri için ses efektlerini kapatabilir ve yalnızca İÇN metninin duyurulmasına izin verebilirsiniz.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Ek eylemler gerçekleştirmek için Çevre sekmesindeki düğmelerdeki eylem rotorunu kullanabilirsiniz.";

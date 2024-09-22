@@ -109,6 +109,15 @@
 /* No comment provided by engineer. */
 "Annotation" = "حاشية. ملاحظة";
 
+/* No comment provided by engineer. */
+"Announce hint when approaching turnpoints" = "أعلن تلميحا عند الاقتراب من نقاط الدوران";
+
+/* No comment provided by engineer. */
+"Announce turn instructions in advance at a specified distance." = "أعلن عن تعليمات الانعطاف مسبقا على مسافة محددة.";
+
+/* No comment provided by engineer. */
+"ANNOUNCING INTERVALS" = "الإعلان عن الفواصل الزمنية";
+
 /* Type 4 for navigation transport */
 "Any" = "أي";
 
@@ -214,11 +223,14 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "تم كتم صوت منارة الصوت";
 
-/* beaconSetting.audioStyle */
-"AUDIO STYLES" = "أنماط الصوت";
-
-/* general.error.ble.unauthorized.title */
+/* No comment provided by engineer. */
 "Authorize Bluetooth" = "تخويل البلوتوث";
+
+/* No comment provided by engineer. */
+"Auto-Mute" = "كتم الصوت التلقائي";
+
+/* No comment provided by engineer. */
+"Auto-Unmute" = "إلغاء كتم الصوت التلقائي";
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "وسائل الشرح التلقائية";
@@ -256,17 +268,26 @@
 /* No comment provided by engineer. */
 "Beacon Arrived" = "وصلت المنارة";
 
-/* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "منارة مسافة كتم الصوت التلقائي";
+/* beaconSetting.audioStyle */
+"BEACON AUDIO STYLES" = "أنماط الصوت منارة";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "مسافة المنارة";
+
+/* beaconSetting.hapticStyle */
+"BEACON HAPTIC STYLES" = "منارة الأساليب اللمسية";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "منارة لم تبدأ";
 
 /* No comment provided by engineer. */
+"BEACON SENSING RANGES" = "نطاقات استشعار المنارة";
+
+/* No comment provided by engineer. */
 "Beacon Settings" = "إعدادات منارة";
+
+/* No comment provided by engineer. */
+"BEACON SOUND EFFECT VOLUME" = "حجم تأثير الصوت منارة";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "إعداد صوت المنارة";
@@ -289,7 +310,7 @@
 /* directions.direction.behind_to_the_right */
 "behind to the right" = "خلف اليمين";
 
-/* general.error.ble.unauthorized.message */
+/* No comment provided by engineer. */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "مطلوب إذن بلوتوث لتوصيل سماعات الرأس الخاصة بك. افتح تطبيق الإعدادات أدناه لتمكين البلوتوث. لاحظ أن هذا قد يتسبب في إعادة تشغيل التطبيق.";
 
 /* No comment provided by engineer. */
@@ -334,9 +355,6 @@
 /* No comment provided by engineer. */
 "Call Phone" = "اتصل بالهاتف";
 
-/* No comment provided by engineer. */
-"Callouts Direction Style" = "نمط اتجاه وسائل الشرح";
-
 /* callouts.callouts_off */
 "Callouts Off" = "وسائل الشرح معطلة";
 
@@ -346,9 +364,6 @@
 /* No comment provided by engineer. */
 "Callouts Settings" = "إعدادات وسائل الشرح";
 
-/* No comment provided by engineer. */
-"Callouts Sound Settings" = "إعدادات صوت وسائل الشرح";
-
 /* general.alert.cancel */
 "Cancel" = "يلغي";
 
@@ -356,13 +371,19 @@
 "Cancel Connecting" = "إلغاء الاتصال";
 
 /* No comment provided by engineer. */
+"Category of the POI" = "فئة نقطة الاهتمام";
+
+/* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "تغيير مسافة كتم صوت المنارة تلقائيًا";
+
+/* No comment provided by engineer. */
+"Change Beacon Auto-Unmute Distance" = "تغيير مسافة إلغاء كتم صوت المنارة تلقائيا";
 
 /* No comment provided by engineer. */
 "Change Bus Stops Range" = "تغيير نطاق مواقف الحافلات";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "تغيير نمط اتجاه وسائل الشرح";
+"Change Direction Style" = "تغيير نمط الاتجاه";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "تغيير تطبيق الخرائط الخارجية";
@@ -518,6 +539,9 @@
 "Destination location" = "موقع وجهة";
 
 /* No comment provided by engineer. */
+"Direction Style" = "نمط الاتجاه";
+
+/* No comment provided by engineer. */
 "Disable Unnamed Roads" = "تعطيل الطرق بدون اسم";
 
 /* No comment provided by engineer. */
@@ -533,7 +557,7 @@
 "Distance and direction to the beacon" = "المسافة والاتجاه إلى المنارة";
 
 /* No comment provided by engineer. */
-"DISTANCES" = "المسافات";
+"Distance and Direction to the POI" = "المسافة والاتجاه إلى نقطة الاهتمام";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "هل تريد استبدالها؟ سيؤدي استبدال هذا المسار أيضًا إلى استبدال الإحداثيات المستخدمة في هذا المسار.";
@@ -593,7 +617,7 @@
 "Drag the map to change the coordinates" = "اسحب الخريطة لتغيير الإحداثيات";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "سيناريو القيادة";
+"Driving Scenario" = "سيناريو القيادة";
 
 /* beacon.styles.drop */
 "Drop" = "يسقط";
@@ -650,7 +674,7 @@
 "Explore Nearby" = "استكشف الأماكن المجاورة";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "استكشاف السيناريو";
+"Exploring Scenario" = "استكشاف السيناريو";
 
 /* No comment provided by engineer. */
 "Export and Import" = "التصدير والاستيراد";
@@ -743,7 +767,7 @@
 "GPS Altitude" = "ارتفاع نظام تحديد المواقع العالمي (GPS)";
 
 /* No comment provided by engineer. */
-"GPS DETAIL" = "تفاصيل نظام تحديد المواقع";
+"GPS ANNOUNCING OPTIONS" = "خيارات الإعلان عن نظام تحديد المواقع العالمي (GPS)";
 
 /* No comment provided by engineer. */
 "GPS Information" = "معلومات نظام تحديد المواقع";
@@ -771,9 +795,6 @@
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "النبض اللمسي";
-
-/* beaconSetting.hapticStyle */
-"HAPTIC STYLES" = "أنماط سعيدة";
 
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "عصا لمسية";
@@ -808,13 +829,13 @@
 /* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "تعرف على حالة سماعات الرأس التي تستخدمها مع VoiceVista";
 
-/* user_activity.intersections.title */
+/* No comment provided by engineer. */
 "Hear Intersections Ahead" = "سماع التقاطعات المقبلة";
 
 /* No comment provided by engineer. */
 "Hear Intersections Nearby" = "سماع التقاطعات القريبة";
 
-/* user_activity.nearby_markers.title */
+/* No comment provided by engineer. */
 "Hear Markers Nearby" = "سماع العلامات القريبة";
 
 /* No comment provided by engineer. */
@@ -914,7 +935,7 @@
 "Intersection Callout" = "وسيلة شرح التقاطع";
 
 /* No comment provided by engineer. */
-"INTERSECTION DETAIL" = "تفاصيل التقاطع";
+"INTERSECTION OPTIONS" = "خيارات التقاطع";
 
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "التقاطعات";
@@ -927,9 +948,6 @@
 
 /* No comment provided by engineer. */
 "Intersections Nearby" = "التقاطعات القريبة";
-
-/* No comment provided by engineer. */
-"INTERVALS" = "فترات";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "مسار التنقل غير صالح";
@@ -1052,7 +1070,7 @@
 "Mobility Facilities" = "مرافق التنقل";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "مفاتيح وسائل شرح المراقبة";
+"Monitoring Scenario" = "سيناريو المراقبة";
 
 /* No comment provided by engineer. */
 "Monitoring Settings" = "إعدادات المراقبة";
@@ -1069,8 +1087,7 @@
 /* No comment provided by engineer. */
 "Mute Beacon" = "منارة كتم الصوت";
 
-/* directions.my_location
-   ui.action_button.my_location */
+/* No comment provided by engineer. */
 "My Location" = "موقعي";
 
 /* No comment provided by engineer. */
@@ -1086,15 +1103,18 @@
 "Navigation Routes Calculated" = "طرق الملاحة المحسوبة";
 
 /* No comment provided by engineer. */
+"Navigation Settings" = "إعدادات التنقل";
+
+/* No comment provided by engineer. */
 "Navigation Turn Point" = "نقطة تحول الملاحة";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "العلامات القريبة";
 
-/* permissions.alert.title.1 */
+/* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "تحتاج دقة إذن الموقع";
 
-/* permissions.alert.title.2 */
+/* No comment provided by engineer. */
 "Need Motion & Fitness Permission" = "بحاجة إلى إذن الحركة واللياقة البدنية";
 
 /* No comment provided by engineer. */
@@ -1242,9 +1262,6 @@
 "Pair Headphones Audio" = "إقران صوت سماعات الرأس";
 
 /* No comment provided by engineer. */
-"PARAMETERS" = "البارامترات";
-
-/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "لصق ماركر من Soundscape";
 
 /* No comment provided by engineer. */
@@ -1298,24 +1315,32 @@
 /* No comment provided by engineer. */
 "Please enter a route name." = "الرجاء إدخال اسم الطريق.";
 
-/* permissions.alert.message.1
-   permissions.alert.message.2 */
+/* No comment provided by engineer. */
 "Please grant permission in Settings app." = "يرجى منح الإذن في تطبيق الإعدادات.";
 
 /* No comment provided by engineer. */
 "Please try later." = "يرجى المحاولة لاحقا.";
 
 /* No comment provided by engineer. */
-"POI Category" = "فئة نقاط الاهتمام";
+"POI ANNOUNCING OPTIONS" = "خيارات الإعلان عن POI";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "تفاصيل نقطة الاهتمام";
+"POI SENSING RANGES" = "نطاقات استشعار POI";
 
 /* No comment provided by engineer. */
-"POI Distance and Direction" = "مسافة POI واتجاهها";
+"POI SOUND EFFECT OPTIONS" = "خيارات تأثير الصوت POI";
 
 /* No comment provided by engineer. */
-"POI RANGES" = "نطاقات النقاط المهمة";
+"POI SOUND EFFECT VOLUME" = "حجم تأثير الصوت POI";
+
+/* No comment provided by engineer. */
+"POI Sound Settings" = "إعدادات صوت POI";
+
+/* No comment provided by engineer. */
+"POI Supercategory Options" = "خيارات الفئة الفائقة POI";
+
+/* No comment provided by engineer. */
+"POI SUPERCATEGORY OPTIONS" = "خيارات الفئة الفائقة POI";
 
 /* No comment provided by engineer. */
 "POIs Ahead" = "النقاط المهمة في المستقبل";
@@ -1423,7 +1448,13 @@
 "Route Details" = "تفاصيل الطريق";
 
 /* No comment provided by engineer. */
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "قم بتبديل إرشادات المسار إلى نقطة الطريق التالية عند اقترابك من نقطة الطريق الحالية.";
+
+/* No comment provided by engineer. */
 "Route Name" = "اسم الطريق";
+
+/* No comment provided by engineer. */
+"Route Settings" = "إعدادات المسار";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "تم تحديث المسار إلى رحلة دائرية";
@@ -1446,7 +1477,7 @@
 /* No comment provided by engineer. */
 "Save Current" = "حفظ الحالي";
 
-/* user_activity.save_marker.title */
+/* No comment provided by engineer. */
 "Save Marker" = "حفظ ماركر";
 
 /* No comment provided by engineer. */
@@ -1461,7 +1492,7 @@
 /* No comment provided by engineer. */
 "Search a Place" = "البحث عن مكان";
 
-/* user_activity.search.title */
+/* No comment provided by engineer. */
 "Search in VoiceVista" = "ابحث في VoiceVista";
 
 /* No comment provided by engineer. */
@@ -1488,8 +1519,7 @@
 /* No comment provided by engineer. */
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "قم بتعيين وحفظ مسافة التنبيه الدائمة لكل علامة على حدة. سيتم إعلامك بمجرد أن يكون أقرب من المسافة المحددة الخاصة بك.";
 
-/* settings.screen_title
-   settings.title */
+/* No comment provided by engineer. */
 "Settings" = "إعدادات";
 
 /* No comment provided by engineer. */
@@ -1552,12 +1582,6 @@
 /* No comment provided by engineer. */
 "Sound Effects List" = "قائمة المؤثرات الصوتية";
 
-/* No comment provided by engineer. */
-"SOUND SWITCHES" = "مفاتيح الصوت";
-
-/* No comment provided by engineer. */
-"SOUND VOLUME" = "حجم الصوت";
-
 /* directions.cardinal.south */
 "South" = "جنوب";
 
@@ -1585,11 +1609,10 @@
 /* No comment provided by engineer. */
 "Start Monitoring" = "ابدأ المراقبة";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
+/* voice.action.start_route */
 "Start Route" = "ابدأ الطريق";
 
-/* user_activity.street_preview.title */
+/* No comment provided by engineer. */
 "Start Street Preview" = "ابدأ معاينة الشارع";
 
 /* No comment provided by engineer. */
@@ -1629,13 +1652,13 @@
 "Summary" = "ملخص";
 
 /* No comment provided by engineer. */
+"SUPERCATEGORY DEFINITION" = "تعريف الفئة الفائقة";
+
+/* No comment provided by engineer. */
 "Supercategory Definitions" = "تعريفات الفئة الفائقة";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY SOUNDS" = "أصوات الفئة الفائقة";
-
-/* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "مفاتيح وسائل الشرح المحيطة";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "الإعدادات المحيطة";
@@ -1665,7 +1688,10 @@
 "Test Location" = "موقع الاختبار";
 
 /* No comment provided by engineer. */
-"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "تحدد مسافة كتم صوت الإشارة التلقائية المسافة التي يتم فيها كتم صوت إشارة الصوت تلقائيًا.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "يبدأ المرشد في وضع كتم الصوت وسيتم إلغاء كتمه تلقائيا عند إدخال نطاق إلغاء كتم الصوت التلقائي.";
+
+/* No comment provided by engineer. */
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "سيتم كتم صوت المرشد تلقائيا مرة أخرى عندما تقترب من الوجهة وتدخل نطاق كتم الصوت التلقائي.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "يجب ألا تكون المسافة بين نقاط الطريق صغيرة جدًا.";
@@ -1681,9 +1707,6 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "تشبه وظيفة مراقبة البداية إعداد إشارة ضوئية على وجهة ما، لكنك لن تتلقى تحديثات صوتية أو المسافة حتى تكون على مسافة محددة. في الأساس، ينام VoiceVista ويستيقظ فقط عندما تكون بالقرب من وجهتك.";
-
-/* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "تحدد مسافة استشعار الإحداثية النطاق الذي ستقوم فيه نقطة الطريق الحالية بإعادة توجيه توجيه المسار إلى نقطة الطريق التالية.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "لا توجد نقاط طريق للتنقل في هذا الطريق.";
@@ -1773,6 +1796,9 @@
 "Transportation" = "مواصلات";
 
 /* No comment provided by engineer. */
+"TRIP OPTIONS" = "خيارات الرحلة";
+
+/* No comment provided by engineer. */
 "Troubleshooting" = "استكشاف الأخطاء وإصلاحها";
 
 /* No comment provided by engineer. */
@@ -1794,10 +1820,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "سيؤدي تشغيل هذا الإعداد إلى توقف وسائل شرح VoiceVista وغيرها من الأصوات عندما تبدأ في استخدام تطبيق وسائط مختلف. يمكنك العودة إلى VoiceVista لاستئناف وسائل الشرح.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "خيارات نقطة التحول";
-
-/* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "مسافة استشعار نقطة التحول";
+"Turnpoint Hint Distance" = "مسافة تلميح نقطة التحول";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "تعذر محو بيانات الخرائط المخزنة";
@@ -1882,7 +1905,7 @@
 "Visit Web" = "زيارة الويب";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turnpoints" = "تلميح صوتي عند الاقتراب من نقاط الدوران";
+"VOICE & SOUND" = "الصوت والصوت";
 
 /* No comment provided by engineer. */
 "Voice Settings" = "إعدادات الصوت";
@@ -1957,6 +1980,9 @@
 "VoiceVista was unable to connect to your headphones. Please try again later." = "لم يتمكن VoiceVista من الاتصال بسماعات الرأس الخاصة بك. الرجاء معاودة المحاولة في وقت لاحق.";
 
 /* No comment provided by engineer. */
+"VOLUME & STYLE" = "الحجم والأناقة";
+
+/* No comment provided by engineer. */
 "Wake Up Now" = "أستيقظ الأن";
 
 /* No comment provided by engineer. */
@@ -1967,7 +1993,7 @@
 "Walking" = "المشي";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "سيناريو المشي";
+"Walking Scenario" = "سيناريو المشي";
 
 /* No comment provided by engineer. */
 "Waypoint" = "إحداثية";
@@ -1979,7 +2005,7 @@
 "Waypoint Name" = "اسم نقطة الطريق";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "المسافة الاستشعار عن نقطة الطريق";
+"Waypoint Switching Distance" = "مسافة تبديل نقطة الطريق";
 
 /* No comment provided by engineer. */
 "Waypoints Updated" = "تم تحديث نقاط الطريق";
@@ -1996,13 +2022,13 @@
 /* directions.cardinal.west */
 "West" = "الغرب";
 
-/* user_activity.ahead_of_me.title */
+/* No comment provided by engineer. */
 "What's Ahead of Me?" = "ماذا ينتظرني؟";
 
-/* user_activity.around_me.title */
+/* No comment provided by engineer. */
 "What's Around Me?" = "ماذا حولي؟";
 
-/* user_activity.my_location.title */
+/* No comment provided by engineer. */
 "What's My Location?" = "ما هو موقعي؟";
 
 /* permissions.info.1 */
@@ -2030,16 +2056,19 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "يمكنك نسخ العلامات والمسارات احتياطيا من iCloud إلى هذا الجهاز. في بعض الأحيان قد تفقد بيانات iCloud بسبب مشكلات المزامنة. في مثل هذه الحالات ، يمكنك محاولة الاستعادة من الجهاز إلى iCloud.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "يمكنك تخصيص كيفية إعلان VoiceVista تلقائيا عندما تكون في سيارة.";
+"You can customize which supercategory POIs are announced for different scenarios." = "يمكنك تخصيص نقاط الاهتمام للفئة الفائقة التي يتم الإعلان عنها لسيناريوهات مختلفة.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are monitoing a location." = "يمكنك تخصيص كيفية إعلان VoiceVista تلقائيًا عندما تقوم بمراقبة موقع ما.";
+"You can customize which supercategory POIs are announced while in a vehicle." = "يمكنك تخصيص نقاط الاهتمام للفئة الفائقة التي يتم الإعلان عنها أثناء وجودك في السيارة.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "يمكنك تخصيص كيفية إعلان VoiceVista تلقائيا عند المشي.";
+"You can customize which supercategory POIs are announced while monitoring a location." = "يمكنك تخصيص نقاط الاهتمام للفئة الفائقة التي يتم الإعلان عنها أثناء مراقبة الموقع.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "يمكنك تخصيص فئات نقاط الاهتمام التي يعلن عنها VoiceVista عند النقر فوق أوامر 'ما حولي' و 'ما هو قادم'.";
+"You can customize which supercategory POIs are announced while walking." = "يمكنك تخصيص نقاط الاهتمام للفئة الفائقة التي يتم الإعلان عنها أثناء المشي.";
+
+/* No comment provided by engineer. */
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "يمكنك تخصيص نقاط الاهتمام للفئة الفائقة التي يتم الإعلان عنها باستخدام أمري 'ما حولي' و 'ما هو قادم'.";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "يمكنك الآن استكشاف المواقع الافتراضية عن طريق النقل الآني بين التقاطعات والأماكن.";
@@ -2060,7 +2089,7 @@
 "You can try searching by name or address." = "يمكنك محاولة البحث بالاسم أو العنوان.";
 
 /* No comment provided by engineer. */
-"You can turn off sound effects for specific POI super caegories and markers." = "يمكنك إيقاف تشغيل المؤثرات الصوتية لعلامات وعلامات محددة لنقاط الاهتمام الفائقة.";
+"You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "يمكنك إيقاف تشغيل المؤثرات الصوتية لفئات فائقة محددة من نقاط الاهتمام، مما يسمح بالإعلان عن نص نقطة الاهتمام فقط.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "يمكنك استخدام دوار الإجراءات الموجود على أزرار علامة التبويب 'المناطق المحيطة' لتنفيذ إجراءات إضافية.";

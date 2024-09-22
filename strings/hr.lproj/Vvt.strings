@@ -217,6 +217,15 @@
 /* No comment provided by engineer. */
 "Annotation" = "Anotacija";
 
+/* No comment provided by engineer. */
+"Announce hint when approaching turnpoints" = "Najavite savjet kada se približavate okretnim točkama";
+
+/* No comment provided by engineer. */
+"Announce turn instructions in advance at a specified distance." = "Najavite upute za skretanje unaprijed na određenoj udaljenosti.";
+
+/* No comment provided by engineer. */
+"ANNOUNCING INTERVALS" = "NAJAVA INTERVALA";
+
 /* Type 4 for navigation transport */
 "Any" = "Bilo koje";
 
@@ -337,11 +346,14 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "Audiozapisnik je isključen";
 
-/* beaconSetting.audioStyle */
-"AUDIO STYLES" = "AUDIO STILOVI";
-
-/* general.error.ble.unauthorized.title */
+/* No comment provided by engineer. */
 "Authorize Bluetooth" = "Autorizirajte Bluetooth";
+
+/* No comment provided by engineer. */
+"Auto-Mute" = "Automatsko isključivanje zvuka";
+
+/* No comment provided by engineer. */
+"Auto-Unmute" = "Automatsko uključivanje zvuka";
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatske najave";
@@ -382,17 +394,23 @@
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Stigli ste na cilj";
 
-/* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "Udaljenost automatskog isključivanja cilja";
+/* beaconSetting.audioStyle */
+"BEACON AUDIO STYLES" = "BEACON AUDIO STILOVI";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "Udaljenost svjetionika";
+
+/* beaconSetting.hapticStyle */
+"BEACON HAPTIC STYLES" = "SVJETIONIK TAKTILNI STILOVI";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "Svjetionik nije pokrenut";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Cilj na %@";
+
+/* No comment provided by engineer. */
+"BEACON SENSING RANGES" = "RASPONI SENZORA SVJETIONIKA";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Cilj postavljen na %1$@, %2$@ daleko, %3$@ od %4$@";
@@ -402,6 +420,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Settings" = "Postavke cilja";
+
+/* No comment provided by engineer. */
+"BEACON SOUND EFFECT VOLUME" = "GLASNOĆA ZVUČNOG EFEKTA SVJETIONIKA";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "Postavka zvuka cilja";
@@ -427,7 +448,7 @@
 /* directions.direction.behind_to_the_right */
 "behind to the right" = "iza desno";
 
-/* general.error.ble.unauthorized.message */
+/* No comment provided by engineer. */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Za povezivanje slušalica potrebna je Bluetooth dozvola. Otvorite aplikaciju Postavke u nastavku da biste omogućili Bluetooth. Imajte na umu da to može uzrokovati ponovno pokretanje aplikacije.";
 
 /* No comment provided by engineer. */
@@ -475,9 +496,6 @@
 /* %@ is a phone number */
 "Call Telephone: %@" = "Telefon za poziv: %@";
 
-/* No comment provided by engineer. */
-"Callouts Direction Style" = "Način najava smijera";
-
 /* callouts.callouts_off */
 "Callouts Off" = "Najave isključene";
 
@@ -487,14 +505,14 @@
 /* No comment provided by engineer. */
 "Callouts Settings" = "Postavke najava";
 
-/* No comment provided by engineer. */
-"Callouts Sound Settings" = "Postavke zvuka oblačića";
-
 /* general.alert.cancel */
 "Cancel" = "Otkazati";
 
 /* No comment provided by engineer. */
 "Cancel Connecting" = "Odustani od povezivanja";
+
+/* No comment provided by engineer. */
+"Category of the POI" = "Kategorija točke interesa";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Kategorija: %@";
@@ -503,10 +521,13 @@
 "Change Beacon Auto-Mute Distance" = "Promjena udaljenosti automatskog isključivanja cilja";
 
 /* No comment provided by engineer. */
+"Change Beacon Auto-Unmute Distance" = "Promijenite udaljenost automatskog uključivanja zvuka svjetionika";
+
+/* No comment provided by engineer. */
 "Change Bus Stops Range" = "Promjena raspona autobusnih stanica";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "Promjena stila najave smijera";
+"Change Direction Style" = "Promjena stila smjera";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Promjena aplikacije vanjskih karata";
@@ -691,6 +712,9 @@
 /* No comment provided by engineer. */
 "Details of Route %@" = "Pojedinosti rute %@";
 
+/* No comment provided by engineer. */
+"Direction Style" = "Stil smjera";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Smjer: %@ .";
 
@@ -709,6 +733,9 @@
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Udaljenost i smjer do cilja";
 
+/* No comment provided by engineer. */
+"Distance and Direction to the POI" = "Udaljenost i smjer do točke interesa";
+
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Udaljenost između %1$@ i %2$@";
 
@@ -723,9 +750,6 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Udaljenost: %@ .";
-
-/* No comment provided by engineer. */
-"DISTANCES" = "DALJINE";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Želiš li to zamijeniti? Zamjenom ove rute zamijenit će se i međutočke korištene na ovoj ruti.";
@@ -788,7 +812,7 @@
 "Drag the map to change the coordinates" = "Povucite kartu za promjenu koordinata";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "SCENARIJ VOŽNJE";
+"Driving Scenario" = "Scenarij vožnje";
 
 /* beacon.styles.drop */
 "Drop" = "Spustiti";
@@ -845,7 +869,7 @@
 "Explore Nearby" = "Istraži u blizini";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "ISTRAŽUJUĆI SCENARIJ";
+"Exploring Scenario" = "Istraživanje scenarija";
 
 /* No comment provided by engineer. */
 "Export and Import" = "Izvoz i uvoz";
@@ -944,7 +968,7 @@
 "GPS Altitude" = "GPS nadmorska visina";
 
 /* No comment provided by engineer. */
-"GPS DETAIL" = "GPS DETALJ";
+"GPS ANNOUNCING OPTIONS" = "GPS NAJAVLJUJE OPCIJE";
 
 /* No comment provided by engineer. */
 "GPS Information" = "GPS informacije";
@@ -972,9 +996,6 @@
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Haptički puls";
-
-/* beaconSetting.hapticStyle */
-"HAPTIC STYLES" = "HAPTIČKI STILOVI";
 
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Haptički štapić";
@@ -1009,13 +1030,13 @@
 /* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "Saznajte o statusu slušalica koje koristite s VoiceVista";
 
-/* user_activity.intersections.title */
+/* No comment provided by engineer. */
 "Hear Intersections Ahead" = "Čujte raskrižja ispred sebe";
 
 /* No comment provided by engineer. */
 "Hear Intersections Nearby" = "Čujte raskrižja u blizini";
 
-/* user_activity.nearby_markers.title */
+/* No comment provided by engineer. */
 "Hear Markers Nearby" = "Čujte oznake u blizini";
 
 /* No comment provided by engineer. */
@@ -1121,7 +1142,7 @@
 "Intersection Callout" = "Najava raskrižja";
 
 /* No comment provided by engineer. */
-"INTERSECTION DETAIL" = "DETALJI SJECIŠTA";
+"INTERSECTION OPTIONS" = "OPCIJE RASKRIŽJA";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Raskrižje s %1$@ %2$@";
@@ -1149,9 +1170,6 @@
 
 /* No comment provided by engineer. */
 "Intersections Nearby" = "Raskrižja u blizini";
-
-/* No comment provided by engineer. */
-"INTERVALS" = "INTERVALI";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Nevažeća ruta puta kroz web stranicu";
@@ -1286,7 +1304,7 @@
 "Monitoring %@" = "Praćenje %@";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "Nadzor skretnica oblačića";
+"Monitoring Scenario" = "Scenarij praćenja";
 
 /* No comment provided by engineer. */
 "Monitoring Settings" = "Postavke nadzora";
@@ -1306,8 +1324,7 @@
 /* No comment provided by engineer. */
 "Mute Beacon" = "Isključi cilj";
 
-/* directions.my_location
-   ui.action_button.my_location */
+/* No comment provided by engineer. */
 "My Location" = "Moja lokacija";
 
 /* No comment provided by engineer. */
@@ -1321,6 +1338,9 @@
 
 /* No comment provided by engineer. */
 "Navigation Routes Calculated" = "Navigacijske rute izračunate";
+
+/* No comment provided by engineer. */
+"Navigation Settings" = "Postavke navigacije";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Okretište navigacije";
@@ -1343,10 +1363,10 @@
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "Nearest road, %1$@, was %2$@ %3$@" = "Najbliža cesta, %1$@, bila je %2$@ %3$@";
 
-/* permissions.alert.title.1 */
+/* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "Potrebno je dopuštenje za točnu lokaciju";
 
-/* permissions.alert.title.2 */
+/* No comment provided by engineer. */
 "Need Motion & Fitness Permission" = "Trebate dozvolu za kretanje i fitnes";
 
 /* No comment provided by engineer. */
@@ -1361,8 +1381,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Nove međutočke bit će automatski imenovane i dodane ruti %@.";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Sljedeće raskrižje: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1504,9 +1523,6 @@
 "Pair Headphones Audio" = "Uparite audio slušalice";
 
 /* No comment provided by engineer. */
-"PARAMETERS" = "PARAMETARA";
-
-/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Zalijepi marker iz Soundscapea";
 
 /* No comment provided by engineer. */
@@ -1560,24 +1576,32 @@
 /* No comment provided by engineer. */
 "Please enter a route name." = "Unesite naziv rute.";
 
-/* permissions.alert.message.1
-   permissions.alert.message.2 */
+/* No comment provided by engineer. */
 "Please grant permission in Settings app." = "Dajte dopuštenje u aplikaciji Postavke.";
 
 /* No comment provided by engineer. */
 "Please try later." = "Molimo pokušajte kasnije.";
 
 /* No comment provided by engineer. */
-"POI Category" = "Poi kategorija";
+"POI ANNOUNCING OPTIONS" = "OPCIJE OBJAVE POI-A";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "POI DETALJ";
+"POI SENSING RANGES" = "RASPONI SENZORA POI";
 
 /* No comment provided by engineer. */
-"POI Distance and Direction" = "Poi udaljenost i smjer";
+"POI SOUND EFFECT OPTIONS" = "OPCIJE POI ZVUČNIH EFEKATA";
 
 /* No comment provided by engineer. */
-"POI RANGES" = "RASPONI POI";
+"POI SOUND EFFECT VOLUME" = "GLASNOĆA POI ZVUČNOG EFEKTA";
+
+/* No comment provided by engineer. */
+"POI Sound Settings" = "Postavke zvuka POI";
+
+/* No comment provided by engineer. */
+"POI Supercategory Options" = "Opcije POI Superkategorije";
+
+/* No comment provided by engineer. */
+"POI SUPERCATEGORY OPTIONS" = "OPCIJE POI SUPERKATEGORIJE";
 
 /* No comment provided by engineer. */
 "POIs Ahead" = "Točke interesa naprijed";
@@ -1703,10 +1727,16 @@
 "Route Details" = "Detalji rute";
 
 /* No comment provided by engineer. */
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "Navođenje rutom prebaci se na sljedeću međutočku dok se približavate trenutnoj međutočki.";
+
+/* No comment provided by engineer. */
 "Route Name" = "Naziv rute";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Naziv rute: %@ .";
+
+/* No comment provided by engineer. */
+"Route Settings" = "Postavke rute";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Ruta ažurirana na kružno putovanje";
@@ -1729,7 +1759,7 @@
 /* No comment provided by engineer. */
 "Save Current" = "Spremi trenutno";
 
-/* user_activity.save_marker.title */
+/* No comment provided by engineer. */
 "Save Marker" = "Spremi oznaku";
 
 /* No comment provided by engineer. */
@@ -1744,7 +1774,7 @@
 /* No comment provided by engineer. */
 "Search a Place" = "Pretraži mjesto";
 
-/* user_activity.search.title */
+/* No comment provided by engineer. */
 "Search in VoiceVista" = "Tražite u VoiceVisti";
 
 /* No comment provided by engineer. */
@@ -1771,8 +1801,7 @@
 /* No comment provided by engineer. */
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Postavite i spremite trajnu udaljenost upozorenja za svaku oznaku pojedinačno. Bit ćete obaviješteni čim bude bliže od vaše definirane udaljenosti.";
 
-/* settings.screen_title
-   settings.title */
+/* No comment provided by engineer. */
 "Settings" = "postavke";
 
 /* No comment provided by engineer. */
@@ -1835,12 +1864,6 @@
 /* No comment provided by engineer. */
 "Sound Effects List" = "Popis zvučnih efekata";
 
-/* No comment provided by engineer. */
-"SOUND SWITCHES" = "ZVUČNI PREKIDAČI";
-
-/* No comment provided by engineer. */
-"SOUND VOLUME" = "GLASNOĆA ZVUKA";
-
 /* directions.cardinal.south */
 "South" = "Južno";
 
@@ -1874,11 +1897,10 @@
 /* No comment provided by engineer. */
 "Start Monitoring" = "Započni praćenje";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
+/* voice.action.start_route */
 "Start Route" = "Početak rute";
 
-/* user_activity.street_preview.title */
+/* No comment provided by engineer. */
 "Start Street Preview" = "Pokrenite Street Preview";
 
 /* No comment provided by engineer. */
@@ -1924,13 +1946,13 @@
 "Summary" = "Sažetak";
 
 /* No comment provided by engineer. */
+"SUPERCATEGORY DEFINITION" = "DEFINICIJA SUPERKATEGORIJE";
+
+/* No comment provided by engineer. */
 "Supercategory Definitions" = "Definicije superkategorija";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY SOUNDS" = "SUPERKATEGORIJA ZVUCI";
-
-/* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "Okolni oblačići Skretnice";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "Okolne postavke";
@@ -1960,7 +1982,10 @@
 "Test Location" = "Testiraj lokaciju";
 
 /* No comment provided by engineer. */
-"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Udaljenost automatskog isključivanja cilja definira na kojoj se udaljenosti audio cilj automatski isključuje.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "Svjetionik se pokreće u isključenom načinu rada i automatski će uključiti zvuk kada uđete u raspon automatskog uključivanja zvuka.";
+
+/* No comment provided by engineer. */
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "Svjetionik će se automatski ponovno isključiti kada se približite odredištu i uđete u raspon automatskog isključivanja zvuka.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Udaljenost između točaka ne smije biti premala.";
@@ -1976,9 +2001,6 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Funkcija praćenja slična je postavljanju cilja na odredište, ali nećete primati ažurirane informacije o zvuku ili udaljenosti dok ne budete na određenoj udaljenosti. U suštini, VoiceVista odlazi u stanje mirovanja i budi se tek kada ste blizu odredišta.";
-
-/* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Udaljenost otkrivanja međutočke definira raspon na kojem će trenutna međutočka proslijediti navođenje rutom do sljedeće međutočke.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Nema putnih točaka na ovoj ruti.";
@@ -2078,6 +2100,9 @@
 "Transportation" = "Prijevoz";
 
 /* No comment provided by engineer. */
+"TRIP OPTIONS" = "OPCIJE PUTOVANJA";
+
+/* No comment provided by engineer. */
 "Troubleshooting" = "Rješavanje problema";
 
 /* No comment provided by engineer. */
@@ -2105,10 +2130,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Uključivanje ove postavke uzrokovat će pauziranje najava VoiceViste i drugog zvuka kad god počnete koristiti drugu medijsku aplikaciju. Možete se vratiti na VoiceVistu da nastavite s najavama.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "PREOKRETNE OPCIJE";
-
-/* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "Udaljenost senzora okretnice";
+"Turnpoint Hint Distance" = "Udaljenost savjeta za točku okretišta";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Nije moguće izbrisati pohranjene podatke karte";
@@ -2193,7 +2215,7 @@
 "Visit Web" = "Posjetite Web";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turnpoints" = "Glasovni savjet pri približavanju prekretnicama";
+"VOICE & SOUND" = "GLAS I ZVUK";
 
 /* No comment provided by engineer. */
 "Voice Settings" = "Glasovne postavke";
@@ -2271,6 +2293,9 @@
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista se nije mogla povezati s vašim slušalicama. Molimo pokušajte ponovo kasnije.";
 
 /* No comment provided by engineer. */
+"VOLUME & STYLE" = "VOLUMEN I STIL";
+
+/* No comment provided by engineer. */
 "Wake Up Now" = "Probudi se sada";
 
 /* No comment provided by engineer. */
@@ -2281,7 +2306,7 @@
 "Walking" = "Hodanje";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "SCENARIJ HODANJA";
+"Walking Scenario" = "Scenarij hodanja";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Putna točka";
@@ -2293,7 +2318,7 @@
 "Waypoint Name" = "Naziv međutočke";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "Udaljenost otkrivanja putne točke";
+"Waypoint Switching Distance" = "Udaljenost prebacivanja međutočke";
 
 /* No comment provided by engineer. */
 "Waypoints Updated" = "Putne točke ažurirane";
@@ -2310,13 +2335,13 @@
 /* directions.cardinal.west */
 "West" = "Zapadno";
 
-/* user_activity.ahead_of_me.title */
+/* No comment provided by engineer. */
 "What's Ahead of Me?" = "Što je ispred mene?";
 
-/* user_activity.around_me.title */
+/* No comment provided by engineer. */
 "What's Around Me?" = "Što je oko mene?";
 
-/* user_activity.my_location.title */
+/* No comment provided by engineer. */
 "What's My Location?" = "Što je moja lokacija?";
 
 /* permissions.info.1 */
@@ -2344,16 +2369,19 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Možete sigurnosno kopirati markere i rute s iClouda na ovaj uređaj. Ponekad se iCloud podaci mogu izgubiti zbog problema sa sinkronizacijom. U takvim slučajevima možete pokušati vratiti s uređaja na iCloud.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Možete prilagoditi način na koji VoiceVista automatski najavljuje kada se nalazite u vozilu.";
+"You can customize which supercategory POIs are announced for different scenarios." = "Možete prilagoditi koje se točke interesa nadkategorije najavljuju za različite scenarije.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are monitoing a location." = "Možete prilagoditi način na koji VoiceVista automatski najavljuje kada nadzirete lokaciju.";
+"You can customize which supercategory POIs are announced while in a vehicle." = "Možete prilagoditi koje se točke interesa superkategorije objavljuju dok ste u vozilu.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Možete prilagoditi način na koji VoiceVista automatski najavljuje dok hodate.";
+"You can customize which supercategory POIs are announced while monitoring a location." = "Možete prilagoditi koje se točke interesa nadkategorije objavljuju tijekom praćenja lokacije.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Možete prilagoditi kategorije poi koje VoiceVista najavljuje kada dodirnete naredbe 'Što je oko mene' i 'Što nas čeka'.";
+"You can customize which supercategory POIs are announced while walking." = "Možete prilagoditi koje se točke interesa superkategorije objavljuju tijekom hodanja.";
+
+/* No comment provided by engineer. */
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "Možete prilagoditi koje se točke interesa superkategorije najavljuju pomoću naredbi 'Što je oko mene' i 'Što je pred nama'.";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Sada možete istraživati virtualne lokacije teleportiranjem između raskrižja i mjesta.";
@@ -2374,7 +2402,7 @@
 "You can try searching by name or address." = "Možete pokušati pretraživati po imenu ili adresi.";
 
 /* No comment provided by engineer. */
-"You can turn off sound effects for specific POI super caegories and markers." = "Možete isključiti zvučne efekte za određene super kategorije i markere POI.";
+"You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "Možete isključiti zvučne efekte za određene superkategorije POI-a, dopuštajući najavu samo teksta POI-a.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Možete koristiti rotor radnji na gumbima kartice Okruženje za izvođenje dodatnih radnji.";

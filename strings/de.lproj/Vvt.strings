@@ -217,6 +217,15 @@
 /* No comment provided by engineer. */
 "Annotation" = "Anmerkung";
 
+/* No comment provided by engineer. */
+"Announce hint when approaching turnpoints" = "Hinweis ansagen, wenn man sich Wendepunkten nähert";
+
+/* No comment provided by engineer. */
+"Announce turn instructions in advance at a specified distance." = "Sagen Sie Abbiegeanweisungen im Voraus in einer bestimmten Entfernung an.";
+
+/* No comment provided by engineer. */
+"ANNOUNCING INTERVALS" = "ANKÜNDIGUNG VON INTERVALLEN";
+
 /* Type 4 for navigation transport */
 "Any" = "Alle";
 
@@ -337,11 +346,14 @@
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "Tonsignal wurde stumm geschaltet.";
 
-/* beaconSetting.audioStyle */
-"AUDIO STYLES" = "Töne für Signale";
-
-/* general.error.ble.unauthorized.title */
+/* No comment provided by engineer. */
 "Authorize Bluetooth" = "Bluetooth-Zugriff erlauben";
+
+/* No comment provided by engineer. */
+"Auto-Mute" = "Automatische Stummschaltung";
+
+/* No comment provided by engineer. */
+"Auto-Unmute" = "Automatische Stummschaltung aufheben";
 
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatische Ansagen";
@@ -382,17 +394,23 @@
 /* No comment provided by engineer. */
 "Beacon Arrived" = "Signal erreicht";
 
-/* No comment provided by engineer. */
-"Beacon Auto-Mute Distance" = "Entfernung zum Stummschalten von Signalen";
+/* beaconSetting.audioStyle */
+"BEACON AUDIO STYLES" = "BEACON-AUDIO-STILE";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "Signal-Entfernung";
+
+/* beaconSetting.hapticStyle */
+"BEACON HAPTIC STYLES" = "BEACON HAPTISCHE STILE";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "Signal nicht eingeschaltet";
 
 /* Notification, %@ is a location, 'Beacon on <Some Place>' */
 "Beacon on %@" = "Signal auf %@";
+
+/* No comment provided by engineer. */
+"BEACON SENSING RANGES" = "ERFASSUNGSBEREICHE VON BAKEN";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Signal auf %1$@ gesetzt, %2$@ entfernt, %3$@ von %4$@";
@@ -402,6 +420,9 @@
 
 /* No comment provided by engineer. */
 "Beacon Settings" = "Signaleinstellungen";
+
+/* No comment provided by engineer. */
+"BEACON SOUND EFFECT VOLUME" = "LAUTSTÄRKE DES BEACON-SOUNDEFFEKTS";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "Signaltoneinstellung";
@@ -427,7 +448,7 @@
 /* directions.direction.behind_to_the_right */
 "behind to the right" = "hinten rechts";
 
-/* general.error.ble.unauthorized.message */
+/* No comment provided by engineer. */
 "Bluetooth permission is required to connect your headphones. Open the Settings app below to enable Bluetooth. Note that this can cause the app to restart." = "Um den Kopfhörer zu verbinden, ist Zugriff auf Bluetooth erforderlich. Öffnen Sie die iOS-Einstellungen und aktivieren Sie Bluetooth. Das kann dazu führen, dass die App neu gestartet wird.";
 
 /* No comment provided by engineer. */
@@ -475,9 +496,6 @@
 /* %@ is a phone number */
 "Call Telephone: %@" = "Anruf auf: %@";
 
-/* No comment provided by engineer. */
-"Callouts Direction Style" = "Art der Richtungsansage";
-
 /* callouts.callouts_off */
 "Callouts Off" = "Ansagen aus";
 
@@ -487,14 +505,14 @@
 /* No comment provided by engineer. */
 "Callouts Settings" = "Ansage-Einstellungen";
 
-/* No comment provided by engineer. */
-"Callouts Sound Settings" = "Ansage-Toneinstellungen";
-
 /* general.alert.cancel */
 "Cancel" = "Abbrechen";
 
 /* No comment provided by engineer. */
 "Cancel Connecting" = "Verbinden abbrechen";
+
+/* No comment provided by engineer. */
+"Category of the POI" = "Kategorie des POI";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Kategorie: %@";
@@ -503,10 +521,13 @@
 "Change Beacon Auto-Mute Distance" = "Entfernung zum Stummschalten von Signalen ändern";
 
 /* No comment provided by engineer. */
+"Change Beacon Auto-Unmute Distance" = "Beacon Auto-Unmute-Entfernung ändern";
+
+/* No comment provided by engineer. */
 "Change Bus Stops Range" = "Ansage-Entfernung von Bushaltestellen ändern";
 
 /* No comment provided by engineer. */
-"Change Callouts Direction Style" = "Art der Richtungsansage ändern";
+"Change Direction Style" = "Richtungsstil ändern";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Externe App für Karten ändern";
@@ -691,6 +712,9 @@
 /* No comment provided by engineer. */
 "Details of Route %@" = "Einzelheiten zur Route %@";
 
+/* No comment provided by engineer. */
+"Direction Style" = "Richtungsstil";
+
 /* %@ is the direction to the beacon */
 "Direction: %@ ." = "Richtung: %@ .";
 
@@ -709,6 +733,9 @@
 /* No comment provided by engineer. */
 "Distance and direction to the beacon" = "Entfernung und Richtung zum Signal";
 
+/* No comment provided by engineer. */
+"Distance and Direction to the POI" = "Entfernung und Richtung zum POI";
+
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Entfernung zwischen %1$@ und %2$@";
 
@@ -723,9 +750,6 @@
 
 /* %@ is the distance to the beacon */
 "Distance: %@ ." = "Entfernung: %@";
-
-/* No comment provided by engineer. */
-"DISTANCES" = "ENTFERNUNGEN";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Möchten Sie diese ersetzen? Wenn Sie diese Route ersetzen, werden auch die darin verwendeten Wegpunkte ersetzt.";
@@ -788,7 +812,7 @@
 "Drag the map to change the coordinates" = "Karte ziehen, um die Koordinaten zu ändern.";
 
 /* No comment provided by engineer. */
-"DRIVING SCENARIO" = "FAHR-SZENARIO";
+"Driving Scenario" = "Fahrszenario";
 
 /* beacon.styles.drop */
 "Drop" = "Festlegen";
@@ -845,7 +869,7 @@
 "Explore Nearby" = "Umgebung erkunden";
 
 /* No comment provided by engineer. */
-"EXPLORING SCENARIO" = "SZENARIO ERKUNDEN";
+"Exploring Scenario" = "Erkundung des Szenarios";
 
 /* No comment provided by engineer. */
 "Export and Import" = "Exportieren und Importieren";
@@ -944,7 +968,7 @@
 "GPS Altitude" = "GPS Höhe";
 
 /* No comment provided by engineer. */
-"GPS DETAIL" = "GPS DETAILS";
+"GPS ANNOUNCING OPTIONS" = "GPS-ANKÜNDIGUNGSOPTIONEN";
 
 /* No comment provided by engineer. */
 "GPS Information" = "GPS-Informationen";
@@ -972,9 +996,6 @@
 
 /* beacon.styles.haptic.pulse */
 "Haptic Pulse" = "Haptischer Impuls";
-
-/* beaconSetting.hapticStyle */
-"HAPTIC STYLES" = "HAPTISCHER STIL";
 
 /* beacon.styles.haptic.wand */
 "Haptic Wand" = "Haptischer Anzeige";
@@ -1009,13 +1030,13 @@
 /* No comment provided by engineer. */
 "Hear about the status of the headphones you are using with VoiceVista" = "Erfahren Sie mehr über den Status des Kopfhörers, den Sie mit VoiceVista verwenden";
 
-/* user_activity.intersections.title */
+/* No comment provided by engineer. */
 "Hear Intersections Ahead" = "Kreuzungen voran hören";
 
 /* No comment provided by engineer. */
 "Hear Intersections Nearby" = "Nahe Kreuzungen hören";
 
-/* user_activity.nearby_markers.title */
+/* No comment provided by engineer. */
 "Hear Markers Nearby" = "Nahe Markierungen hören";
 
 /* No comment provided by engineer. */
@@ -1121,7 +1142,7 @@
 "Intersection Callout" = "Kreuzungsansage";
 
 /* No comment provided by engineer. */
-"INTERSECTION DETAIL" = "KREUZUNGSDETAILS";
+"INTERSECTION OPTIONS" = "OPTIONEN FÜR KREUZUNGEN";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Kreuzung mit %1$@ %2$@";
@@ -1149,9 +1170,6 @@
 
 /* No comment provided by engineer. */
 "Intersections Nearby" = "Kreuzungen in der Nähe";
-
-/* No comment provided by engineer. */
-"INTERVALS" = "INTERVALLE";
 
 /* No comment provided by engineer. */
 "Invalid Breadcrumb Route" = "Ungültige Brotkrümelroute";
@@ -1286,7 +1304,7 @@
 "Monitoring %@" = "%@ überwachen";
 
 /* No comment provided by engineer. */
-"Monitoring Callouts Switches" = "Überwachen von Ansage-Schaltern";
+"Monitoring Scenario" = "Monitoring-Szenario";
 
 /* No comment provided by engineer. */
 "Monitoring Settings" = "Überwachungs-Einstellungen";
@@ -1306,8 +1324,7 @@
 /* No comment provided by engineer. */
 "Mute Beacon" = "Signal stummschalten";
 
-/* directions.my_location
-   ui.action_button.my_location */
+/* No comment provided by engineer. */
 "My Location" = "Mein Standort";
 
 /* No comment provided by engineer. */
@@ -1321,6 +1338,9 @@
 
 /* No comment provided by engineer. */
 "Navigation Routes Calculated" = "Navigationsrouten berechnet";
+
+/* No comment provided by engineer. */
+"Navigation Settings" = "Navigations-Einstellungen";
 
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigations-Abbiegungspunkt";
@@ -1343,10 +1363,10 @@
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "Nearest road, %1$@, was %2$@ %3$@" = "Nächste Straße, %1$@, war %2$@ %3$@";
 
-/* permissions.alert.title.1 */
+/* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "Zugriff auf Ortungsdienste ist erforderlich";
 
-/* permissions.alert.title.2 */
+/* No comment provided by engineer. */
 "Need Motion & Fitness Permission" = "Zugriff auf „Bewegung & Fitness“ ist erforderlich";
 
 /* No comment provided by engineer. */
@@ -1361,8 +1381,7 @@
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Neue Wegpunkte werden automatisch benannt und der Route %@ hinzugefügt.";
 
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street'
-   Notification, %@ intersection name */
+/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Nächste Kreuzung: %@";
 
 /* preview.callout.road_finder.intersection.same */
@@ -1504,9 +1523,6 @@
 "Pair Headphones Audio" = "Kopfhörer verbinden, Audio";
 
 /* No comment provided by engineer. */
-"PARAMETERS" = "PARAMETER";
-
-/* No comment provided by engineer. */
 "Paste Marker from Soundscape" = "Markierung aus Soundscape einfügen";
 
 /* No comment provided by engineer. */
@@ -1560,24 +1576,32 @@
 /* No comment provided by engineer. */
 "Please enter a route name." = "Bitte einen Routennamen eingeben.";
 
-/* permissions.alert.message.1
-   permissions.alert.message.2 */
+/* No comment provided by engineer. */
 "Please grant permission in Settings app." = "Bitte erteilen Sie die Zugriffsberechtigung in den Geräteeinstellungen.";
 
 /* No comment provided by engineer. */
 "Please try later." = "Bitte versuchen Sie es später erneut.";
 
 /* No comment provided by engineer. */
-"POI Category" = "POI-Kategorie";
+"POI ANNOUNCING OPTIONS" = "POI-ANKÜNDIGUNGSOPTIONEN";
 
 /* No comment provided by engineer. */
-"POI DETAIL" = "POI-Details";
+"POI SENSING RANGES" = "POI-MESSBEREICHE";
 
 /* No comment provided by engineer. */
-"POI Distance and Direction" = "Entfernung und Richtung zum POI";
+"POI SOUND EFFECT OPTIONS" = "OPTIONEN FÜR POI-SOUNDEFFEKTE";
 
 /* No comment provided by engineer. */
-"POI RANGES" = "POI-BEREICHE";
+"POI SOUND EFFECT VOLUME" = "POI SOUND EFFEKT LAUTSTÄRKE";
+
+/* No comment provided by engineer. */
+"POI Sound Settings" = "POI-Sound-Einstellungen";
+
+/* No comment provided by engineer. */
+"POI Supercategory Options" = "POI-Oberkategorie-Optionen";
+
+/* No comment provided by engineer. */
+"POI SUPERCATEGORY OPTIONS" = "POI-SUPERKATEGORIE-OPTIONEN";
 
 /* No comment provided by engineer. */
 "POIs Ahead" = "POIs voraus";
@@ -1703,10 +1727,16 @@
 "Route Details" = "Routendetails";
 
 /* No comment provided by engineer. */
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "Die Routenführung wechselt zum nächsten Wegpunkt, wenn Sie sich dem aktuellen Wegpunkt nähern.";
+
+/* No comment provided by engineer. */
 "Route Name" = "Routenname";
 
 /* No comment provided by engineer. */
 "Route name: %@ ." = "Routenname: %@ .";
+
+/* No comment provided by engineer. */
+"Route Settings" = "Routen-Einstellungen";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Route als Schleife aktualisiert";
@@ -1729,7 +1759,7 @@
 /* No comment provided by engineer. */
 "Save Current" = "aktuellen speichern";
 
-/* user_activity.save_marker.title */
+/* No comment provided by engineer. */
 "Save Marker" = "Markierung speichern";
 
 /* No comment provided by engineer. */
@@ -1744,7 +1774,7 @@
 /* No comment provided by engineer. */
 "Search a Place" = "Einen Ort suchen";
 
-/* user_activity.search.title */
+/* No comment provided by engineer. */
 "Search in VoiceVista" = "In VoiceVista suchen";
 
 /* No comment provided by engineer. */
@@ -1771,8 +1801,7 @@
 /* No comment provided by engineer. */
 "Set and save a permanent alert distance for each marker individually. You will be notified as soon as it is closer than your defined distance." = "Für jede Markierung können Sie eine individuelle Meldedistanz festlegen. Sie erhalten eine Meldung, sobald Sie sich der Markierung auf diese Distanz genähert haben.";
 
-/* settings.screen_title
-   settings.title */
+/* No comment provided by engineer. */
 "Settings" = "Einstellungen";
 
 /* No comment provided by engineer. */
@@ -1835,12 +1864,6 @@
 /* No comment provided by engineer. */
 "Sound Effects List" = "Liste der Soundeffekte";
 
-/* No comment provided by engineer. */
-"SOUND SWITCHES" = "Tonschalter";
-
-/* No comment provided by engineer. */
-"SOUND VOLUME" = "LAUTSTÄRKE";
-
 /* directions.cardinal.south */
 "South" = "Süd";
 
@@ -1874,11 +1897,10 @@
 /* No comment provided by engineer. */
 "Start Monitoring" = "Überwachen einschalten";
 
-/* user_activity.start_route.title
-   voice.action.start_route */
+/* voice.action.start_route */
 "Start Route" = "Route starten";
 
-/* user_activity.street_preview.title */
+/* No comment provided by engineer. */
 "Start Street Preview" = "Straßenvorschau starten";
 
 /* No comment provided by engineer. */
@@ -1924,13 +1946,13 @@
 "Summary" = "Zusammenfassung";
 
 /* No comment provided by engineer. */
+"SUPERCATEGORY DEFINITION" = "DEFINITION DER OBERKATEGORIE";
+
+/* No comment provided by engineer. */
 "Supercategory Definitions" = "Oberkategorie-Definitionen";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY SOUNDS" = "OBERKATEGORIE SOUNDS";
-
-/* No comment provided by engineer. */
-"Surrounding Callouts Switches" = "Umgebungsansageschalter";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "Umgebungseinstellungen";
@@ -1960,7 +1982,10 @@
 "Test Location" = "Teststandort";
 
 /* No comment provided by engineer. */
-"The beacon auto-mute distance defines at what distance the audio beacon is automatically muted." = "Die Entfernung zum automatischen Stummschalten von Signalen legt fest, bei welcher Entfernung das Signal automatisch stummgeschaltet wird.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "Das Beacon startet im stummgeschalteten Modus und hebt die Stummschaltung automatisch auf, wenn Sie in den Bereich der automatischen Stummschaltung wechseln.";
+
+/* No comment provided by engineer. */
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "Das Beacon wird automatisch wieder stummgeschaltet, wenn Sie sich dem Ziel nähern und in den Auto-Mute-Bereich wechseln.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "Die Entfernung zwischen Wegpunkten sollte nicht zu dicht sein.";
@@ -1976,9 +2001,6 @@
 
 /* No comment provided by engineer. */
 "The start monitoring function is akin to setting a beacon on a destination, but you won't receive sound or distance updates until you are a specified distance away. Essentially, VoiceVista goes to sleep and wakes up only when you are near your destination." = "Die Funktion „überwachen einschalten“ ist ähnlich wie das Einschalten eines Signals für ein Ziel. Aber im Unterschied dazu hören Sie keine Töne oder aktualisierte Informationen über die Entfernung, bis Sie sich dem Ziel auf die eingestellte Entfernung genähert haben. Einfach gesagt, wird VoiceVista in den Ruhemodus versetzt und wird erst wieder aktiv, wenn Sie sich in der Nähe Ihres Ziels befinden.";
-
-/* No comment provided by engineer. */
-"The waypoint sensing distance defines the range at which the current waypoint will forward route guidance to the next waypoint." = "Die Wegpunkt-Erfassungsdistanz definiert die Reichweite, in der der aktuelle Wegpunkt die Routenführung an den nächsten Wegpunkt weiterleitet.";
 
 /* No comment provided by engineer. */
 "There are no breadcrumb waypoints in this route." = "Diese Route enthält keine Brotkrümelwegpunkte.";
@@ -2078,6 +2100,9 @@
 "Transportation" = "Transport";
 
 /* No comment provided by engineer. */
+"TRIP OPTIONS" = "REISEMÖGLICHKEITEN";
+
+/* No comment provided by engineer. */
 "Troubleshooting" = "Problembehandlung";
 
 /* No comment provided by engineer. */
@@ -2105,10 +2130,7 @@
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "Wenn Sie diese Einstellung aktivieren, hören Sie von VoiceVista keine Ansagen und Tonsignale mehr, sobald Sie eine andere App verwenden, die Medien wiedergibt. Kehren Sie zu VoiceVista zurück, um wieder Ansagen zu hören.";
 
 /* No comment provided by engineer. */
-"TURNPOINT OPTIONS" = "WENDEPUNKTOPTIONEN";
-
-/* No comment provided by engineer. */
-"Turnpoint Sensing Distance" = "Wendepunkt-Erfassungsabstand";
+"Turnpoint Hint Distance" = "Turnpoint-Hinweis-Distanz";
 
 /* No comment provided by engineer. */
 "Unable to Clear Stored Map Data" = "Gespeicherte Kartendaten konnten nicht gelöscht werden";
@@ -2193,7 +2215,7 @@
 "Visit Web" = "zur Webseite gehen";
 
 /* No comment provided by engineer. */
-"Voice hint when approaching turnpoints" = "Sprachhinweis bei der Annäherung an Wendepunkte";
+"VOICE & SOUND" = "STIMME & TON";
 
 /* No comment provided by engineer. */
 "Voice Settings" = "Spracheinstellungen";
@@ -2271,6 +2293,9 @@
 "VoiceVista was unable to connect to your headphones. Please try again later." = "VoiceVista konnte nicht mit Ihrem Kopfhörer verbinden. Bitte versuchen Sie es später erneut.";
 
 /* No comment provided by engineer. */
+"VOLUME & STYLE" = "VOLUMEN & STIL";
+
+/* No comment provided by engineer. */
 "Wake Up Now" = "Jetzt aktivieren";
 
 /* No comment provided by engineer. */
@@ -2281,7 +2306,7 @@
 "Walking" = "Gehen";
 
 /* No comment provided by engineer. */
-"WALKING SCENARIO" = "GEHEN-SZENARIO";
+"Walking Scenario" = "Szenario Gehen";
 
 /* No comment provided by engineer. */
 "Waypoint" = "Wegpunkt";
@@ -2293,7 +2318,7 @@
 "Waypoint Name" = "Wegpunktname";
 
 /* No comment provided by engineer. */
-"Waypoint Sensing Distance" = "Wegpunkt-Erkennungsdistanz";
+"Waypoint Switching Distance" = "Wegpunkt-Umschaltabstand";
 
 /* No comment provided by engineer. */
 "Waypoints Updated" = "Wegpunkte aktualisiert";
@@ -2310,13 +2335,13 @@
 /* directions.cardinal.west */
 "West" = "West";
 
-/* user_activity.ahead_of_me.title */
+/* No comment provided by engineer. */
 "What's Ahead of Me?" = "Was ist vor mir?";
 
-/* user_activity.around_me.title */
+/* No comment provided by engineer. */
 "What's Around Me?" = "Was ist um mich herum?";
 
-/* user_activity.my_location.title */
+/* No comment provided by engineer. */
 "What's My Location?" = "Wo bin ich?";
 
 /* permissions.info.1 */
@@ -2344,16 +2369,19 @@
 "You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Sie können Markierungen und Routen von iCloud auf diesem Gerät sichern. Manchmal können iCloud-Daten aufgrund von Synchronisierungsproblemen verloren gehen. In solchen Fällen können Sie versuchen, die Wiederherstellung vom Gerät in iCloud durchzuführen.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are in a vehicle." = "Sie können anpassen, wie VoiceVista automatisch ansagt, wenn Sie sich in einem Fahrzeug befinden.";
+"You can customize which supercategory POIs are announced for different scenarios." = "Sie können anpassen, welche übergeordneten POIs für verschiedene Szenarien angekündigt werden.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are monitoing a location." = "Sie können anpassen, wie VoiceVista automatisch ansagt, wenn Sie einen Standort überwachen.";
+"You can customize which supercategory POIs are announced while in a vehicle." = "Sie können anpassen, welche POIs der übergeordneten Kategorie in einem Fahrzeug angesagt werden.";
 
 /* No comment provided by engineer. */
-"You can customize how VoiceVista automatically announces when you are walking." = "Sie können anpassen, wie VoiceVista automatisch ansagt, wenn Sie zu Fuß gehen.";
+"You can customize which supercategory POIs are announced while monitoring a location." = "Sie können anpassen, welche POIs der übergeordneten Kategorie bei der Überwachung eines Standorts angesagt werden.";
 
 /* No comment provided by engineer. */
-"You can customize which POI categories VoiceVista announces when you tap 'What's around me' and 'What's ahead' commands." = "Sie können anpassen, welche POI-Kategorien VoiceVista ansagt, wenn Sie auf die Befehle 'Was ist um mich herum' und 'Was liegt vor mir' tippen.";
+"You can customize which supercategory POIs are announced while walking." = "Sie können anpassen, welche POIs der übergeordneten Kategorie beim Gehen angesagt werden.";
+
+/* No comment provided by engineer. */
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "Sie können mit den Befehlen 'Was ist um mich herum' und 'Was liegt vor mir' anpassen, welche POIs der Oberkategorie angekündigt werden.";
 
 /* No comment provided by engineer. */
 "You can now explore virtual locations by teleporting between intersections and places." = "Sie können Standorte nun erkunden, indem Sie sich virtuell zwischen Kreuzungen und Orten bewegen.";
@@ -2374,7 +2402,7 @@
 "You can try searching by name or address." = "Suchen Sie nach einem Namen oder einer Adresse.";
 
 /* No comment provided by engineer. */
-"You can turn off sound effects for specific POI super caegories and markers." = "Sie können Soundeffekte für bestimmte POI-Oberkategorien und Markierungen ausschalten.";
+"You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "Sie können die Soundeffekte für bestimmte POI-Superkategorien deaktivieren, sodass nur der POI-Text angesagt wird.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Mit Rotoraktionen können Sie auf den Tasten des Tabs „Umgebung“ zusätzliche Aktionen ausführen.";
