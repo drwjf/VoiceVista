@@ -23,7 +23,7 @@
 "%1$@ was %2$@ %3$@" = "%1$@ era a %2$@ %3$@";
 
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
-"%1$@, heading to %2$@" = "%1$@, verso %2$@";
+"%1$@, heading to %2$@" = "%1$@, rivolto verso %2$@";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "In prossimità di %@";
@@ -218,10 +218,10 @@
 "Annotation" = "Annotazione";
 
 /* No comment provided by engineer. */
-"Announce hint when approaching turnpoints" = "Annuncia il suggerimento quando ti avvicini ai punti di svolta";
+"Announce hint when approaching turnpoints" = "Annuncia i suggerimenti quando ti avvicini ai punti di svolta";
 
 /* No comment provided by engineer. */
-"Announce turn instructions in advance at a specified distance." = "Annunciare in anticipo le istruzioni di svolta a una distanza specificata.";
+"Announce turn instructions in advance at a specified distance." = "Annuncia in anticipo le istruzioni di svolta a una distanza specificata.";
 
 /* No comment provided by engineer. */
 "ANNOUNCING INTERVALS" = "INTERVALLI DI ANNUNCIO";
@@ -350,7 +350,7 @@
 "Authorize Bluetooth" = "Autorizza il Bluetooth";
 
 /* No comment provided by engineer. */
-"Auto-Mute" = "Disattivazione automatica dell'audio";
+"Auto-Mute" = "Disattivazione automatica";
 
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Riattivazione automatica";
@@ -395,13 +395,13 @@
 "Beacon Arrived" = "Audiofaro raggiunto";
 
 /* beaconSetting.audioStyle */
-"BEACON AUDIO STYLES" = "STILI AUDIO BEACON";
+"BEACON AUDIO STYLES" = "STILI AUDIO AUDIOFARO";
 
 /* No comment provided by engineer. */
 "Beacon Distance" = "Distanza audiofaro";
 
 /* beaconSetting.hapticStyle */
-"BEACON HAPTIC STYLES" = "STILI APTICI BEACON";
+"BEACON HAPTIC STYLES" = "Tipi di feedback aptico AUDIOFARO";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "Audiofaro non avviato";
@@ -410,7 +410,7 @@
 "Beacon on %@" = "Audiofaro su %@";
 
 /* No comment provided by engineer. */
-"BEACON SENSING RANGES" = "DISTANZE DI RILEVAMENTO DEI BEACON";
+"BEACON SENSING RANGES" = "DISTANZE RILEVAMENTO AUDIOFARO";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "L'audiofaro è stato impostato su %1$@, a %2$@ di distanza, %3$@ di %4$@";
@@ -422,7 +422,7 @@
 "Beacon Settings" = "Impostazioni audiofaro";
 
 /* No comment provided by engineer. */
-"BEACON SOUND EFFECT VOLUME" = "VOLUME DELL'EFFETTO SONORO DEL FARO";
+"BEACON SOUND EFFECT VOLUME" = "VOLUME SUONO AUDIOFARO";
 
 /* No comment provided by engineer. */
 "Beacon Sound Setting" = "Impostazione suono audiofaro";
@@ -512,7 +512,7 @@
 "Cancel Connecting" = "Annulla connessione";
 
 /* No comment provided by engineer. */
-"Category of the POI" = "Categoria del PDI";
+"Category of the POI" = "Categoria del POI";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Categoria: %@";
@@ -521,7 +521,7 @@
 "Change Beacon Auto-Mute Distance" = "Modifica la distanza di disattivazione automatica del suono dell'audiofaro";
 
 /* No comment provided by engineer. */
-"Change Beacon Auto-Unmute Distance" = "Modifica la distanza di riattivazione automatica del faro";
+"Change Beacon Auto-Unmute Distance" = "Modifica la distanza di riattivazione automatica dell'audiofaro";
 
 /* No comment provided by engineer. */
 "Change Bus Stops Range" = "Modifica il raggio per le fermate dell'autobus";
@@ -560,7 +560,7 @@
 "Change or Remove" = "Modifica o rimuovi";
 
 /* No comment provided by engineer. */
-"Change Pedestrian Crossings Range" = "Modificare la portata degli attraversamenti pedonali";
+"Change Pedestrian Crossings Range" = "Modificare il raggio degli attraversamenti pedonali";
 
 /* No comment provided by engineer. */
 "Change Places Range" = "Modifica il raggio per i luoghi";
@@ -995,7 +995,7 @@
 "GPS Speed" = "Velocità GPS";
 
 /* No comment provided by engineer. */
-"GPX Track Simulation" = "Simulazione di tracce GPX";
+"GPX Track Simulation" = "Simulazione percorso GPX";
 
 /* No comment provided by engineer. */
 "Groceries" = "Drogheria";
@@ -1154,7 +1154,7 @@
 "Intersection Callout" = "Avviso incrocio";
 
 /* No comment provided by engineer. */
-"INTERSECTION OPTIONS" = "OPZIONI DI INTERSEZIONE";
+"INTERSECTION OPTIONS" = "OPZIONI PER GLI INCROCI";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Incrocio con %1$@ %2$@";
@@ -1301,7 +1301,7 @@
 "Markers" = "Indicatori";
 
 /* No comment provided by engineer. */
-"MARKERS & ROUTES" = "SEGNALI E PERCORSI";
+"MARKERS & ROUTES" = "INDICATORI E PERCORSI";
 
 /* No comment provided by engineer. */
 "Markers Ahead" = "Indicatori davanti a te";
@@ -1445,7 +1445,7 @@
 "No Precise Location and Motion Permission" = "Nessuna posizione precisa e permesso di movimento";
 
 /* No comment provided by engineer. */
-"No track found in this GPX file" = "Nessuna traccia trovata in questo file GPX";
+"No track found in this GPX file" = "Nessun percorso trovato in questo file GPX";
 
 /* No comment provided by engineer. */
 "No Waypoints Defined" = "Nessun waypoint definito";
@@ -1622,22 +1622,22 @@
 "POI Sound Settings" = "Impostazioni audio dei punti di interesse";
 
 /* No comment provided by engineer. */
-"POI Supercategory Options" = "Opzioni Supercategoria PDI";
+"POI Supercategory Options" = "Opzioni Supercategoria POI";
 
 /* No comment provided by engineer. */
 "POI SUPERCATEGORY OPTIONS" = "OPZIONI SUPERCATEGORIA POI";
 
 /* No comment provided by engineer. */
-"POIs Ahead" = "PDI avanti";
+"POIs Ahead" = "Poi davanti";
 
 /* No comment provided by engineer. */
-"POIs Nearby" = "PDI nelle vicinanze";
+"POIs Nearby" = "POI nelle vicinanze";
 
 /* No comment provided by engineer. */
 "PREFERENCE" = "PREFERENZE";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "File di traccia GPX pre-ascolto";
+"Prelisten GPX Track File" = "Preascolto del File percorso GPX";
 
 /* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Premi il pulsante di riproduzione sulle cuffie per riattivare VoiceVista.";
@@ -1757,7 +1757,7 @@
 "Route Details" = "Dettagli percorso";
 
 /* No comment provided by engineer. */
-"Route guidance switch to the next waypoint as you approach the current waypoint." = "La guida a destinazione passa al waypoint successivo quando ci si avvicina al waypoint corrente.";
+"Route guidance switch to the next waypoint as you approach the current waypoint." = "Il percorso guidato passa al waypoint successivo quando ci si avvicina al waypoint corrente.";
 
 /* No comment provided by engineer. */
 "Route Name" = "Nome Percorso";
@@ -1982,13 +1982,13 @@
 "SUPERCATEGORY DEFINITION" = "DEFINIZIONE DI SUPERCATEGORIA";
 
 /* No comment provided by engineer. */
-"Supercategory Definitions" = "Definizioni MACROCATEGORIE";
+"Supercategory Definitions" = "Definizioni SUPERCATEGORIE";
 
 /* No comment provided by engineer. */
-"SUPERCATEGORY SOUNDS" = "SUONI MACROCATEGORIE";
+"SUPERCATEGORY SOUNDS" = "SUONI SUPERCATEGORIE";
 
 /* No comment provided by engineer. */
-"Surrounding Commands" = "Comandi circostanti";
+"Surrounding Commands" = "Comandi per i dintorni";
 
 /* No comment provided by engineer. */
 "Surrounding Settings" = "Impostazioni dei dintorni";
@@ -2018,10 +2018,10 @@
 "Test Location" = "Posizione di prova";
 
 /* No comment provided by engineer. */
-"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "Il segnalatore si avvia in modalità silenziata e si riattiva automaticamente quando si entra nell'intervallo di riattivazione automatica.";
+"The beacon starts in muted mode and will automatically unmute when you enter the Auto-Unmute range." = "L'audiofaro si avvia in modalità silenziata e si riattiva automaticamente quando si entra nell'intervallo di riattivazione automatica.";
 
 /* No comment provided by engineer. */
-"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = "Il segnalatore si disattiverà automaticamente di nuovo quando ci si avvicina alla destinazione e si entra nell'intervallo di silenziamento automatico.";
+"The beacon will automatically mute again when you approach the destination and enter the Auto-Mute range." = ""L'audiofaro si disattiverà automaticamente di nuovo quando ti avvicini alla destinazione ed entri nel raggio di disattivazione automatica.";
 
 /* No comment provided by engineer. */
 "The distance between waypoints should not be too small." = "La distanza tra i WayPoint non dovrebbe essere troppo piccola.";
