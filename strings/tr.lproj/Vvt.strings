@@ -206,6 +206,12 @@
 "Allow Automatic Callouts" = "Otomatik açıklama metinlerine izin ver";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "GPS Bilgi Çağrılarına İzin Ver";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Ev Numarası Çağrılarına İzin Ver";
+
+/* No comment provided by engineer. */
 "Along Road" = "Yol boyunca";
 
 /* No comment provided by engineer. */
@@ -221,7 +227,10 @@
 "Announce turn instructions in advance at a specified distance." = "Dönüş talimatlarını belirli bir mesafede önceden duyurun.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "ARALIKLARIN DUYURULMASI";
+"Announcing Intervals" = "Aralıkların Duyurulması";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Seçeneklerin Duyurulması";
 
 /* Type 4 for navigation transport */
 "Any" = "Herhangi";
@@ -499,9 +508,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Açıklamalar Açık";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Ek Bilgi Ayarları";
-
 /* general.alert.cancel */
 "Cancel" = "İptal etmek";
 
@@ -710,6 +716,9 @@
 "Details of Route %@" = "%@ Rotasının Detayları";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Rakam Rakam";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Yön Stili";
 
 /* %@ is the direction to the beacon */
@@ -738,6 +747,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Ara noktalar arasındaki mesafe, >= %@ olmalıdır";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Mesafe Aralığı";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Mesafe %1$@ ile %2$@ arasında olmalıdır";
@@ -974,16 +986,10 @@
 "GPS Altitude" = "GPS Yüksekliği";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS DUYURU SEÇENEKLERI";
-
-/* No comment provided by engineer. */
 "GPS Information" = "GPS Bilgileri";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "GPS Bilgileri Mesafe Aralığı";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "GPS Bilgileri Zaman Aralığı";
+"GPS Information Settings" = "GPS Bilgi Ayarları";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS Enlem ve boylam";
@@ -1055,13 +1061,7 @@
 "HINT SOUNDS" = "İPUCU SESLER";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Ev Numarası Mesafe Aralığı";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Ev Numarası Zaman Aralığı";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Ev Numaraları";
+"House Number Settings" = "Ev Numarası Ayarları";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Bu kulağa nasıl geliyor?";
@@ -1360,11 +1360,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigasyon Dönüş Noktası";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
 "Near %@" = "Yakın %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "%@ adresinin yakınında";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Yakındaki İşaretçiler";
@@ -1608,6 +1606,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "POI ALGILAMA MESAFELERI";
+
+/* No comment provided by engineer. */
+"POI Settings" = "POI Ayarları";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "POI SES EFEKTI SEÇENEKLERI";
@@ -2082,6 +2083,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Bu, kulaklığınızın VoiceVista ile bağlantısını kesecektir. Gelecekte VoiceVista'ya buradan tekrar bağlanabilirsiniz.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Zaman Aralığı";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

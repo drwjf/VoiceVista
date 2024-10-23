@@ -209,6 +209,12 @@
 "Allow Automatic Callouts" = "Tillad automatiske annonceringer";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "Tillad Callouts for GPS-oplysninger";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Tillad husnummerforklaringer";
+
+/* No comment provided by engineer. */
 "Along Road" = "Langs Vej";
 
 /* No comment provided by engineer. */
@@ -224,7 +230,10 @@
 "Announce turn instructions in advance at a specified distance." = "Annoncer drejeinstruktioner på forhånd på en bestemt afstand.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "ANNONCERING AF INTERVALLER";
+"Announcing Intervals" = "Annonceringsintervaller";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Annonceringsmuligheder";
 
 /* Type 4 for navigation transport */
 "Any" = "Nogen";
@@ -502,9 +511,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Annoncering til";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Indstillinger for annonceringer";
-
 /* general.alert.cancel */
 "Cancel" = "Annuller";
 
@@ -713,6 +719,9 @@
 "Details of Route %@" = "Detaljer om rute %@";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Ciffer For Ciffer";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Retningsstil";
 
 /* %@ is the direction to the beacon */
@@ -741,6 +750,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Afstand mellem rutepunkter, skal være >= %@";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Afstandsinterval";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Afstanden skal være mellem %1$@ og %2$@";
@@ -977,16 +989,10 @@
 "GPS Altitude" = "GPS-højde";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS-ANNONCERING AF MULIGHEDER";
-
-/* No comment provided by engineer. */
 "GPS Information" = "GPS-oplysninger";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "GPS-information Afstandsinterval";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "GPS tidsinterval";
+"GPS Information Settings" = "GPS-informationsindstillinger";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS Breddegrad og længdegrad";
@@ -1058,13 +1064,7 @@
 "HINT SOUNDS" = "TIP LYDE";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Afstandsinterval for annoncering af husnummer";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "tidsinterval for annoncering af husnummer";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Husnumre";
+"House Number Settings" = "Indstillinger for husnummer";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Hvordan lyder den?";
@@ -1363,11 +1363,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigations vendepunkt";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
 "Near %@" = "Nær %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Nær adressen %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Mærker i nærheden";
@@ -1611,6 +1609,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "POI-SENSOR-RÆKKEVIDDER";
+
+/* No comment provided by engineer. */
+"POI Settings" = "POI-indstillinger";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "MULIGHEDER FOR POI-LYDEFFEKTER";
@@ -2085,6 +2086,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Dette afbryder forbindelsen til hovedtelefonerne fra VoiceVista. Du kan oprette forbindelse til VoiceVista igen i fremtiden herfra.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Tidsinterval";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

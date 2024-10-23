@@ -209,6 +209,12 @@
 "Allow Automatic Callouts" = "Automaatsete teadete lubamine";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "GPS-i teabe viiktekstide lubamine";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Luba majanumbri tähelepanulaiendid";
+
+/* No comment provided by engineer. */
 "Along Road" = "Mööda teed";
 
 /* No comment provided by engineer. */
@@ -224,7 +230,10 @@
 "Announce turn instructions in advance at a specified distance." = "Teatage pöördejuhised eelnevalt kindlaksmääratud kaugusel.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "INTERVALLIDE VÄLJAKUULUTAMINE";
+"Announcing Intervals" = "Intervallide väljakuulutamine";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Suvandite väljakuulutamine";
 
 /* Type 4 for navigation transport */
 "Any" = "Mistahes";
@@ -499,9 +508,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Teated sees";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Teadete seaded";
-
 /* general.alert.cancel */
 "Cancel" = "Tühista";
 
@@ -704,6 +710,9 @@
 "Destination: %@ ." = "Sihtkoht: %@ .";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Numbrite kaupa";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Suuna stiil";
 
 /* %@ is the direction to the beacon */
@@ -729,6 +738,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Teekonnapunktide vaheline kaugus peaks olema > = %@";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Vahemaa intervall";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Vahemaa peab olema vahemikus %1$@ kuni %2$@";
@@ -959,16 +971,10 @@
 "GPS Altitude" = "GPS-i kõrgus merepinnast";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS TEATAB VALIKUTEST";
-
-/* No comment provided by engineer. */
 "GPS Information" = "GPS-info";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "GPS-info kauguse intervall";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "GPS-info ajaintervall";
+"GPS Information Settings" = "GPS-i teabe seaded";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS laius ja pikkus";
@@ -1040,13 +1046,7 @@
 "HINT SOUNDS" = "VIHJEHELID";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Majanumbri kauguse intervall";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Majanumbri ajaintervall";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Majanumbrid";
+"House Number Settings" = "Majanumbri seaded";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Kuidas see kõlab?";
@@ -1345,9 +1345,6 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Liikumise pööramispunkt";
 
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Aadressi %@ lähedal";
-
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Tähised läheduses";
 
@@ -1590,6 +1587,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "POI SENSORITE VAHEMIKUD";
+
+/* No comment provided by engineer. */
+"POI Settings" = "POI seaded";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "POI HELIEFEKTIDE VALIKUD";
@@ -2061,6 +2061,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "See katkestab kõrvaklappide ühenduse VoiceVistaga. VoiceVistaga saab tulevikus uuesti ühenduse luua siit.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Ajavahemik";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

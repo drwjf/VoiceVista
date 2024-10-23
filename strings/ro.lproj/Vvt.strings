@@ -209,6 +209,12 @@
 "Allow Automatic Callouts" = "Permiterea explicațiilor automate";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "Permiteți înștiințări de informații GPS";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Permiteți înștiințările pentru numărul de casă";
+
+/* No comment provided by engineer. */
 "Along Road" = "De-a lungul drumului";
 
 /* No comment provided by engineer. */
@@ -224,7 +230,10 @@
 "Announce turn instructions in advance at a specified distance." = "Anunțați instrucțiunile de viraj în avans la o distanță specificată.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "ANUNȚAREA INTERVALELOR";
+"Announcing Intervals" = "Intervale de anunț";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Anunțarea opțiunilor";
 
 /* Type 4 for navigation transport */
 "Any" = "Orice";
@@ -502,9 +511,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Înștiințări activate";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Setări înștiințări";
-
 /* general.alert.cancel */
 "Cancel" = "Anulare";
 
@@ -713,6 +719,9 @@
 "Details of Route %@" = "Detalii despre traseul %@";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Cifră cu cifră";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Stil de direcție";
 
 /* %@ is the direction to the beacon */
@@ -741,6 +750,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distanța dintre punctele de trecere, umăr >= %@";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Interval de distanță";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Distanța ar trebui să fie între %1$@ și %2$@";
@@ -977,16 +989,10 @@
 "GPS Altitude" = "Altitudine GPS";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "OPȚIUNI DE ANUNȚARE GPS";
-
-/* No comment provided by engineer. */
 "GPS Information" = "Informații GPS";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "Informații GPS Interval distanță";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "Informații GPS Interval de timp";
+"GPS Information Settings" = "Setări de informații GPS";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS Latitudine și longitudine";
@@ -1058,13 +1064,7 @@
 "HINT SOUNDS" = "SUNETE DE SUGESTIE";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Numărul casei Interval distanță";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Numărul casei Interval de timp";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Numerele casei";
+"House Number Settings" = "Setări pentru numărul de casă";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Cum sună asta?";
@@ -1363,11 +1363,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Punct de cotitură de navigație";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
 "Near %@" = "Aproape %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Lângă adresa %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Markere din apropiere";
@@ -1611,6 +1609,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "INTERVALE DE DETECTARE POI";
+
+/* No comment provided by engineer. */
+"POI Settings" = "Setări POI";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "OPȚIUNI EFECTE SONORE POI";
@@ -2085,6 +2086,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Aceasta vă va deconecta căștile de la VoiceVista. Vă puteți conecta din nou la VoiceVista în viitor de aici.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Interval de timp";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
