@@ -206,6 +206,12 @@
 "Allow Automatic Callouts" = "Dozvoli automatske pozive";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "Дозволи облачиће ГПС информација";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Дозволи облачиће кућног броја";
+
+/* No comment provided by engineer. */
 "Along Road" = "Duž puta";
 
 /* No comment provided by engineer. */
@@ -221,7 +227,10 @@
 "Announce turn instructions in advance at a specified distance." = "Najavite uputstva za skretanje unapred na određenoj udaljenosti.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "NAJAVLjANjE INTERVALA";
+"Announcing Intervals" = "Интервали за најављивање";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Најављивање опција";
 
 /* Type 4 for navigation transport */
 "Any" = "Било који";
@@ -499,9 +508,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Dostižni pozivi su na";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Postavke poziva";
-
 /* general.alert.cancel */
 "Cancel" = "Otkaži";
 
@@ -710,6 +716,9 @@
 "Details of Route %@" = "Детаљи руте %@";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Цифра по цифра";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Stil pravca";
 
 /* %@ is the direction to the beacon */
@@ -738,6 +747,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Razdaljina između tačaka, treba >= %@";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Дистанце Интервал";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Rastojanje bi trebalo da bude između %1$@ i %2$@";
@@ -974,16 +986,10 @@
 "GPS Altitude" = "GPS nadmorska visina";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS NAJAVLJUJE OPCIJE";
-
-/* No comment provided by engineer. */
 "GPS Information" = "GPS informacije";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "GPS interval rastojanja informacija";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "Vremenski interval GPS informacija";
+"GPS Information Settings" = "Подешавања ГПС информација";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS geografska širina i geografska dužina";
@@ -1055,13 +1061,7 @@
 "HINT SOUNDS" = "ХИНТ СОУНДС";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Interval rastojanja kućnog broja";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Vremenski interval broja kuće";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Кућни бројеви";
+"House Number Settings" = "Подешавања кућног броја";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Kako ti ovo zvuиi?";
@@ -1360,11 +1360,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Prekretnica za navigaciju";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
 "Near %@" = "Blizu %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Blizu adrese %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Označivači u blizini";
@@ -1608,6 +1606,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "POI SENSING OPSEGA";
+
+/* No comment provided by engineer. */
+"POI Settings" = "ПОИ подешавања";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "OPCIJE ZVUČNIH EFEKATA POI";
@@ -2082,6 +2083,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Ovo će isključiti vaše slušalice sa VoiceVista. Odavde se možete ponovo povezati sa VoiceVistom.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Временски интервал";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

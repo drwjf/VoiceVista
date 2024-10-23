@@ -209,6 +209,12 @@
 "Allow Automatic Callouts" = "Permitir textos explicativos automáticos";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "Permitir chamadas de informações de GPS";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Permitir chamadas de números de casas";
+
+/* No comment provided by engineer. */
 "Along Road" = "Ao longo da estrada";
 
 /* No comment provided by engineer. */
@@ -224,7 +230,10 @@
 "Announce turn instructions in advance at a specified distance." = "Anuncie as instruções de viragem com antecedência a uma distância especificada.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "ANUNCIANDO INTERVALOS";
+"Announcing Intervals" = "Anunciando Intervalos";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Anunciando opções";
 
 /* Type 4 for navigation transport */
 "Any" = "Qualquer";
@@ -502,9 +511,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Avisos Ativados";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Definições de avisos";
-
 /* general.alert.cancel */
 "Cancel" = "Cancelar";
 
@@ -713,6 +719,9 @@
 "Details of Route %@" = "Detalhes da rota %@";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Dígito por Dígito";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Estilo de direção";
 
 /* %@ is the direction to the beacon */
@@ -741,6 +750,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Distância entre pontos de passagem, deve ser >= %@";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Intervalo de distância";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "A distância deve estar entre %1$@ e %2$@";
@@ -977,16 +989,10 @@
 "GPS Altitude" = "GPS Altitude";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS ANUNCIANDO OPÇÕES";
-
-/* No comment provided by engineer. */
 "GPS Information" = "Informações GPS";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "Intervalo de Distância de Informação GPS";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "Intervalo de tempo de informações GPS";
+"GPS Information Settings" = "Configurações de informações do GPS";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS Latitude e longitude";
@@ -1058,13 +1064,7 @@
 "HINT SOUNDS" = "SONS DE DICA";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Intervalo de distância do número da casa";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Intervalo de tempo do número da casa";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Números das casas";
+"House Number Settings" = "Configurações do número da casa";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Parece-lhe bem?";
@@ -1363,11 +1363,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Ponto de viragem de navegação";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
 "Near %@" = "Perto de %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "Perto do endereço %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Marcadores nas Proximidades";
@@ -1611,6 +1609,9 @@
 
 /* No comment provided by engineer. */
 "POI SENSING RANGES" = "GAMAS DE DETEÇÃO POI";
+
+/* No comment provided by engineer. */
+"POI Settings" = "Configurações de POI";
 
 /* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "OPÇÕES DE EFEITOS SONOROS POI";
@@ -2085,6 +2086,9 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Esta ação irá desligar os auscultadores do VoiceVista. Poderá voltar a ligá-los ao VoiceVista aqui.";
+
+/* No comment provided by engineer. */
+"Time Interval" = "Intervalo de tempo";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
