@@ -209,6 +209,18 @@
 "Allow Automatic Callouts" = "Automatische Ansagen erlauben";
 
 /* No comment provided by engineer. */
+"Allow GPS Information Callouts" = "GPS-Informations-Callouts zulassen";
+
+/* No comment provided by engineer. */
+"Allow House Number Callouts" = "Hausnummernangabe zulassen";
+
+/* No comment provided by engineer. */
+"Allow Intersection Callouts" = "Kreuzungsbeschriftungen zulassen";
+
+/* No comment provided by engineer. */
+"Allow Road Name Callouts" = "Straßennamenbeschriftungen zulassen";
+
+/* No comment provided by engineer. */
 "Along Road" = "der Straße entlang";
 
 /* No comment provided by engineer. */
@@ -224,7 +236,10 @@
 "Announce turn instructions in advance at a specified distance." = "Abbiegehinweise im Voraus in einer festgelegten Entfernung ansagen.";
 
 /* No comment provided by engineer. */
-"ANNOUNCING INTERVALS" = "ANKÜNDIGUNG VON INTERVALLEN";
+"Announcing Intervals" = "Ankündigung von Intervallen";
+
+/* No comment provided by engineer. */
+"Announcing Options" = "Ankündigung von Optionen";
 
 /* Type 4 for navigation transport */
 "Any" = "Alle";
@@ -502,9 +517,6 @@
 /* callouts.callouts_on */
 "Callouts On" = "Ansagen ein";
 
-/* No comment provided by engineer. */
-"Callouts Settings" = "Ansage-Einstellungen";
-
 /* general.alert.cancel */
 "Cancel" = "Abbrechen";
 
@@ -564,6 +576,12 @@
 
 /* No comment provided by engineer. */
 "Change Places Range" = "Radius der Orte ändern";
+
+/* No comment provided by engineer. */
+"Change Road Information Distance Interval" = "Straßeninformations-Entfernungsintervall ändern";
+
+/* No comment provided by engineer. */
+"Change Road Information Time Interval" = "Zeitintervall für Straßeninformationen ändern";
 
 /* No comment provided by engineer. */
 "Change Safety Spots Range" = "Radius der Sicherheitspunkte ändern";
@@ -713,6 +731,9 @@
 "Details of Route %@" = "Einzelheiten zur Route %@";
 
 /* No comment provided by engineer. */
+"Digit By Digit" = "Ziffer für Ziffer";
+
+/* No comment provided by engineer. */
 "Direction Style" = "Richtungsstil";
 
 /* %@ is the direction to the beacon */
@@ -741,6 +762,9 @@
 
 /* %@ could be 50 meters or 150 feet */
 "Distance between waypoints, shoulde >= %@" = "Entfernung zwischen Routenpunkten sollte >= %@ sein.";
+
+/* No comment provided by engineer. */
+"Distance Interval" = "Distanzintervall";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Die Entfernung sollte zwischen %1$@ und %2$@ betragen";
@@ -977,16 +1001,10 @@
 "GPS Altitude" = "GPS Höhe";
 
 /* No comment provided by engineer. */
-"GPS ANNOUNCING OPTIONS" = "GPS-ANKÜNDIGUNGSOPTIONEN";
-
-/* No comment provided by engineer. */
 "GPS Information" = "GPS-Informationen";
 
 /* No comment provided by engineer. */
-"GPS Information Distance Interval" = "Entfernungsintervall für GPS-Info-Ansage";
-
-/* No comment provided by engineer. */
-"GPS Information Time Interval" = "Zeitintervall für GPS-Info-Ansage";
+"GPS Information Settings" = "GPS-Informationseinstellungen";
 
 /* No comment provided by engineer. */
 "GPS Latitude and longitude" = "GPS Breite und Länge";
@@ -1058,13 +1076,7 @@
 "HINT SOUNDS" = "HINWEIS-TÖNE";
 
 /* No comment provided by engineer. */
-"House Number Distance Interval" = "Entfernungsintervall für Hausnummernansagen";
-
-/* No comment provided by engineer. */
-"House Number Time Interval" = "Zeitintervall für Hausnummernansagen";
-
-/* No comment provided by engineer. */
-"House Numbers" = "Hausnummern";
+"House Number Settings" = "Hausnummerneinstellungen";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Wie klingt das?";
@@ -1145,6 +1157,9 @@
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Im Gehmodus definieren Reichweiten Ansagedistanzen für erkannte POIs in unterschiedlichen Oberkategorien. Im Fahrmodus werden diese Reichweiten versechsfacht.";
 
 /* No comment provided by engineer. */
+"Include Unnamed Roads" = "Unbenannte Straßen einschließen";
+
+/* No comment provided by engineer. */
 "Information Points" = "Informationspunkte";
 
 /* No comment provided by engineer. */
@@ -1154,7 +1169,7 @@
 "Intersection Callout" = "Kreuzungsansage";
 
 /* No comment provided by engineer. */
-"INTERSECTION OPTIONS" = "OPTIONEN FÜR KREUZUNGEN";
+"Intersection Options" = "Kreuzungsoptionen";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Kreuzung mit %1$@ %2$@";
@@ -1363,11 +1378,9 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "Navigations-Abbiegungspunkt";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks' */
+/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
+   Notification announced to the user that they are near a road, %@ is a road name, examples: 'Near 123 Columbia Street' */
 "Near %@" = "In der Nähe von %@";
-
-/* Notification, %@ physical address, 'Near address <1600 Pennsylvania Avenue>' */
-"Near address %@" = "In der Nähe von Adresse %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Markierungen in der Nähe";
@@ -1613,6 +1626,9 @@
 "POI SENSING RANGES" = "POI-MESSBEREICHE";
 
 /* No comment provided by engineer. */
+"POI Settings" = "POI-Einstellungen";
+
+/* No comment provided by engineer. */
 "POI SOUND EFFECT OPTIONS" = "OPTIONEN FÜR POI-SOUNDEFFEKTE";
 
 /* No comment provided by engineer. */
@@ -1725,6 +1741,15 @@
 
 /* No comment provided by engineer. */
 "Reverse Route Generated" = "Umgekehrte Route erstellt";
+
+/* No comment provided by engineer. */
+"Road Information Settings" = "Straßeninformationseinstellungen";
+
+/* No comment provided by engineer. */
+"Road Name Options" = "Optionen für Straßennamen";
+
+/* No comment provided by engineer. */
+"Road Name Sensing Intervals" = "Intervalle zur Erkennung von Straßennamen";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Kreisverkehr mit %1$@ Ausfahrten %2$@";
@@ -2086,6 +2111,9 @@
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Damit trennen Sie Ihren Kopfhörer von VoiceVista. Sie können Ihren Kopfhörer hier später erneut mit VoiceVista verbinden.";
 
+/* No comment provided by engineer. */
+"Time Interval" = "Zeitintervall";
+
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Zu %@";
@@ -2212,9 +2240,6 @@
 "Unmute Beacon" = "Stummschaltung für Signal aufheben";
 
 /* No comment provided by engineer. */
-"Unnamed Roads" = "Unbenannte Straßen";
-
-/* No comment provided by engineer. */
 "Unpin from Top" = "Nicht mehr oben anheften";
 
 /* No comment provided by engineer. */
@@ -2246,6 +2271,9 @@
 
 /* No comment provided by engineer. */
 "Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Verwenden Sie das iPhone wie einen Zeiger, drehen Sie sich langsam, und die Straßen werden Ihnen angesagt. Wenn Sie in die Richtung der gewünschten Straße zeigen, tippen Sie auf „Gehen“, und Sie gehen zur nächsten Kreuzung fort.";
+
+/* No comment provided by engineer. */
+"Verbose Mode" = "Ausführlicher Modus";
 
 /* No comment provided by engineer. */
 "View Detail" = "Details ansehen";
@@ -2394,6 +2422,9 @@
 
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Wenn Sie Ihrer Route mit VoiceVista folgen, werden Sie über die Ankunft an jedem Wegpunkt informiert. Danach wird automatisch das Tonsignal für den nächsten Wegpunkt eingeschaltet.";
+
+/* No comment provided by engineer. */
+"With verbose mode off, the same road name will not be repeated after an intersection." = "Wenn der ausführliche Modus deaktiviert ist, wird der gleiche Straßenname nach einer Kreuzung nicht wiederholt.";
 
 /* No comment provided by engineer. */
 "Yes" = "Ja";
