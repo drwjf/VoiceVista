@@ -215,6 +215,12 @@
 "Allow House Number Callouts" = "Zezwalaj na wyświetlanie numerów domów";
 
 /* No comment provided by engineer. */
+"Allow Intersection Callouts" = "Zezwalaj na odwołania do skrzyżowań";
+
+/* No comment provided by engineer. */
+"Allow Road Name Callouts" = "Zezwalaj na wyświetlanie nazw dróg";
+
+/* No comment provided by engineer. */
 "Along Road" = "Wzdłuż drogi";
 
 /* No comment provided by engineer. */
@@ -570,6 +576,12 @@
 
 /* No comment provided by engineer. */
 "Change Places Range" = "Zmień zakres miejsc";
+
+/* No comment provided by engineer. */
+"Change Road Information Distance Interval" = "Zmień informacje o drodze Odległość Interwał";
+
+/* No comment provided by engineer. */
+"Change Road Information Time Interval" = "Zmień interwał czasowy informacji drogowych";
 
 /* No comment provided by engineer. */
 "Change Safety Spots Range" = "Zmień zasięg bezpiecznych miejsc";
@@ -1145,6 +1157,9 @@
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "W trybie pieszym zakresy określają odległości wywoływania wykrytych punktów POI w różnych superkategoriach. W trybie jazdy zasięgi te są mnożone przez sześć.";
 
 /* No comment provided by engineer. */
+"Include Unnamed Roads" = "Uwzględnij drogi bez nazwy";
+
+/* No comment provided by engineer. */
 "Information Points" = "Punkty Informacyjne";
 
 /* No comment provided by engineer. */
@@ -1154,7 +1169,7 @@
 "Intersection Callout" = "Objaśnienie skrzyżowania";
 
 /* No comment provided by engineer. */
-"INTERSECTION OPTIONS" = "OPCJE SKRZYŻOWANIA";
+"Intersection Options" = "Opcje skrzyżowania";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Skrzyżowanie z %1$@ %2$@";
@@ -1364,7 +1379,7 @@
 "Navigation Turn Point" = "Punkt zwrotny nawigacji";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
-   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
+   Notification announced to the user that they are near a road, %@ is a road name, examples: 'Near 123 Columbia Street' */
 "Near %@" = "W pobliżu %@";
 
 /* ui.action_button.nearby_markers */
@@ -1726,6 +1741,15 @@
 
 /* No comment provided by engineer. */
 "Reverse Route Generated" = "Wygenerowano trasę odwrotną";
+
+/* No comment provided by engineer. */
+"Road Information Settings" = "Ustawienia informacji drogowych";
+
+/* No comment provided by engineer. */
+"Road Name Options" = "Opcje nazw dróg";
+
+/* No comment provided by engineer. */
+"Road Name Sensing Intervals" = "Interwały wykrywania nazw dróg";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Rondo ze zjazdami %1$@ %2$@";
@@ -2216,9 +2240,6 @@
 "Unmute Beacon" = "Wyłącz wyciszenie sygnalizatora";
 
 /* No comment provided by engineer. */
-"Unnamed Roads" = "Nienazwane drogi";
-
-/* No comment provided by engineer. */
 "Unpin from Top" = "Odepnij od góry";
 
 /* No comment provided by engineer. */
@@ -2250,6 +2271,9 @@
 
 /* No comment provided by engineer. */
 "Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Używając telefonu jako wskaźnika, powoli obracaj się, a nazwy ulic będą odczytywane podczas skręcania. Kiedy patrzysz na ulicę, którą chcesz zejść, naciśnij „Jedź”, a przejdziesz do następnego skrzyżowania.";
+
+/* No comment provided by engineer. */
+"Verbose Mode" = "Tryb szczegółowy";
 
 /* No comment provided by engineer. */
 "View Detail" = "Pokaż szczegóły";
@@ -2398,6 +2422,9 @@
 
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Gdy jesteś na trasie z VoiceVista, zostaniesz poinformowany o przybyciu do każdego punktu trasy, a sygnalizator dźwiękowy automatycznie przejdzie do następnego punktu trasy.";
+
+/* No comment provided by engineer. */
+"With verbose mode off, the same road name will not be repeated after an intersection." = "Po wyłączeniu trybu szczegółowego ta sama nazwa drogi nie zostanie powtórzona po skrzyżowaniu.";
 
 /* No comment provided by engineer. */
 "Yes" = "Tak";
