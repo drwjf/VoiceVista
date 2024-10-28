@@ -215,6 +215,12 @@
 "Allow House Number Callouts" = "Разрешить выноски номеров домов";
 
 /* No comment provided by engineer. */
+"Allow Intersection Callouts" = "Разрешить перекрестные выноски";
+
+/* No comment provided by engineer. */
+"Allow Road Name Callouts" = "Разрешить выноски названий дорог";
+
+/* No comment provided by engineer. */
 "Along Road" = "Движение по дороге";
 
 /* No comment provided by engineer. */
@@ -570,6 +576,12 @@
 
 /* No comment provided by engineer. */
 "Change Places Range" = "Изменить диапазон мест";
+
+/* No comment provided by engineer. */
+"Change Road Information Distance Interval" = "Изменить дорожную информацию Расстояние Интервал";
+
+/* No comment provided by engineer. */
+"Change Road Information Time Interval" = "Изменить временной интервал дорожной информации";
 
 /* No comment provided by engineer. */
 "Change Safety Spots Range" = "Изменить диапазон точек безопасности";
@@ -1145,6 +1157,9 @@
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "В режиме ходьбы диапазоны определяют расстояния вызова обнаруженных POI в различных суперкатегориях. В режиме движения эти диапазоны умножаются на шесть.";
 
 /* No comment provided by engineer. */
+"Include Unnamed Roads" = "Включить неназванные дороги";
+
+/* No comment provided by engineer. */
 "Information Points" = "Информационные точки";
 
 /* No comment provided by engineer. */
@@ -1154,7 +1169,7 @@
 "Intersection Callout" = "Объявление перекрёстка";
 
 /* No comment provided by engineer. */
-"INTERSECTION OPTIONS" = "ВАРИАНТЫ ПЕРЕКРЕСТКОВ";
+"Intersection Options" = "Варианты пересечения";
 
 /* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
 "Intersection with %1$@ %2$@" = "Перекрёсток с %1$@ %2$@";
@@ -1364,7 +1379,7 @@
 "Navigation Turn Point" = "Поворот";
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
-   Notification, %@ physical address, 'Near <1600 Pennsylvania Avenue>' */
+   Notification announced to the user that they are near a road, %@ is a road name, examples: 'Near 123 Columbia Street' */
 "Near %@" = "Рядом с %@";
 
 /* ui.action_button.nearby_markers */
@@ -1726,6 +1741,15 @@
 
 /* No comment provided by engineer. */
 "Reverse Route Generated" = "Создан обратный маршрут";
+
+/* No comment provided by engineer. */
+"Road Information Settings" = "Настройки дорожной информации";
+
+/* No comment provided by engineer. */
+"Road Name Options" = "Варианты названий дорог";
+
+/* No comment provided by engineer. */
+"Road Name Sensing Intervals" = "Интервалы обнаружения названия дороги";
 
 /* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
 "Roundabout with %1$@ exits %2$@" = "Круговой перекрёсток, съездов: %1$@, %2$@";
@@ -2216,9 +2240,6 @@
 "Unmute Beacon" = "Включить звук маяка";
 
 /* No comment provided by engineer. */
-"Unnamed Roads" = "Безымянные дороги";
-
-/* No comment provided by engineer. */
 "Unpin from Top" = "Открепить сверху";
 
 /* No comment provided by engineer. */
@@ -2250,6 +2271,9 @@
 
 /* No comment provided by engineer. */
 "Using the phone as a pointer, slowly turn, and the street names will be called out as you turn. When you are facing the street you want to go down, tap \"Go\" and you will advance to the next intersection." = "Используя телефон в качестве указки, медленно поворачивайте его, и названия улиц будут называться при повороте. Когда вы смотрите на улицу, по которой хотите идти, нажмите кнопку «Идти», и вы перейдёте к следующему перекрёстку.";
+
+/* No comment provided by engineer. */
+"Verbose Mode" = "Подробный режим";
 
 /* No comment provided by engineer. */
 "View Detail" = "Посмотреть детали";
@@ -2398,6 +2422,9 @@
 
 /* No comment provided by engineer. */
 "While out on your route with VoiceVista, you will be informed on arrival to each waypoint, and the Audio Beacon will automatically advance to the next waypoint." = "Находясь на маршруте с VoiceVista, вы будете проинформированы о прибытии в каждую путевую точку, а звуковой маяк автоматически перейдёт к следующей  точке.";
+
+/* No comment provided by engineer. */
+"With verbose mode off, the same road name will not be repeated after an intersection." = "При отключенном подробном режиме одно и то же название дороги не будет повторяться после перекрестка.";
 
 /* No comment provided by engineer. */
 "Yes" = "Да";
