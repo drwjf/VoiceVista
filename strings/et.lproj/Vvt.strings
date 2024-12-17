@@ -371,10 +371,10 @@
 "Automatic Callouts" = "Automaatsed teated";
 
 /* No comment provided by engineer. */
-"Automatic callouts are disabled when the user selects the Markers tab. To modify this setting, navigate to the Settings tab." = "Automaatsed tähelepanulaiendid keelatakse, kui kasutaja valib vahekaardi Markerid. Selle sätte muutmiseks liikuge vahekaardile Sätted.";
+"Automatic Callouts Disabled" = "Automaatsed tähelepanulaiendid on keelatud";
 
 /* No comment provided by engineer. */
-"Automatic callouts are disabled when the user selects the Routes tab. To modify this setting, navigate to the Settings tab." = "Automaatsed tähelepanulaiendid keelatakse, kui kasutaja valib vahekaardi Marsruudid. Selle sätte muutmiseks liikuge vahekaardile Sätted.";
+"Automatic Callouts Enabled" = "Automaatsed tähelepanulaiendid lubatud";
 
 /* Type 2 for navigation transport */
 "Automobile" = "Auto";
@@ -519,6 +519,9 @@
 
 /* callouts.callouts_on */
 "Callouts On" = "Teated sees";
+
+/* No comment provided by engineer. */
+"Callouts Only When in Surroundings Tab" = "Viiktekstid ainult vahekaardil Ümbrus";
 
 /* general.alert.cancel */
 "Cancel" = "Tühista";
@@ -1328,9 +1331,6 @@
 "Markers Nearby" = "Tähised läheduses";
 
 /* No comment provided by engineer. */
-"Markers/Routes/Settings Tabs" = "Markerite/marsruutide/sätete vahekaardid";
-
-/* No comment provided by engineer. */
 "Melodies when arrived and departing" = "Meloodiad saabumisel ja lahkumisel";
 
 /* settings.general.units.meters */
@@ -1430,9 +1430,6 @@
 "No backup data found on the device." = "Seadmest ei leitud varukoopiaid.";
 
 /* No comment provided by engineer. */
-"No Beacon" = "Majakat pole";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Interneti-ühendus puudub; Mõned oskused on võrguühenduseta režiimis piiratud.";
 
 /* No comment provided by engineer. */
@@ -1448,7 +1445,7 @@
 "No Motion Permission" = "Liikumisluba puudub";
 
 /* No comment provided by engineer. */
-"No navigation instruction" = "Liikumisjuhised puuduvad";
+"No Navigation Instruction" = "Navigeerimisjuhised puuduvad";
 
 /* No comment provided by engineer. */
 "No network connection" = "Võrguühendus puudub";
@@ -2168,9 +2165,6 @@
 /* No comment provided by engineer. */
 "Try with Test Location" = "Proovi testasukohaga";
 
-/* No comment provided by engineer. */
-"Turn all callouts on or off" = "Kõigi teadete sisse- või väljalülitamine";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "VoiceVista kasutamiseks täpse asukoha sisselülitamine";
 
@@ -2347,6 +2341,9 @@
 "VoiceVista is unable to locate your current position at the moment." = "VoiceVista ei suuda hetkel praegust asukohta leida.";
 
 /* No comment provided by engineer. */
+"VoiceVista only announces automatic callouts when in the surroundings tab. To modify this setting, navigate to the Settings tab." = "VoiceVista teatab automaatsetest tähelepanulaienditest ainult siis, kui need on ümbruse vahekaardil. Selle sätte muutmiseks liikuge vahekaardile Sätted.";
+
+/* No comment provided by engineer. */
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista salvestab kaardiandmed, et vähendada andmete ja aku tarbimist. Salvestatud kaardiandmete kustutamiseks peab VoiceVista andmed uuesti alla laadima.";
 
 /* No comment provided by engineer. */
@@ -2426,7 +2423,7 @@
 "With the enqueue option off, intersection callouts will interrupt any current callouts." = "Kui järjekorra valik on välja lülitatud, katkestavad ristmike tähelepanulaiendid kõik praegused tähelepanulaiendid.";
 
 /* No comment provided by engineer. */
-"With the Tabs option off, no automatic callouts will occur when one of these tabs is selected." = "Kui suvand Tabelduskohad on välja lülitatud, ei toimu automaatseid tähelepanulaiendeid, kui üks neist vahekaartidest on valitud.";
+"With the tab option enabled, VoiceVista announces callouts only in the Surroundings tab. When disabled, it announces callouts at all times." = "Kui vahekaardi valik on lubatud, kuulutab VoiceVista tähelepanulaiendid välja ainult vahekaardil Ümbrus. Kui see on keelatud, teatab see alati tähelepanulaienditest.";
 
 /* No comment provided by engineer. */
 "With verbose mode off, the same road name will not be repeated after an intersection." = "Kui paljusõnaline režiim on välja lülitatud, ei korrata pärast ristmikku sama tee nime.";

@@ -374,10 +374,10 @@
 "Automatic Callouts" = "Автоматические объявления";
 
 /* No comment provided by engineer. */
-"Automatic callouts are disabled when the user selects the Markers tab. To modify this setting, navigate to the Settings tab." = "Автоматические выноски отключаются, когда пользователь выбирает вкладку Маркеры. Чтобы изменить этот параметр, перейдите на вкладку Настройки.";
+"Automatic Callouts Disabled" = "Отключены автоматические выноски";
 
 /* No comment provided by engineer. */
-"Automatic callouts are disabled when the user selects the Routes tab. To modify this setting, navigate to the Settings tab." = "Автоматические выноски отключаются, когда пользователь выбирает вкладку Маршруты. Чтобы изменить этот параметр, перейдите на вкладку Настройки.";
+"Automatic Callouts Enabled" = "Включены автоматические выноски";
 
 /* Type 2 for navigation transport */
 "Automobile" = "Автомобиль";
@@ -522,6 +522,9 @@
 
 /* callouts.callouts_on */
 "Callouts On" = "Объявления включены";
+
+/* No comment provided by engineer. */
+"Callouts Only When in Surroundings Tab" = "Выноски только во вкладке «Окружение»";
 
 /* general.alert.cancel */
 "Cancel" = "Отменить";
@@ -1346,9 +1349,6 @@
 "Markers Nearby" = "Метки поблизости";
 
 /* No comment provided by engineer. */
-"Markers/Routes/Settings Tabs" = "Вкладки 'Маркеры/Маршруты/Настройки'";
-
-/* No comment provided by engineer. */
 "Melodies when arrived and departing" = "Сигналы прибытия и отправления";
 
 /* settings.general.units.meters */
@@ -1452,9 +1452,6 @@
 "No backup data found on the device." = "Данные резервных копий на устройстве не найдены.";
 
 /* No comment provided by engineer. */
-"No Beacon" = "Без маяка";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Нет соединения с интернетом; некоторые функции ограничены в автономном режиме.";
 
 /* No comment provided by engineer. */
@@ -1470,7 +1467,7 @@
 "No Motion Permission" = "Нет разрешения на движение";
 
 /* No comment provided by engineer. */
-"No navigation instruction" = "Нет инструкций по навигации";
+"No Navigation Instruction" = "Нет инструкции по навигации";
 
 /* No comment provided by engineer. */
 "No network connection" = "Нет подключения к сети";
@@ -2193,9 +2190,6 @@
 /* No comment provided by engineer. */
 "Try with Test Location" = "Попробовать с тестовым местоположением";
 
-/* No comment provided by engineer. */
-"Turn all callouts on or off" = "Включить или отключить все объявления";
-
 /* general.error.precise_location */
 "Turn on Precise Location to use VoiceVista" = "Включите точную геопозицию, чтобы использовать VoiceVista";
 
@@ -2372,6 +2366,9 @@
 "VoiceVista is unable to locate your current position at the moment." = "VoiceVista не может определить ваше текущее местоположение в данный момент.";
 
 /* No comment provided by engineer. */
+"VoiceVista only announces automatic callouts when in the surroundings tab. To modify this setting, navigate to the Settings tab." = "VoiceVista объявляет об автоматических вызовах только тогда, когда находится на вкладке окружения. Чтобы изменить этот параметр, перейдите на вкладку Настройки.";
+
+/* No comment provided by engineer. */
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista сохраняет данные карт, чтобы сократить расход данных и заряда батареи. Для очистки сохранённых данных карт потребуется повторная загрузка данных VoiceVista.";
 
 /* No comment provided by engineer. */
@@ -2451,7 +2448,7 @@
 "With the enqueue option off, intersection callouts will interrupt any current callouts." = "Если опция постановки в очередь отключена, перекрестные вызовы будут прерывать все текущие вызовы.";
 
 /* No comment provided by engineer. */
-"With the Tabs option off, no automatic callouts will occur when one of these tabs is selected." = "Если параметр «Табуляция» отключен, при выборе одной из этих вкладок автоматические выноски выполняться не будут.";
+"With the tab option enabled, VoiceVista announces callouts only in the Surroundings tab. When disabled, it announces callouts at all times." = "Если опция вкладки включена, VoiceVista объявляет выноски только на вкладке «Окружение». Когда функция отключена, она постоянно объявляет выноски.";
 
 /* No comment provided by engineer. */
 "With verbose mode off, the same road name will not be repeated after an intersection." = "При отключенном подробном режиме одно и то же название дороги не будет повторяться после перекрестка.";
