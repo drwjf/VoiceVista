@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, suundudes %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ varufaili on kustutatud.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ on lähedal";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ tähist kustutatud";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "%@ markerid on taastatud.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ tähist imporditud";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ teekonda kustutatud";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ marsruute on taastatud.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ teekonda imporditud";
@@ -395,9 +404,6 @@
 "Backup and Restore" = "Varundamine ja taastamine";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Varundamine iCloudist";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Pangad ja sularahaautomaadid";
 
 /* No comment provided by engineer. */
@@ -626,6 +632,9 @@
 "Clear" = "Tühjenda";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Tühjendage varufailid";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Tühjenda talletatud kaardiandmed";
 
 /* No comment provided by engineer. */
@@ -645,6 +654,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Häälestamise lõpule viimine";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Markerite ja marsruutide täielikud pildid salvestatakse nende lisamisel või eemaldamisel eraldi varukoopiafailidena. Saate need varukoopiad taastada, kui teie iCloudi andmed lähevad sünkroonimisprobleemide tõttu kaotsi.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Palju õnne! Kõrvaklapid AirPods on kasutamiseks valmis, nii et saad telefoni taskusse panna ja teele asuda! VoiceVista jälgib nüüd sinu pea suunda, nii et enam ei pea telefoni käes hoidma. Üks klõps kõrvaklappide nupul vaigistab või tühistab majaka vaigistuse, topeltklõps teatab hetke asukoha ja kolmekordne klõps kordab viimast teadet.";
@@ -914,13 +926,16 @@
 "Export and Import" = "Eksport ja import";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Ekspordi tähiste varufail (.vmb)";
+"Export Markers to GPX File" = "Ekspordi markerid GPX-faili";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Ekspordi teekondade varundusfail (.vrb)";
+"Export Markers to VMB File" = "Ekspordi markerid VMB-faili";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EKSPORDI FAILI";
+"Export Routes to VRB File" = "Ekspordi marsruudid VRB-faili";
+
+/* No comment provided by engineer. */
+"Export to File" = "Ekspordi faili";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Väline kaardirakendus";
@@ -1114,12 +1129,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "I've shared a VoiceVista route with you! '%@'" = "Jagasin sinuga VoiceVista teekonda! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "iCloudi andmed varundati seadmesse edukalt.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "iCloudi andmed taastati seadmest edukalt.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Selle rakenduse iCloudi salvestusruum on täis. Uue tähise loomiseks pead vabastama ruumi, eemaldades mõned olemasolevad tähised.";
 
 /* No comment provided by engineer. */
@@ -1147,25 +1156,25 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Import Blindsquare Backup File" = "Blindsquare'i varukoopia faili importimine";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTIMINE FAILIST";
+"Import from File" = "Import failist";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "GPX-faili importimine";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Tähiste varufaili (.vmb) importimine";
+"Import Markers from VMB File" = "Importige markerid VMB-failist";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Teekondade varufaili (.vrb) importimine";
+"Import Route from VVR File" = "Impordi marsruut VVR-failist";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Impordi marsruudid VRB-failist";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Impordi Soundscape'i teekonnafail";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Impordi rada marsruudina";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "VoiceVista teekonnafaili (.vvr) importimine";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importige teekonnapunktid markeritena";
@@ -1236,6 +1245,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Näib, et privaatsusseaded takistavad täpse asukoha ning liikumise ja treeningu kasutamist. Palun tee rakenduses Seaded vajalikud muudatused.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Soovitatav on perioodiliselt eksportida oma markerid ja marsruudid VMB- ja VFB-failidesse ning salvestada need mujale. Seejärel saate need importida, kui teie iCloudi andmed lähevad sünkroonimisprobleemide tõttu kaotsi.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Lähedalasuvate kohtade loendi koostamine võib võtta aega. Kui hetkel andmed puuduvad, proovi hiljem uuesti.";
 
@@ -1253,9 +1265,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "Language" = "Keel";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Viimane varukoopia seadmes: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Viimane leivapurupunkt eemaldatud";
@@ -1425,9 +1434,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Vajalik on võrguühendus";
 
-/* No comment provided by engineer. */
-"Never" = "Mitte kunagi";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Uued teekonnapunktid nimetatakse automaatselt ja lisatakse teekonnale %@.";
 
@@ -1450,9 +1456,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "No audio beacon set" = "Helimajakat pole määratud";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Seadmest ei leitud varukoopiaid.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Interneti-ühendus puudub; Mõned oskused on võrguühenduseta režiimis piiratud.";
 
 /* No comment provided by engineer. */
@@ -1465,6 +1468,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "No marker annotation" = "Tähisel pole märget";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Seadmest ei leitud ühtegi markerite varukoopiafaili.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Liikumisluba puudub";
 
 /* No comment provided by engineer. */
@@ -1475,6 +1481,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Täpset asukohta ja liikumisluba pole";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Seadmest ei leitud ühtegi marsruutide varufaili.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Sellest GPX-failist ei leitud ühtegi rada";
@@ -1747,7 +1756,10 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Reset iCloud Data?" = "Kas lähtestada iCloudi andmed?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Taasta iCloudi";
+"Restore Markers" = "Taasta markerid";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Taasta marsruudid";
 
 /* No comment provided by engineer. */
 "Resume" = "Jätkamine";
@@ -2482,9 +2494,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "You are already within the monitoring region." = "Oled juba jälgimispiirkonnas.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Saad varundada iCloudist tähiseid ja teekondi sellesse seadmesse. Mõnikord võivad iCloudi andmed sünkroonimisprobleemide tõttu kaduma minna. Sellisel juhul võib proovida taastada seadmest iCloudi.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Saad kohandada, millistest superkategooria huvipunktidest erinevate stsenaariumide puhul teatatakse.";
 
 /* No comment provided by engineer. */
@@ -2534,9 +2543,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Oled muutnud selle teekonna teekonnapunkte.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Pole tähiseid ega teekondi, mida tuleks varundada.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Peaksid kasutama ainult tähiseid inimestelt, keda usaldad.";

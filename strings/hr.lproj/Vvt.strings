@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, prema %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ datoteka sigurnosne kopije je izbrisano.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ blizu";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "Oznake %@ izbrisane";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "Oznake %@ su vraćene.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Uvezene oznake";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rute izbrisane";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ ruta je vraćeno.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Uvezene rute";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Sigurnosno kopiranje i vraćanje";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Sigurnosno kopiranje s iClouda";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Banke i bankomati";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Čisto";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Očisti sigurnosne kopije datoteka";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Obriši pohranjene podatke karte";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Dovršeno konfiguriranje";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Potpune snimke oznaka i ruta spremaju se u zasebne sigurnosne kopije kad god ih dodate ili uklonite. Možete vratiti ove sigurnosne kopije ako su vaši iCloud podaci izgubljeni zbog problema sa sinkronizacijom.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Čestitamo! Vaši AirPods su spremni za upotrebu, tako da možete staviti telefon u džep i krenuti! VoiceVista će sada pratiti smjer vaše glave tako da ne morate držati telefon u ruci. Jednim klikom na gumb slušalica isključit će se ili uključiti cilj, dvostruki klik najavit će vašu lokaciju, a trostruki klik ponovit će posljednju najavu.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Izvoz i uvoz";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Izvoz datoteke sigurnosne kopije oznaka (.vmb)";
+"Export Markers to GPX File" = "Izvoz markera u GPX datoteku";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Datoteka sigurnosne kopije izvoza ruta (.vrb)";
+"Export Markers to VMB File" = "Izvoz oznaka u VMB datoteku";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "IZVEZI U DATOTEKU";
+"Export Routes to VRB File" = "Izvezi rute u VRB datoteku";
+
+/* No comment provided by engineer. */
+"Export to File" = "Izvoz u datoteku";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Vanjska aplikacija za karte";
@@ -1132,12 +1147,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "I've shared a VoiceVista route with you! '%@'" = "Podijelio sam VoiceVista rutu s vama! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "iCloud podaci uspješno su sigurnosno kopirani na uređaj.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "iCloud podaci uspješno su vraćeni s uređaja.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "iCloud pohrana za ovu aplikaciju je puna. Da biste stvorili novu oznaku, morat ćete osloboditi prostor uklanjanjem nekih od postojećih oznaka.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "Import Blindsquare Backup File" = "Uvoz datoteke sigurnosne kopije blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "UVEZI IZ DATOTEKE";
+"Import from File" = "Uvoz iz datoteke";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Uvoz GPX datoteke";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Datoteka sigurnosne kopije oznaka uvoza (.vmb)";
+"Import Markers from VMB File" = "Uvoz markera iz VMB datoteke";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Uvoz datoteke sigurnosne kopije ruta (.vrb)";
+"Import Route from VVR File" = "Uvezi rutu iz VVR datoteke";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Uvoz ruta iz VRB datoteke";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Uvezi datoteku rute Soundscapea";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Uvezi stazu kao rutu";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Uvoz datoteke rute VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Uvezite međutočke kao oznake";
@@ -1254,6 +1263,9 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Čini se da vaše postavke privatnosti sprječavaju upotrebu precizne lokacije i kretanja i kondicije. Izvršite potrebne prilagodbe u aplikaciji Postavke.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Preporuča se povremeno eksportirati vaše oznake i rute u VMB i VFB datoteke i pohraniti ih negdje drugdje. Zatim ih možete uvesti ako se vaši iCloud podaci izgube zbog problema sa sinkronizacijom.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Izrada popisa obližnjih mjesta može potrajati neko vrijeme. Ako trenutačno nema dostupnih podataka, pokušajte ponovno posjetiti kasnije.";
 
@@ -1271,9 +1283,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 
 /* No comment provided by engineer. */
 "Language" = "Jezik";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Zadnja sigurnosna kopija na ovom uređaju: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Posljednja putna točka Breadcrumb uklonjena";
@@ -1447,9 +1456,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Potrebna mrežna veza";
 
-/* No comment provided by engineer. */
-"Never" = "Nikada";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Nove međutočke bit će automatski imenovane i dodane ruti %@.";
 
@@ -1472,9 +1478,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "No audio beacon set" = "Nije postavljen zvučni cilj";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Na uređaju nisu pronađeni sigurnosni podaci.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Nema internetske veze; neke su funkcije ograničene u izvanmrežnom načinu rada.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "No marker annotation" = "Nema zabilježbe oznake";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Na uređaju nije pronađena datoteka sigurnosne kopije markera.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Nema dopuštenja za kretanje";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Nema precizne dozvole za lokaciju i kretanje";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Na uređaju nije pronađena datoteka sigurnosne kopije ruta.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "U ovoj GPX datoteci nije pronađen trag";
@@ -1769,7 +1778,10 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "Reset iCloud Data?" = "Želite li resetirati iCloud podatke?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Vrati na iCloud";
+"Restore Markers" = "Oznake vraćanja";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Vrati rute";
 
 /* No comment provided by engineer. */
 "Resume" = "Nastavi";
@@ -2507,9 +2519,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 "You are already within the monitoring region." = "Već ste unutar regije za praćenje.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Možete sigurnosno kopirati markere i rute s iClouda na ovaj uređaj. Ponekad se iCloud podaci mogu izgubiti zbog problema sa sinkronizacijom. U takvim slučajevima možete pokušati vratiti s uređaja na iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Možete prilagoditi koje se točke interesa nadkategorije najavljuju za različite scenarije.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Dodirnite donji gumb za povezivanje slušalica za praćenje glave.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Promijenili ste međutočke ove rute.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Nemate oznake i podatke o rutama koje je potrebno sigurnosno kopirati.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Trebali biste koristiti samo oznake od nekoga kome vjerujete.";

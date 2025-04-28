@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@ у напрямку на %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "Файлів резервної копії %@ видалено.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ поруч";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "Міток видалено: %@";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "%@ маркерів відновлено.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "Міток імпортовано: %@";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "Видалено маршрутів: %@";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ маршрутів відновлено.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "Імпортовано маршрутів: %@";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Резервне копіювання та відновлення";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Резервне копіювання в iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Банки та банкомати";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Очистити";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Очистити резервні файли";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Очистити збережені картографічні дані";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Повне налаштування";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Повні знімки маркерів і маршрутів зберігаються в окремі резервні файли, коли ви їх додаєте або видаляєте. Ви можете відновити ці резервні копії, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Вітаємо! Ваші AirPods готові до використання, тож ви можете покласти телефон до кишені та вирушати в дорогу! Тепер VoiceVista відстежуватиме положення вашої голови, тому вам не потрібно тримати телефон у руці. Також ви можете керувати програмою за допомогою кнопки навушників: одне натискання в вимкнення чи увімкнення маячка, подвійне натискання - визначення вашого місцезнаходження, а потрійне натискання - повторення останнього оповіщення.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Експорт та імпорт";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Експортувати файл резервної копії міток (.vmb)";
+"Export Markers to GPX File" = "Експорт маркерів у файл GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Експортувати файл резервної копії маршрутів (.vrb)";
+"Export Markers to VMB File" = "Експорт маркерів у файл VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "ЕКСПОРТувати У ФАЙЛ";
+"Export Routes to VRB File" = "Експортуйте маршрути у файл VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Експорт у файл";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Зовнішня навігаційна програма";
@@ -1132,12 +1147,6 @@
 "I've shared a VoiceVista route with you! '%@'" = "Це мій маршрут з програми VoiceVista! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "Резервне копіювання даних пристрою в iCloud успішно завершено.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Дані з iCloud успішно відновлено на пристрої.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Сховище iCloud для цієї програми заповнено. Щоб створити нову мітку, вам необхідно звільнити місце, видаливши деякі з наявних міток.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@
 "Import Blindsquare Backup File" = "Імпортувати файл резервної копії Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "ІМПОРТУВАТИ З ФАЙЛУ";
+"Import from File" = "Імпортувати з файлу";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Імпортувати файл GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Імпортувати файл резервної копії міток (.vmb)";
+"Import Markers from VMB File" = "Імпорт маркерів із файлу VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Імпортувати файл резервної копії маршрутів (.vrb)";
+"Import Route from VVR File" = "Імпорт маршруту з файлу VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Імпорт маршрутів із файлу VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Імпортувати файл маршруту Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Імпорт треку як маршруту";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Імпортувати файл маршруту VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Імпортувати маршрутні точки як мітки";
@@ -1254,6 +1263,9 @@
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Схоже, що ваші налаштування конфіденційності перешкоджають використанню точного місцезнаходження та даних про рух та фітнес. Будь ласка, внесіть необхідні зміни в параметрах телефона.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Рекомендується періодично експортувати ваші маркери та маршрути у файли VMB і VFB і зберігати їх в іншому місці. Потім ви можете імпортувати їх, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Створення списку найближчих місць може зайняти деякий час. Якщо зараз немає доступних даних, повторіть спробу пізніше.";
 
@@ -1271,9 +1283,6 @@
 
 /* No comment provided by engineer. */
 "Language" = "Мова";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Останнє резервне копіювання на цьому пристрої: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Останню точку-'крихту' маршруту видалено";
@@ -1447,9 +1456,6 @@
 /* No comment provided by engineer. */
 "Network Connection Required" = "Потрібне підключення до мережі";
 
-/* No comment provided by engineer. */
-"Never" = "Ніколи";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Нові маршрутні точки будуть названі автоматично та додані до маршруту %@.";
 
@@ -1472,9 +1478,6 @@
 "No audio beacon set" = "Не встановлено звуковий маячок";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "На пристрої не знайдено резервних копій.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "немає підключення до інтернету; програма має обмежену функціональність в автономному режимі.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@
 "No marker annotation" = "Немає коментаря мітки";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "На пристрої не знайдено файлу резервної копії маркерів.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Немає дозволу на рух";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Немає дозволів на точне місцезнаходження та дані про рух";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "На пристрої не знайдено файлу резервної копії маршрутів.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "У цьому файлі GPX не знайдено треку";
@@ -1769,7 +1778,10 @@
 "Reset iCloud Data?" = "Скинути дані iCloud?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Відновити з iCloud";
+"Restore Markers" = "Відновити маркери";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Відновити маршрути";
 
 /* No comment provided by engineer. */
 "Resume" = "Відновити";
@@ -2507,9 +2519,6 @@
 "You are already within the monitoring region." = "Ви вже перебуваєте в районі моніторингу.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Ви можете створювати резервні копії міток і маршрутів з цього пристрою  в iCloud. Іноді дані iCloud можуть бути втрачені через проблеми синхронізації. У таких випадках можна спробувати відновити дані в iCloud з пристрою.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Ви можете налаштувати, які суперкатегорії точок інтересу оголошуються у різних режимах.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Ви змінили маршрутні точки цього маршруту.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "У вас немає міток і даних маршрутів, які потребують резервного копіювання.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Ви повинні використовувати мітки лише від тих, кому довіряєте.";
