@@ -15,6 +15,7 @@
 - Russian translation contributed by Danil Kostenkov.
 - Spanish translation contributed by Arturo Fernández Rivas and [Enrique Varela](https://about.me/enriquevarela).
 - Turkish translation contributed by [Sebahittin Bilsel](https://twitter.com/sebahittinbilse).
+- Ukrainian translation contributed by Konstantin Lisniak.
 
 ## Notice
 - Do not need to translate comments enclosed by /* and */.
