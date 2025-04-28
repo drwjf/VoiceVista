@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, kierunek do %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "Usunięto %@ plików kopii zapasowej.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ tuż obok";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ Znaczniki zostały usunięte";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "Przywrócono %@ znaczników.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Zaimportowane znaczniki";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Trasy usunięte";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "Przywrócono %@ tras.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Zaimportowane trasy";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Kopia zapasowa i przywracanie";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Kopia zapasowa z iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Banki i bankomaty";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Jasne";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Wyczyść pliki kopii zapasowej";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Wyczyść zapisane dane mapy";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Zakończ konfigurację";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Pełne migawki znaczników i tras są zapisywane w oddzielnych plikach kopii zapasowych za każdym razem, gdy je dodajesz lub usuwasz. Możesz przywrócić te kopie zapasowe, jeśli Twoje dane iCloud zostaną utracone z powodu problemów z synchronizacją.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Gratulacje! Twoje AirPods są gotowe do użycia, więc możesz schować telefon do kieszeni i ruszać w drogę! VoiceVista będzie teraz śledzić kierunek Twojej głowy, więc nie musisz trzymać telefonu w dłoni. Pojedyncze kliknięcie przycisku słuchawek wyciszy lub wyłączy sygnalizację świetlną, dwukrotne kliknięcie wywoła informację o Twojej lokalizacji, a trzykrotne kliknięcie powtórzy ostatnie wywołanie.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Eksport i import";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Eksportuj plik kopii zapasowej znaczników (.vmb)";
+"Export Markers to GPX File" = "Eksportuj znaczniki do pliku GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Eksportuj plik kopii zapasowej tras (.vrb)";
+"Export Markers to VMB File" = "Eksportuj znaczniki do pliku VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EKSPORTUJ DO PLIKU";
+"Export Routes to VRB File" = "Eksportuj trasy do pliku VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Eksportuj do pliku";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Zewnętrzna aplikacja Mapy";
@@ -1132,12 +1147,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "I've shared a VoiceVista route with you! '%@'" = "Udostępniłem Ci trasę VoiceVista! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "Pomyślnie utworzono kopię zapasową danych iCloud na urządzeniu.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Dane iCloud zostały pomyślnie przywrócone z urządzenia.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Miejsce w iCloud dla tej aplikacji jest pełne. Aby utworzyć nowy znacznik, musisz zwolnić miejsce, usuwając niektóre istniejące znaczniki.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Import Blindsquare Backup File" = "Importuj plik kopii zapasowej Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTUJ Z PLIKU";
+"Import from File" = "Importuj z pliku";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importuj plik GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Importuj plik kopii zapasowej znaczników (.vmb)";
+"Import Markers from VMB File" = "Importuj znaczniki z pliku VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Importuj plik kopii zapasowej tras (.vrb)";
+"Import Route from VVR File" = "Importuj trasę z pliku VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importuj trasy z pliku VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importuj plik trasy Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importuj ścieżkę jako trasę";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importowanie pliku trasy VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importuj punkty trasy jako znaczniki";
@@ -1254,6 +1263,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Wygląda na to, że Twoje ustawienia prywatności uniemożliwiają korzystanie z dokładnej lokalizacji oraz ruchu i kondycji. Wprowadź niezbędne zmiany w aplikacji Ustawienia.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Zaleca się okresowe eksportowanie znaczników i tras do plików VMB i VFB oraz przechowywanie ich w innym miejscu. Następnie można je zaimportować, jeśli dane iCloud zostaną utracone z powodu problemów z synchronizacją.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Utworzenie listy miejsc w pobliżu może zająć trochę czasu. Jeśli w tej chwili nie ma dostępnych danych, spróbuj ponownie później.";
 
@@ -1271,9 +1283,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 
 /* No comment provided by engineer. */
 "Language" = "Język";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Ostatnia kopia zapasowa na tym urządzeniu: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Usunięto ostatni punkt orientacyjny nawigacyjny";
@@ -1447,9 +1456,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Wymagane połączenie sieciowe";
 
-/* No comment provided by engineer. */
-"Never" = "Nigdy";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Nowe punkty trasy zostaną automatycznie nazwane i dodane do trasy %@.";
 
@@ -1472,9 +1478,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "No audio beacon set" = "Brak ustawionej sygnalizacji dźwiękowej";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Na urządzeniu nie znaleziono danych kopii zapasowej.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Brak połączenia z internetem; niektóre funkcje są ograniczone w trybie offline.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "No marker annotation" = "Brak adnotacji znacznika";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Nie znaleziono pliku kopii zapasowej znaczników na urządzeniu.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Brak pozwolenia na ruch";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Brak dokładnej lokalizacji i pozwolenia na ruch";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Nie znaleziono pliku kopii zapasowej tras na urządzeniu.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Nie znaleziono śladu w tym pliku GPX";
@@ -1769,7 +1778,10 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Reset iCloud Data?" = "Zresetować dane iCloud?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Przywróć do iCloud";
+"Restore Markers" = "Przywróć znaczniki";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Przywróć trasy";
 
 /* No comment provided by engineer. */
 "Resume" = "Wznawiać";
@@ -2507,9 +2519,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "You are already within the monitoring region." = "Jesteś już w obszarze monitorowania.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Możesz tworzyć backupy znaczników i tras z iCloud na tym urządzeniu. Czasami dane iCloud mogą zostać utracone z powodu problemów z synchronizacją. W takich przypadkach możesz spróbować przywrócić urządzenie do iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Możesz dostosować, które punkty POI nadkategorii są ogłaszane dla różnych scenariuszy.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Zmieniłeś punkty trasy na tej trasie.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Nie masz żadnych znaczników ani danych tras, które wymagają utworzenia kopii zapasowej.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Powinieneś używać znaczników tylko od kogoś, komu ufasz.";

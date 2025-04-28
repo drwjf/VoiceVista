@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, encapçalament a %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "Els fitxers de còpia de seguretat %@ s'han suprimit.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ és a prop";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "Marcadors %@ suprimits";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "Els marcadors %@ s'han restaurat.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Marcadors importats";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rutes suprimides";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "Les rutes %@ s'han restaurat.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Rutes importades";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Còpia de seguretat i restauració";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Còpia de seguretat des de l'iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Bancs i caixers automàtics";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Clar";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Esborra els fitxers de còpia de seguretat";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Esborra les dades del mapa emmagatzemades";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configuració completa";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Les instantànies completes dels marcadors i les rutes es guarden en fitxers de còpia de seguretat separats sempre que els afegiu o suprimiu. Podeu restaurar aquestes còpies de seguretat si les vostres dades d'iCloud es perden a causa de problemes de sincronització.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitats! Els AirPods estan preparats, ja pots posar-te el mòbil a la butxaca i caminar! VoiceVista ara farà un seguiment de la direcció del teu cap, de manera que no necessites agafar el mòbil a la mà. Un sol clic al botó dels auriculars silenciarà o activarà l'objectiu, un doble toc indicarà la teva ubicació i un triple toc repetirà l'última notificació de veu.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Exportació i importació";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Exportar marcadors Fitxer de còpia de seguretat (.vmb)";
+"Export Markers to GPX File" = "Exporta els marcadors a un fitxer GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Fitxer de còpia de seguretat de rutes d'exportació (.vrb)";
+"Export Markers to VMB File" = "Exporta els marcadors al fitxer VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EXPORTAR A FITXER";
+"Export Routes to VRB File" = "Exporta les rutes al fitxer VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Exporta a un fitxer";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Aplicació de mapes externs";
@@ -1132,12 +1147,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "I've shared a VoiceVista route with you! '%@'" = "He compartit una ruta de VoiceVista amb tu! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "S'ha fet una còpia de seguretat de les dades de l'iCloud al dispositiu correctament.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Les dades de l'iCloud s'han restaurat des del dispositiu correctament.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "L'emmagatzematge d'iCloud per a aquesta aplicació està ple. Per crear un marcador nou, hauràs d'alliberar espai eliminant alguns dels marcadors que ja tens.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "Import Blindsquare Backup File" = "Importa el fitxer de còpia de seguretat Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTAR DES D'UN FITXER";
+"Import from File" = "Importa des del fitxer";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importar arxiu GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Fitxer de còpia de seguretat de marcadors d'importació (.vmb)";
+"Import Markers from VMB File" = "Importa els marcadors del fitxer VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Fitxer de còpia de seguretat de rutes d'importació (.vrb)";
+"Import Route from VVR File" = "Importa la ruta des del fitxer VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importa rutes des del fitxer VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importar el fitxer de ruta de Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importa la pista com a ruta";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importa el fitxer de ruta de VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importa punts de ruta com a marcadors";
@@ -1254,6 +1263,9 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Sembla que la vostra configuració de privadesa impedeix l'ús de la ubicació precisa i el moviment i l'aptitud. Feu els ajustos necessaris a l'aplicació Configuració.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Es recomana exportar periòdicament els vostres marcadors i rutes a fitxers VMB i VFB i emmagatzemar-los a un altre lloc. A continuació, podeu importar-los si les vostres dades d'iCloud es perden a causa de problemes de sincronització.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Pot ser que tardi una mica en crear la llista de llocs propers. Si no hi ha dades disponibles en, torna-ho a intentar després.";
 
@@ -1271,9 +1283,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* No comment provided by engineer. */
 "Language" = "Idioma";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Última còpia de seguretat en aquest dispositiu: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "S'ha eliminat l'últim punt de ruta de la ruta";
@@ -1447,9 +1456,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Connexió a la xarxa necessària";
 
-/* No comment provided by engineer. */
-"Never" = "Mai";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Els nous waypoints s'anomenaran automàticament i s'afegiran a la ruta %@.";
 
@@ -1472,9 +1478,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "No audio beacon set" = "No s'ha establert cap objectiu sonor";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "No s'han trobat dades de còpia de seguretat al dispositiu.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "No tens connexió a Internet; algunes funcions estan limitades.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "No marker annotation" = "No hi ha cap anotació de marcador";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "No s'ha trobat cap fitxer de còpia de seguretat de marcadors al dispositiu.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "No has donat permís de moviment";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "No hi ha cap ubicació precisa ni permís de moviment";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "No s'ha trobat cap fitxer de còpia de seguretat de rutes al dispositiu.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "No s'ha trobat cap pista en aquest fitxer GPX";
@@ -1769,7 +1778,10 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "Reset iCloud Data?" = "Restablir les dades de l'iCloud?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Restaurar a l'iCloud";
+"Restore Markers" = "Restaurar marcadors";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Restaurar rutes";
 
 /* No comment provided by engineer. */
 "Resume" = "Continuar";
@@ -2507,9 +2519,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 "You are already within the monitoring region." = "Ja estàs dins de la regió de seguiment.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Pots fer còpies de seguretat de marcadors i rutes des de l'iCloud en aquest dispositiu. De vegades, les dades de l'iCloud es poden perdre a causa de problemes de sincronització. En aquests casos, pots provar de restaurar des del dispositiu a l'iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Podeu personalitzar quins PDI de supercategoria s'anuncien per a diferents escenaris.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Has canviat els senyals d'aquesta ruta.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "No teniu marcadors ni dades de rutes que s'hagin de fer còpies de seguretat.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Utilitza només marcadors de persones de confiança.";

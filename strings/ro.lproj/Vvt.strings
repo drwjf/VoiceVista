@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, rubrica la%2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ fișierele de rezervă au fost șterse.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ aproape de";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ Markeri șterse";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "Marcatorii %@ au fost restaurați.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Marcatori importati";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rute șterse";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ rutele au fost restaurate.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Trasee importate";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Backup și restaurare";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Backup de pe iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Bănci și bancomate";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "clar";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Ștergeți fișierele de rezervă";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Ștergeți datele stocate ale hărții";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configurare completă";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Instantanee complete ale markerilor și rutelor sunt salvate în fișiere de rezervă separate ori de câte ori le adăugați sau eliminați. Puteți restabili aceste copii de siguranță dacă datele dvs. iCloud sunt pierdute din cauza problemelor de sincronizare.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Felicitări! AirPod-urile dvs. sunt gata de utilizare, astfel încât să vă puteți pune telefonul în buzunar și să plecați! VoiceVista va urmări acum direcția capului, astfel încât să nu fie nevoie să țineți telefonul în mână. Un singur clic pe butonul căștilor va dezactiva sau dezactiva semnalul, dublu clic va indica locația dvs., iar un triplu clic va repeta ultimul semnal.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Export și import";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Exportați fișierul de backup al marcatorilor (.vmb)";
+"Export Markers to GPX File" = "Exportați marcatori în fișierul GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Fișier de backup pentru rutele de export (.vrb)";
+"Export Markers to VMB File" = "Exportați marcatorii în fișierul VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EXPORT ÎN FIȘIER";
+"Export Routes to VRB File" = "Exportați rutele în fișierul VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Exportați în fișier";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Aplicația externă pentru hărți";
@@ -1132,12 +1147,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "I've shared a VoiceVista route with you! '%@'" = "Ți-am împărtășit o rută VoiceVista! „%@”";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "Datele iCloud au făcut backup cu succes pe dispozitiv.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Datele iCloud au fost restaurate cu succes de pe dispozitiv.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Stocarea iCloud pentru această aplicație este plină. Pentru a crea un marcator nou, va trebui să eliberați spațiu prin eliminarea unora dintre marcatoarele existente.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "Import Blindsquare Backup File" = "Importați fișierul de rezervă Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORT DIN FIȘIER";
+"Import from File" = "Import din fișier";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importați fișierul GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Importați fișierul de backup al marcatorilor (.vmb)";
+"Import Markers from VMB File" = "Importați marcatori din fișierul VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Importați fișierul de backup al rutelor (.vrb)";
+"Import Route from VVR File" = "Importați ruta din fișierul VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importați rute din fișierul VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importați fișierul rută Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importați traseul ca traseu";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importați fișierul de rută VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importați punctele de referință ca marcatori";
@@ -1254,6 +1263,9 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Se pare că setările dvs. de confidențialitate împiedică utilizarea locației precise și a mișcării și fitnessului. Vă rugăm să efectuați ajustările necesare în aplicația Setări.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Se recomandă să exportați periodic markerii și rutele în fișiere VMB și VFB și să le stocați în altă parte. Puteți apoi să le importați dacă datele dvs. iCloud sunt pierdute din cauza problemelor de sincronizare.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Crearea listei de locații din apropiere poate dura ceva timp. Dacă nu există date disponibile în acest moment, vă rugăm să încercați să vizitați din nou mai târziu.";
 
@@ -1271,9 +1283,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* No comment provided by engineer. */
 "Language" = "Limba";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Ultima copie de rezervă pe acest dispozitiv: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Ultimul punct de trecere Breadcrumb a fost eliminat";
@@ -1447,9 +1456,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Este necesară conexiune la rețea";
 
-/* No comment provided by engineer. */
-"Never" = "Niciodată";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Noile puncte de referință vor fi denumite automat și adăugate la ruta %@.";
 
@@ -1472,9 +1478,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "No audio beacon set" = "Nicio baliză audio setată";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Nu s-au găsit date de rezervă pe dispozitiv.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Fără conexiune internet; unele funcții sunt limitate în modul offline.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "No marker annotation" = "Fără adnotare marcatoare";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Nu a fost găsit niciun fișier de rezervă pentru marcatori pe dispozitiv.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Fără permisiunea de mișcare";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Nu există locație precisă și permisiune de mișcare";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Nu s-a găsit niciun fișier de rezervă pentru rute pe dispozitiv.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Nu s-a găsit nicio pistă în acest fișier GPX";
@@ -1769,7 +1778,10 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "Reset iCloud Data?" = "Resetați datele iCloud?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Restaurarea pe iCloud";
+"Restore Markers" = "Restaurați marcatorii";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Restaurare rute";
 
 /* No comment provided by engineer. */
 "Resume" = "Relua";
@@ -2507,9 +2519,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 "You are already within the monitoring region." = "Vă aflați deja în regiunea de monitorizare.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Puteți face backup marcatorilor și rutelor din iCloud pe acest dispozitiv. Uneori, datele iCloud se pot pierde din cauza problemelor de sincronizare. În astfel de cazuri, puteți încerca restaurarea de pe dispozitiv pe iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Puteți personaliza punctele de interes ale supercategoriei care sunt anunțate pentru diferite scenarii.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Ați schimbat punctele de referință ale acestei rute.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Nu aveți marcatori și date despre rute cărora trebuie să li se facă backup.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Ar trebui să folosești doar markeri de la cineva în care ai încredere.";

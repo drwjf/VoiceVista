@@ -22,6 +22,9 @@
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "%1$@, %2$@ %3$@ idi";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ yedekleme dosyaları silindi.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ bu civarda";
 
@@ -46,6 +49,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ İşaretçiler Silindi";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "%@ işaretçileri geri yüklendi.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ İçe Aktarılan İşaretçiler";
 
@@ -66,6 +72,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rotalar Silindi";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ rotaları geri yüklendi.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ İçe Aktarılan Yollar";
@@ -395,9 +404,6 @@
 "Backup and Restore" = "Yedekleme ve Geri Yükleme";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "İCloud'dan yedekleme";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Bankalar ve ATM'ler";
 
 /* No comment provided by engineer. */
@@ -626,6 +632,9 @@
 "Clear" = "Temizlemek";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Yedekleme Dosyalarını Temizle";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Kayıtlı Harita Verilerini Temizle";
 
 /* No comment provided by engineer. */
@@ -645,6 +654,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Yapılandırmayı Tamamlayın";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "İşaretleyicilerin ve rotaların tam anlık görüntüleri, bunları eklediğinizde veya kaldırdığınızda ayrı yedekleme dosyalarına kaydedilir. iCloud verileriniz senkronizasyon sorunları nedeniyle kaybolursa bu yedeklemeleri geri yükleyebilirsiniz.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Tebrikler! AirPods'unuz kullanıma hazır, böylece telefonunuzu cebinize koyup gidebilirsiniz! VoiceVista artık başınızın yönünü takip edecek, böylece telefonu elinizde tutmanıza gerek kalmayacak. Kulaklık düğmesine tek tıklama işaretin sesini kapatır veya açar, çift tıklama konumunuzu belirtir ve üç kez tıklama son açıklamayı tekrarlar.";
@@ -926,13 +938,16 @@
 "Export and Import" = "İhracat ve İthalat";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "İşaretçileri Dışa Aktar Yedekleme Dosyası (.vmb)";
+"Export Markers to GPX File" = "İşaretçileri GPX Dosyasına Aktar";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Rotaları Dışa Aktar Yedekleme Dosyası (.vrb)";
+"Export Markers to VMB File" = "İşaretçileri VMB Dosyasına Aktar";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "DOSYAYA AKTAR";
+"Export Routes to VRB File" = "Rotaları VRB Dosyasına Aktar";
+
+/* No comment provided by engineer. */
+"Export to File" = "Dosyaya Aktar";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Harici Haritalar Uygulaması";
@@ -1129,12 +1144,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "I've shared a VoiceVista route with you! '%@'" = "Sizinle bir VoiceVista rotası paylaştım! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "iCloud verileri cihaza başarıyla yedeklendi.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "iCloud verileri cihazdan başarıyla geri yüklendi.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Bu uygulama için iCloud saklama alanı dolu. Yeni bir işaretçi oluşturmak için mevcut işaretçilerinizden bazılarını kaldırarak yer açmanız gerekecek.";
 
 /* No comment provided by engineer. */
@@ -1162,25 +1171,25 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "Import Blindsquare Backup File" = "Blindsquare Yedekleme Dosyasını İçe Aktar";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "DOSYADAN İÇE AKTAR";
+"Import from File" = "Dosyadan içe aktar";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "GPX Dosyasını İçe Aktar";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "İşaretçileri İçe Aktar Yedekleme Dosyası (.vmb)";
+"Import Markers from VMB File" = "VMB Dosyasından İşaretleyicileri İçe Aktar";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "İçeri Aktarma Yolları Yedekleme Dosyası (.vrb)";
+"Import Route from VVR File" = "VVR Dosyasından Rotayı İçe Aktar";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "VRB Dosyasından Rotaları İçe Aktar";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Soundscape Rota Dosyasını İçe Aktar";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Rotayı Rota Olarak İçe Aktar";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "VoiceVista Yol Dosyasını (.vvr) İçe Aktar";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Yol Noktalarını İşaretleyici Olarak İçe Aktar";
@@ -1251,6 +1260,9 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Görünüşe göre gizlilik ayarlarınız kesin konum ve hareket ve fitness kullanımını engelliyor. Lütfen Ayarlar uygulamasında gerekli ayarlamaları yapın.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "İşaretçilerinizi ve rotalarınızı periyodik olarak VMB ve VFB dosyalarına aktarmanız ve başka bir yerde saklamanız önerilir. Daha sonra, iCloud verileriniz senkronizasyon sorunları nedeniyle kaybolursa bunları içe aktarabilirsiniz.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Yakındaki yer listesini oluşturmak biraz zaman alabilir. Şu anda kullanılabilir veri yoksa, lütfen daha sonra tekrar ziyaret etmeyi deneyin.";
 
@@ -1268,9 +1280,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "Language" = "Dil";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Bu cihazdaki son yedekleme: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Son Kırıntı Ara Noktası Kaldırıldı";
@@ -1444,9 +1453,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Ağ Bağlantısı Gerekli";
 
-/* No comment provided by engineer. */
-"Never" = "Hiç";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Yeni ara noktalar otomatik olarak adlandırılacak ve %@ rotasına eklenecek.";
 
@@ -1469,9 +1475,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "No audio beacon set" = "Sesli işaret seti yok";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Cihazda yedek veri bulunamadı.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "İnternet bağlantısı yok; bazı işlevler çevrimdışı modda sınırlıdır.";
 
 /* No comment provided by engineer. */
@@ -1484,6 +1487,9 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "No marker annotation" = "İşaretçi notu yok";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Cihazda herhangi bir marker yedekleme dosyası bulunamadı.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Hareket İzni Yok";
 
 /* No comment provided by engineer. */
@@ -1494,6 +1500,9 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Kesin konum ve hareket izni yok";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Cihazda rota yedekleme dosyası bulunamadı.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Bu GPX dosyasında parça bulunamadı";
@@ -1766,7 +1775,10 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "Reset iCloud Data?" = "iCloud Verileri Sıfırlansın mı?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "iCloud'a geri yükle";
+"Restore Markers" = "İşaretçileri Geri Yükle";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Rotaları Geri Yükle";
 
 /* No comment provided by engineer. */
 "Resume" = "Sürdürmek";
@@ -2504,9 +2516,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 "You are already within the monitoring region." = "Zaten izleme bölgesindesiniz.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "İşaretçileri ve rotaları iCloud'dan bu aygıta yedekleyebilirsiniz. Bazen senkronizasyon sorunları nedeniyle iCloud verileri kaybolabilir. Bu gibi durumlarda, cihazdan iCloud'a geri yüklemeyi deneyebilirsiniz.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Farklı senaryolar için hangi üst kategori İÇN'lerinin duyurulacağını özelleştirebilirsiniz.";
 
 /* No comment provided by engineer. */
@@ -2556,9 +2565,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Bu rotanın ara noktalarını değiştirdiniz.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Yedeklenmesi gereken işaretçileriniz ve rota verileriniz yok.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Yalnızca güvendiğiniz birinin kalemlerini kullanmalısınız.";

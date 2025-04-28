@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, en direction de %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ fichiers de sauvegarde ont été supprimés.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ à proximité";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ Marqueurs supprimés";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "Les marqueurs %@ ont été restaurés.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Marqueurs importés";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Itinéraires supprimés";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ itinéraires ont été restaurés.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Routes importées";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Sauvegarde et restauration";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Sauvegarde à partir d’iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Banques et distributeurs de billets";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Effacer";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Effacer les fichiers de sauvegarde";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Effacer les données de carte stockées";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configuration complète";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Des instantanés complets des marqueurs et des itinéraires sont enregistrés dans des fichiers de sauvegarde distincts à chaque ajout ou suppression. Vous pouvez restaurer ces sauvegardes si vos données iCloud sont perdues suite à des problèmes de synchronisation.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Félicitations ! Vos AirPods sont prêts à l’emploi. Vous pouvez donc ranger votre téléphone dans votre poche et vous mettre en route ! VoiceVista va maintenant assurer le suivi de la direction de votre tête, ce qui vous évitera d’avoir à tenir le téléphone. Un simple clic sur le bouton du casque active ou désactive le son de la balise, un double-clic vous informe de votre position et trois clics font répéter la dernière notification.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Exportation et importation";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Exporter le fichier de sauvegarde des marqueurs (.vmb)";
+"Export Markers to GPX File" = "Exporter les marqueurs vers un fichier GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Exporter le fichier de sauvegarde des itinéraires (.vrb)";
+"Export Markers to VMB File" = "Exporter les marqueurs vers un fichier VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EXPORTER VERS UN FICHIER";
+"Export Routes to VRB File" = "Exporter les itinéraires vers un fichier VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Exporter vers un fichier";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Application Cartes externes";
@@ -1132,12 +1147,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "I've shared a VoiceVista route with you! '%@'" = "J'ai partagé une route VoiceVista avec vous ! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "Les données iCloud ont été sauvegardées sur l’appareil avec succès.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Les données iCloud ont été restaurées à partir de l’appareil avec succès.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Le stockage iCloud pour cette application est plein. Pour créer un nouveau marqueur, vous devez libérer de l’espace en supprimant certains de vos marqueurs existants.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "Import Blindsquare Backup File" = "Importer le fichier de sauvegarde Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTER À PARTIR D’UN FICHIER";
+"Import from File" = "Importer à partir d'un fichier";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importer un fichier GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Importer un fichier de sauvegarde de marqueurs (.vmb)";
+"Import Markers from VMB File" = "Importer des marqueurs à partir d'un fichier VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Importer un fichier de sauvegarde d’itinéraires (.vrb)";
+"Import Route from VVR File" = "Importer un itinéraire à partir d'un fichier VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importer des itinéraires à partir d'un fichier VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importer le fichier d'itinéraire Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importer une piste en tant qu'itinéraire";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importer le fichier de routage VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importer des points de cheminement en tant que marqueurs";
@@ -1254,6 +1263,9 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Il semble que vos paramètres de confidentialité empêchent l’utilisation de la localisation précise et du mouvement et de la forme physique. Veuillez effectuer les ajustements nécessaires dans l’application Paramètres.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Il est recommandé d'exporter régulièrement vos marqueurs et itinéraires vers des fichiers VMB et VFB et de les stocker ailleurs. Vous pourrez ensuite les importer si vos données iCloud sont perdues suite à des problèmes de synchronisation.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "La création de la liste des lieux à proximité peut prendre un certain temps. S'il n'y a pas de données disponibles pour le moment, veuillez réessayer plus tard.";
 
@@ -1271,9 +1283,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 
 /* No comment provided by engineer. */
 "Language" = "Langue";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Dernière sauvegarde sur cet appareil : %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Dernier waypoint du fil d'Ariane supprimé";
@@ -1447,9 +1456,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 /* No comment provided by engineer. */
 "Network Connection Required" = "Connexion réseau requise";
 
-/* No comment provided by engineer. */
-"Never" = "Jamais";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Les nouveaux waypoints seront nommés automatiquement et ajoutés à l'itinéraire %@.";
 
@@ -1472,9 +1478,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "No audio beacon set" = "Aucune balise audio définie";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Aucune donnée de sauvegarde n’a été trouvée sur l’appareil.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Pas de connexion Internet; certaines fonctions sont limitées en mode hors ligne.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "No marker annotation" = "Aucune annotation de marqueur";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Aucun fichier de sauvegarde de marqueurs n'a été trouvé sur l'appareil.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Aucune autorisation de mouvement";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Pas d’autorisation de localisation et de mouvement précis";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Aucun fichier de sauvegarde d'itinéraires n'a été trouvé sur l'appareil.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Aucune trace n’a été trouvée dans ce fichier GPX";
@@ -1769,7 +1778,10 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "Reset iCloud Data?" = "Réinitialiser les données iCloud ?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Restaurer sur iCloud";
+"Restore Markers" = "Restaurer les marqueurs";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Restaurer les itinéraires";
 
 /* No comment provided by engineer. */
 "Resume" = "Reprendre";
@@ -2507,9 +2519,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 "You are already within the monitoring region." = "Vous êtes déjà dans la zone de surveillance.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Vous pouvez sauvegarder les marqueurs et les itinéraires d’iCloud vers cet appareil. Parfois, les données iCloud peuvent être perdues en raison de problèmes de synchronisation. Dans de tels cas, vous pouvez essayer de restaurer à partir de l’appareil vers iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Vous pouvez personnaliser les points d’intérêt de supercatégorie annoncés pour différents scénarios.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Appuyez sur le bouton ci-dessous pour connecter votre casque avec suivi de la t�
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Vous avez modifié les points de repère de cet itinéraire.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Vous n’avez pas de données de marqueurs et d’itinéraires à sauvegarder.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Utilisez uniquement des Marqueurs provenant de personnes de confiance.";

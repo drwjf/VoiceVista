@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, på vej til %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ sikkerhedskopifiler er blevet slettet.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ tæt på";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ Markører slettet";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "%@ markører er blevet gendannet.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Markører importeret";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Ruter slettet";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ ruter er blevet gendannet.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Ruter importeret";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Sikkerhedskopiering og gendannelse";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Backup fra iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Banker og hæveautomater";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Ryd";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Ryd sikkerhedskopifiler";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Ryd lagrede kortdata";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Fuldfør konfiguration";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Komplette snapshots af markører og ruter gemmes i separate backupfiler, når du tilføjer eller fjerner dem. Du kan gendanne disse sikkerhedskopier, hvis dine iCloud-data går tabt på grund af synkroniseringsproblemer.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Tillykke! Dine AirPods er klar til brug, så du kan lægge telefonen i lommen og gå! VoiceVista vil nu spore, hvilken retning dit hoved vender i, så du ikke behøver at holde telefonen i hånden. Et enkelt klik på knappen på hovedtelefonerne slår lydfyret til eller fra, et dobbeltklik annoncere din nuværende position, og et tredobbelt klik gentager den sidste besked .";
@@ -929,13 +941,16 @@
 "Export and Import" = "Eksport og import";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Eksportér markører sikkerhedskopifil (.vmb)";
+"Export Markers to GPX File" = "Eksporter markører til GPX-fil";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Sikkerhedskopifil til eksport af ruter (.vrb)";
+"Export Markers to VMB File" = "Eksporter markører til VMB-fil";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EKSPORTÉR TIL FIL";
+"Export Routes to VRB File" = "Eksporter ruter til VRB-fil";
+
+/* No comment provided by engineer. */
+"Export to File" = "Eksporter til fil";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Ekstern kort-app";
@@ -1132,12 +1147,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "I've shared a VoiceVista route with you! '%@'" = "Jeg har delt en VoiceVista-rute med dig! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "iCloud-data sikkerhedskopieret til enheden med succes.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "iCloud-data gendannet fra enheden med succes.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "iCloud-lager til denne app er fuldt. Hvis du vil oprette et nyt mærke, skal du frigøre plads ved at fjerne nogle af dine eksisterende mærker.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Import Blindsquare Backup File" = "Importer Blindsquare sikkerhedskopifil";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTER FRA FIL";
+"Import from File" = "Importer fra fil";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importer GPX-fil";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Importer markører sikkerhedskopifil (.vmb)";
+"Import Markers from VMB File" = "Importer markører fra VMB-fil";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Sikkerhedskopifil til import af ruter (.vrb)";
+"Import Route from VVR File" = "Importer rute fra VVR-fil";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importer ruter fra VRB-fil";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importer Soundscape-rutefil";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importer spor som en rute";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importer VoiceVista-rutefil (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importer waypoints som markører";
@@ -1254,6 +1263,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Det ser ud til, at dine privatlivsindstillinger forhindrer brugen af præcis placering og bevægelse og fitness. Foretag de nødvendige justeringer i appen Indstillinger.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Det anbefales periodisk at eksportere dine markører og ruter til VMB- og VFB-filer og gemme dem andre steder. Du kan derefter importere dem, hvis dine iCloud-data går tabt på grund af synkroniseringsproblemer.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Det kan tage noget tid at opbygge den nærliggende stedliste. Hvis der ikke er nogen tilgængelige data i øjeblikket, så prøv at besøge igen senere.";
 
@@ -1271,9 +1283,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "Language" = "Sprog";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Sidste sikkerhedskopiering på denne enhed: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Sidste brødkrumme-waypoint blev fjernet";
@@ -1447,9 +1456,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 /* No comment provided by engineer. */
 "Network Connection Required" = "Netværksforbindelse er påkrævet";
 
-/* No comment provided by engineer. */
-"Never" = "Aldrig";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Nye waypoints vil automatisk blive navngivet og tilføjet til ruten %@.";
 
@@ -1472,9 +1478,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "No audio beacon set" = "Der er ikke indstillet lydbeacon";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Der blev ikke fundet nogen sikkerhedskopidata på enheden.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Ingen internetforbindelse; nogle funktioner er begrænset i offlinetilstand.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "No marker annotation" = "Ingen mærkeanmærkning";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Der blev ikke fundet nogen sikkerhedskopi af markører på enheden.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Ingen bevægelsestilladelse";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Ingen præcis placering og bevægelsestilladelse";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Ingen rute-backupfil fundet på enheden.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Der blev ikke fundet noget spor i denne GPX-fil";
@@ -1769,7 +1778,10 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Reset iCloud Data?" = "Nulstil iCloud-data?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Gendan til iCloud";
+"Restore Markers" = "Gendan markører";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Gendan ruter";
 
 /* No comment provided by engineer. */
 "Resume" = "Genoptag";
@@ -2507,9 +2519,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "You are already within the monitoring region." = "Du er allerede inden for overvågningsområdet.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Du kan sikkerhedskopiere markører og ruter fra iCloud til denne enhed. Nogle gange kan iCloud-data gå tabt på grund af synkroniseringsproblemer. I sådanne tilfælde kan du prøve at gendanne fra enheden til iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Du kan tilpasse, hvilke superkategori-POI'er der annonceres for forskellige scenarier.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Du har ændret waypoints på denne rute.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Du har ingen markører og rutedata, der skal sikkerhedskopieres.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Du bør kun bruge mærker fra nogen, du har tillid til.";

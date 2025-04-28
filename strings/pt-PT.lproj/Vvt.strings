@@ -25,6 +25,9 @@
 /* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
 "%1$@, heading to %2$@" = "%1$@, indo para %2$@";
 
+/* %@ is count of deleted backup files */
+"%@ backup files have been deleted." = "%@ ficheiros de cópia de segurança foram eliminados.";
+
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ por perto";
 
@@ -49,6 +52,9 @@
 /* %@ is count of deleted markers */
 "%@ Markers Deleted" = "%@ Marcadores excluídos";
 
+/* No comment provided by engineer. */
+"%@ markers have been restored." = "%@ marcadores foram restaurados.";
+
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ Marcadores importados";
 
@@ -69,6 +75,9 @@
 
 /* %@ is count of deleted routes */
 "%@ Routes Deleted" = "%@ Rotas excluídas";
+
+/* No comment provided by engineer. */
+"%@ routes have been restored." = "%@ rotas foram restauradas.";
 
 /* %@ is the count of imported routes */
 "%@ Routes Imported" = "%@ Rotas importadas";
@@ -398,9 +407,6 @@
 "Backup and Restore" = "Backup e restauração";
 
 /* No comment provided by engineer. */
-"Backup from iCloud" = "Backup a partir do iCloud";
-
-/* No comment provided by engineer. */
 "Banks & ATMs" = "Bancos e Caixas Multibanco";
 
 /* No comment provided by engineer. */
@@ -629,6 +635,9 @@
 "Clear" = "Limpar";
 
 /* No comment provided by engineer. */
+"Clear Backup Files" = "Limpar ficheiros de backup";
+
+/* No comment provided by engineer. */
 "Clear Stored Map Data" = "Limpar Dados do Mapa Armazenados";
 
 /* No comment provided by engineer. */
@@ -648,6 +657,9 @@
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configuração Completa";
+
+/* No comment provided by engineer. */
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Os instantâneos completos de marcadores e rotas são guardados em ficheiros de cópia de segurança separados sempre que os adiciona ou remove. Pode restaurar estes backups se os seus dados do iCloud forem perdidos devido a problemas de sincronização.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Parabéns, os AirPods estão prontos para utilização! Pode guardar o telemóvel no bolso e seguir viagem! O VoiceVista irá detetar a direção da sua cabeça, pelo que não necessita de levar o telemóvel na mão. Toque uma vez no botão dos auscultadores para desativar ou ativar o sinal, duas vezes para reproduzir um aviso da localização e três vezes para repetir o último aviso.";
@@ -929,13 +941,16 @@
 "Export and Import" = "Exportação e Importação";
 
 /* No comment provided by engineer. */
-"Export Markers Backup File (.vmb)" = "Exportar arquivo de backup de marcadores (.vmb)";
+"Export Markers to GPX File" = "Exportar marcadores para ficheiro GPX";
 
 /* No comment provided by engineer. */
-"Export Routes Backup File (.vrb)" = "Arquivo de backup de rotas de exportação (.vrb)";
+"Export Markers to VMB File" = "Exportar marcadores para ficheiro VMB";
 
 /* No comment provided by engineer. */
-"EXPORT TO FILE" = "EXPORTAR PARA ARQUIVO";
+"Export Routes to VRB File" = "Exportar rotas para ficheiro VRB";
+
+/* No comment provided by engineer. */
+"Export to File" = "Exportar para ficheiro";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Aplicação de mapas externa";
@@ -1132,12 +1147,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "I've shared a VoiceVista route with you! '%@'" = "Partilhei uma rota do VoiceVista contigo! '%@'";
 
 /* No comment provided by engineer. */
-"iCloud data backed up to the device successfully." = "Os dados do iCloud foram copiados para o dispositivo com êxito.";
-
-/* No comment provided by engineer. */
-"iCloud data restored from the device successfully." = "Dados do iCloud restaurados a partir do dispositivo com êxito.";
-
-/* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "O armazenamento iCloud para esta aplicação está cheio. Para criar um novo marcador, necessita de libertar espaço removendo alguns dos marcadores existentes.";
 
 /* No comment provided by engineer. */
@@ -1165,25 +1174,25 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "Import Blindsquare Backup File" = "Importar arquivo de backup do Blindsquare";
 
 /* No comment provided by engineer. */
-"IMPORT FROM FILE" = "IMPORTAR DO ARQUIVO";
+"Import from File" = "Importar do ficheiro";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importar arquivo GPX";
 
 /* No comment provided by engineer. */
-"Import Markers Backup File (.vmb)" = "Importar arquivo de backup de marcadores (.vmb)";
+"Import Markers from VMB File" = "Importar marcadores do ficheiro VMB";
 
 /* No comment provided by engineer. */
-"Import Routes Backup File (.vrb)" = "Importar arquivo de backup de rotas (.vrb)";
+"Import Route from VVR File" = "Importar rota do ficheiro VVR";
+
+/* No comment provided by engineer. */
+"Import Routes from VRB File" = "Importar rotas do ficheiro VRB";
 
 /* No comment provided by engineer. */
 "Import Soundscape Route File" = "Importar Ficheiro de Rota Soundscape";
 
 /* No comment provided by engineer. */
 "Import Track as a Route" = "Importar trilha como uma rota";
-
-/* No comment provided by engineer. */
-"Import VoiceVista Route File (.vvr)" = "Importar arquivo de rota do VoiceVista (.vvr)";
 
 /* No comment provided by engineer. */
 "Import Waypoints as Markers" = "Importar Waypoints como Marcadores";
@@ -1254,6 +1263,9 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 /* No comment provided by engineer. */
 "It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Parece que suas configurações de privacidade estão impedindo o uso de localização precisa e movimento e condicionamento físico. Faça os ajustes necessários na aplicação Definições.";
 
+/* No comment provided by engineer. */
+"It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "É recomendável exportar periodicamente os seus marcadores e rotas para ficheiros VMB e VFB e armazená-los noutro local. Pode importá-los caso os seus dados do iCloud sejam perdidos devido a problemas de sincronização.";
+
 /* places.footnote.1 */
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Pode levar algum tempo para criar a lista de locais próximos. Se não houver dados disponíveis no momento, tente visitar novamente mais tarde.";
 
@@ -1271,9 +1283,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 
 /* No comment provided by engineer. */
 "Language" = "Idioma";
-
-/* No comment provided by engineer. */
-"Last backup on this device: %@" = "Última cópia de segurança neste dispositivo: %@";
 
 /* No comment provided by engineer. */
 "Last Breadcrumb Waypoint Removed" = "Último waypoint de localização atual removido";
@@ -1447,9 +1456,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 /* No comment provided by engineer. */
 "Network Connection Required" = "Ligação de Rede Necessária";
 
-/* No comment provided by engineer. */
-"Never" = "Nunca";
-
 /* %@ is the name of a route being breadcrumb mode */
 "New waypoints will be named automatically and added to route %@." = "Novos waypoints serão nomeados automaticamente e adicionados à rota %@.";
 
@@ -1472,9 +1478,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "No audio beacon set" = "Nenhum sinal de áudio definido";
 
 /* No comment provided by engineer. */
-"No backup data found on the device." = "Nenhum dado de backup encontrado no dispositivo.";
-
-/* No comment provided by engineer. */
 "No internet connection; some functions are limited in offline mode." = "Sem conexão com a internet; algumas funções são limitadas no modo offline.";
 
 /* No comment provided by engineer. */
@@ -1487,6 +1490,9 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "No marker annotation" = "Marcador sem anotação";
 
 /* No comment provided by engineer. */
+"No markers backup file found on the device." = "Nenhum ficheiro de cópia de segurança de marcadores encontrado no dispositivo.";
+
+/* No comment provided by engineer. */
 "No Motion Permission" = "Sem Permissão de Movimento";
 
 /* No comment provided by engineer. */
@@ -1497,6 +1503,9 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 
 /* No comment provided by engineer. */
 "No Precise Location and Motion Permission" = "Sem localização precisa e permissão de movimento";
+
+/* No comment provided by engineer. */
+"No routes backup file found on the device." = "Nenhum ficheiro de cópia de segurança de rotas encontrado no dispositivo.";
 
 /* No comment provided by engineer. */
 "No track found in this GPX file" = "Nenhuma faixa encontrada neste arquivo GPX";
@@ -1769,7 +1778,10 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "Reset iCloud Data?" = "Redefinir os dados do iCloud?";
 
 /* No comment provided by engineer. */
-"Restore to iCloud" = "Restaurar para o iCloud";
+"Restore Markers" = "Restaurar marcadores";
+
+/* No comment provided by engineer. */
+"Restore Routes" = "Restaurar rotas";
 
 /* No comment provided by engineer. */
 "Resume" = "Retomar";
@@ -2507,9 +2519,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 "You are already within the monitoring region." = "Você já está na região de monitorização.";
 
 /* No comment provided by engineer. */
-"You can back up markers and routes from iCloud to this device. Sometimes iCloud data may be lost due to synchronization issues. In such cases, you can try restoring from the device to iCloud." = "Você pode fazer backup de marcadores e rotas do iCloud para este dispositivo. Às vezes, os dados do iCloud podem ser perdidos devido a problemas de sincronização. Nesses casos, pode tentar restaurar a partir do dispositivo para o iCloud.";
-
-/* No comment provided by engineer. */
 "You can customize which supercategory POIs are announced for different scenarios." = "Você pode personalizar quais POIs de supercategoria são anunciados para diferentes cenários.";
 
 /* No comment provided by engineer. */
@@ -2559,9 +2568,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 
 /* No comment provided by engineer. */
 "You have changed waypoints of this route." = "Você alterou os pontos de referência desta rota.";
-
-/* No comment provided by engineer. */
-"You have no markers and routes data that need to be backed up." = "Você não tem marcadores e roteia dados que precisem de backup.";
 
 /* No comment provided by engineer. */
 "You should only use markers from someone you trust." = "Só deve utilizar marcadores de pessoas em quem confia.";
