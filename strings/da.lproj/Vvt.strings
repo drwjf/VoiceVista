@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "angiv næste ændring på ruten på den angivne afstand";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Annoncering af interval";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Annonceringsintervaller";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Skift afstandsinterval for GPS-oplysninger";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Skift tidsinterval for GPS-oplysninger";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Skift hyppighed af annoncering af husnummer";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Skift hyppighed for annoncering af  husnummer";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Skift afstanden for annoncering af informationspunkter";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Skift annoncering af veje";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Skift annonceringen  for vejinformation";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Skift mulighed for rotorlinks i Genvejsindstillinger for at skjule 'POI'er i nærheden' og lignende links på fanen Markører.";
@@ -1208,6 +1202,15 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "til fods definerer intervaller automatisk annoncering for interessepunkter i de valgte superkategorier. Disse intervaller ganges med seks når man er i bil.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "I gangtilstand definerer intervallet afstandsgrænsen for husnummeropkald. I køretilstand ganges denne tærskel med seks.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "I gangtilstand bestemmer intervallet, hvor ofte GPS-information råbes op. I køretilstand ganges denne afstand med seks.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "I gangtilstand bestemmer intervallet, hvor ofte vejnavnet råbes op. I køretilstand ganges denne afstand med seks. Vær forsigtig, når du vælger et lille interval, da det kan øge batteriforbruget på din iPhone betydeligt.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Inkluder navnløse veje";
@@ -2175,9 +2178,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Tærskler";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Tidsinterval";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Anuncie as instruções de viragem com antecedência a uma distância especificada.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Anunciando o intervalo";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Anunciando Intervalos";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Alterar intervalo de distância de informações GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Alterar o intervalo de tempo das informações do GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Alterar Intervalo de Distância do Número da Casa";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Alterar Intervalo de Tempo do Número da Casa";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Alterar intervalo de pontos de informação";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Alterar Intervalo de Distância de Informações Rodoviárias";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Alterar Intervalo de Tempo de Informações da Estrada";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Altere a opção de links do rotor nas Configurações de atalhos para ocultar 'POIs próximos' e links semelhantes na guia Marcadores.";
@@ -1208,6 +1202,15 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "No modo de caminhada, os intervalos definem distâncias de chamada para POIs detectados em diferentes supercategorias. Estas autonomias são multiplicadas por seis no modo de condução.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "No modo de caminhada, o intervalo define o limite de distância para chamadas de número de casa. No modo de condução, este limiar é multiplicado por seis.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "No modo de caminhada, o intervalo determina a frequência com que as informações do GPS são chamadas. No modo de condução, esta distância é multiplicada por seis.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "No modo de caminhada, o intervalo determina a frequência com que o nome da estrada é chamado. No modo de condução, esta distância é multiplicada por seis. Tenha cuidado ao selecionar um pequeno intervalo, pois pode aumentar significativamente o consumo de bateria no seu iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Incluir estradas sem nome";
@@ -2175,9 +2178,6 @@ Toque no botão abaixo para conectar seus fones de ouvido de rastreamento de cab
 
 /* No comment provided by engineer. */
 "Thresholds" = "Limiares";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Intervalo de tempo";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

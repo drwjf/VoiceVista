@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Ütle pöördejuhised ennetavalt, määratud kaugusel.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Intervalli väljakuulutamine";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Teadete intervall";
 
 /* No comment provided by engineer. */
@@ -560,13 +563,7 @@
 "Change GPS Information Distance Interval" = "GPS-info kauguse vahemiku muutmine";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "GPS-info ajavahemiku muutmine";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Majanumbri kauguse vahemiku muutmine";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Majanumbri ajavahemiku muutmine";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Infopunktide vahemiku muutmine";
@@ -591,9 +588,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Tee info vahemaa vahemiku muutmine";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Tee info ajavahemiku muutmine";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Muuda otseteede seadetes rootori linkide valikut, et peita 'Läheduses olevad huvipunktid' ja sarnased lingid vahekaardilt tähised.";
@@ -1190,6 +1184,15 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Kõndimisrežiimis määravad vahemikud erinevate superkategooriate huvipunktide teavitamiskaugused. Sõidurežiimis korrutatakse need vahemikud kuuega.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "Kõndimisrežiimis määrab intervall maja numbrite väljakutsumise kaugusläve. Sõidurežiimis korrutatakse see lävi kuuega.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "Kõndimisrežiimis määrab intervall, kui sageli GPS-teavet välja kutsutakse. Sõidurežiimis korrutatakse see vahemaa kuuega.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "Kõndimisrežiimis määrab intervall, kui sageli tee nime hüütakse. Sõidurežiimis korrutatakse see vahemaa kuuega. Olge väikese intervalli valimisel ettevaatlik, kuna see võib oluliselt suurendada teie iPhone'i aku tarbimist.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Kaasa nimetud teed";
@@ -2150,9 +2153,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Künnised";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Ajavahemik";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

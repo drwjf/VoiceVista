@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Завчасне оголошення  навігаційних інструкцій на вказаній відстані до поворотів.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Інтервал анонсування";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Інтервали оголошень";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Змінити інтервал оголошення інформації GPS за відстанню";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Змінити інтервал оголошення інформації GPS за часом";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Змінити інтервал оголошення номерів будинків за відстанню";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Змінити інтервал оголошення номерів будинків за часом";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Змінити дистанцію оголошення для Інформації";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Змінити інтервал оголошення інформації про дорогу за відстанню";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Змінити інтервал оголошення інформації про дорогу за часом";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Змініть параметри ротора в налаштуваннях швидких команд, щоб на вкладці 'Мітки' приховати' найближчі точки інтересу» та подібні об'єкти.";
@@ -1208,6 +1202,15 @@
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "У режимі 'Прогулянка' ці дистанції визначають відстані, на яких оголошуються виявлені точки інтересу в різних суперкатегоріях. У режимі 'Транспорт' ці дистанції множаться на шість.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "У режимі ходьби інтервал визначає поріг відстані для виклику номера будинку. У режимі їзди цей поріг множиться на шість.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "У режимі ходьби інтервал визначає, як часто викликається інформація GPS. У режимі їзди ця відстань множиться на шість.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "У режимі ходьби інтервал визначає, як часто викликається назва дороги. У режимі їзди ця відстань множиться на шість. Будьте обережні при виборі невеликого інтервалу, так як він може значно збільшити витрату заряду акумулятора на вашому iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Включати дороги без назв";
@@ -2176,9 +2179,6 @@
 /* No comment provided by engineer. */
 "Thresholds" = "Порогові відстані";
 
-/* No comment provided by engineer. */
-"Time Interval" = "Інтервал за часом";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "У напрямку %@";
@@ -2378,6 +2378,7 @@
 
 /* No comment provided by engineer. */
 "VoiceVista iCloud Storage Full" = "Сховище iCloud для VoiceVista заповнено";
+
 /* terms_of_use.safety_notice */
 "VoiceVista is a navigation aid and should not be used in lieu of mobility skills, being aware of your surroundings, and good judgement. Use caution when navigating your environment as the mapping data incorporated into the VoiceVista program is captured from a third-party program, and therefore, there may be limitations with the accuracy of the information presented." = "VoiceVista — це засіб навігації, і його не слід використовувати замість навичок мобільності, усвідомлення навколишнього середовища та здорового глузду. Будьте обережні під час навігації у навколишньому середовищі, оскільки картографічні дані, включені в програму VoiceVista, отримані від сторонніх джерел, а отже, точність наданої інформації може бути обмежена.";
 
@@ -2618,3 +2619,4 @@
 
 /* No comment provided by engineer. */
 "⟿ %@" = "⟿ %@";
+

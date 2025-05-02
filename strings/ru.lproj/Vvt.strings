@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Заранее объявлять инструкции по повороту на указанном расстоянии.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Объявление интервала";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Объявление интервалов";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Изменение интервала расстояния информации GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Изменить временной интервал информации GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Изменить интервал расстояния между номерами домов";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Изменить временной интервал номера дома";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Изменить диапазон информации точек";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Изменить дорожную информацию Расстояние Интервал";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Изменить временной интервал дорожной информации";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Измените параметр ссылок ротора в настройках ярлыков, чтобы скрыть «Ближайшие точки интереса» и аналогичные ссылки на вкладке «Метки».";
@@ -1208,6 +1202,15 @@
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "В режиме ходьбы диапазоны определяют расстояния вызова обнаруженных POI в различных суперкатегориях. В режиме движения эти диапазоны умножаются на шесть.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "В режиме ходьбы интервал определяет пороговое расстояние для вызова номера дома. В режиме вождения этот порог умножается на шесть.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "В режиме ходьбы интервал определяет, как часто запрашивается информация GPS. В режиме вождения это расстояние умножается на шесть.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "В пешеходном режиме интервал определяет, как часто выкрикивается название дороги. В режиме вождения это расстояние умножается на шесть. Будьте осторожны при выборе небольшого интервала, так как он может значительно увеличить расход заряда батареи на вашем iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Включить неназванные дороги";
@@ -2175,9 +2178,6 @@
 
 /* No comment provided by engineer. */
 "Thresholds" = "Пороги";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Временной интервал";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

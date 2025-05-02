@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Anuncieu les instruccions de gir amb antelació a una distància especificada.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Anunciant l'interval";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Intervals d'anunci";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Canviar l'interval de distància de la informació GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Canviar l'interval de temps d'informació GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Canvia el número de casa Interval de distància";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Canvia l'interval de temps del número de casa";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Canvia l'interval de punts d'informació";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Canvia l'interval de distància d'informació de la carretera";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Canvia l'interval de temps de la informació de la carretera";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Canvieu l'opció d'enllaços del rotor a la configuració de dreceres per amagar 'PDI propers' i enllaços similars a la pestanya Marcadors.";
@@ -1208,6 +1202,15 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "En el mode de caminada, els intervals defineixen les distàncies de trucada per als PDI detectats en diferents supercategories. Aquests intervals es multipliquen per sis en el mode de conducció.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "En el mode a peu, l'interval defineix el llindar de distància per a les trucades de número de casa. En mode de conducció, aquest llindar es multiplica per sis.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "En el mode de caminada, l'interval determina la freqüència amb què es crida la informació GPS. En mode de conducció, aquesta distància es multiplica per sis.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "En mode de caminar, l'interval determina la freqüència amb què es crida el nom de la carretera. En mode de conducció, aquesta distància es multiplica per sis. Aneu amb compte a l'hora de seleccionar un interval petit, ja que pot augmentar significativament el consum de bateria del vostre iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Inclou carreteres sense nom";
@@ -2175,9 +2178,6 @@ Toca el botó de baix per connectar els auriculars amb seguiment del cap.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Llindars";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Interval de temps";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

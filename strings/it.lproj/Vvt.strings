@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Annuncia in anticipo le istruzioni di svolta a una distanza specificata.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Intervallo di annuncio";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Intervalli per gli annunci";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "stabilisci ogni quanto ricevere avvisi sulla distanza delle informazioni GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Stabilisci ogni quanto fornire le informazioni GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "stabilisci ogni quanto ricevere avvisi sulla distanza del numero civico";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Stabilisci ogni quanto ricevere informazioni sul numero civico";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Modifica l'intervallo dei punti informazioni";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Cambia l'intervallo per la distanza delle informazioni stradali";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Modifica l'intervallo di tempo per le informazioni stradali";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Modificare l'opzione dei collegamenti del rotore nelle Impostazioni dei collegamenti per nascondere i 'POI nelle vicinanze' e collegamenti simili nella scheda Marcatori.";
@@ -1208,6 +1202,15 @@ Tocca il pulsante in basso per connettere i tuoi auricolari con tracciamento del
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Nella modalità a piedi, il raggio definisce gli avvisi per la distanza per i PDI rilevati in diverse supercategorie. Il raggio verrà moltiplicati per sei in modalità di guida.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "In modalità camminata, l'intervallo definisce la soglia di distanza per le chiamate dei numeri civici. In modalità di guida, questa soglia viene moltiplicata per sei.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "In modalità camminata, l'intervallo determina la frequenza con cui vengono richiamate le informazioni GPS. In modalità di guida, questa distanza viene moltiplicata per sei.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "In modalità camminata, l'intervallo determina la frequenza con cui viene chiamato il nome della strada. In modalità di guida, questa distanza viene moltiplicata per sei. Fai attenzione quando selezioni un intervallo ridotto, in quanto può aumentare significativamente il consumo della batteria del tuo iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Includi strade senza nome";
@@ -2175,9 +2178,6 @@ Tocca il pulsante in basso per connettere i tuoi auricolari con tracciamento del
 
 /* No comment provided by engineer. */
 "Thresholds" = "Soglie";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Intervallo di tempo";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

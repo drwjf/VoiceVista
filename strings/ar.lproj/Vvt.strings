@@ -128,6 +128,9 @@
 "Announce turn instructions in advance at a specified distance." = "أعلن عن تعليمات الانعطاف مسبقا على مسافة محددة.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "الإعلان عن الفاصل الزمني";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "إعلان الفواصل الزمنية";
 
 /* No comment provided by engineer. */
@@ -410,13 +413,7 @@
 "Change GPS Information Distance Interval" = "تغيير الفاصل الزمني لمسافة معلومات GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "تغيير الفاصل الزمني لمعلومات GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "تغيير رقم المنزل الفاصل الزمني للمسافة";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "تغيير الفاصل الزمني لرقم المنزل";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "تغيير نطاق نقاط المعلومات";
@@ -441,9 +438,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "تغيير معلومات الطريق المسافة الفاصلة";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "تغيير الفاصل الزمني لمعلومات الطريق";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "قم بتغيير خيار روابط الدوار في إعدادات الاختصارات لإخفاء 'نقاط الاهتمام القريبة' والروابط المشابهة في علامة التبويب 'العلامات'.";
@@ -986,6 +980,15 @@
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "في وضع المشي، تحدد النطاقات مسافات الاستدعاء للنقاط المهمة المكتشفة في فئات فائقة مختلفة. يتم ضرب هذه النطاقات بستة في وضع القيادة.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "في وضع المشي ، يحدد الفاصل الزمني عتبة المسافة لاستدعاء رقم المنزل. في وضع القيادة ، يتم ضرب هذا الحد في ستة.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "في وضع المشي ، يحدد الفاصل الزمني عدد المرات التي يتم فيها استدعاء معلومات GPS. في وضع القيادة ، يتم ضرب هذه المسافة في ستة.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "في وضع المشي ، يحدد الفاصل الزمني عدد المرات التي يتم فيها استدعاء اسم الطريق. في وضع القيادة ، يتم ضرب هذه المسافة في ستة. كن حذرا عند تحديد فاصل زمني صغير ، حيث يمكن أن يزيد بشكل كبير من استهلاك البطارية على جهاز iPhone الخاص بك.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "تضمين الطرق غير المسماة";
@@ -1865,9 +1868,6 @@
 
 /* No comment provided by engineer. */
 "Thresholds" = "العتبات";
-
-/* No comment provided by engineer. */
-"Time Interval" = "الفاصل الزمني";
 
 /* places.footnot.2 */
 "To browse nearby places, access to location is required." = "لتصفح الأماكن المجاورة ، يلزم الوصول إلى الموقع.";

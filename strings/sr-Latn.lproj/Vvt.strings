@@ -242,6 +242,9 @@
 "Announce turn instructions in advance at a specified distance." = "Najavite uputstva za skretanje unapred na određenoj udaljenosti.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Najava Interval";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Интервали за најављивање";
 
 /* No comment provided by engineer. */
@@ -560,13 +563,7 @@
 "Change GPS Information Distance Interval" = "Promena GPS intervala rastojanja informacija";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Promena vremenskog intervala GPS informacija";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Promena intervala rastojanja kućnog broja";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Promena vremenskog intervala broja kuće";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Промените опсег информативних тачака";
@@ -591,9 +588,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Промените интервал удаљености информација о путу";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Промените временски интервал информација о путу";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Промените опцију веза ротора у подешавањима пречица да бисте сакрили „Оближње тачке интереса“ и сличне везе на картици Маркери.";
@@ -1205,6 +1199,15 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "У режиму ходања, опсези дефинишу раздаљине позива за откривене тачке интереса у различитим суперкатегоријама. Ови опсези се множе са шест у режиму вожње.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "U režimu hodanja, interval definiše prag udaljenosti za kućne brojeve. U režimu vožnje, ovaj prag se množi sa šest.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "U režimu hodanja, interval određuje koliko često se pozivaju GPS informacije. U režimu vožnje, ovo rastojanje se množi sa šest.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "U režimu hodanja, interval određuje koliko često se zove ime puta. U režimu vožnje, ovo rastojanje se množi sa šest. Budite oprezni pri odabiru malog intervala, jer može značajno povećati potrošnju baterije na vašem iPhone-u.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Укључује неименоване путеве";
@@ -2172,9 +2175,6 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Pragovi";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Временски интервал";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
