@@ -242,6 +242,9 @@
 "Announce turn instructions in advance at a specified distance." = "Dönüş talimatlarını belirli bir mesafede önceden duyurun.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Anons Aralığı";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Aralıkların Duyurulması";
 
 /* No comment provided by engineer. */
@@ -560,13 +563,7 @@
 "Change GPS Information Distance Interval" = "GPS Bilgisi Mesafe Aralığını Değiştir";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "GPS Bilgi Zaman Aralığını Değiştirin";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Ev Numarası Mesafe Aralığını Değiştir";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Ev Numarası Zaman Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Bilgi Noktaları Aralığını Değiştir";
@@ -591,9 +588,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Yol Bilgilerini Değiştir Mesafe Aralığı";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Yol Bilgisi Zaman Aralığını Değiştir";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Kısayol Ayarları'ndaki rotor bağlantıları seçeneğini, İşaretçiler sekmesindeki 'Yakındaki POI'leri ve benzer bağlantıları gizleyecek şekilde değiştirin.";
@@ -1205,6 +1199,15 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Yürüyüş modunda aralıklar, farklı üst kategorilerde tespit edilen İÇN'ler için çağrı mesafelerini tanımlar. Sürüş modunda bu aralıklar altıyla çarpılır.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "Yürüme modunda, aralık, ev numarası çağrıları için mesafe eşiğini tanımlar. Sürüş modunda bu eşik altı ile çarpılır.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "Yürüme modunda, aralık GPS bilgilerinin ne sıklıkta çağrılacağını belirler. Sürüş modunda bu mesafe altı ile çarpılır.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "Yürüme modunda, aralık yol adının ne sıklıkla çağrılacağını belirler. Sürüş modunda bu mesafe altı ile çarpılır. iPhone'unuzdaki pil tüketimini önemli ölçüde artırabileceğinden, küçük bir aralık seçerken dikkatli olun.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "İsimsiz Yolları Dahil Et";
@@ -2172,9 +2175,6 @@ Baş izleme kulaklığınızı bağlamak için aşağıdaki düğmeye dokunun.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Eşik";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Zaman Aralığı";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

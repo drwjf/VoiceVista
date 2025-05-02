@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Kondig van tevoren afslaginstructies aan op een aangegeven afstand.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Interval aankondigen";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Aankondiging van intervallen";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Wijzig het afstandsinterval van GPS-informatie";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Tijdsinterval GPS-informatie wijzigen";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Afstandsinterval huisnummer wijzigen";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Tijdsinterval huisnummer wijzigen";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Wijzig het bereik van interessante plaatsen";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Wijzig weginformatie Afstandsinterval";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Wijzigen van weginformatietijdsinterval";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Wijzig de optie Rotorkoppelingen in de Snelkoppelingsinstellingen om 'POI's in de buurt' en vergelijkbare koppelingen op het tabblad Markeringen te verbergen.";
@@ -1208,6 +1202,15 @@ Tik op de onderstaande knop om je Head-tracking-hoofdtelefoon te verbinden.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "In de loopmodus definiëren bereiken de oproepafstanden voor gedetecteerde POI's in verschillende supercategorieën. Deze actieradius wordt in de rijmodus met zes vermenigvuldigd.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "In de loopmodus definieert het interval de afstandsdrempel voor het oproepen van huisnummers. In de rijmodus wordt deze drempel vermenigvuldigd met zes.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "In de loopmodus bepaalt het interval hoe vaak GPS-informatie wordt opgeroepen. In de rijmodus wordt deze afstand vermenigvuldigd met zes.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "In de loopmodus bepaalt het interval hoe vaak de straatnaam wordt genoemd. In de rijmodus wordt deze afstand vermenigvuldigd met zes. Wees voorzichtig bij het selecteren van een klein interval, omdat dit het batterijverbruik van uw iPhone aanzienlijk kan verhogen.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Inclusief naamloze wegen";
@@ -2175,9 +2178,6 @@ Tik op de onderstaande knop om je Head-tracking-hoofdtelefoon te verbinden.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Drempels";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Tijdsinterval";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */

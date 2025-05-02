@@ -245,6 +245,9 @@
 "Announce turn instructions in advance at a specified distance." = "Anunțați instrucțiunile de viraj în avans la o distanță specificată.";
 
 /* No comment provided by engineer. */
+"Announcing Interval" = "Interval de anunțare";
+
+/* No comment provided by engineer. */
 "Announcing Intervals" = "Intervale de anunț";
 
 /* No comment provided by engineer. */
@@ -563,13 +566,7 @@
 "Change GPS Information Distance Interval" = "Modificarea intervalului de distanță al informațiilor GPS";
 
 /* No comment provided by engineer. */
-"Change GPS Information Time Interval" = "Modificarea intervalului de timp al informațiilor GPS";
-
-/* No comment provided by engineer. */
 "Change House Number Distance Interval" = "Schimbați intervalul de distanță al numărului casei";
-
-/* No comment provided by engineer. */
-"Change House Number Time Interval" = "Schimbați intervalul de timp al numărului casei";
 
 /* No comment provided by engineer. */
 "Change Information Points Range" = "Modificați intervalul de puncte de informații";
@@ -594,9 +591,6 @@
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Modificați intervalul de distanță pentru informațiile rutiere";
-
-/* No comment provided by engineer. */
-"Change Road Information Time Interval" = "Modificați intervalul de timp pentru informațiile rutiere";
 
 /* No comment provided by engineer. */
 "Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Schimbați opțiunea legăturilor rotorului din Setările comenzilor rapide pentru a ascunde „POI-uri din apropiere” și linkuri similare în fila Marcatori.";
@@ -1208,6 +1202,15 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* No comment provided by engineer. */
 "In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "În modul de mers pe jos, intervalele definesc distanțele de apelare pentru POI detectate în diferite supercategorii. Aceste intervale sunt înmulțite cu șase în modul de conducere.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "În modul de mers pe jos, intervalul definește pragul de distanță pentru apelurile cu numărul casei. În modul de conducere, acest prag este înmulțit cu șase.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "În modul de mers pe jos, intervalul determină cât de des sunt apelate informațiile GPS. În modul de conducere, această distanță este înmulțită cu șase.";
+
+/* No comment provided by engineer. */
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "În modul de mers pe jos, intervalul determină cât de des este chemat numele drumului. În modul de conducere, această distanță este înmulțită cu șase. Fiți precauți atunci când selectați un interval mic, deoarece poate crește semnificativ consumul bateriei pe iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Includeți drumuri fără nume";
@@ -2175,9 +2178,6 @@ Atingeți butonul de mai jos pentru a vă conecta căștile Head tracking.";
 
 /* No comment provided by engineer. */
 "Thresholds" = "Praguri";
-
-/* No comment provided by engineer. */
-"Time Interval" = "Interval de timp";
 
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
