@@ -29,7 +29,7 @@
 "%@ backup files have been deleted." = "Видалено файлів резервної копії: %@.";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
-"%@ close by" = "%@ поруч";
+"%@ close by" = "Поруч %@";
 
 /* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
 "%@ connected." = "%@ підключено.";
@@ -89,7 +89,7 @@
 "%@, continues ahead" = "%@, продовжується прямо";
 
 /* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
-"%@, continues ahead in roundabout" = "%@, продовжується прямо на перехресті з круговим рухом";
+"%@, continues ahead in roundabout" = "%@, продовжується прямо після перехрестя з круговим рухом";
 
 /* Notification, %@ street name, '<Pike Street>, goes left' */
 "%@, goes left" = "%@, йде ліворуч";
@@ -170,7 +170,7 @@
 "Address unknown" = "Адреса невідома";
 
 /* No comment provided by engineer. */
-"Adjust Marker Location" = "Змініть місцезнаходження мітки";
+"Adjust Marker Location" = "Змінити місцезнаходження мітки";
 
 /* Label for a button to change selected marker's location to the current location */
 "Adjust to Current Location" = "Змінити на поточне місцезнаходження";
@@ -245,7 +245,7 @@
 "Announce turn instructions in advance at a specified distance." = "Завчасне оголошення  навігаційних інструкцій на вказаній відстані до поворотів.";
 
 /* No comment provided by engineer. */
-"Announcing Interval" = "Інтервал анонсування";
+"Announcing Interval" = "Інтервал оголошень";
 
 /* No comment provided by engineer. */
 "Announcing Intervals" = "Інтервали оголошень";
@@ -365,7 +365,7 @@
 "At what distance should VoiceVista be triggered to activate the location as a beacon?" = "На якій відстані від місця VoiceVista має активувати його як маячок?";
 
 /* No comment provided by engineer. */
-"At what distance would you like VoiceVista to alert you?" = "На якій відстані ви хочете,отримати попередження від VoiceVista?";
+"At what distance would you like VoiceVista to alert you?" = "На якій відстані ви хочетеотримати попередження від VoiceVista?";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
 "Audio beacon has been muted" = "Звук маячка вимкнено";
@@ -530,7 +530,7 @@
 "Callouts On" = "Оголошення увімкнено";
 
 /* No comment provided by engineer. */
-"Callouts Only When in Surroundings Tab" = "Автоматичні оголошення лише на вкладці 'Місцевість'";
+"Callouts Only When in Surroundings Tab" = "Автоматичні оголошення лише на вкладці \"Місцевість\"";
 
 /* general.alert.cancel */
 "Cancel" = "Скасувати";
@@ -569,25 +569,25 @@
 "Change House Number Distance Interval" = "Змінити інтервал оголошення номерів будинків за відстанню";
 
 /* No comment provided by engineer. */
-"Change Information Points Range" = "Змінити дистанцію оголошення для Інформації";
+"Change Information Points Range" = "Змінити дистанцію оголошення для категорії \"Інформація\"";
 
 /* No comment provided by engineer. */
-"Change Landmarks Range" = "Змінити дистанцію оголошення для Орієнтирів";
+"Change Landmarks Range" = "Змінити дистанцію оголошення для категорії \"Орієнтири\"";
 
 /* No comment provided by engineer. */
-"Change Mobility Facilities Range" = "Змінити дистанцію оголошення для Мобільності";
+"Change Mobility Facilities Range" = "Змінити дистанцію оголошення для категорії \"Мобільність\"";
 
 /* No comment provided by engineer. */
-"Change Objects Range" = "Змінити дистанцію оголошення для Об'єктів";
+"Change Objects Range" = "Змінити дистанцію оголошення для категорії \"Об'єкти\"";
 
 /* No comment provided by engineer. */
 "Change or Remove" = "Змінити чи видалити";
 
 /* No comment provided by engineer. */
-"Change Pedestrian Crossings Range" = "Змінити дистанцію оголошення для Пішохідних переходів";
+"Change Pedestrian Crossings Range" = "Змінити дистанцію оголошення для категорії \"Пішохідні переходи\"";
 
 /* No comment provided by engineer. */
-"Change Places Range" = "Змінити дистанцію оголошення для Місць";
+"Change Places Range" = "Змінити дистанцію оголошення для категорії \"Місця\"";
 
 /* No comment provided by engineer. */
 "Change Road Information Distance Interval" = "Змінити інтервал оголошення інформації про дорогу за відстанню";
@@ -599,13 +599,13 @@
 "Change rotor links option in Shortcuts Settings to show 'Nearby POIs' and similar links in the Markers tab." = "Змініть параметри ротора в налаштуваннях швидких команд, щоб на вкладці 'Мітки' показати' найближчі точки інтересу» та подібні об'єкти.";
 
 /* No comment provided by engineer. */
-"Change Safety Spots Range" = "Змінити дистанцію оголошення для Безпеки";
+"Change Safety Spots Range" = "Змінити дистанцію оголошення для категорії \"Безпека\"";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Змінити реакцію на струшування";
 
 /* No comment provided by engineer. */
-"Change Turnpoint Sensing Distance" = "Зміна відстані визначення точки повороту";
+"Change Turnpoint Sensing Distance" = "Змінити відстань визначення точки повороту";
 
 /* No comment provided by engineer. */
 "Change Units of Measure" = "Змінити одиницьі вимірювання";
@@ -653,7 +653,7 @@
 "Complete Configuring" = "Повне налаштування";
 
 /* No comment provided by engineer. */
-"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Повні резервні копії міток і маршрутів зберігаються в окремих файлах,при кожному додаванні чи видаленні цих елементів. Ви можете відновити дані з цих резервних копій, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Повні резервні копії міток і маршрутів зберігаються в окремих файлах,при кожному їх додаванні чи видаленні. Ви можете відновити дані з цих резервних копій, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Вітаємо! Ваші AirPods готові до використання, тож ви можете покласти телефон до кишені та вирушати в дорогу! Тепер VoiceVista відстежуватиме положення вашої голови, тому вам не потрібно тримати телефон у руці. Також ви можете керувати програмою за допомогою кнопки навушників: одне натискання в вимкнення чи увімкнення маячка, подвійне натискання - визначення вашого місцезнаходження, а потрійне натискання - повторення останнього оповіщення.";
@@ -776,7 +776,7 @@
 "Distance" = "Відстань";
 
 /* No comment provided by engineer. */
-"Distance and direction to the beacon" = "Відстань і напрямок до маяка";
+"Distance and direction to the beacon" = "Відстань і напрямок до маячка";
 
 /* No comment provided by engineer. */
 "Distance and Direction to the POI" = "Відстань і напрямок до точки інтересу";
@@ -1120,7 +1120,7 @@
 "HINT SOUNDS" = "ЗВУКИ ПІДКАЗОК";
 
 /* No comment provided by engineer. */
-"House Number Settings" = "Налаштування для номерів будинків";
+"House Number Settings" = "Налаштування інформації про номери будинків";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Як це звучить?";
@@ -1168,7 +1168,7 @@
 "Import Blindsquare Backup File" = "Імпортувати файл резервної копії Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Імпортувати з файлу";
+"Import from File" = "Імпорт з файлу";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Імпортувати файл GPX";
@@ -1178,7 +1178,6 @@
 
 /* No comment provided by engineer. */
 "Import Route from VVR File" = "Імпортувати маршрут з файлу VVR";
-
 /* No comment provided by engineer. */
 "Import Routes from VRB File" = "Імпортувати маршрути з файлу VRB";
 
@@ -1201,16 +1200,16 @@
 "In vehicle speaking rate. How does this sound?" = "Темп мовлення при переміщенні на транспорті.. Як це звучить?";
 
 /* No comment provided by engineer. */
-"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "У режимі 'Прогулянка' ці дистанції визначають відстані, на яких оголошуються виявлені точки інтересу в різних суперкатегоріях. У режимі 'Транспорт' ці дистанції множаться на шість.";
+"In walking mode, ranges define call-out distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "У режимі \"Прогулянка\" ці дистанції визначають відстані, на яких оголошуються виявлені точки інтересу в різних суперкатегоріях. У режимі \"Транспорт\" ці дистанції множаться на шість.";
 
 /* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "У режимі ходьби інтервал визначає поріг відстані для виклику номера будинку. У режимі їзди цей поріг множиться на шість.";
+"In walking mode, the interval defines the distance threshold for house number call-outs. In driving mode, this threshold is multiplied by six." = "У режимі \"Прогулянка\" інтервал визначає відстань, на якій оголошуються номери будинків. У режимі \"Транспорт\" це значення множиться на шість.";
 
 /* No comment provided by engineer. */
-"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "У режимі ходьби інтервал визначає, як часто викликається інформація GPS. У режимі їзди ця відстань множиться на шість.";
+"In walking mode, the interval determines how often GPS information is called out. In driving mode, this distance is multiplied by six." = "У режимі \"Прогулянка\" інтервал визначає, як часто оголошується інформація GPS. У режимі \"Транспорт\" ця дистанція множиться на шість.";
 
 /* No comment provided by engineer. */
-"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "У режимі ходьби інтервал визначає, як часто викликається назва дороги. У режимі їзди ця відстань множиться на шість. Будьте обережні при виборі невеликого інтервалу, так як він може значно збільшити витрату заряду акумулятора на вашому iPhone.";
+"In walking mode, the interval determines how often road name is called out. In driving mode, this distance is multiplied by six. Be cautious when selecting a small interval, as it can significantly increase battery consumption on your iPhone." = "У режимі \"Прогулянка\" інтервал визначає, як часто оголошується назва дороги. У режимі \"Транспорт\" ця відстань множиться на шість. З обережністю задавайте невелике значення інтервалу, це може призвести до значного збільшення витрати заряду акумулятора вашого iPhone.";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Включати дороги без назв";
@@ -1240,7 +1239,7 @@
 "Intersection with %1$@ was %2$@ %3$@" = "Ви проминули перехрестя з %1$@ %2$@ %3$@";
 
 /* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
-"Intersection with %@ nearby" = "Перехрестя з %@ поблизу";
+"Intersection with %@ nearby" = "Поблизу перехрестя з %@";
 
 /* No comment provided by engineer. */
 "Intersection: %@" = "Перехрестя: %@";
@@ -1264,7 +1263,7 @@
 "Invalid Latitude and Longitude" = "Неправильні широта та довгота";
 
 /* No comment provided by engineer. */
-"It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Схоже, що ваші налаштування конфіденційності перешкоджають використанню точного місцезнаходження та даних про рух та фітнес. Будь ласка, внесіть необхідні зміни в параметрах телефона.";
+"It appears that your privacy settings are preventing the use of precise location and motion & fitness. Please make the necessary adjustments in the Settings app." = "Схоже, що ваші налаштування приватності перешкоджають використанню точного місцезнаходження та даних про рух та фітнес. Будь ласка, внесіть необхідні зміни в параметрах телефона.";
 
 /* No comment provided by engineer. */
 "It is recommended to periodically export your markers and routes to VMB and VFB files and store them elsewhere. You can then import them if your iCloud data is lost due to synchronization issues." = "Рекомендується періодично експортувати ваші мітки та маршрути у файли VMB і VFB і зберігати їх в іншому місці. Потім ви можете імпортувати їх, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
@@ -1273,7 +1272,7 @@
 "It may take some time to build the nearby place list. If there is no data available at the moment, please try visiting again later." = "Створення списку найближчих місць може зайняти деякий час. Якщо зараз немає доступних даних, повторіть спробу пізніше.";
 
 /* No comment provided by engineer. */
-"It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Схоже, що ваші налаштування конфіденційності перешкоджають використанню даних про рух та фітнес. Будь ласка, змініть це в параметрах телефона.";
+"It seems that your privacy settings are preventing the use of motion & fitness. Please adjust this in the Settings app." = "Схоже, що ваші налаштування приватності перешкоджають використанню даних про рух та фітнес. Будь ласка, змініть це в параметрах телефона.";
 
 /* No comment provided by engineer. */
 "Jump Back" = "Перейти назад";
@@ -1384,7 +1383,7 @@
 "Markers Nearby" = "Мітки поблизу";
 
 /* No comment provided by engineer. */
-"Melodies when arrived and departing" = "Мелодії при прибутті та покиданні";
+"Melodies when arrived and departing" = "Мелодії при прибутті та віддаленні";
 
 /* settings.general.units.meters */
 "Metric (Meters)" = "Метричні (метри)";
@@ -1399,7 +1398,7 @@
 "Motion & Fitness" = "Рух і фітнес";
 
 /* No comment provided by engineer. */
-"Move away from the beacon" = "Відійдіть від маячка";
+"Move away from the beacon" = "Віддалення від маячка";
 
 /* No comment provided by engineer. */
 "Moving: %@" = "рух: %@";
@@ -1433,7 +1432,7 @@
 
 /* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
    Notification announced to the user that they are near a road, %@ is a road name, examples: 'Near 123 Columbia Street' */
-"Near %@" = "Ви поблизу %@";
+"Near %@" = "Поблизу %@";
 
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "Мітки поблизу";
@@ -1481,7 +1480,7 @@
 "No audio beacon set" = "Не встановлено звуковий маячок";
 
 /* No comment provided by engineer. */
-"No internet connection; some functions are limited in offline mode." = "немає підключення до інтернету; програма має обмежену функціональність в автономному режимі.";
+"No internet connection; some functions are limited in offline mode." = "немає підключення до інтернету; в автономному режимі програма працює з обмеженою функціональністю.";
 
 /* No comment provided by engineer. */
 "No last callout" = "Немає попередніх оголошень";
@@ -1499,7 +1498,7 @@
 "No Motion Permission" = "Немає дозволу на доступ до даних про рух";
 
 /* No comment provided by engineer. */
-"No Navigation Instruction" = "Немає навігаційної інструкції";
+"No Navigation Instruction" = "Немає навігаційних інструкцій";
 
 /* No comment provided by engineer. */
 "No network connection" = "Немає підключення до мережі";
@@ -1514,7 +1513,7 @@
 "No track found in this GPX file" = "У цьому файлі GPX не знайдено треку";
 
 /* No comment provided by engineer. */
-"No Waypoints Defined" = "Не визначено маршрутних точок";
+"No Waypoints Defined" = "Не знайдено маршрутних точок";
 
 /* No comment provided by engineer. */
 "No Waypoints or Tracks Data Found in the GPX File" = "У файлі GPX не знайдено маршрутних точок або треків";
@@ -1535,7 +1534,7 @@
 "Not Now" = "Не зараз";
 
 /* No comment provided by engineer. */
-"Notice" = "Повідомлення";
+"Notice" = "Застереження";
 
 /* Move the marker 5 meters east of its current location */
 "Nudge East" = "Посунути на схід";
@@ -1628,7 +1627,7 @@
 "Permission NOT granted" = "Дозвіл НЕ надано";
 
 /* No comment provided by engineer. */
-"Permission requested" = "Запитано дозвіл";
+"Permission requested" = "Дозвіл запитано";
 
 /* permissinos.title */
 "Permissions" = "Дозволи";
@@ -1718,7 +1717,7 @@
 "Preview" = "Попередній перегляд";
 
 /* No comment provided by engineer. */
-"Previous" = "Попередня";
+"Previous" = "Назад";
 
 /* directions.previous_location */
 "Previous Location" = "Попереднє місцезнаходження";
@@ -2042,7 +2041,7 @@
 "Stop Monitoring" = "Зупинити моніторинг";
 
 /* No comment provided by engineer. */
-"Stop Route" = "Зупинити маршрут";
+"Stop Route" = "Зупинити навігацію";
 
 /* No comment provided by engineer. */
 "Stop route" = "Зупинити маршрут";
@@ -2060,7 +2059,7 @@
 "Subscription Status" = "Стан підписки";
 
 /* No comment provided by engineer. */
-"Summary" = "Підсумок";
+"Summary" = "Зведення";
 
 /* No comment provided by engineer. */
 "SUPERCATEGORY DEFINITION" = "Вміст суперкатегорії";
@@ -2296,7 +2295,7 @@
 "Unknown URL in the pasteboard" = "Невідоме посилання у буфері обміну";
 
 /* No comment provided by engineer. */
-"Unmute All" = "Увімкнути звук для всіх";
+"Unmute All" = "Увімкнути всі звуки";
 
 /* No comment provided by engineer. */
 "Unmute Beacon" = "Увімкнути звук маячка";
@@ -2372,7 +2371,6 @@
 
 /* No comment provided by engineer. */
 "VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "Для вашої зручності VoiceVista може створити новий зворотний маршрут із маршрутними точками у зворотному порядку. Перед початком навігації вам може знадобитися вручну налаштувати маршрутні точки.";
-
 /* No comment provided by engineer. */
 "VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista завантажує картографіччні дані під час ваших переміщень, щоб оголошувати вам навколишні місця та точки інтересу. Якщо у вас виникли проблеми з VoiceVista або програма використовує забагато пам'яті, ви можете очистити збережені дані, і VoiceVista повторно завантажить картографічні дані лише для вашого поточного місцезнаходження.";
 
@@ -2416,7 +2414,7 @@
 "VoiceVista is unable to locate your current position at the moment." = "VoiceVista зараз не може визначити ваше поточне місцезнаходження.";
 
 /* No comment provided by engineer. */
-"VoiceVista only announces automatic callouts when in the surroundings tab. To modify this setting, navigate to the Settings tab." = "VoiceVista промовляє автоматичні оголошення лише на вкладці 'Місцевість'. Щоб змінити цей параметр, перейдіть на вкладку 'Налаштування'.";
+"VoiceVista only announces automatic callouts when in the surroundings tab. To modify this setting, navigate to the Settings tab." = "VoiceVista промовляє автоматичні оголошення лише на вкладці \"Місцевість\". Щоб змінити цей параметр, перейдіть на вкладку \"Налаштування\".";
 
 /* No comment provided by engineer. */
 "VoiceVista stores map data to reduce data and battery consumption. Clearing stored map data will require VoiceVista to re-download the data." = "VoiceVista зберігає картографічні дані, щоб зменшити споживання мобільних даних і акумулятора. При очищенні збережених картографічних даних VoiceVista повторно завантажить необхідні дані.";
@@ -2504,7 +2502,7 @@
 "With the enqueue option off, intersection callouts will interrupt any current callouts." = "Якщо функцію постановки у чергу вимкнено, оголошення перехресть перериватимуть усі поточні оголошення.";
 
 /* No comment provided by engineer. */
-"With the tab option enabled, VoiceVista announces callouts only in the Surroundings tab. When disabled, it announces callouts at all times." = "Якщо цей параметр увімкнено, VoiceVista промовлятиме автоматичні оголошення лише на вкладці 'Місцевість'. Якщо цей параметр вимкнено, оголошення промовлятимуться постійно.";
+"With the tab option enabled, VoiceVista announces callouts only in the Surroundings tab. When disabled, it announces callouts at all times." = "Якщо цей параметр увімкнено, VoiceVista промовлятиме автоматичні оголошення лише на вкладці \"Місцевість\". Якщо вимкнено - оголошення промовлятимуться постійно.";
 
 /* No comment provided by engineer. */
 "With verbose mode off, the same road name will not be repeated after an intersection." = "Якщо вимкнено детальний режим, та сама назва дороги не повторюватиметься після перехрестя.";
@@ -2528,7 +2526,7 @@
 "You can customize which supercategory POIs are announced while walking." = "Ви можете налаштувати, які суперкатегорії точок інтересу оголошуються під час ходьби.";
 
 /* No comment provided by engineer. */
-"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "Ви можете налаштувати, які суперкатегорії точок інтересу оголошуються при використанні команд 'Що навколо?' та 'Що попереду?'.";
+"You can customize which supercategory POIs are announced with the 'What's around me' and 'What's ahead' commands." = "Ви можете налаштувати, які суперкатегорії точок інтересу оголошуються при використанні команд \"Що навколо?\" та \"Що попереду?\".";
 
 /* No comment provided by engineer. */
 "You can disable enter and exit sound effects for exploring commands." = "Ви можете вимкнути звукові ефекти початку та завершення для команд дослідження.";
@@ -2543,19 +2541,19 @@
 "You can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Також ви можете натиснути кнопку відтворення/паузи на навушниках, щоб зберегти точку-'крихту' маршруту.";
 
 /* No comment provided by engineer. */
-"You can rearrange the order of waypoints along a route at any time by editing the route." = "Ви можете будь-коли змінити порядок маршрутних точок на маршруті, редагуючи його.";
+"You can rearrange the order of waypoints along a route at any time by editing the route." = "У режимі редагування ви можете у будь-який момент змінити порядок маршрутних точок.";
 
 /* No comment provided by engineer. */
 "You can teleport between nearby intersections and places to explore their distance relationships." = "Ви можете віртуально переміщуватися між сусідніми перехрестями та місцями, щоб оцінити їх розташування і відстані між ними.";
 
 /* No comment provided by engineer. */
-"You can try searching by name or address." = "Ви можете спробувати пошук за назвою або адресою.";
+"You can try searching by name or address." = "Ви можете спробувати пошук за назвою чи адресою.";
 
 /* No comment provided by engineer. */
 "You can turn off sound effects for specific POI supercategories, allowing only the POI text to be announced." = "Ви можете вимкнути звукові ефекти для окремих суперкатегорій точок інтересу, дозволивши оголошувати лише текст.";
 
 /* No comment provided by engineer. */
-"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Ви можете використовувати дії ротора на кнопках .вкладки 'Місцевість' для виконання додаткових дій.";
+"You can use the actions rotor on the buttons of the Surroundings tab to perform additional actions." = "Ви можете використовувати дії ротора на кнопках .вкладки \"Місцевість\" для виконання додаткових дій.";
 
 /* No comment provided by engineer. */
 "You can use the actions rotor on the buttons to perform additional actions." = "Ви можете використовувати дії ротора на кнопках для виконання додаткових дій.";
@@ -2619,4 +2617,3 @@
 
 /* No comment provided by engineer. */
 "⟿ %@" = "⟿ %@";
-
