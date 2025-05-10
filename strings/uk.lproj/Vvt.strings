@@ -611,7 +611,7 @@
 "Change Units of Measure" = "Змінити одиницьі вимірювання";
 
 /* No comment provided by engineer. */
-"Change Waypoint Sensing Distance" = "Змінити відстань визначення маршрутної точки";
+"Change Waypoint Sensing Distance" = "Змінити відстань перемикання маршрутних точок";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Група для обговорення";
@@ -653,7 +653,7 @@
 "Complete Configuring" = "Повне налаштування";
 
 /* No comment provided by engineer. */
-"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Повні резервні копії міток і маршрутів зберігаються в окремих файлах,при кожному їх додаванні чи видаленні. Ви можете відновити дані з цих резервних копій, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "При кожному додаванні чи видаленні міток і маршрутів повні резервні копії цих елементів зберігаються в окремих файлах. Ви можете відновити дані з цих резервних копій, якщо дані iCloud буде втрачено через проблеми з синхронізацією.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Вітаємо! Ваші AirPods готові до використання, тож ви можете покласти телефон до кишені та вирушати в дорогу! Тепер VoiceVista відстежуватиме положення вашої голови, тому вам не потрібно тримати телефон у руці. Також ви можете керувати програмою за допомогою кнопки навушників: одне натискання в вимкнення чи увімкнення маячка, подвійне натискання - визначення вашого місцезнаходження, а потрійне натискання - повторення останнього оповіщення.";
@@ -788,7 +788,7 @@
 "Distance between waypoints, shoulde >= %@" = "Відстань між маршрутними точками, має бути >= %@";
 
 /* No comment provided by engineer. */
-"Distance Interval" = "Інтервал відстані";
+"Distance Interval" = "Інтервал за відстанню";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Відстань має бути від %1$@доі %2$@";
@@ -944,7 +944,7 @@
 "Export Routes to VRB File" = "Експортувати маршрути у файл VRB";
 
 /* No comment provided by engineer. */
-"Export to File" = "Експортувати у файл";
+"Export to File" = "Експорт у файл";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Зовнішня навігаційна програма";
@@ -1102,13 +1102,13 @@
 "Hear about the status of the headphones you are using with VoiceVista" = "Тут ви можете дізнатися про стан навушників, які ви використовуєте з VoiceVista";
 
 /* No comment provided by engineer. */
-"Hear Intersections Ahead" = "Чути перехрестя попереду";
+"Hear Intersections Ahead" = "Оголосити перехрестя попереду";
 
 /* No comment provided by engineer. */
-"Hear Intersections Nearby" = "Чути перехрестя поблизу";
+"Hear Intersections Nearby" = "Оголосити перехрестя поблизу";
 
 /* No comment provided by engineer. */
-"Hear Markers Nearby" = "Чути мітки поблизу";
+"Hear Markers Nearby" = "Оголосити мітки поблизу";
 
 /* No comment provided by engineer. */
 "Help" = "Довідка";
@@ -1178,7 +1178,6 @@
 
 /* No comment provided by engineer. */
 "Import Route from VVR File" = "Імпортувати маршрут з файлу VVR";
-
 /* No comment provided by engineer. */
 "Import Routes from VRB File" = "Імпортувати маршрути з файлу VRB";
 
@@ -1219,7 +1218,7 @@
 "Information Points" = "Інформація";
 
 /* No comment provided by engineer. */
-"Input Latitude and Longitude" = "Введіть широту та довготу";
+"Input Latitude and Longitude" = "Ввести широту та довготу";
 
 /* callouts.intersection_callout */
 "Intersection Callout" = "Оголошення перехресть";
@@ -1312,7 +1311,7 @@
 "Location Accuracy" = "Точність визначення місцезнаходження";
 
 /* location_detail.title.default */
-"Location Details" = "Деталі місцезнаходження";
+"Location Details" = "Деталі місця";
 
 /* No comment provided by engineer. */
 "Location Explorer" = "Дослідження місцевості";
@@ -1475,7 +1474,7 @@
 "Next waypoint" = "Наступна маршрутна точка";
 
 /* No comment provided by engineer. */
-"Next: Call out What's My Location." = "Далі: оголошення поточного місцезнаходження.";
+"Next: Call out What's My Location." = "Наступна: оголошення поточного місцезнаходження.";
 
 /* No comment provided by engineer. */
 "No audio beacon set" = "Не встановлено звуковий маячок";
@@ -1520,7 +1519,7 @@
 "No Waypoints or Tracks Data Found in the GPX File" = "У файлі GPX не знайдено маршрутних точок або треків";
 
 /* settings.direction.style.none */
-"None" = "Не оголошувати";
+"None" = "Немає";
 
 /* directions.cardinal.north */
 "North" = "північ";
@@ -1535,7 +1534,7 @@
 "Not Now" = "Не зараз";
 
 /* No comment provided by engineer. */
-"Notice" = "Застереження";
+"Notice" = "Нагадування";
 
 /* Move the marker 5 meters east of its current location */
 "Nudge East" = "Посунути на схід";
@@ -1634,13 +1633,13 @@
 "Permissions" = "Дозволи";
 
 /* No comment provided by engineer. */
-"Pick a Location" = "Виберіть місцезнаходження";
+"Pick a Location" = "Вибрати місцезнаходження";
 
 /* No comment provided by engineer. */
-"Pick from Markers" = "Виберіть із міток";
+"Pick from Markers" = "Вибрати з міток";
 
 /* markerpickers.title */
-"Pick Markers" = "Виберіть мітки";
+"Pick Markers" = "Вибрати мітки";
 
 /* No comment provided by engineer. */
 "Pin to Top" = "Прикріпити вгорі";
@@ -1847,7 +1846,7 @@
 "Route name: %@ ." = "Назва маршруту: %@ .";
 
 /* No comment provided by engineer. */
-"Route Settings" = "Налаштування маршруту";
+"Route Settings" = "Налаштування маршрутів";
 
 /* No comment provided by engineer. */
 "Route Updated to a Circular Journey" = "Маршрут перетворено на круговий";
@@ -1895,16 +1894,16 @@
 "Search Results" = "Результати пошуку";
 
 /* No comment provided by engineer. */
-"Select a Destination Location" = "Виберіть місце призначення";
+"Select a Destination Location" = "Вибрати місце призначення";
 
 /* markerspicker.footnote */
 "Select a marker to continue." = "Для продовження виберіть мітку.";
 
 /* No comment provided by engineer. */
-"Select a Starting Location" = "Виберіть початкове місце";
+"Select a Starting Location" = "Вибрати початкове місце";
 
 /* markers.add.selectFromMap */
-"Select Location from Map" = "Виберіть місце на карті";
+"Select Location from Map" = "Вибрати місце на карті";
 
 /* No comment provided by engineer. */
 "Set a Beacon" = "Встановити маячок";
@@ -2015,7 +2014,7 @@
 "Start Monitoring" = "Розпочати моніторинг";
 
 /* voice.action.start_route */
-"Start Route" = "Розпочати маршрут";
+"Start Route" = "Розпочати навігацію";
 
 /* No comment provided by engineer. */
 "Start Street Preview" = "Розпочати перегляд вулиць";
@@ -2045,7 +2044,7 @@
 "Stop Route" = "Зупинити навігацію";
 
 /* No comment provided by engineer. */
-"Stop route" = "Зупинити маршрут";
+"Stop route" = "Зупинити навігацію";
 
 /* No comment provided by engineer. */
 "Street Preview" = "Перегляд вулиць";
@@ -2296,7 +2295,7 @@
 "Unknown URL in the pasteboard" = "Невідоме посилання у буфері обміну";
 
 /* No comment provided by engineer. */
-"Unmute All" = "Увімкнути всі звуки";
+"Unmute All" = "Увімкнути всі оголошення";
 
 /* No comment provided by engineer. */
 "Unmute Beacon" = "Увімкнути звук маячка";
@@ -2374,7 +2373,7 @@
 "VoiceVista can generate a new reverse route with waypoints in reverse order for your convenience. You may need to adjust the waypoints for the reversed route before starting guidance." = "Для вашої зручності VoiceVista може створити новий зворотний маршрут із маршрутними точками у зворотному порядку. Перед початком навігації вам може знадобитися вручну налаштувати маршрутні точки.";
 
 /* No comment provided by engineer. */
-"VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista завантажує картографіччні дані під час ваших переміщень, щоб оголошувати вам навколишні місця та точки інтересу. Якщо у вас виникли проблеми з VoiceVista або програма використовує забагато пам'яті, ви можете очистити збережені дані, і VoiceVista повторно завантажить картографічні дані лише для вашого поточного місцезнаходження.";
+"VoiceVista downloads map data as you walk around so that it can tell you about the things and places around you. If you are having issues with VoiceVista or it is using too much memory, you can clear the stored map data and VoiceVista will only redownload the map data near your current location." = "VoiceVista завантажує картографічні дані під час ваших переміщень, щоб оголошувати вам навколишні місця та точки інтересу. Якщо у вас виникли проблеми з VoiceVista або програма використовує забагато пам'яті, ви можете очистити збережені дані, і VoiceVista повторно завантажить картографічні дані лише для вашого поточного місцезнаходження.";
 
 /* No comment provided by engineer. */
 "VoiceVista iCloud Storage Full" = "Сховище iCloud для VoiceVista заповнено";
@@ -2619,4 +2618,3 @@
 
 /* No comment provided by engineer. */
 "⟿ %@" = "⟿ %@";
-
