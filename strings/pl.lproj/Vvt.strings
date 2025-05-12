@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Dostosuj lokalizację punktu orientacyjnego";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Ustawienia zaawansowane";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Po dodaniu skrótów Siri będziesz mógł używać swojego głosu do wywoływania ich nawet wtedy, gdy VoiceVista nie jest uruchomiona.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Wysokość n.p.m.: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Kąt musi mieścić się w przedziale od 5 do 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Adnotacja";
@@ -411,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Banki i bankomaty";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Zachowaj ostrożność przy wyborze małego interwału wykrywania, ponieważ może to znacznie zwiększyć zużycie baterii w Twoim iPhonie.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Latarnia";
@@ -602,6 +611,9 @@
 "Change Safety Spots Range" = "Zmień zasięg bezpiecznych miejsc";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Zmień interwał wykrywania";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Zmień reakcję na ruch potrząsania";
 
 /* No comment provided by engineer. */
@@ -647,7 +659,7 @@
 "Close" = "Zamknij";
 
 /* No comment provided by engineer. */
-"Close By" = "Blisko";
+"Close By Threshold" = "Zamknij według progu";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Zakończ konfigurację";
@@ -784,11 +796,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Odległość pomiędzy %1$@ i %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Odległość między punktami orientacyjnymi, pobocze >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Interwał odległości";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Odległość powinna >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Odległość powinna mieścić się w przedziale od %1$@ do %2$@";
@@ -944,7 +956,7 @@
 "Export Routes to VRB File" = "Eksportuj trasy do pliku VRB";
 
 /* No comment provided by engineer. */
-"Export to File" = "Eksportuj do pliku";
+"Export to VoiceVista File" = "Eksport do pliku VoiceVista";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Zewnętrzna aplikacja Mapy";
@@ -1070,7 +1082,7 @@
 "Haptic Wand" = "Haptyczna Różdżka";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "SŁUCHAWKI DO ŚLEDZENIA GŁOWY";
+"Head Tracking Headphones" = "Słuchawki śledzące głowę";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Słuchawki śledzące głowę to słuchawki Bluetooth z czujnikami, które informują VoiceVista, gdzie jesteś skierowany. Pomaga to VoiceVista poprawić wrażenia dźwiękowe, czyniąc je bardziej naturalnymi podczas poruszania się po świecie.
@@ -1168,7 +1180,10 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Import Blindsquare Backup File" = "Importuj plik kopii zapasowej Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Importuj z pliku";
+"Import from Third Party File" = "Importuj z pliku innej firmy";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Importowanie z pliku VoiceVista";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importuj plik GPX";
@@ -1589,6 +1604,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Original" = "Oryginalny";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Inny kąt";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Inna odległość";
 
 /* voiceSetting.others */
@@ -1706,9 +1724,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Preference" = "Preferencja";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Wstępne odsłuchiwanie pliku ścieżki GPX";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Naciśnij przycisk odtwarzania na słuchawkach, aby wybudzić VoiceVista.";
 
 /* No comment provided by engineer. */
@@ -1731,6 +1746,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Poprzednie: Powtórz ostatnie objaśnienie.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Przetwarzaj plik GPX";
 
 /* No comment provided by engineer. */
 "Public Service" = "Służba publiczna";
@@ -1907,6 +1925,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Select Location from Map" = "Wybierz lokalizację z mapy";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Interwał wykrywania";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Ustaw latarnię";
 
 /* No comment provided by engineer. */
@@ -1950,6 +1971,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Sygnał (bardzo wolny)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Symuluj plik śladu GPX";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Polecenia symulacji";
@@ -2176,9 +2200,6 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Spowoduje to odłączenie słuchawek od VoiceVista. Tutaj możesz ponownie połączyć się z VoiceVista w przyszłości.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Progi";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Do %@";
@@ -2287,6 +2308,9 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Unknown Current Location" = "Nieznana bieżąca lokalizacja";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Nieznany plik GPX";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Nieznana lokalizacja";
 
 /* No comment provided by engineer. */
@@ -2362,7 +2386,7 @@ Stuknij przycisku poniżej, aby podłączyć słuchawki śledzące głowę.";
 "Voice volume" = "Głośność głosu";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "GŁOSY I DŹWIĘKI";
+"Voices and Sounds" = "Głosy i dźwięki";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "VoiceVista Blog";

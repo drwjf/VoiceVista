@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Teekonnapunkti asukoha kohandamine";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Täpsemad seaded";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Pärast Siri otseteede lisamist saad kasutada oma häält nende käivitamiseks isegi siis, kui VoiceVista ei tööta.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Kõrgus: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Nurk peab olema vahemikus 5 kuni 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Märge";
@@ -408,6 +414,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Pangad ja sularahaautomaadid";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Olge väikese tuvastusintervalli valimisel ettevaatlik, kuna see võib oluliselt suurendada teie iPhone'i aku tarbimist.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Majakas";
@@ -599,6 +608,9 @@
 "Change Safety Spots Range" = "Ohutuskohtade vahemiku muutmine";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Muutke tuvastusintervalli";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Raputamisliigutuse vastuse muutmine";
 
 /* No comment provided by engineer. */
@@ -644,7 +656,7 @@
 "Close" = "Sule";
 
 /* No comment provided by engineer. */
-"Close By" = "Lähedal";
+"Close By Threshold" = "Sulge lävi";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Häälestamise lõpule viimine";
@@ -772,11 +784,11 @@
 /* No comment provided by engineer. */
 "Distance and Direction to the POI" = "Kaugus ja suund huvipunktini";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Teekonnapunktide vaheline kaugus peaks olema > = %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Vahemaa vahemik";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Kaugus peaks > = %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Vahemaa peab olema vahemikus %1$@ kuni %2$@";
@@ -929,7 +941,7 @@
 "Export Routes to VRB File" = "Ekspordi marsruudid VRB-faili";
 
 /* No comment provided by engineer. */
-"Export to File" = "Ekspordi faili";
+"Export to VoiceVista File" = "Ekspordi VoiceVista-faili";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Väline kaardirakendus";
@@ -1052,7 +1064,7 @@
 "Haptic Wand" = "Haptiline võlukepp";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "PEAJÄLGIMISKÕRVAKLAPID";
+"Head Tracking Headphones" = "Pea jälgimise kõrvaklapid";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Peajälgimiskõrvaklapid on Bluetooth-kõrvaklapid, millel on andurid, mis annavad VoiceVistale teada, kuhu suunda näoga oled. See aitab VoiceVistal parandada helikogemust, muutes selle liikumise ajal loomulikumaks.
@@ -1150,7 +1162,10 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Import Blindsquare Backup File" = "Blindsquare'i varukoopia faili importimine";
 
 /* No comment provided by engineer. */
-"Import from File" = "Import failist";
+"Import from Third Party File" = "Importimine kolmanda osapoole failist";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Importimine VoiceVista-failist";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "GPX-faili importimine";
@@ -1567,6 +1582,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Original" = "Algne";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Muu nurk";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Muu kaugus";
 
 /* voiceSetting.others */
@@ -1684,9 +1702,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Preference" = "Eelistus";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "GPX-i rajafaili eelloend";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "VoiceVista äratamiseks vajuta kõrvaklappide esitusnuppu.";
 
 /* No comment provided by engineer. */
@@ -1709,6 +1724,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Eelmine: viimase teate kordamine.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "GPX-faili töötlemine";
 
 /* No comment provided by engineer. */
 "Public Service" = "Avalik teenus";
@@ -1885,6 +1903,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Select Location from Map" = "Vali asukoht kaardilt";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Tuvastamise intervall";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Määra majakas";
 
 /* No comment provided by engineer. */
@@ -1928,6 +1949,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Signaal (väga aeglane)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Simuleerige GPX-rajafaili";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Simuleerimise käsud";
@@ -2151,9 +2175,6 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "See katkestab kõrvaklappide ühenduse VoiceVistaga. VoiceVistaga saab tulevikus uuesti ühenduse luua siit.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Künnised";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Kohta %@";
@@ -2262,6 +2283,9 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Unknown Current Location" = "praegune asukoht tundmatu";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Tundmatu GPX-fail";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Asukoht teadmata";
 
 /* No comment provided by engineer. */
@@ -2337,7 +2361,7 @@ Puuduta peajälgimiskõrvaklappide ühendamiseks allolevat nuppu.";
 "Voice volume" = "Hääle helitugevus";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "HÄÄLED JA HELID";
+"Voices and Sounds" = "Hääled ja helid";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "VoiceVista ajaveeb";

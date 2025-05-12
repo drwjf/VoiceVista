@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Скорректировать местоположение путевой точки";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Расширенные настройки";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "После добавления быстрых команд Siri вы сможете использовать свой голос для их вызова, даже если VoiceVista не запущена.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Высота: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Угол должен быть от 5 до 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Примечание";
@@ -411,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Банки и банкоматы";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Будьте осторожны при выборе небольшого интервала срабатывания, так как это может значительно увеличить расход заряда батареи на вашем iPhone.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Маяк";
@@ -602,6 +611,9 @@
 "Change Safety Spots Range" = "Изменить диапазон точек безопасности";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Изменение интервала срабатывания";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Изменить реакцию на встряхивание";
 
 /* No comment provided by engineer. */
@@ -647,7 +659,7 @@
 "Close" = "Закрыть";
 
 /* No comment provided by engineer. */
-"Close By" = "Рядом";
+"Close By Threshold" = "Близкое пороговое значение";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Завершить настройку";
@@ -784,11 +796,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Расстояние между %1$@ и %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Расстояние между путевыми точками, ширина >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Расстояние Интервал";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Расстояние должно >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Расстояние должно быть между %1$@ и %2$@.";
@@ -944,7 +956,7 @@
 "Export Routes to VRB File" = "Экспорт маршрутов в файл VRB";
 
 /* No comment provided by engineer. */
-"Export to File" = "Экспортировать в файл";
+"Export to VoiceVista File" = "Экспорт в файл VoiceVista";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Приложение внешних карт";
@@ -1070,7 +1082,7 @@
 "Haptic Wand" = "Тактильная палочка";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "НАУШНИКИ С ФУНКЦИЕЙ  ОТСЛЕЖИВАНИЯ ПОЛОЖЕНИЯ ГОЛОВЫ";
+"Head Tracking Headphones" = "Наушники с отслеживанием головы";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Наушники с функцией отслеживания положения головы — это Bluetooth-наушники с датчиками, которые сообщают VoiceVista, где вы находитесь. Это помогает VoiceVista улучшить качество звука, делая его более естественным при перемещении по миру.
@@ -1168,7 +1180,10 @@
 "Import Blindsquare Backup File" = "Импорт файла резервной копии Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Импорт из файла";
+"Import from Third Party File" = "Импорт из файла третьей стороны";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Импорт из файла VoiceVista";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Импорт файла GPX";
@@ -1589,6 +1604,9 @@
 "Original" = "Оригинальный";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Другой угол";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Другое расстояние";
 
 /* voiceSetting.others */
@@ -1706,9 +1724,6 @@
 "Preference" = "Предпочтение";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Предварительный прослушивание файла GPX трека";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Нажмите кнопку воспроизведения на наушниках, чтобы вывести VoiceVista из спящего режима.";
 
 /* No comment provided by engineer. */
@@ -1731,6 +1746,9 @@
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Предыдущее: повтор последнего объявления.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Обработка файла GPX";
 
 /* No comment provided by engineer. */
 "Public Service" = "Общественные услуги";
@@ -1907,6 +1925,9 @@
 "Select Location from Map" = "Выбрать местоположение на карте";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Интервал срабатывания";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Установить маяк";
 
 /* No comment provided by engineer. */
@@ -1950,6 +1971,9 @@
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Сигнал (очень медленно)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Симуляция файла GPX трека";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Команды моделирования";
@@ -2176,9 +2200,6 @@
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Это отключит ваши наушники от VoiceVista. Отсюда вы в любой момент сможете подключиться к VoiceVista в дальнейшем.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Пороги";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "К %@";
@@ -2287,6 +2308,9 @@
 "Unknown Current Location" = "Текущее местоположение не определено";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Неизвестный файл GPX";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Неизвестное местоположение";
 
 /* No comment provided by engineer. */
@@ -2362,7 +2386,7 @@
 "Voice volume" = "Громкость голоса";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "ГОЛОСА И ЗВУКИ";
+"Voices and Sounds" = "Голоса и звуки";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "Блог VoiceVista";

@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Змінити місцеззнаходження маршрутної точки";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Розширені налаштування";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Після додавання швидких команд Siri ви зможете активовувати їх голосом, навіть якщо VoiceVista не запущено.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Висота: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Кут повинен бути від 5 до 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Коментар";
@@ -411,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Банки та банкомати";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Будьте обережні, вибираючи невеликий інтервал зондування, оскільки це може значно збільшити споживання заряду акумулятора вашого iPhone.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Маячок";
@@ -602,6 +611,9 @@
 "Change Safety Spots Range" = "Змінити дистанцію оголошення для категорії \"Безпека\"";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Інтервал вимірювання зміни";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Змінити реакцію на струшування";
 
 /* No comment provided by engineer. */
@@ -647,7 +659,7 @@
 "Close" = "Закрити";
 
 /* No comment provided by engineer. */
-"Close By" = "Поруч";
+"Close By Threshold" = "Закрити за порогом";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Повне налаштування";
@@ -784,11 +796,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Відстань від %1$@ до %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Відстань між маршрутними точками, має бути >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Інтервал за відстанню";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Відстань має >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Відстань має бути від %1$@доі %2$@";
@@ -944,7 +956,7 @@
 "Export Routes to VRB File" = "Експортувати маршрути у файл VRB";
 
 /* No comment provided by engineer. */
-"Export to File" = "Експорт у файл";
+"Export to VoiceVista File" = "Експорт у файл VoiceVista";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Зовнішня навігаційна програма";
@@ -1070,7 +1082,7 @@
 "Haptic Wand" = "Тактильна паличка";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "НАВУШНИКИ з відстеженням положення ГОЛОВИ";
+"Head Tracking Headphones" = "Навушники з відстеженням голови";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Навушники з функцією відстеження положення голови — це Bluetooth-навушники із датчиками, які повідомляють VoiceVista, куди ви дивитеся. Це допомагає VoiceVista покращити звучання оголошень програми, роблячи їх більш природними, коли ви подорожуєте світом.
@@ -1168,7 +1180,10 @@
 "Import Blindsquare Backup File" = "Імпортувати файл резервної копії Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Імпорт з файлу";
+"Import from Third Party File" = "Імпорт зі стороннього файлу";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Імпорт із файлу VoiceVista";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Імпортувати файл GPX";
@@ -1178,6 +1193,7 @@
 
 /* No comment provided by engineer. */
 "Import Route from VVR File" = "Імпортувати маршрут з файлу VVR";
+
 /* No comment provided by engineer. */
 "Import Routes from VRB File" = "Імпортувати маршрути з файлу VRB";
 
@@ -1588,6 +1604,9 @@
 "Original" = "Оригінальний";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Інший ракурс";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Інша відстань";
 
 /* voiceSetting.others */
@@ -1705,9 +1724,6 @@
 "Preference" = "Вподобання";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Попередній перегляд GPX-файлу треку";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Натисніть кнопку відтворення на навушниках, щоб вивести VoiceVista з режиму сну.";
 
 /* No comment provided by engineer. */
@@ -1730,6 +1746,9 @@
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Попередня: повторити останнє оголошення.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Обробити файл GPX";
 
 /* No comment provided by engineer. */
 "Public Service" = "Послуги";
@@ -1906,6 +1925,9 @@
 "Select Location from Map" = "Вибрати місце на карті";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Інтервал зондування";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Встановити маячок";
 
 /* No comment provided by engineer. */
@@ -1949,6 +1971,9 @@
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Сигнал (дуже повільно)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Імітація файлу треку GPX";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Команди імітації";
@@ -2175,9 +2200,6 @@
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Це від’єднає навушники від VoiceVista. тут ви зможете знову підключити їх до VoiceVista пізніше.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Порогові відстані";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "У напрямку %@";
@@ -2286,6 +2308,9 @@
 "Unknown Current Location" = "Невідоме поточне місцезнаходження";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Невідомий файл GPX";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Невідоме місцезнаходження";
 
 /* No comment provided by engineer. */
@@ -2361,7 +2386,7 @@
 "Voice volume" = "Гучність голосу";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "Голоси та звуки";
+"Voices and Sounds" = "Голоси та звуки";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "Блог VoiceVista";
@@ -2618,3 +2643,4 @@
 
 /* No comment provided by engineer. */
 "⟿ %@" = "⟿ %@";
+
