@@ -176,6 +176,9 @@
 "Adjust Waypoint Location" = "Подесите локацију међутачке";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Napredna podešavanja";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Nakon dodavanja Siri prečica, moći ćete da koristite svoj glas da biste ih pozvali čak i kada VoiceVista nije pokrenuta.";
 
 /* No comment provided by engineer. */
@@ -231,6 +234,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Visina: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Ugao mora biti između 5 i 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Анотација";
@@ -408,6 +414,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Banke & bankomati";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Budite oprezni pri odabiru malog intervala senzora, jer može značajno povećati potrošnju baterije na vašem iPhone-u.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Signal";
@@ -599,6 +608,9 @@
 "Change Safety Spots Range" = "Промените опсег безбедносних тачака";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Promenite interval senzora";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Promeni odgovor na šejk pokret";
 
 /* No comment provided by engineer. */
@@ -644,7 +656,7 @@
 "Close" = "Zatvorite";
 
 /* No comment provided by engineer. */
-"Close By" = "Blizu";
+"Close By Threshold" = "Zatvori prag";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Kompletno konfigurisanje";
@@ -781,11 +793,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Razdaljina između %1$@ i %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Razdaljina između tačaka, treba >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Дистанце Интервал";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Udaljenost treba da >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Rastojanje bi trebalo da bude između %1$@ i %2$@";
@@ -941,7 +953,7 @@
 "Export Routes to VRB File" = "Извезите руте у ВРБ датотеку";
 
 /* No comment provided by engineer. */
-"Export to File" = "Извези у датотеку";
+"Export to VoiceVista File" = "Izvoz u VoiceVista datoteku";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Aplikacija 'Spoljne mape'";
@@ -1067,7 +1079,7 @@
 "Haptic Wand" = "Haptični štapić";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "SLUŠALICE ZA PRAĆENJE GLAVE";
+"Head Tracking Headphones" = "Slušalice za praćenje glave";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Slušalice za praćenje glave su Bluetooth slušalice sa senzorima koji govore VoiceVista-i gde se suočavate. Ovo pomaže VoiceVisti da poboljša vaše audio iskustvo, čineći ga prirodnijim dok se krećete po svetu.
@@ -1165,7 +1177,10 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Import Blindsquare Backup File" = "Uvezi datoteku rezervne kopije blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Увези из датотеке";
+"Import from Third Party File" = "Uvoz iz datoteke treće strane";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Uvoz iz VoiceVista datoteke";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Uvoz GPX datoteke";
@@ -1586,6 +1601,9 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Original" = "Originalne";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Ostali ugao";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Druga razdaljina";
 
 /* voiceSetting.others */
@@ -1703,9 +1721,6 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Preference" = "Pretraživanje";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Prelisten GPKS Track File";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Pritisnite dugme za reprodukciju na slušalicama da biste probudili VoiceVistu.";
 
 /* No comment provided by engineer. */
@@ -1728,6 +1743,9 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Previous: Ponovite poslednji poziv.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Obrada GPKS datoteke";
 
 /* No comment provided by engineer. */
 "Public Service" = "Javni servis";
@@ -1904,6 +1922,9 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Select Location from Map" = "Izaberite lokaciju sa mape";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Interval senzora";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Postavljanje svetionika";
 
 /* No comment provided by engineer. */
@@ -1947,6 +1968,9 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Signal (veoma sporo)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Simulirajte GPKS datoteku numere";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Simulacija komande";
@@ -2173,9 +2197,6 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Ovo će isključiti vaše slušalice sa VoiceVista. Odavde se možete ponovo povezati sa VoiceVistom.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Pragovi";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Do %@";
@@ -2284,6 +2305,9 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Unknown Current Location" = "Nepoznata trenutna lokacija";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Nepoznata GPKS datoteka";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Непозната локација";
 
 /* No comment provided by engineer. */
@@ -2359,7 +2383,7 @@ Dodirnite dugme ispod da biste povezali slušalice za praćenje glave.";
 "Voice volume" = "Jačina zvuka glasa";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "GLASOVI I ZVUCI";
+"Voices and Sounds" = "Glasovi i zvuci";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "VoiceVista Blog";

@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Ajustar la ubicación del waypoint";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Ajustes avanzados";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Después de agregar Atajos de Siri, podrás usar la voz para invocarlos incluso cuando VoiceVista no se esté ejecutando.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Altitud: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "El ángulo debe estar entre 5 y 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Anotación";
@@ -411,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Bancos y cajeros automáticos";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Tenga cuidado al seleccionar un pequeño intervalo de detección, ya que puede aumentar significativamente el consumo de batería en su iPhone.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Baliza";
@@ -603,6 +612,9 @@
 "Change Safety Spots Range" = "Cambiar rango de puntos de seguridad";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Cambiar el intervalo de detección";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Cambiar la acción al agitar";
 
 /* No comment provided by engineer. */
@@ -648,7 +660,7 @@
 "Close" = "Cerrar";
 
 /* No comment provided by engineer. */
-"Close By" = "Cercanía";
+"Close By Threshold" = "Cerrar por umbral";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Configuración completa";
@@ -785,11 +797,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Distancia entre %1$@ y %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Distancia entre marcadores, debería >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Intervalo de distancia";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "La distancia debe >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "La distancia debe estar entre %1$@ y %2$@";
@@ -945,7 +957,7 @@
 "Export Routes to VRB File" = "Exportar rutas a archivo VRB";
 
 /* No comment provided by engineer. */
-"Export to File" = "Exportar a archivo";
+"Export to VoiceVista File" = "Exportar a un archivo de VoiceVista";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Aplicación de mapas externa";
@@ -1071,7 +1083,7 @@
 "Haptic Wand" = "Varita háptica";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "AURICULARES DE SEGUIMIENTO DE LA CABEZA";
+"Head Tracking Headphones" = "Auriculares de seguimiento de la cabeza";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Los auriculares con seguimiento de la cabeza son auriculares Bluetooth con sensores que indican a VoiceVista hacia dónde miras. Esto ayuda a VoiceVista a mejorar su experiencia de audio, haciéndola más natural a medida que te desplazas por el mundo.
@@ -1169,7 +1181,10 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Import Blindsquare Backup File" = "Importar archivo de copia de seguridad de Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from File" = "Importar desde archivo";
+"Import from Third Party File" = "Importar desde un archivo de terceros";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Importar desde un archivo de VoiceVista";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importar archivo GPX";
@@ -1590,6 +1605,9 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Original" = "Original";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Otro ángulo";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Otra distancia";
 
 /* voiceSetting.others */
@@ -1707,9 +1725,6 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Preference" = "Preferencias";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Archivo de pista GPX de escucha previa";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Pulsa el botón de reproducción de los auriculares para activar VoiceVista.";
 
 /* No comment provided by engineer. */
@@ -1732,6 +1747,9 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Anterior: repite el último aviso.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Procesar archivo GPX";
 
 /* No comment provided by engineer. */
 "Public Service" = "Servicio público";
@@ -1908,6 +1926,9 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Select Location from Map" = "Selecciona la ubicación del mapa";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Intervalo de detección";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Establecer una baliza";
 
 /* No comment provided by engineer. */
@@ -1951,6 +1972,9 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Señal (muy lenta)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Simular archivo de pista GPX";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Comandos de simulación";
@@ -2177,9 +2201,6 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Esto desconectará los auriculares de VoiceVista. Puedes conectarte a VoiceVista de nuevo en el futuro desde aquí.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Umbrales";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "A %@";
@@ -2288,6 +2309,9 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Unknown Current Location" = "Ubicación actual desconocida";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Archivo GPX desconocido";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Ubicación desconocida";
 
 /* No comment provided by engineer. */
@@ -2363,7 +2387,7 @@ Toca el botón a continuación para conectar tus auriculares de seguimiento de c
 "Voice volume" = "Volumen de la voz";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "VOCES Y SONIDOS";
+"Voices and Sounds" = "Voces y sonidos";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "Blog de VoiceVista";

@@ -179,6 +179,9 @@
 "Adjust Waypoint Location" = "Juster placeringen af rutepunktet";
 
 /* No comment provided by engineer. */
+"Advanced Settings" = "Avancerede indstillinger";
+
+/* No comment provided by engineer. */
 "After adding Siri Shortcuts, you will be able to use your voice to invoke them even when VoiceVista is not running." = "Når du har tilføjet Genveje i Siri, kan du bruge din stemme til at starte dem, selv når VoiceVista ikke kører.";
 
 /* No comment provided by engineer. */
@@ -234,6 +237,9 @@
 
 /* No comment provided by engineer. */
 "Altitude: %@" = "Højde: %@";
+
+/* No comment provided by engineer. */
+"Angle must be between 5 and 180." = "Vinklen skal være mellem 5 og 180.";
 
 /* No comment provided by engineer. */
 "Annotation" = "Anmærkning";
@@ -411,6 +417,9 @@
 
 /* No comment provided by engineer. */
 "Banks & ATMs" = "Banker og hæveautomater";
+
+/* No comment provided by engineer. */
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Vær forsigtig, når du vælger et lille registreringsinterval, da det kan øge batteriforbruget på din iPhone betydeligt.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Lydfyr";
@@ -602,6 +611,9 @@
 "Change Safety Spots Range" = "Skift afstand til sikkerhedspunkter";
 
 /* No comment provided by engineer. */
+"Change Sensing Interval" = "Skift registreringsinterval";
+
+/* No comment provided by engineer. */
 "Change Shake Motion Response" = "Ændre styrken af vibration";
 
 /* No comment provided by engineer. */
@@ -647,7 +659,7 @@
 "Close" = "Luk";
 
 /* No comment provided by engineer. */
-"Close By" = "Tæt på";
+"Close By Threshold" = "Luk ved tærskel";
 
 /* No comment provided by engineer. */
 "Complete Configuring" = "Fuldfør konfiguration";
@@ -784,11 +796,11 @@
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Afstand mellem %1$@ og %2$@";
 
-/* %@ could be 50 meters or 150 feet */
-"Distance between waypoints, shoulde >= %@" = "Afstand mellem rutepunkter, skal være >= %@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "Afstandsinterval";
+
+/* %@ could be 10 meters or 30 feet */
+"Distance should >= %@." = "Afstanden skal >= %@.";
 
 /* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
 "Distance should be between %1$@ and %2$@" = "Afstanden skal være mellem %1$@ og %2$@";
@@ -944,7 +956,7 @@
 "Export Routes to VRB File" = "Eksporter ruter til VRB-fil";
 
 /* No comment provided by engineer. */
-"Export to File" = "Eksporter til fil";
+"Export to VoiceVista File" = "Eksporter til VoiceVista-fil";
 
 /* No comment provided by engineer. */
 "External Maps App" = "Ekstern kort-app";
@@ -1070,7 +1082,7 @@
 "Haptic Wand" = "Haptisk tryllestav";
 
 /* No comment provided by engineer. */
-"HEAD TRACKING HEADPHONES" = "HOVEDSPORENDE HØRETELEFONER";
+"Head Tracking Headphones" = "Hovedtelefoner til sporing af hoveder";
 
 /* No comment provided by engineer. */
 "Head tracking headphones are Bluetooth headphones with sensors that tell VoiceVista where you are facing. This helps VoiceVista to improve your audio experience, making it more natural as you move around in the world.\n\nTap the button below to connect your Head tracking headphones." = "Head tracking-hovedtelefoner er Bluetooth-hovedtelefoner med sensorer, der fortæller VoiceVista, hvor du står. Dette hjælper VoiceVista med at forbedre din lydoplevelse, hvilket gør den mere naturlig, når du bevæger dig rundt i verden.
@@ -1168,7 +1180,10 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Import Blindsquare Backup File" = "Importer Blindsquare sikkerhedskopifil";
 
 /* No comment provided by engineer. */
-"Import from File" = "Importer fra fil";
+"Import from Third Party File" = "Importer fra tredjepartsfil";
+
+/* No comment provided by engineer. */
+"Import from VoiceVista File" = "Importer fra VoiceVista-fil";
 
 /* No comment provided by engineer. */
 "Import GPX File" = "Importer GPX-fil";
@@ -1589,6 +1604,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Original" = "Oprindelig";
 
 /* No comment provided by engineer. */
+"Other Angle" = "Anden vinkel";
+
+/* No comment provided by engineer. */
 "Other Distance" = "Anden afstand";
 
 /* voiceSetting.others */
@@ -1706,9 +1724,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Preference" = "Præference";
 
 /* No comment provided by engineer. */
-"Prelisten GPX Track File" = "Prelisten GPX-sporfil";
-
-/* No comment provided by engineer. */
 "Press the play button on your headphones to wake up VoiceVista." = "Tryk på afspilningsknappen på dine hovedtelefoner for at vække VoiceVista.";
 
 /* No comment provided by engineer. */
@@ -1731,6 +1746,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* No comment provided by engineer. */
 "Previous: Repeat last callout." = "Forrige: Gentag sidste annoncering.";
+
+/* No comment provided by engineer. */
+"Process GPX File" = "Behandl GPX-fil";
 
 /* No comment provided by engineer. */
 "Public Service" = "Offentlig service";
@@ -1907,6 +1925,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Select Location from Map" = "Vælg Placering fra kortet";
 
 /* No comment provided by engineer. */
+"Sensing Interval" = "Registreringsinterval";
+
+/* No comment provided by engineer. */
 "Set a Beacon" = "Indstil et lydfyr";
 
 /* No comment provided by engineer. */
@@ -1950,6 +1971,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 
 /* beacon.styles.signal.very_slow */
 "Signal (Very Slow)" = "Signal (meget langsomt)";
+
+/* No comment provided by engineer. */
+"Simulate GPX Track File" = "Simuler GPX-sporfil";
 
 /* No comment provided by engineer. */
 "Simulation Commands" = "Simulering kommandoer";
@@ -2176,9 +2200,6 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "Dette afbryder forbindelsen til hovedtelefonerne fra VoiceVista. Du kan oprette forbindelse til VoiceVista igen i fremtiden herfra.";
 
-/* No comment provided by engineer. */
-"Thresholds" = "Tærskler";
-
 /* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
    Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
 "To %@" = "Til %@";
@@ -2287,6 +2308,9 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Unknown Current Location" = "Ukendt nuværende placering";
 
 /* No comment provided by engineer. */
+"Unknown GPX file" = "Ukendt GPX-fil";
+
+/* No comment provided by engineer. */
 "Unknown location" = "Ukendt placering";
 
 /* No comment provided by engineer. */
@@ -2362,7 +2386,7 @@ Tryk på knappen nedenfor for at tilslutte dine Head Tracking-hovedtelefoner.";
 "Voice volume" = "Stemmelydstyrke";
 
 /* No comment provided by engineer. */
-"VOICES AND SOUNDS" = "STEMMER OG LYDE";
+"Voices and Sounds" = "Stemmer og lyde";
 
 /* No comment provided by engineer. */
 "VoiceVista Blog" = "VoiceVista Blog";
