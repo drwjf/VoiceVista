@@ -17,7 +17,7 @@
 "%1$@ on %2$@" = "%1$@ по %2$@";
 
 /* Callouts notification, A hardware device only has a certain amount of battery remaining, %1$@ name of device %2$@ percent of battery remaining, 'VoiceVista remote only has 20 percent battery remaining.' */
-"%1$@ only has %2$@ percent battery remaining." = "У %1$@ осталось всего %2$@ процентов заряда батареи.";
+"%1$@ only has %2$@ percent battery remaining." = "У %1$@ осталось всего %2$@ % заряда батареи.";
 
 /* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
 "%1$@ was %2$@ %3$@" = "Вы прошли %1$@, %2$@ %3$@";
@@ -26,7 +26,7 @@
 "%1$@, heading to %2$@" = "%1$@, направление на %2$@";
 
 /* %@ is count of deleted backup files */
-"%@ backup files have been deleted." = "%@ резервных файлов были удалены.";
+"%@ backup files have been deleted." = "%@ файлов резервной копии были удалены.";
 
 /* Notification, %@ is the point of interest, 'Starbucks close by' */
 "%@ close by" = "%@ рядом";
@@ -41,7 +41,7 @@
 "%@ disconnected." = "%@ отвязаны.";
 
 /* %@ is the navigation transport type, such as Walking, Automobile, Transit */
-"%@ Instructions:" = "Инструкции: %@";
+"%@ Instructions:" = "Инструкции для%@ :";
 
 /* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
 "%@ Intersection" = "Перекрёсток %@";
@@ -53,7 +53,7 @@
 "%@ Markers Deleted" = "%@ меток удалено";
 
 /* No comment provided by engineer. */
-"%@ markers have been restored." = "%@ маркеров восстановлены.";
+"%@ markers have been restored." = "%@ меток восстановлено.";
 
 /* %@ is the count of imported markers */
 "%@ Markers Imported" = "%@ меток Импортировано";
@@ -122,7 +122,7 @@
 "About VoiceVista" = "О VoiceVista";
 
 /* settings.direction.style.absolute */
-"Absolute Direction" = "Абсолютное направление";
+"Absolute Direction" = "Абсолютное направление (по компасу)";
 
 /* No comment provided by engineer. */
 "Access to location is required to browse nearby intersections." = "Доступ к местоположению необходим для просмотра близлежащих перекрёстков.";
@@ -227,7 +227,7 @@
 "Allow Intersection Callouts" = "Разрешить объявления перекрёстков";
 
 /* No comment provided by engineer. */
-"Allow Road Name Callouts" = "Разрешить объявления названий дорог";
+"Allow Road Name Callouts" = "Разрешить объявление названий улиц и дорог";
 
 /* No comment provided by engineer. */
 "Along Road" = "Движение по дороге";
@@ -242,19 +242,19 @@
 "Annotation" = "Примечание";
 
 /* No comment provided by engineer. */
-"Announce hint when approaching turnpoints" = "Объявлять подсказку при приближении к поворотам";
+"Announce hint when approaching turnpoints" = "Объявлять подсказки при приближении к точкам поворотов";
 
 /* No comment provided by engineer. */
-"Announce turn instructions in advance at a specified distance." = "Заранее объявлять инструкции по повороту на указанном расстоянии.";
+"Announce turn instructions in advance at a specified distance." = "Заранее объявлять навигационные инструкции на указанном расстоянии до поворотов.";
 
 /* No comment provided by engineer. */
-"Announcing Interval" = "Объявление интервала";
+"Announcing Interval" = "Интервал объявлений";
 
 /* No comment provided by engineer. */
-"Announcing Intervals" = "Объявление интервалов";
+"Announcing Intervals" = "Интервалы объявлений";
 
 /* No comment provided by engineer. */
-"Announcing Options" = "Объявление вариантов";
+"Announcing Options" = "Параметры объявлений";
 
 /* Type 4 for navigation transport */
 "Any" = "Любой";
@@ -311,7 +311,7 @@
 "Arrive at the beacon" = "Прибытие к маяку";
 
 /* settings.arrival.style.arrived */
-"Arrived" = "Прибыл";
+"Arrived" = "Прибытие";
 
 /* Notification, %@ is a point of interest, 'At Starbucks' */
 "At %@" = "У %@";
@@ -395,7 +395,7 @@
 "Automobile" = "Автомобиль";
 
 /* Motion status: automotive */
-"Automotive" = "На автомобиле";
+"Automotive" = "Езда на транспорте";
 
 /* No comment provided by engineer. */
 "Avoid Highways" = "Избегать автомагистралей";
@@ -416,7 +416,7 @@
 "Banks & ATMs" = "Банки и банкоматы";
 
 /* No comment provided by engineer. */
-"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "Будьте осторожны при выборе небольшого интервала срабатывания, так как это может значительно увеличить расход заряда батареи на вашем iPhone.";
+"Be cautious when selecting a small sensing interval, as it can significantly increase battery consumption on your iPhone." = "С осторожностью задавайте небольшой диапазон обнаружения, поскольку это может значительно увеличить потребление заряда аккумулятора вашего iPhone.";
 
 /* No comment provided by engineer. */
 "Beacon" = "Маяк";
@@ -425,7 +425,7 @@
 "Beacon %@ started" = "Маяк %@ запущен";
 
 /* No comment provided by engineer. */
-"Beacon Arrived" = "Прибыл к маяку";
+"Beacon Arrived" = "Прибытие к маяку";
 
 /* beaconSetting.audioStyle */
 "BEACON AUDIO STYLES" = "СТИЛИ ЗВУКА МАЯКА";
@@ -434,7 +434,7 @@
 "Beacon Distance" = "Расстояние до маяка";
 
 /* beaconSetting.hapticStyle */
-"BEACON HAPTIC STYLES" = "ТАКТИЛЬНЫЕ СТИЛИ МАЯКОВ";
+"BEACON HAPTIC STYLES" = "Стили тактильного отклика маяка";
 
 /* No comment provided by engineer. */
 "Beacon Not Started" = "Маяк не запущен";
@@ -443,7 +443,7 @@
 "Beacon on %@" = "Маяк у %@";
 
 /* No comment provided by engineer. */
-"BEACON SENSING RANGES" = "ДИАПАЗОНЫ СРАБАТЫВАНИЯ МАЯКОВ";
+"BEACON SENSING RANGES" = "Диапазон обнаружения маяка";
 
 /* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
 "Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "Маяк установлен у %1$@, на расстоянии %2$@, %3$@ из %4$@";
@@ -467,7 +467,7 @@
 "Beacon volume" = "Громкость маяка";
 
 /* Notification, Beacon location nearby. Audio beacon has been muted. */
-"Beacon within %@. Audio beacon has been muted" = "Маяк в %@. Звук маяка отключён";
+"Beacon within %@. Audio beacon has been muted" = "Маяк на расстоянии %@. Звук маяка отключён";
 
 /* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "Перед подключением наушников к VoiceVista убедитесь, что они сопряжены с вашим телефоном. Если они ещё не сопряжены, перейдите в раздел Bluetooth в приложении «Настройки» iOS, чтобы выполнить сопряжение устройства, а затем вернитесь в VoiceVista.";
@@ -500,13 +500,13 @@
 "Breadcrumb Waypoint Recorded" = "Путевая точка 'навигационной цепочки' записана";
 
 /* No comment provided by engineer. */
-"Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "Навигационная цепочка (она же Хлебные крошки) представляет собой серию записанных путевых точек, которые отслеживают путь. Эти путевые точки сродни следу из хлебных крошек, оставленному Гензелем и Гретель в знаменитой сказке, отсюда и название.";
+"Breadcrumbs here are a series of recorded waypoints that track the path. These waypoints are akin to the trail of breadcrumbs left by Hansel and Gretel in the famous fairy tale, hence the name." = "Навигационная цепочка (она же Хлебные крошки) представляет собой серию записанных путевых точек, соответствующих пройденному пути. Они сродни следу из хлебных крошек, оставленному Гензелем и Гретель в знаменитой сказке, отсюда и название.";
 
 /* No comment provided by engineer. */
 "Building the nearby intersection list may take some time. If no data is available at the moment, please try again later." = "Создание списка ближайших перекрёстков может занять некоторое время. Если в настоящее время данные недоступны, повторите попытку позже.";
 
 /* No comment provided by engineer. */
-"Bus Stops" = "Автобусные остановки";
+"Bus Stops" = "Остановки";
 
 /* No comment provided by engineer. */
 "Calculate a New Route" = "Расчёт нового маршрута";
@@ -527,7 +527,7 @@
 "Call Phone" = "Позвонить";
 
 /* %@ is a phone number */
-"Call Telephone: %@" = "Номер телефона: %@";
+"Call Telephone: %@" = "Позвонить по номеру: %@";
 
 /* callouts.callouts_off */
 "Callouts Off" = "Объявления отключены";
@@ -536,7 +536,7 @@
 "Callouts On" = "Объявления включены";
 
 /* No comment provided by engineer. */
-"Callouts Only When in Surroundings Tab" = "Объявления только во вкладке «Окрестности»";
+"Callouts Only When in Surroundings Tab" = "Автоматические объявления только на вкладке «Окрестности»";
 
 /* general.alert.cancel */
 "Cancel" = "Отменить";
@@ -545,70 +545,70 @@
 "Cancel Connecting" = "Отменить подключение";
 
 /* No comment provided by engineer. */
-"Category of the POI" = "Категория точек интереса";
+"Category of the POI" = "Категория точки интереса";
 
 /* %@ is POI category, for example, Restaurant or Bank */
 "Category: %@" = "Категория: %@";
 
 /* No comment provided by engineer. */
-"Change Beacon Auto-Mute Distance" = "Изменить расстояния автоматического отключения маяка";
+"Change Beacon Auto-Mute Distance" = "Изменить расстояния автоматического отключения звука маяка";
 
 /* No comment provided by engineer. */
-"Change Beacon Auto-Unmute Distance" = "Изменение расстояния автоматического включения звука маяка";
+"Change Beacon Auto-Unmute Distance" = "Изменить расстояние автоматического включения звука маяка";
 
 /* No comment provided by engineer. */
-"Change Bus Stops Range" = "Изменить диапазон автобусных остановок";
+"Change Bus Stops Range" = "Изменить расстояние объявления остановок";
 
 /* No comment provided by engineer. */
-"Change Close By Threshold" = "Изменить пороговое значение закрытия";
+"Change Close By Threshold" = "Изменить порог приближения";
 
 /* No comment provided by engineer. */
-"Change Direction Style" = "Изменение стиля направления";
+"Change Direction Style" = "Изменить стиль объявления направлений";
 
 /* No comment provided by engineer. */
 "Change External Maps App" = "Изменить приложение внешних карт";
 
 /* No comment provided by engineer. */
-"Change GPS Information Distance Interval" = "Изменение интервала расстояния информации GPS";
+"Change GPS Information Distance Interval" = "Изменить интервал объявления информации GPS по расстоянию";
 
 /* No comment provided by engineer. */
-"Change House Number Distance Interval" = "Изменить интервал расстояния между номерами домов";
+"Change House Number Distance Interval" = "Изменить интервал объявления номеров домов по расстоянию";
 
 /* No comment provided by engineer. */
-"Change Information Points Range" = "Изменить диапазон информации точек";
+"Change Information Points Range" = "Изменить дистанцию объявления для категории \"информация\"";
 
 /* No comment provided by engineer. */
-"Change Landmarks Range" = "Изменить диапазон ориентиров";
+"Change Landmarks Range" = "Изменить дистанцию объявления для категории \"ориентиры\"";
 
 /* No comment provided by engineer. */
-"Change Mobility Facilities Range" = "Изменить диапазон мобильных средств";
+"Change Mobility Facilities Range" = "Изменить дистанцию объявления для категории\"Мобильность\"";
 
 /* No comment provided by engineer. */
-"Change Objects Range" = "Изменить диапазон объектов";
+"Change Objects Range" = "Изменить дистанцию объявления для категории \"объекты\"";
 
 /* No comment provided by engineer. */
 "Change or Remove" = "Изменить или удалить";
 
 /* No comment provided by engineer. */
-"Change Pedestrian Crossings Range" = "Изменить диапазон пешеходных переходов";
+"Change Pedestrian Crossings Range" = "Изменить дистанцию объявления для категории\"пешеходные переходы\"";
 
 /* No comment provided by engineer. */
-"Change Places Range" = "Изменить диапазон мест";
+"Change Places Range" = "Изменить дистанцию объявления для категории\"места\"";
 
 /* No comment provided by engineer. */
-"Change Road Information Distance Interval" = "Изменить дорожную информацию Расстояние Интервал";
+"Change Road Information Distance Interval" = "Изменить интервал объявления информации о дороге по расстоянию";
 
 /* No comment provided by engineer. */
-"Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Измените параметр ссылок ротора в настройках ярлыков, чтобы скрыть «Ближайшие точки интереса» и аналогичные ссылки на вкладке «Метки».";
+"Change rotor links option in Shortcuts Settings to hide 'Nearby POIs' and similar links in the Markers tab." = "Измените параметры ротора в настройках быстрых действий, чтобы на вкладке» метки "скрыть" ближайшие точки интереса " и аналогичные объекты.";
 
 /* No comment provided by engineer. */
-"Change rotor links option in Shortcuts Settings to show 'Nearby POIs' and similar links in the Markers tab." = "Измените параметр ссылок ротора в настройках ярлыков, чтобы отображать «Ближайшие точки интереса» и аналогичные ссылки на вкладке «Метки».";
+"Change rotor links option in Shortcuts Settings to show 'Nearby POIs' and similar links in the Markers tab." = "Измените параметры ротора в настройках быстрых действий, чтобы на вкладке» метки "показать" ближайшие точки интереса " и аналогичные объекты.";
 
 /* No comment provided by engineer. */
-"Change Safety Spots Range" = "Изменить диапазон точек безопасности";
+"Change Safety Spots Range" = "Изменить дистанцию объявления для категории\"Безопасность\"";
 
 /* No comment provided by engineer. */
-"Change Sensing Interval" = "Изменение интервала срабатывания";
+"Change Sensing Interval" = "Изменить интервал обнаружения";
 
 /* No comment provided by engineer. */
 "Change Shake Motion Response" = "Изменить реакцию на встряхивание";
@@ -617,10 +617,10 @@
 "Change Turnpoint Sensing Distance" = "Изменение расстояния определения точки поворота";
 
 /* No comment provided by engineer. */
-"Change Units of Measure" = "Сменить систему измерения";
+"Change Units of Measure" = "Изменить единицы измерения";
 
 /* No comment provided by engineer. */
-"Change Waypoint Sensing Distance" = "Изменение расстояния обнаружения путевой точки";
+"Change Waypoint Sensing Distance" = "Изменить расстояние переключения  путевых точек";
 
 /* No comment provided by engineer. */
 "Chat Group" = "Присоединиться к группе в WhatsApp";
@@ -638,7 +638,7 @@
 "Clear" = "Очистить";
 
 /* No comment provided by engineer. */
-"Clear Backup Files" = "Очистить резервные копии файлов";
+"Clear Backup Files" = "Очистить файлы резервных копий";
 
 /* No comment provided by engineer. */
 "Clear Stored Map Data" = "Очистить сохранённые данные карт";
@@ -650,19 +650,19 @@
 "Clear text" = "Очистить текст";
 
 /* settings.direction.style.clock */
-"Clock Position" = "Положение на циферблате часов";
+"Clock Position" = "По циферблату часов";
 
 /* No comment provided by engineer. */
 "Close" = "Закрыть";
 
 /* No comment provided by engineer. */
-"Close By Threshold" = "Близкое пороговое значение";
+"Close By Threshold" = "Порог приближения";
 
 /* No comment provided by engineer. */
-"Complete Configuring" = "Завершить настройку";
+"Complete Configuring" = "Полная настройка";
 
 /* No comment provided by engineer. */
-"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "Полные снимки маркеров и маршрутов сохраняются в отдельных файлах резервных копий всякий раз, когда вы их добавляете или удаляете. Вы можете восстановить эти резервные копии, если ваши данные iCloud будут утеряны из-за проблем с синхронизацией.";
+"Complete snapshots of markers and routes are saved to separate backup files whenever you add or remove them. You can restore these backups if your iCloud data is lost due to synchronization issues." = "При каждом добавлении или удалении меток и маршрутов полные резервные копии этих элементов сохраняются в отдельных файлах. Вы можете восстановить данные из этих резервных копий, если данные iCloud будут потеряны из-за проблем с синхронизацией.";
 
 /* No comment provided by engineer. */
 "Congratulations! Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista will now track the direction of your head so you do not need to hold the phone in your hand. A single click on the headphones button will mute or unmute the beacon, double click will callout your location, and a triple click will repeat the last callout." = "Поздравляем! Ваши AirPods готовы к использованию, вы можете положить телефон в карман и отправиться в путь! VoiceVista теперь будет отслеживать направление вашей головы, поэтому вам не нужно держать телефон в руках. Одно нажатие кнопки наушников отключит или включит звук маяка, двойное нажатие укажет ваше местоположение, а тройное нажатие повторит последнее объявление.";
@@ -707,7 +707,7 @@
 "Current Location Unknown" = "Текущее местоположение неизвестно";
 
 /* %@ is index number of the current waypoint in the route */
-"Current waypoint index: %@ ." = "Индекс текущей путевой точки: %@ .";
+"Current waypoint index: %@ ." = "Номер текущей путевой точки: %@ .";
 
 /* %@ is the current waypoint name */
 "Current waypoint name: %@ ." = "Имя текущей путевой точки: %@ .";
@@ -764,7 +764,7 @@
 "Details of Route %@" = "Подробности маршрута %@";
 
 /* No comment provided by engineer. */
-"Digit By Digit" = "Цифра за цифрой";
+"Digit By Digit" = "По цифрам";
 
 /* No comment provided by engineer. */
 "Direction Style" = "Стиль направления";
@@ -788,13 +788,13 @@
 "Distance and direction to the beacon" = "Расстояние и направление до маяка";
 
 /* No comment provided by engineer. */
-"Distance and Direction to the POI" = "Расстояние и направление до точек интереса";
+"Distance and Direction to the POI" = "Расстояние и направление до точки интереса";
 
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
-"Distance between %1$@ and %2$@" = "Расстояние между %1$@ и %2$@";
+"Distance between %1$@ and %2$@" = "Расстояние от %1$@ до %2$@";
 
 /* No comment provided by engineer. */
-"Distance Interval" = "Расстояние Интервал";
+"Distance Interval" = "Интервал по расстоянию";
 
 /* %@ could be 10 meters or 30 feet */
 "Distance should >= %@." = "Расстояние должно >= %@.";
@@ -809,7 +809,7 @@
 "Distance: %@ ." = "Расстояние: %@ .";
 
 /* No comment provided by engineer. */
-"Distribute Waypoints Based on Distance" = "Распределение точек маршрута на основе расстояния";
+"Distribute Waypoints Based on Distance" = "Распределение путевых точек по расстоянию";
 
 /* No comment provided by engineer. */
 "Do you want to replace it? Replacing this route will also replace the waypoints used in this route." = "Хотите заменить? При этом будут заменены путевые точки, используемые в этом маршруте.";
@@ -872,25 +872,25 @@
 "Drag the map to change the coordinates" = "Перетащите карту, чтобы изменить координаты";
 
 /* No comment provided by engineer. */
-"Driving Scenario" = "Сценарий вождения";
+"Driving Scenario" = "Режим 'Транспорт'";
 
 /* beacon.styles.drop */
 "Drop" = "Падение";
 
 /* No comment provided by engineer. */
-"Dynamically simulate your virtual location using track points from a GPX file." = "Динамически моделируйте свое виртуальное местоположение с помощью точек трекинга из файла GPX.";
+"Dynamically simulate your virtual location using track points from a GPX file." = "Динамически имитируйте ваше виртуальное местоположение, используя точки отслеживания из файла GPX.";
 
 /* directions.cardinal.east */
 "East" = "Восток";
 
 /* No comment provided by engineer. */
-"Edit Marker Name" = "Изменить название метки";
+"Edit Marker Name" = "Редактировать название метки";
 
 /* No comment provided by engineer. */
-"Edit Route Name" = "Изменить название маршрута";
+"Edit Route Name" = "Редактировать название маршрута";
 
 /* No comment provided by engineer. */
-"Edit Waypoint Name" = "Изменить название путевой точки";
+"Edit Waypoint Name" = "Редактировать название путевой точки";
 
 /* No comment provided by engineer. */
 "Edit Waypoints" = "Редактировать путевые точки";
@@ -914,10 +914,10 @@
 "Enjoy and have fun!" = "Наслаждайтесь и получайте удовольствие!";
 
 /* No comment provided by engineer. */
-"Enqueue If Other Callouts Active" = "Поставить в очередь, если активны другие вызовы";
+"Enqueue If Other Callouts Active" = "Ставить в очередь, если активны другие объявления";
 
 /* No comment provided by engineer. */
-"Enter and Exit Sound Effects" = "Вход и выход из звуковых эффектов";
+"Enter and Exit Sound Effects" = "Звуковые эффекты начала и завершения";
 
 /* search.placeholder */
 "Enter text to search for places" = "Что искать?";
@@ -932,7 +932,7 @@
 "Error Occurred" = "Возникла ошибка";
 
 /* No comment provided by engineer. */
-"Expert Settings" = "Экспертные настройки";
+"Expert Settings" = "Расширенные настройки";
 
 /* No comment provided by engineer. */
 "Experts can hide hint footers and redundant rotor links to reduce distractions." = "Эксперты могут скрыть подсказки и избыточные звенья ротора, чтобы уменьшить отвлекающие факторы.";
@@ -944,16 +944,16 @@
 "Explore Nearby" = "Исследуйте поблизости";
 
 /* No comment provided by engineer. */
-"Exploring Scenario" = "Изучение сценария";
+"Exploring Scenario" = "Режим 'Исследования'";
 
 /* No comment provided by engineer. */
 "Export and Import" = "Экспорт и импорт";
 
 /* No comment provided by engineer. */
-"Export Markers to GPX File" = "Экспорт маркеров в файл GPX";
+"Export Markers to GPX File" = "Экспорт меток в файл GPX";
 
 /* No comment provided by engineer. */
-"Export Markers to VMB File" = "Экспорт маркеров в файл VMB";
+"Export Markers to VMB File" = "Экспорт меток в файл VMB";
 
 /* No comment provided by engineer. */
 "Export Routes to VRB File" = "Экспорт маршрутов в файл VRB";
@@ -1046,7 +1046,7 @@
 "Getting things ready..." = "Подготовка...";
 
 /* No comment provided by engineer. */
-"Go" = "Идти";
+"Go" = "Вперёд";
 
 /* settings.googleMaps */
 "Google Maps" = "Google карты";
@@ -1070,7 +1070,7 @@
 "GPX Track Simulation" = "Симуляция трека GPX";
 
 /* No comment provided by engineer. */
-"Groceries" = "Продукты питания";
+"Groceries" = "Торговля";
 
 /* No comment provided by engineer. */
 "Group Discussions" = "Вступить в e-mail группу";
@@ -1138,7 +1138,7 @@
 "HINT SOUNDS" = "ЗВУКОВЫЕ ПОДСКАЗКИ";
 
 /* No comment provided by engineer. */
-"House Number Settings" = "Настройки номера дома";
+"House Number Settings" = "Настройки информации о номерах домов";
 
 /* No comment provided by engineer. */
 "How does this sound?" = "Это тестовое сообщение для данной конфигурации.";
@@ -1153,10 +1153,10 @@
 "How would you like to generate a route from the GPX file?" = "Как бы вы хотели сгенерировать маршрут из файла GPX?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you! '%@;'" = "Я поделился с вами меткой VoiceVista! '%@;'";
+"I've shared a VoiceVista marker with you! '%@;'" = "Это моя метка из приложения VoiceVista! '%@;'";
 
 /* Message to display alongside a URL that can be used to import a route. */
-"I've shared a VoiceVista route with you! '%@'" = "Я поделился с вами маршрутом VoiceVista! '%@'";
+"I've shared a VoiceVista route with you! '%@'" = "Это мой маршрут из приложения VoiceVista! '%@'";
 
 /* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "Хранилище iCloud для этого приложения заполнено. Для создания новой метки необходимо освободить место, удалив некоторые из существующих меток.";
@@ -1168,7 +1168,7 @@
 "If you are unable to grant Motion & Fitness permission for VoiceVista, you may have disabled it for all apps. Please open the Settings app, navigate to Privacy & Security, find Motion & Fitness, and check the status of Fitness Tracking." = "Если вы не можете предоставить разрешение на Движение и фитнес для VoiceVista, возможно, вы отключили его для всех приложений. Откройте приложение «Настройки», перейдите в раздел «Конфиденциальность и безопасность», найдите «Движение и фитнес» и проверьте статус отслеживания фитнеса.";
 
 /* No comment provided by engineer. */
-"If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Если вы не нашли здесь свой вопрос, пожалуйста, посетите App Store, чтобы оставить комментарий. Ваш вопрос будет рассмотрен в App Store, и  может быть, будет выбран для включения в список чаво.";
+"If you didn't find your question here, please visit the App Store to leave a comment. Your question will be addressed in the App Store, and it may be selected for inclusion in the FAQ." = "Если вы не нашли здесь свой вопрос, пожалуйста, посетите App Store, чтобы оставить отзыв. Ваш вопрос будет рассмотрен в App Store, и  может быть, будет выбран для включения в список чаво.";
 
 /* No comment provided by engineer. */
 "If you've enabled media controls in the shortcuts settings, press the play button on your headphones to wake up VoiceVista." = "Если вы включили управление мультимедиа в настройках быстрых действий, нажмите на наушниках кнопку воспроизведения , чтобы вывести VoiceVista из спящего режима.";
@@ -1180,13 +1180,13 @@
 "If you've enabled media controls in the shortcuts settings, you can press the play/pause button on your headphones to drop a breadcrumb marker as well." = "Если вы включили элементы управления мультимедиа в настройках быстрых действий, вы можете нажать кнопку воспроизведения/паузы на наушниках, чтобы добавить метку навигационной цепочки.";
 
 /* settings.general.units.feet */
-"Imperial (Feet)" = "Британская (футы)";
+"Imperial (Feet)" = "Британские (футы)";
 
 /* No comment provided by engineer. */
 "Import Blindsquare Backup File" = "Импорт файла резервной копии Blindsquare";
 
 /* No comment provided by engineer. */
-"Import from Third Party File" = "Импорт из файла третьей стороны";
+"Import from Third Party File" = "Импорт из стороннего файла";
 
 /* No comment provided by engineer. */
 "Import from VoiceVista File" = "Импорт из файла VoiceVista";
@@ -1195,7 +1195,7 @@
 "Import GPX File" = "Импорт файла GPX";
 
 /* No comment provided by engineer. */
-"Import Markers from VMB File" = "Импорт маркеров из файла VMB";
+"Import Markers from VMB File" = "Импорт меток из файла VMB";
 
 /* No comment provided by engineer. */
 "Import Route from VVR File" = "Импорт маршрута из файла VVR";
@@ -1210,7 +1210,7 @@
 "Import Track as a Route" = "Импортировать трек как маршрут";
 
 /* No comment provided by engineer. */
-"Import Waypoints as Markers" = "Импорт точек маршрута в качестве маркеров";
+"Import Waypoints as Markers" = "Импорт точек маршрута в качестве меток";
 
 /* voiceSetting.in_vehicle_rate */
 "IN VEHICLE SPEAKING RATE" = "Скорость речи в транспортном средстве";
