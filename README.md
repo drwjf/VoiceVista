@@ -7,7 +7,7 @@
 - Danish translation contributed by Claus Thøgersen.
 - Dutch translation contributed by Jesse Wienholts.
 - Estonian translation contributed by Artur Räpp.
-- French translation contributed by Saladeuh.
+- French translation contributed by Saladeuh and Boris Daix.
 - German translation contributed by Sandra Pilz, Jeremy Congdon and Sharo.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
 - Polish translation contributed by [Przemyslaw Rogalski](https://twitter.com/Rogalenko).
