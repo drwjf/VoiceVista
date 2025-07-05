@@ -10,6 +10,7 @@
 - French translation contributed by Saladeuh and Boris Daix.
 - German translation contributed by Sandra Pilz, Jeremy Congdon and Sharo.
 - Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
+- Norwegain translation contributed by SuperCliff.
 - Polish translation contributed by [Przemyslaw Rogalski](https://twitter.com/Rogalenko).
 - Portuguese (Portugal) translation contributed by Sara von Glasenapp. 
 - Russian translation contributed by Danil Kostenkov.
