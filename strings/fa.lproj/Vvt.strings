@@ -1,108 +1,3 @@
-/* Notification, %1$@ is a point of interest and %2$@ is distance with units, '<Starbucks> about <5 meters>' */
-"%1$@ about %2$@" = "%1$@ در حدود %2$@";
-
-/* Notification, %1$@ is a point of interest and %2$@ is the distance with units, '<Starbucks> around <5 meters>' */
-"%1$@ around %2$@" = "%1$@ در حوالی %2$@";
-
-/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, %3$@ is the orientation, '<Starbucks> is <5 meters> <ahead to the left>' */
-"%1$@ is %2$@ %3$@" = "%1$@ در فاصله %2$@ %3$@ قرار دارد";
-
-/* Notification, %1$@ is the point of interest, %2$@ is the distance with units, '<Starbucks> is <5 meters> away' */
-"%1$@ is %2$@ away" = "%1$@ در فاصله %2$@ قرار دارد";
-
-/* Accessibility Text displayed for when a route ends but the route was not completed, %1$@ is the number of waypoints reached, %2$@ the total number of waypoints, %3$@ is the number of waypoints remaining, '1 of 3 Waypoints Reached, 1 Remaining' */
-"%1$@ of %2$@ Waypoints Reached, %3$@ Remaining" = "%1$@ از %2$@ نقطه مسیر طی شد، %3$@ باقی مانده است";
-
-/* Label to display when the user is facing a road that they can travel down, %1$@ is the cardinal direction and %2$@ is the name of the road that they can travel down, 'SW on Main Street' */
-"%1$@ on %2$@" = "%1$@ در %2$@";
-
-/* Callouts notification, A hardware device only has a certain amount of battery remaining, %1$@ name of device %2$@ percent of battery remaining, 'VoiceVista remote only has 20 percent battery remaining.' */
-"%1$@ only has %2$@ percent battery remaining." = "باتری %1$@ تنها %2$@ درصد باقی مانده است.";
-
-/* Notification past tense, %1$@ is the point of interest, %2$@ is the distance with units and %3$@ is the orientation, '<Starbucks> was <5 meters> <to the left>' */
-"%1$@ was %2$@ %3$@" = "%1$@ در فاصله %2$@ %3$@ قرار داشت";
-
-/* Callout that occurs when a user is pointing their phone down an available road, %1$@ is the name of the road, %2$@ is the cardinal direction it moves away in, '9th Ave North, heading to south' */
-"%1$@, heading to %2$@" = "%1$@، به سمت %2$@";
-
-/* %@ is count of deleted backup files */
-"%@ backup files have been deleted." = "%@ فایل پشتیبان حذف شده است.";
-
-/* Notification, %@ is the point of interest, 'Starbucks close by' */
-"%@ close by" = "%@ نزدیک است";
-
-/* Callout for when an AR headset has been connected, %@ device name, 'AirPods Pro connected.' */
-"%@ connected." = "%@ متصل شد.";
-
-/* No comment provided by engineer. */
-"%@ degrees" = "%@ درجه";
-
-/* Callout for when an AR headset disconnects, %@ device name, 'AirPods Pro disconnected.' */
-"%@ disconnected." = "اتصال %@ قطع شد.";
-
-/* %@ is the navigation transport type, such as Walking, Automobile, Transit */
-"%@ Instructions:" = "دستورالعمل‌های %@:";
-
-/* Notification, %@ will be a localized string with two or more roads, '<Alfred Street and High Street> Intersection' or '<Alfred Street, High Street and Pike Street> Intersection' */
-"%@ Intersection" = "تقاطع %@";
-
-/* Callout indicating a waypoint is nearby, %@ waypoint name, 'Some Place is nearby' */
-"%@ is nearby" = "%@ در این نزدیکی است";
-
-/* %@ is count of deleted markers */
-"%@ Markers Deleted" = "%@ نشانگر حذف شد";
-
-/* No comment provided by engineer. */
-"%@ markers have been restored." = "%@ نشانگر بازیابی شده است.";
-
-/* %@ is the count of imported markers */
-"%@ Markers Imported" = "%@ نشانگر وارد شد";
-
-/* %@ is count of imported markers */
-"%@ Markers Imported from Blindsquare Backup" = "%@ نشانگر از پشتیبان BlindSquare وارد شد";
-
-/* %@ is count of imported markers */
-"%@ Markers Imported from GPX File" = "%@ نشانگر از فایل GPX وارد شد";
-
-/* No comment provided by engineer. */
-"%@ minutes" = "%@ دقیقه";
-
-/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"%@ roundabout" = "میدان %@";
-
-/* %@ is count of calculated routes */
-"%@ routes calculated" = "%@ مسیر محاسبه شد";
-
-/* %@ is count of deleted routes */
-"%@ Routes Deleted" = "%@ مسیر حذف شد";
-
-/* No comment provided by engineer. */
-"%@ routes have been restored." = "%@ مسیر بازیابی شده است.";
-
-/* %@ is the count of imported routes */
-"%@ Routes Imported" = "%@ مسیر وارد شد";
-
-/* %@ to indicate the number of seconds between some announcements */
-"%@ seconds" = "%@ ثانیه";
-
-/* directions.name_continues_ahead */
-"%@, continues ahead" = "%@، مستقیم ادامه می‌یابد";
-
-/* Notification, %@ street name, '<Pike Street>, continues ahead in roundabout' */
-"%@, continues ahead in roundabout" = "%@، در میدان مستقیم ادامه می‌یابد";
-
-/* Notification, %@ street name, '<Pike Street>, goes left' */
-"%@, goes left" = "%@، به چپ می‌رود";
-
-/* Notification, %@ street name, '<Pike Street>, goes left in roundabout' */
-"%@, goes left in roundabout" = "%@، در میدان به چپ می‌رود";
-
-/* Notification, %@ street name, '<Pike Street>, goes right' */
-"%@, goes right" = "%@، به راست می‌رود";
-
-/* Notification, %@ street name, '<Pike Street>, goes right in roundabout' */
-"%@, goes right in roundabout" = "%@، در میدان به راست می‌رود";
-
 /* No comment provided by engineer. */
 "'Reset' will revert the app to its freshly installed state, and this action cannot be undone!" = "«بازنشانی» برنامه را به حالت اولیه نصب بازمی‌گرداند و این عمل قابل بازگشت نیست!";
 
@@ -126,9 +21,6 @@
 
 /* No comment provided by engineer. */
 "Access to location is required to browse nearby intersections." = " برای مرور تقاطع‌های نزدیک، دسترسی به موقعیت مکانی لازم است.";
-
-/* No comment provided by engineer. */
-"Accuracy: %@" = "دقت: %@";
 
 /* No comment provided by engineer. */
 "Activity" = "فعالیت";
@@ -191,12 +83,6 @@
 "ahead to the right" = "جلوتر به سمت راست";
 
 /* No comment provided by engineer. */
-"Alert distance: %@" = "فاصله هشدار: %@";
-
-/* %@ is marker name when location is in range of alert distance */
-"Alert: %@" = "هشدار: %@";
-
-/* No comment provided by engineer. */
 "All derived data is based on the test location because permission to access your real location was not granted." = "تمام داده‌های استنتاجی بر اساس مکان آزمایشی است زیرا مجوز دسترسی به مکان واقعی شما اعطا نشده است.";
 
 /* No comment provided by engineer. */
@@ -222,9 +108,6 @@
 
 /* No comment provided by engineer. */
 "Along Road" = "در امتداد جاده";
-
-/* No comment provided by engineer. */
-"Altitude: %@" = "ارتفاع: %@";
 
 /* No comment provided by engineer. */
 "Angle must be between 5 and 180." = "زاویه باید بین ۵ و ۱۸۰ باشد.";
@@ -262,18 +145,6 @@
 /* settings.appleMpas */
 "Apple Maps" = "نقشه اپل";
 
-/* Notification, %1$@ is the road and %2$@ is a number, 'Approaching <Pike Street> roundabout with <3> exits' */
-"Approaching %1$@ roundabout with %2$@ exits" = "در حال نزدیک شدن به میدان %1$@ با %2$@ خروجی";
-
-/* Notification, %1$@ is the name and %2$@ is a number, 'Approaching <Dupont Cirle Roundabout> with <3> exits' */
-"Approaching %1$@ with %2$@ exits" = "در حال نزدیک شدن به %1$@ با %2$@ خروجی";
-
-/* Notification, %@ is a point of interest, 'Approaching <Starbucks>' */
-"Approaching %@" = "در حال نزدیک شدن به %@";
-
-/* Notification, %@ is the name, 'Approaching <Pike Street> roundabout' */
-"Approaching %@ roundabout" = "در حال نزدیک شدن به میدان %@";
-
 /* preview.callout.approach.end */
 "Approaching end of road" = "در حال نزدیک شدن به انتهای جاده";
 
@@ -303,9 +174,6 @@
 
 /* settings.arrival.style.arrived */
 "Arrived" = "رسیده";
-
-/* Notification, %@ is a point of interest, 'At Starbucks' */
-"At %@" = "در %@";
 
 /* Directions using 1  o'clock position. */
 "at 1 o'clock" = "در ساعت ۱";
@@ -415,9 +283,6 @@
 /* No comment provided by engineer. */
 "Beacon" = "بیکن";
 
-/* Noticafcation when start a beacon. %@ is beacon name */
-"Beacon %@ started" = "بیکن %@ شروع شد";
-
 /* No comment provided by engineer. */
 "Beacon Arrived" = "بیکن رسیده";
 
@@ -433,17 +298,8 @@
 /* No comment provided by engineer. */
 "Beacon Not Started" = "بیکن شروع نشده است";
 
-/* Notification, %@ is a location, 'Beacon on <Some Place>' */
-"Beacon on %@" = "بیکن روی %@";
-
 /* No comment provided by engineer. */
 "BEACON SENSING RANGES" = "محدوده‌های سنجش بیکن";
-
-/* Callout indicating the current waypoint has changed, %1$@ waypoint name, %2$@ distance to waypoint, %3$@ waypoint index, %4$@ total number of waypoints.  'Beacon set on control 1. 450 feet away. 1 of 4.' */
-"Beacon set on %1$@, %2$@ away, %3$@ of %4$@" = "بیکن روی %1$@ تنظیم شد، %2$@ فاصله، %3$@ از %4$@";
-
-/* Callout indicating the current waypoint has changed (without distance), %1$@ waypoint name, %2$@ waypoint index, %3$@ total number of waypoints. 'Beacon set on control 1. 1 of 4' */
-"Beacon set on %1$@, %2$@ of %3$@" = "بیکن روی %1$@ تنظیم شد، %2$@ از %3$@";
 
 /* No comment provided by engineer. */
 "Beacon Settings" = "تنظیمات بیکن";
@@ -459,9 +315,6 @@
 
 /* No comment provided by engineer. */
 "Beacon volume" = "حجم صدای بیکن";
-
-/* Notification, Beacon location nearby. Audio beacon has been muted. */
-"Beacon within %@. Audio beacon has been muted" = "بیکن در محدوده %@. بیکن صوتی بی‌صدا شده است";
 
 /* No comment provided by engineer. */
 "Before connecting your headphones to VoiceVista, be sure it is paired to your phone. If it is not yet paired, go to the Bluetooth section in the iOS Settings app to pair your device and then return to VoiceVista." = "قبل از اتصال هدفون به VoiceVista، مطمئن شوید که با گوشی شما جفت شده باشد. اگر هنوز جفت نشده است، به بخش بلوتوث در تنظیمات iOS بروید تا دستگاه خود را جفت کرده و سپس به VoiceVista بازگردید.";
@@ -508,9 +361,6 @@
 /* No comment provided by engineer. */
 "Call Phone" = "تماس با تلفن";
 
-/* %@ is a phone number */
-"Call Telephone: %@" = "تماس با تلفن: %@";
-
 /* callouts.callouts_off */
 "Callouts Off" = "اعلان‌های صوتی خاموش";
 
@@ -528,9 +378,6 @@
 
 /* No comment provided by engineer. */
 "Category of the POI" = "دسته نقطه مورد علاقه";
-
-/* %@ is POI category, for example, Restaurant or Bank */
-"Category: %@" = "دسته: %@";
 
 /* No comment provided by engineer. */
 "Change Beacon Auto-Mute Distance" = "تغییر فاصله بی‌صدا کردن خودکار بیکن";
@@ -655,15 +502,6 @@
 /* No comment provided by engineer. */
 "Continue" = "ادامه";
 
-/* Callout that occurs when the user selects to continue down the same road, %@ is the name of the street that the user is continuing along */
-"Continuing along %@" = "ادامه در امتداد %@";
-
-/* Callout that occurs when the user resumes a paused preview mode along a road, %@ is the name of the road, 'Continuing preview along 9th Avenue North' */
-"Continuing Street Preview along %@" = "ادامه پیش‌نمایش خیابان در امتداد %@";
-
-/* Callout that occurs when the user resumes a paused preview at an intersection, %@ is the name of the intersection, 'Continuing preview at 9th Avenue North and Harrison Street' */
-"Continuing Street Preview at %@" = "ادامه پیش‌نمایش خیابان در %@";
-
 /* map.hint.1 */
 "Coordinates of the map center" = "مختصات مرکز نقشه";
 
@@ -684,15 +522,6 @@
 
 /* No comment provided by engineer. */
 "Current Location Unknown" = "مکان فعلی نامشخص";
-
-/* %@ is index number of the current waypoint in the route */
-"Current waypoint index: %@ ." = "شاخص نقطه مسیر فعلی: %@ .";
-
-/* %@ is the current waypoint name */
-"Current waypoint name: %@ ." = "نام نقطه مسیر فعلی: %@ .";
-
-/* No comment provided by engineer. */
-"Current: %@" = "فعلی: %@";
 
 /* Motion status: cycling */
 "Cycling" = "دوچرخه‌سواری";
@@ -727,32 +556,17 @@
 /* No comment provided by engineer. */
 "Delete Marker" = "حذف نشانگر";
 
-/* %@ is marker name */
-"Delete Marker %@?" = "نشانگر %@ حذف شود؟";
-
 /* No comment provided by engineer. */
 "Delete Waypoint" = "حذف نقطه مسیر";
 
-/* Callout that occurs when the user is currently in a roundabout and selects a road that leaves the roundabout, %@ is the name of the street that the user is turning on */
-"Departed roundabout. Now along %@" = "از میدان خارج شدید. اکنون در امتداد %@";
-
 /* No comment provided by engineer. */
 "Destination location" = "مکان مقصد";
-
-/* %@ is the beacon name */
-"Destination: %@ ." = "مقصد: %@ .";
-
-/* No comment provided by engineer. */
-"Details of Route %@" = "جزئیات مسیر %@";
 
 /* No comment provided by engineer. */
 "Digit By Digit" = "رقم به رقم";
 
 /* No comment provided by engineer. */
 "Direction Style" = "سبک جهت";
-
-/* %@ is the direction to the beacon */
-"Direction: %@ ." = "جهت: %@ .";
 
 /* No comment provided by engineer. */
 "Disable Unnamed Roads" = "غیرفعال کردن جاده‌های بی‌نام";
@@ -769,23 +583,8 @@
 /* No comment provided by engineer. */
 "Distance and Direction to the POI" = "فاصله و جهت تا نقطه مورد علاقه";
 
-/* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
-"Distance between %1$@ and %2$@" = "فاصله بین %1$@ و %2$@";
-
 /* No comment provided by engineer. */
 "Distance Interval" = "فاصله زمانی";
-
-/* %@ could be 10 meters or 30 feet */
-"Distance should >= %@." = "فاصله باید ≥ %@ باشد.";
-
-/* %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 2000 meters */
-"Distance should be between %1$@ and %2$@" = "فاصله باید بین %1$@ و %2$@ باشد";
-
-/* No comment provided by engineer. */
-"Distance to %@" = "فاصله تا %@";
-
-/* %@ is the distance to the beacon */
-"Distance: %@ ." = "فاصله: %@ .";
 
 /* No comment provided by engineer. */
 "Distribute Waypoints Based on Distance" = "توزیع نقاط مسیر بر اساس فاصله";
@@ -798,9 +597,6 @@
 
 /* No comment provided by engineer. */
 "Double tap for more instructions" = "برای دستورالعمل‌های بیشتر دو بار ضربه بزنید";
-
-/* VoiceOver hint for the button that allows users to test their newly connected headset, %@ is the type of headset, 'Double tap to check your AirPods Pro' */
-"Double tap to check your %@" = "برای بررسی %@ خود دو بار ضربه بزنید";
 
 /* No comment provided by engineer. */
 "Double tap to exclude unnamed roads" = "برای حذف جاده‌های بی‌نام دو بار ضربه بزنید";
@@ -950,9 +746,6 @@
 "Facilities" = "تسهیلات";
 
 /* No comment provided by engineer. */
-"Facing: %@" = "رو به: %@";
-
-/* No comment provided by engineer. */
 "Failed to Calculate Navigation Routes" = "محاسبه مسیرهای ناوبری ناموفق بود";
 
 /* No comment provided by engineer. */
@@ -1006,9 +799,6 @@
 /* No comment provided by engineer. */
 "Frequently Asked Questions" = "سوالات متداول";
 
-/* %@ is name of a marker or POI */
-"From the current address to %@" = "از آدرس فعلی به %@";
-
 /* No comment provided by engineer. */
 "General Settings" = "تنظیمات عمومی";
 
@@ -1017,12 +807,6 @@
 
 /* No comment provided by engineer. */
 "Generated by Algorithm" = "تولید شده توسط الگوریتم";
-
-/* %@ is angle value */
-"Generated from GPX by angle: %@" = "تولید شده از GPX بر اساس زاویه: %@";
-
-/* %@ is distance value */
-"Generated from GPX by distance: %@" = "تولید شده از GPX بر اساس فاصله: %@";
 
 /* No comment provided by engineer. */
 "Getting things ready..." = "در حال آماده‌سازی...";
@@ -1129,12 +913,6 @@
 /* No comment provided by engineer. */
 "How would you like to generate a route from the GPX file?" = "چگونه مایلید از فایل GPX یک مسیر تولید کنید؟";
 
-/* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you! '%@;'" = "من یک نشانگر VoiceVista را با شما به اشتراک گذاشته‌ام! '%@;'";
-
-/* Message to display alongside a URL that can be used to import a route. */
-"I've shared a VoiceVista route with you! '%@'" = "من یک مسیر VoiceVista را با شما به اشتراک گذاشته‌ام! '%@'";
-
 /* No comment provided by engineer. */
 "iCloud storage for this app is full. To create a new marker, you will need to free up space by removing some of your existing markers." = "حافظه iCloud برای این برنامه پر است. برای ایجاد یک نشانگر جدید، باید با حذف برخی از نشانگرهای موجود خود فضا آزاد کنید.";
 
@@ -1225,24 +1003,6 @@
 /* No comment provided by engineer. */
 "Intersection Options" = "گزینه‌های تقاطع";
 
-/* Notification, %1$@ is a road name, %2$@ is the orientation, 'Intersection with <Pike Street> ahead' */
-"Intersection with %1$@ %2$@" = "تقاطع با %1$@ %2$@";
-
-/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> <5 meters> <to the left>' */
-"Intersection with %1$@ %2$@ %3$@" = "تقاطع با %1$@ در فاصله %2$@ %3$@";
-
-/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Intersection with <Pike Street> <5 meters> away' */
-"Intersection with %1$@ %2$@ away" = "تقاطع با %1$@ در فاصله %2$@";
-
-/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Intersection with <Pike Street> was <5 meters> <to the left>' */
-"Intersection with %1$@ was %2$@ %3$@" = "تقاطع با %1$@ در فاصله %2$@ %3$@ قرار داشت";
-
-/* Notification, %@ is a road name, 'Intersection with <Pike Street> nearby' */
-"Intersection with %@ nearby" = "تقاطع با %@ در این نزدیکی";
-
-/* No comment provided by engineer. */
-"Intersection: %@" = "تقاطع: %@";
-
 /* No comment provided by engineer. */
 "INTERSECTIONS" = "تقاطع‌ها";
 
@@ -1293,9 +1053,6 @@
 
 /* No comment provided by engineer. */
 "Latitude or (Latitude, Longitude) or Plus codes" = "عرض جغرافیایی یا (عرض، طول جغرافیایی) یا کدهای پلاس";
-
-/* No comment provided by engineer. */
-"Latitude: %1$@, Longitude: %2$@" = "عرض جغرافیایی: %1$@، طول جغرافیایی: %2$@";
 
 /* No comment provided by engineer. */
 "List Intersections Ahead" = "لیست تقاطع‌های پیش رو";
@@ -1366,9 +1123,6 @@
 /* No comment provided by engineer. */
 "Marker Name" = "نام نشانگر";
 
-/* Marker Information, %@ is the name of the marker, 'Marker. <Starbucks>' */
-"Marker. %@" = "نشانگر. %@";
-
 /* No comment provided by engineer. */
 "Markers" = "نشانگرها";
 
@@ -1390,17 +1144,11 @@
 /* No comment provided by engineer. */
 "Mobility Facilities" = "تسهیلات حرکتی";
 
-/* %@ is the name of the monitoring location */
-"Monitoring %@" = "در حال نظارت بر %@";
-
 /* No comment provided by engineer. */
 "Motion & Fitness" = "حرکت و تناسب اندام";
 
 /* No comment provided by engineer. */
 "Move away from the beacon" = "فاصله گرفتن از بیکن";
-
-/* No comment provided by engineer. */
-"Moving: %@" = "در حال حرکت: %@";
 
 /* No comment provided by engineer. */
 "Mute All" = "بی‌صدا کردن همه";
@@ -1429,21 +1177,8 @@
 /* No comment provided by engineer. */
 "Navigation Turn Point" = "نقطه گردش ناوبری";
 
-/* Notification announced to the user that they are near a location, %@ is a physical address or the name of a place, examples: 'Near 123 Columbia Street', 'Near Starbucks'
-   Notification announced to the user that they are near a road, %@ is a road name, examples: 'Near 123 Columbia Street' */
-"Near %@" = "نزدیک %@";
-
 /* ui.action_button.nearby_markers */
 "Nearby Markers" = "نشانگرهای نزدیک";
-
-/* Notification, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, is <5 meters> <ahead to the left>' */
-"Nearest road, %1$@, is %2$@ %3$@" = "نزدیک‌ترین جاده، %1$@، در فاصله %2$@ %3$@ قرار دارد";
-
-/* Notification, %1$@ is a road name, %2$@ is the distance with units, 'Nearest road, <Pike Street>, is <5 meters> away' */
-"Nearest road, %1$@, is %2$@ away" = "نزدیک‌ترین جاده، %1$@، در فاصله %2$@ قرار دارد";
-
-/* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
-"Nearest road, %1$@, was %2$@ %3$@" = "نزدیک‌ترین جاده، %1$@، در فاصله %2$@ %3$@ قرار داشت";
 
 /* No comment provided by engineer. */
 "Need Accuracy Location Permission" = "نیاز به مجوز مکان دقیق";
@@ -1456,12 +1191,6 @@
 
 /* No comment provided by engineer. */
 "Network Connection Required" = "اتصال به شبکه لازم است";
-
-/* %@ is the name of a route being breadcrumb mode */
-"New waypoints will be named automatically and added to route %@." = "نقاط مسیر جدید به طور خودکار نام‌گذاری و به مسیر %@ اضافه خواهند شد.";
-
-/* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
-"Next intersection: %@" = "تقاطع بعدی: %@";
 
 /* preview.callout.road_finder.intersection.same */
 "Next intersection: Circles back to current intersection" = "تقاطع بعدی: به تقاطع فعلی بازمی‌گردد";
@@ -1549,9 +1278,6 @@
 
 /* Move the marker 5 meters west of its current location */
 "Nudge West" = "حرکت دادن به غرب";
-
-/* %@ is distance and direction. Example: Nudging, 15 meters northwest of original location */
-"Nudging, %@ of original location" = "در حال حرکت دادن، %@ از مکان اصلی";
 
 /* No comment provided by engineer. */
 "Objects" = "اشیاء";
@@ -1721,9 +1447,6 @@
 /* directions.previous_location */
 "Previous Location" = "مکان قبلی";
 
-/* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
-"Previous Location, Along %@" = "مکان قبلی، در امتداد %@";
-
 /* No comment provided by engineer. */
 "Previous waypoint" = "نقطه مسیر قبلی";
 
@@ -1811,21 +1534,6 @@
 /* No comment provided by engineer. */
 "Road Name Sensing Intervals" = "فواصل زمانی سنجش نام جاده";
 
-/* Notification, %1$@ is a number and %2$@ is the orientation, 'Roundabout with <3> exits <to the left>' */
-"Roundabout with %1$@ exits %2$@" = "میدان با %1$@ خروجی %2$@";
-
-/* Notification, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits <5 meters> <to the left>' */
-"Roundabout with %1$@ exits %2$@ %3$@" = "میدان با %1$@ خروجی در فاصله %2$@ %3$@";
-
-/* Notification, %1$@ is a number, and %2$@ is the distance with units, 'Roundabout with <3> exits <5 meters> away' */
-"Roundabout with %1$@ exits %2$@ away" = "میدان با %1$@ خروجی در فاصله %2$@";
-
-/* Notification, %1$@ is a number, 'Roundabout with <3> exits' */
-"Roundabout with %1$@ exits nearby" = "میدان با %1$@ خروجی در این نزدیکی";
-
-/* Notification past tense, %1$@ is a number, %2$@ is the distance with units and %3$@ is the orientation, 'Roundabout with <3> exits was <5 meters> <to the left>' */
-"Roundabout with %1$@ exits was %2$@ %3$@" = "میدان با %1$@ خروجی در فاصله %2$@ %3$@ قرار داشت";
-
 /* route_detail.name.default */
 "Route" = "مسیر";
 
@@ -1846,9 +1554,6 @@
 
 /* No comment provided by engineer. */
 "Route Name" = "نام مسیر";
-
-/* No comment provided by engineer. */
-"Route name: %@ ." = "نام مسیر: %@ .";
 
 /* No comment provided by engineer. */
 "Route Settings" = "تنظیمات مسیر";
@@ -2006,12 +1711,6 @@
 /* No comment provided by engineer. */
 "Spatial sound from the direction of beacon" = "صدای فضایی از جهت بیکن";
 
-/* %@ is speed value in KPH */
-"Speed: %@ kilometres per hour" = "سرعت: %@ کیلومتر بر ساعت";
-
-/* %@ is speed value in MPH */
-"Speed: %@ miles per hour" = "سرعت: %@ مایل بر ساعت";
-
 /* No comment provided by engineer. */
 "Sponsor through Github" = "حمایت مالی از طریق گیت‌هاب";
 
@@ -2038,12 +1737,6 @@
 
 /* No comment provided by engineer. */
 "Starting location" = "مکان شروع";
-
-/* Callout that occurs when the user starts preview mode along a road, %@ is the name of the road, 'Starting preview along 9th Avenue North' */
-"Starting Street Preview along %@" = "شروع پیش‌نمایش خیابان در امتداد %@";
-
-/* Callout that occurs when the user starts preview mode at an intersection, %@ is the name of the intersection, 'Starting preview at 9th Avenue North and Harrison Street' */
-"Starting Street Preview at %@" = "شروع پیش‌نمایش خیابان در %@";
 
 /* Motion status: stationary */
 "Stationary" = "ثابت";
@@ -2177,9 +1870,6 @@
 /* No comment provided by engineer. */
 "This helps conserve battery when you are not actively using VoiceVista." = "این به صرفه‌جویی در باتری کمک می‌کند زمانی که به طور فعال از VoiceVista استفاده نمی‌کنید.";
 
-/* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
-"This is %@. How does this sound?" = "این صدای %@ است. چطور به نظر می‌رسد؟";
-
 /* No comment provided by engineer. */
 "This opertaion cannot be undone!" = "این عملیات قابل بازگشت نیست!";
 
@@ -2194,10 +1884,6 @@
 
 /* No comment provided by engineer. */
 "This will disconnect your headphones from VoiceVista. You can connect to VoiceVista again in the future from here." = "این کار هدفون شما را از VoiceVista قطع می‌کند. در آینده می‌توانید دوباره از اینجا به VoiceVista متصل شوید.";
-
-/* Default route name when create a route from marker or POI detail, %@ is name of a marker or POI
-   Text displaying the next intersection that the user will encounter along a selected road, 'To Main St & 2nd Ave' */
-"To %@" = "به %@";
 
 /* places.footnot.2 */
 "To browse nearby places, access to location is required." = "برای مرور مکان‌های نزدیک، دسترسی به موقعیت مکانی لازم است.";
@@ -2232,9 +1918,6 @@
 /* No comment provided by engineer. */
 "Too Close to Record Another Breadcrumb Waypoint" = "برای ضبط نقطه مسیر خرده‌نانی دیگر، بیش از حد نزدیک است";
 
-/* %@ is the count of waypoints in a route */
-"Total waypoints count: %@ ." = "تعداد کل نقاط مسیر: %@ .";
-
 /* Type 3 for navigation transport */
 "Transit" = "حمل و نقل عمومی";
 
@@ -2264,12 +1947,6 @@
 
 /* preview.callout.road_finder.instructions */
 "Turn your phone to preview available roads" = "گوشی خود را برای پیش‌نمایش جاده‌های موجود بچرخانید";
-
-/* Callout that occurs when the user selects a road that requires a left hand turn, %@ is the name of the street that the user is turning on */
-"Turned left. Now along %@" = "به چپ پیچیدید. اکنون در امتداد %@";
-
-/* Callout that occurs when the user selects a road that requires a right hand turn, %@ is the name of the street that the user is turning on */
-"Turned right. Now along %@" = "به راست پیچیدید. اکنون در امتداد %@";
 
 /* No comment provided by engineer. */
 "Turning this setting on will cause VoiceVista's callouts and other audio to pause whenever you start using a different media app. You can return to VoiceVista to resume callouts." = "روشن کردن این تنظیم باعث می‌شود اعلان‌های صوتی VoiceVista و سایر صداها هر زمان که شروع به استفاده از یک برنامه رسانه‌ای دیگر می‌کنید، متوقف شوند. می‌توانید برای از سرگیری اعلان‌های صوتی به VoiceVista بازگردید.";
@@ -2418,9 +2095,6 @@
 
 /* No comment provided by engineer. */
 "VoiceVista is currently in snooze mode. It will automatically wake up when you leave your current location." = "VoiceVista در حال حاضر در حالت تعویق است. با ترک مکان فعلی شما به طور خودکار بیدار خواهد شد.";
-
-/* %1$@ is the name of the monitoring location. %2$@ is the distance to wakeup to start audio beacon */
-"VoiceVista is currently monitoring '%1$@' within a '%2$@' range. When you arrive in this range, VoiceVista will automatically wake up and set this marker as an audio beacon." = "VoiceVista در حال حاضر در حال نظارت بر «%1$@» در محدوده «%2$@» است. وقتی به این محدوده برسید، VoiceVista به طور خودکار بیدار شده و این نشانگر را به عنوان یک بیکن صوتی تنظیم می‌کند.";
 
 /* No comment provided by engineer. */
 "VoiceVista is currently unable to connect to the internet. An internet connection is required when clearing the stored map data so that the map data can be refreshed." = "VoiceVista در حال حاضر قادر به اتصال به اینترنت نیست. هنگام پاک کردن داده‌های نقشه ذخیره شده، برای اینکه داده‌های نقشه بتوانند تازه‌سازی شوند، اتصال به اینترنت لازم است.";
@@ -2612,12 +2286,6 @@
 /* No comment provided by engineer. */
 "You will now return to the VoiceVista home page and the Audio Beacon will be started. Listen carefully where it is, and holding your phone flat, turn towards it." = "شما اکنون به صفحه اصلی VoiceVista بازخواهید گشت و بیکن صوتی شروع خواهد شد. با دقت گوش دهید کجاست، و با نگه داشتن گوشی خود به صورت صاف، به سمت آن بچرخید.";
 
-/* Title for alert that is displayed when importing a marker. */
-"You've received a marker: '%@'" = "شما یک نشانگر دریافت کرده‌اید: '%@'";
-
-/* No comment provided by engineer. */
-"You've received a route: '%@'" = "شما یک مسیر دریافت کرده‌اید: '%@'";
-
 /* No comment provided by engineer. */
 "Your AirPods are ready for use, so you can put your phone in your pocket and go! VoiceVista is tracking the direction of your head so you do not need to hold the phone in your hand." = "ایرپاد شما آماده استفاده است، پس می‌توانید گوشی خود را در جیب بگذارید و بروید! VoiceVista جهت سر شما را ردیابی می‌کند بنابراین نیازی به نگه داشتن گوشی در دست ندارید.";
 
@@ -2638,10 +2306,4 @@
 
 /* No comment provided by engineer. */
 "Your location data is exclusively stored on your device or within your iCloud storage for the purposes of privacy and security." = "داده‌های مکانی شما منحصراً روی دستگاه شما یا در حافظه iCloud شما برای اهداف حریم خصوصی و امنیتی ذخیره می‌شود.";
-
-/* No comment provided by engineer. */
-"➞ %@" = "➞ %@";
-
-/* No comment provided by engineer. */
-"⟿ %@" = "⟿ %@";
 
