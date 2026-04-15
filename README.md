@@ -8,7 +8,7 @@
 * Danish translation contributed by Claus Thøgersen.
 * Dutch translation contributed by Jesse Wienholts.
 * Estonian translation contributed by Artur Räpp.
-* French translation contributed by Saladeuh and Boris Daix.
+* French translation contributed by Saladeuh, Boris Daix and André-Abush Clause.
 * German translation contributed by Sandra Pilz, Jeremy Congdon and Sharo.
 * Italian translation contributed by Simone Dal Maso @ [nvApple](https://nvapple.it).
 * Norwegain translation contributed by SuperCliff.
