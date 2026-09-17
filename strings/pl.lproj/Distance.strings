@@ -1,14 +1,11 @@
-/* Preserve m unit but can translate abbreviation of meter m. Distance string. %@ is a number, "15 m" {NumberedPlaceholder="%@"} */
-"distance.format.m" = "%@ M";
+/* Preserve feet unit - Do not convert but can translate. Distance string, plural. %@ is a plural number, "15 feet" {NumberedPlaceholder="%@"} */
+"distance.format.feet" = "%@ stopy";
 
-/* Preserve meter unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 meter" {NumberedPlaceholder="%@"} */
-"distance.format.meter" = "%@ metr";
+/* Preserve foot unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 foot" {NumberedPlaceholder="%@"} */
+"distance.format.foot" = "%@ stopa";
 
-/* Preserve meters unit - Do not convert but can translate. Distance string, plural. %@ is a plural number, "15 meters" {NumberedPlaceholder="%@"} */
-"distance.format.meters" = "%@ metrów";
-
-/* Preserve km unit - Do not convert but can translate abbreviation of kilometer. Distance string. %@ is a number, "15 km" {NumberedPlaceholder="%@"} */
-"distance.format.km" = "%@ km";
+/* Preserve ft (Feet Abbreviation) unit - Do not convert but can translate. Distance string. %@ is a number, "15 ft" {NumberedPlaceholder="%@"} */
+"distance.format.ft" = "%@ ft";
 
 /* Preserve kilometer unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 kilometer" {NumberedPlaceholder="%@"} */
 "distance.format.kilometer" = "%@ kilometr";
@@ -16,21 +13,23 @@
 /* Preserve kilometers unit - Do not convert but can translate. Distance string, plural. %@ is a plural number, "15 kilometers" {NumberedPlaceholder="%@"} */
 "distance.format.kilometers" = "%@ kilometrów";
 
-/* Preserve ft (Feet Abbreviation) unit - Do not convert but can translate. Distance string. %@ is a number, "15 ft" {NumberedPlaceholder="%@"} */
-"distance.format.ft" = "%@ ft";
+/* Preserve km unit - Do not convert but can translate abbreviation of kilometer. Distance string. %@ is a number, "15 km" {NumberedPlaceholder="%@"} */
+"distance.format.km" = "%@ km";
 
-/* Preserve foot unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 foot" {NumberedPlaceholder="%@"} */
-"distance.format.foot" = "%@ stopa";
+/* Preserve m unit but can translate abbreviation of meter m. Distance string. %@ is a number, "15 m" {NumberedPlaceholder="%@"} */
+"distance.format.m" = "%@ m";
 
-/* Preserve feet unit - Do not convert but can translate. Distance string, plural. %@ is a plural number, "15 feet" {NumberedPlaceholder="%@"} */
-"distance.format.feet" = "%@ stopy";
+/* Preserve meter unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 meter" {NumberedPlaceholder="%@"} */
+"distance.format.meter" = "%@ metr";
+
+/* Preserve meters unit - Do not convert but can translate. Distance string, plural. %@ is a plural number, "15 meters" {NumberedPlaceholder="%@"} */
+"distance.format.meters" = "%@ metrów";
 
 /* Preserve mi unit - Do not convert but can translate abbreviation of mile. Distance string. %@ is a number, "15 mi" {NumberedPlaceholder="%@"} */
 "distance.format.mi" = "%@ mi";
 
 /* Preserve mile unit - Do not convert but can translate. Distance string, singular. %@ is a singular number, "1 mile" {NumberedPlaceholder="%@"} */
-"distance.format.mile" = "%@ Mila";
+"distance.format.mile" = "%@ mila";
 
 /* Preserve miles unit - Do not convert but can translate. Distance string, plural.%@ is a plural number, "15 miles" {NumberedPlaceholder="%@"} */
 "distance.format.miles" = "%@ mil";
-
