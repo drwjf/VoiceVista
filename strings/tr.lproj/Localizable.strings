@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ saniye";
 
+/* Map data cache duration */
+"1 Week" = "1 Hafta";
+
+/* Map data cache duration */
+"2 Weeks" = "2 Hafta";
+
+/* Map data cache duration */
+"3 Weeks" = "3 Hafta";
+
+/* Map data cache duration */
+"4 Weeks" = "4 Hafta";
+
+/* Map data cache duration */
+"5 Weeks" = "5 Hafta";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "İz rotası, Hansel ile Gretel'deki ekmek kırıntısı izi gibi yolunuzu gösteren kayıtlı ara noktalar dizisidir.";
 
@@ -236,6 +251,27 @@ location_detail.default.address */
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPods bağlandı.";
 
+/* Multimodal Visual Assistance error */
+"Apple Intelligence could not answer this request. Try a different photo or rephrase your question." = "Apple Intelligence bu isteği yanıtlayamadı. Farklı bir fotoğraf deneyin veya sorunuzu yeniden ifade edin.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence does not support your preferred language for Visual Assistance." = "Apple Intelligence, Görsel Yardım için tercih ettiğiniz dili desteklemiyor.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is busy. Wait a moment, then try again." = "Apple Intelligence şu anda yoğun. Bir süre bekleyin ve tekrar deneyin.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is still downloading or is not ready. Try Visual Assistance again later." = "Apple Intelligence henüz indirilemedi veya hazır değil. Görsel Yardım'ı daha sonra tekrar deneyin.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is turned off. Enable it in Settings to use Visual Assistance." = "Apple Intelligence devre dışı. Görsel Yardım'ı kullanmak için Ayarlar'dan etkinleştirin.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is unavailable for Visual Assistance on this device." = "Bu cihazda, Görsel Yardım özelliği için Apple Intelligence kullanılamıyor.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence took too long to respond. Try again." = "Apple Intelligence yanıt vermekte çok uzun sürdü. Lütfen tekrar deneyin.";
+
 /* settings.appleMpas */
 "Apple Maps" = "elma haritaları";
 
@@ -265,6 +301,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Are You Sure?" = "Emin misin?";
+
+/* Multimodal Visual Assistance follow-up question */
+"Are any doors or entrances visible in the photo, and where are they?" = "Fotoğrafta herhangi bir kapı veya giriş var mı? Varsa, nerede bulunuyorlar?";
 
 /* No comment provided by engineer. */
 "Are you sure you want to forget these headphones?" = "Bu kulaklıkları unutmak istediğinizden emin misiniz?";
@@ -446,6 +485,9 @@ location_detail.default.address */
 /* callouts.callouts_on */
 "Callouts On" = "Sesli Bildirimler Açık";
 
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Otomatik sesli bildirimler yalnızca Çevre sekmesinde";
+
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "Görsel yardım için kamera erişimi gereklidir.";
 
@@ -538,6 +580,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Check Headphones Status" = "Kulaklık Durumunu Kontrol Edin";
+
+/* Multimodal Visual Assistance follow-up button */
+"Check Possible Obstacles" = "Olası engelleri kontrol edin.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Kontrol Etme";
@@ -640,6 +685,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Decimal coordinates and Plus Codes are supported." = "Hem ondalık sayılar hem de Google plus kodları desteklenir";
+
+/* Multimodal Visual Assistance follow-up question */
+"Decode any visible QR codes or barcodes in the photo." = "Fotoğraftaki görünen tüm QR kodlarını veya barkodları çözün.";
 
 /* No comment provided by engineer. */
 "Default Travel Mode" = "Varsayılan Seyahat Modu";
@@ -928,6 +976,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Filter Markers" = "Filtre İşaretleyicileri";
+
+/* Multimodal Visual Assistance follow-up button */
+"Find Entrances" = "Girişleri Bul";
 
 /* No comment provided by engineer. */
 "Finish Setup" = "Kurulumu Tamamla";
@@ -1241,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "WhatsApp Grubuna Katılın";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Harita Verilerini Sakla";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Harita verilerini daha uzun süre saklamak indirmeleri azaltır ancak aygıtta daha fazla saklama alanı kullanabilir.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Görülecek yer";
 
@@ -1335,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Harita Servisi";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Harita Servisi Durumu";
+"Map Service & Data" = "Harita servisi ve verileri";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Mevcut Konumu İşaretle";
@@ -1724,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Yer verileri Apple Haritalar, OpenStreetMap ve Overture Haritalardan gelir.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Yer verileri Apple Haritalar ve OpenStreetMap'ten gelir.";
 
 /* No comment provided by engineer. */
 "Places" = "Yer";
@@ -1800,6 +1857,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Quit Without Saving" = "Kaydetmeden Çık";
+
+/* Multimodal Visual Assistance follow-up button */
+"Read Text" = "Metni Oku";
+
+/* Multimodal Visual Assistance follow-up question */
+"Read all visible text in the photo." = "Fotoğraftaki görünen tüm metinleri okuyun.";
 
 /* No comment provided by engineer. */
 "Ready" = "Hazır";
@@ -1971,6 +2034,9 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Save as Marker" = "İşaretçi olarak kaydet";
+
+/* Multimodal Visual Assistance follow-up button */
+"Scan Codes" = "Kodları Tara";
 
 /* search.title */
 "Search" = "Ara";
@@ -2227,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Göreli yönleri geçerli yöne göre yeniden hesaplamak için sağ üst köşedeki yenile düğmesine dokunun.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Kontrol Etmek için Dokunun";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Bu Yere Işınlan";
 
@@ -2278,6 +2347,9 @@ ui.action_button.nearby_markers */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "The nearest road, %1$@, was %2$@ %3$@" = "En yakın yol, %1$@, %2$@ %3$@ idi";
 
+/* Multimodal Visual Assistance error */
+"The on-device Apple Intelligence model cannot analyze images on this device." = "Cihazınızdaki Apple Intelligence modeli, bu cihazdaki görüntüleri analiz edemez.";
+
 /* No comment provided by engineer. */
 "The selected headphones are unavailable. Try again later." = "Seçtiğiniz kulaklıklar şu anda bağlantı için uygun değil. Lütfen daha sonra tekrar deneyiniz.";
 
@@ -2311,11 +2383,17 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Artık adım adım talimat yok.";
 
+/* Multimodal Visual Assistance error */
+"This device does not support the Apple Intelligence required for Visual Assistance." = "Bu cihaz, Görsel Yardım için gerekli olan Apple Intelligence'ı desteklemiyor.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Bu %@. Bu kulağa nasıl geliyor?";
 
 /* No comment provided by engineer. */
 "This operation cannot be undone." = "Bu işlem geri alınamaz!";
+
+/* Multimodal Visual Assistance error */
+"This photo could not be processed within Apple Intelligence’s limits. Select Look Again to try another photo." = "Bu fotoğraf, Apple Intelligence'ın sınırları içinde işlenemedi. Başka bir fotoğraf denemek için \"Tekrar Bakın\" seçeneğini kullanın.";
 
 /* No comment provided by engineer. */
 "This reduces battery use while you are not actively using VoiceVista." = "Bu, VoiceVista'yı aktif olarak kullanmadığınızda pil tasarrufu yapmanıza yardımcı olur.";
@@ -2490,6 +2568,12 @@ poi.unknown */
 /* Visual assistance stopped announcement */
 "Visual Assistance stopped." = "Görsel destek durduruldu.";
 
+/* iOS 27 Visual Assistance privacy explanation */
+"Visual Assistance uses Apple Intelligence and Vision to describe photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Görsel Yardım, Apple Intelligence ve Vision teknolojilerini kullanarak çektiğiniz fotoğrafları tanımlar. Fotoğraflar tamamen cihazınızda işlenir ve hiçbir zaman yüklenmez veya paylaşılmaz.";
+
+/* Apple Vision-only Visual Assistance privacy explanation */
+"Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Görsel Yardım, Apple'ın cihazınızdaki Vision teknolojisini kullanarak, çektiğiniz fotoğraflardaki sahneleri sınıflandırır, metinleri okur ve QR kodlarını ve barkodları algılar. Fotoğraflar tamamen cihazınızda işlenir ve hiçbir zaman yüklenmez veya paylaşılmaz.";
+
 /* No comment provided by engineer. */
 "Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Görsel Yardım, çektiğiniz fotoğraflardaki nesneleri tanımlamak için Apple'ın cihaz içi Vision teknolojisini kullanır. Fotoğraflar tamamen cihazınızda işlenir ve asla yüklenmez veya paylaşılmaz.";
 
@@ -2653,6 +2737,9 @@ Type 1 for navigation transport */
 /* No comment provided by engineer. */
 "What minimum turn angle should create a waypoint?" = "Hangi minimum dönüş açısı bir ara nokta oluşturmalı?";
 
+/* Multimodal Visual Assistance follow-up question */
+"What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Fotoğrafta görünen olası engeller veya düşüşler nelerdir? Bir rotanın güvenli olup olmadığına karar vermeyin.";
+
 /* No comment provided by engineer. */
 "What's Ahead of Me?" = "Önümde Ne Var?";
 
@@ -2673,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "Bu ayar açıkken başka bir medya uygulaması oynatım yaptığında VoiceVista sesli bildirimleri ve diğer sesleri duraklatır. Bildirimleri sürdürmek için VoiceVista'ya dönün.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "“Sadece Çevre Sekmesinde Sesli Bildirimler” seçeneği etkinleştirildiğinde, otomatik sesli bildirimler yalnızca o sekmeyle sınırlıdır. Diğer sekmelerde de kullanılmasını sağlamak için bu seçeneği devre dışı bırakın.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "VoiceVista ile bir rotayı izlerken her ara noktaya vardığınızda bilgilendirilirsiniz ve sesli işaret otomatik olarak sonraki ara noktaya ilerler.";

@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ segundos";
 
+/* Map data cache duration */
+"1 Week" = "1 semana";
+
+/* Map data cache duration */
+"2 Weeks" = "2 semanas";
+
+/* Map data cache duration */
+"3 Weeks" = "3 semanas";
+
+/* Map data cache duration */
+"4 Weeks" = "4 semanas";
+
+/* Map data cache duration */
+"5 Weeks" = "5 semanas";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "A localização atual aqui é uma série de pontos de referência registrados que rastreiam o caminho. Esses pontos de referência são semelhantes ao rastro de migalhas deixado por João e Maria no famoso conto de fadas, daí o nome.";
 
@@ -236,6 +251,27 @@ location_detail.default.address */
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPods ligados.";
 
+/* Multimodal Visual Assistance error */
+"Apple Intelligence could not answer this request. Try a different photo or rephrase your question." = "O Apple Intelligence não conseguiu responder a este pedido. Tente outra fotografia ou reformule a sua pergunta.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence does not support your preferred language for Visual Assistance." = "O Apple Intelligence não suporta o idioma preferido para a Assistência Visual.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is busy. Wait a moment, then try again." = "O Apple Intelligence está ocupado. Aguarde um momento e tente novamente.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is still downloading or is not ready. Try Visual Assistance again later." = "O Apple Intelligence ainda está a ser descarregado ou não está pronto. Tente a Assistência Visual mais tarde.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is turned off. Enable it in Settings to use Visual Assistance." = "O Apple Intelligence está desativado. Ative-o em Definições para usar a Assistência Visual.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is unavailable for Visual Assistance on this device." = "O Apple Intelligence não está disponível para a Assistência Visual neste dispositivo.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence took too long to respond. Try again." = "O Apple Intelligence demorou demasiado tempo a responder. Tente novamente.";
+
 /* settings.appleMpas */
 "Apple Maps" = "Mapas da Apple";
 
@@ -265,6 +301,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Are You Sure?" = "Tem a Certeza?";
+
+/* Multimodal Visual Assistance follow-up question */
+"Are any doors or entrances visible in the photo, and where are they?" = "Existem portas ou entradas visíveis na fotografia? Onde estão?";
 
 /* No comment provided by engineer. */
 "Are you sure you want to forget these headphones?" = "Tem a certeza de que pretende esquecer estes auscultadores?";
@@ -446,6 +485,9 @@ location_detail.default.address */
 /* callouts.callouts_on */
 "Callouts On" = "Avisos ativados";
 
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Avisos automáticos apenas no separador Arredores";
+
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "O acesso à câmara é necessário para assistência visual.";
 
@@ -538,6 +580,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Check Headphones Status" = "Verificar estado dos auscultadores";
+
+/* Multimodal Visual Assistance follow-up button */
+"Check Possible Obstacles" = "Verificar possíveis obstáculos.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "A verificar";
@@ -640,6 +685,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Decimal coordinates and Plus Codes are supported." = "São suportadas coordenadas decimais e códigos Plus.";
+
+/* Multimodal Visual Assistance follow-up question */
+"Decode any visible QR codes or barcodes in the photo." = "Decodifica códigos QR ou códigos de barras visíveis na fotografia.";
 
 /* No comment provided by engineer. */
 "Default Travel Mode" = "Modo de viagem predefinido";
@@ -928,6 +976,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Filter Markers" = "Filtrar marcadores";
+
+/* Multimodal Visual Assistance follow-up button */
+"Find Entrances" = "Encontrar Entradas";
 
 /* No comment provided by engineer. */
 "Finish Setup" = "Concluir configuração";
@@ -1241,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "Entre no grupo WhatsApp";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Manter dados do mapa";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Manter os dados do mapa durante mais tempo reduz as descargas, mas pode utilizar mais armazenamento do dispositivo.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Marcos";
 
@@ -1335,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Serviço de mapas";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Estado do serviço de mapas";
+"Map Service & Data" = "Serviço e dados de mapas";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Marcar localização atual";
@@ -1724,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "Ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Os dados de lugares vêm do Apple Maps, OpenStreetMap e Overture Maps.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Os dados de lugares vêm do Apple Maps e do OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places" = "Lugares";
@@ -1800,6 +1857,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Quit Without Saving" = "Sair sem guardar";
+
+/* Multimodal Visual Assistance follow-up button */
+"Read Text" = "Ler Texto";
+
+/* Multimodal Visual Assistance follow-up question */
+"Read all visible text in the photo." = "Ler todo o texto visível na fotografia.";
 
 /* No comment provided by engineer. */
 "Ready" = "Pronto";
@@ -1971,6 +2034,9 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Guardar como Marcador";
+
+/* Multimodal Visual Assistance follow-up button */
+"Scan Codes" = "Ler Códigos";
 
 /* search.title */
 "Search" = "Procurar";
@@ -2227,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Toque no botão de atualização no canto superior direito para recalcular as direções relativas com base na direção atual.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Toque para verificar";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Teletransporte-se para este lugar";
 
@@ -2278,6 +2347,9 @@ ui.action_button.nearby_markers */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "The nearest road, %1$@, was %2$@ %3$@" = "A rua mais próxima, %1$@, estava a %2$@ %3$@";
 
+/* Multimodal Visual Assistance error */
+"The on-device Apple Intelligence model cannot analyze images on this device." = "O modelo da Apple Intelligence que funciona no dispositivo não consegue analisar imagens neste dispositivo.";
+
 /* No comment provided by engineer. */
 "The selected headphones are unavailable. Try again later." = "Os auscultadores selecionados não estão disponíveis. Tente novamente mais tarde.";
 
@@ -2311,11 +2383,17 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Não há instruções passo a passo agora.";
 
+/* Multimodal Visual Assistance error */
+"This device does not support the Apple Intelligence required for Visual Assistance." = "Este dispositivo não suporta a Apple Intelligence necessária para a Assistência Visual.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Isto é a voz de %@. Parece-lhe bem?";
 
 /* No comment provided by engineer. */
 "This operation cannot be undone." = "Esta operação não pode ser anulada!";
+
+/* Multimodal Visual Assistance error */
+"This photo could not be processed within Apple Intelligence’s limits. Select Look Again to try another photo." = "Esta fotografia não pôde ser processada dentro dos limites da Apple Intelligence. Selecione \"Olhe novamente\" para tentar outra fotografia.";
 
 /* No comment provided by engineer. */
 "This reduces battery use while you are not actively using VoiceVista." = "Isto reduz o consumo da bateria enquanto não estiver a utilizar ativamente o VoiceVista.";
@@ -2490,6 +2568,12 @@ poi.unknown */
 /* Visual assistance stopped announcement */
 "Visual Assistance stopped." = "A assistência visual foi interrompida.";
 
+/* iOS 27 Visual Assistance privacy explanation */
+"Visual Assistance uses Apple Intelligence and Vision to describe photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "A Assistência Visual utiliza a Apple Intelligence e a tecnologia Vision para descrever as fotografias que tira. As fotografias são processadas inteiramente no seu dispositivo e nunca são carregadas ou partilhadas.";
+
+/* Apple Vision-only Visual Assistance privacy explanation */
+"Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "A Assistência Visual utiliza a tecnologia Vision da Apple, que funciona no dispositivo, para classificar cenas, ler texto e detetar códigos QR e códigos de barras em fotografias que tira. As fotografias são processadas inteiramente no seu dispositivo e nunca são carregadas ou partilhadas.";
+
 /* No comment provided by engineer. */
 "Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "O Assistente Visual utiliza a tecnologia Vision integrada no dispositivo da Apple para identificar objetos nas fotografias que tira. As fotografias são processadas inteiramente no seu dispositivo e nunca são carregadas ou partilhadas.";
 
@@ -2515,7 +2599,7 @@ poi.unknown */
 "VoiceVista Street Preview ended." = "A terminar o VoiceVista Visualização da rua";
 
 /* No comment provided by engineer. */
-"VoiceVista announces automatic callouts only when you are on the Surroundings tab." = "O VoiceVista apenas anuncia avisos automáticas quando o separador 'Ambiente' está selecionado.";
+"VoiceVista announces automatic callouts only when you are on the Surroundings tab." = "O VoiceVista apenas reproduz avisos automáticos quando está no separador Arredores.";
 
 /* No comment provided by engineer. */
 "VoiceVista calculates navigation instructions using only the first and last waypoints. Intermediate waypoints are not included." = "O VoiceVista calculará as instruções de navegação apenas do primeiro ao último ponto de passagem desta rota. Não utiliza pontos de passagem intermédios.";
@@ -2653,6 +2737,9 @@ Type 1 for navigation transport */
 /* No comment provided by engineer. */
 "What minimum turn angle should create a waypoint?" = "Que ângulo mínimo de viragem deve gerar um ponto de passagem?";
 
+/* Multimodal Visual Assistance follow-up question */
+"What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Quais são os possíveis obstáculos ou desníveis visíveis na fotografia? Não avalie se um percurso é seguro.";
+
 /* No comment provided by engineer. */
 "What's Ahead of Me?" = "O que está à Minha Frente?";
 
@@ -2673,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "A ativação desta definição fará com que os avisos e outro áudio do VoiceVista sejam colocados em pausa quando começar a utilizar outra aplicação de multimédia. Pode voltar ao VoiceVista para retomar os avisos.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "Quando a opção «Avisos automáticos apenas no separador Arredores» está ativada, os avisos automáticos ficam limitados a esse separador. Desative-a para os permitir noutros separadores.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "Enquanto estiver a percorrer a sua rota com o VoiceVista, será informado quando chegar a cada ponto de passagem e o Sinal de Áudio avançará automaticamente para o ponto de passagem seguinte.";

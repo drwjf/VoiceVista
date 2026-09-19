@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ secunde";
 
+/* Map data cache duration */
+"1 Week" = "1 săptămână";
+
+/* Map data cache duration */
+"2 Weeks" = "2 săptămâni";
+
+/* Map data cache duration */
+"3 Weeks" = "3 săptămâni";
+
+/* Map data cache duration */
+"4 Weeks" = "4 săptămâni";
+
+/* Map data cache duration */
+"5 Weeks" = "5 săptămâni";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Pesmeturile de aici sunt o serie de puncte de referință înregistrate care urmăresc traseul. Aceste puncte de referință sunt asemănătoare urmei de pesmet lăsate de Hansel și Gretel în faimosul basm, de unde și numele.";
 
@@ -236,6 +251,27 @@ location_detail.default.address */
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPods conectat.";
 
+/* Multimodal Visual Assistance error */
+"Apple Intelligence could not answer this request. Try a different photo or rephrase your question." = "Apple Intelligence nu a putut răspunde la această solicitare. Încercați o altă fotografie sau reformulați întrebarea.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence does not support your preferred language for Visual Assistance." = "Apple Intelligence nu acceptă limba preferată pentru Asistență vizuală.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is busy. Wait a moment, then try again." = "Apple Intelligence este ocupat. Așteptați un moment și încercați din nou.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is still downloading or is not ready. Try Visual Assistance again later." = "Apple Intelligence este încă în curs de descărcare sau nu este gata. Încercați Asistența vizuală mai târziu.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is turned off. Enable it in Settings to use Visual Assistance." = "Apple Intelligence este dezactivat. Activați-l în Setări pentru a utiliza Asistența vizuală.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is unavailable for Visual Assistance on this device." = "Apple Intelligence nu este disponibil pentru Asistență vizuală pe acest dispozitiv.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence took too long to respond. Try again." = "Apple Intelligence a răspuns prea lent. Încercați din nou.";
+
 /* settings.appleMpas */
 "Apple Maps" = "Apple Maps";
 
@@ -265,6 +301,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Are You Sure?" = "Esti sigur?";
+
+/* Multimodal Visual Assistance follow-up question */
+"Are any doors or entrances visible in the photo, and where are they?" = "Se văd uși sau intrări în fotografie? Unde sunt localizate?";
 
 /* No comment provided by engineer. */
 "Are you sure you want to forget these headphones?" = "Sigur vrei să uiți aceste căști?";
@@ -446,6 +485,9 @@ location_detail.default.address */
 /* callouts.callouts_on */
 "Callouts On" = "Anunțuri activate";
 
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Anunțuri automate doar în fila Împrejurimi";
+
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "Accesul la cameră este necesar pentru asistență vizuală.";
 
@@ -538,6 +580,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Check Headphones Status" = "Verificați starea căștilor";
+
+/* Multimodal Visual Assistance follow-up button */
+"Check Possible Obstacles" = "Verificați posibile obstacole.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Control";
@@ -640,6 +685,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Decimal coordinates and Plus Codes are supported." = "Sunt acceptate atât numerele zecimale, cât și codurile Google plus";
+
+/* Multimodal Visual Assistance follow-up question */
+"Decode any visible QR codes or barcodes in the photo." = "Decodifică codurile QR sau barele de cod vizibile în fotografie.";
 
 /* No comment provided by engineer. */
 "Default Travel Mode" = "Mod de deplasare implicit";
@@ -928,6 +976,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Filter Markers" = "Marcatori de filtrare";
+
+/* Multimodal Visual Assistance follow-up button */
+"Find Entrances" = "Găsește intrările.";
 
 /* No comment provided by engineer. */
 "Finish Setup" = "Finalizați configurarea";
@@ -1241,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "Alătură-te grupului WhatsApp";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Păstrați datele hărții";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Păstrarea mai îndelungată a datelor hărții reduce descărcările, dar poate folosi mai mult spațiu de stocare pe dispozitiv.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Repere";
 
@@ -1335,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Serviciu de hărți";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Starea serviciului de hărți";
+"Map Service & Data" = "Serviciu și date pentru hărți";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Marcați locația curentă";
@@ -1724,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "Ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Datele despre locații provin din Apple Maps, OpenStreetMap și Overture Maps.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Datele despre locații provin din Apple Maps și OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places" = "Locuri";
@@ -1800,6 +1857,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Quit Without Saving" = "Ieșiți fără salvare";
+
+/* Multimodal Visual Assistance follow-up button */
+"Read Text" = "Citește textul.";
+
+/* Multimodal Visual Assistance follow-up question */
+"Read all visible text in the photo." = "Citește tot textul vizibil în fotografie.";
 
 /* No comment provided by engineer. */
 "Ready" = "Gata";
@@ -1971,6 +2034,9 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Salvați ca marcaj";
+
+/* Multimodal Visual Assistance follow-up button */
+"Scan Codes" = "Scanează coduri.";
 
 /* search.title */
 "Search" = "Căutare";
@@ -2227,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Atingeți butonul de reîmprospătare din colțul din dreapta sus pentru a recalcula direcțiile relative pe baza direcției curente.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Atingeți pentru verificare";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Teleportare în acest loc";
 
@@ -2278,6 +2347,9 @@ ui.action_button.nearby_markers */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "The nearest road, %1$@, was %2$@ %3$@" = "Cel mai apropiat drum, %1$@, a fost %2$@ %3$@";
 
+/* Multimodal Visual Assistance error */
+"The on-device Apple Intelligence model cannot analyze images on this device." = "Modelul Apple Intelligence, care funcționează pe dispozitiv, nu poate analiza imagini pe acest dispozitiv.";
+
 /* No comment provided by engineer. */
 "The selected headphones are unavailable. Try again later." = "Căștile pe care le-ați selectat sunt momentan indisponibile pentru conectare. Vă rugăm să încercați din nou mai târziu.";
 
@@ -2311,11 +2383,17 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Nu există instrucțiuni rând cu rând acum.";
 
+/* Multimodal Visual Assistance error */
+"This device does not support the Apple Intelligence required for Visual Assistance." = "Acest dispozitiv nu suportă funcția Apple Intelligence necesară pentru Asistență vizuală.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Aceasta este %@. Cum sună asta?";
 
 /* No comment provided by engineer. */
 "This operation cannot be undone." = "Această operațiune nu poate fi anulată!";
+
+/* Multimodal Visual Assistance error */
+"This photo could not be processed within Apple Intelligence’s limits. Select Look Again to try another photo." = "Această fotografie nu a putut fi procesată în limitele impuse de Apple Intelligence. Selectați \"Uită-te din nou\" pentru a încerca o altă fotografie.";
 
 /* No comment provided by engineer. */
 "This reduces battery use while you are not actively using VoiceVista." = "Acest lucru ajută la conservarea bateriei atunci când nu utilizați activ VoiceVista.";
@@ -2490,6 +2568,12 @@ poi.unknown */
 /* Visual assistance stopped announcement */
 "Visual Assistance stopped." = "Asistența vizuală s-a oprit.";
 
+/* iOS 27 Visual Assistance privacy explanation */
+"Visual Assistance uses Apple Intelligence and Vision to describe photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Asistența vizuală utilizează Apple Intelligence și Vision pentru a descrie fotografiile pe care le faceți. Fotografiile sunt procesate integral pe dispozitivul dumneavoastră și nu sunt niciodată încărcate sau partajate.";
+
+/* Apple Vision-only Visual Assistance privacy explanation */
+"Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Asistența vizuală utilizează tehnologia Vision de la Apple, care funcționează pe dispozitiv, pentru a clasifica scenele, a citi textul și a detecta coduri QR și coduri de bare în fotografiile pe care le faceți. Fotografiile sunt procesate integral pe dispozitivul dumneavoastră și nu sunt niciodată încărcate sau partajate.";
+
 /* No comment provided by engineer. */
 "Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Asistența vizuală folosește tehnologia Vision de pe dispozitivul Apple pentru a identifica obiectele din fotografiile pe care le faci. Fotografiile sunt procesate în întregime pe dispozitivul tău și nu sunt niciodată încărcate sau partajate.";
 
@@ -2653,6 +2737,9 @@ Type 1 for navigation transport */
 /* No comment provided by engineer. */
 "What minimum turn angle should create a waypoint?" = "Ce unghi minim de viraj ar trebui să genereze un punct de traseu?";
 
+/* Multimodal Visual Assistance follow-up question */
+"What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Ce obstacole sau denivelări sunt vizibile în fotografie? Nu evaluați dacă un traseu este sigur.";
+
 /* No comment provided by engineer. */
 "What's Ahead of Me?" = "Ce este înaintea mea?";
 
@@ -2673,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "Activarea acestei setări va face ca anunțurile VoiceVista și alte elemente audio să se întrerupă ori de câte ori începeți să utilizați o altă aplicație media. Puteți reveni la VoiceVista pentru a relua anunțurile.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "Când opțiunea „Anunțuri automate doar în fila Împrejurimi” este activată, anunțurile automate sunt limitate la acea filă. Dezactivați-o pentru a le permite și în alte file.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "În timp ce vă aflați pe traseu cu VoiceVista, veți fi informat la sosirea la fiecare punct de referință, iar semnalizatorul audio va avansa automat la următorul punct de referință.";
