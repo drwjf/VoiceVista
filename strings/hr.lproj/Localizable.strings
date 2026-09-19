@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ sekundi";
 
+/* Map data cache duration */
+"1 Week" = "1 tjedan";
+
+/* Map data cache duration */
+"2 Weeks" = "2 tjedna";
+
+/* Map data cache duration */
+"3 Weeks" = "3 tjedna";
+
+/* Map data cache duration */
+"4 Weeks" = "4 tjedna";
+
+/* Map data cache duration */
+"5 Weeks" = "5 tjedana";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Breadcrumbs ovdje su niz snimljenih putnih točaka koje prate put. Ove usputne točke slične su tragu mrvica kruha koje su ostavile Hansel i Gretel u poznatoj bajci, otuda i naziv.";
 
@@ -236,6 +251,27 @@ location_detail.default.address */
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPods povezano.";
 
+/* Multimodal Visual Assistance error */
+"Apple Intelligence could not answer this request. Try a different photo or rephrase your question." = "Apple Intelligence nije mogao odgovoriti na ovaj zahtjev. Isprobajte drugu fotografiju ili preformulirajte pitanje.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence does not support your preferred language for Visual Assistance." = "Apple Intelligence ne podržava vaš preferirani jezik za Vizualnu pomoć.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is busy. Wait a moment, then try again." = "Apple Intelligence je zauzet. Pričekajte trenutak i pokušajte ponovno.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is still downloading or is not ready. Try Visual Assistance again later." = "Apple Intelligence se još uvijek preuzima ili nije spreman. Isprobajte Vizualnu pomoć kasnije.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is turned off. Enable it in Settings to use Visual Assistance." = "Apple Intelligence je isključen. Uključite ga u Postavkama kako biste koristili Vizualnu pomoć.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is unavailable for Visual Assistance on this device." = "Apple Intelligence nije dostupan za Vizualnu pomoć na ovom uređaju.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence took too long to respond. Try again." = "Apple Intelligence je predugo čekao da odgovori. Pokušajte ponovno.";
+
 /* settings.appleMpas */
 "Apple Maps" = "Apple karte";
 
@@ -265,6 +301,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Are You Sure?" = "Jeste li sigurni?";
+
+/* Multimodal Visual Assistance follow-up question */
+"Are any doors or entrances visible in the photo, and where are they?" = "Vidljiva li se na fotografiji neka vrata ili ulazi, i gdje se nalaze?";
 
 /* No comment provided by engineer. */
 "Are you sure you want to forget these headphones?" = "Jeste li sigurni da želite zaboraviti ove slušalice?";
@@ -446,6 +485,9 @@ location_detail.default.address */
 /* callouts.callouts_on */
 "Callouts On" = "Najave uključene";
 
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Samo najave na kartici Okruženje.";
+
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "Za vizualnu pomoć potreban je pristup kameri.";
 
@@ -538,6 +580,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Check Headphones Status" = "Provjerite status slušalica";
+
+/* Multimodal Visual Assistance follow-up button */
+"Check Possible Obstacles" = "Provjerite moguće prepreke.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Provjera";
@@ -640,6 +685,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Decimal coordinates and Plus Codes are supported." = "Podržane su decimalne koordinate i Plus Codes.";
+
+/* Multimodal Visual Assistance follow-up question */
+"Decode any visible QR codes or barcodes in the photo." = "Dekodirajte sve vidljive QR kodove ili barkodove na fotografiji.";
 
 /* No comment provided by engineer. */
 "Default Travel Mode" = "Zadani način putovanja";
@@ -928,6 +976,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Filter Markers" = "Oznake filtera";
+
+/* Multimodal Visual Assistance follow-up button */
+"Find Entrances" = "Pronađi ulaze";
 
 /* No comment provided by engineer. */
 "Finish Setup" = "Dovrši postavljanje";
@@ -1241,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "Pridružite se WhatsApp grupi";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Zadrži podatke karte";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Dulje čuvanje podataka karte smanjuje preuzimanja, ali može zauzeti više prostora na uređaju.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Znamenitosti";
 
@@ -1335,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Usluga karte";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Status usluge karte";
+"Map Service & Data" = "Usluga i podaci karte";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Označi trenutnu lokaciju";
@@ -1724,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "Ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Podaci o mjestima dolaze iz Apple Maps, OpenStreetMap i Overture Maps.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Podaci o mjestima dolaze iz Apple Maps i OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places" = "Mjesta";
@@ -1800,6 +1857,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Quit Without Saving" = "Završi bez spremanja";
+
+/* Multimodal Visual Assistance follow-up button */
+"Read Text" = "Pročitaj tekst";
+
+/* Multimodal Visual Assistance follow-up question */
+"Read all visible text in the photo." = "Pročitaj sav vidljivi tekst na fotografiji.";
 
 /* No comment provided by engineer. */
 "Ready" = "Spreman";
@@ -1971,6 +2034,9 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Spremi kao oznaku";
+
+/* Multimodal Visual Assistance follow-up button */
+"Scan Codes" = "Skeniraj kodove";
 
 /* search.title */
 "Search" = "traži";
@@ -2227,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Dodirnite gumb za osvježavanje u gornjem desnom kutu da biste ponovno izračunali relativne smjerove na temelju trenutnog smjera.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Dodirnite za provjeru";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Teleportiraj se na ovo mjesto";
 
@@ -2278,6 +2347,9 @@ ui.action_button.nearby_markers */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "The nearest road, %1$@, was %2$@ %3$@" = "Najbliža cesta, %1$@, bila je %2$@ %3$@";
 
+/* Multimodal Visual Assistance error */
+"The on-device Apple Intelligence model cannot analyze images on this device." = "Model Apple Intelligence koji radi na uređaju ne može analizirati slike na ovom uređaju.";
+
 /* No comment provided by engineer. */
 "The selected headphones are unavailable. Try again later." = "Slušalice koje ste odabrali trenutno nisu dostupne za povezivanje. Molimo pokušajte ponovo kasnije.";
 
@@ -2311,11 +2383,17 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Sada nema uputa skretanje po skretanje.";
 
+/* Multimodal Visual Assistance error */
+"This device does not support the Apple Intelligence required for Visual Assistance." = "Ovaj uređaj ne podržava Apple Intelligence koji je potreban za Vizualnu pomoć.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Ovo je %@. Kako ovo zvuči?";
 
 /* No comment provided by engineer. */
 "This operation cannot be undone." = "Ova operacija se ne može poništiti!";
+
+/* Multimodal Visual Assistance error */
+"This photo could not be processed within Apple Intelligence’s limits. Select Look Again to try another photo." = "Ovu fotografiju nije bilo moguće obraditi unutar ograničenja Apple Intelligence. Odaberite \"Pogledaj ponovno\" da biste pokušali s drugom fotografijom.";
 
 /* No comment provided by engineer. */
 "This reduces battery use while you are not actively using VoiceVista." = "Ovo pomaže u očuvanju baterije kada ne koristite aktivno VoiceVistu.";
@@ -2490,6 +2568,12 @@ poi.unknown */
 /* Visual assistance stopped announcement */
 "Visual Assistance stopped." = "Vizualna pomoć je zaustavljena.";
 
+/* iOS 27 Visual Assistance privacy explanation */
+"Visual Assistance uses Apple Intelligence and Vision to describe photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Vizualna pomoć koristi Apple Intelligence i Vision za opisivanje fotografija koje snimate. Fotografije se obrađuju u cijelosti na vašem uređaju i nikada se ne prenose ili dijele.";
+
+/* Apple Vision-only Visual Assistance privacy explanation */
+"Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Vizualna pomoć koristi Appleovu tehnologiju Vision koja radi na uređaju za klasifikaciju scena, čitanje teksta i prepoznavanje QR kodova i barkodova na fotografijama koje snimate. Fotografije se obrađuju u cijelosti na vašem uređaju i nikada se ne prenose ili dijele.";
+
 /* No comment provided by engineer. */
 "Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Vizualna pomoć koristi Appleovu tehnologiju Vision na uređaju za prepoznavanje objekata na fotografijama koje snimite. Fotografije se u potpunosti obrađuju na vašem uređaju i nikada se ne prenose niti dijele.";
 
@@ -2653,6 +2737,9 @@ Type 1 for navigation transport */
 /* No comment provided by engineer. */
 "What minimum turn angle should create a waypoint?" = "Koji minimalni kut skretanja treba generirati putnu točku?";
 
+/* Multimodal Visual Assistance follow-up question */
+"What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Koje su moguće prepreke ili padine vidljive na fotografiji? Ne ocjenjujte je li ruta sigurna.";
+
 /* No comment provided by engineer. */
 "What's Ahead of Me?" = "Što je ispred mene?";
 
@@ -2673,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "Uključivanje ove postavke uzrokovat će pauziranje najava VoiceViste i drugog zvuka kad god počnete koristiti drugu medijsku aplikaciju. Možete se vratiti na VoiceVistu da nastavite s najavama.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "Kada je omogućeno \"Automatske najave samo na kartici Okruženje\", automatske najave su ograničene na tu karticu. Isključite ovu opciju da biste dopustili automatske najave i na drugim karticama.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "Dok ste na ruti s VoiceVistom, bit ćete obaviješteni o dolasku na svaku međutočku, a Audio Cilj će automatski napredovati do sljedeće međutočke.";

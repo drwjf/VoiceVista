@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ seconden";
 
+/* Map data cache duration */
+"1 Week" = "1 week";
+
+/* Map data cache duration */
+"2 Weeks" = "2 weken";
+
+/* Map data cache duration */
+"3 Weeks" = "3 weken";
+
+/* Map data cache duration */
+"4 Weeks" = "4 weken";
+
+/* Map data cache duration */
+"5 Weeks" = "5 weken";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Broodkruimels zijn in VoiceVista een serie bakens die de route aangeven. Deze routepunten lijken op het spoor van broodkruimels dat Hans en Grietje achterlaten in het beroemde sprookje, vandaar de naam.";
 
@@ -236,6 +251,27 @@ location_detail.default.address */
 /* devices.callouts.check_audio.airpods */
 "Apple AirPods connected." = "Apple AirPods verbonden.";
 
+/* Multimodal Visual Assistance error */
+"Apple Intelligence could not answer this request. Try a different photo or rephrase your question." = "Apple Intelligence kon deze vraag niet beantwoorden. Probeer een andere foto of herformuleer uw vraag.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence does not support your preferred language for Visual Assistance." = "Apple Intelligence ondersteunt uw voorkeurstaal niet voor Visuele ondersteuning.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is busy. Wait a moment, then try again." = "Apple Intelligence is momenteel bezig. Wacht even en probeer het later opnieuw.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is still downloading or is not ready. Try Visual Assistance again later." = "Apple Intelligence wordt nog gedownload of is nog niet klaar. Probeer Visuele ondersteuning later opnieuw.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is turned off. Enable it in Settings to use Visual Assistance." = "Apple Intelligence is uitgeschakeld. Schakel het in in Instellingen om Visuele ondersteuning te gebruiken.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence is unavailable for Visual Assistance on this device." = "Apple Intelligence is niet beschikbaar voor Visuele ondersteuning op dit apparaat.";
+
+/* Multimodal Visual Assistance error */
+"Apple Intelligence took too long to respond. Try again." = "Apple Intelligence had te lang nodig om te reageren. Probeer het opnieuw.";
+
 /* settings.appleMpas */
 "Apple Maps" = "Apple Kaarten";
 
@@ -265,6 +301,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Are You Sure?" = "Weet je het zeker?";
+
+/* Multimodal Visual Assistance follow-up question */
+"Are any doors or entrances visible in the photo, and where are they?" = "Zijn er deuren of ingangen zichtbaar op de foto, en waar bevinden ze zich?";
 
 /* No comment provided by engineer. */
 "Are you sure you want to forget these headphones?" = "Weet je zeker dat je deze koptelefoon wilt verwijderen?";
@@ -446,6 +485,9 @@ location_detail.default.address */
 /* callouts.callouts_on */
 "Callouts On" = "Meldingen aan";
 
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Alleen meldingen op het tabblad Omgeving.";
+
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "Voor visuele ondersteuning is toegang tot de camera vereist.";
 
@@ -538,6 +580,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Check Headphones Status" = "Controleer de hoofdtelefoonstatus";
+
+/* Multimodal Visual Assistance follow-up button */
+"Check Possible Obstacles" = "Controleer mogelijke obstakels";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Controleren";
@@ -640,6 +685,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Decimal coordinates and Plus Codes are supported." = "Zowel decimale getallen als Google plus-codes worden ondersteund";
+
+/* Multimodal Visual Assistance follow-up question */
+"Decode any visible QR codes or barcodes in the photo." = "Decode eventuele zichtbare QR-codes of barcodes in de foto.";
 
 /* No comment provided by engineer. */
 "Default Travel Mode" = "Standaardreismodus";
@@ -928,6 +976,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Filter Markers" = "Filter markeringen";
+
+/* Multimodal Visual Assistance follow-up button */
+"Find Entrances" = "Zoek naar ingangen.";
 
 /* No comment provided by engineer. */
 "Finish Setup" = "Installatie voltooien";
@@ -1241,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "Word lid van de WhatsApp-groep";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Kaartgegevens bewaren";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Als kaartgegevens langer worden bewaard, hoeft er minder te worden gedownload, maar wordt mogelijk meer opslagruimte op het apparaat gebruikt.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Bezienswaardigheden";
 
@@ -1335,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Kaartservice";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Status van de kaartservice";
+"Map Service & Data" = "Kaartservice en -gegevens";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Markeer huidige locatie";
@@ -1724,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "Ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Plaatsgegevens zijn afkomstig van Apple Maps, OpenStreetMap en Overture Maps.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Plaatsgegevens zijn afkomstig van Apple Maps en OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places" = "Plaatsen";
@@ -1800,6 +1857,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Quit Without Saving" = "Afsluiten zonder op te slaan";
+
+/* Multimodal Visual Assistance follow-up button */
+"Read Text" = "Tekst lezen.";
+
+/* Multimodal Visual Assistance follow-up question */
+"Read all visible text in the photo." = "Lees alle zichtbare tekst in de foto.";
 
 /* No comment provided by engineer. */
 "Ready" = "Klaar";
@@ -1971,6 +2034,9 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "Save as Marker" = "Opslaan als markering";
+
+/* Multimodal Visual Assistance follow-up button */
+"Scan Codes" = "Codes scannen.";
 
 /* search.title */
 "Search" = "Zoekopdracht";
@@ -2227,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Tik op de knop Vernieuwen in de rechterbovenhoek om relatieve richtingen opnieuw te berekenen op basis van de huidige richting.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Tik om te controleren";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Teleporteer naar deze plaats";
 
@@ -2278,6 +2347,9 @@ ui.action_button.nearby_markers */
 /* Notification past tense, %1$@ is a road name, %2$@ is the distance with units and %3$@ is the orientation, 'Nearest road, <Pike Street>, was <5 meters> <to the left>' */
 "The nearest road, %1$@, was %2$@ %3$@" = "Dichtstbijzijnde weg, %1$@, was %2$@ %3$@";
 
+/* Multimodal Visual Assistance error */
+"The on-device Apple Intelligence model cannot analyze images on this device." = "Het Apple Intelligence-model op dit apparaat kan geen afbeeldingen op dit apparaat analyseren.";
+
 /* No comment provided by engineer. */
 "The selected headphones are unavailable. Try again later." = "De hoofdtelefoon die je hebt geselecteerd, kan momenteel niet worden aangesloten. Probeer het later opnieuw.";
 
@@ -2311,11 +2383,17 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Er zijn nu geen stapsgewijze instructies.";
 
+/* Multimodal Visual Assistance error */
+"This device does not support the Apple Intelligence required for Visual Assistance." = "Dit apparaat ondersteunt de Apple Intelligence-functionaliteit die nodig is voor Visuele ondersteuning niet.";
+
 /* Sample text used for previewing the available text-to-speech voices. %@ is the name of the selected voice, 'This is Tom. How does this sound?' */
 "This is %@. How does this sound?" = "Dit is %@. Hoe klinkt dit?";
 
 /* No comment provided by engineer. */
 "This operation cannot be undone." = "Deze bewerking kan niet ongedaan worden gemaakt!";
+
+/* Multimodal Visual Assistance error */
+"This photo could not be processed within Apple Intelligence’s limits. Select Look Again to try another photo." = "Deze foto kon niet worden verwerkt binnen de beperkingen van Apple Intelligence. Selecteer 'Kijk nog eens' om een andere foto te proberen.";
 
 /* No comment provided by engineer. */
 "This reduces battery use while you are not actively using VoiceVista." = "Dit helpt de batterij te sparen als je VoiceVista niet actief gebruikt.";
@@ -2490,6 +2568,12 @@ poi.unknown */
 /* Visual assistance stopped announcement */
 "Visual Assistance stopped." = "De visuele ondersteuning is gestopt.";
 
+/* iOS 27 Visual Assistance privacy explanation */
+"Visual Assistance uses Apple Intelligence and Vision to describe photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuele ondersteuning gebruikt Apple Intelligence en Vision om foto's te beschrijven. Foto's worden volledig op uw apparaat verwerkt en worden nooit geüpload of gedeeld.";
+
+/* Apple Vision-only Visual Assistance privacy explanation */
+"Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuele ondersteuning gebruikt Apple's Vision-technologie, die lokaal op uw apparaat draait, om scènes te classificeren, tekst te lezen en QR-codes en barcodes in foto's te detecteren. Foto's worden volledig op uw apparaat verwerkt en worden nooit geüpload of gedeeld.";
+
 /* No comment provided by engineer. */
 "Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuele ondersteuning gebruikt Apple's ingebouwde Vision-technologie om objecten in foto's die je maakt te herkennen. Foto's worden volledig op je apparaat verwerkt en worden nooit geüpload of gedeeld.";
 
@@ -2653,6 +2737,9 @@ Type 1 for navigation transport */
 /* No comment provided by engineer. */
 "What minimum turn angle should create a waypoint?" = "Bij welke minimale draaihoek moet een routepunt worden gemaakt?";
 
+/* Multimodal Visual Assistance follow-up question */
+"What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Welke mogelijke obstakels of hoogteverschillen zijn zichtbaar op de foto? Beoordeel niet of een route veilig is.";
+
 /* No comment provided by engineer. */
 "What's Ahead of Me?" = "Wat is er voor me?";
 
@@ -2673,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "Als deze instelling is ingeschakeld, pauzeert VoiceVista meldingen en andere audio terwijl een andere media-app afspeelt. Ga terug naar VoiceVista om de meldingen te hervatten.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "Als 'Alleen meldingen op het tabblad Omgeving' is ingeschakeld, zijn automatische meldingen beperkt tot dat tabblad. Schakel het uit om ze op andere tabbladen toe te staan.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "Terwijl je onderweg bent met VoiceVista, hoort je informatie als je bij een routepunt aankomt en gaat het audiobaken automatisch naar het volgende routepunt.";

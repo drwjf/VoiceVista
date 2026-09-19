@@ -70,6 +70,21 @@
 /* %@ to indicate the number of seconds between some announcements */
 "%@ sec" = "%@ sec";
 
+/* Map data cache duration */
+"1 Week" = "1 Week";
+
+/* Map data cache duration */
+"2 Weeks" = "2 Weeks";
+
+/* Map data cache duration */
+"3 Weeks" = "3 Weeks";
+
+/* Map data cache duration */
+"4 Weeks" = "4 Weeks";
+
+/* Map data cache duration */
+"5 Weeks" = "5 Weeks";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel.";
 
@@ -469,6 +484,9 @@ location_detail.default.address */
 
 /* callouts.callouts_on */
 "Callouts On" = "Callouts On";
+
+/* Setting that restricts automatic callouts to the Surroundings tab */
+"Callouts Only on the Surroundings Tab" = "Callouts Only on the Surroundings Tab";
 
 /* No comment provided by engineer. */
 "Camera access is required for Visual Assistance." = "Camera access is required for Visual Assistance.";
@@ -1274,6 +1292,12 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Join WhatsApp Group" = "Join WhatsApp Group";
 
+/* Setting that controls how long downloaded map data remains cached */
+"Keep Map Data" = "Keep Map Data";
+
+/* Explains the tradeoff of the map data cache duration setting */
+"Keeping map data longer reduces downloads but may use more device storage." = "Keeping map data longer reduces downloads but may use more device storage.";
+
 /* No comment provided by engineer. */
 "Landmarks" = "Landmarks";
 
@@ -1368,7 +1392,7 @@ location_detail.default.address */
 "Map Service" = "Map Service";
 
 /* No comment provided by engineer. */
-"Map Service Status" = "Map Service Status";
+"Map Service & Data" = "Map Service & Data";
 
 /* No comment provided by engineer. */
 "Mark Current Location" = "Mark Current Location";
@@ -1757,7 +1781,7 @@ ui.action_button.nearby_markers */
 "Ping" = "Ping";
 
 /* No comment provided by engineer. */
-"Place data comes from Apple Maps, OpenStreetMap, and Overture Maps." = "Place data comes from Apple Maps, OpenStreetMap, and Overture Maps.";
+"Place data comes from Apple Maps and OpenStreetMap." = "Place data comes from Apple Maps and OpenStreetMap.";
 
 /* No comment provided by engineer. */
 "Places" = "Places";
@@ -2269,6 +2293,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction." = "Tap the refresh button in the top-right corner to recalculate relative directions using the current direction.";
 
+/* Prompt to check the online map service status */
+"Tap to Check" = "Tap to Check";
+
 /* No comment provided by engineer. */
 "Teleport to This Place" = "Teleport to This Place";
 
@@ -2733,6 +2760,9 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts." = "When this setting is on, VoiceVista pauses callouts and other audio while another media app is playing. Return to VoiceVista to resume callouts.";
+
+/* Explains the Surroundings-only automatic callout setting */
+"When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs." = "When “Callouts Only on the Surroundings Tab” is enabled, automatic callouts are limited to that tab. Turn it off to allow them on other tabs.";
 
 /* No comment provided by engineer. */
 "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint." = "While following a route with VoiceVista, you will be notified when you arrive at each waypoint, and the audio beacon will automatically advance to the next waypoint.";
