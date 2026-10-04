@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 uker";
 
+/* Map data cache duration */
+"50 Weeks" = "50 uker";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Brødsmuler her er en serie med registrerte rutepunkter som sporer stien. Disse rutepunktene tilsvarer brødsmulesporet etterlatt av Hans og Grete i det berømte eventyret, derav navnet.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Opphev demping automatisk";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Innstillinger for automatiske opplesinger";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatiske opplesinger";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Automatiske opplesinger aktivert";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Innstillinger for automatiske opplesinger";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Områder for automatisk lyd av og på";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Bluetooth-tillatelse kreves";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Bluetooth-tillatelse kreves for å koble til hodetelefonene dine. Åpne Innstillinger-appen nedenfor for å aktivere Bluetooth. Merk at dette kan føre til at appen starter på nytt.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Bluetooth-tillatelse kreves for å koble til hodetelefonene. Trykk på Innstillinger nedenfor for å gi VoiceVista tilgang til Bluetooth. Dette kan starte VoiceVista på nytt.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Brødsmulemodus";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Endre stil for retningsangivelse";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Endre avstandsintervall for GPS-informasjon ved kjøring";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Endre avstandsintervall for husnumre ved kjøring";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Endre markørrekkevidde ved kjøring";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Endre avstandsintervall for veinavn ved kjøring";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Endre ekstern kart-app";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Endre måleenheter";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Endre markørrekkevidde til fots";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Endre rekkevidde for opplesing av rutepunkter";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Sjekk hodetelefonstatus";
+"Check Headphone Status" = "Sjekk hodetelefonstatus";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Sjekk mulige hindringer";
+"Check for Possible Obstacles" = "Sjekk mulige hindringer";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Sjekker";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Vil du slette lagrede kartdata?";
 
 /* general.text.clear_text */
-"Clear text" = "Fjern tekst";
+"Clear Text" = "Fjern tekst";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Klokkeposisjon";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Avstand";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Avstandsintervall";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Avstand mellom %1$@ og %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Kjører";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Avstandsintervall ved kjøring";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Markørrekkevidde ved kjøring";
 
 /* beacon.styles.drop */
 "Drop" = "Dråpe";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "I et kjøretøy";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "I gåmodus angir områdene opplesingsavstander for registrerte interessepunkter i ulike superkategorier. Områdene multipliseres med seks i kjøremodus.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "I gåmodus bestemmer intervallet hvor ofte GPS-informasjon leses opp. I kjøremodus multipliseres intervallet med seks.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "I gåmodus bestemmer intervallet hvor ofte veinavn leses opp. I kjøremodus multipliseres denne avstanden med seks. Vær forsiktig når du velger et lite intervall, da det kan øke batteriforbruket på din iPhone betydelig.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "I gåmodus angir intervallet avstandsterskelen for opplesing av husnumre. I kjøremodus multipliseres terskelen med seks.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Talefrekvens i kjøretøy";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "Taletempo i kjøretøy. Hvordan høres dette ut?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Inkluder nærmeste markør uansett avstand";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Inkluder veier uten navn";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Koordinater for kartets midtpunkt";
 
 /* No comment provided by engineer. */
-"Map Service" = "Karttjeneste";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Karttjeneste og -data";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Markør";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Innstillinger for markører og interessepunkter";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Markøralarm";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ markører har blitt gjenopprettet.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Markører annonseres alltid og kan ikke deaktiveres.";
+"Markers are announced within the range for your current walking or driving mode." = "Markører leses opp innenfor rekkevidden for gjeldende modus, til fots eller ved kjøring.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Markører tas med i opplesing ved utforskning uavhengig av disse innstillingene for interessepunktenes overordnede kategorier.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Markører bruker egne opplesingsrekkevidder og påvirkes ikke av bryterne for interessepunktkategorier.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Melodier ved ankomst og avreise";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Neste sporpunkt";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Neste veipunkt";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Neste veikryss: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Neste veikryss: slutten på veien";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Neste veipunkt";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Neste: Annonser din nåværende posisjon.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Avstand og retning til interessepunktet";
 
 /* No comment provided by engineer. */
-"POI Settings" = "Interessepunktinnstillinger";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Alternativer for POI-lydeffekter";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Preferanse";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Forbereder visuell assistanse...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "Du kan trykke på avspillings-/pauseknappen på hodetelefonene for å sette en brødsmulemarkør.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Forrige sporpunkt";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Forrige rutepunkt";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Forrige posisjon, langs %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Forrige rutepunkt";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Forrige: Gjenta den siste opplesingen.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "Skimmer";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Korte intervaller kan øke batteriforbruket på iPhone betydelig.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Snarveiinnstillinger";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Står stille";
 
 /* No comment provided by engineer. */
-"Status" = "Status";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Stopp lydfyr";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Filen inneholder både rutepunkter og spor.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "Den første oppstarten kan ta noen sekunder.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Bildet kunne ikke analyseres. Velg «Se igjen» for å prøve på nytt.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Det er ingen sving-for-sving-instruksjoner nå.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Disse rekkeviddene bestemmer hvor nærme interessepunkter må være for å leses opp ved kjøring. De er uavhengige av rekkeviddene til fots.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Disse rekkeviddene bestemmer hvor nærme interessepunkter må være for å leses opp til fots.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Denne enheten støtter ikke Apple Intelligence som kreves for visuell assistanse.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuell assistanse bruker Apples Vision-teknologi som kjører på enheten for å klassifisere scener, lese tekst og oppdage QR-koder og strekkoder i bilder du tar. Bilder behandles utelukkende på enheten din og blir aldri lastet opp eller delt.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuell assistanse bruker Apples innebygde Vision-teknologi for å identifisere objekter i bilder du tar. Bilder behandles utelukkende på enheten din og lastes aldri opp eller deles.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Stemme og lyd";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Gående";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Avstandsintervall til fots";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Markørrekkevidde til fots";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Til fots og ved kjøring brukes separate avstandsintervaller for opplesing.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Rutepunkt";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Hva er min posisjon?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Når funksjonen er aktivert, inkluderer automatiske opplesinger den nærmeste markøren uansett avstand. Når den er deaktivert, bruker hver markør området til den tilknyttede interessepunktkategorien.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "Når du navigerer med VoiceVista, veileder et lydfyr deg mens opplesinger beskriver steder rundt og foran deg.";

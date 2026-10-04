@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 nädalat";
 
+/* Map data cache duration */
+"50 Weeks" = "50 nädalat";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Leivapurupunktid on siin rida salvestatud teekonnapunkte, mis jälgivad teed. Need teekonnapunktid sarnanevad Hansu ja Grete poolt kuulsas muinasjutus jäetud leivapuru rajaga. Seepärast ka selline nimi.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Vaigistuse automaatne tühistamine";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Automaatsete teadete seaded";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automaatsed teated";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Automaatsed teated lubatud";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Automaatsete teadete seaded";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Automaatse vaigistamise ja vaigistuse tühistamise ulatused";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Bluetoothi luba on vajalik";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Kõrvaklappide ühendamiseks on vaja Bluetoothi luba. Bluetoothi lubamiseks ava allpool rakendus Seaded. Pane tähele, et see võib põhjustada rakenduse taaskäivitamise.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Kõrvaklappide ühendamiseks on vaja Bluetoothi kasutamise luba. Puuduta allpool Seaded, et lubada VoiceVistal Bluetoothi kasutada. See võib VoiceVista taaskäivitada.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Leivapuru töölaad";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Muuda suuna laadi";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Muuda GPS-teabe teavituste vahemaad sõitmisel";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Muuda majanumbrite teavituste vahemaad sõitmisel";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Muuda tähiste teavitusulatust sõitmisel";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Muuda teenimede teavituste vahemaad sõitmisel";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Välise kaardirakenduse muutmine";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Mõõtühikute muutmine";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Muuda tähiste teavitusulatust kõndimisel";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Teekonnapunkti tajumise kauguse muutmine";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Kontrolli kõrvaklappide olekut";
+"Check Headphone Status" = "Kontrolli kõrvaklappide olekut";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Kontrolli võimalikke takistusi.";
+"Check for Possible Obstacles" = "Kontrolli võimalikke takistusi.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Kontrollimine";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Tühjendada talletatud kaardiandmed?";
 
 /* general.text.clear_text */
-"Clear text" = "Tühjenda tekst";
+"Clear Text" = "Tühjenda tekst";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Kella järgi";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Kaugus";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Vahemaa vahemik";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Vahemik %1$@ kuni %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Sõidu";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Teavituste vahemaa sõitmisel";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Tähiste teavitusulatus sõitmisel";
 
 /* beacon.styles.drop */
 "Drop" = "Tilk";
@@ -1152,7 +1173,7 @@ location_detail.default.address */
 "How would you like to generate a route from the GPX file?" = "Kuidas soovid GPX-failist marsruuti luua?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you: %@" = "Jagasin sinuga VoiceVista tähist! '%@;'";
+"I've shared a VoiceVista marker with you: %@" = "Jagasin sinuga VoiceVista tähist: %@";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you: %@" = "Jagasin sinuga VoiceVista teekonda! '%@'";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "Sõidukis";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Kõndimisrežiimis määravad vahemikud erinevate superkategooriate huvipunktide teavitamiskaugused. Sõidurežiimis korrutatakse need vahemikud kuuega.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "Kõndimisrežiimis määrab vahemik, kui sageli GPS-infot öeldakse. Sõidurežiimis korrutatakse see vahemaa kuuega.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "Kõndimisrežiimis määrab vahemik, kui sageli tee nime öeldakse. Sõidurežiimis korrutatakse see vahemaa kuuega. Ole väikese vahemiku valimisel ettevaatlik, kuna see võib oluliselt suurendada iPhone'i aku tarbimist.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "Kõndimisrežiimis määrab vahemik maja numbrite teatamise kaugusläve. Sõidurežiimis korrutatakse see lävi kuuega.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Sõidukis kõnekiirus";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "Kõnekiirus sõidukis. Kuidas see kõlab?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Kaasa lähim tähis olenemata kaugusest";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Kaasa nimetud teed";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Kaardi keskpunkti koordinaadid";
 
 /* No comment provided by engineer. */
-"Map Service" = "Kaarditeenus";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Kaarditeenus ja -andmed";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Tähis";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Tähiste ja huvipunktide seaded";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Tähise hoiatus";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ tähist on taastatud.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Tähistest teatatakse alati ja neid ei saa välja lülitada.";
+"Markers are announced within the range for your current walking or driving mode." = "Tähistest teatatakse praeguse kõndimis- või sõidurežiimi teavitusulatuse piires.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Tähised kaasatakse ümbruse uurimise teavitustesse sõltumata nendest huvipunktide ülemkategooriate seadetest.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Tähised kasutavad oma teavitusulatusi ja huvipunktide kategoorialülitid neid ei mõjuta.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Heli saabumisel ja lahkumisel";
@@ -1473,7 +1485,7 @@ location_detail.default.address */
 "Monitoring: %@" = "Jälgimisel %@";
 
 /* No comment provided by engineer. */
-"Motion & Fitness" = "Liikumine ja tervis";
+"Motion & Fitness" = "Liikumine ja treening";
 
 /* No comment provided by engineer. */
 "Motion & Fitness Permission Required" = "Vajalik on liikumis- ja treeninguluba";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Järgmine rajapunkt";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Järgmine teekonnapunkt";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Järgmine ristmik: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Järgmine ristmik: Tee lõpp";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Järgmine teekonnapunkt";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Järgmine: Teata oma praegune asukoht.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Kaugus ja suund huvipunktini";
 
 /* No comment provided by engineer. */
-"POI Settings" = "Huvipunktide seaded";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Huvipunkti heliefektide valikud";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Eelistus";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Visuaalse abi ettevalmistamine...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "Võid vajutada kõrvaklappide esitus-/pausinuppu ka leivapurupunkti määramiseks.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Eelmine rajapunkt";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Eelmine teekonnapunkt";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Eelmine asukoht, piki %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Eelmine teekonnapunkt";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Eelmine: viimase teate kordamine.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "Sära";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Lühikesed intervallid võivad märkimisväärselt suurendada iPhone'i akukulu.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Otseteede seaded";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Paigal";
 
 /* No comment provided by engineer. */
-"Status" = "Staatus";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Peata majakas";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Fail sisaldab nii teekonnapunkte kui ka radasid.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "Esimene käivitamine võib võtta paar sekundit.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Pilti ei õnnestunud analüüsida. Uuesti proovimiseks vali „Vaata uuesti“.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Praegu ei ole samm-sammult juhiseid.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Need ulatused määravad, kui lähedal peavad huvipunktid olema, et neist sõitmisel teatada. Need ei sõltu kõndimise teavitusulatustest.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Need ulatused määravad, kui lähedal peavad huvipunktid olema, et neist kõndimisel teatada.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "See seade ei toeta Apple Intelligence'i funktsiooni, mis on vajalik Visuaalse abi jaoks.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuaalne abi kasutab Apple'i sisemist Vision'i tehnoloogiat, et klassifitseerida pilte, lugeda teksti ja tuvastada QR-koode ja vöötkoodid teie tehtud fotodel. Fotosid töödeldakse täielikult teie seadmes ja neid ei laadata üles ega jagata.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Visuaalne abi kasutab Apple'i seadmesisest nägemistehnoloogiat teie tehtud fotodel olevate objektide tuvastamiseks. Fotosid töödeldakse täielikult teie seadmes ja neid ei laadita üles ega jagata kunagi.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Hääl ja heli";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Kõndimine";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Teavituste vahemaa kõndimisel";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Tähiste teavitusulatus kõndimisel";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Kõndimisel ja sõitmisel kasutatakse teavituste jaoks eraldi vahemaid.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Teekonnapunkt";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Mis on minu asukoht?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Kui see on lubatud, sisaldavad automaatsed teavitused lähimat tähist olenemata kaugusest. Kui see on keelatud, kasutab iga tähis lingitud POI-kategooria ulatust.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "VoiceVistaga liikudes juhib sind helimajakas ning sinu ümber ja ees olevate kohtade kohta saab pärida teavet.";

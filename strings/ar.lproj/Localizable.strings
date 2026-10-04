@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 أسابيع";
 
+/* Map data cache duration */
+"50 Weeks" = "50 أسبوعًا";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "المسار المسجل سلسلة من نقاط الطريق التي تتتبع مسارك، مثل أثر فتات الخبز في قصة هانسيل وغريتل.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "إلغاء كتم الصوت التلقائي";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "إعدادات الإعلانات الصوتية التلقائية";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "الإعلانات الصوتية التلقائية";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "تم تشغيل الإعلانات الصوتية التلقائية";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "إعدادات الإعلانات الصوتية التلقائية";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "نطاقات كتم الصوت وإلغاء كتمه التلقائية";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "إذن Bluetooth مطلوب";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "مطلوب إذن بلوتوث لتوصيل سماعات الرأس الخاصة بك. افتح تطبيق الإعدادات أدناه لتمكين البلوتوث. لاحظ أن هذا قد يتسبب في إعادة تشغيل التطبيق.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "يلزم إذن Bluetooth لتوصيل سماعات الرأس. اضغط على الإعدادات أدناه للسماح لـ VoiceVista بالوصول إلى Bluetooth. قد يؤدي ذلك إلى إعادة تشغيل VoiceVista.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "وضع تسجيل المسار";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "تغيير نمط الاتجاه";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "تغيير فاصل المسافة لإعلانات معلومات GPS أثناء القيادة";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "تغيير فاصل المسافة لإعلانات أرقام المنازل أثناء القيادة";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "تغيير نطاق العلامات أثناء القيادة";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "تغيير فاصل المسافة لإعلانات أسماء الطرق أثناء القيادة";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "تغيير تطبيق الخرائط الخارجية";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "تغيير وحدات القياس";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "تغيير نطاق العلامات أثناء المشي";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "تغيير مسافة استشعار نقطة الطريق";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "تحقق من حالة سماعات الرأس";
+"Check Headphone Status" = "تحقق من حالة سماعات الرأس";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "تحقق من العوائق المحتملة.";
+"Check for Possible Obstacles" = "تحقق من العوائق المحتملة.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "التحقق";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "هل تريد مسح بيانات الخريطة المخزنة؟";
 
 /* general.text.clear_text */
-"Clear text" = "مسح النص";
+"Clear Text" = "مسح النص";
 
 /* settings.direction.style.clock */
 "Clock Position" = "موقف الساعة";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "مسافة";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "مسافة الفاصل";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "المسافة بين %1$@ و%2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "القيادة";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "فاصل المسافة أثناء القيادة";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "نطاق العلامات أثناء القيادة";
 
 /* beacon.styles.drop */
 "Drop" = "قطرة";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "داخل مركبة";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "في وضع المشي، تحدد النطاقات مسافات الإعلان عن نقاط الاهتمام المكتشفة ضمن الفئات الرئيسية المختلفة. في وضع القيادة، تُضرب هذه النطاقات في ستة.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "في وضع المشي، يحدد الفاصل معدل الإعلان عن معلومات GPS. في وضع القيادة، يُضرب الفاصل في ستة.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "في وضع المشي، يحدد الفاصل معدل الإعلان عن أسماء الطرق. في وضع القيادة، يُضرب الفاصل في ستة. قد تؤدي الفواصل القصيرة إلى زيادة استهلاك بطارية iPhone بشكل ملحوظ.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "في وضع المشي، يحدد الفاصل حد المسافة للإعلان عن أرقام المنازل. في وضع القيادة، يُضرب هذا الحد في ستة.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "معدل التحدث داخل المركبة";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "في معدل التحدث بالسيارة. ما رأيك؟";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "تضمين أقرب علامة مهما كانت المسافة";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "تضمين الطرق غير المسماة";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "إحداثيات مركز الخريطة";
 
 /* No comment provided by engineer. */
-"Map Service" = "خدمة الخرائط";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "خدمة الخرائط وبياناتها";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "علامة";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "إعدادات العلامات ونقاط الاهتمام";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "تنبيه العلامة";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "العلامات المستعادة: %@";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "يتم دائمًا الإعلان عن العلامات ولا يمكن تعطيلها.";
+"Markers are announced within the range for your current walking or driving mode." = "يتم الإعلان عن العلامات ضمن النطاق المحدد لوضع المشي أو القيادة الحالي.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "يتم تضمين العلامات في إعلانات الاستكشاف بغض النظر عن إعدادات الفئات الرئيسية لنقاط الاهتمام هذه.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "تستخدم العلامات نطاقات إعلان خاصة بها ولا تتأثر بمفاتيح تشغيل فئات نقاط الاهتمام.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "الألحان عند الوصول والمغادرة";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "نقطة المسار التالية";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "نقطة الطريق التالية";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "التقاطع التالي: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "التقاطع التالي: نهاية الطريق";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "نقطة الطريق التالية";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "التالي: أعلن موقعك الحالي.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "المسافة والاتجاه إلى نقطة الاهتمام";
 
 /* No comment provided by engineer. */
-"POI Settings" = "إعدادات نقاط الاهتمام";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "خيارات المؤثرات الصوتية لنقاط الاهتمام";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "التفضيل";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "إعداد المساعدة البصرية...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "اضغط زر التشغيل/الإيقاف المؤقت في سماعاتك لإضافة علامة إلى المسار المسجل.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "نقطة المسار السابقة";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "نقطة الطريق السابقة";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "الموقع السابق على %@.";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "نقطة الطريق السابقة";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "السابق: تكرار آخر إعلان صوتي.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "وميض";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "قد تؤدي الفواصل القصيرة إلى زيادة استهلاك بطارية iPhone بشكل كبير.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "إعدادات الاختصارات";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "ثابت";
 
 /* No comment provided by engineer. */
-"Status" = "حالة";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "إيقاف المنارة الصوتية";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "يحتوي الملف على نقاط الطريق والمسارات.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "قد يستغرق التشغيل الأول للمساعدة البصرية بضع ثوانٍ.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "تعذر تحليل الصورة. اختر «انظر مرة أخرى» للمحاولة مرة أخرى.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "لا توجد تعليمات دورية الآن.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "تحدد هذه النطاقات مدى قرب نقاط الاهتمام للإعلان عنها أثناء القيادة. وهي مستقلة عن نطاقات المشي.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "تحدد هذه النطاقات مدى قرب نقاط الاهتمام للإعلان عنها أثناء المشي.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "هذا الجهاز لا يدعم Apple Intelligence اللازمة لخدمة المساعدة البصرية.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "تستخدم المساعدة البصرية تقنية Vision الخاصة بـ Apple والمثبتة على الجهاز لتصنيف المشاهد، وقراءة النصوص، واكتشاف الرموز الشريطية ورموز QR في الصور التي تلتقطها. تتم معالجة الصور بالكامل على جهازك ولا يتم تحميلها أو مشاركتها أبدًا.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "تستخدم ميزة المساعدة البصرية تقنية الرؤية المدمجة في جهاز Apple لتحديد العناصر في الصور التي تلتقطها. تتم معالجة الصور بالكامل على جهازك ولا يتم تحميلها أو مشاركتها مطلقًا.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "الصوت والمؤثرات الصوتية";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "المشي";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "فاصل المسافة أثناء المشي";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "نطاق العلامات أثناء المشي";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "يستخدم وضعا المشي والقيادة فواصل مسافة منفصلة للإعلانات.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "نقطة طريق";
 
@@ -2741,16 +2756,13 @@ Type 1 for navigation transport */
 "What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "ما هي العوائق أو المنحدرات المحتملة التي تظهر في الصورة؟ لا تقم بتقييم مدى أمان المسار.";
 
 /* No comment provided by engineer. */
-"What's Ahead of Me?" = "ماذا ينتظرني؟";
+"What's Ahead of Me?" = "ماذا يوجد أمامي؟";
 
 /* No comment provided by engineer. */
 "What's Around Me?" = "ماذا حولي؟";
 
 /* No comment provided by engineer. */
 "What's My Location?" = "ما هو موقعي؟";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "عند التمكين، تتضمن الإعلانات التلقائية أقرب علامة بغض النظر عن المسافة. عند التعطيل، تستخدم كل علامة نطاق فئة نقطة الاهتمام المرتبطة بها.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "أثناء التنقل باستخدام VoiceVista، ترشدك المنارة الصوتية وتصف الإعلانات المواقع المحيطة بك وأمامك.";
@@ -2876,40 +2888,40 @@ Type 1 for navigation transport */
 "ahead and to the right" = "إلى الأمام على اليمين";
 
 /* Directions using 1  o'clock position. */
-"at 1 o'clock" = "في 01:00";
+"at 1 o'clock" = "باتجاه الساعة 1";
 
 /* Directions using 10 o'clock position. */
-"at 10 o'clock" = "في تمام الساعة 10";
+"at 10 o'clock" = "باتجاه الساعة 10";
 
 /* Directions using 11 o'clock position. */
-"at 11 o'clock" = "في الساعة 11 صباحا";
+"at 11 o'clock" = "باتجاه الساعة 11";
 
 /* Directions using 12 o'clock position. */
-"at 12 o'clock" = "في الساعة 12";
+"at 12 o'clock" = "باتجاه الساعة 12";
 
 /* Directions using 2  o'clock position. */
-"at 2 o'clock" = "في 02:00";
+"at 2 o'clock" = "باتجاه الساعة 2";
 
 /* Directions using 3  o'clock position. */
-"at 3 o'clock" = "في 03:00";
+"at 3 o'clock" = "باتجاه الساعة 3";
 
 /* Directions using 4  o'clock position. */
-"at 4 o'clock" = "في 04:00";
+"at 4 o'clock" = "باتجاه الساعة 4";
 
 /* Directions using 5  o'clock position. */
-"at 5 o'clock" = "عند الساعة 5";
+"at 5 o'clock" = "باتجاه الساعة 5";
 
 /* Directions using 6  o'clock position. */
-"at 6 o'clock" = "في 06:00";
+"at 6 o'clock" = "باتجاه الساعة 6";
 
 /* Directions using 7  o'clock position. */
-"at 7 o'clock" = "في تمام الساعة 7";
+"at 7 o'clock" = "باتجاه الساعة 7";
 
 /* Directions using 8  o'clock position. */
-"at 8 o'clock" = "في 08:00";
+"at 8 o'clock" = "باتجاه الساعة 8";
 
 /* Directions using 9  o'clock position. */
-"at 9 o'clock" = "في الساعة 9 صباحا";
+"at 9 o'clock" = "باتجاه الساعة 9";
 
 /* directions.direction.away */
 "away" = "بعيد";
