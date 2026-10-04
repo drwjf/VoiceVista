@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 недель";
 
+/* Map data cache duration */
+"50 Weeks" = "50 недель";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Навигационная цепочка (она же Хлебные крошки) представляет собой серию записанных путевых точек, соответствующих пройденному пути. Они сродни следу из хлебных крошек, оставленному Гензелем и Гретель в знаменитой сказке, отсюда и название.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Автоматическое включение звука";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Настройки автоматических объявлений";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Автоматические объявления";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Автоматические объявления включены";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Настройки автоматических объявлений";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Диапазоны автоматического отключения и включения звука";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Требуется разрешение на использование Bluetooth";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Для подключения наушников требуется разрешение использовать Bluetooth. Откройте приложение «Настройки» ниже, чтобы включить Bluetooth. Обратите внимание, что это может привести к перезапуску приложения.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Для подключения наушников требуется разрешение на Bluetooth. Нажмите «Настройки» ниже, чтобы разрешить VoiceVista доступ к Bluetooth. Это может перезапустить VoiceVista.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Режим «Навигационная цепочка»";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Изменить стиль объявления направлений";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Изменить интервал расстояния для объявлений GPS при вождении";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Изменить интервал расстояния для номеров домов при вождении";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Изменить радиус объявления меток при вождении";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Изменить интервал расстояния для названий улиц при вождении";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Изменить приложение внешних карт";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Изменить единицы измерения";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Изменить радиус объявления меток при ходьбе";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Изменить расстояние переключения путевых точек";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Проверить состояние наушников";
+"Check Headphone Status" = "Проверить состояние наушников";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Проверьте возможные препятствия.";
+"Check for Possible Obstacles" = "Проверьте возможные препятствия.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Проверка";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Очистить сохранённые данные карт?";
 
 /* general.text.clear_text */
-"Clear text" = "Очистить текст";
+"Clear Text" = "Очистить текст";
 
 /* settings.direction.style.clock */
 "Clock Position" = "По циферблату часов";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Расстояние";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Интервал по расстоянию";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Расстояние от %1$@ до %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Вождение";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Интервал расстояния при вождении";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Радиус объявления меток при вождении";
 
 /* beacon.styles.drop */
 "Drop" = "Капля";
@@ -1152,7 +1173,7 @@ location_detail.default.address */
 "How would you like to generate a route from the GPX file?" = "Как бы вы хотели сгенерировать маршрут из файла GPX?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you: %@" = "Это моя метка из приложения VoiceVista! '%@;'";
+"I've shared a VoiceVista marker with you: %@" = "Я поделился с вами меткой VoiceVista: %@";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you: %@" = "Это мой маршрут из приложения VoiceVista! '%@'";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "В транспортном средстве";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "В режиме ходьбы диапазоны определяют расстояния объявления обнаруженных точек интереса в различных суперкатегориях. В режиме движения эти диапазоны умножаются на шесть.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "В режиме ходьбы интервал определяет, как часто объявляется информация GPS. В режиме вождения это расстояние умножается на шесть.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "В пешеходном режиме интервал определяет, как часто объявляется название дороги. В режиме вождения это расстояние умножается на шесть. Будьте осторожны при выборе небольшого интервала, так как он может значительно увеличить расход заряда батареи на вашем iPhone.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "В режиме ходьбы интервал определяет пороговое расстояние для объявления номера дома. В режиме вождения оно умножается на шесть.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Скорость речи в транспортном средстве";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "Скорость речи в автомобиле. Как это звучит?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Включать ближайшую метку независимо от расстояния";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Включить неназванные дороги";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Координаты центра карты";
 
 /* No comment provided by engineer. */
-"Map Service" = "Картографический сервис";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Картографический сервис и данные";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Метка";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Настройки меток и точек интереса";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Оповещение о метке";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ меток восстановлено.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Метки всегда озвучиваются, и их нельзя отключить.";
+"Markers are announced within the range for your current walking or driving mode." = "Метки объявляются в пределах радиуса для текущего режима ходьбы или вождения.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Метки включаются в объявления при исследовании окружения независимо от этих настроек надкатегорий точек интереса.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Метки используют собственные радиусы объявления и не зависят от переключателей категорий точек интереса.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Сигналы прибытия и отправления";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Следующая точка трека";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Следующая путевая точка";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Следующий перекрёсток: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Следующий перекрёсток: конец дороги";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Следующая путевая точка";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Далее: объявите своё текущее местоположение.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Расстояние и направление до точки интереса";
 
 /* No comment provided by engineer. */
-"POI Settings" = "Настройки точек интереса";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Варианты звуковых эффектов для точек интереса";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Предпочтение";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Подготовка визуальной помощи…";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "Вы также можете нажать на наушниках кнопку «воспроизведение/пауза», чтобы добавить метку навигационной цепочки.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Предыдущая точка трека";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Предыдущая путевая точка";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Предыдущее местоположение, по %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Предыдущая путевая точка";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Предыдущее: повтор последнего объявления.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "Мерцание";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Короткие интервалы могут значительно увеличить расход заряда аккумулятора iPhone.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Настройки быстрых действий";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Неподвижный";
 
 /* No comment provided by engineer. */
-"Status" = "Статус";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Остановить маяк";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Файл содержит как путевые точки, так и маршруты.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "Первый запуск может занять несколько секунд.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Не удалось проанализировать изображение. Выберите «Посмотрите ещё раз», чтобы повторить попытку.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Пошаговых инструкций нет.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Эти радиусы определяют, насколько близко должны находиться точки интереса для объявления при вождении. Они не зависят от радиусов для ходьбы.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Эти радиусы определяют, насколько близко должны находиться точки интереса для объявления при ходьбе.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Это устройство не поддерживает Apple Intelligence, необходимую для функции Визуальной помощи.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Функция Визуальной помощи использует технологию Vision от Apple, работающую на вашем устройстве, для классификации сцен, чтения текста и распознавания QR-кодов и штрих-кодов на фотографиях, которые вы делаете. Фотографии обрабатываются исключительно на вашем устройстве и никогда не загружаются и не передаются.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Функция визуальной помощи использует встроенную в устройство технологию Apple Vision для распознавания объектов на сделанных вами фотографиях. Фотографии обрабатываются исключительно на вашем устройстве и никогда не загружаются и не передаются третьим лицам.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Голос и звук";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Пешком";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Интервал расстояния при ходьбе";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Радиус объявления меток при ходьбе";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Для объявлений при ходьбе и вождении используются отдельные интервалы расстояния.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Путевая точка";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Где я?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Когда параметр включен, автоматические объявления включают ближайшую метку независимо от расстояния. Когда он выключен, каждая метка использует дальность связанной категории POI.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "При навигации VoiceVista будет направлять вас с помощью звукового маяка и объявлять места вокруг и впереди вас.";

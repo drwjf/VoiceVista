@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 setmanes";
 
+/* Map data cache duration */
+"50 Weeks" = "50 setmanes";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Aquí hi ha una sèrie de punts de pas enregistrats que segueixen el camí. Aquests punts d'interès són semblants al rastre de pa ratllat deixat per Hansel i Gretel al famós conte de fades, d'aquí el nom.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Activació automàtica del so";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Configuració dels avisos automàtics";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Avisos automàtics";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Avisos automàtics activats";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Configuració dels avisos automàtics";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Rangs de silenci i activació automàtics";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Cal permís per al Bluetooth";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "NEcessitem permís de Bluetooth per connectar els auriculars. Obre l'aplicació Configuració per activar el Bluetooth. Tingues en compte que això pot fer que l'aplicació es tanqui i es torni a obrir.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Cal permís de Bluetooth per connectar els auriculars. Toca Configuració a continuació per permetre que VoiceVista accedeixi al Bluetooth. Això pot reiniciar VoiceVista.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Mode de rastre";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Canvia l'estil de direcció";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Canvia l'interval de distància de la informació GPS en conducció";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Canvia l'interval de distància dels números de portal en conducció";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Canvia l'abast dels marcadors en conducció";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Canvia l'interval de distància dels noms de carrer en conducció";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Canvia l'aplicació de mapes externs";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Canviar unitats de mesura";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Canvia l'abast dels marcadors a peu";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Canvia la distància de detecció de punt de pas";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Comprova l'estat dels auriculars";
+"Check Headphone Status" = "Comprova l'estat dels auriculars";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Comprova possibles obstacles.";
+"Check for Possible Obstacles" = "Comprova possibles obstacles.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Comprovació";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Esborrar les dades del mapa emmagatzemades?";
 
 /* general.text.clear_text */
-"Clear text" = "Esborra el text";
+"Clear Text" = "Esborra el text";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Posició del rellotge";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Distància";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Interval de distància";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Distància entre %1$@ i %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Conducció";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Interval de distància en conducció";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Abast dels marcadors en conducció";
 
 /* beacon.styles.drop */
 "Drop" = "Gota";
@@ -1152,7 +1173,7 @@ location_detail.default.address */
 "How would you like to generate a route from the GPX file?" = "Com us agradaria generar una ruta a partir del fitxer GPX?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you: %@" = "He compartit un marcador de VoiceVista amb tu! '%@;'";
+"I've shared a VoiceVista marker with you: %@" = "He compartit un marcador de VoiceVista amb tu: %@";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you: %@" = "He compartit una ruta de VoiceVista amb tu! '%@'";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "En un vehicle";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "En el mode a peu, els intervals defineixen les distàncies dels avisos per als PDI detectats en diferents supercategories. En el mode de conducció, aquests intervals es multipliquen per sis.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "En el mode de caminada, l'interval determina la freqüència amb què es crida la informació GPS. En mode de conducció, aquesta distància es multiplica per sis.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "En mode de caminar, l'interval determina la freqüència amb què es crida el nom de la carretera. En mode de conducció, aquesta distància es multiplica per sis. Aneu amb compte a l'hora de seleccionar un interval petit, ja que pot augmentar significativament el consum de bateria del vostre iPhone.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "En el mode a peu, l'interval defineix el llindar de distància dels avisos de números de portal. En el mode de conducció, aquest llindar es multiplica per sis.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Velocitat de parla en vehicle";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "Velocitat de la veu en rutes en vehicle. Com ho trobes?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Inclou el marcador més proper a qualsevol distància";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Inclou carreteres sense nom";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Coordenades del centre del mapa";
 
 /* No comment provided by engineer. */
-"Map Service" = "Servei de mapes";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Servei i dades de mapes";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Marcador";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Configuració de marcadors i PDI";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Alerta del marcador";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "Els marcadors %@ s'han restaurat.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Els marcadors sempre s’anuncien i no es poden desactivar.";
+"Markers are announced within the range for your current walking or driving mode." = "Els marcadors s'anuncien dins de l'abast del mode actual, a peu o en conducció.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Els marcadors s'inclouen en els avisos d'exploració independentment d'aquesta configuració de supercategories de PDI.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Els marcadors utilitzen els seus propis abasts d'avís i no es veuen afectats pels interruptors de categories de PDI.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Melodies a l'arribada i a la sortida";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Punt de traça següent";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Punt de pas següent";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Pròxim encreuament: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Pròxim encreuament: final de carrer";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Punt de pas següent";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Següent: anuncia la teva ubicació actual.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Distància i direcció al PDI";
 
 /* No comment provided by engineer. */
-"POI Settings" = "Configuració de PDI";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Opcions d'efectes de so de PDI";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Preferència";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Preparant l'assistència visual...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "També pots prémer el botó de reproducció/pausa dels auriculars per deixar anar un marcador de molletes.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Punt de traça anterior";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Punt de pas anterior";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Ubicació anterior, anaves per %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Punt de pas anterior";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Anterior: repeteix l'última notificació.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "Brillant";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Els intervals curts poden augmentar considerablement el consum de bateria de l'iPhone.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Configuració de dreceres";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Sense moviment";
 
 /* No comment provided by engineer. */
-"Status" = "Estat";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Atura la balisa";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "El fitxer conté tant punts de pas com tracks.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "El primer llançament pot trigar uns segons.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "No s'ha pogut analitzar la imatge. Selecciona «Torna a mirar» per tornar-ho a provar.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Ara no hi ha indicacions de navegació.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Aquests abasts determinen com de prop han d'estar els PDI per anunciar-los en conducció. Són independents dels abasts a peu.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Aquests abasts determinen com de prop han d'estar els PDI per anunciar-los a peu.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Aquest dispositiu no admet l'Apple Intelligence necessària per a l'Assistència visual.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "L'Assistència visual utilitza la tecnologia Vision d'Apple, que funciona al dispositiu, per classificar escenes, llegir text i detectar codis QR i barres en les fotos que feu. Les fotos es processen íntegrament al vostre dispositiu i mai es carreguen ni es comparteixen.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "L'Assistència Visual utilitza la tecnologia Vision integrada al dispositiu d'Apple per identificar objectes a les fotos que fas. Les fotos es processen completament al dispositiu i mai es pengen ni es comparteixen.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Veu i so";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "A peu";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Interval de distància a peu";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Abast dels marcadors a peu";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Els modes a peu i en conducció utilitzen intervals de distància independents per als avisos.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Punt de pas";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Quina és la meva ubicació?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Quan està activat, els anuncis automàtics inclouen el marcador més proper independentment de la distància. Quan està desactivat, cada marcador utilitza l’abast de la categoria de PDI enllaçada.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "Quan navegues amb VoiceVista, una balisa d'àudio et guia mentre els avisos descriuen els llocs del teu voltant i del davant.";

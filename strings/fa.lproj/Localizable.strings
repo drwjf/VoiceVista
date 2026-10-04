@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "۵ هفته";
 
+/* Map data cache duration */
+"50 Weeks" = "۵۰ هفته";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "مسیر ثبت‌شده مجموعه‌ای از نقاط مسیر است که رد حرکت شما را دنبال می‌کند؛ مانند رد خرده‌نان در داستان هانسل و گرتل.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "صدادار کردن خودکار";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "تنظیمات اعلان‌های صوتی خودکار";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "اعلان‌های صوتی خودکار";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "اعلان‌های صوتی خودکار فعال شد";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "تنظیمات اعلان‌های صوتی خودکار";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "محدوده‌های بی‌صدا و صدادار کردن خودکار";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "مجوز بلوتوث لازم است";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "برای اتصال هدفون، مجوز بلوتوث لازم است. برنامه تنظیمات را در زیر باز کنید تا بلوتوث را فعال کنید. توجه داشته باشید که این کار می‌تواند باعث راه‌اندازی مجدد برنامه شود.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "برای اتصال هدفون، مجوز Bluetooth لازم است. روی تنظیمات در پایین بزنید تا به VoiceVista اجازهٔ دسترسی به Bluetooth بدهید. این کار ممکن است VoiceVista را دوباره راه‌اندازی کند.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "حالت ثبت مسیر";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "تغییر سبک جهت";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "تغییر فاصلهٔ بین اعلام‌های اطلاعات GPS هنگام رانندگی";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "تغییر فاصلهٔ بین اعلام‌های شمارهٔ پلاک هنگام رانندگی";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "تغییر محدودهٔ نشانگرها هنگام رانندگی";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "تغییر فاصلهٔ بین اعلام‌های نام خیابان هنگام رانندگی";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "تغییر برنامه نقشه خارجی";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "تغییر واحدهای اندازه‌گیری";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "تغییر محدودهٔ نشانگرها هنگام پیاده‌روی";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "تغییر فاصله جابه‌جایی نقطه مسیر";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "بررسی وضعیت هدفون";
+"Check Headphone Status" = "بررسی وضعیت هدفون";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "بررسی موانع احتمالی";
+"Check for Possible Obstacles" = "بررسی موانع احتمالی";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "بررسی";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "داده‌های نقشه ذخیره شده پاک شود؟";
 
 /* general.text.clear_text */
-"Clear text" = "پاک کردن متن";
+"Clear Text" = "پاک کردن متن";
 
 /* settings.direction.style.clock */
 "Clock Position" = "موقعیت ساعتی";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "فاصله";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "فاصله زمانی";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "فاصله بین %1$@ و %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "رانندگی";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "فاصلهٔ بین اعلام‌ها هنگام رانندگی";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "محدودهٔ نشانگرها هنگام رانندگی";
 
 /* beacon.styles.drop */
 "Drop" = "قطره";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "با خودرو";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "در حالت پیاده‌روی، محدوده‌ها فواصل اعلام را برای نقاط مورد علاقه شناسایی شده در فرا-دسته‌های مختلف تعریف می‌کنند. این محدوده‌ها در حالت رانندگی در شش ضرب می‌شوند.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "در حالت پیاده‌روی، فاصله زمانی تعیین می‌کند که اطلاعات GPS هر چند وقت یکبار اعلام شود. در حالت رانندگی، این فاصله در شش ضرب می‌شود.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "در حالت پیاده‌روی، فاصله زمانی تعیین می‌کند که نام جاده هر چند وقت یکبار اعلام شود. در حالت رانندگی، این فاصله در شش ضرب می‌شود. هنگام انتخاب فاصله زمانی کوتاه احتیاط کنید، زیرا می‌تواند مصرف باتری آیفون شما را به طور قابل توجهی افزایش دهد.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "در حالت پیاده‌روی، فاصله زمانی آستانه فاصله را برای اعلان‌های شماره پلاک تعریف می‌کند. در حالت رانندگی، این آستانه در شش ضرب می‌شود.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "در میزان صحبت کردن در خودرو";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "سرعت گفتار در وسیله نقلیه. این صدا چطور است؟";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "نزدیک‌ترین نشانگر در هر فاصله‌ای لحاظ شود";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "شامل کردن جاده‌های بی‌نام";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "مختصات مرکز نقشه";
 
 /* No comment provided by engineer. */
-"Map Service" = "خدمات نقشه";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "سرویس و داده‌های نقشه";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "نشانگر";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "تنظیمات نشانگرها و نقاط موردعلاقه";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "هشدار نشانگر";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ نشانگر بازیابی شده است.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "نشانگرها همیشه اعلام می‌شوند و نمی‌توان آن‌ها را غیرفعال کرد.";
+"Markers are announced within the range for your current walking or driving mode." = "نشانگرها در محدودهٔ تعیین‌شده برای حالت فعلی پیاده‌روی یا رانندگی اعلام می‌شوند.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "نشانگرها صرف‌نظر از این تنظیمات دسته‌های اصلی نقاط موردعلاقه، در اعلام‌های کاوش گنجانده می‌شوند.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "نشانگرها محدوده‌های اعلام مخصوص خود را دارند و کلیدهای دسته‌بندی نقاط موردعلاقه روی آن‌ها تأثیری ندارند.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "ملودی‌ها هنگام رسیدن و عزیمت";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "نقطه مسیر بعدی";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "نقطه مسیر بعدی";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "تقاطع بعدی: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "تقاطع بعدی: انتهای جاده";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "نقطه مسیر بعدی";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "بعدی: موقعیت فعلی خود را اعلام کنید.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "فاصله و جهت تا نقطه مورد علاقه";
 
 /* No comment provided by engineer. */
-"POI Settings" = "تنظیمات نقاط مورد علاقه";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "گزینه‌های جلوه‌های صوتی POI";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "ترجیح";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "آماده سازی کمک بصری ...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "برای افزودن نشانگر به مسیر ثبت‌شده، دکمه پخش/مکث هدفون را فشار دهید.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "نقطه مسیر قبلی";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "نقطه مسیر قبلی";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "مکان قبلی، در امتداد %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "نقطه مسیر قبلی";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "قبلی: تکرار آخرین اعلان صوتی.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "سوسو";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "فاصله‌های کوتاه ممکن است مصرف باتری iPhone را به‌طور قابل‌توجهی افزایش دهند.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "تنظیمات میانبرها";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "ثابت";
 
 /* No comment provided by engineer. */
-"Status" = "وضعیت";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "توقف نشان صوتی";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "فایل شامل هر دو، نقاط مسیر و مسیرها است.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "اولین پرتاب ممکن است چند ثانیه طول بکشد.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "تصویر قابل تجزیه و تحلیل نیست. برای تلاش دوباره، «دوباره نگاه کن» را انتخاب کنید.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "در حال حاضر هیچ دستورالعمل گام به گامی وجود ندارد.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "این محدوده‌ها تعیین می‌کنند نقاط موردعلاقه برای اعلام هنگام رانندگی باید چقدر نزدیک باشند. این محدوده‌ها مستقل از محدوده‌های پیاده‌روی هستند.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "این محدوده‌ها تعیین می‌کنند نقاط موردعلاقه برای اعلام هنگام پیاده‌روی باید چقدر نزدیک باشند.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "این دستگاه از فناوری هوش مصنوعی اپل (Apple Intelligence) مورد نیاز برای کمک بصری پشتیبانی نمی‌کند.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "کمک بصری (Visual Assistance) از فناوری Vision اپل که به‌صورت محلی روی دستگاه شما اجرا می‌شود، برای دسته‌بندی صحنه‌ها، خواندن متن و تشخیص کدهای QR و بارکد در عکس‌هایی که می‌گیرید، استفاده می‌کند. عکس‌ها به‌طور کامل روی دستگاه شما پردازش می‌شوند و هرگز آپلود یا به اشتراک گذاشته نمی‌شوند.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "دستیار بصری از فناوری بینایی روی دستگاه اپل برای شناسایی اشیاء در عکس‌هایی که می‌گیرید استفاده می‌کند. عکس‌ها کاملاً روی دستگاه شما پردازش می‌شوند و هرگز آپلود یا به اشتراک گذاشته نمی‌شوند.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "صدا و آوا";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "پیاده‌روی";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "فاصلهٔ بین اعلام‌ها هنگام پیاده‌روی";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "محدودهٔ نشانگرها هنگام پیاده‌روی";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "پیاده‌روی و رانندگی از فاصله‌های جداگانه برای اعلام‌ها استفاده می‌کنند.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "نقطه مسیر";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "موقعیت من کجاست؟";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "وقتی فعال باشد، اعلان‌های خودکار نزدیک‌ترین نشانگر را بدون توجه به فاصله در بر می‌گیرند. وقتی غیرفعال باشد، هر نشانگر از محدودهٔ دستهٔ مکان موردعلاقهٔ پیوندشده استفاده می‌کند.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "هنگام مسیریابی با VoiceVista، نشان صوتی شما را راهنمایی می‌کند و اعلان‌های صوتی مکان‌های اطراف و پیش رو را توضیح می‌دهند.";

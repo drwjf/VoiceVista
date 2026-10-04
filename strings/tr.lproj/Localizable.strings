@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 Hafta";
 
+/* Map data cache duration */
+"50 Weeks" = "50 hafta";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "İz rotası, Hansel ile Gretel'deki ekmek kırıntısı izi gibi yolunuzu gösteren kayıtlı ara noktalar dizisidir.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Otomatik Sesi Aç";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Otomatik Sesli Bildirim Ayarları";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Otomatik Sesli Bildirimler";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Otomatik Sesli Bildirimler Açıldı";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Otomatik Sesli Bildirim Ayarları";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Otomatik Sessize Alma ve Sesi Açma Menzilleri";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Bluetooth İzni Gerekli";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Kulaklığınızı bağlamak için Bluetooth izni gereklidir. Bluetooth'u etkinleştirmek için aşağıdaki Ayarlar uygulamasını açın. Bunun, uygulamanın yeniden başlatılmasına neden olabileceğini unutmayın.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Kulaklıklarınızı bağlamak için Bluetooth izni gerekir. VoiceVista'nın Bluetooth'a erişmesine izin vermek için aşağıdaki Ayarlar'a dokunun. Bu, VoiceVista'yı yeniden başlatabilir.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "İz Kaydı Modu";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Yön Stilini Değiştir";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Araç kullanırken GPS bilgisi mesafe aralığını değiştir";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Araç kullanırken bina numarası mesafe aralığını değiştir";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Araç kullanırken işaretleyici menzilini değiştir";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Araç kullanırken yol adı mesafe aralığını değiştir";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Harici Haritalar Uygulamasını Değiştir";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Ölçü Birimlerini Değiştir";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Yürürken işaretleyici menzilini değiştir";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Yol Noktası Algılama Mesafesini Değiştir";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Kulaklık Durumunu Kontrol Edin";
+"Check Headphone Status" = "Kulaklık Durumunu Kontrol Edin";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Olası engelleri kontrol edin.";
+"Check for Possible Obstacles" = "Olası engelleri kontrol edin.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Kontrol Etme";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Saklanan Harita Verileri Temizlensin mi?";
 
 /* general.text.clear_text */
-"Clear text" = "Metni temizle";
+"Clear Text" = "Metni temizle";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Saat Konumu";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Mesafe";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Mesafe Aralığı";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "%1$@ ile %2$@ arasındaki mesafe";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Sürme";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Araç kullanırken mesafe aralığı";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Araç kullanırken işaretleyici menzili";
 
 /* beacon.styles.drop */
 "Drop" = "Damla";
@@ -975,7 +996,7 @@ location_detail.default.address */
 "Failed to Import Routes" = "Yollar içe aktarılamadı";
 
 /* No comment provided by engineer. */
-"Filter Markers" = "Filtre İşaretleyicileri";
+"Filter Markers" = "İşaretçileri filtrele";
 
 /* Multimodal Visual Assistance follow-up button */
 "Find Entrances" = "Girişleri Bul";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "Bir araçta";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "Yürüme modunda menziller, farklı üst kategorilerde algılanan İÇN'lerin sesli bildirim mesafelerini belirler. Sürüş modunda bu menziller altıyla çarpılır.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "Yürüme modunda aralık, GPS bilgilerinin ne sıklıkta duyurulacağını belirler. Sürüş modunda aralık altıyla çarpılır.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "Yürüme modunda aralık, yol adlarının ne sıklıkta duyurulacağını belirler. Sürüş modunda aralık altıyla çarpılır. Kısa aralıklar iPhone'unuzun pil kullanımını önemli ölçüde artırabilir.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "Yürüme modunda aralık, bina numarası bildirimlerinin mesafe eşiğini belirler. Sürüş modunda bu eşik altıyla çarpılır.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Araç İçi Konuşma Hızı";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "Araç içi konuşma hızı. Bu kulağa nasıl geliyor?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Mesafeden bağımsız olarak en yakın işaretleyiciyi dahil et";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "İsimsiz Yolları Dahil Et";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Harita merkezinin koordinatları";
 
 /* No comment provided by engineer. */
-"Map Service" = "Harita Servisi";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Harita servisi ve verileri";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "İşaretçi";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "İşaretleyici ve POI Ayarları";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "İşaretçi Uyarısı";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ işaretçileri geri yüklendi.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "İşaretleyiciler her zaman duyurulur ve devre dışı bırakılamaz.";
+"Markers are announced within the range for your current walking or driving mode." = "İşaretleyiciler, geçerli yürüme veya araç kullanma modu için belirlenen menzil içinde duyurulur.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "İşaretleyiciler, bu POI üst kategori ayarlarından bağımsız olarak keşif duyurularına dahil edilir.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "İşaretleyiciler kendi duyuru menzillerini kullanır ve POI kategori anahtarlarından etkilenmez.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Gelip giderken melodiler";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Sonraki İz Noktası";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "sonraki ara nokta";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Sonraki kavşak: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Sonraki kavşak: Yolun sonu";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "sonraki ara nokta";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Sonraki: Mevcut konumunuzu duyurun.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "POI'ye Uzaklık ve Yön";
 
 /* No comment provided by engineer. */
-"POI Settings" = "POI Ayarları";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "POI Ses Efekti Seçenekleri";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Tercih";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Görsel Asistan Hazırlanıyor...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "İz işaretçisi bırakmak için kulaklığınızdaki oynat/duraklat düğmesine basın.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Önceki İz Noktası";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Önceki ara nokta";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Önceki Konum, %@ Boyunca";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Önceki ara nokta";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Önceki: Son sesli bildirimi tekrarlar.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "ışıltı";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Kısa aralıklar iPhone'unuzun pil tüketimini önemli ölçüde artırabilir.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Kısayol Ayarları";
 
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Sabit";
 
 /* No comment provided by engineer. */
-"Status" = "Durum";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Sesli İşareti Durdur";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Dosya hem rota noktalarını hem de parkurları içeriyor.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "İlk çalıştırma birkaç saniye sürebilir.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Görüntü analiz edilemedi. Tekrar denemek için “Tekrar Bakın”ı seçin.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Artık adım adım talimat yok.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Bu menziller, araç kullanırken duyurulmaları için POI'lerin ne kadar yakın olması gerektiğini belirler. Yürüme menzillerinden bağımsızdır.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Bu menziller, yürürken duyurulmaları için POI'lerin ne kadar yakın olması gerektiğini belirler.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Bu cihaz, Görsel Yardım için gerekli olan Apple Intelligence'ı desteklemiyor.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Görsel Yardım, Apple'ın cihazınızdaki Vision teknolojisini kullanarak, çektiğiniz fotoğraflardaki sahneleri sınıflandırır, metinleri okur ve QR kodlarını ve barkodları algılar. Fotoğraflar tamamen cihazınızda işlenir ve hiçbir zaman yüklenmez veya paylaşılmaz.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Görsel Yardım, çektiğiniz fotoğraflardaki nesneleri tanımlamak için Apple'ın cihaz içi Vision teknolojisini kullanır. Fotoğraflar tamamen cihazınızda işlenir ve asla yüklenmez veya paylaşılmaz.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Ses ve ses efektleri";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Yürüme";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Yürürken mesafe aralığı";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Yürürken işaretleyici menzili";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Yürüme ve araç kullanma modları duyurular için ayrı mesafe aralıkları kullanır.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Ara Nokta";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Konumum nedir?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Etkinleştirildiğinde otomatik duyurular, mesafeden bağımsız olarak en yakın işaretleyiciyi içerir. Devre dışı bırakıldığında her işaretleyici, bağlı POI kategorisinin menzilini kullanır.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "VoiceVista ile gezinirken sesli işaret size rehberlik eder, sesli bildirimler ise çevrenizdeki ve ilerideki yerleri açıklar.";

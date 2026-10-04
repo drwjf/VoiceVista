@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 săptămâni";
 
+/* Map data cache duration */
+"50 Weeks" = "50 de săptămâni";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Pesmeturile de aici sunt o serie de puncte de referință înregistrate care urmăresc traseul. Aceste puncte de referință sunt asemănătoare urmei de pesmet lăsate de Hansel și Gretel în faimosul basm, de unde și numele.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Activare automată sunet";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Setări pentru anunțuri automate";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Anunțuri automate";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Anunțuri automate activate";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Setări pentru anunțuri automate";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Intervale de dezactivare și activare automată a sunetului";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Este necesară permisiunea Bluetooth";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Este necesară permisiunea Bluetooth pentru a vă conecta căștile. Deschideți aplicația Setări de mai jos pentru a activa Bluetooth. Rețineți că acest lucru poate determina repornirea aplicației.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Este necesară permisiunea Bluetooth pentru conectarea căștilor. Atinge Configurări mai jos pentru a permite aplicației VoiceVista să acceseze Bluetooth. Această acțiune poate reporni VoiceVista.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Mod de urmărire";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Schimbați stilul direcției";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Modifică intervalul de distanță pentru informațiile GPS la condus";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Modifică intervalul de distanță pentru numerele caselor la condus";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Modifică raza marcatorilor la condus";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Modifică intervalul de distanță pentru numele străzilor la condus";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Schimbați aplicația Hărți externe";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Schimbați unitățile de măsură";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Modifică raza marcatorilor la mers pe jos";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Schimbați distanța de detectare a punctului de trecere";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Verificați starea căștilor";
+"Check Headphone Status" = "Verificați starea căștilor";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Verificați posibile obstacole.";
+"Check for Possible Obstacles" = "Verificați posibile obstacole.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Control";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Ștergeți datele de hartă stocate?";
 
 /* general.text.clear_text */
-"Clear text" = "Șterge textul";
+"Clear Text" = "Șterge textul";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Poziția ceasului";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Distanţă";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Interval de distanță";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Distanța dintre %1$@ și %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Conducere";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Interval de distanță la condus";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Raza marcatorilor la condus";
 
 /* beacon.styles.drop */
 "Drop" = "Picătură";
@@ -975,7 +996,7 @@ location_detail.default.address */
 "Failed to Import Routes" = "Nu s-au reușit importarea rutelor";
 
 /* No comment provided by engineer. */
-"Filter Markers" = "Marcatori de filtrare";
+"Filter Markers" = "Filtrați markerele";
 
 /* Multimodal Visual Assistance follow-up button */
 "Find Entrances" = "Găsește intrările.";
@@ -1152,7 +1173,7 @@ location_detail.default.address */
 "How would you like to generate a route from the GPX file?" = "Cum ați dori să generați o rută din fișierul GPX?";
 
 /* Message to display alongside a URL that can be used to import a marker. */
-"I've shared a VoiceVista marker with you: %@" = "V-am distribuit un marcator VoiceVista! '%@;'";
+"I've shared a VoiceVista marker with you: %@" = "V-am distribuit un marcator VoiceVista: %@";
 
 /* Message to display alongside a URL that can be used to import a route. */
 "I've shared a VoiceVista route with you: %@" = "Ți-am împărtășit o rută VoiceVista! „%@”";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "Într-un vehicul";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "În modul de mers pe jos, intervalele stabilesc distanțele de anunțare pentru punctele de interes detectate din diferite supercategorii. În modul de conducere, aceste intervale sunt înmulțite cu șase.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "În modul de mers pe jos, intervalul determină cât de des sunt apelate informațiile GPS. În modul de conducere, această distanță este înmulțită cu șase.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "În modul de mers pe jos, intervalul determină cât de des este chemat numele drumului. În modul de conducere, această distanță este înmulțită cu șase. Fiți precauți atunci când selectați un interval mic, deoarece poate crește semnificativ consumul bateriei pe iPhone.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "În modul de mers pe jos, intervalul stabilește pragul de distanță pentru anunțurile cu numerele caselor. În modul de conducere, acest prag este înmulțit cu șase.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Ritm de vorbire în vehicul";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "În rata de vorbire a vehiculului. Cum sună asta?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Include cel mai apropiat marcator indiferent de distanță";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Includeți drumuri fără nume";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Coordonatele centrului hărții";
 
 /* No comment provided by engineer. */
-"Map Service" = "Serviciu de hărți";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Serviciu și date pentru hărți";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Marcator";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Configurări pentru marcatori și puncte de interes";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Alertă de marcare";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "Marcatorii %@ au fost restaurați.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Marcatorii sunt anunțați întotdeauna și nu pot fi dezactivați.";
+"Markers are announced within the range for your current walking or driving mode." = "Marcatorii sunt anunțați în raza stabilită pentru modul actual de mers pe jos sau de condus.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Marcatorii sunt incluși în anunțurile de explorare indiferent de aceste configurări ale supercategoriilor punctelor de interes.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Marcatorii folosesc propriile raze de anunțare și nu sunt afectați de comutatoarele categoriilor de puncte de interes.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Melodii la sosire și la plecare";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Următorul punct al traseului";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Următorul punct de trecere";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Următoarea intersecție: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Următoarea intersecție: Capătul drumului";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Următorul punct de trecere";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Următorul: Anunțați locația dvs. curentă.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Distanța și direcția până la punctul de interes";
 
 /* No comment provided by engineer. */
-"POI Settings" = "Setări POI";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Opțiuni de efecte sonore POI";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Preferință";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Pregătirea asistenței vizuale...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "Puteți apăsa butonul de redare/pauză de pe căști pentru a lăsa și un marcator de pesmet.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Punctul anterior al traseului";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Punct de trecere anterior";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Locația anterioară, de-a lungul %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Punct de trecere anterior";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Anterior: Repetați ultimul mesaj.";
@@ -2122,6 +2128,9 @@ ui.action_button.nearby_markers */
 /* beacon.styles.shimmer */
 "Shimmer" = "Strălucire";
 
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Intervalele scurte pot crește semnificativ consumul bateriei iPhone-ului.";
+
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Setări pentru comenzi rapide";
 
@@ -2225,10 +2234,7 @@ ui.action_button.nearby_markers */
 "Stationary" = "Nemișcat";
 
 /* No comment provided by engineer. */
-"Status" = "Stare";
-
-/* No comment provided by engineer. */
-"Stop Beacon" = "Opriți semnalul sonor";
+"Stop Beacon" = "Opriți baliza";
 
 /* No comment provided by engineer. */
 "Stop Monitoring" = "Opriți monitorizarea";
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Fișierul conține atât puncte de referință, cât și trasee.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "Prima lansare poate dura câteva secunde.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Imaginea nu a putut fi analizată. Selectați „Uită-te din nou” pentru a încerca din nou.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Nu există instrucțiuni rând cu rând acum.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Aceste raze stabilesc cât de aproape trebuie să fie punctele de interes pentru a fi anunțate la condus. Sunt independente de razele pentru mersul pe jos.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Aceste raze stabilesc cât de aproape trebuie să fie punctele de interes pentru a fi anunțate la mers pe jos.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Acest dispozitiv nu suportă funcția Apple Intelligence necesară pentru Asistență vizuală.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Asistența vizuală utilizează tehnologia Vision de la Apple, care funcționează pe dispozitiv, pentru a clasifica scenele, a citi textul și a detecta coduri QR și coduri de bare în fotografiile pe care le faceți. Fotografiile sunt procesate integral pe dispozitivul dumneavoastră și nu sunt niciodată încărcate sau partajate.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Asistența vizuală folosește tehnologia Vision de pe dispozitivul Apple pentru a identifica obiectele din fotografiile pe care le faci. Fotografiile sunt procesate în întregime pe dispozitivul tău și nu sunt niciodată încărcate sau partajate.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Voce și sunet";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Mersul pe jos";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Interval de distanță la mers pe jos";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Raza marcatorilor la mers pe jos";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Mersul pe jos și condusul folosesc intervale de distanță separate pentru anunțuri.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Punct de drum";
 
@@ -2748,9 +2763,6 @@ Type 1 for navigation transport */
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Care este locația mea?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Când opțiunea este activată, anunțurile automate includ cel mai apropiat marcator indiferent de distanță. Când este dezactivată, fiecare marcator folosește raza categoriei POI asociate.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "Când navigați cu VoiceVista, o baliză audio vă ghidează, iar anunțurile descriu locurile din jur și din față.";

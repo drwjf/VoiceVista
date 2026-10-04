@@ -85,6 +85,9 @@
 /* Map data cache duration */
 "5 Weeks" = "5 nedelja";
 
+/* Map data cache duration */
+"50 Weeks" = "50 nedelja";
+
 /* No comment provided by engineer. */
 "A breadcrumb route is a series of recorded waypoints that trace your path, like the trail of breadcrumbs in Hansel and Gretel." = "Hlebne mrvice su niz snimljenih tačaka puta koje prate putanju. Ove tačke su srodne tragu hlebnih mrvica koje su ostavili Hanzel i Gretel u čuvenoj bajci, otuda i ime.";
 
@@ -350,9 +353,6 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Auto-Unmute" = "Automatsko uključivanje zvuka";
 
-/* No comment provided by engineer. */
-"Automatic Callout Settings" = "Podešavanja automatskih najava";
-
 /* callouts.automatic_callouts */
 "Automatic Callouts" = "Automatske najave";
 
@@ -361,6 +361,9 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "Automatic Callouts Enabled" = "Automatske najave su omogućene";
+
+/* No comment provided by engineer. */
+"Automatic Callouts Settings" = "Podešavanja automatskih najava";
 
 /* No comment provided by engineer. */
 "Automatic Mute and Unmute Ranges" = "Dometi automatskog isključivanja i uključivanja zvuka";
@@ -441,7 +444,7 @@ location_detail.default.address */
 "Bluetooth Permission Required" = "Potrebna je dozvola za Bluetooth";
 
 /* No comment provided by engineer. */
-"Bluetooth permission is required to connect your headphones. Tap Settings below to enable Bluetooth. This may restart VoiceVista." = "Za povezivanje slušalica potrebna je Bluetooth dozvola. Otvorite dole navedenu aplikaciju 'Postavke' da biste omogućili Bluetooth. Imajte na kraju da to može dovesti do ponovnog pokretanja aplikacije.";
+"Bluetooth permission is required to connect your headphones. Tap Settings below to allow VoiceVista to access Bluetooth. This may restart VoiceVista." = "Za povezivanje slušalica potrebna je dozvola za Bluetooth. Dodirnite Podešavanja ispod da dozvolite aplikaciji VoiceVista pristup Bluetooth-u. Ovo može ponovo pokrenuti VoiceVista.";
 
 /* No comment provided by engineer. */
 "Breadcrumb Mode" = "Režim traga mrvica";
@@ -527,6 +530,18 @@ location_detail.default.address */
 /* No comment provided by engineer. */
 "Change Direction Style" = "Promeni stil pravca";
 
+/* Title of the driving announcement distance picker. */
+"Change Driving GPS Information Distance Interval" = "Promeni interval rastojanja za GPS informacije tokom vožnje";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving House Number Distance Interval" = "Promeni interval rastojanja za kućne brojeve tokom vožnje";
+
+/* No comment provided by engineer. */
+"Change Driving Marker Range" = "Promeni domet oznaka tokom vožnje";
+
+/* Title of the driving announcement distance picker. */
+"Change Driving Road Name Distance Interval" = "Promeni interval rastojanja za nazive ulica tokom vožnje";
+
 /* No comment provided by engineer. */
 "Change External Map App" = "Promena aplikacije 'Spoljne mape'";
 
@@ -576,13 +591,16 @@ location_detail.default.address */
 "Change Units of Measure" = "Menjanje jedinica mere";
 
 /* No comment provided by engineer. */
+"Change Walking Marker Range" = "Promeni domet oznaka tokom hodanja";
+
+/* No comment provided by engineer. */
 "Change Waypoint Switching Distance" = "Promenite udaljenost za detekciju međutačke";
 
 /* No comment provided by engineer. */
-"Check Headphones Status" = "Provera statusa slušalica";
+"Check Headphone Status" = "Provera statusa slušalica";
 
 /* Multimodal Visual Assistance follow-up button */
-"Check Possible Obstacles" = "Proverite moguće prepreke.";
+"Check for Possible Obstacles" = "Proverite moguće prepreke.";
 
 /* Visual assistance follow-up loading message */
 "Checking" = "Provera";
@@ -606,7 +624,7 @@ location_detail.default.address */
 "Clear Stored Map Data?" = "Obrišite sačuvane podatke mape?";
 
 /* general.text.clear_text */
-"Clear text" = "Brisanje teksta";
+"Clear Text" = "Brisanje teksta";
 
 /* settings.direction.style.clock */
 "Clock Position" = "Položaj sata";
@@ -773,9 +791,6 @@ location_detail.default.address */
 /* settings.arrival.style.distance */
 "Distance" = "Udaljenost";
 
-/* No comment provided by engineer. */
-"Distance Interval" = "Interval udaljenosti";
-
 /* Placeholder in textfield to enter distance. %1$@ and %2@ represent minimum and maximum values for distance, for example, 200 meters and 20000 meters */
 "Distance between %1$@ and %2$@" = "Razdaljina između %1$@ i %2$@";
 
@@ -850,6 +865,12 @@ location_detail.default.address */
 
 /* Type 2 for navigation transport */
 "Driving" = "Vožnja";
+
+/* Distance between announcements in driving mode. */
+"Driving Distance Interval" = "Interval rastojanja tokom vožnje";
+
+/* No comment provided by engineer. */
+"Driving Marker Range" = "Domet oznaka tokom vožnje";
 
 /* beacon.styles.drop */
 "Drop" = "Kap";
@@ -975,7 +996,7 @@ location_detail.default.address */
 "Failed to Import Routes" = "Uvoz ruta nije uspeo";
 
 /* No comment provided by engineer. */
-"Filter Markers" = "Označivači filtera";
+"Filter Markers" = "Filtriraj označivače";
 
 /* Multimodal Visual Assistance follow-up button */
 "Find Entrances" = "Pronađi ulaze.";
@@ -1211,18 +1232,6 @@ location_detail.default.address */
 /* Motion status: automotive */
 "In a Vehicle" = "U vozilu";
 
-/* No comment provided by engineer. */
-"In walking mode, ranges define callout distances for detected POIs in different supercategories. These ranges are multiplied by six in driving mode." = "U režimu hodanja, opsezi određuju udaljenosti najava za otkrivene tačke interesovanja u različitim superkategorijama. U režimu vožnje ovi opsezi se množe sa šest.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often GPS information is announced. In driving mode, the interval is multiplied by six." = "U režimu hodanja, interval određuje koliko često se najavljuju GPS informacije. U režimu vožnje interval se množi sa šest.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval controls how often road names are announced. In driving mode, the interval is multiplied by six. Short intervals can significantly increase your iPhone's battery use." = "U režimu hodanja, interval određuje koliko često se zove ime puta. U režimu vožnje, ovo rastojanje se množi sa šest. Budite oprezni pri odabiru malog intervala, jer može značajno povećati potrošnju baterije na vašem iPhone-u.";
-
-/* No comment provided by engineer. */
-"In walking mode, the interval defines the distance threshold for house number callouts. In driving mode, this threshold is multiplied by six." = "U režimu hodanja, interval definiše prag udaljenosti za kućne brojeve. U režimu vožnje, ovaj prag se množi sa šest.";
-
 /* voiceSetting.in_vehicle_rate */
 "In-Vehicle Speaking Rate" = "Brzina govora u vozilu";
 
@@ -1231,9 +1240,6 @@ location_detail.default.address */
 
 /* No comment provided by engineer. */
 "In-vehicle speaking rate. How does this sound?" = "U brzini govora vozila. Kako ti ovo zvuči?";
-
-/* No comment provided by engineer. */
-"Include Nearest Marker at Any Distance" = "Uključi najbliži označivač bez obzira na udaljenost";
 
 /* No comment provided by engineer. */
 "Include Unnamed Roads" = "Uključuje neimenovane puteve";
@@ -1389,9 +1395,6 @@ location_detail.default.address */
 "Map Center Coordinates" = "Koordinate centra mape";
 
 /* No comment provided by engineer. */
-"Map Service" = "Mapska usluga";
-
-/* No comment provided by engineer. */
 "Map Service & Data" = "Usluga i podaci mape";
 
 /* No comment provided by engineer. */
@@ -1399,6 +1402,9 @@ location_detail.default.address */
 
 /* markers.generic_name */
 "Marker" = "Označivač";
+
+/* No comment provided by engineer. */
+"Marker & POI Settings" = "Podešavanja oznaka i tačaka interesovanja";
 
 /* No comment provided by engineer. */
 "Marker Alert" = "Upozorenje označivača";
@@ -1440,7 +1446,7 @@ location_detail.default.address */
 "Markers Deleted: %@" = "%@ Markeri izbrisani";
 
 /* %@ is count of imported markers */
-"Markers Imported from BlindSquare Backup: %@" = "%@ Markeri uvezeni iz Blindskuare rezervne kopije";
+"Markers Imported from BlindSquare Backup: %@" = "Označivači uvezeni iz rezervne kopije BlindSquare: %@";
 
 /* %@ is count of imported markers */
 "Markers Imported from GPX File: %@" = "%@ Markeri uvezeni iz GPX datoteke";
@@ -1455,7 +1461,13 @@ location_detail.default.address */
 "Markers Restored: %@" = "%@ markeri su vraćeni.";
 
 /* No comment provided by engineer. */
-"Markers are always announced and cannot be disabled." = "Označivači se uvek najavljuju i ne mogu se isključiti.";
+"Markers are announced within the range for your current walking or driving mode." = "Oznake se najavljuju unutar dometa za trenutni režim hodanja ili vožnje.";
+
+/* No comment provided by engineer. */
+"Markers are included in exploration callouts regardless of these POI supercategory settings." = "Oznake su uključene u najave tokom istraživanja bez obzira na ova podešavanja nadkategorija tačaka interesovanja.";
+
+/* No comment provided by engineer. */
+"Markers use their own callout ranges and are not affected by POI category switches." = "Oznake koriste sopstvene domete najave i na njih ne utiču prekidači kategorija tačaka interesovanja.";
 
 /* No comment provided by engineer. */
 "Melodies on Arrival and Departure" = "Melodije kad stignu i odu";
@@ -1537,6 +1549,9 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Next Track Point" = "Sledeća tačka traga";
 
+/* No comment provided by engineer. */
+"Next Waypoint" = "Sledeća tačka";
+
 /* Callout that occurs when a user is pointing their phone down an available road looking for the next intersection, %@ is the name of the next intersection in that direction, 'Next intersection: 9th Avenue North and Harrison Street' */
 "Next intersection: %@" = "Sledeća raskrsnica: %@";
 
@@ -1545,9 +1560,6 @@ ui.action_button.nearby_markers */
 
 /* preview.callout.road_finder.intersection.end */
 "Next intersection: end of road" = "Sledeća raskrsnica: Kraj puta";
-
-/* No comment provided by engineer. */
-"Next waypoint" = "Sledeća tačka";
 
 /* No comment provided by engineer. */
 "Next: Announce your current location." = "Sledeće: Najavite svoju trenutnu lokaciju.";
@@ -1712,9 +1724,6 @@ ui.action_button.nearby_markers */
 "POI Distance and Direction" = "Udaljenost i pravac do POI";
 
 /* No comment provided by engineer. */
-"POI Settings" = "POI podešavanja";
-
-/* No comment provided by engineer. */
 "POI Sound Effect Options" = "Opcije zvučnih efekata za zanimljiva mesta";
 
 /* No comment provided by engineer. */
@@ -1811,9 +1820,6 @@ ui.action_button.nearby_markers */
 "Preferences" = "Pretraživanje";
 
 /* No comment provided by engineer. */
-"Preparing Visual Assistance…" = "Priprema vizuelne pomoći...";
-
-/* No comment provided by engineer. */
 "Press the play/pause button on your headphones to drop a breadcrumb marker." = "Možete da pritisnete dugme 'Reprodukuj/pauziraj' na slušalicama da biste ispustili i označivač hleba.";
 
 /* No comment provided by engineer. */
@@ -1834,11 +1840,11 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "Previous Track Point" = "Prethodna tačka traga";
 
+/* No comment provided by engineer. */
+"Previous Waypoint" = "Prethodni put";
+
 /* Notification, %@ road name, 'Previous Location, Along <Pike Street>' */
 "Previous location along %@." = "Prethodna lokacija, duž %@";
-
-/* No comment provided by engineer. */
-"Previous waypoint" = "Prethodni put";
 
 /* No comment provided by engineer. */
 "Previous: Repeat the last callout." = "Prethodno: ponavlja poslednju najavu.";
@@ -2054,7 +2060,7 @@ ui.action_button.nearby_markers */
 "Search in VoiceVista" = "Pretraži u aplikaciji VoiceVista";
 
 /* markerpickers.title */
-"Select Markers" = "Označivači izdvajanja";
+"Select Markers" = "Izaberi označivače";
 
 /* No comment provided by engineer. */
 "Select a Destination" = "Izaberite odredišnu lokaciju";
@@ -2121,6 +2127,9 @@ ui.action_button.nearby_markers */
 
 /* beacon.styles.shimmer */
 "Shimmer" = "Svetlucanje";
+
+/* Battery warning below road information announcement distances. */
+"Short intervals can significantly increase your iPhone's battery use." = "Kratki intervali mogu znatno povećati potrošnju baterije iPhone-a.";
 
 /* No comment provided by engineer. */
 "Shortcuts Settings" = "Postavke prečica";
@@ -2225,9 +2234,6 @@ ui.action_button.nearby_markers */
 "Stationary" = "Miruje";
 
 /* No comment provided by engineer. */
-"Status" = "Status";
-
-/* No comment provided by engineer. */
 "Stop Beacon" = "Zaustavi signal";
 
 /* No comment provided by engineer. */
@@ -2323,9 +2329,6 @@ ui.action_button.nearby_markers */
 /* No comment provided by engineer. */
 "The file contains both waypoints and tracks." = "Datoteka sadrži i putne tačke i tragove.";
 
-/* No comment provided by engineer. */
-"The first launch of Visual Assistance may take a few seconds." = "Prvo lansiranje može trajati nekoliko sekundi.";
-
 /* Visual assistance image analysis error */
 "The image could not be analyzed. Select Look Again to try again." = "Slika nije mogla biti analizirana. Izaberite „Pogledaj ponovo“ da pokušate ponovo.";
 
@@ -2382,6 +2385,12 @@ ui.action_button.nearby_markers */
 
 /* No comment provided by engineer. */
 "There are no turn-by-turn instructions right now." = "Sada nema skretanja po instrukcijama.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for driving callouts. They are independent of walking ranges." = "Ovi dometi određuju koliko blizu moraju biti tačke interesovanja da bi se najavile tokom vožnje. Nezavisni su od dometa za hodanje.";
+
+/* No comment provided by engineer. */
+"These ranges control how close POIs must be for walking callouts." = "Ovi dometi određuju koliko blizu moraju biti tačke interesovanja da bi se najavile tokom hodanja.";
 
 /* Multimodal Visual Assistance error */
 "This device does not support the Apple Intelligence required for Visual Assistance." = "Ovaj uređaj ne podržava „Apple Intelligence“ koji je potreban za „Vizuelnu pomoć“.";
@@ -2575,9 +2584,6 @@ poi.unknown */
 "Visual Assistance uses Apple’s on-device Vision technology to classify scenes, read text, and detect QR codes and barcodes in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "„Vizuelna pomoć“ koristi „Vision“ tehnologiju kompanije Apple, koja radi na uređaju, za klasifikaciju scena, čitanje teksta i detekciju QR kodova i barkodova na fotografijama koje pravite. Fotografije se obrađuju isključivo na vašem uređaju i nikada se ne učitavaju niti dele.";
 
 /* No comment provided by engineer. */
-"Visual Assistance uses Apple’s on-device Vision technology to identify objects in photos you take. Photos are processed entirely on your device and are never uploaded or shared." = "Vizuelna pomoć koristi Apple-ovu tehnologiju za vizualizaciju na uređaju da bi identifikovala objekte na fotografijama koje snimate. Fotografije se u potpunosti obrađuju na vašem uređaju i nikada se ne otpremaju niti dele.";
-
-/* No comment provided by engineer. */
 "Voice & Sound" = "Glas i zvuk";
 
 /* No comment provided by engineer. */
@@ -2707,6 +2713,15 @@ poi.unknown */
 Type 1 for navigation transport */
 "Walking" = "Hodanje";
 
+/* Distance between announcements outside driving mode. */
+"Walking Distance Interval" = "Interval rastojanja tokom hodanja";
+
+/* No comment provided by engineer. */
+"Walking Marker Range" = "Domet oznaka tokom hodanja";
+
+/* Explanation below walking and driving announcement distances. */
+"Walking and driving use separate distance intervals for announcements." = "Hodanje i vožnja koriste odvojene intervale rastojanja za najave.";
+
 /* No comment provided by engineer. */
 "Waypoint" = "Tačka puta";
 
@@ -2741,16 +2756,13 @@ Type 1 for navigation transport */
 "What possible obstacles or drop-offs are visible in the photo? Do not judge whether a route is safe." = "Koje moguće prepreke ili padine su vidljive na fotografiji? Ne ocenjujte da li je ruta bezbedna.";
 
 /* No comment provided by engineer. */
-"What's Ahead of Me?" = "Šta me čeka?";
+"What's Ahead of Me?" = "Šta je ispred mene?";
 
 /* No comment provided by engineer. */
 "What's Around Me?" = "Šta je oko mene?";
 
 /* No comment provided by engineer. */
 "What's My Location?" = "Koja je moja lokacija?";
-
-/* No comment provided by engineer. */
-"When enabled, automatic callouts include the nearest marker regardless of distance. When disabled, each marker uses the range of its linked POI category." = "Kada je omogućeno, automatske najave uključuju najbliži označivač bez obzira na udaljenost. Kada je onemogućeno, svaki označivač koristi domet povezane POI kategorije.";
 
 /* permissions.info.1 */
 "When navigating with VoiceVista, an audio beacon guides you while callouts describe locations around and ahead of you." = "Dok se krećete pomoću aplikacije VoiceVista, zvučni signal vas vodi, a najave opisuju lokacije oko vas i ispred vas.";
@@ -2876,40 +2888,40 @@ Type 1 for navigation transport */
 "ahead and to the right" = "napred udesno";
 
 /* Directions using 1  o'clock position. */
-"at 1 o'clock" = "u 1 sat";
+"at 1 o'clock" = "u smeru oznake 1 na satu";
 
 /* Directions using 10 o'clock position. */
-"at 10 o'clock" = "u 10 sati";
+"at 10 o'clock" = "u smeru oznake 10 na satu";
 
 /* Directions using 11 o'clock position. */
-"at 11 o'clock" = "u 11 sati";
+"at 11 o'clock" = "u smeru oznake 11 na satu";
 
 /* Directions using 12 o'clock position. */
-"at 12 o'clock" = "u 12 sati";
+"at 12 o'clock" = "u smeru oznake 12 na satu";
 
 /* Directions using 2  o'clock position. */
-"at 2 o'clock" = "u 2 sata";
+"at 2 o'clock" = "u smeru oznake 2 na satu";
 
 /* Directions using 3  o'clock position. */
-"at 3 o'clock" = "u 3 sata";
+"at 3 o'clock" = "u smeru oznake 3 na satu";
 
 /* Directions using 4  o'clock position. */
-"at 4 o'clock" = "u 4 sata";
+"at 4 o'clock" = "u smeru oznake 4 na satu";
 
 /* Directions using 5  o'clock position. */
-"at 5 o'clock" = "u 5 sati";
+"at 5 o'clock" = "u smeru oznake 5 na satu";
 
 /* Directions using 6  o'clock position. */
-"at 6 o'clock" = "u 6 sati";
+"at 6 o'clock" = "u smeru oznake 6 na satu";
 
 /* Directions using 7  o'clock position. */
-"at 7 o'clock" = "u 7 sati";
+"at 7 o'clock" = "u smeru oznake 7 na satu";
 
 /* Directions using 8  o'clock position. */
-"at 8 o'clock" = "u 8 sati";
+"at 8 o'clock" = "u smeru oznake 8 na satu";
 
 /* Directions using 9  o'clock position. */
-"at 9 o'clock" = "u 9 sati";
+"at 9 o'clock" = "u smeru oznake 9 na satu";
 
 /* directions.direction.away */
 "away" = "daleko";
